@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Anleitungen",
-    "crafting": "Herstellung",
-    "items": "Gegenstände",
-    "biomes": "Biome",
-    "building": "Bauen",
-    "support": "Unterstützung"
+    "guide": "Leitfäden",
+    "map": "Karten",
+    "quests": "Quests",
+    "weapons": "Waffen & Rüstung",
+    "update": "Updates",
+    "technical": "Technisch",
+    "platform": "Plattform"
   },
   "common": {
     "home": "Startseite",

@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Poradniki",
+    "map": "Mapy",
+    "quests": "Zadania",
+    "weapons": "Broń i Zbroja",
+    "update": "Aktualizacje",
+    "technical": "Techniczne",
+    "platform": "Platforma"
+  }
+}

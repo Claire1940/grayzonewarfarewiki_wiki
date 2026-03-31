@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "guide": "Rehberler",
+    "map": "Haritalar",
+    "quests": "Görevler",
+    "weapons": "Silahlar ve Zırh",
+    "update": "Güncellemeler",
+    "technical": "Teknik",
+    "platform": "Platform"
   },
   "common": {
     "home": "Ana Sayfa",

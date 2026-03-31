@@ -10,7 +10,15 @@
       "twitterDescription": "Gray Zone Warfare Wiki with maps, tasks, keys, vendors, weapons, ballistics, and loot guides for operators on Lamang Island."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guides",
+    "map": "Maps",
+    "quests": "Quests",
+    "weapons": "Weapons & Armor",
+    "update": "Updates",
+    "technical": "Technical",
+    "platform": "Platform"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1284,165 +1292,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "maps": {
-      "title": "Gray Zone Warfare Maps",
-      "description": "Interactive maps, POI locations, LZ callsigns, grid coordinates, and region guides for Lamang Island.",
-      "metaTitle": "Gray Zone Warfare Maps - Lamang Island POI & Location Guide",
-      "metaDescription": "Explore Gray Zone Warfare maps including POI locations, LZ callsigns, grid coordinates, and tier guides for Lamang Island regions.",
-      "categoryLabel": "MAP GUIDES",
-      "whatIs": "What are Maps?",
-      "whatIsDescription": "Region guides covering POIs, landing zones, enemy tiers, and grid coordinates for every major area on Lamang Island.",
-      "why": "Why use map guides?",
+    "guide": {
+      "title": "Gray Zone Warfare Guides",
+      "description": "Comprehensive guides for Gray Zone Warfare covering beginner survival, faction selection, health management, extraction strategies, and advanced tactics on Lamang Island.",
+      "metaTitle": "Gray Zone Warfare Guides - Beginner to Advanced Tactics",
+      "metaDescription": "Master Gray Zone Warfare with our complete guide collection. Beginner survival tips, faction comparison, extraction strategies, and advanced PMC tactics for Lamang Island.",
+      "categoryLabel": "TACTICAL GUIDES",
+      "whatIs": "What are Guides?",
+      "whatIsDescription": "Step-by-step guides covering every aspect of Gray Zone Warfare gameplay — from your first deployment on Lamang Island to advanced extraction routing, vendor leveling, and combat decision-making.",
+      "why": "Why use Gray Zone Warfare guides?",
       "whySteps": {
-        "step1Title": "Find POI Locations",
-        "step1Description": "Locate task objectives, loot areas, and key destinations quickly",
-        "step2Title": "Plan Your Route",
-        "step2Description": "Choose the best LZ callsign and approach for your task",
-        "step3Title": "Know Enemy Tiers",
-        "step3Description": "Understand what resistance to expect before committing a run"
+        "step1Title": "Survive Your First Raids",
+        "step1Description": "Learn extraction flow, healing basics, and how to avoid the most common new-player mistakes",
+        "step2Title": "Accelerate Progression",
+        "step2Description": "Follow proven vendor leveling and task completion sequences to unlock better gear faster",
+        "step3Title": "Master Combat Decisions",
+        "step3Description": "Understand when to push, when to extract, and how to read the tactical situation in real time"
       },
-      "featured": "Featured Locations",
+      "featured": "Essential Gray Zone Warfare Guides",
+      "all": "All Guides"
+    },
+    "map": {
+      "title": "Gray Zone Warfare Maps",
+      "description": "Interactive maps, POI locations, LZ callsigns, grid coordinates, and region guides for Lamang Island in Gray Zone Warfare.",
+      "metaTitle": "Gray Zone Warfare Maps - Lamang Island POI & Location Guide",
+      "metaDescription": "Explore Gray Zone Warfare maps with POI locations, LZ callsigns, grid coordinates, and region guides for Lamang Island. Find task locations and extraction points.",
+      "categoryLabel": "MAP GUIDES",
+      "whatIs": "What are Gray Zone Warfare Maps?",
+      "whatIsDescription": "Region guides covering POIs, landing zones, enemy tiers, grid coordinates, and route planning for every major area on Lamang Island — from starter towns to late-game military compounds.",
+      "why": "Why use Gray Zone Warfare map guides?",
+      "whySteps": {
+        "step1Title": "Find Task Locations Fast",
+        "step1Description": "Use grid references and POI markers to locate task objectives without getting lost",
+        "step2Title": "Plan Efficient Routes",
+        "step2Description": "Know which LZs are closest to your objectives and which regions are worth the risk",
+        "step3Title": "Survive High-Value Areas",
+        "step3Description": "Understand enemy density and player traffic in military zones before you commit to a run"
+      },
+      "featured": "Essential Map Guides",
       "all": "All Map Guides"
     },
-    "tasks": {
-      "title": "Gray Zone Warfare Tasks",
-      "description": "Complete task guides with objectives, locations, rewards, and vendor unlock paths for all missions.",
-      "metaTitle": "Gray Zone Warfare Tasks - Complete Mission Guide",
-      "metaDescription": "Complete Gray Zone Warfare task guides covering objectives, locations, rewards, and vendor progression for all missions on Lamang Island.",
-      "categoryLabel": "TASK GUIDES",
-      "whatIs": "What are Tasks?",
-      "whatIsDescription": "Mission guides covering objectives, target locations, required items, rewards, and vendor reputation gains for every task in the game.",
-      "why": "Why use task guides?",
+    "quests": {
+      "title": "Gray Zone Warfare Quests",
+      "description": "Task guides for all Gray Zone Warfare quest lines including item locations, key requirements, multi-stage objectives, and vendor reputation rewards.",
+      "metaTitle": "Gray Zone Warfare Quests - Task Guides & Objectives",
+      "metaDescription": "Complete every Gray Zone Warfare quest with our detailed task guides. Item locations, key requirements, route tips, and vendor reputation rewards for all missions.",
+      "categoryLabel": "QUEST GUIDES",
+      "whatIs": "What are Gray Zone Warfare Quests?",
+      "whatIsDescription": "Task guides for every mission in Gray Zone Warfare — covering item spawn locations, required keys, multi-stage objective sequences, and the vendor reputation rewards you earn on completion.",
+      "why": "Why use Gray Zone Warfare quest guides?",
       "whySteps": {
-        "step1Title": "Clear Objectives Fast",
-        "step1Description": "Know exactly where to go and what to do without guessing",
-        "step2Title": "Maximize Rewards",
-        "step2Description": "Plan task order to chain reputation gains and EXP efficiently",
-        "step3Title": "Unlock Vendors Faster",
-        "step3Description": "Progress vendor ranks by completing the right tasks in the right order"
+        "step1Title": "Complete Tasks Efficiently",
+        "step1Description": "Know exact item spawn locations and objective zones before entering the raid",
+        "step2Title": "Avoid Wasted Runs",
+        "step2Description": "Learn key requirements and prerequisite tasks so you never enter underprepared",
+        "step3Title": "Maximize Vendor Progression",
+        "step3Description": "Prioritize quest chains that unlock the highest-value vendor stock and reputation tiers"
       },
-      "featured": "Featured Tasks",
-      "all": "All Task Guides"
-    },
-    "keys": {
-      "title": "Gray Zone Warfare Keys",
-      "description": "Key locations, what each key unlocks, related tasks, and loot behind locked rooms across Lamang Island.",
-      "metaTitle": "Gray Zone Warfare Keys - Location & Unlock Guide",
-      "metaDescription": "Find Gray Zone Warfare key locations, learn what each key unlocks, and discover the loot and tasks behind every locked room on Lamang Island.",
-      "categoryLabel": "KEY GUIDES",
-      "whatIs": "What are Keys?",
-      "whatIsDescription": "Guides to every key in the game — where it drops, which door or room it opens, what loot or task objective waits inside, and whether it is worth the slot.",
-      "why": "Why use key guides?",
-      "whySteps": {
-        "step1Title": "Stop Wasting Runs",
-        "step1Description": "Know which key you need before pushing into a dangerous area",
-        "step2Title": "Find Key Spawns",
-        "step2Description": "Learn the most reliable enemy pockets and container spawns for each key",
-        "step3Title": "Unlock Task Gates",
-        "step3Description": "Identify which keys are required to progress specific vendor quest chains"
-      },
-      "featured": "High-Value Keys",
-      "all": "All Keys"
+      "featured": "Featured Quest Guides",
+      "all": "All Quest Guides"
     },
     "weapons": {
-      "title": "Gray Zone Warfare Weapons",
-      "description": "Weapon platform guides covering calibers, fire rates, handling stats, and build recommendations for all rifles.",
-      "metaTitle": "Gray Zone Warfare Weapons - Platform & Build Guide",
-      "metaDescription": "Complete Gray Zone Warfare weapons guide with caliber families, fire rates, handling notes, and build recommendations for every major rifle platform.",
-      "categoryLabel": "WEAPON GUIDES",
-      "whatIs": "What are Weapons?",
-      "whatIsDescription": "Platform guides for every major weapon family — caliber, fire mode, handling notes, and how each rifle fits into loadout planning after the 0.4 rework.",
-      "why": "Why use weapon guides?",
+      "title": "Gray Zone Warfare Weapons & Armor",
+      "description": "Weapon platform guides, armor tier lists, caliber comparisons, and build recommendations for Gray Zone Warfare operators.",
+      "metaTitle": "Gray Zone Warfare Weapons & Armor - Complete Build Guide",
+      "metaDescription": "Master Gray Zone Warfare weapons and armor with our complete guides. Caliber families, armor tier lists, attachment builds, and loadout recommendations for every playstyle.",
+      "categoryLabel": "WEAPON & ARMOR GUIDES",
+      "whatIs": "What are Weapons and Armor in Gray Zone Warfare?",
+      "whatIsDescription": "Platform guides for every major weapon family and NIJ-rated armor system in Gray Zone Warfare — covering calibers, fire modes, attachment slots, plate ratings, and how to build loadouts for your role.",
+      "why": "Why use Gray Zone Warfare weapon and armor guides?",
       "whySteps": {
         "step1Title": "Pick the Right Platform",
-        "step1Description": "Understand caliber families before investing in magazines and attachments",
-        "step2Title": "Optimize Handling",
-        "step2Description": "Learn how weight and ergonomics affect ADS and accuracy in Update 0.4",
+        "step1Description": "Understand caliber families and fire modes before investing in magazines and attachments",
+        "step2Title": "Match Armor to Threat Level",
+        "step2Description": "Know which NIJ plate rating to bring based on expected enemy loadouts and zones",
         "step3Title": "Build for Your Role",
-        "step3Description": "Match weapon choice to your playstyle — solo, squad, PvE, or PvEvP"
+        "step3Description": "Match weapon and armor choices to your playstyle — solo, squad, PvE, or PvEvP"
       },
-      "featured": "Featured Weapons",
-      "all": "All Weapon Guides"
+      "featured": "Featured Weapon & Armor Guides",
+      "all": "All Weapon & Armor Guides"
     },
-    "ammo": {
-      "title": "Gray Zone Warfare Ammo",
-      "description": "Caliber families, weapon compatibility, ballistics notes, and ammo planning guides for all rounds.",
-      "metaTitle": "Gray Zone Warfare Ammo - Caliber & Ballistics Guide",
-      "metaDescription": "Gray Zone Warfare ammo guide with caliber families, weapon compatibility, penetration notes, and ballistics planning for every major round.",
-      "categoryLabel": "AMMO GUIDES",
-      "whatIs": "What is Ammo?",
-      "whatIsDescription": "Caliber-by-caliber guides connecting ammunition to compatible weapons, explaining penetration behavior, and helping players avoid loadout mistakes.",
-      "why": "Why use ammo guides?",
-      "whySteps": {
-        "step1Title": "Plan Caliber Sharing",
-        "step1Description": "Choose ammo families that work across multiple weapons in your squad",
-        "step2Title": "Understand Penetration",
-        "step2Description": "Match the right round to the armor class you expect to face",
-        "step3Title": "Avoid Loadout Mistakes",
-        "step3Description": "Know which calibers are practical to source through vendors and looting"
-      },
-      "featured": "Featured Ammo Guides",
-      "all": "All Ammo Guides"
-    },
-    "vendors": {
-      "title": "Gray Zone Warfare Vendors",
-      "description": "Vendor specialties, rank thresholds, unlock paths, and recommended progression order for all traders.",
-      "metaTitle": "Gray Zone Warfare Vendors - Trader Guide & Reputation",
-      "metaDescription": "Complete Gray Zone Warfare vendors guide with trader specialties, rank thresholds, unlock prerequisites, and recommended progression order.",
-      "categoryLabel": "VENDOR GUIDES",
-      "whatIs": "What are Vendors?",
-      "whatIsDescription": "Trader guides covering what each vendor sells, how to raise reputation through tasks, which rank unlocks the best stock, and how vendors chain into each other.",
-      "why": "Why use vendor guides?",
-      "whySteps": {
-        "step1Title": "Level the Right Vendor",
-        "step1Description": "Focus on the trader that unlocks the gear category you need next",
-        "step2Title": "Unlock Chain Access",
-        "step2Description": "Learn which task unlocks each vendor so you do not miss access gates",
-        "step3Title": "Get Better Stock Faster",
-        "step3Description": "Plan task order around reputation gains to hit rank thresholds efficiently"
-      },
-      "featured": "Featured Vendor Guides",
-      "all": "All Vendor Guides"
-    },
-    "factions": {
-      "title": "Gray Zone Warfare Factions",
-      "description": "PMC faction overviews covering lore, starter towns, route differences, and what changes based on your choice.",
-      "metaTitle": "Gray Zone Warfare Factions - PMC Guide & Comparison",
-      "metaDescription": "Gray Zone Warfare factions guide comparing Crimson Shield International, Mithras Security Systems, and Lamang Recovery Initiative with starter towns and route notes.",
-      "categoryLabel": "FACTION GUIDES",
-      "whatIs": "What are Factions?",
-      "whatIsDescription": "PMC faction guides covering lore, starting area advantages, route accessibility, task flow differences, and which faction suits different player styles.",
-      "why": "Why use faction guides?",
-      "whySteps": {
-        "step1Title": "Pick the Right Start",
-        "step1Description": "Understand how your faction shapes your first hours on Lamang Island",
-        "step2Title": "Plan with Your Squad",
-        "step2Description": "Everyone must be in the same faction to play together — get this right before character creation",
-        "step3Title": "Optimize Your Route",
-        "step3Description": "Different factions have faster or slower access to mid-map and late-game zones"
-      },
-      "featured": "Faction Comparisons",
-      "all": "All Faction Guides"
-    },
-    "updates": {
+    "update": {
       "title": "Gray Zone Warfare Updates",
-      "description": "Patch notes, devlogs, update roadmap, and version history for Gray Zone Warfare.",
-      "metaTitle": "Gray Zone Warfare Updates - Patch Notes & Roadmap",
-      "metaDescription": "Gray Zone Warfare update history with patch notes, devlog summaries, Spearhead 0.4 changes, and the official roadmap for future content.",
+      "description": "Patch notes, devlogs, update roadmap, and version history for all Gray Zone Warfare releases including the Spearhead 0.4 update.",
+      "metaTitle": "Gray Zone Warfare Updates - Patch Notes & Roadmap 2026",
+      "metaDescription": "Stay current with Gray Zone Warfare updates. Spearhead 0.4 patch notes, devlog summaries, roadmap milestones, and complete version history for all major releases.",
       "categoryLabel": "UPDATE NOTES",
-      "whatIs": "What are Updates?",
-      "whatIsDescription": "Patch notes and devlog summaries covering what changed in each version, system reworks, new content, and the developer roadmap for upcoming milestones.",
-      "why": "Why follow updates?",
+      "whatIs": "What are Gray Zone Warfare Updates?",
+      "whatIsDescription": "Patch notes and devlog summaries covering what changed in each version — system reworks, new content, map expansions, AI overhauls, and the developer roadmap for upcoming milestones.",
+      "why": "Why follow Gray Zone Warfare updates?",
       "whySteps": {
-        "step1Title": "Stay Current",
-        "step1Description": "Know what changed in the latest patch before your next deployment",
-        "step2Title": "Plan Around Wipes",
-        "step2Description": "Understand which updates include economy resets or progression changes",
-        "step3Title": "Track Future Content",
-        "step3Description": "Follow the roadmap to know what new locations, tasks, and systems are coming"
+        "step1Title": "Stay Current Before Raids",
+        "step1Description": "Know what changed in the latest patch — new mechanics, rebalanced vendors, or altered loot tables",
+        "step2Title": "Plan Around Major Patches",
+        "step2Description": "Understand which updates include economy resets or significant progression changes",
+        "step3Title": "Track Upcoming Content",
+        "step3Description": "Follow the roadmap to know what new locations, task chains, and systems are arriving next"
       },
-      "featured": "Latest Updates",
+      "featured": "Latest Gray Zone Warfare Updates",
       "all": "All Update Notes"
+    },
+    "technical": {
+      "title": "Gray Zone Warfare Technical Guides",
+      "description": "System requirements, optimization tips, crash fixes, and performance guides for running Gray Zone Warfare smoothly in 2026.",
+      "metaTitle": "Gray Zone Warfare Technical Guides - System Requirements & Fixes",
+      "metaDescription": "Fix Gray Zone Warfare crashes, optimize performance, and check system requirements with our technical guides. Updated for the Spearhead 0.4 build in 2026.",
+      "categoryLabel": "TECHNICAL GUIDES",
+      "whatIs": "What are Gray Zone Warfare Technical Guides?",
+      "whatIsDescription": "System requirement breakdowns, in-game optimization settings, crash troubleshooting, and performance tuning guides to help you run Gray Zone Warfare as smoothly as possible.",
+      "why": "Why use Gray Zone Warfare technical guides?",
+      "whySteps": {
+        "step1Title": "Check Before You Buy",
+        "step1Description": "Verify your hardware meets the minimum or recommended specs before purchasing",
+        "step2Title": "Eliminate Crashes",
+        "step2Description": "Follow targeted troubleshooting steps to resolve the most common stability issues",
+        "step3Title": "Maximize Frame Rate",
+        "step3Description": "Apply the right settings to balance performance and visual quality for your hardware tier"
+      },
+      "featured": "Featured Technical Guides",
+      "all": "All Technical Guides"
+    },
+    "platform": {
+      "title": "Gray Zone Warfare Platform Guides",
+      "description": "Supporter Edition breakdown, offline and Joint Operations play, PC platform details, and purchase guides for Gray Zone Warfare.",
+      "metaTitle": "Gray Zone Warfare Platform Guides - Editions & PC Guide",
+      "metaDescription": "Everything about Gray Zone Warfare on PC — Supporter Edition perks, Joint Operations offline-style play, edition comparisons, and platform-specific guides.",
+      "categoryLabel": "PLATFORM GUIDES",
+      "whatIs": "What are Gray Zone Warfare Platform Guides?",
+      "whatIsDescription": "Platform-specific guides covering edition differences, Joint Operations and offline-style play options, purchase recommendations, and PC system considerations for Gray Zone Warfare.",
+      "why": "Why use Gray Zone Warfare platform guides?",
+      "whySteps": {
+        "step1Title": "Choose the Right Edition",
+        "step1Description": "Understand what Supporter Edition includes before deciding how much to invest",
+        "step2Title": "Explore Offline-Style Play",
+        "step2Description": "Learn how Joint Operations lets you play without rival PMC pressure — ideal for learning the map",
+        "step3Title": "Optimize for PC",
+        "step3Description": "Get platform-specific setup tips to ensure stable performance on your hardware"
+      },
+      "featured": "Featured Platform Guides",
+      "all": "All Platform Guides"
     }
   }
 }

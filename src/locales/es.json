@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Guías",
-    "crafting": "Fabricación",
-    "items": "Objetos",
-    "biomes": "Biomas",
-    "building": "Construcción",
-    "support": "Soporte"
+    "guide": "Guías",
+    "map": "Mapas",
+    "quests": "Misiones",
+    "weapons": "Armas y Armaduras",
+    "update": "Actualizaciones",
+    "technical": "Técnico",
+    "platform": "Plataforma"
   },
   "common": {
     "home": "Inicio",
