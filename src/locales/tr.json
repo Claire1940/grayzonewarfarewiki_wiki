@@ -1,20 +1,20 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "description": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları, kontroller, modlar ve topluluk bağlantıları edinin.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, demo indirme, başlangıç rehberi, işbirliği rehberi, üretim, ekipman, modlar, BepInEx, Steam oyunu, gizli oyun",
-      "ogTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "ogDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları ve modlar edinin.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "twitterDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri ve üretim ipuçları edinin."
+      "title": "Gray Zone Warfare Wiki - Harita, Görevler, Anahtarlar ve Silahlar",
+      "description": "Lamang Island üzerindeki PvE ve PvEvP operatörleri için haritalar, görevler, anahtarlar, satıcılar, silahlar, balistik, ganimet rotaları ve yama rehberleri içeren Gray Zone Warfare Wiki.",
+      "keywords": "Gray Zone Warfare, GZW, harita, görevler, anahtarlar, satıcılar, silahlar, balistik, ganimet, yama",
+      "ogTitle": "Gray Zone Warfare Wiki - Harita, Görevler, Anahtarlar ve Silahlar",
+      "ogDescription": "Lamang Island üzerindeki PvE ve PvEvP operatörleri için haritalar, görevler, anahtarlar, satıcılar, silahlar, balistik, ganimet rotaları ve yama rehberleri içeren Gray Zone Warfare Wiki.",
+      "twitterTitle": "Gray Zone Warfare Wiki - Harita, Görevler, Anahtarlar ve Silahlar",
+      "twitterDescription": "Lamang Island üzerindeki operatörler için haritalar, görevler, anahtarlar, satıcılar, silahlar, balistik ve ganimet rehberleri içeren Gray Zone Warfare Wiki."
     }
   },
   "nav": {
     "guide": "Rehberler",
     "map": "Haritalar",
     "quests": "Görevler",
-    "weapons": "Silahlar ve Zırh",
+    "weapons": "Silahlar ve Zırhlar",
     "update": "Güncellemeler",
     "technical": "Teknik",
     "platform": "Platform"
@@ -22,767 +22,1217 @@
   "common": {
     "home": "Ana Sayfa",
     "more": "Daha Fazla",
-    "playNow": "Demo İndir",
-    "switchLanguage": "Dil Değiştir",
-    "switchTheme": "Tema Değiştir",
+    "playNow": "Steam'de Oyna",
+    "switchLanguage": "Dili Değiştir",
+    "switchTheme": "Temayı Değiştir",
     "lightMode": "Açık Mod",
-    "darkMode": "Koyu Mod",
+    "darkMode": "Karanlık Mod",
     "notFound": "Sayfa Bulunamadı",
     "notFoundDescription": "Aradığınız sayfa mevcut değil.",
     "backToHome": "Ana Sayfaya Dön",
     "relatedArticles": "İlgili Makaleler",
-    "readMore": "Daha Fazla Oku"
+    "readMore": "Devamını Oku"
   },
   "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
+    "badge": "PvE Odaklı Açık Dünya Taktiksel Nişancı",
+    "title": "Gray Zone Warfare Wiki",
+    "description": "Gray Zone Warfare için haritaları, görevleri, anahtarları, satıcıları, silahları, mühimmatları, ganimet rotalarını ve yama değişikliklerini keşfedin. Lamang Island üzerinde daha hızlı ilerleme, daha temiz tahliyeler ve daha iyi karar verme süreci isteyen oyuncular için tasarlandı.",
+    "getFreeCodesCTA": "Görev Rehberlerini Al",
+    "playOnSteamCTA": "Steam'de Oyna",
     "stats": {
       "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
+        "value": "30 Nisan 2024",
+        "label": "Yayınlanma Tarihi"
       },
       "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
+        "value": "72.548",
+        "label": "Anlık En Yüksek Oyuncu"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
+        "value": "59.439",
+        "label": "Steam İncelemeleri"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
+        "value": "12",
+        "label": "Desteklenen Diller"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Oynanışı",
-    "description": "Ufak cücelerin kaotik 6 oyunculu işbirliği gizli görevlerinde büyük soygunlar yapmasını izleyin!"
+    "title": "Gray Zone Warfare Oynanış",
+    "description": "Lamang Island'ı keşfedin, satıcılar için görevleri tamamlayın, anahtarları bulun, doğru silah ve mühimmatla kuşanın ve bu orman savaşı tahliye nişancı oyununda bir PMC operatörü olarak hayatta kalın."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Kaynaklar",
-    "subtitle": "Soygunlarda ve işbirliği gizliliğinde ustalaşmak için ihtiyacınız olan her şey",
+    "title": "Gray Zone Warfare",
+    "titleHighlight": "Wiki Rehberleri",
+    "subtitle": "Lamang Island üzerinde daha hızlı ilerlemek, daha temiz tahliye olmak ve daha iyi kararlar almak için ihtiyacınız olan her şey",
     "cards": [
       {
-        "icon": "İndir",
-        "title": "Demo İndirme",
-        "description": "Ücretsiz Steam demosunu edinin"
+        "icon": "ClipboardCheck",
+        "title": "Gray Zone Warfare Görev Rehberi",
+        "description": "Temel görev rotası, hedefler, konumlar ve ödüller"
       },
       {
-        "icon": "KitapAçık",
-        "title": "Başlangıç Rehberi",
-        "description": "Temel döngü ve yaygın tuzaklar"
+        "icon": "MapPin",
+        "title": "Gray Zone Warfare İnteraktif Harita",
+        "description": "İlgi noktaları, LZ çağrı kodları, kademeler ve ızgara koordinatları"
       },
       {
-        "icon": "Kullanıcılar",
-        "title": "İşbirliği Rehberi",
-        "description": "6 oyunculu roller ve kurtarma taktikleri"
+        "icon": "BookOpen",
+        "title": "Gray Zone Warfare Başlangıç Rehberi",
+        "description": "Mod seçimi, grup, hayatta kalma temelleri ve ilk turlar"
       },
       {
-        "icon": "PanoKontrol",
-        "title": "Görevler & Amaçlar",
-        "description": "Yüksek Cüce'nin sizden istedikleri"
+        "icon": "Key",
+        "title": "Gray Zone Warfare Anahtar Rehberi",
+        "description": "Anahtar konumları, neleri açtıkları ve görev bağlantıları"
       },
       {
-        "icon": "Klavye",
-        "title": "Kontroller & Tuş Atamaları",
-        "description": "Varsayılan tuşlar ve nasıl değiştirileceği"
+        "icon": "DollarSign",
+        "title": "Gray Zone Warfare Para Rehberi",
+        "description": "Görev ödülleri, ganimet öncelikleri ve ekonomi döngüsü"
       },
       {
-        "icon": "Kalkan",
-        "title": "İçerik Ayarları",
-        "description": "Yetişkinlere yönelik içerik ve geçiş seçenekleri"
+        "icon": "Crosshair",
+        "title": "Gray Zone Warfare Silah Rehberi",
+        "description": "Tüfek platformları, kalibreler ve kullanım değişiklikleri"
       },
       {
-        "icon": "Çekiç",
-        "title": "Üretim & Ekipman",
-        "description": "Çalınan malzemelerle donanın"
+        "icon": "Target",
+        "title": "Gray Zone Warfare Mühimmat Rehberi",
+        "description": "Kalibre aileleri, silah eşleştirmeleri ve balistik"
       },
       {
-        "icon": "Paket",
-        "title": "Ganimet & Eşyalar",
-        "description": "Ne çalınır ve taşıma ipuçları"
+        "icon": "ShoppingCart",
+        "title": "Gray Zone Warfare Satıcı Rehberi",
+        "description": "Satıcı uzmanlıkları, rütbe eşikleri ve kilit açma yolları"
       },
       {
-        "icon": "UyarıÜçgeni",
-        "title": "Düşmanlar & Tehlikeler",
-        "description": "Tehditler ve onlarla nasıl başa çıkılır"
+        "icon": "Heart",
+        "title": "Gray Zone Warfare Sağlık Sistemi Rehberi",
+        "description": "Yaralar, kanama, organlar ve tıbbi eşya kullanımı"
       },
       {
-        "icon": "Göz",
-        "title": "Gizlilik & Kaçış",
-        "description": "Gizli kalın ve güvenli bir şekilde çıkış yapın"
+        "icon": "Users",
+        "title": "Gray Zone Warfare Gruplar Rehberi",
+        "description": "PMC hikayesi, başlangıç kasabaları ve grup farkları"
       },
       {
-        "icon": "Ana Sayfa",
-        "title": "Ev Geliştirmeleri",
-        "description": "Yüzen ada üssünüzü geliştirin"
+        "icon": "Shield",
+        "title": "Gray Zone Warfare Zırh Rehberi",
+        "description": "NIJ sınıfları, plaka kapsamı ve malzeme karşılaştırması"
       },
       {
-        "icon": "MesajDairesi",
-        "title": "Topluluk & Discord",
-        "description": "Resmi bağlantılar ve grup bulma"
+        "icon": "Layers",
+        "title": "Gray Zone Warfare En İyi Ekipmanlar",
+        "description": "Bütçe dostu, gizlilik, manga ve görev odaklı kitler"
       },
       {
-        "icon": "Ayarlar",
-        "title": "Modlar & BepInEx",
-        "description": "Çerçeve ve mod kurulumunu yapın"
+        "icon": "Gamepad2",
+        "title": "Gray Zone Warfare PvE vs PvP Rehberi",
+        "description": "Warfare ve Joint Operations mod karşılaştırması"
       },
       {
-        "icon": "Yıldız",
-        "title": "Popüler Modlar",
-        "description": "En iyi topluluk seçimleri ve özellikleri"
+        "icon": "Navigation",
+        "title": "Gray Zone Warfare Konumlar Rehberi",
+        "description": "Başlangıç kasabaları, askeri bölgeler ve önemli varış noktaları"
       },
       {
-        "icon": "OyunKonsolu2",
-        "title": "Kontrol Cihazı Desteği",
-        "description": "UI imleci ile tam gamepad oyunu"
+        "icon": "Star",
+        "title": "Gray Zone Warfare Sürüm Farkları",
+        "description": "Standard vs Tactical vs Elite vs Supporter sürümleri"
       },
       {
-        "icon": "YükselişTrendi",
-        "title": "Oyuncu Sayısı & Trendi",
-        "description": "Canlı istatistikler ve zirve takibi"
+        "icon": "Clock",
+        "title": "Gray Zone Warfare Güncelleme Yol Haritası",
+        "description": "Yama zaman çizelgesi, Spearhead 0.4 ve sırada ne var"
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Lucid Blocks Demo İndirme",
-      "subtitle": "Steam'de ücretsiz demoyu edinin",
-      "downloadSize": "2,62 GiB",
-      "diskSize": "4,88 GiB",
-      "releaseDate": "30 Ocak 2026",
-      "price": "Ücretsiz",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Demo İndir",
-      "secondaryCTA": "Teknik Bilgileri Görüntüle",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
-        {
-          "heading": "Nereden indirilir",
-          "items": [
-            "Resmi Steam mağaza sayfasını açın ve 'Demo İndir' bölümünü kullanın.",
-            "Steam sizden oturum açmanızı isterse, önce oturum açın ve tekrar deneyin."
-          ]
-        },
-        {
-          "heading": "Kurulum & başlatma hızlı kontrolleri",
-          "items": [
-            "Varsayılan kurulum konumu: Steam Kütüphanesi klasörü → steamapps → common → (oyun klasörü).",
-            "Başlatılamıyorsa: Steam'de oyun dosyalarını doğrulayın, ardından Steam'i yeniden başlatın."
-          ]
-        }
-      ]
-    },
-    "beginnerGuide": {
-      "title": "Lucid Blocks Başlangıç Rehberi",
-      "subtitle": "Temel döngüde ustalaşın ve yaygın hatalardan kaçının",
-      "steps": [
-        {
-          "number": 1,
-          "title": "Eve Girin",
-          "description": "Yüzen ada üssünüzden bir insan evine inin. Dışarıda doğun ve kilitli olmayan kapılardan veya pencerelerden içeri sızın."
-        },
-        {
-          "number": 2,
-          "title": "Görevleri Tamamlayın",
-          "description": "Yüksek Cüce görevlerini süre dolmadan bitirin. Tab tuşu aracılığıyla hedefleri kontrol edin ve öncelikle riskli görevlere öncelik verin."
-        },
-        {
-          "number": 3,
-          "title": "Eşyaları Çalın",
-          "description": "Değerli eşyaları ve üretim malzemelerini kapın. Gürültü yapmaktan veya ev sahibine yakalanmaktan kaçının."
-        },
-        {
-          "number": 4,
-          "title": "Tornado ile Kaçın",
-          "description": "Zamanlayıcı sona erdiğinde, bahçede bir tornado oluşur—güvenli bir şekilde çıkış yapmak için ona ulaşın. Erken hareket etmeye başlayın!"
-        },
-        {
-          "number": 5,
-          "title": "Geliştirin & Tekrarlayın",
-          "description": "Ödülleri ve malzemeleri evde ekipman üretmek için kullanın, ardından daha iyi ekipmanlarla bir sonraki soygununuza başlayın."
-        }
-      ],
-      "pitfalls": [
-        {
-          "title": "Yakalanmak",
-          "description": "Ev sahibi sizi kovalayacaktır. Saklanın, dikkat dağıtıcı unsurları kullanın ve kaçmak için görüş hattını kırın.",
-          "icon": "UyarıÜçgeni"
-        },
-        {
-          "title": "Sürenin Bitmesi",
-          "description": "Tornado zamanlayıcısı katıdır. Aşırı yağmalamak yerine erken bir şekilde çıkışa doğru ilerlemeye başlayın.",
-          "icon": "Saat"
-        },
-        {
-          "title": "Takım Arkadaşlarını Görmezden Gelmek",
-          "description": "Buzdolabı/fırın tuzaklarına yakalanan müttefikleri hızlıca kurtarın—kurtarmalar için hemen bağırın.",
-          "icon": "Kullanıcılar"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Lucid Blocks İşbirliği Rehberi",
-      "subtitle": "Maksimum kaos için 6 oyuncuya kadar koordine olun",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Gözcü",
-          "description": "Tehditleri kontrol edin, güvenli yolları işaretleyin ve takım hareketine rehberlik edin",
-          "icon": "Göz"
-        },
-        {
-          "name": "Taşıyıcı",
-          "description": "Sırt çantası geliştirmeleriyle ağır eşyalara odaklanın ve görev ilerlemesini güvence altına alın",
-          "icon": "Paket"
-        },
-        {
-          "name": "Dikkat Dağıtıcı",
-          "description": "Güvenli pencereler oluşturmak için ev sahibini/evcil hayvanları takımdan uzağa çekin",
-          "icon": "Kullanıcılar"
-        },
-        {
-          "name": "Kurtarıcı",
-          "description": "Tuzaktan kurtarma",
-          "icon": "Kalkan"
-        }
-      ],
-      "threats": [
-        "Ev Sahibi (sizi kovalar ve tuzağa düşürür)",
-        "Kediler & Fareler (devriye yolları)",
-        "Robot Süpürge (anında tehlike)",
-        "Süre Sınırı (tornado tahliyesi)"
-      ],
-      "communication": "Görevleri ve kurtarmaları koordine etmek için sesli sohbeti (V tuşu) kullanın. Şunu söyleyin: 'Görüldü', 'Rota', 'Kurtarmaya ihtiyacım var', 'Yakında çıkış yap'."
-    },
-    "tasksObjectives": {
-      "title": "Lucid Blocks Görevler & Amaçlar",
-      "subtitle": "Yüksek Cüce'nin istedikleri: görev örnekleri",
-      "taskTypes": [
-        {
-          "type": "Eşyaları Çalın",
-          "examples": [
-            "Yüksek Cüce hedefleri tarafından işaretlenen belirli eşyaları kapın"
-          ]
-        },
-        {
-          "type": "Konumlara Ulaşın",
-          "examples": [
-            "Evin içindeki belirtilen alanlara gidin"
-          ]
-        },
-        {
-          "type": "Yaramazlık Yapın",
-          "examples": [
-            "Bir TV'yi kırın",
-            "Bir tuvaleti su baskını yapın",
-            "Kaos yaratın"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Takım bir aradayken önce riskli görevleri yapın",
-        "Takip sırasında kaybolmamaları için görev eşyaları için bir taşıyıcı atayın",
-        "Süre dolmadan çıkışa doğru hareket etmeye başlayın"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Lucid Blocks Kontroller & Tuş Atamaları",
-      "subtitle": "Varsayılan klavye kontrolleri (ve bunları nerede değiştireceğiniz)",
-      "keybinds": [
-        {
-          "action": "Sola Hareket Et",
-          "key": "A"
-        },
-        {
-          "action": "Sağa Hareket Et",
-          "key": "D"
-        },
-        {
-          "action": "İleri Hareket Et",
-          "key": "W"
-        },
-        {
-          "action": "Geri Hareket Et",
-          "key": "S"
-        },
-        {
-          "action": "Çömelme",
-          "key": "Sol Ctrl"
-        },
-        {
-          "action": "Saldırı",
-          "key": "Sol Tık"
-        },
-        {
-          "action": "Koş",
-          "key": "Sol Shift"
-        },
-        {
-          "action": "Eşyayı Bırak",
-          "key": "G"
-        },
-        {
-          "action": "Etkileşim",
-          "key": "E"
-        },
-        {
-          "action": "Zıpla",
-          "key": "Boşluk"
-        },
-        {
-          "action": "Bas-Konuş",
-          "key": "V"
-        },
-        {
-          "action": "İtme",
-          "key": "Sağ Tık"
-        },
-        {
-          "action": "Bez Bebek",
-          "key": "Q"
-        },
-        {
-          "action": "Ekipman Yuvası 1",
-          "key": "1"
-        },
-        {
-          "action": "Ekipman Yuvası 2",
-          "key": "2"
-        },
-        {
-          "action": "Ekipman Yuvası 3",
-          "key": "3"
-        },
-        {
-          "action": "Ekipman Yuvası 4",
-          "key": "4"
-        },
-        {
-          "action": "Envanter",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Başlık menüsünden: AYARLAR'ı açın, ardından klavye ayarlarını kontrol edin. Tuş atama satırlarını filtrelemek için arama alanını kullanın."
-    },
-    "contentSettings": {
-      "title": "Lucid Blocks İçerik Ayarları",
-      "subtitle": "Yetişkinlere yönelik içerik, çıplaklık geçişi ve Steam tercihleri",
-      "descriptors": [
-        "Bazı Çıplaklık veya Cinsel İçerik",
-        "Genel Yetişkinlere Yönelik İçerik"
-      ],
-      "details": [
-        {
-          "heading": "Geliştiricilerin belirttiği şey",
-          "items": [
-            "Bir insan banyo gibi aktiviteler yaparken çıplak görünebilir.",
-            "Çıplaklık sansürlenmiştir ve isteğe bağlı olarak tamamen kapatılabilir.",
-            "Cüceler parçalanabilir ve acımasız şekillerde ölebilir."
-          ]
-        },
-        {
-          "heading": "Steam topluluk sayfasını engellerse",
-          "items": [
-            "Steam, içerik tercihlerinize bağlı olarak topluluk merkezini gizleyebilir.",
-            "Steam'in ne göstermesine izin verdiğinizi ayarlamak için Steam'in 'İçerik Tercihlerini Güncelle' seçeneğini kullanın."
-          ]
-        }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Lucid Blocks Üretim & Ekipman",
-      "subtitle": "Donanın: üretim örnekleri ve her aracın ne yaptığı",
-      "equipment": [
-        {
-          "item": "Sırt Çantası",
-          "benefit": "Her koşu için daha fazla ganimet için envanter kapasitesini genişletir"
-        },
-        {
-          "item": "Cüce Eldivenleri",
-          "benefit": "Kapıları açmanızı ve daha fazla nesneyle etkileşim kurmanızı sağlar"
-        },
-        {
-          "item": "Yaylı Ayakkabılar",
-          "benefit": "Kaçışlar sırasında yüksek düşmelerden kaynaklanan hasarı önler"
-        },
-        {
-          "item": "Silah",
-          "benefit": "Köşeye sıkıştığınızda fareler gibi tehditlerle savaşmanıza yardımcı olur"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Üretim yağmalamaya nasıl bağlanır",
-          "items": [
-            "Bir koşu sırasında, eşyaları çalın ve üretim malzemesi olarak geri getirin.",
-            "Tahliyeden sonra, ödüller/malzemeler yeni üretimleri destekler."
-          ]
-        },
-        {
-          "heading": "Üs iyileştirmesi",
-          "items": [
-            "Mobilya üretin ve yüzen ada evinizi yükseltin (tam oyun özelliği)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Lucid Blocks Ganimet & Eşyalar",
-      "subtitle": "Ne çalınır: eşya türleri, risk ve taşıma ipuçları",
-      "categories": [
-        {
-          "type": "Görev Eşyaları",
-          "examples": [
-            "Yüksek Cüce tarafından hedefler için gerekli olan eşyalar"
-          ]
-        },
-        {
-          "type": "Üretim Malzemeleri",
-          "examples": [
-            "Cüce teçhizatına ve yükseltmelerine dönüştürülen ev eşyaları"
-          ]
-        },
-        {
-          "type": "Yaramazlık Hedefleri",
-          "examples": [
-            "Kırma veya su baskını gibi görevlerde yer alan nesneler"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Görev ilerlemesine öncelik verin, ardından kalan kapasiteyi üretim malzemeleriyle doldurun",
-        "Tehditler yakındaysa, eşyaları uzun açık taşımalar yerine kısa güvenli sıçramalarla hareket ettirin",
-        "Zamanlayıcı sona ermeden bahçe tahliyesine giden rotayı planlayın"
-      ],
-      "riskLevels": [
-        {
-          "level": "Düşük",
-          "description": "Girişlerin veya güvenli köşelerin yakınında"
-        },
-        {
-          "level": "Orta",
-          "description": "Daha derin odalar veya dolaşan tehditlerin yakınında"
-        },
-        {
-          "level": "Yüksek",
-          "description": "Ev sahibi devriyesinin veya robot süpürgenin yakınında"
-        }
-      ]
-    },
-    "enemiesHazards": {
-      "title": "Lucid Blocks Düşmanlar & Tehlikeler",
-      "subtitle": "Sizi neyin yakalayabileceğini bilin",
-      "threats": [
-        {
-          "name": "Ev Sahibi",
-          "trigger": "Soygun yaparken veya görev yaparken yakalanmak",
-          "behavior": "Sizi kovalar ve yakalamaya çalışır",
-          "counter": "Gizli kalın, görüş hatlarını kırın ve bir ekip olarak hareket etmeye devam edin"
-        },
-        {
-          "name": "Kediler",
-          "trigger": "Çok yaklaşmak veya yollarını kesmek",
-          "behavior": "Siz gizlice dolaşırken doğrudan bir tehdit haline gelirler",
-          "counter": "Yollarından kaçının ve sessizce geçin"
-        },
-        {
-          "name": "Fareler",
-          "trigger": "Farelerin dolaştığı alanlara girmek",
-          "behavior": "Koşular sırasında kırılgan cüceleri tehdit ederler",
-          "counter": "Dar alanlarda tetikte olun ve geri çekilmeye hazır olun"
-        },
-        {
-          "name": "Robot Süpürge",
-          "trigger": "Temizleme yolunda olmak",
-          "behavior": "Cüceleri emebilir",
-          "counter": "Onu dinleyin, yolunda durmayın ve hızlıca yeniden konumlanın"
-        },
-        {
-          "name": "Buzdolabı / Fırın Tuzağı",
-          "trigger": "Ev sahibi tarafından yakalanmak",
-          "behavior": "İçeri kilitlenebilirsiniz; takım arkadaşları zamanında kurtarmazsa ölürsünüz",
-          "counter": "Hemen bağırın; takım arkadaşları kurtarma yoluna öncelik verir"
-        },
-        {
-          "name": "Süre Sınırı",
-          "trigger": "Koşu zamanlayıcısının sınıra ulaşması",
-          "behavior": "Bahçede tahliye tornadosu belirir; kaçmak için ona ulaşmalısınız",
-          "counter": "Aşırı yağmalamayı bırakın, yeniden toplanın ve erken bir şekilde tahliyeye başlayın"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Lucid Blocks Gizlilik & Kaçış İpuçları",
-      "subtitle": "Daha fazla çalın, daha az ölün",
-      "do": [
-        "Gizli kalın ve nesnelerle etkileşim kurmadan önce siper alın",
-        "Ekip çalışmasını kullanın: tehditleri söyleyin ve rotaları koordine edin",
-        "Biri tuzağa düştüğünde veya yere serildiğinde takım arkadaşlarını hızlıca kurtarın",
-        "Kayıplarınızı azaltın ve zaman daraldığında tahliyeye gidin"
-      ],
-      "dont": [
-        "Tahliye yaklaştığında açgözlü olun",
-        "Ev sahibi aktifken takımdan çok uzağa ayrılın",
-        "Robot süpürge yollarını veya hayvan devriyelerini görmezden gelin",
-        "Bir takım arkadaşı kilitlendiğinde kurtarmaları geciktirin"
-      ],
-      "quickTips": [
-        {
-          "title": "3 Saniye Kuralı",
-          "text": "Bir sonraki hareketinizi 3 saniyede açıklayamazsanız, yakalanmak üzeresiniz demektir."
-        },
-        {
-          "title": "Önce Kurtarma",
-          "text": "Hızlı bir kurtarma koşuyu canlı tutar; yağmalama bekleyebilir."
-        },
-        {
-          "title": "Tahliye Disiplini",
-          "text": "Erken toplanın ve panik başlamadan önce tornadoya başlayın."
-        }
-      ]
-    },
-    "homeUpgrades": {
-      "title": "Lucid Blocks Ev Geliştirmeleri",
-      "subtitle": "Üret, inşa et, yükselt",
-      "branches": [
-        {
-          "branch": "Depolama",
-          "summary": "Daha fazla taşıyın ve daha fazlasını geri getirin",
-          "items": [
-            "Sırt Çantası (envanter genişletme)"
-          ]
-        },
-        {
-          "branch": "Yardımcı Program",
-          "summary": "Evle daha etkili etkileşim kurun",
-          "items": [
-            "Cüce Eldivenleri (kapıları ve daha fazlasını açmanızı sağlar)"
-          ]
-        },
-        {
-          "branch": "Hareketlilik",
-          "summary": "Dikey alanlarda daha güvenli hareket edin",
-          "items": [
-            "Yaylı Ayakkabılar (düşme hasarını azaltır)"
-          ]
-        },
-        {
-          "branch": "Savunma",
-          "summary": "Gerekirse küçük tehditlerle başa çıkın",
-          "items": [
-            "Silahlar (fareler gibi tehditler için)"
-          ]
-        },
-        {
-          "branch": "Ana Üs",
-          "summary": "Mobilya üretin ve yüzen ada evinizi yükseltin",
-          "items": [
-            "Fonksiyonel mobilya yükseltmeleri"
-          ]
-        }
-      ],
-      "priority": [
-        {
-          "rank": 1,
-          "title": "Önce depolama",
-          "reason": "Daha fazla taşıma kapasitesi her koşunun getirisini artırır"
-        },
-        {
-          "rank": 2,
-          "title": "Sıradaki yardımcı program",
-          "reason": "Daha iyi etkileşimler tehlike bölgelerinde geçirilen süreyi azaltır"
-        },
-        {
-          "rank": 3,
-          "title": "Hayatta kalmak için hareketlilik",
-          "reason": "Düşme güvenliği kaçarken önlenebilir ölümleri önler"
-        }
-      ]
-    },
-    "community": {
-      "title": "Lucid Blocks Topluluk & Discord",
-      "subtitle": "Kadrolar, güncellemeler, tartışmalar bulun",
-      "links": [
-        {
-          "title": "Resmi Discord",
-          "subtitle": "Duyurular • Geri Bildirim • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
-        },
-        {
-          "title": "Resmi X (Twitter)",
-          "subtitle": "Güncellemeler & geliştirici gönderileri",
-          "url": "https://x.com/lucidblocks"
-        },
-        {
-          "title": "Steam Topluluk Merkezi",
-          "subtitle": "Tartışmalar • Ekran Görüntüleri • Rehberler",
-          "url": "https://steamcommunity.com/app/3495730"
-        },
-        {
-          "title": "Steam Mağaza Sayfası",
-          "subtitle": "İstek Listesi • Demo • Resmi açıklama",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
-        }
-      ]
-    },
-    "modsBepInEx": {
-      "title": "Lucid Blocks Modlar & BepInEx Kurulumu",
-      "subtitle": "Modları temiz bir şekilde kurun",
+    "gzwTaskGuide": {
+      "title": "Gray Zone Warfare Görev Rehberi",
+      "intro": "Görevler, Gray Zone Warfare'deki ana ilerleme motorudur. Bu rehber, oyuncuların en çok aradığı erken ve orta aşama görevlerini; hedefleri, konumları, ödülleri ve açılan önemli içerikleriyle birlikte sunar.",
       "steps": [
         {
           "step": 1,
-          "title": "BepInEx 5'i Kurun",
-          "text": "BepInEx 5'i indirin ve oyun kök klasörüne çıkarın."
+          "task": "İlk Keşif",
+          "vendor": "Handshake",
+          "area": "Pha Lang / Kiu Vongsa / Nam Thaven başlangıç kasabası",
+          "objectives": [
+            "Sınırdaki kulübeyi kontrol et",
+            "Kasabanın kereste fabrikasını kontrol et",
+            "Benzin istasyonunun etrafındaki alanı kontrol et"
+          ],
+          "rewards": [
+            "400 TP",
+            "+25 Handshake ile İtibar",
+            "$1,700 USD",
+            "1x Modular Operator Carrier Gen II"
+          ],
+          "why_it_matters": "Oyunculara başlangıç kasabası simge yapıları döngüsünü öğreten ilk rota belirleme görevlerinden biridir."
         },
         {
           "step": 2,
-          "title": "Klasörleri oluşturmak için bir kez başlatın",
-          "text": "Oyunu ana menüye başlatın, ardından kapatın. Bu, BepInEx klasör yapısını oluşturur."
+          "task": "Zulayı Geri Getirme",
+          "vendor": "Gunny",
+          "area": "Başlangıç kasabası kereste fabrikası rotası",
+          "objectives": [
+            "Kasabanın kereste fabrikasındaki bir barakada bulunan zulayı bul ve işaretle"
+          ],
+          "rewards": [
+            "400 TP",
+            "+100 Gunny ile İtibar",
+            "$1,700 USD",
+            "1x Scorpion OCP Convoy Pack"
+          ],
+          "why_it_matters": "Güvenli başlangıç döngüsü içinde Gunny itibarını artıran erken aşama silah ilerleme görevi."
         },
         {
           "step": 3,
-          "title": "Modları kurun",
-          "text": "Mod .dll dosyalarını eklenti klasörüne yerleştirin."
+          "task": "Tıbbi Malzeme Aranıyor",
+          "vendor": "Lab Rat",
+          "area": "Başlangıç kasabası su kulesi",
+          "objectives": [
+            "Kasabanın su kulesindeki UNLRA tıbbi malzemelerini bul"
+          ],
+          "rewards": [
+            "400 TP",
+            "+100 Lab Rat ile İtibar",
+            "$2,200 USD",
+            "1x IFAK"
+          ],
+          "why_it_matters": "Lab Rat, gelecekteki her konuşlandırma için daha iyi hayatta kalma ve tıbbi malzeme erişimi sağlar."
         },
         {
           "step": 4,
-          "title": "Kurulumu doğrulayın",
-          "text": "Oyunu yeniden başlatın ve mod özelliğinin (kamera geçişi, UI imleci vb.) kullanılabilir olduğunu onaylayın."
-        }
-      ],
-      "paths": [
-        {
-          "label": "Tipik Steam kurulumu",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
+          "task": "Kimseyi Geride Bırakma",
+          "vendor": "Gunny",
+          "area": "Pha Lang / Kiu Vongsa / Nam Thaven belediye binası",
+          "objectives": [
+            "Cesedin konumunu işaretle"
+          ],
+          "rewards": [
+            "400 TP",
+            "+100 Gunny ile İtibar",
+            "$1,700 USD",
+            "1x Scorpion OCP Convoy Pack"
+          ],
+          "why_it_matters": "Oyuncuların görev adını bilip tam binayı ve odayı unuttuğu yaygın bir tıkanma noktasıdır."
         },
         {
-          "label": "Eklenti klasörü",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
+          "step": 5,
+          "task": "Yardım Eli",
+          "vendor": "Handshake",
+          "area": "Başlangıç kasabası restoran tavan arası",
+          "objectives": [
+            "Restoranın tavan arasından istihbaratı al",
+            "İstihbaratı Handshake'e getir"
+          ],
+          "rewards": [
+            "400 TP",
+            "+100 Handshake ile İtibar",
+            "$2,300 USD",
+            "1x Leather Key Holder"
+          ],
+          "why_it_matters": "Oyuncuların anahtar gerektiren bir ilerleme engeline çarptığı en erken anlardan biridir."
+        },
+        {
+          "step": 6,
+          "task": "Ban Pa Üzerindeki Gölge",
+          "vendor": "Handshake",
+          "area": "YBL-1'den Ban Pa'ya giden rota",
+          "objectives": [
+            "Ban Pa'nın ana kuzey giriş noktasını keşfet",
+            "Ban Pa'nın ana güney giriş noktasını keşfet"
+          ],
+          "rewards": [
+            "1,000 TP",
+            "+150 Handshake ile İtibar",
+            "$4,700 USD",
+            "Turncoat satıcısına erişimi aç"
+          ],
+          "why_it_matters": "Turncoat'u açan ve oyuncuları başlangıç aşamasından çıkaran önemli bir ilerleme kırılma noktasıdır."
+        }
+      ]
+    },
+    "gzwInteractiveMap": {
+      "title": "Gray Zone Warfare İnteraktif Harita",
+      "intro": "Gray Zone Warfare arama trafiği büyük ölçüde konum odaklıdır. Ban Pa, Fort Narith veya YBL-1 gibi bir arama teriminden ihtiyacınız olan tam bağlama atlayın: harita karesi, düşman türü, kademe ve operasyon desteği.",
+      "items": [
+        {
+          "label": "Başlangıç Kasabaları",
+          "title": "Hangi temel rotada olduğunuzu bilin",
+          "content": [
+            "Kiu Vongsa — Crimson Shield International başlangıç kasabası — kare 141:164",
+            "Nam Thaven — Mithras Security Systems başlangıç kasabası — kare 171:118",
+            "Pha Lang — Lamang Recovery Initiative başlangıç kasabası — kare 202:162"
+          ],
+          "quick_notes": [
+            "Bu kasabalar erken görev akışınızı belirler",
+            "Kilitli odalar ve görev binaları farklılık gösterse de erken ilerleme yapısı aynıdır"
+          ]
+        },
+        {
+          "label": "YBL-1",
+          "title": "Oyuncuları haritanın orta kısımlarına yönlendirmeye başlayan sığınak",
+          "content": [
+            "Tür: Askeri yer altı sığınağı",
+            "Kare Konumu: 143:122",
+            "Sıklıkla keşif ve istihbarat tarzı görevlerle bağlantılıdır"
+          ],
+          "quick_notes": [
+            "Başlangıç ilerlemesi ile Ban Pa veya Fort Narith rotaları arasında bir köprü görevi görür"
+          ]
+        },
+        {
+          "label": "Ban Pa",
+          "title": "Tarikat görevleri ve anahtar baskısı içeren 2. Kademe köy",
+          "content": [
+            "Kademe: 2",
+            "Yerel Türü: İsyancılar",
+            "LZ Çağrı Kodu: INDIA",
+            "Kare Konumu: 205:137"
+          ],
+          "quick_notes": [
+            "Yaşlı evi, balıkçı kulübesi ve görev anahtarı aramaları için önemlidir",
+            "Oyuncular başlangıç kasabası kasmayı bıraktıktan sonraki yaygın adımdır"
+          ]
+        },
+        {
+          "label": "Fort Narith",
+          "title": "Adanın en büyük askeri bölgesi",
+          "content": [
+            "Kademe: 3",
+            "Yerel Türü: LAF Askerleri",
+            "LZ Çağrı Kodu: DELTA",
+            "Kare Konumu: 143:129"
+          ],
+          "quick_notes": [
+            "Görevleri, anahtarları, askeri ganimetleri ve tehlikeyi tek bir bölgede birleştirir",
+            "Birçok Fort Narith anahtarı, üssün içindeki veya çevresindeki ve yakındaki Savanpha'daki odaları açar"
+          ]
+        },
+        {
+          "label": "Tiger Bay",
+          "title": "Yoğun hedef ve ganimet rotasına sahip büyük şehir bölgesi",
+          "content": [
+            "Kademe: 3",
+            "Yerel Türü: İsyancılar ve LAF Askerleri",
+            "LZ Çağrı Kodu: JULIET",
+            "Kare Konumu: 198:130"
+          ],
+          "quick_notes": [
+            "Adadaki en büyük şehir",
+            "Alışveriş merkezi, merkezi cephanelik, komutan ve UNLRA görev rotaları için güçlü arama talebi"
+          ]
+        },
+        {
+          "label": "Midnight Sapphire",
+          "title": "Yüksek değerli tatil köyü bölgesi ve oyun sonu görev trafiği",
+          "content": [
+            "Kademe: 3",
+            "Yerel Türü: LAF Askerleri",
+            "LZ Çağrı Kodu: HOTEL",
+            "Villa, şelale ve otel tabanlı hedefleriyle tanınır"
+          ],
+          "quick_notes": [
+            "Genellikle anahtar kilitli görev rotalarıyla birlikte aranır"
+          ]
+        },
+        {
+          "label": "Blue Lagoon",
+          "title": "Keşif ve rota çeşitliliği için güneydeki tatil köyü tarafı ilgi noktası",
+          "content": [
+            "Açıklama: Güneyde dağların yakınında küçük tatil köyü",
+            "Kare Konumu: 203:117"
+          ],
+          "quick_notes": [
+            "Güney rotasyonlarını planlarken tanınabilir bir dayanak noktası olarak kullanışlıdır",
+            "Hem görev rotalarında hem de kod/asma kilit aramalarında görünür"
+          ]
+        }
+      ]
+    },
+    "gzwBeginnerGuide": {
+      "title": "Gray Zone Warfare Başlangıç Rehberi",
+      "intro": "Gray Zone Warfare'e yeni başlayan oyuncular genellikle mod seçimi, taraf seçimi, hayatta kalma eşikleri, helikopter kullanımı ve ekipman kaybı kuralları konusunda zorluk çekerler. Bu kısa kartlar, ilk oturumdaki zorlukları pratik cevaplara dönüştürür.",
+      "items": [
+        {
+          "title": "Önce Doğru Modu Seçin",
+          "summary": "Warfare, PvP modudur. Joint Operations ise PvE modudur.",
+          "details": [
+            "Warfare: Ada genelinde düşman oyuncular bulunur",
+            "Joint Operations: Düşman oyuncu yok, sadece yapay zeka düşmanlar var",
+            "Joint Operations, güvenli ilerleme ve geniş kapsamlı eşli öğrenme imkanı sunar",
+            "Warfare, yüksek riskli taraf çatışmaları ve tahliye baskısı için tasarlanmıştır"
+          ]
+        },
+        {
+          "title": "Tarafınızı Coğrafyaya Göre Seçin",
+          "summary": "Tarafınız; başlangıç kasabanızı, erken aşama rotalarınızı ve yüksek değerli bölgelere seyahat sürenizi değiştirir.",
+          "details": [
+            "Crimson Shield International, Kiu Vongsa yakınlarında başlar — daha yavaş erken ilerleme",
+            "Mithras Security Systems, Nam Thaven yakınlarında başlar — güvenli ve riskli rotaların arasında yer alır",
+            "Lamang Recovery Initiative, Pha Lang yakınlarında başlar ve çekişmeli bölgelere hızlı erişim sağlar",
+            "Fort Narith'e yaklaşık yürüyüş süresi: Lamang 5-10 dk, Mithras 15-20 dk, Crimson 25-30+ dk"
+          ]
+        },
+        {
+          "title": "Kaybetmeyi Göze Alamayacağınız Şeyleri Koruyun",
+          "summary": "Çoğu ekipman görev sırasında kaybedilebilir, ancak Secure Lockbox içeriğini korur.",
+          "details": [
+            "Secure Lockbox içindeki eşyalar öldüğünüzde korunur",
+            "Yakın dövüş silahları, normal taşınan ekipmanlar gibi kaybedilmez",
+            "Görev eşyaları bazen güvenli depolamada kalabilir — hızlı teslimat rotalarına öncelik verin"
+          ]
+        },
+        {
+          "title": "Hidrasyon ve Enerji Eşiklerini Takip Edin",
+          "summary": "Düşük hidrasyon ve düşük enerji, dayanıklılığı ve iyileşmeyi doğrudan olumsuz etkiler.",
+          "details": [
+            "Hidrasyon yüzde 50'nin altında: Susuz — kan yenilenmesi yok",
+            "Hidrasyon yüzde 1'de: Dehidre — bulanık görüş",
+            "Enerji yüzde 50'nin altında: Aç — kan yenilenmesi yok",
+            "Enerji yüzde 1'de: Açlıktan ölmek üzere — bulanık görüş"
+          ]
+        },
+        {
+          "title": "Kanama ve Koma, Çatışmalardan Daha Hızlı Öldürür",
+          "summary": "Yeni başlayanların ölümleri genellikle kafadan vuruşlardan ziyade tedavi edilmemiş yaralanmalardan kaynaklanır.",
+          "details": [
+            "Hafif, orta ve ağır kanamaların tümü, tedavi edilene kadar kan kaybına neden olmaya devam eder",
+            "Kan seviyesi yüzde 50'nin altına düşerse komaya girebilirsiniz",
+            "Parçalanmış akciğerler veya karaciğer de komaya neden olabilir",
+            "Takım arkadaşlarınızın, o tur için ölüm kalıcı hale gelmeden önce sizi canlandırmak için yaklaşık 180 saniyesi vardır"
+          ]
+        },
+        {
+          "title": "Helikopterleri Korunma ve Şaşırtma İçin Kullanın",
+          "summary": "Helikopter sadece bir ulaşım aracı değildir; bir hayatta kalma ve konumlandırma mekanizmasıdır.",
+          "details": [
+            "Oyuncular araçtayken hasara karşı bağışıklıdır",
+            "İndikten sonra 4 saniyelik bir dokunulmazlık penceresi vardır",
+            "Helikopter sesi, yapay zeka ve diğer oyuncular için taktiksel bir dikkat dağıtıcı görevi görür"
+          ]
+        },
+        {
+          "title": "Güvenli Alanlar Dışında AFK Kalmayın",
+          "summary": "AFK zamanlayıcısı, sizi aktif bir görevden çıkarırsa ekipman kaybına neden olabilir.",
+          "details": [
+            "Hareketsizlik sınırı 15 dakikadır",
+            "FOB dışındayken çıkarılırsanız, normal görevden ayrılma kaybı kuralları geçerli olur"
+          ]
+        }
+      ]
+    },
+    "gzwKeysGuide": {
+      "title": "Gray Zone Warfare Anahtar Rehberi",
+      "intro": "Anahtara bağlı ilerleme, Gray Zone Warfare'deki en büyük zorluklardan biridir. Başka bir turu boşa harcamadan önce doğru anahtarı bulun — nerede düşer, neyi açar ve hangi görevlerin önünü açar.",
+      "items": [
+        {
+          "key_name": "Kiu Vongsa Restaurant Storage Key",
+          "area": "Kiu Vongsa",
+          "where_to_find": "Kiu Vongsa'daki düşmanların ceplerinde",
+          "unlocks": "141:164 konumundaki restoran tavan arası kapısı",
+          "related_task": "Helping Hand",
+          "behind_lock": "Görev istihbarat konumu"
+        },
+        {
+          "key_name": "Pha Lang Restaurant Storage Key",
+          "area": "Pha Lang",
+          "where_to_find": "Pha Lang'daki düşmanların ceplerinde",
+          "unlocks": "Pha Lang restoranındaki tavan arası deposu",
+          "related_task": "Helping Hand",
+          "behind_lock": "1x Ateşli silah kasası; 1x Tıbbi dolap"
+        },
+        {
+          "key_name": "Nam Thaven Restaurant Storage Key",
+          "area": "Nam Thaven",
+          "where_to_find": "Nam Thaven'daki düşmanların ceplerinde",
+          "unlocks": "Nam Thaven restoranındaki tavan arası deposu",
+          "related_task": "Helping Hand",
+          "behind_lock": "Görev istihbarat rotası"
+        },
+        {
+          "key_name": "Sawmill Office Key",
+          "area": "Sawmill",
+          "where_to_find": "Sawmill'deki düşmanların ceplerinde",
+          "unlocks": "Tonmai Hainy Lumber Company'deki ofis binası",
+          "related_task": "EOD",
+          "behind_lock": "1x Ateşli Silah Kutusu; 1x İlk Yardım Dolabı; açıktaki silahlar"
+        },
+        {
+          "key_name": "Pha Lang Airfield Storage Office Key",
+          "area": "Pha Lang Airfield",
+          "where_to_find": "Pha Lang Airfield'daki düşmanların ceplerinde",
+          "unlocks": "Havalimanındaki depo binasında bulunan ofis odası",
+          "related_task": "Hazardous Treasures ganimet rotası",
+          "behind_lock": "Havalimanı depo ofisi ganimeti"
+        },
+        {
+          "key_name": "Ban Pa Elder's Room Key",
+          "area": "Ban Pa",
+          "where_to_find": "Ban Pa liderinin cebinde; ayrıca Ban Pa'da da çıkabilir",
+          "unlocks": "Yaşlı Evi'nin içindeki ikinci kat odası",
+          "related_task": "It's in the Water II",
+          "behind_lock": "Kimya odası tarzı görev hedefi rotası"
+        },
+        {
+          "key_name": "Ban Pa Fishing Hut Key",
+          "area": "Ban Pa",
+          "where_to_find": "Ban Pa'daki düşmanların ceplerinde",
+          "unlocks": "205:137 konumunda, Yaşlı Evi'nin yanındaki balıkçı kulübesi",
+          "related_task": "Ban Pa ganimeti ve yan rota arama trafiği",
+          "behind_lock": "1x Ateşli silah kutusu; 1x Ekipman Kutusu; 1x Mühimmat Kutusu"
+        },
+        {
+          "key_name": "Fort Narith Outskirts Improvised Armory Key",
+          "area": "Fort Narith / Savanpha Village",
+          "where_to_find": "Fort Narith anahtar rotası",
+          "unlocks": "146:128 konumunda, Savanpha Köyü'ndeki gri iki katlı evin arka odası",
+          "related_task": "Fort Narith dış mahalleleri ganimet rotası",
+          "behind_lock": "Eğreti cephanelik odası"
+        }
+      ]
+    },
+    "gzwMoneyGuide": {
+      "eyebrow": "Ekonomi",
+      "title": "Gray Zone Warfare Para Rehberi",
+      "subtitle": "Tekrarlanabilir başlangıç görevleri, daha iyi ganimet öncelikleri ve daha net satış kararlarıyla nakit akışınızı düzeltin. Bu modül, yüksek riskli çatışmalara girmeden para kazandıran rotalara ve eylemlere odaklanır.",
+      "intro": "Gray Zone Warfare'de para iki güvenilir kaynaktan gelir: görev ödülleri ve disiplinli ganimet toplama. Erken görevler zaten nakit, itibar ve kullanışlı eşyalar sağlarken, silah konteynerleri ve değerli eşyalar FOB satıcı ağı üzerinden satılabilir. İyi bir toparlanma döngüsü basittir: yakındaki bir görevi yapın, verimli bir şekilde ganimet toplayın, akıllıca satın ve bir sonraki ödemeyi aşırı pahalı bir kit kurmak yerine stokları yenilemek için kullanın.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Yakındaki ücretli görevlerle başlayın",
+          "summary": "Daha büyük ekipman riskleri almadan önce erken ve orta rota görevlerini ekonomi döngünüzün temeli olarak kullanın.",
+          "data_points": [
+            "Meds Wanted: 400 EXP, +100 Lab Rat itibarı, $1,200, 2x Combat Tourniquet",
+            "Helping Hand: 225 EXP, +150 Handshake itibarı, $440",
+            "Tools of the Trade: 150 EXP, +105 Artisan itibarı, $400",
+            "What's in Store: 2,000 EXP, +200 Gunny itibarı, $3,300, 1x HARDE Case"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Ganimet toplarken ateşli silah konteynerlerine öncelik verin",
+          "summary": "Silah konteynerleri; silah, şarjör ve silah parçaları içerebildikleri için yüksek değerli duraklardır.",
+          "data_points": [
+            "CSI Firearms Box: Silahlar ve silah parçaları için 8x6 ganimet konteyneri",
+            "UN Firearms Box: Silahlar ve silah parçaları için 7x4 ganimet konteyneri",
+            "Firearms Box: Silahlar ve silah parçaları için 8x3 ganimet konteyneri",
+            "Military Firearms Crate: AK308, AK74 ve SVD Dragunov şarjörleri içerebilir"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Değerli eşyaları en iyi ödemeyi yapan satıcıya satın",
+          "summary": "Değerli ganimetler herhangi bir satıcıya satılabilir, ancak farklı alıcılar farklı eşyalar için daha fazla ödeme yapar.",
+          "data_points": [
+            "Kolaylık yerine maksimum getiri istediğinizde listelenen en iyi alıcıyı kullanın",
+            "Değerli eşyalar, gösterilen en yüksek fiyattan %50 daha ucuza herhangi bir satıcıya satılabilir",
+            "Neyi FOB'a geri götüreceğinize ve neyi geride bırakacağınıza öncelik verin"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Nakdi daha iyi satıcı erişimine dönüştürün",
+          "summary": "Görev parası aynı zamanda satıcı itibarını artırıp daha iyi stokların kilidini açtığında ekonominiz güçlenir.",
+          "data_points": [
+            "Görevler, EXP kazanmanın en hızlı yoludur ve genellikle para, eşya ve satıcı itibarı ödüllendirir",
+            "Bazı görevler yeni satıcı stoklarının kilidini açar",
+            "Güncelleme 0.4, ödülleri eşyalardan ziyade paraya daha fazla önem verecek şekilde yeniden dengeledi",
+            "Bir görevi ilk kez tamamlamak daha büyük bir itibar artışı sağlar"
+          ]
+        }
+      ]
+    },
+    "gzwWeaponsGuide": {
+      "eyebrow": "Silahlar",
+      "title": "Gray Zone Warfare Silah Rehberi",
+      "subtitle": "Temel tüfek platformlarını, kalibrelerini ve her ailenin geniş silah havuzunda nereye uyduğunu takip edin. Amaç, oyuncuların şarjör, mühimmat ve eklentilere yatırım yapmadan önce platform farklarını hızlıca anlamalarına yardımcı olmaktır.",
+      "intro": "Gray Zone Warfare'in silah ekosistemi kalibre aileleri, uyumlu şarjörler ve eklenti ekosistemleri etrafında kurulmuştur. Resmi silah sayfaları ve satıcı sayfaları oyunda hangi platformların mevcut olduğunu gösterirken, en son Spearhead geliştirici günlüğü; ağırlık, sallanma, ADS davranışı, şarjör değiştirme yönetimi ve balistiğin oyunun mevcut yönünde daha önemli olduğunu doğrulamaktadır. Bu, silah seçiminin artık sadece saf ateş gücüyle ilgili olmadığı anlamına gelir.",
+      "items": [
+        {
+          "name": "AK-12",
+          "category": "Piyade Tüfeği",
+          "caliber": "5.45x39mm",
+          "fire_mode": "Tekli / Tam Otomatik",
+          "fire_rate": "700 RPM",
+          "notes": [
+            "AK-74M, AK-74N ve AKS-74U ile aynı kalibre ailesini paylaşır",
+            "5.45 mühimmat ailesini kullanan oyuncular için iyi bir platform"
+          ]
+        },
+        {
+          "name": "AK-15",
+          "category": "Piyade Tüfeği",
+          "caliber": "7.62x39mm",
+          "fire_mode": "Tekli / Tam Otomatik",
+          "fire_rate": "700 RPM",
+          "notes": [
+            "AKM, AKMN, AKMSN ve SKS ile aynı kalibre ailesini kullanır",
+            "Geniş mühimmat bulunabilirliği ile çok yönlü orta menzil platformu"
+          ]
+        },
+        {
+          "name": "AK-19",
+          "category": "Piyade Tüfeği",
+          "caliber": "5.56x45mm NATO",
+          "fire_mode": "Tekli / Tam Otomatik",
+          "fire_rate": "700 RPM",
+          "notes": [
+            "M4A1, DDM4 ve CQ A1 ile aynı kalibre ailesini paylaşır",
+            "AK desenli platformu NATO kalibreli mühimmat erişimiyle birleştirir"
+          ]
+        },
+        {
+          "name": "AK-74M",
+          "category": "Piyade Tüfeği",
+          "caliber": "5.45x39mm",
+          "fire_mode": "Tekli / Tam Otomatik",
+          "fire_rate": "650 RPM",
+          "notes": [
+            "5.45 tüfek grubunun bir parçası",
+            "Erken aşamada yaygın olarak bulunur ve 5.45 kalibre ağacı için sağlam bir temeldir"
+          ]
+        },
+        {
+          "name": "SIG MCX",
+          "category": "Piyade Tüfeği",
+          "caliber": ".300 AAC Blackout",
+          "fire_mode": "Modüler platform",
+          "fire_rate": "Silah sayfasına bakın",
+          "notes": [
+            "Özel platform kalibresi, en iyi bağımsız bir yapı olarak değerlendirilir",
+            "Tek kalibreli mühimmat düzenine alışkın oyuncular için niş ama güçlü bir seçenek"
+          ]
+        },
+        {
+          "name": "0.4 Kullanım Değişiklikleri",
+          "category": "Sistem Notları",
+          "caliber": "Tüm platformlar",
+          "fire_mode": "Tüm modlar",
+          "fire_rate": "N/A",
+          "notes": [
+            "Güncelleme 0.4, silah ağırlığının ergonomi, sallanma, hızlanma ve ADS üzerindeki etkilerini ekler",
+            "Silah istatistikleri, kullanım ve şarjör değiştirme davranışını vurgulamak için yenilendi",
+            "Silahları ve mühimmatı daha uygulanabilir kılmak için balistik hesaplamaları iyileştirildi"
+          ]
+        }
+      ]
+    },
+    "gzwAmmoGuide": {
+      "eyebrow": "Mühimmat",
+      "title": "Gray Zone Warfare Mühimmat Rehberi",
+      "subtitle": "Mühimmat ailelerini onları ateşleyen silahlarla ilişkilendirmek için bu kalibre genel bakışını kullanın. Oyunculara envanter planlaması, şarjör seçimi ve platformlar arası mühimmat paylaşımı için pratik bir harita sunar.",
+      "intro": "Gray Zone Warfare'de mühimmat seçimi doğrudan silah platformuna ve şarjör uyumluluğuna bağlıdır. Oyun wikisinin mühimmat genel bakışı, hangi kalibrelerin hangi tüfekler, DMR'ler ve sürgülü mekanizmalı silahlar tarafından kullanıldığını gösterirken, en son geliştirici günlüğü Spearhead'de balistik ve genel mühimmat uygulanabilirliğinin yeniden elden geçirildiğini doğrulamaktadır. Bu, kalibre farkındalığını kötü mühimmat hatalarından kaçınmanın en kolay yollarından biri yapar.",
+      "items": [
+        {
+          "caliber": ".300 AAC Blackout",
+          "used_by": "SIG MCX",
+          "weapon_class": "Piyade tüfeği platformu",
+          "planning_note": "Paylaşılan bir erken envanter temelinden ziyade özel bir platform kalibresi olarak değerlendirilmesi en iyisidir."
+        },
+        {
+          "caliber": "5.45x39mm",
+          "used_by": "AK-74M, AK-74N, AK-12, AKS-74U",
+          "weapon_class": "Piyade tüfekleri",
+          "planning_note": "Birden fazla AK desenli tüfeğin aynı kalibre ailesinden beslenmesini istediğinizde kullanışlıdır."
+        },
+        {
+          "caliber": "5.56x45mm NATO",
+          "used_by": "M4A1, DDM4, CQ A1, AK-19",
+          "weapon_class": "Piyade tüfekleri",
+          "planning_note": "Hem batı tarzı tüfekleri hem de AK-19 platformunu kapsayan geniş bir tüfek kalibre ailesi."
+        },
+        {
+          "caliber": "7.62x39mm",
+          "used_by": "AKM, AKMN, AKMSN, AK-15, SKS",
+          "weapon_class": "Piyade tüfekleri ve DMR",
+          "planning_note": "Hem piyade tüfeği hem de SKS kurulumlarını destekler, roller arasında geçiş yapan oyuncular için kullanışlıdır."
+        },
+        {
+          "caliber": "7.62x51mm NATO",
+          "used_by": "AK-308, M700",
+          "weapon_class": "Piyade tüfeği ve sürgülü mekanizmalı tüfek",
+          "planning_note": "Hafif piyade tüfeği aileleri yerine daha ağır hassasiyet odaklı silah seçenekleri arasında paylaşılır."
+        },
+        {
+          "caliber": "0.4 Balistik Yönü",
+          "used_by": "Tüm mühimmat türleri",
+          "weapon_class": "Sistem geneli",
+          "planning_note": "Spearhead güncelleme notları, balistik hesaplamalarının iyileştirildiğini ve silahlar ile mühimmatın daha iyi uygulanabilirlik için yeniden dengelendiğini doğrulamaktadır."
+        }
+      ]
+    },
+    "gzwVendorsGuide": {
+      "eyebrow": "Satıcılar",
+      "title": "Gray Zone Warfare Satıcı Rehberi",
+      "subtitle": "Her satıcının hangi alanda uzmanlaştığını, hangi görevlerin ekstra erişim sağladığını ve satıcı itibarının daha iyi stokların kilidini nasıl açtığını görün. Bu, rastgele yükseltmeler yerine belirli bir ekipman türü istediğinizde ilerleme planlamasını çok daha kolay hale getirir.",
+      "intro": "Satıcılar, Gray Zone Warfare ilerlemesinin temel taşıdır. Ekipman satarlar, yağmalanan eşyaları satın alırlar ve itibarınız arttıkça daha iyi stokların kilidini açarlar. Satıcı sayfaları ayrıca birkaç tüccarın görev zincirleriyle birbirine bağlı olduğunu gösterir; bu nedenle akıllıca ilerlemek sadece itibar kazanmak değil, aynı zamanda bir sonraki istediğiniz kategoriyi açan satıcıyla bunu yapmak anlamına gelir.",
+      "items": [
+        {
+          "vendor": "Handshake",
+          "specialty": "Kasklar, teçhizat, vücut zırhı, konteynerler, aletler",
+          "rank_thresholds": "Kademe 1: 0 | Kademe 2: 700 | Kademe 3: 2500 | Kademe 4: 6500",
+          "unlock_path": "Başlangıç satıcısı, ön koşul yok",
+          "progression_note": "Koruma, depolama ve genel saha teçhizatına bağlı erken ilerleme isteyen oyuncular için iyidir."
+        },
+        {
+          "vendor": "Lab Rat",
+          "specialty": "İlaçlar, yiyecekler, içecekler, konteynerler",
+          "rank_thresholds": "Kademe 1: 0 | Kademe 2: 700 | Kademe 3: 2500 | Kademe 4: 6500",
+          "unlock_path": "Temel satıcı, ön koşul yok",
+          "progression_note": "İyileştirme eşyaları, erzak ve yardımcı depolama için birincil tıbbi ve sürdürülebilirlik satıcısı."
+        },
+        {
+          "vendor": "Gunny",
+          "specialty": "Silahlar, şarjörler, mühimmat, fırlatılabilirler, nişangahlar, silah eklentileri",
+          "rank_thresholds": "Kademe 1: 0 | Kademe 2: 700 | Kademe 3: 2500 | Kademe 4: 6500",
+          "unlock_path": "Temel satıcı, ön koşul yok",
+          "progression_note": "Amacınız tüfek seçeneğini, eklentileri ve mühimmat erişimini geliştirmek olduğunda en iyi erken aşama dayanağıdır."
+        },
+        {
+          "vendor": "Artisan",
+          "specialty": "Silahlar, şarjörler, mühimmat, nişangahlar, eklentiler, kasklar, konteynerler",
+          "rank_thresholds": "Kademe 1: 0 | Kademe 2: 700 | Kademe 3: 2500 | Kademe 4: 6500",
+          "unlock_path": "Lab Rat'ten Native Negotiations görevini tamamlamayı gerektirir",
+          "progression_note": "Eklentiler ve silah yapılandırmaları üzerinde daha fazla teknik kontrol istediğinizde öncelik verilmesi gereken güçlü bir satıcıdır."
+        },
+        {
+          "vendor": "Banshee",
+          "specialty": "Silahlar, şarjörler, mühimmat, nişangahlar, eklentiler, teçhizat",
+          "rank_thresholds": "Kademe 1: 0 | Kademe 2: 700 | Kademe 3: 2500 | Kademe 4: 6500",
+          "unlock_path": "Artisan'dan Invaders From Afar görevini tamamlamayı gerektirir",
+          "progression_note": "Giyilebilir ekipman seçeneklerini genişletirken başka bir silah odaklı dal isteyen oyunculara uygundur."
+        },
+        {
+          "vendor": "Turncoat",
+          "specialty": "Silahlar, mühimmat, nişangahlar, eklentiler, kasklar, teçhizat, vücut zırhı, konteynerler",
+          "rank_thresholds": "Kademe 1: 0 | Kademe 2: 700 | Kademe 3: 2500 | Kademe 4: 6500",
+          "unlock_path": "Handshake'ten The Shadow Over Ban Pa görevini tamamlamayı gerektirir",
+          "progression_note": "Silah desteğini zırh ve konteyner ilerlemesiyle birleştiren en geniş envanterlerden biridir."
+        }
+      ]
+    },
+    "gzwHealthSystemGuide": {
+      "eyebrow": "Hayatta Kalma Sistemleri",
+      "title": "Gray Zone Warfare Sağlık Sistemi Rehberi",
+      "subtitle": "Gray Zone Warfare, basit bir HP çubuğu yerine vücut parçası ve hayati havuz sistemi kullanır. Hayatta kalmanın en hızlı yolu, asıl sorunu belirlemek ve doğru tedavi eşyasını hemen kullanmaktır.",
+      "intro": "Gray Zone Warfare'da yaralar, morluklar, organ hasarı, kan kaybı, ağrı ve hidrasyonun hepsi birbiriyle etkileşim halindedir. Bir oyuncu bir an için canlı görünebilir ve kanama, organ hasarı veya dehidrasyon doğru sırayla ele alınmazsa yine de yere yığılabilir. Bu rehber, oyuncuların bir semptomu doğru çözümle eşleştirebilmesi için baskın sırasında hızlı referans olması amacıyla oluşturulmuştur.",
+      "items": [
+        {
+          "section": "Temel Sağlık Modeli",
+          "content": [
+            "Vücut parçalarını ve kan ile hidrasyon gibi hayati havuzları takip eder; geleneksel HP modeli yoktur",
+            "Hayatta kalma, sadece görünür semptomu değil, sorunun nedenini tedavi etmeye bağlıdır",
+            "Kan doğal olarak yenilenebilir, ancak hidrasyon veya enerji çok düştüğünde iyileşme durur"
+          ]
+        },
+        {
+          "section": "Yaralar ve Kanama",
+          "content": [
+            "Yaralar kırmızı ile işaretlenir ve bir mermi koruyucu teçhizatı geçtiğinde oluşur",
+            "Hafif yaralar zamanla iyileşebilir; orta ve ağır yaraların tedavi edilmesi gerekir",
+            "Bandajlar yaraları tedavi eder; turnikeler kanamayı durdurur ancak yarayı iyileştirmez"
+          ]
+        },
+        {
+          "section": "Morluklar ve Ağrı",
+          "content": [
+            "Morluklar mor ile işaretlenir ve zırh bir darbeyi durdurduğunda ancak darbe hala travmaya neden olduğunda oluşur",
+            "Morluklar ağrı yaratır ancak genellikle zamanla doğal olarak iyileşir",
+            "Ağrı ve acı çekme, silah kullanımını kötüleştiren titremelere yol açabilir"
+          ]
+        },
+        {
+          "section": "Kırık Kemikler ve Hareket Kaybı",
+          "content": [
+            "Kol ve bacak kemikleri darbeler veya düşmeler sonucu hasar görebilir",
+            "Bacak kemiğinin parçalanması topallamaya neden olur, koşma ve zıplamayı engeller ve dayanıklılık yenilenmesini yavaşlatır",
+            "Flexible Splints, kırık veya çatlak uzuvlar için standart tedavidir"
+          ]
+        },
+        {
+          "section": "Organ Hasarı",
+          "content": [
+            "Beyin, kalp, akciğerler ve karaciğer hasar görebilir",
+            "Kalp veya beyin gibi hayati organların parçalanması anında ölümle sonuçlanır",
+            "Cerrahi kitler, hasarlı veya parçalanmış organları onarmak için kullanılır"
+          ]
+        },
+        {
+          "section": "Kan Kaybı ve Yığılma",
+          "content": [
+            "Kan kaybı semptomların kötüleşmesine neden olur ve koma ile sonuçlanabilir",
+            "Kan 5.000 ml'nin üzerine çıkana veya hidrasyon ve enerji geri kazanılana kadar Baş Dönmesi durumu görülür",
+            "Kan torbaları kaybedilen kanı takviye etmek için kullanılır"
+          ]
+        },
+        {
+          "section": "Hidrasyon ve Enerji",
+          "content": [
+            "Susuzluk, hidrasyon yüzde 50'nin altına düştüğünde başlar ve kan yenilenmesini durdurur",
+            "Dehidrasyon bulanık görmeye neden olur ve hidrasyon yüzde 1'in üzerine çıkana kadar devam eder",
+            "Açlık, enerji yüzde 50'nin altına düştüğünde başlar ve aynı zamanda kan yenilenmesini durdurur"
+          ]
+        },
+        {
+          "section": "Yaygın Tıbbi Eşyalar",
+          "content": [
+            "ARF Trauma Bandage 4 — yaraları iyileştirir, 4 kullanım",
+            "Civilian Gauze — yaraları iyileştirir, 3 kullanım",
+            "Flexible Splint — kırıkları onarır, 5 kullanım",
+            "Basic Surgical & Suture Kit — organ yaralanmalarını tedavi eder, 6 kullanım",
+            "Large Blood Bag — kullanım başına 500 ml, 2 kullanım",
+            "Meloxicam ve Ibalin — ağrı etkilerini azaltmak için ağrı kesiciler"
+          ]
+        },
+        {
+          "section": "Hızlı Tedavi Sırası",
+          "content": [
+            "İlk olarak: aktif kanamayı durdurun",
+            "Sonra: yaraları ve kırıkları düzeltin",
+            "Sonra: gerektiğinde organları stabilize edin",
+            "Sonra: semptomlar devam ederse kan hacmini geri kazanın",
+            "Son olarak: yenilenmenin devam edebilmesi için hidrasyon ve enerjiyi tamamlayın"
+          ]
+        },
+        {
+          "section": "Ekip İyileştirme Kuralları",
+          "content": [
+            "Bir takım arkadaşını iyileştirmek için tıbbi eşyalar Tactical Rig, Tactical Belt veya Ceplerde olmalıdır",
+            "Neye müdahale edilmesi gerektiğini görmek için önce yaralı oyuncuyu muayene edin",
+            "Tıbbi çantalar envanter alanından tasarruf sağlar ancak eşyalar kullanılmadan önce dışarı çıkarılmalıdır"
+          ]
+        }
+      ]
+    },
+    "gzwFactionsGuide": {
+      "eyebrow": "PMC Seçimi",
+      "title": "Gray Zone Warfare Gruplar Rehberi",
+      "subtitle": "Gray Zone Warfare, farklı hikayelere, ana kamp konumlarına, başlangıç kasabalarına ve görev rotalarına sahip üç oynanabilir PMC içerir. Grup seçiminiz ayrıca belirli arkadaşlarınızla ekip kurup kuramayacağınızı da belirler.",
+      "intro": "Grup seçimi sadece kozmetik değildir. Haritadaki başlangıç tarafınızı, erişilebilir erken rotalarınızı ve görev akışınızın parçalarını etkiler. Gruplar için en önemli kural: herkes aynı grupta olmalıdır.",
+      "items": [
+        {
+          "name": "Lamang Recovery Initiative",
+          "summary": "Ground Zero çevresinde kendisini bir kurtarma ve geri kazanım gücü olarak sunan, milyarderler tarafından finanse edilen bir PMC.",
+          "highlights": [
+            "Halkla ilişkiler imajı kazazede arama, kurtarma ve temizlik üzerine kuruludur",
+            "Ekipleri korumak için küçük, son derece profesyonel güvenlik detayları kullanır",
+            "Başlangıç kasabası: Pha Lang — çekişmeli bölgelere hızlı erişim"
+          ]
+        },
+        {
+          "name": "Mithras Security Systems",
+          "summary": "Saha deneyimine ve askeri yetkinliğe değer veren, asker odaklı bir PMC.",
+          "highlights": [
+            "Kendisini askerler tarafından askerler için yönetilen bir şirket olarak pazarlar",
+            "Deneyimli operatörleri kabul eder; liyakat ve ganimet paylaşımı kültürünü vurgular",
+            "Başlangıç kasabası: Nam Thaven — daha güvenli ve daha tehlikeli rotalar arasında"
+          ]
+        },
+        {
+          "name": "Crimson Shield International",
+          "summary": "Acımasız etkinliği ve daha sert itibarıyla tanınan, yüksek başarı oranına sahip bir PMC.",
+          "highlights": [
+            "Hikayede yüzde 95 başarı oranıyla bilinir",
+            "Aksiyon odaklı operatörleri çeker ancak ikincil hasar konusunda bir itibarı vardır",
+            "Başlangıç kasabası: Kiu Vongsa — genellikle daha yavaş erken ilerleme için daha dostane kabul edilir"
+          ]
+        },
+        {
+          "name": "Aslında Ne Değişiyor",
+          "summary": "Grup seçimi, hikaye metninden daha fazlasını etkiler.",
+          "highlights": [
+            "Grubunuz Lamang Island üzerindeki başlangıç bölgenizi belirler",
+            "Bazı mevcut görevler gruba göre farklılık gösterir",
+            "Arkadaşların birlikte oynamak için aynı gruba katılması gerekir",
+            "Sıfırlama gerekirse oyuncu her 7 günde bir karakterini silebilir"
+          ]
+        }
+      ]
+    },
+    "gzwArmorGuide": {
+      "eyebrow": "Koruma",
+      "title": "Gray Zone Warfare Zırh Rehberi",
+      "subtitle": "Zırhın etkinliği NIJ sınıfına, plakaların vücudunuzda tam olarak nereyi kapladığına ve zırhın hangi malzemeden yapıldığına bağlıdır. Daha fazla ödemek, her durumda otomatik olarak daha iyi koruma anlamına gelmez.",
+      "intro": "Oyun, NIJ tarzı zırh sınıfları ve bölge tabanlı bir plaka sistemi kullanır. Bir zırh parçasını incelediğinizde, önemli olan soru sadece sınıf numarası değil, aynı zamanda plakanın açıkta bırakabileceğiniz ön ve arka bölgeleri koruyup korumadığıdır. Malzeme de önemlidir, çünkü farklı zırh türleri, dayanıklılık değişse bile mermilere farklı şekilde direnç gösterir.",
+      "rows": [
+        {
+          "name": "Commander (Navy)",
+          "type": "Zırh Yeleği",
+          "nij": "IIIA",
+          "material": "UHMWPE",
+          "weight": "4.000 kg",
+          "how_to_get": "Handshake R.1"
+        },
+        {
+          "name": "Specter",
+          "type": "Plaka Taşıyıcı",
+          "nij": "IIIA",
+          "material": "Aramid",
+          "weight": "1.480 kg",
+          "how_to_get": "Yağmalama"
+        },
+        {
+          "name": "Pantsir 2.0",
+          "type": "Plaka Taşıyıcı",
+          "nij": "III",
+          "material": "Seramik",
+          "weight": "8.480 kg",
+          "how_to_get": "Turncoat R.2 / Yağmalama"
+        },
+        {
+          "name": "Recon Plate Carrier",
+          "type": "Plaka Taşıyıcı",
+          "nij": "III+",
+          "material": "UHMWPE",
+          "weight": "5.600 kg",
+          "how_to_get": "Handshake R.4 / Görev ödülleri"
+        },
+        {
+          "name": "M2 Plate Carrier",
+          "type": "Plaka Taşıyıcı",
+          "nij": "III+",
+          "material": "Seramik",
+          "weight": "7.640 kg",
+          "how_to_get": "Yağmalama / Görev ödülü"
+        },
+        {
+          "name": "CZ 4M Lancer",
+          "type": "Plaka Taşıyıcı",
+          "nij": "III",
+          "material": "Çelik",
+          "weight": "9.550 kg",
+          "how_to_get": "Handshake R.3 / Görev ödülleri"
         }
       ],
-      "multiplayerNote": "Modlanmış işbirliği oynanış özellikleri için herkes BepInEx'i ve aynı oynanış modlarını kurmalıdır."
+      "notes": [
+        "Gray Zone Warfare NIJ sistemini kullanır — en kötüden en iyiye koruma seviyeleri: I, IIA, IIA+, IIIA, IIIA+, III, III+, III++",
+        "İnceleme ekranındaki görünür plaka konumları, delinme korumasının nerede olduğunu gösterir",
+        "Zırh malzemesi önemlidir: UHMWPE düşük dirençli, Seramik orta, Çelik ise daha yüksek dirençlidir",
+        "Plaka taşıyıcılar depolama alanını zırhla birleştirir; düz yelekler ise zırhsız bir taktik yelek (rig) ile eşleşir",
+        "Güncelleme 0.4 arayüzü artık zırh seviyelerini daha net gösteriyor ve mühimmat detayları, bir merminin delemeyeceği en düşük zırh sınıfını görüntülüyor"
+      ]
     },
-    "popularMods": {
-      "title": "Lucid Blocks Popüler Modlar",
-      "subtitle": "En iyi topluluk seçimleri",
-      "mods": [
+    "gzwBestLoadouts": {
+      "eyebrow": "Dizilimler",
+      "title": "Gray Zone Warfare En İyi Dizilimler",
+      "subtitle": "En kullanışlı Gray Zone Warfare dizilimleri gösterişli teorik tasarımlar değildir. Bunlar hayatta kalma, tahliye, görev verimliliği, zırh kapsamı, tıbbi hazırlık ve doğru miktarda hareketlilik etrafında oluşturulmuş kitlerdir.",
+      "intro": "Bu modül, oyuncuların gerçekten kullandığı gerçek konuşlandırma arketiplerine odaklanır: ucuz bir başlangıç tüfeği kurulumu, sessiz bir solo PvE kiti, daha ağır bir manga çatışma dizilimi ve hedef odaklı bir görev koşusu kurulumu. Her biri dayanıklılık, hidrasyon, bastırma, zırh kapsamı ve tıbbi hazırlık gibi kanıtlanmış oyun sistemleri etrafında tasarlanmıştır.",
+      "items": [
         {
-          "title": "Doğma Menüsü",
-          "tags": [
-            "Eğlence",
-            "Araçlar",
-            "Yalnızca Ev Sahibi"
-          ],
-          "description": "Uçuş modu ile bir eşya doğma menüsü ekler.",
-          "controls": [
+          "name": "Başlangıç Bütçe Koşusu",
+          "summary": "Başlangıç kasabası görevleri ve erken nakit kazanımı için düşük riskli bir kurulum.",
+          "highlights": [
+            "AKM gibi uygun fiyatlı tüfekler — genellikle ucuz bir başlangıç platformu olarak önerilir",
+            "Zırh hedefi: ağırlığı aşırı yüklemeden ön ve arka koruma",
+            "Tıbbi çekirdek: bandaj, atel, kan torbası, ağrı kesici",
+            "Oyun tarzı: uzun çatışmalardan kaçın, hedefi tamamla ve tahliye ol"
+          ]
+        },
+        {
+          "name": "Solo PvE Gizlilik Kiti",
+          "summary": "Sessizce hareket etmek, görevleri bitirmek ve tek başına hayatta kalmak için tasarlandı.",
+          "highlights": [
+            "Susturuculu silahlar solo oyun için şiddetle tercih edilir",
+            "Dayanıklılık ve hidrasyonu yönetmek için daha hafif zırh ve kontrollü hareket kullanın",
+            "Görev öğelerine ve önemli ganimetlere açgözlülükten daha fazla öncelik verin",
+            "Girmeden önce yerleşkeleri keşfedin ve tahliyeyi (exfil) asıl zafer olarak görün"
+          ]
+        },
+        {
+          "name": "Manga PvEvP Ağır Kiti",
+          "summary": "Çekişmeli bölgeler ve daha zorlu çatışmalar için daha güçlü bir grup dizilimi.",
+          "highlights": [
+            "Mümkün olduğunda ön ve arka kapsamlı ve daha güçlü NIJ sınıflarına sahip plaka taşıyıcılar",
+            "Takım arkadaşlarının birbirini hızlıca tedavi edebilmesi için erişilebilir yuvalarda tıbbi öğeler",
+            "Birden fazla açı, paylaşılan malzemeler ve canlandırma desteği ile hareket edin",
+            "Oyun sonu alanları için susturuculu atış ve en az bir takım arkadaşı şiddetle tavsiye edilir"
+          ]
+        },
+        {
+          "name": "Görev Odaklı Yardımcı Dizilim",
+          "summary": "Seyahat, arama ve tahliyenin öldürme sayısından daha önemli olduğu görevler için dengeli bir kit.",
+          "highlights": [
+            "Yalnızca görevi destekleyenleri taşıyın: silah, ilaçlar, hidrasyon ve görev öğeleri için yer",
+            "Fraksiyon seçimi rota verimliliğini değiştirir — her fraksiyon farklı bir kasabada başlar",
+            "Görev akışı Güncelleme 0.4'te tekrar elden geçirildi",
+            "En iyi görev dizilimi ağırlığı kontrol altında tutar ve hedef öğelerini eve getirmek için yer bırakır"
+          ]
+        }
+      ]
+    },
+    "gzwPveVsPvpGuide": {
+      "title": "Gray Zone Warfare PvE vs PvP Rehberi",
+      "intro": "Gray Zone Warfare hem Warfare hem de Joint Operations modlarını destekler. İlerleme modlar arasında paylaşılır, bu nedenle birçok oyuncu aynı karakteri Warfare moduna sokmadan önce konumları ve görevleri öğrenmek için Joint Operations modunu kullanır.",
+      "items": [
+        {
+          "aspect": "Temel Kurallar",
+          "warfare": "Tam PvPvE — rakip fraksiyonlar harita genelinde birbirleriyle savaşabilir",
+          "joint_operations": "Sadece PvE — oyuncular birbirine saldıramaz veya birbirini yağmalayamaz, sadece yapay zeka düşmanlar vardır"
+        },
+        {
+          "aspect": "Yeni Oyuncu Uygunluğu",
+          "warfare": "Başlangıçtan itibaren öngörülemeyen karşılaşmalar ve fraksiyon baskısı isteyen oyuncular için en iyisidir",
+          "joint_operations": "Tahliye akışını, iyileşmeyi, harita rotalarını ve görev hedeflerini öğrenmek isteyen yeni başlayanlar için en iyisidir"
+        },
+        {
+          "aspect": "Solo Dostu",
+          "warfare": "Solo oynanabilir, ancak helikopter zamanlaması ve düşman oyuncular hataları daha cezalandırıcı hale getirir",
+          "joint_operations": "Solo öğrenme için daha bağışlayıcıdır çünkü düşman baskısı insan pusularından ziyade yapay zekadan gelir"
+        },
+        {
+          "aspect": "Manga Boyutu",
+          "warfare": "Solo veya manga oyunu, dört oyuncuya kadar",
+          "joint_operations": "Solo veya manga oyunu, dört oyuncuya kadar"
+        },
+        {
+          "aspect": "Oyuncu Tehdidi",
+          "warfare": "Düşman PMC'ler, kısa süreli helikopter varış koruması dışında haritanın her yerinde sizi vurabilir",
+          "joint_operations": "Katılımcılar arasında düşmanca oyuncu hasarı veya oyuncu yağmalaması yoktur"
+        },
+        {
+          "aspect": "Muharebe Karakolları",
+          "warfare": "Fraksiyonlar COP kontrolü için savaşır; rakip oyuncular karakol savaş akışının bir parçası olur",
+          "joint_operations": "İlk fraksiyon yapay zekayı temizleyerek COP'u ele geçirir; ondan sonra tüm fraksiyonlar burayı ortak bir güvenli bölge olarak kullanabilir"
+        },
+        {
+          "aspect": "En İyi Kullanım Durumu",
+          "warfare": "Tahliye gerilimi, fraksiyon çatışması ve rotalar ile karakollar etrafındaki dinamik karşılaşmalar için buraya gidin",
+          "joint_operations": "Görevleri bitirmek, düzenleri öğrenmek, kitleri test etmek veya daha az değişkenle deneyim kasmak için buraya gidin"
+        },
+        {
+          "aspect": "İlerleme",
+          "warfare": "Paylaşılan karakter ilerlemesi",
+          "joint_operations": "Paylaşılan karakter ilerlemesi — burada yapılan ilerleme Warfare moduna da aktarılır"
+        },
+        {
+          "aspect": "Önerilen Oyuncu Tipi",
+          "warfare": "Tahliye gazileri, kendine güvenen ikililer ve mangalar ile çekişmeli hedeflerden hoşlanan oyuncular",
+          "joint_operations": "Yeni oyuncular, görev odaklı oyuncular ve rotalar, iyileşme akışı veya satıcı ilerlemesi pratiği yapan herkes"
+        }
+      ]
+    },
+    "gzwLocationsGuide": {
+      "title": "Gray Zone Warfare Konum Rehberi",
+      "intro": "Gray Zone Warfare arama amacı büyük ölçüde konum odaklıdır çünkü oyuncular sürekli olarak başlangıç kasabaları, görev hedefleri, ganimet alanları ve askeri yerleşkeler arasında hareket ederler. Aşağıdaki ana ilgi noktaları (POI), en yararlı ana sayfa bağlantılarını kapsamaktadır.",
+      "sections": [
+        {
+          "section": "Başlangıç Kasabaları",
+          "entries": [
             {
-              "key": "F",
-              "action": "Doğma menüsünü aç"
+              "name": "Kiu Vongsa",
+              "grid": "141:164",
+              "role": "Crimson Shield International için başlangıç kasabası",
+              "why": "CSI rotaları ve yakındaki çiftlik tarafı hareketliliği için yaygın bir oyun başı varış noktası"
             },
             {
-              "key": "V",
-              "action": "Uçmayı etkinleştir"
-            }
-          ],
-          "note": "Yalnızca Ev Sahibi; başkalarının katılmak için yüklemesi gerekmez."
-        },
-        {
-          "title": "Üçüncü Şahıs Görünümü",
-          "tags": [
-            "Kamera",
-            "Yaşam Kalitesi"
-          ],
-          "description": "Üçüncü şahıs kamera görünümü ekler.",
-          "controls": [
+              "name": "Nam Thaven",
+              "grid": "171:118",
+              "role": "Mithras Security Systems için başlangıç kasabası",
+              "why": "Mithras oyuncuları için temel açılış alanı ve erken rota planlama noktası"
+            },
             {
-              "key": "F7",
-              "action": "Birinci şahıs / üçüncü şahıs arasında geçiş yap"
+              "name": "Pha Lang",
+              "grid": "202:162",
+              "role": "Lamang Recovery Initiative için başlangıç kasabası",
+              "why": "LRI ilerlemesi ve güneye hareket için ana oyun başı bölgesi"
             }
           ]
         },
         {
-          "title": "Daha Fazla Şapka",
-          "tags": [
-            "Kozmetik"
-          ],
-          "description": "Cüceler için ek şapka rengi seçenekleri ekler.",
-          "colors": [
-            "Mavi",
-            "Yeşil",
-            "Turuncu",
-            "Mor",
-            "Siyah",
-            "Kırmızı"
+          "section": "Önemli Görev ve Ganimet Varış Noktaları",
+          "entries": [
+            {
+              "name": "Sawmill",
+              "grid": "139:144",
+              "role": "Eski bir kereste fabrikasının bulunduğu 2. Seviye bölge",
+              "why": "Başlangıç alanlarından sonraki belirgin aşama ve sıkça ziyaret edilen bir oyun ortası hedefi"
+            },
+            {
+              "name": "Hunter's Paradise",
+              "grid": "159:168",
+              "role": "Özel atış poligonu",
+              "why": "Oyuncular burayı görevler, rota planlama ve yakındaki ilgi noktaları için ararlar"
+            },
+            {
+              "name": "Ban Pa",
+              "grid": "205:137",
+              "role": "Doğu tarafında, su kenarında küçük bir kasaba",
+              "why": "Görev rotası ve doğu seyahat planlaması için kullanışlıdır"
+            },
+            {
+              "name": "Pha Lang Airfield",
+              "grid": "182:158",
+              "role": "Sivil Lamang Island havaalanı",
+              "why": "Navigasyon farkındalığı ve ulaşıma yakın coğrafya için önemlidir"
+            }
           ]
         },
         {
-          "title": "TV'de DOOM",
-          "tags": [
-            "Eğlence",
-            "Mini oyun"
-          ],
-          "description": "Orijinal DOOM'u oyun içi bir TV'de oynayın, ses TV hoparlöründen gelsin.",
+          "section": "Yüksek İlgi Gören Askeri ve Oyun Sonu Rota Alanları",
+          "entries": [
+            {
+              "name": "YBL-1",
+              "grid": "143:122",
+              "role": "Askeri yeraltı sığınağı",
+              "why": "Açık yerleşim yerlerinden çok farklı bir hisse sahip, öne çıkan askeri alan"
+            },
+            {
+              "name": "Fort Narith",
+              "grid": "143:129",
+              "role": "Adadaki en büyük askeri alan ve ikinci en büyük havaalanı",
+              "why": "Ölçeği, askeri değeri ve tekrarlayan görev ilgisi nedeniyle en çok aranan yüksek tehditli konum"
+            },
+            {
+              "name": "Tiger Bay",
+              "grid": "198:130",
+              "role": "Büyük bir ticaret merkezine sahip en büyük şehir",
+              "why": "Önemli bir kentsel simge ve en net oyun sonu rota şehir hedeflerinden biri"
+            },
+            {
+              "name": "Blue Lagoon",
+              "grid": "203:117",
+              "role": "Güneyde, dağların yakınında küçük bir tatil yeri",
+              "why": "Oyuncuların güney rotalarını planlarken hızla tanıdığı isimlendirilmiş simge yapı"
+            }
+          ]
+        },
+        {
+          "section": "Muharebe Karakolu Notları",
+          "entries": [
+            {
+              "name": "Önemli COP'lar",
+              "grid": "değişken",
+              "role": "Stratejik yeniden doğma, ikmal ve kontrol noktaları",
+              "why": "Ele geçirilen COP'lar, dolaplara ve satıcılara erişim sağlayan yeniden doğma noktaları olarak hizmet edebilir"
+            },
+            {
+              "name": "Paylaşımlı PvE COP Erişimi",
+              "grid": "sistem kuralı",
+              "role": "Müşterek Operasyonlar ele geçirme davranışı",
+              "why": "PvE modunda, bir grup bir COP'u yapay zekadan temizlediğinde, tüm gruplar burayı ortak güvenli bölge olarak kullanabilir"
+            }
+          ]
+        }
+      ]
+    },
+    "gzwEditionDifferences": {
+      "title": "Gray Zone Warfare Sürüm Farkları",
+      "intro": "Gray Zone Warfare sürüm seçimi çoğunlukla depolama, konteyner alanı ve erken envanter esnekliği ile ilgilidir. Standard sürüm, listelenen en yüksek temel nakit ile başlar ancak en küçük dolaba sahiptir.",
+      "items": [
+        {
+          "feature": "Dolap Boyutu",
+          "standard": "10x25",
+          "tactical": "10x35",
+          "elite": "10x45",
+          "supporter": "10x60"
+        },
+        {
+          "feature": "Güvenli Kasa",
+          "standard": "2x2",
+          "tactical": "2x2",
+          "elite": "3x2",
+          "supporter": "3x3"
+        },
+        {
+          "feature": "Başlangıç Oyun İçi Nakit",
+          "standard": "$10,000",
+          "tactical": "+$5,000",
+          "elite": "+$5,000",
+          "supporter": "+$5,000"
+        },
+        {
+          "feature": "Silah Odağı",
+          "standard": "Saldırı tüfeği ve tabanca temeli",
+          "tactical": "Hafif makineli tüfek (SMG) odaklı başlangıç paketi",
+          "elite": "DMR ve tabanca paketi",
+          "supporter": "Saldırı tüfeği artı tüfek paketi"
+        },
+        {
+          "feature": "Erken Safha Yardımcı Ekipman Öne Çıkanlar",
+          "standard": "Temel iyileştirme kiti, zırh, şarjörler ve ekstra tüfekler",
+          "tactical": "El bombaları, ön tutamak, fener, kulaklık, binoküler gece görüşü",
+          "elite": "El bombaları, susturucular, taktiksel cihaz, monoküler gece görüşü, daha güçlü tıbbi malzeme yığını",
+          "supporter": "El bombaları, tüfek susturucusu, taktiksel cihaz, dürbünler, en yüksek depolama avantajı"
+        },
+        {
+          "feature": "Özel Avantajlar",
+          "standard": "Temel oyun erişimi",
+          "tactical": "Daha fazla depolama ve ekipman yükseltme yolu",
+          "elite": "Daha büyük kasa ve premium teçhizat",
+          "supporter": "GZW tişörtü, eldivenler, destekçi renkli isim, özel rozet, tüm DLC'ler dahil"
+        },
+        {
+          "feature": "Şunlar İçin En İyisi",
+          "standard": "En düşük giriş fiyatını isteyen ve daha dar envanter yönetimini dert etmeyen oyuncular",
+          "tactical": "Daha fazla dolap alanına değer veren ve standarda göre pratik bir yükseltme isteyen oyuncular",
+          "elite": "Daha büyük bir kasa ve daha gelişmiş bir muharebe başlangıç kiti isteyen oyuncular",
+          "supporter": "En büyük depolama alanını, en geniş bonus paketini ve destekçi kozmetiklerini isteyen oyuncular"
+        }
+      ]
+    },
+    "gzwUpdateRoadmap": {
+      "title": "Gray Zone Warfare Güncelleme Yol Haritası",
+      "intro": "Mevcut Gray Zone Warfare güncelleme hikayesi 0.4 Spearhead sürüm döngüsüne odaklanmıştır. Yol haritası uzun vadeli adımları belirlerken, son haber gönderileri 0.4'ü çok daha büyük bir dönüm noktasına dönüştürdü.",
+      "items": [
+        {
+          "section": "Yol Haritası Yeniden Şekillendi",
+          "date": "2025-03-13",
+          "summary": "Yol haritası, uzun vadeli genişleme planlarını görünür tutarken daha yakın özelliklere odaklanacak şekilde yeniden şekillendirildi.",
           "highlights": [
-            "Çok oyunculu modda çalışır, böylece diğer oyuncular aynı TV'de izleyebilir",
-            "Shareware DOOM bölüm verilerini içerir (Bölüm 1)"
+            "Winds of War, 2025 Baharı için konumlandırıldı",
+            "Dark Revelations, 2025 Güzü için konumlandırıldı",
+            "2026+ yol haritası Battle Forge, Shadow Strike, Rising Tensions ve Ground Zero olarak adlandırıldı",
+            "Yaklaşık her altı ayda bir büyük güncellemeler planlanıyor"
           ]
-        }
-      ]
-    },
-    "controllerSupport": {
-      "title": "Lucid Blocks Kontrol Cihazı Desteği",
-      "subtitle": "Tam gamepad oyunu",
-      "native": {
-        "title": "Oyun İçi Ayarlar",
-        "description": "Kontrolleri ayarlamak için oyunun bağlamaları/ayarlar menülerini kullanın."
-      },
-      "mod": {
-        "title": "Kontrol Cihazı Desteği Modu",
-        "description": "Menüde gezinme için eksiksiz gamepad/kontrol cihazı desteği ve bir UI imleci ekler."
-      },
-      "features": [
-        "Tam Oynanış Kontrolleri: hareket, kamera, savaş, etkileşimler ve yetenekler gamepad'e eşlenmiştir",
-        "UI İmleç Gezinmesi: menülerde beyaz bir daire imleci görünür; tıklamak ve kaydırıcıları sürüklemek için A'ya basın",
-        "Envanter Gezinmesi: envanteri açmak için Seç'i basılı tutun; basılı tutarken gezinmek için sağ çubuğu kullanın",
-        "Kaydırılabilir Menüler: sağ çubuk, üretim tariflerini, ayarları ve diğer kaydırılabilir UI alanlarını kaydırır",
-        "Hızlı Erişim Çubuğu Döngüsü: D-pad sol/sağ, 4 hızlı erişim çubuğu yuvası arasında döngü yapar",
-        "Sorunsuz Giriş Değiştirme: klavye/fare ile kontrol cihazını otomatik olarak algılar"
-      ]
-    },
-    "playerCount": {
-      "title": "Lucid Blocks Oyuncu Sayısı & Trendi",
-      "subtitle": "Canlı popülerlik anlık görüntüsü",
-      "stats": {
-        "now": {
-          "value": "6.047",
-          "label": "Şu anda oyuncu"
-        },
-        "peak24h": {
-          "value": "13.859",
-          "label": "24 saatlik zirve"
-        },
-        "allTimePeak": {
-          "value": "15.272",
-          "label": "Tüm zamanların zirvesi"
-        }
-      },
-      "milestones": [
-        {
-          "date": "30 Ocak 2026",
-          "title": "Steam'de demo yayınlandı",
-          "detail": "Herkese açık demo PC'de (Steam) kullanıma sunuldu."
         },
         {
-          "date": "8 Şubat 2026",
-          "title": "Tüm zamanların zirvesine ulaşıldı",
-          "detail": "Demo, kaydedilen en yüksek eş zamanlı oyuncu sayısına ulaştı."
+          "section": "İlk Bakış: Güncelleme 0.4",
+          "date": "2026-02-27",
+          "summary": "Güncelleme 0.4, önceki çalışma başlığından çok daha geniş bir dönüm noktası olan Spearhead olarak resmen yeniden tanıtıldı.",
+          "highlights": [
+            "Güncelleme adı Dark Revelations'tan Spearhead'e değiştirildi",
+            "Yayın penceresi Mart 2026 olarak belirlendi",
+            "Lansmana kadar üç geliştirici günlüğü duyuruldu",
+            "Supporter Edition sahiplerine önizleme sürümüne erken erişim sözü verildi"
+          ]
+        },
+        {
+          "section": "0.4'teki Yeni İçerikler",
+          "date": "2026-03-11",
+          "summary": "İkinci Spearhead geliştirici günlüğü harita, düşman, silah ve dünya genişlemesine odaklandı.",
+          "highlights": [
+            "Değişen boyutlarda 25'ten fazla yeni konum eklendi",
+            "Yeni mikro-biyomlar: bataklıklar, bambu ormanları ve yanmış ormanlar",
+            "Mevcut konumlar yeniden inşa edildi ve cilalandı",
+            "Yapay zeka düşmanlar yedi farklı fraksiyon halinde yeniden tasarlandı"
+          ]
+        },
+        {
+          "section": "Temel Yenilikler ve Yeni Özellikler",
+          "date": "2026-03-18",
+          "summary": "Üçüncü Spearhead geliştirici günlüğü, büyük oynanış döngüsü ve ilerleme revizyonlarını ortaya çıkardı.",
+          "highlights": [
+            "Spearhead 31 Mart 2026'da yayınlanıyor",
+            "Supporter Edition erken erişimi 27 Mart 2026'da",
+            "Yeni başlangıç alanı ve atlanabilir eğitim eklendi",
+            "110 sayfadan fazla içeriğe sahip oyun içi Saha Kılavuzu eklendi",
+            "Toplam görev sayısı, 100'den fazla yeni görev ve sözleşme ile 250'yi aştı"
+          ]
+        },
+        {
+          "section": "Spearhead Sonrası İzleme Listesi",
+          "date": "after 2026-03-31",
+          "summary": "Resmi haber akışı şimdiden ana lansmanın ötesindeki takip çalışmalarına işaret ediyor.",
+          "highlights": [
+            "NVIDIA DLSS 4.5, Spearhead'i takip eden yamalar için planlandı",
+            "Uzun vadeli yol haritası hala Battle Forge, Shadow Strike, Rising Tensions ve Ground Zero'ya işaret ediyor",
+            "Geliştiriciler Gray Zone Warfare'i büyüyen bir taktiksel sandbox olarak konumlandırmaya devam ediyor"
+          ]
         }
       ]
     }
@@ -790,177 +1240,197 @@
   "faq": {
     "title": "Sıkça Sorulan",
     "titleHighlight": "Sorular",
-    "subtitle": "Lucid Blocks hakkında bilmeniz gereken her şey",
+    "subtitle": "Gray Zone Warfare hakkında bilmeniz gereken her şey",
     "questions": [
       {
-        "question": "Lucid Blocks demosunu nasıl indirebilirim?",
-        "answer": "Steam mağaza sayfasını ziyaret edin ve 'Demo İndir'e tıklayın. Demo ücretsizdir ve indirmek için 2,62 GiB, disk alanı için 4,88 GiB gerektirir."
+        "question": "Gray Zone Warfare nedir?",
+        "answer": "Gray Zone Warfare, MADFINGER Games tarafından geliştirilen, PvE odaklı, açık dünya taktiksel bir extraction shooter oyunudur. 30 Nisan 2024'te Steam Erken Erişim'de yayınlanmıştır ve oyuncuların PMC operatörleri olarak görev yaptığı Lamang Island'da geçmektedir."
       },
       {
-        "question": "Lucid Blocks'u tek başıma mı oynayabilirim yoksa arkadaşlara mı ihtiyacım var?",
-        "answer": "Lucid Blocks hem tek oyunculu hem de 6 oyuncuya kadar işbirliğini destekler. Tek başına oynamak daha zordur ancak mümkündür."
+        "question": "Gray Zone Warfare'de bir PvP modu var mı?",
+        "answer": "Evet. Gray Zone Warfare iki mod sunar: Warfare (rakip fraksiyonların birbirleriyle çatışabildiği tam PvEvP) ve Joint Operations (düşman oyuncu karşılaşmalarının olmadığı sadece PvE). Karakter ilerlemesi her iki mod arasında paylaşılır."
       },
       {
-        "question": "Lucid Blocks'da Yüksek Cüce görevleri nelerdir?",
-        "answer": "Yüksek Cüce, 'TV'yi kır', 'tuvaleti su baskını yap' veya 'belirli eşyaları çal' gibi hedefler atayan patronunuzdur. Ekstra ödüller için bunları tamamlayın."
+        "question": "Gray Zone Warfare'de hangi fraksiyonlar var?",
+        "answer": "Gray Zone Warfare'de oynanabilir üç PMC fraksiyonu bulunur: Crimson Shield International (başlangıç kasabası Kiu Vongsa), Mithras Security Systems (başlangıç kasabası Nam Thaven) ve Lamang Recovery Initiative (başlangıç kasabası Pha Lang). Aynı mangadaki oyuncular aynı fraksiyonu seçmelidir."
       },
       {
-        "question": "Lucid Blocks için modları nasıl kurarım?",
-        "answer": "BepInEx 5'i kurun, oyunu bir kez başlatın, ardından mod DLL'lerini BepInEx/plugins/ klasörüne yerleştirin. Çok oyunculu mod için tüm oyuncuların aynı modlara ihtiyacı vardır."
+        "question": "Gray Zone Warfare'de görevler nasıl işler?",
+        "answer": "Görevler; Handshake, Gunny ve Lab Rat gibi satıcılar tarafından verilen misyonlardır. Görevleri tamamlamak TP, nakit, eşya ve satıcı itibarı kazandırır. Daha yüksek itibar, daha iyi satıcı stoklarının kilidini açar. Güncelleme 0.4 Spearhead, toplamda 250'yi aşan 100'den fazla yeni görev ve sözleşme ekledi."
       },
       {
-        "question": "Lucid Blocks kontrol cihazlarını destekliyor mu?",
-        "answer": "Evet! Temel kontrol cihazı desteği için oyun içi ayarları kullanın veya tam UI gezinmesi için Nexus Mods'tan Kontrol Cihazı Modunu kurun."
+        "question": "Gray Zone Warfare Güncelleme 0.4 Spearhead nedir?",
+        "answer": "Spearhead, 31 Mart 2026'da yayınlanacak olan büyük 0.4 güncellemesidir. 25'ten fazla yeni konum, yedi adet yeniden tasarlanmış yapay zeka fraksiyonu, 100'den fazla yeni görev, silahlar ve balistik için tam bir sistem revizyonu, yeni bir başlangıç alanı ve 110'dan fazla sayfadan oluşan oyun içi Saha Kılavuzu ekler."
       },
       {
-        "question": "Lucid Blocks için oyuncu sayısı nedir?",
-        "answer": "Şubat 2026 itibarıyla, Lucid Blocks ortalama 6.000'den fazla eş zamanlı oyuncuya sahip ve 8 Şubat 2026'da 15.272 zirveye ulaştı."
+        "question": "Gray Zone Warfare'in kaç sürümü var?",
+        "answer": "Gray Zone Warfare dört sürüm halinde mevcuttur: Standard (10x25 depo, 2x2 güvenli kasa), Tactical (10x35 depo, SMG paketi), Elite (10x45 depo, DMR paketi, 3x2 güvenli kasa) ve Supporter (10x60 depo, 3x3 güvenli kasa, tüm DLC'ler, özel kozmetikler)."
       }
     ]
   },
   "cta": {
-    "title": "Soygun Yapmaya Hazır mısınız?",
-    "description": "İşbirliği grupları, güncellemeler ve mod tartışmaları için Discord'da Lucid Blocks topluluğuna katılın!",
+    "title": "Lamang Island'a Hükmetmeye Hazır mısınız?",
+    "description": "Rehberler, güncellemeler ve manga koordinasyonu için Discord'daki Gray Zone Warfare topluluğuna katılın!",
     "joinCommunity": "Discord'a Katıl",
-    "joinGame": "Steam'de Demo Al"
+    "joinGame": "Steam'de Oyna"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocks gizli soygunları, işbirliği stratejileri, modlar ve topluluk rehberleri için eksiksiz kaynak merkeziniz.",
+    "title": "Gray Zone Warfare Wiki",
+    "description": "Gray Zone Warfare haritaları, görevleri, anahtarları, satıcıları, silahları, mühimmatları ve yama rehberleri için eksiksiz kaynak merkeziniz.",
     "resources": "Kaynaklar",
     "community": "Topluluk",
     "legal": "Yasal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
+    "twitter": "Reddit",
     "steamCommunity": "Steam Topluluğu",
     "steamStore": "Steam Mağazası",
     "about": "Hakkında",
     "privacy": "Gizlilik Politikası",
     "terms": "Hizmet Şartları",
     "copyrightNotice": "Telif Hakkı",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocks geliştiricileriyle bağlantılı değildir.",
+    "copyright": "© 2026 Gray Zone Warfare Wiki. MADFINGER Games ile bağlantılı değildir.",
     "disclaimer": "Resmi olmayan hayran yapımı kaynak web sitesi."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Rehberleri",
-      "description": "Başlangıç seviyesinden ileri düzey Apotheosis stratejilerine kadar eksiksiz oynanış rehberleri. Hayatta kalma ve üretimde ustalaşın.",
-      "metaTitle": "Lucid Blocks Rehberleri - Başlangıçtan İleri Düzey Stratejilere",
-      "metaDescription": "Başlangıç ipuçlarını, Apotheosis sistemini, hayatta kalma stratejilerini ve gerçeküstü sandbox dünyasında ustalaşmak için uzman taktiklerini kapsayan eksiksiz Lucid Blocks rehberleri.",
-      "categoryLabel": "OYUN REHBERLERİ",
+    "guide": {
+      "title": "Gray Zone Warfare Rehberleri",
+      "description": "Gray Zone Warfare için başlangıç seviyesi hayatta kalma, fraksiyon seçimi, sağlık yönetimi, tahliye stratejileri ve Lamang Island'daki gelişmiş taktikleri kapsayan kapsamlı rehberler.",
+      "metaTitle": "Gray Zone Warfare Rehberleri - Başlangıçtan İleri Seviye Taktiklere",
+      "metaDescription": "Eksiksiz rehber koleksiyonumuzla Gray Zone Warfare'de ustalaşın. Lamang Island için başlangıç seviyesi hayatta kalma ipuçları, fraksiyon karşılaştırmaları, tahliye stratejileri ve gelişmiş PMC taktikleri.",
+      "categoryLabel": "TAKTİKSEL REHBERLER",
       "whatIs": "Rehberler Nedir?",
-      "whatIsDescription": "Oynanış mekaniklerini, hayatta kalma stratejilerini ve Apotheosis üretim sistemini kapsayan kapsamlı rehberler. İlk adımlardan ileri tekniklere kadar her şeyi öğrenin.",
-      "why": "Neden rehberleri okumalısınız?",
+      "whatIsDescription": "Lamang Island'daki ilk konuşlanmanızdan gelişmiş tahliye rotalarına, satıcı seviyelendirmeye ve savaş karar verme süreçlerine kadar Gray Zone Warfare oynanışının her yönünü kapsayan adım adım rehberler.",
+      "why": "Neden Gray Zone Warfare rehberlerini kullanmalısınız?",
       "whySteps": {
-        "step1Title": "Temel Mekanikleri Öğrenin",
-        "step1Description": "Apotheosis sistemini anlayın ve yaygın başlangıç hatalarından kaçının",
-        "step2Title": "Hızlı İlerleme",
-        "step2Description": "Gerçeküstü dünyada hayatta kalmak ve gelişmek için kanıtlanmış yolları izleyin",
-        "step3Title": "Stratejilerde Ustalaşın",
-        "step3Description": "Keşif ve üretim için ileri düzey taktikler geliştirin"
+        "step1Title": "İlk Baskınlarınızda Hayatta Kalın",
+        "step1Description": "Tahliye akışını, iyileşme temellerini ve yeni oyuncuların en sık yaptığı hatalardan nasıl kaçınacağınızı öğrenin",
+        "step2Title": "İlerlemeyi Hızlandırın",
+        "step2Description": "Daha iyi ekipmanların kilidini daha hızlı açmak için kanıtlanmış satıcı seviyelendirme ve görev tamamlama sıralarını takip edin",
+        "step3Title": "Savaş Kararlarında Ustalaşın",
+        "step3Description": "Ne zaman saldıracağınızı, ne zaman tahliye olacağınızı ve taktiksel durumu gerçek zamanlı olarak nasıl okuyacağınızı anlayın"
       },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
+      "featured": "Temel Gray Zone Warfare Rehberleri",
       "all": "Tüm Rehberler"
     },
-    "crafting": {
-      "title": "Lucid Blocks Üretim",
-      "description": "Öz mekanikleri, tarifler ve güçlü eşyalar için üretim stratejileri ile Apotheosis füzyon sisteminde ustalaşın.",
-      "metaTitle": "Lucid Blocks Üretim - Apotheosis Sistemi ve Tarifler",
-      "metaDescription": "Lucid Blocks Apotheosis üretim sisteminde ustalaşın. Öz mekaniklerini, füzyon tariflerini ve güçlü araçlar ile silahlar oluşturma stratejilerini öğrenin.",
-      "categoryLabel": "ÜRETİM SİSTEMİ",
-      "whatIs": "Üretim Nedir?",
-      "whatIsDescription": "Apotheosis sistemi, yeni tarifler keşfetmek için altı adede kadar eşyayı birleştirdiğiniz benzersiz bir öz odaklı füzyon mekaniğidir. Sabit üretim menüleri yoktur; deney yapmak anahtardır.",
-      "why": "Neden üretimde ustalaşmalısınız?",
+    "map": {
+      "title": "Gray Zone Warfare Haritaları",
+      "description": "Gray Zone Warfare'deki Lamang Island için etkileşimli haritalar, POI konumları, LZ çağrı kodları, koordinatlar ve bölge rehberleri.",
+      "metaTitle": "Gray Zone Warfare Haritaları - Lamang Island POI ve Konum Rehberi",
+      "metaDescription": "POI konumları, LZ çağrı kodları, koordinatlar ve bölge rehberleri ile Gray Zone Warfare haritalarını keşfedin. Görev konumlarını ve tahliye noktalarını bulun.",
+      "categoryLabel": "HARİTA REHBERLERİ",
+      "whatIs": "Gray Zone Warfare Haritaları Nedir?",
+      "whatIsDescription": "Başlangıç kasabalarından oyun sonu askeri yerleşkelerine kadar Lamang Island'daki her ana bölge için POI'leri, iniş bölgelerini, düşman seviyelerini, koordinatları ve rota planlamasını kapsayan bölge rehberleri.",
+      "why": "Neden Gray Zone Warfare harita rehberlerini kullanmalısınız?",
       "whySteps": {
-        "step1Title": "Güçlü Eşyaların Kilidini Açın",
-        "step1Description": "Füzyon yoluyla temel araçları, silahları ve hareket ekipmanlarını keşfedin",
-        "step2Title": "Özleri Anlayın",
-        "step2Description": "Eşya özlerinin öngörülebilir sonuçlar oluşturmak için nasıl birleştiğini öğrenin",
-        "step3Title": "Kaynakları Optimize Edin",
-        "step3Description": "Ucuz malzemelerden çıktıyı maksimize etmek için seyreltme mekaniklerini kullanın"
+        "step1Title": "Görev Konumlarını Hızla Bulun",
+        "step1Description": "Kaybolmadan görev hedeflerini bulmak için koordinat referanslarını ve POI işaretlerini kullanın",
+        "step2Title": "Verimli Rotalar Planlayın",
+        "step2Description": "Hangi LZ'lerin hedeflerinize en yakın olduğunu ve hangi bölgelerin riske değer olduğunu öğrenin",
+        "step3Title": "Yüksek Değerli Alanlarda Hayatta Kalın",
+        "step3Description": "Bir operasyona başlamadan önce askeri bölgelerdeki düşman yoğunluğunu ve oyuncu trafiğini anlayın"
       },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Üretim Rehberleri"
+      "featured": "Temel Harita Rehberleri",
+      "all": "Tüm Harita Rehberleri"
     },
-    "items": {
-      "title": "Lucid Blocks Eşyaları",
-      "description": "Üretim tarifleri ve kullanım ipuçlarıyla birlikte araçları, silahları, hareket ekipmanlarını ve depolama çözümlerini kapsayan ayrıntılı eşya rehberleri.",
-      "metaTitle": "Lucid Blocks Eşyaları - Araçlar, Silahlar ve Ekipman Rehberi",
-      "metaDescription": "Araçlar, silahlar, hareket ekipmanları ve depolama dahil olmak üzere Lucid Blocks için eksiksiz eşya veritabanı. Her eşyayı nasıl üreteceğinizi ve etkili bir şekilde kullanacağınızı öğrenin.",
-      "categoryLabel": "EŞYALAR VE EKİPMANLAR",
-      "whatIs": "Eşyalar Nedir?",
-      "whatIsDescription": "Araçlar, silahlar, hareket ekipmanları ve işlevsel eşyalar için kapsamlı rehberler. Üretim tariflerini, kullanım stratejilerini ve en uygun kombinasyonları öğrenin.",
-      "why": "Neden eşya rehberlerine bakmalısınız?",
+    "quests": {
+      "title": "Gray Zone Warfare Görevleri",
+      "description": "Eşya konumları, anahtar gereksinimleri, çok aşamalı hedefler ve satıcı itibar ödülleri dahil tüm Gray Zone Warfare görev serileri için görev rehberleri.",
+      "metaTitle": "Gray Zone Warfare Görevleri - Görev Rehberleri ve Hedefler",
+      "metaDescription": "Detaylı görev rehberlerimizle her Gray Zone Warfare görevini tamamlayın. Tüm görevler için eşya konumları, anahtar gereksinimleri, rota ipuçları ve satıcı itibar ödülleri.",
+      "categoryLabel": "GÖREV REHBERLERİ",
+      "whatIs": "Gray Zone Warfare Görevleri Nedir?",
+      "whatIsDescription": "Gray Zone Warfare'deki her görev için rehberler — eşya belirme konumlarını, gerekli anahtarları, çok aşamalı hedef dizilerini ve tamamlandığında kazanılan satıcı itibar ödüllerini kapsar.",
+      "why": "Neden Gray Zone Warfare görev rehberlerini kullanmalısınız?",
       "whySteps": {
-        "step1Title": "Üretim Tariflerini Öğrenin",
-        "step1Description": "Apotheosis kullanarak temel araçları ve silahları nasıl üreteceğinizi keşfedin",
-        "step2Title": "Ekipmanı Optimize Edin",
-        "step2Description": "Oyun tarzınız ve ilerleme aşamanız için en iyi eşyaları seçin",
-        "step3Title": "Hayatta Kalmayı Geliştirin",
-        "step3Description": "Tehlikeli dünyada gezinmek için hareket ekipmanları ve silahlar kuşanın"
+        "step1Title": "Görevleri Verimli Bir Şekilde Tamamlayın",
+        "step1Description": "Baskına girmeden önce tam eşya belirme konumlarını ve hedef bölgelerini öğrenin",
+        "step2Title": "Boşa Giden Seferlerden Kaçının",
+        "step2Description": "Anahtar gereksinimlerini ve ön koşul görevlerini öğrenin, böylece asla hazırlıksız girmeyin",
+        "step3Title": "Satıcı İlerlemesini En Üst Düzeye Çıkarın",
+        "step3Description": "En yüksek değerli satıcı stoklarını ve itibar kademelerini açan görev zincirlerine öncelik verin"
       },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Eşyalar"
+      "featured": "Öne Çıkan Görev Rehberleri",
+      "all": "Tüm Görev Rehberleri"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biyomları",
-      "description": "Her biyom için dünya bölgelerini, çevresel özellikleri, kaynak konumlarını ve hayatta kalma ipuçlarını keşfedin.",
-      "metaTitle": "Lucid Blocks Biyomları - Dünya Bölgeleri ve Keşif",
-      "metaDescription": "Tiamana Leylines, Fog Meadow ve gerçeküstü bölgeler dahil olmak üzere Lucid Blocks biyomlarını keşfedin. Kaynakları bulun, tehlikelerden kaçının ve sonsuz dünyada gezinin.",
-      "categoryLabel": "DÜNYA BÖLGELERİ",
-      "whatIs": "Biyomlar Nedir?",
-      "whatIsDescription": "Farklı dünya bölgeleri, çevresel özellikler, kaynak dağılımı ve tehlike bölgeleri rehberleri. Her alan için ne bekleyeceğinizi ve nasıl hazırlanacağınızı öğrenin.",
-      "why": "Neden biyomları keşfetmelisiniz?",
+    "weapons": {
+      "title": "Gray Zone Warfare Silahlar ve Zırhlar",
+      "description": "Gray Zone Warfare operatörleri için silah platformu rehberleri, zırh kademe listeleri, kalibre karşılaştırmaları ve yapılandırma önerileri.",
+      "metaTitle": "Gray Zone Warfare Silahlar ve Zırhlar - Tam Yapılandırma Rehberi",
+      "metaDescription": "Kapsamlı rehberlerimizle Gray Zone Warfare silah ve zırhlarında ustalaşın. Kalibre aileleri, zırh kademe listeleri, eklenti yapılandırmaları ve her oyun tarzı için teçhizat önerileri.",
+      "categoryLabel": "SİLAH VE ZIRH REHBERLERİ",
+      "whatIs": "Gray Zone Warfare'de Silahlar ve Zırhlar Nedir?",
+      "whatIsDescription": "Gray Zone Warfare'deki her ana silah ailesi ve NIJ dereceli zırh sistemi için platform rehberleri — kalibreleri, atış modlarını, eklenti yuvalarını, plaka derecelerini ve rolünüz için nasıl teçhizat oluşturacağınızı kapsar.",
+      "why": "Neden Gray Zone Warfare silah ve zırh rehberlerini kullanmalısınız?",
       "whySteps": {
-        "step1Title": "Kaynakları Bulun",
-        "step1Description": "Her bölgeye özgü nadir malzemeleri ve özleri bulun",
-        "step2Title": "Tehlikelerden Kaçının",
-        "step2Description": "Çevresel tehlikeleri ve düşman yaratıkları anlayın",
-        "step3Title": "Keşfi Planlayın",
-        "step3Description": "Her biyom türü için doğru araçları ve ekipmanları hazırlayın"
+        "step1Title": "Doğru Platformu Seçin",
+        "step1Description": "Şarjör ve eklentilere yatırım yapmadan önce kalibre ailelerini ve atış modlarını anlayın",
+        "step2Title": "Zırhı Tehdit Seviyesine Göre Eşleştirin",
+        "step2Description": "Beklenen düşman teçhizatına ve bölgelere göre hangi NIJ plaka derecesini getireceğinizi bilin",
+        "step3Title": "Rolünüze Göre Yapılandırın",
+        "step3Description": "Silah ve zırh seçimlerinizi oyun tarzınızla eşleştirin — solo, manga, PvE veya PvEvP"
       },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Biyomlar"
+      "featured": "Öne Çıkan Silah ve Zırh Rehberleri",
+      "all": "Tüm Silah ve Zırh Rehberleri"
     },
-    "building": {
-      "title": "Lucid Blocks İnşa Etme",
-      "description": "Master Qualia kişisel boyutları, üs inşası, depolama yönetimi ve yaratıcı inşa tekniklerinde ustalaşın.",
-      "metaTitle": "Lucid Blocks İnşa Etme - Qualia ve Üs İnşası",
-      "metaDescription": "Qualia kişisel boyutları, üs inşası, depolama çözümleri ve yaratıcı inşa teknikleri ile Lucid Blocks inşa etme sisteminde ustalaşın.",
-      "categoryLabel": "İNŞA VE ÜSLER",
-      "whatIs": "İnşa Etme Nedir?",
-      "whatIsDescription": "Qualia kişisel boyut sistemi, üs inşası, depolama yönetimi ve yaratıcı inşa rehberleri. Gerçeküstü dünyada güvenli limanınızı oluşturmayı öğrenin.",
-      "why": "Neden üs inşa etmelisiniz?",
+    "update": {
+      "title": "Gray Zone Warfare Güncellemeleri",
+      "description": "Spearhead 0.4 güncellemesi dahil tüm Gray Zone Warfare sürümleri için yama notları, geliştirici günlükleri, güncelleme yol haritası ve sürüm geçmişi.",
+      "metaTitle": "Gray Zone Warfare Güncellemeleri - Yama Notları ve Yol Haritası 2026",
+      "metaDescription": "Gray Zone Warfare güncellemeleriyle güncel kalın. Spearhead 0.4 yama notları, geliştirici günlüğü özetleri, yol haritası kilometre taşları ve tüm ana sürümler için tam sürüm geçmişi.",
+      "categoryLabel": "GÜNCELLEME NOTLARI",
+      "whatIs": "Gray Zone Warfare Güncellemeleri Nedir?",
+      "whatIsDescription": "Her sürümde nelerin değiştiğini kapsayan yama notları ve geliştirici günlüğü özetleri — sistem yenilemeleri, yeni içerikler, harita genişletmeleri, yapay zeka revizyonları ve gelecek kilometre taşları için geliştirici yol haritası.",
+      "why": "Neden Gray Zone Warfare güncellemelerini takip etmelisiniz?",
       "whySteps": {
-        "step1Title": "Güvenli Alanlar Oluşturun",
-        "step1Description": "Depolama ve üretim operasyonları için güvenli üsler kurun",
-        "step2Title": "Kaynakları Yönetin",
-        "step2Description": "Depolama çözümleriyle malzemeleri verimli bir şekilde düzenleyin",
-        "step3Title": "Qualia Kilidini Açın",
-        "step3Description": "Üstün kolaylık için kişisel cep boyutlarına erişin"
+        "step1Title": "Baskınlardan Önce Güncel Kalın",
+        "step1Description": "Son yamada nelerin değiştiğini öğrenin — yeni mekanikler, yeniden dengelenen satıcılar veya değiştirilen ganimet tabloları",
+        "step2Title": "Büyük Yamalara Göre Plan Yapın",
+        "step2Description": "Hangi güncellemelerin ekonomi sıfırlamaları veya önemli ilerleme değişiklikleri içerdiğini anlayın",
+        "step3Title": "Gelecek İçerikleri Takip Edin",
+        "step3Description": "Hangi yeni konumların, görev zincirlerinin ve sistemlerin geleceğini öğrenmek için yol haritasını takip edin"
       },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm İnşa Rehberleri"
+      "featured": "En Son Gray Zone Warfare Güncellemeleri",
+      "all": "Tüm Güncelleme Notları"
     },
-    "support": {
-      "title": "Lucid Blocks Destek",
-      "description": "Teknik destek, platform uyumluluğu, performans optimizasyonu ve yaygın sorunlar için sorun giderme.",
-      "metaTitle": "Lucid Blocks Destek - Teknik Yardım ve Çözümler",
-      "metaDescription": "Steam Deck kurulumu, çökme düzeltmeleri, performans optimizasyonu ve platform uyumluluk rehberleri dahil olmak üzere Lucid Blocks için teknik destek alın.",
-      "categoryLabel": "TEKNİK DESTEK",
-      "whatIs": "Destek Nedir?",
-      "whatIsDescription": "Platform uyumluluğu, performans optimizasyonu, çökme düzeltmeleri ve yaygın sorunları kapsayan teknik rehberler. Steam Deck, çok oyunculu soruları ve ayarlar hakkında yardım alın.",
-      "why": "Neden desteği kontrol etmelisiniz?",
+    "technical": {
+      "title": "Gray Zone Warfare Teknik Rehberler",
+      "description": "2026'da Gray Zone Warfare'i sorunsuz çalıştırmak için sistem gereksinimleri, optimizasyon ipuçları, çökme düzeltmeleri ve performans rehberleri.",
+      "metaTitle": "Gray Zone Warfare Teknik Rehberler - Sistem Gereksinimleri ve Düzeltmeler",
+      "metaDescription": "Teknik rehberlerimizle Gray Zone Warfare çökmelerini düzeltin, performansı optimize edin ve sistem gereksinimlerini kontrol edin. 2026'daki Spearhead 0.4 sürümü için güncellendi.",
+      "categoryLabel": "TEKNİK REHBERLER",
+      "whatIs": "Gray Zone Warfare Teknik Rehberler Nedir?",
+      "whatIsDescription": "Gray Zone Warfare'i mümkün olduğunca sorunsuz çalıştırmanıza yardımcı olacak sistem gereksinimi dökümleri, oyun içi optimizasyon ayarları, çökme giderme ve performans ayarlama rehberleri.",
+      "why": "Neden Gray Zone Warfare teknik rehberlerini kullanmalısınız?",
       "whySteps": {
-        "step1Title": "Teknik Sorunları Düzeltin",
-        "step1Description": "Çökmeleri, performans sorunlarını ve uyumluluk problemlerini çözün",
-        "step2Title": "Performansı Optimize Edin",
-        "step2Description": "Platformunuzda en iyi deneyim için ayarları yapılandırın",
-        "step3Title": "Platform Uyumluluğu",
-        "step3Description": "Steam Deck, kontrolcü desteği ve sistem gereksinimleri hakkında bilgi edinin"
+        "step1Title": "Satın Almadan Önce Kontrol Edin",
+        "step1Description": "Satın almadan önce donanımınızın minimum veya önerilen özellikleri karşıladığını doğrulayın",
+        "step2Title": "Çökmeleri Ortadan Kaldırın",
+        "step2Description": "En yaygın kararlılık sorunlarını çözmek için hedeflenen sorun giderme adımlarını izleyin",
+        "step3Title": "Kare Hızını En Üst Düzeye Çıkarın",
+        "step3Description": "Donanım seviyeniz için performans ve görsel kaliteyi dengeleyecek doğru ayarları uygulayın"
       },
-      "featured": "Öne Çıkanlar ve Temel Bilgiler",
-      "all": "Tüm Destek Makaleleri"
+      "featured": "Öne Çıkan Teknik Rehberler",
+      "all": "Tüm Teknik Rehberler"
+    },
+    "platform": {
+      "title": "Gray Zone Warfare Platform Rehberleri",
+      "description": "Gray Zone Warfare için Supporter Edition dökümü, çevrimdışı ve Joint Operations oynanışı, PC platform detayları ve satın alma rehberleri.",
+      "metaTitle": "Gray Zone Warfare Platform Rehberleri - Sürümler ve PC Rehberi",
+      "metaDescription": "PC'de Gray Zone Warfare hakkında her şey — Supporter Edition avantajları, Joint Operations çevrimdışı tarzı oynanış, sürüm karşılaştırmaları ve platforma özel rehberler.",
+      "categoryLabel": "PLATFORM REHBERLERİ",
+      "whatIs": "Gray Zone Warfare Platform Rehberleri Nedir?",
+      "whatIsDescription": "Gray Zone Warfare için sürüm farklılıklarını, Joint Operations ve çevrimdışı tarzı oynanış seçeneklerini, satın alma önerilerini ve PC sistem mülahazalarını kapsayan platforma özel rehberler.",
+      "why": "Neden Gray Zone Warfare platform rehberlerini kullanmalısınız?",
+      "whySteps": {
+        "step1Title": "Doğru Sürümü Seçin",
+        "step1Description": "Ne kadar yatırım yapacağınıza karar vermeden önce Supporter Edition'ın neleri içerdiğini anlayın",
+        "step2Title": "Çevrimdışı Tarzı Oynanışı Keşfedin",
+        "step2Description": "Joint Operations'ın rakip PMC baskısı olmadan oynamanıza nasıl izin verdiğini öğrenin — haritayı öğrenmek için idealdir",
+        "step3Title": "PC için Optimize Edin",
+        "step3Description": "Donanımınızda kararlı performans sağlamak için platforma özel kurulum ipuçları alın"
+      },
+      "featured": "Öne Çıkan Platform Rehberleri",
+      "all": "Tüm Platform Rehberleri"
     }
   }
 }

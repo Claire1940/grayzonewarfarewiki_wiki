@@ -1,11 +1,1436 @@
 {
+  "seo": {
+    "home": {
+      "title": "Gray Zone Warfare Wiki - Mapa, Zadania, Klucze i Bronie",
+      "description": "Gray Zone Warfare Wiki z mapami, zadaniami, kluczami, handlarzami, broniami, balistyką, trasami łupów i przewodnikami po aktualizacjach dla operatorów PvE i PvEvP na Lamang Island.",
+      "keywords": "Gray Zone Warfare, GZW, mapa, zadania, klucze, handlarze, bronie, balistyka, łupy, aktualizacja",
+      "ogTitle": "Gray Zone Warfare Wiki - Mapa, Zadania, Klucze i Bronie",
+      "ogDescription": "Gray Zone Warfare Wiki z mapami, zadaniami, kluczami, handlarzami, broniami, balistyką, trasami łupów i przewodnikami po aktualizacjach dla operatorów PvE i PvEvP na Lamang Island.",
+      "twitterTitle": "Gray Zone Warfare Wiki - Mapa, Zadania, Klucze i Bronie",
+      "twitterDescription": "Gray Zone Warfare Wiki z mapami, zadaniami, kluczami, handlarzami, broniami, balistyką i przewodnikami po łupach dla operatorów na Lamang Island."
+    }
+  },
   "nav": {
     "guide": "Poradniki",
     "map": "Mapy",
     "quests": "Zadania",
-    "weapons": "Broń i Zbroja",
+    "weapons": "Bronie i Pancerz",
     "update": "Aktualizacje",
     "technical": "Techniczne",
     "platform": "Platforma"
+  },
+  "common": {
+    "home": "Strona główna",
+    "more": "Więcej",
+    "playNow": "Graj na Steam",
+    "switchLanguage": "Zmień język",
+    "switchTheme": "Zmień motyw",
+    "lightMode": "Tryb jasny",
+    "darkMode": "Tryb ciemny",
+    "notFound": "Nie znaleziono strony",
+    "notFoundDescription": "Strona, której szukasz, nie istnieje.",
+    "backToHome": "Powrót do strony głównej",
+    "relatedArticles": "Powiązane artykuły",
+    "readMore": "Czytaj więcej"
+  },
+  "hero": {
+    "badge": "Taktyczna strzelanka z otwartym światem skupiona na PvE",
+    "title": "Gray Zone Warfare Wiki",
+    "description": "Odkrywaj mapy, zadania, klucze, handlarzy, bronie, amunicję, trasy łupów i zmiany w aktualizacjach dla Gray Zone Warfare. Stworzone dla graczy, którzy chcą szybszego postępu, bezpieczniejszych ewakuacji i lepszego podejmowania decyzji na Lamang Island.",
+    "getFreeCodesCTA": "Pobierz poradniki do zadań",
+    "playOnSteamCTA": "Graj na Steam",
+    "stats": {
+      "stat1": {
+        "value": "30 kwietnia 2024",
+        "label": "Data premiery"
+      },
+      "stat2": {
+        "value": "72,548",
+        "label": "Szczytowa liczba graczy"
+      },
+      "stat3": {
+        "value": "59,439",
+        "label": "Recenzje na Steam"
+      },
+      "stat4": {
+        "value": "12",
+        "label": "Obsługiwane języki"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Rozgrywka w Gray Zone Warfare",
+    "description": "Eksploruj Lamang Island, wykonuj zadania dla handlarzy, znajduj klucze, wyposaż się w odpowiednią broń i amunicję oraz przetrwaj jako operator PMC w tej strzelance typu extraction shooter osadzonej w dżungli."
+  },
+  "tools": {
+    "title": "Gray Zone Warfare",
+    "titleHighlight": "Poradniki Wiki",
+    "subtitle": "Wszystko, czego potrzebujesz, aby szybciej robić postępy, bezpieczniej się ewakuować i podejmować lepsze decyzje na Lamang Island",
+    "cards": [
+      {
+        "icon": "ClipboardCheck",
+        "title": "Poradnik zadań Gray Zone Warfare",
+        "description": "Główna trasa zadań, cele, lokalizacje i nagrody"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Interaktywna mapa Gray Zone Warfare",
+        "description": "Punkty zainteresowania, kryptonimy LZ, poziomy i współrzędne siatki"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Poradnik dla początkujących w Gray Zone Warfare",
+        "description": "Wybór trybu, frakcji, podstawy przetrwania i pierwsze wyprawy"
+      },
+      {
+        "icon": "Key",
+        "title": "Poradnik kluczy Gray Zone Warfare",
+        "description": "Lokalizacje kluczy, co otwierają i powiązania z zadaniami"
+      },
+      {
+        "icon": "DollarSign",
+        "title": "Poradnik zarabiania w Gray Zone Warfare",
+        "description": "Nagrody za zadania, priorytety łupów i pętla ekonomiczna"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Poradnik broni Gray Zone Warfare",
+        "description": "Platformy karabinów, kalibry i zmiany w obsłudze"
+      },
+      {
+        "icon": "Target",
+        "title": "Poradnik amunicji Gray Zone Warfare",
+        "description": "Rodziny kalibrów, dopasowanie do broni i balistyka"
+      },
+      {
+        "icon": "ShoppingCart",
+        "title": "Poradnik handlarzy Gray Zone Warfare",
+        "description": "Specjalizacje handlarzy, progi rang i ścieżki odblokowywania"
+      },
+      {
+        "icon": "Heart",
+        "title": "Poradnik systemu zdrowia Gray Zone Warfare",
+        "description": "Rany, krwawienie, organy i używanie przedmiotów medycznych"
+      },
+      {
+        "icon": "Users",
+        "title": "Poradnik frakcji Gray Zone Warfare",
+        "description": "Lore PMC, miasta startowe i różnice między frakcjami"
+      },
+      {
+        "icon": "Shield",
+        "title": "Poradnik pancerza Gray Zone Warfare",
+        "description": "Klasy NIJ, pokrycie płyt i porównanie materiałów"
+      },
+      {
+        "icon": "Layers",
+        "title": "Najlepsze zestawy wyposażenia w Gray Zone Warfare",
+        "description": "Zestawy budżetowe, skradankowe, drużynowe i zadaniowe"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Poradnik PvE vs PvP w Gray Zone Warfare",
+        "description": "Porównanie trybów Warfare i Joint Operations"
+      },
+      {
+        "icon": "Navigation",
+        "title": "Poradnik lokalizacji Gray Zone Warfare",
+        "description": "Miasta startowe, obiekty wojskowe i kluczowe miejsca"
+      },
+      {
+        "icon": "Star",
+        "title": "Różnice między edycjami Gray Zone Warfare",
+        "description": "Edycje Standard vs Tactical vs Elite vs Supporter"
+      },
+      {
+        "icon": "Clock",
+        "title": "Mapa drogowa aktualizacji Gray Zone Warfare",
+        "description": "Harmonogram aktualizacji, Spearhead 0.4 i co dalej"
+      }
+    ]
+  },
+  "modules": {
+    "gzwTaskGuide": {
+      "title": "Przewodnik po zadaniach Gray Zone Warfare",
+      "intro": "Zadania są głównym silnikiem postępu w Gray Zone Warfare. Ten przewodnik przedstawia misje z wczesnej i środkowej fazy gry, których gracze szukają najczęściej, wraz z celami, lokalizacjami, nagrodami i kluczowymi odblokowaniami.",
+      "steps": [
+        {
+          "step": 1,
+          "task": "First Recon",
+          "vendor": "Handshake",
+          "area": "miasto startowe Pha Lang / Kiu Vongsa / Nam Thaven",
+          "objectives": [
+            "Sprawdź chatę na obrzeżach",
+            "Sprawdź tartak w mieście",
+            "Sprawdź teren wokół stacji benzynowej"
+          ],
+          "rewards": [
+            "400 EXP",
+            "+25 reputacji u Handshake",
+            "1 700 USD",
+            "1x Modular Operator Carrier Gen II"
+          ],
+          "why_it_matters": "Jedno z pierwszych zadań wyznaczających trasę, które uczy graczy pętli punktów orientacyjnych w mieście startowym."
+        },
+        {
+          "step": 2,
+          "task": "Cache Retrieval",
+          "vendor": "Gunny",
+          "area": "Trasa przy tartaku w mieście startowym",
+          "objectives": [
+            "Znajdź i oznacz skrytkę w szopie w miejskim tartaku"
+          ],
+          "rewards": [
+            "400 EXP",
+            "+100 reputacji u Gunny",
+            "1 700 USD",
+            "1x Scorpion OCP Convoy Pack"
+          ],
+          "why_it_matters": "Zadanie wczesnego postępu uzbrojenia, które buduje reputację u Gunny'ego w obrębie bezpiecznej pętli startowej."
+        },
+        {
+          "step": 3,
+          "task": "Meds Wanted",
+          "vendor": "Lab Rat",
+          "area": "Wieża ciśnień w mieście startowym",
+          "objectives": [
+            "Znajdź zapasy medyczne UNLRA przy miejskiej wieży ciśnień"
+          ],
+          "rewards": [
+            "400 EXP",
+            "+100 reputacji u Lab Rat",
+            "2 200 USD",
+            "1x IFAK"
+          ],
+          "why_it_matters": "Lab Rat odblokowuje lepsze możliwości przetrwania i dostęp do medykamentów na każdą przyszłą misję."
+        },
+        {
+          "step": 4,
+          "task": "Leave No Man Behind",
+          "vendor": "Gunny",
+          "area": "Ratusz w Pha Lang / Kiu Vongsa / Nam Thaven",
+          "objectives": [
+            "Oznacz lokalizację ciała"
+          ],
+          "rewards": [
+            "400 EXP",
+            "+100 reputacji u Gunny",
+            "1 700 USD",
+            "1x Scorpion OCP Convoy Pack"
+          ],
+          "why_it_matters": "Częsty punkt przestoju, ponieważ gracze znają nazwę zadania, ale zapominają o konkretnym budynku i pokoju."
+        },
+        {
+          "step": 5,
+          "task": "Helping Hand",
+          "vendor": "Handshake",
+          "area": "Poddasze restauracji w mieście startowym",
+          "objectives": [
+            "Odzyskaj dane wywiadowcze z poddasza restauracji",
+            "Dostarcz dane do Handshake"
+          ],
+          "rewards": [
+            "400 EXP",
+            "+100 reputacji u Handshake",
+            "2 300 USD",
+            "1x Leather Key Holder"
+          ],
+          "why_it_matters": "Jeden z najwcześniejszych momentów, w których gracze napotykają barierę postępu związaną z brakiem klucza."
+        },
+        {
+          "step": 6,
+          "task": "The Shadow Over Ban Pa",
+          "vendor": "Handshake",
+          "area": "Trasa z YBL-1 do Ban Pa",
+          "objectives": [
+            "Zbadaj główne północne wejście do Ban Pa",
+            "Zbadaj główne południowe wejście do Ban Pa"
+          ],
+          "rewards": [
+            "1 000 EXP",
+            "+150 reputacji u Handshake",
+            "4 700 USD",
+            "Odblokuj dostęp do handlarza Turncoat"
+          ],
+          "why_it_matters": "Ważny punkt zwrotny w postępie, który otwiera dostęp do Turncoat i wypycha graczy poza fazę startową."
+        }
+      ]
+    },
+    "gzwInteractiveMap": {
+      "title": "Interaktywna mapa Gray Zone Warfare",
+      "intro": "Ruch związany z wyszukiwaniem Gray Zone Warfare jest silnie uzależniony od lokalizacji. Przejdź od wyszukiwanego hasła, takiego jak Ban Pa, Fort Narith lub YBL-1, do dokładnego kontekstu, którego potrzebujesz: siatki mapy, typu przeciwnika, poziomu i wsparcia w przejściu.",
+      "items": [
+        {
+          "label": "Miasta startowe",
+          "title": "Dowiedz się, na której trasie bazowej faktycznie się znajdujesz",
+          "content": [
+            "Kiu Vongsa — miasto startowe Crimson Shield International — siatka 141:164",
+            "Nam Thaven — miasto startowe Mithras Security Systems — siatka 171:118",
+            "Pha Lang — miasto startowe Lamang Recovery Initiative — siatka 202:162"
+          ],
+          "quick_notes": [
+            "Te miasta napędzają Twój wczesny przepływ zadań",
+            "Zamknięte pokoje i budynki zadań różnią się, ale struktura wczesnego postępu jest lustrzanym odbiciem"
+          ]
+        },
+        {
+          "label": "YBL-1",
+          "title": "Bunkier, który zaczyna kierować graczy na trasy w środkowej części mapy",
+          "content": [
+            "Typ: Wojskowy bunkier podziemny",
+            "Pozycja na siatce: 143:122",
+            "Często powiązany z zadaniami typu zwiad i wywiad"
+          ],
+          "quick_notes": [
+            "Działa jako most między postępem startowym a trasami do Ban Pa lub Fort Narith"
+          ]
+        },
+        {
+          "label": "Ban Pa",
+          "title": "Wioska poziomu 2 z zadaniami związanymi z kultem i presją na klucze",
+          "content": [
+            "Poziom: 2",
+            "Typ mieszkańców: Rebelianci",
+            "Kryptonim LZ: INDIA",
+            "Pozycja na siatce: 205:137"
+          ],
+          "quick_notes": [
+            "Ważne przy poszukiwaniach domu starszyzny, chaty rybackiej i kluczy do zadań",
+            "Częsty kolejny krok, gdy gracze wyrosną z farmienia w mieście startowym"
+          ]
+        },
+        {
+          "label": "Fort Narith",
+          "title": "Największy obiekt wojskowy na wyspie",
+          "content": [
+            "Poziom: 3",
+            "Typ mieszkańców: Żołnierze LAF",
+            "Kryptonim LZ: DELTA",
+            "Pozycja na siatce: 143:129"
+          ],
+          "quick_notes": [
+            "Łączy zadania, klucze, łupy wojskowe i niebezpieczeństwo w jednej strefie",
+            "Wiele kluczy do Fort Narith otwiera pokoje w bazie lub wokół niej oraz w pobliskim Savanpha"
+          ]
+        },
+        {
+          "label": "Tiger Bay",
+          "title": "Duża strefa miejska z gęstym rozmieszczeniem celów i trasami łupów",
+          "content": [
+            "Poziom: 3",
+            "Typ mieszkańców: Rebelianci i Żołnierze LAF",
+            "Kryptonim LZ: JULIET",
+            "Pozycja na siatce: 198:130"
+          ],
+          "quick_notes": [
+            "Największe miasto na wyspie",
+            "Duże zapotrzebowanie na wyszukiwanie tras do centrum handlowego, centralnej zbrojowni, dowódcy i zadań UNLRA"
+          ]
+        },
+        {
+          "label": "Midnight Sapphire",
+          "title": "Wysokiej klasy strefa kurortu z ruchem związanym z zadaniami w późnej fazie gry",
+          "content": [
+            "Poziom: 3",
+            "Typ mieszkańców: Żołnierze LAF",
+            "Kryptonim LZ: HOTEL",
+            "Znana z celów zlokalizowanych w willach, przy wodospadzie i w hotelu"
+          ],
+          "quick_notes": [
+            "Często wyszukiwane razem z trasami zadań zablokowanymi kluczami"
+          ]
+        },
+        {
+          "label": "Blue Lagoon",
+          "title": "Południowy punkt zainteresowania przy kurorcie, służący eksploracji i urozmaiceniu tras",
+          "content": [
+            "Opis: Mały kurort na południu w pobliżu gór",
+            "Pozycja na siatce: 203:117"
+          ],
+          "quick_notes": [
+            "Przydatny jako rozpoznawalny punkt odniesienia przy planowaniu rotacji na południu",
+            "Pojawia się zarówno w wyznaczaniu tras zadań, jak i w wyszukiwaniu kodów/kłódek"
+          ]
+        }
+      ]
+    },
+    "gzwBeginnerGuide": {
+      "title": "Gray Zone Warfare Beginner Guide",
+      "intro": "New players in Gray Zone Warfare usually struggle with mode choice, faction choice, sustain thresholds, helicopter usage, and gear-loss rules. These short cards turn first-session pain points into practical answers.",
+      "items": [
+        {
+          "title": "Pick the Right Mode First",
+          "summary": "Warfare is the PvP mode. Joint Operations is the PvE mode.",
+          "details": [
+            "Warfare: hostile players present across the island",
+            "Joint Operations: no hostile players, only AI enemies",
+            "Joint Operations allows safe progression and broad co-op learning",
+            "Warfare is built for higher-risk faction conflict and extraction pressure"
+          ]
+        },
+        {
+          "title": "Choose Your Faction by Geography",
+          "summary": "Your faction changes your starting town, early routes, and travel time to high-value zones.",
+          "details": [
+            "Crimson Shield International starts near Kiu Vongsa — slower early progression",
+            "Mithras Security Systems starts near Nam Thaven — sits between safer and hotter routes",
+            "Lamang Recovery Initiative starts near Pha Lang with fast access to contested zones",
+            "Approximate walk to Fort Narith: Lamang 5-10 min, Mithras 15-20 min, Crimson 25-30+ min"
+          ]
+        },
+        {
+          "title": "Protect What You Cannot Afford to Lose",
+          "summary": "Most gear can be lost in deployment, but the Secure Lockbox protects its contents.",
+          "details": [
+            "Items inside the Secure Lockbox stay protected on death",
+            "Melee weapons are not lost the same way as normal carried gear",
+            "Quest items sometimes survive in secure storage — prioritize quick hand-in routes"
+          ]
+        },
+        {
+          "title": "Watch Hydration and Energy Thresholds",
+          "summary": "Low hydration and low energy directly hurt sustain and recovery.",
+          "details": [
+            "Hydration below 50 percent: Thirsty — no blood regeneration",
+            "Hydration at 1 percent: Dehydrated — hazy vision",
+            "Energy below 50 percent: Hungry — no blood regeneration",
+            "Energy at 1 percent: Starving — hazy vision"
+          ]
+        },
+        {
+          "title": "Bleeding and Coma Kill Runs Faster Than Gunfights",
+          "summary": "Beginner deaths often come from untreated injuries rather than headshots.",
+          "details": [
+            "Light, medium, and severe bleeding all continue blood loss until treated",
+            "If blood drops below 50 percent, you can enter a coma",
+            "Destroyed lungs or liver can also cause coma",
+            "Squadmates have about 180 seconds to revive before death becomes permanent for that run"
+          ]
+        },
+        {
+          "title": "Use Helicopters as Protection and Misdirection",
+          "summary": "The helicopter is not only transport — it is a survivability and positioning mechanic.",
+          "details": [
+            "Players are immune to damage while onboard",
+            "After stepping off, there is a 4-second invulnerability window",
+            "Helicopter sound acts as a tactical distraction for AI and other players"
+          ]
+        },
+        {
+          "title": "Do Not AFK Outside Safe Areas",
+          "summary": "The AFK timer can cost gear if it removes you from a live deployment.",
+          "details": [
+            "The inactivity limit is 15 minutes",
+            "If removed while outside the FOB, normal leave-deployment loss rules apply"
+          ]
+        }
+      ]
+    },
+    "gzwKeysGuide": {
+      "title": "Gray Zone Warfare Keys Guide",
+      "intro": "Key-gated progression is one of the biggest friction points in Gray Zone Warfare. Find the right key before you waste another run — where it drops, what it unlocks, and which tasks it unblocks.",
+      "items": [
+        {
+          "key_name": "Kiu Vongsa Restaurant Storage Key",
+          "area": "Kiu Vongsa",
+          "where_to_find": "In pockets of enemies in Kiu Vongsa",
+          "unlocks": "Restaurant attic door at 141:164",
+          "related_task": "Helping Hand",
+          "behind_lock": "Task intel location"
+        },
+        {
+          "key_name": "Pha Lang Restaurant Storage Key",
+          "area": "Pha Lang",
+          "where_to_find": "In pockets of enemies in Pha Lang",
+          "unlocks": "Attic storage in the Pha Lang restaurant",
+          "related_task": "Helping Hand",
+          "behind_lock": "1x Firearm crate; 1x Medical cabinet"
+        },
+        {
+          "key_name": "Nam Thaven Restaurant Storage Key",
+          "area": "Nam Thaven",
+          "where_to_find": "In pockets of enemies in Nam Thaven",
+          "unlocks": "Attic storage in the Nam Thaven restaurant",
+          "related_task": "Helping Hand",
+          "behind_lock": "Task intel route"
+        },
+        {
+          "key_name": "Sawmill Office Key",
+          "area": "Sawmill",
+          "where_to_find": "In pockets of enemies in Sawmill",
+          "unlocks": "Office building at the Tonmai Hainy Lumber Company",
+          "related_task": "EOD",
+          "behind_lock": "1x Firearms Box; 1x First Aid Cabinet; loose weapons"
+        },
+        {
+          "key_name": "Pha Lang Airfield Storage Office Key",
+          "area": "Pha Lang Airfield",
+          "where_to_find": "In pockets of enemies in Pha Lang Airfield",
+          "unlocks": "Office room in the storage building at the airfield",
+          "related_task": "Hazardous Treasures loot route",
+          "behind_lock": "Airfield storage office loot"
+        },
+        {
+          "key_name": "Ban Pa Elder's Room Key",
+          "area": "Ban Pa",
+          "where_to_find": "In pocket of the Ban Pa leader; can also spawn in Ban Pa",
+          "unlocks": "Second-floor room inside the Elder's House",
+          "related_task": "It's in the Water II",
+          "behind_lock": "Chemistry-room style task objective route"
+        },
+        {
+          "key_name": "Ban Pa Fishing Hut Key",
+          "area": "Ban Pa",
+          "where_to_find": "In pockets of enemies in Ban Pa",
+          "unlocks": "Fishing hut next to the Elder's House at 205:137",
+          "related_task": "Ban Pa loot and side-route search traffic",
+          "behind_lock": "1x Firearms box; 1x Equipment Box; 1x Ammo Box"
+        },
+        {
+          "key_name": "Fort Narith Outskirts Improvised Armory Key",
+          "area": "Fort Narith / Savanpha Village",
+          "where_to_find": "Fort Narith key route",
+          "unlocks": "Grey two-story house back room in Savanpha Village at 146:128",
+          "related_task": "Fort Narith outskirts loot route",
+          "behind_lock": "Improvised armory room"
+        }
+      ]
+    },
+    "gzwMoneyGuide": {
+      "eyebrow": "Ekonomia",
+      "title": "Poradnik zarabiania w Gray Zone Warfare",
+      "subtitle": "Odzyskaj płynność finansową dzięki powtarzalnym zadaniom początkowym, lepszym priorytetom łupów i mądrzejszym decyzjom o sprzedaży. Ten moduł skupia się na trasach i działaniach, które generują pieniądze bez wymuszania walk o wysokim ryzyku.",
+      "intro": "Pieniądze w Gray Zone Warfare pochodzą z dwóch wiarygodnych źródeł: nagród za zadania i zdyscyplinowanego zbierania łupów. Początkowe zadania zapewniają gotówkę, reputację i przydatne przedmioty, podczas gdy pojemniki z bronią i kosztowności mogą być sprzedawane w sieci handlarzy w FOB. Dobra pętla odzyskiwania funduszy jest prosta: wykonaj pobliskie zadanie, zbieraj łupy efektywnie, sprzedawaj inteligentnie i wykorzystaj kolejną wypłatę na uzupełnienie zapasów zamiast nadmiernego rozbudowywania ekwipunku.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Zacznij od pobliskich płatnych zadań",
+          "summary": "Wykorzystaj zadania początkowe i te na trasie jako podstawę swojej pętli ekonomicznej, zanim podejmiesz większe ryzyko utraty sprzętu.",
+          "data_points": [
+            "Meds Wanted: 400 PD, +100 reputacji u Lab Rat, $1,200, 2x Staza taktyczna",
+            "Helping Hand: 225 PD, +150 reputacji u Handshake, $440",
+            "Tools of the Trade: 150 PD, +105 reputacji u Artisan, $400",
+            "What's in Store: 2,000 PD, +200 reputacji u Gunny, $3,300, 1x Skrzynia HARDE"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Priorytetyzuj pojemniki z bronią podczas zbierania łupów",
+          "summary": "Pojemniki z bronią to przystanki o wysokiej wartości, ponieważ mogą zawierać broń, magazynki i części broni.",
+          "data_points": [
+            "Skrzynia na broń CSI: pojemnik 8x6 na broń i części broni",
+            "Skrzynia na broń UN: pojemnik 7x4 na broń i części broni",
+            "Skrzynia na broń: pojemnik 8x3 na broń i części broni",
+            "Wojskowa skrzynia na broń może zawierać magazynki do AK308, AK74 i SVD Dragunov"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Sprzedawaj kosztowności handlarzowi, który płaci najwięcej",
+          "summary": "Cenne łupy można sprzedać dowolnemu handlarzowi, ale różni kupcy płacą więcej za konkretne przedmioty.",
+          "data_points": [
+            "Korzystaj z listy najlepszych kupców, gdy zależy Ci na maksymalnym zysku zamiast na wygodzie",
+            "Kosztowności można sprzedać dowolnemu handlarzowi za cenę o 50% niższą niż najwyższa pokazana cena",
+            "Ustalaj priorytety, co zabrać z powrotem do FOB, a co zostawić"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Zamień gotówkę na lepszy dostęp do handlarzy",
+          "summary": "Twoja ekonomia staje się silniejsza, gdy pieniądze z zadań zwiększają również reputację u handlarzy i odblokowują lepszy asortyment.",
+          "data_points": [
+            "Zadania to najszybszy sposób na zdobywanie PD i często nagradzają gotówką, przedmiotami oraz reputacją u handlarzy",
+            "Niektóre zadania odblokowują nowy asortyment u handlarzy",
+            "Aktualizacja 0.4 zbalansowała nagrody, kładąc większy nacisk na pieniądze niż na przedmioty",
+            "Ukończenie zadania po raz pierwszy zapewnia większy wzrost reputacji"
+          ]
+        }
+      ]
+    },
+    "gzwWeaponsGuide": {
+      "eyebrow": "Broń",
+      "title": "Poradnik broni w Gray Zone Warfare",
+      "subtitle": "Śledź główne platformy karabinów, ich kalibry i dowiedz się, jak każda rodzina pasuje do szerszej puli uzbrojenia. Celem jest pomoc graczom w szybkim zrozumieniu różnic między platformami przed zainwestowaniem w magazynki, amunicję i dodatki.",
+      "intro": "Ekosystem broni w Gray Zone Warfare opiera się na rodzinach kalibrów, kompatybilnych magazynkach i systemach dodatków. Oficjalne strony broni i handlarzy pokazują, jakie platformy istnieją w grze, podczas gdy najnowszy devlog Spearhead potwierdza, że waga, kołysanie, zachowanie przy celowaniu (ADS), obsługa przeładowania i balistyka mają teraz większe znaczenie. Oznacza to, że wybór broni nie zależy już tylko od czystej siły ognia.",
+      "items": [
+        {
+          "name": "AK-12",
+          "category": "Karabin szturmowy",
+          "caliber": "5.45x39mm",
+          "fire_mode": "Pojedynczy / Automatyczny",
+          "fire_rate": "700 RPM",
+          "notes": [
+            "Dzieli rodzinę kalibru z AK-74M, AK-74N i AKS-74U",
+            "Dobra platforma dla graczy korzystających z rodziny amunicji 5.45"
+          ]
+        },
+        {
+          "name": "AK-15",
+          "category": "Karabin szturmowy",
+          "caliber": "7.62x39mm",
+          "fire_mode": "Pojedynczy / Automatyczny",
+          "fire_rate": "700 RPM",
+          "notes": [
+            "Używa tej samej rodziny kalibru co AKM, AKMN, AKMSN i SKS",
+            "Wszechstronna platforma średniego zasięgu z szeroką dostępnością amunicji"
+          ]
+        },
+        {
+          "name": "AK-19",
+          "category": "Karabin szturmowy",
+          "caliber": "5.56x45mm NATO",
+          "fire_mode": "Pojedynczy / Automatyczny",
+          "fire_rate": "700 RPM",
+          "notes": [
+            "Dzieli rodzinę kalibru z M4A1, DDM4 i CQ A1",
+            "Łączy platformę typu AK z dostępem do amunicji kalibru NATO"
+          ]
+        },
+        {
+          "name": "AK-74M",
+          "category": "Karabin szturmowy",
+          "caliber": "5.45x39mm",
+          "fire_mode": "Pojedynczy / Automatyczny",
+          "fire_rate": "650 RPM",
+          "notes": [
+            "Część grupy karabinów 5.45",
+            "Szeroko dostępny na początku i solidna podstawa dla drzewka kalibru 5.45"
+          ]
+        },
+        {
+          "name": "SIG MCX",
+          "category": "Karabin szturmowy",
+          "caliber": ".300 AAC Blackout",
+          "fire_mode": "Platforma modułowa",
+          "fire_rate": "Zobacz stronę broni",
+          "notes": [
+            "Dedykowany kaliber platformy, najlepiej traktowany jako samodzielna konfiguracja",
+            "Niszowa, ale potężna opcja dla graczy czujących się pewnie z zestawem o jednym kalibrze"
+          ]
+        },
+        {
+          "name": "Zmiany w obsłudze 0.4",
+          "category": "Notatki systemowe",
+          "caliber": "Wszystkie platformy",
+          "fire_mode": "Wszystkie tryby",
+          "fire_rate": "N/D",
+          "notes": [
+            "Aktualizacja 0.4 dodaje wpływ wagi broni na ergonomię, kołysanie, przyspieszenie i ADS",
+            "Statystyki broni zostały odświeżone, aby położyć nacisk na obsługę i zachowanie podczas przeładowania",
+            "Obliczenia balistyczne zostały ulepszone, aby zwiększyć użyteczność broni i amunicji"
+          ]
+        }
+      ]
+    },
+    "gzwAmmoGuide": {
+      "eyebrow": "Amunicja",
+      "title": "Poradnik amunicji w Gray Zone Warfare",
+      "subtitle": "Skorzystaj z tego przeglądu kalibrów, aby powiązać rodziny amunicji z bronią, która ich używa. Daje to graczom praktyczną mapę do planowania ekwipunku, wyboru magazynków i współdzielenia amunicji między platformami.",
+      "intro": "Wybór amunicji w Gray Zone Warfare jest bezpośrednio powiązany z platformą broni i kompatybilnością magazynków. Przegląd amunicji na wiki gry pokazuje, które kalibry są używane przez poszczególne karabiny, DMR i broń powtarzalną, podczas gdy najnowszy devlog potwierdza, że balistyka i ogólna użyteczność amunicji są zmieniane w aktualizacji Spearhead. Dzięki temu świadomość kalibrów jest jednym z najprostszych sposobów na uniknięcie błędów w doborze ekwipunku.",
+      "items": [
+        {
+          "caliber": ".300 AAC Blackout",
+          "used_by": "SIG MCX",
+          "weapon_class": "Platforma karabinu szturmowego",
+          "planning_note": "Najlepiej traktować jako dedykowany kaliber platformy, a nie jako podstawowy element współdzielonego ekwipunku na początku gry."
+        },
+        {
+          "caliber": "5.45x39mm",
+          "used_by": "AK-74M, AK-74N, AK-12, AKS-74U",
+          "weapon_class": "Karabiny szturmowe",
+          "planning_note": "Przydatne, gdy chcesz, aby wiele karabinów typu AK korzystało z tej samej rodziny kalibru."
+        },
+        {
+          "caliber": "5.56x45mm NATO",
+          "used_by": "M4A1, DDM4, CQ A1, AK-19",
+          "weapon_class": "Karabiny szturmowe",
+          "planning_note": "Szeroka rodzina kalibrów karabinowych, która obejmuje zarówno karabiny w stylu zachodnim, jak i platformę AK-19."
+        },
+        {
+          "caliber": "7.62x39mm",
+          "used_by": "AKM, AKMN, AKMSN, AK-15, SKS",
+          "weapon_class": "Karabiny szturmowe i DMR",
+          "planning_note": "Obsługuje zarówno konfiguracje karabinów szturmowych, jak i SKS, co jest przydatne dla graczy zmieniających role."
+        },
+        {
+          "caliber": "7.62x51mm NATO",
+          "used_by": "AK-308, M700",
+          "weapon_class": "Karabin szturmowy i karabin powtarzalny",
+          "planning_note": "Współdzielona przez cięższe bronie precyzyjne zamiast lżejszych rodzin karabinów szturmowych."
+        },
+        {
+          "caliber": "Kierunek balistyki 0.4",
+          "used_by": "Wszystkie typy amunicji",
+          "weapon_class": "Cały system",
+          "planning_note": "Notatki do aktualizacji Spearhead potwierdzają, że obliczenia balistyczne są ulepszane, a broń i amunicja są balansowane w celu zwiększenia ich użyteczności."
+        }
+      ]
+    },
+    "gzwVendorsGuide": {
+      "eyebrow": "Handlarze",
+      "title": "Przewodnik po handlarzach Gray Zone Warfare",
+      "subtitle": "Dowiedz się, w czym specjalizuje się każdy handlarz, które zadania odblokowują dodatkowy dostęp i jak reputacja u handlarza ogranicza dostęp do lepszego towaru. Ułatwia to planowanie progresji, gdy zależy Ci na konkretnym typie sprzętu zamiast losowych ulepszeń.",
+      "intro": "Handlarze są kręgosłupem progresji w Gray Zone Warfare. Sprzedają sprzęt, kupują zrabowane przedmioty i odblokowują lepszy towar wraz ze wzrostem Twojej reputacji. Strony handlarzy pokazują również, że kilku kupców jest powiązanych łańcuchami zadań, więc mądra progresja oznacza nie tylko zdobywanie reputacji, ale robienie tego u handlarza, który otwiera kategorię, której potrzebujesz w następnej kolejności.",
+      "items": [
+        {
+          "vendor": "Handshake",
+          "specialty": "Hełmy, oporządzenie, kamizelki kuloodporne, kontenery, narzędzia",
+          "rank_thresholds": "Ranga 1: 0 | Ranga 2: 700 | Ranga 3: 2500 | Ranga 4: 6500",
+          "unlock_path": "Handlarz początkowy, brak wymagań wstępnych",
+          "progression_note": "Dobry dla graczy, którzy chcą wczesnej progresji powiązanej z ochroną, przechowywaniem i ogólnym sprzętem polowym."
+        },
+        {
+          "vendor": "Lab Rat",
+          "specialty": "Leki, żywność, napoje, kontenery",
+          "rank_thresholds": "Ranga 1: 0 | Ranga 2: 700 | Ranga 3: 2500 | Ranga 4: 6500",
+          "unlock_path": "Główny handlarz, brak wymagań wstępnych",
+          "progression_note": "Główny handlarz medyczny i zaopatrzeniowy w przedmioty leczące, zapasy i schowki użytkowe."
+        },
+        {
+          "vendor": "Gunny",
+          "specialty": "Broń, magazynki, amunicja, przedmioty rzucane, celowniki, akcesoria do broni",
+          "rank_thresholds": "Ranga 1: 0 | Ranga 2: 700 | Ranga 3: 2500 | Ranga 4: 6500",
+          "unlock_path": "Główny handlarz, brak wymagań wstępnych",
+          "progression_note": "Najlepszy punkt oparcia na początku gry, gdy Twoim celem jest poprawa wyboru karabinów, akcesoriów i dostępu do amunicji."
+        },
+        {
+          "vendor": "Artisan",
+          "specialty": "Broń, magazynki, amunicja, celowniki, akcesoria, hełmy, kontenery",
+          "rank_thresholds": "Ranga 1: 0 | Ranga 2: 700 | Ranga 3: 2500 | Ranga 4: 6500",
+          "unlock_path": "Wymaga ukończenia Native Negotiations od Lab Rat",
+          "progression_note": "Ważny handlarz, któremu warto nadać priorytet, gdy chcesz mieć większą kontrolę techniczną nad akcesoriami i modyfikacjami broni."
+        },
+        {
+          "vendor": "Banshee",
+          "specialty": "Broń, magazynki, amunicja, celowniki, akcesoria, oporządzenie",
+          "rank_thresholds": "Ranga 1: 0 | Ranga 2: 700 | Ranga 3: 2500 | Ranga 4: 6500",
+          "unlock_path": "Wymaga ukończenia Invaders From Afar od Artisan",
+          "progression_note": "Pasuje do graczy, którzy chcą kolejnej gałęzi skupionej na broni, jednocześnie rozszerzając opcje sprzętu do noszenia."
+        },
+        {
+          "vendor": "Turncoat",
+          "specialty": "Broń, amunicja, celowniki, akcesoria, hełmy, oporządzenie, kamizelki kuloodporne, kontenery",
+          "rank_thresholds": "Ranga 1: 0 | Ranga 2: 700 | Ranga 3: 2500 | Ranga 4: 6500",
+          "unlock_path": "Wymaga ukończenia The Shadow Over Ban Pa od Handshake",
+          "progression_note": "Jeden z najszerszych asortymentów — łączący wsparcie w zakresie broni z progresją pancerza i kontenerów."
+        }
+      ]
+    },
+    "gzwHealthSystemGuide": {
+      "eyebrow": "Systemy przetrwania",
+      "title": "Przewodnik po systemie zdrowia Gray Zone Warfare",
+      "subtitle": "Gray Zone Warfare wykorzystuje system części ciała i puli życiowych zamiast prostego paska HP. Najszybszym sposobem na przetrwanie jest zidentyfikowanie źródła problemu i natychmiastowe użycie właściwego przedmiotu leczniczego.",
+      "intro": "W Gray Zone Warfare rany, siniaki, uszkodzenia organów, utrata krwi, ból i nawodnienie wzajemnie na siebie oddziałują. Gracz może przez chwilę wyglądać na żywego i nagle upaść, jeśli krwawienie, uszkodzenie organów lub odwodnienie nie zostaną opanowane w odpowiedniej kolejności. Ten przewodnik został stworzony jako szybkie odniesienie podczas rajdu, aby gracze mogli dopasować objaw do właściwego rozwiązania.",
+      "items": [
+        {
+          "section": "Podstawowy model zdrowia",
+          "content": [
+            "Śledzi części ciała oraz pule życiowe, takie jak krew i nawodnienie — brak tradycyjnego modelu HP",
+            "Przetrwanie zależy od leczenia przyczyny problemu, a nie tylko widocznego objawu",
+            "Krew może regenerować się naturalnie, ale regeneracja zatrzymuje się, gdy nawodnienie lub energia spadną zbyt nisko"
+          ]
+        },
+        {
+          "section": "Rany i krwawienie",
+          "content": [
+            "Rany są oznaczone na czerwono i powstają, gdy pocisk ominie sprzęt ochronny",
+            "Lekkie rany mogą zagoić się z czasem; średnie i ciężkie rany wymagają leczenia",
+            "Bandaże leczą rany; stazy zatrzymują krwawienie, ale nie leczą rany"
+          ]
+        },
+        {
+          "section": "Siniaki i ból",
+          "content": [
+            "Siniaki są oznaczone na fioletowo i powstają, gdy pancerz zatrzyma uderzenie, ale impet nadal powoduje uraz",
+            "Siniaki powodują ból, ale zazwyczaj goją się naturalnie z czasem",
+            "Ból i cierpienie mogą prowadzić do drgawek, które pogarszają obsługę broni"
+          ]
+        },
+        {
+          "section": "Złamania kości i utrata mobilności",
+          "content": [
+            "Kości rąk i nóg mogą zostać uszkodzone w wyniku uderzeń lub upadków",
+            "Zniszczenie kości nogi powoduje utykanie, uniemożliwia sprint i skok oraz spowalnia regenerację wytrzymałości",
+            "Szyny elastyczne są standardowym sposobem leczenia złamanych lub pękniętych kończyn"
+          ]
+        },
+        {
+          "section": "Uszkodzenia organów",
+          "content": [
+            "Mózg, serce, płuca i wątroba mogą zostać uszkodzone",
+            "Zniszczenie organów życiowych, takich jak serce lub mózg, skutkuje natychmiastową śmiercią",
+            "Zestawy chirurgiczne służą do przywracania uszkodzonych lub zniszczonych organów"
+          ]
+        },
+        {
+          "section": "Utrata krwi i zapaść",
+          "content": [
+            "Utrata krwi powoduje pogorszenie objawów i może zakończyć się śpiączką",
+            "Status zawrotów głowy utrzymuje się, dopóki poziom krwi nie przekroczy 5000 ml lub nawodnienie i energia nie zostaną przywrócone",
+            "Worki z krwią służą do uzupełniania utraconej krwi"
+          ]
+        },
+        {
+          "section": "Nawodnienie i energia",
+          "content": [
+            "Pragnienie zaczyna się, gdy nawodnienie spadnie poniżej 50 procent i zatrzymuje regenerację krwi",
+            "Odwodnienie powoduje zamglone widzenie i trwa, dopóki nawodnienie nie wzrośnie powyżej 1 procenta",
+            "Głód zaczyna się, gdy energia spadnie poniżej 50 procent i również zatrzymuje regenerację krwi"
+          ]
+        },
+        {
+          "section": "Powszechne przedmioty medyczne",
+          "content": [
+            "Bandaż urazowy ARF 4 — leczy rany, 4 ładunki",
+            "Gaza cywilna — leczy rany, 3 ładunki",
+            "Szyna elastyczna — naprawia złamania, 5 ładunków",
+            "Podstawowy zestaw chirurgiczny i szewny — leczy urazy organów, 6 ładunków",
+            "Duży worek z krwią — 500 ml na ładunek, 2 ładunki",
+            "Meloxicam i Ibalin — leki przeciwbólowe redukujące skutki bólu"
+          ]
+        },
+        {
+          "section": "Kolejność szybkiego leczenia",
+          "content": [
+            "Po pierwsze: zatrzymaj aktywne krwawienie",
+            "Następnie: opatrz rany i złamania",
+            "Następnie: ustabilizuj organy, jeśli to konieczne",
+            "Następnie: przywróć objętość krwi, jeśli objawy się utrzymują",
+            "Na koniec: uzupełnij nawodnienie i energię, aby regeneracja mogła zostać wznowiona"
+          ]
+        },
+        {
+          "section": "Zasady leczenia drużynowego",
+          "content": [
+            "Aby uleczyć kolegę z drużyny, przedmioty medyczne muszą znajdować się w kamizelce taktycznej, pasie taktycznym lub kieszeniach",
+            "Najpierw zbadaj rannego gracza, aby zobaczyć, co wymaga interwencji",
+            "Torby medyczne oszczędzają miejsce w ekwipunku, ale przedmioty muszą zostać z nich wyciągnięte przed użyciem"
+          ]
+        }
+      ]
+    },
+    "gzwFactionsGuide": {
+      "eyebrow": "Wybór PMC",
+      "title": "Przewodnik po frakcjach Gray Zone Warfare",
+      "subtitle": "Gray Zone Warfare oferuje trzy grywalne PMC z różną historią, pozycjami obozów bazowych, miastami startowymi i trasami zadań. Wybór frakcji decyduje również o tym, czy możesz dołączyć do oddziału z konkretnymi znajomymi.",
+      "intro": "Wybór frakcji nie jest tylko kosmetyczny. Wpływa na Twoją startową stronę mapy, dostępne wczesne trasy i części przebiegu zadań. Najważniejsza zasada dla grup: wszyscy muszą być w tej samej frakcji.",
+      "items": [
+        {
+          "name": "Lamang Recovery Initiative",
+          "summary": "Finansowana przez miliarderów PMC, która przedstawia się jako siły ratownicze i odzyskiwania mienia wokół Ground Zero.",
+          "highlights": [
+            "Wizerunek publiczny skupia się na poszukiwaniu ocalałych, ratownictwie i sprzątaniu",
+            "Wykorzystuje małe, wysoce profesjonalne oddziały ochrony do ochrony zespołów",
+            "Miasto startowe: Pha Lang — szybki dostęp do stref spornych"
+          ]
+        },
+        {
+          "name": "Mithras Security Systems",
+          "summary": "PMC stawiająca żołnierzy na pierwszym miejscu, ceniąca doświadczenie polowe i kompetencje wojskowe.",
+          "highlights": [
+            "Promuje się jako firma prowadzona przez żołnierzy dla żołnierzy",
+            "Przyjmuje doświadczonych operatorów i kładzie nacisk na kulturę zasług oraz dzielenia się łupami",
+            "Miasto startowe: Nam Thaven — pomiędzy bezpieczniejszymi a bardziej niebezpiecznymi trasami"
+          ]
+        },
+        {
+          "name": "Crimson Shield International",
+          "summary": "PMC o wysokiej skuteczności, znana z bezwzględnej efektywności i surowszej reputacji.",
+          "highlights": [
+            "Znana w historii gry z 95-procentowej skuteczności",
+            "Przyciąga operatorów nastawionych na akcję, ale ma reputację powodowania strat pobocznych",
+            "Miasto startowe: Kiu Vongsa — powszechnie uważane za bardziej przyjazne dla wolniejszej wczesnej progresji"
+          ]
+        },
+        {
+          "name": "Co się właściwie zmienia",
+          "summary": "Wybór frakcji wpływa na coś więcej niż tylko opisy fabularne.",
+          "highlights": [
+            "Twoja frakcja decyduje o obszarze startowym na Lamang Island",
+            "Niektóre dostępne zadania różnią się w zależności od frakcji",
+            "Znajomi muszą dołączyć do tej samej frakcji, aby grać razem",
+            "Gracz może zresetować postać co 7 dni, jeśli potrzebny jest restart"
+          ]
+        }
+      ]
+    },
+    "gzwArmorGuide": {
+      "eyebrow": "Ochrona",
+      "title": "Poradnik pancerza Gray Zone Warfare",
+      "subtitle": "Skuteczność pancerza zależy od klasy NIJ, miejsca, które płyty faktycznie osłaniają na ciele, oraz materiału, z którego wykonano pancerz. Wyższa cena nie oznacza automatycznie lepszej ochrony w każdej sytuacji.",
+      "intro": "Gra wykorzystuje klasy pancerza w stylu NIJ oraz system płyt oparty na lokalizacji. Podczas inspekcji elementu pancerza istotne jest nie tylko oznaczenie klasy, ale także to, czy płyta chroni przód i tył – obszary najbardziej narażone na trafienie. Materiał również ma znaczenie, ponieważ różne rodzaje pancerza stawiają opór pociskom w różny sposób, nawet przy zmianach wytrzymałości.",
+      "rows": [
+        {
+          "name": "Commander (Navy)",
+          "type": "Kamizelka kuloodporna",
+          "nij": "IIIA",
+          "material": "UHMWPE",
+          "weight": "4.000 kg",
+          "how_to_get": "Handshake poz. 1"
+        },
+        {
+          "name": "Specter",
+          "type": "Plate Carrier",
+          "nij": "IIIA",
+          "material": "Aramid",
+          "weight": "1.480 kg",
+          "how_to_get": "Łup"
+        },
+        {
+          "name": "Pantsir 2.0",
+          "type": "Plate Carrier",
+          "nij": "III",
+          "material": "Ceramika",
+          "weight": "8.480 kg",
+          "how_to_get": "Turncoat poz. 2 / Łup"
+        },
+        {
+          "name": "Recon Plate Carrier",
+          "type": "Plate Carrier",
+          "nij": "III+",
+          "material": "UHMWPE",
+          "weight": "5.600 kg",
+          "how_to_get": "Handshake poz. 4 / Nagrody za zadania"
+        },
+        {
+          "name": "M2 Plate Carrier",
+          "type": "Plate Carrier",
+          "nij": "III+",
+          "material": "Ceramika",
+          "weight": "7.640 kg",
+          "how_to_get": "Łup / Nagroda za zadanie"
+        },
+        {
+          "name": "CZ 4M Lancer",
+          "type": "Plate Carrier",
+          "nij": "III",
+          "material": "Stal",
+          "weight": "9.550 kg",
+          "how_to_get": "Handshake poz. 3 / Nagrody za zadania"
+        }
+      ],
+      "notes": [
+        "Gray Zone Warfare korzysta z systemu NIJ — poziomy ochrony od najsłabszego do najlepszego: I, IIA, IIA+, IIIA, IIIA+, III, III+, III++",
+        "Widoczne lokalizacje płyt podczas inspekcji pokazują, gdzie zapewniona jest ochrona przed penetracją",
+        "Materiał pancerza ma znaczenie: UHMWPE ma niską odporność, ceramika średnią, a stal wyższą",
+        "Kamizelki typu Plate Carrier łączą miejsce na ekwipunek z pancerzem; zwykłe kamizelki wymagają połączenia z nieopancerzonym oporządzeniem taktycznym",
+        "Interfejs w aktualizacji 0.4 wyraźniej pokazuje poziomy pancerza, a szczegóły amunicji wyświetlają najniższą klasę pancerza, której dany pocisk nie przebije"
+      ]
+    },
+    "gzwBestLoadouts": {
+      "eyebrow": "Zestawy",
+      "title": "Najlepsze zestawy w Gray Zone Warfare",
+      "subtitle": "Najbardziej przydatne zestawy w Gray Zone Warfare to nie efektowne teoretyczne buildy. To zestawy zbudowane wokół przetrwania, ewakuacji, efektywności zadań, osłony pancerza, gotowości medycznej i odpowiedniej mobilności.",
+      "intro": "Ten moduł skupia się na rzeczywistych archetypach używanych przez graczy: tanim zestawie z karabinem dla początkujących, cichym zestawie solo PvE, cięższym zestawie bojowym dla oddziału oraz konfiguracji nastawionej na wykonywanie zadań. Każdy z nich został zaprojektowany w oparciu o sprawdzone systemy gry, takie jak wytrzymałość, nawodnienie, tłumienie ognia, osłona pancerza i przygotowanie medyczne.",
+      "items": [
+        {
+          "name": "Budżetowy zestaw dla początkujących",
+          "summary": "Zestaw niskiego ryzyka do zadań w początkowym mieście i wczesnego zarabiania gotówki.",
+          "highlights": [
+            "Przystępny cenowo karabin, taki jak AKM — powszechnie polecany jako tania platforma startowa",
+            "Cel pancerza: ochrona przodu i tyłu bez nadmiernego obciążenia",
+            "Podstawa medyczna: bandaż, szyna, worek z krwią, środek przeciwbólowy",
+            "Styl gry: unikaj długich walk, wykonaj cel i ewakuuj się"
+          ]
+        },
+        {
+          "name": "Zestaw skradankowy solo PvE",
+          "summary": "Stworzony do cichego przemieszczania się, wykonywania zadań i samotnego przetrwania.",
+          "highlights": [
+            "Broń z tłumikiem jest zdecydowanie preferowana w grze solo",
+            "Używaj lżejszego pancerza i kontrolowanego ruchu, aby zarządzać wytrzymałością i nawodnieniem",
+            "Priorytetyzuj przedmioty misji i kluczowe łupy nad chciwością",
+            "Zrób rozpoznanie terenu przed wejściem i traktuj ewakuację jako prawdziwe zwycięstwo"
+          ]
+        },
+        {
+          "name": "Ciężki zestaw PvEvP dla oddziału",
+          "summary": "Mocniejszy zestaw grupowy do stref spornych i trudniejszych walk.",
+          "highlights": [
+            "Kamizelki Plate Carrier z osłoną przodu i tyłu oraz wyższymi klasami NIJ, gdy to możliwe",
+            "Przedmioty medyczne w dostępnych slotach, aby członkowie drużyny mogli szybko się nawzajem leczyć",
+            "Poruszaj się, kontrolując wiele kątów, dzieląc zapasy i wspierając się w reanimacji",
+            "W obszarach końcowej fazy gry zdecydowanie zaleca się używanie tłumików i posiadanie przynajmniej jednego partnera w zespole"
+          ]
+        },
+        {
+          "name": "Użytkowy zestaw do zadań",
+          "summary": "Zbalansowany zestaw do misji, w których podróż, przeszukiwanie i ewakuacja liczą się bardziej niż liczba zabójstw.",
+          "highlights": [
+            "Noś tylko to, co wspiera zadanie: broń, leki, nawodnienie i miejsce na przedmioty z misji",
+            "Wybór frakcji zmienia efektywność tras — każda frakcja zaczyna w innym mieście",
+            "Przebieg zadań został ponownie przebudowany w aktualizacji 0.4",
+            "Najlepszy zestaw do zadań utrzymuje wagę pod kontrolą i zostawia miejsce na przyniesienie przedmiotów misji do bazy"
+          ]
+        }
+      ]
+    },
+    "gzwPveVsPvpGuide": {
+      "title": "Poradnik Gray Zone Warfare: PvE vs PvP",
+      "intro": "Gray Zone Warfare obsługuje zarówno tryb Warfare, jak i Joint Operations. Postęp jest współdzielony między trybami, więc wielu graczy korzysta z Joint Operations, aby poznać lokalizacje i zadania przed zabraniem tej samej postaci do trybu Warfare.",
+      "items": [
+        {
+          "aspect": "Podstawowe zasady",
+          "warfare": "Pełne PvPvE — rywalizujące frakcje mogą walczyć ze sobą na całej mapie",
+          "joint_operations": "Tylko PvE — gracze nie mogą się atakować ani okradać, walczą tylko z przeciwnikami AI"
+        },
+        {
+          "aspect": "Dopasowanie dla nowych graczy",
+          "warfare": "Najlepsze dla graczy, którzy od początku chcą nieprzewidywalnych starć i presji ze strony innych frakcji",
+          "joint_operations": "Najlepsze dla początkujących, którzy chcą poznać mechanikę ewakuacji, leczenia, trasy na mapie i cele zadań"
+        },
+        {
+          "aspect": "Przyjazność dla graczy solo",
+          "warfare": "Można grać solo, ale czas przylotu śmigłowca i wrodzy gracze sprawiają, że błędy są bardziej kosztowne",
+          "joint_operations": "Bardziej przystępne do nauki solo, ponieważ presja pochodzi od AI, a nie z zasadzek zastawianych przez ludzi"
+        },
+        {
+          "aspect": "Wielkość oddziału",
+          "warfare": "Gra solo lub w oddziale, do czterech graczy",
+          "joint_operations": "Gra solo lub w oddziale, do czterech graczy"
+        },
+        {
+          "aspect": "Zagrożenie ze strony graczy",
+          "warfare": "Wrodzy PMC mogą cię zastrzelić w dowolnym miejscu na mapie, poza krótką ochroną po przylocie śmigłowca",
+          "joint_operations": "Brak obrażeń od innych graczy i możliwości okradania się nawzajem"
+        },
+        {
+          "aspect": "Posterunki bojowe (COP)",
+          "warfare": "Frakcje walczą o kontrolę nad COP; rywalizujący gracze stają się częścią bitwy o posterunek",
+          "joint_operations": "Pierwsza frakcja przejmuje COP po wyeliminowaniu AI; potem wszystkie frakcje mogą go używać jako wspólnej bezpiecznej strefy"
+        },
+        {
+          "aspect": "Najlepsze zastosowanie",
+          "warfare": "Wybierz ten tryb dla napięcia przy ewakuacji, konfliktów frakcji i dynamicznych starć na trasach i w posterunkach",
+          "joint_operations": "Wybierz ten tryb, aby kończyć zadania, poznawać układ terenu, testować zestawy lub zbierać doświadczenie przy mniejszej liczbie zmiennych"
+        },
+        {
+          "aspect": "Postęp",
+          "warfare": "Współdzielony postęp postaci",
+          "joint_operations": "Współdzielony postęp postaci — postępy poczynione tutaj przenoszą się również do trybu Warfare"
+        },
+        {
+          "aspect": "Zalecany typ gracza",
+          "warfare": "Weterani gier typu extraction, pewne siebie duety i oddziały oraz gracze lubiący walkę o cele",
+          "joint_operations": "Nowi gracze, osoby skupione na zadaniach oraz każdy, kto ćwiczy trasy, mechanikę leczenia lub postęp u handlarzy"
+        }
+      ]
+    },
+    "gzwLocationsGuide": {
+      "title": "Przewodnik po lokacjach Gray Zone Warfare",
+      "intro": "Wyszukiwania dotyczące Gray Zone Warfare są w dużej mierze oparte na lokacjach, ponieważ gracze stale przemieszczają się między miastami startowymi, celami zadań, obszarami z łupami i kompleksami wojskowymi. Poniższe główne punkty orientacyjne (POI) obejmują najbardziej przydatne odnośniki na stronie głównej.",
+      "sections": [
+        {
+          "section": "Miasta startowe",
+          "entries": [
+            {
+              "name": "Kiu Vongsa",
+              "grid": "141:164",
+              "role": "Miasto startowe dla Crimson Shield International",
+              "why": "Częsty cel we wczesnej fazie gry dla tras CSI i przemieszczania się w pobliżu farmy"
+            },
+            {
+              "name": "Nam Thaven",
+              "grid": "171:118",
+              "role": "Miasto startowe dla Mithras Security Systems",
+              "why": "Główny obszar początkowy dla graczy Mithras i punkt odniesienia przy planowaniu wczesnych tras"
+            },
+            {
+              "name": "Pha Lang",
+              "grid": "202:162",
+              "role": "Miasto startowe dla Lamang Recovery Initiative",
+              "why": "Główny obszar bazowy we wczesnej fazie gry dla progresji LRI i ruchu na południe"
+            }
+          ]
+        },
+        {
+          "section": "Główne cele zadań i łupów",
+          "entries": [
+            {
+              "name": "Sawmill",
+              "grid": "139:144",
+              "role": "Strefa poziomu 2 ze starym tartakiem",
+              "why": "Rozpoznawalny krok naprzód względem obszarów startowych i częsty cel w środkowej fazie gry"
+            },
+            {
+              "name": "Hunter's Paradise",
+              "grid": "159:168",
+              "role": "Prywatna strzelnica",
+              "why": "Gracze szukają tego miejsca ze względu na zadania, planowanie tras i pobliskie punkty orientacyjne"
+            },
+            {
+              "name": "Ban Pa",
+              "grid": "205:137",
+              "role": "Małe miasteczko po wschodniej stronie blisko wody",
+              "why": "Przydatne przy wyznaczaniu tras zadań i planowaniu podróży na wschód"
+            },
+            {
+              "name": "Pha Lang Airfield",
+              "grid": "182:158",
+              "role": "Cywilne lotnisko na Lamang Island",
+              "why": "Ważne dla orientacji w terenie i geografii związanej z transportem"
+            }
+          ]
+        },
+        {
+          "section": "Obszary wojskowe o wysokim znaczeniu i cele końcowe",
+          "entries": [
+            {
+              "name": "YBL-1",
+              "grid": "143:122",
+              "role": "Wojskowy bunkier podziemny",
+              "why": "Wyjątkowy obiekt wojskowy o zupełnie innym charakterze niż otwarte osady"
+            },
+            {
+              "name": "Fort Narith",
+              "grid": "143:129",
+              "role": "Największy obiekt wojskowy i drugie co do wielkości lotnisko na wyspie",
+              "why": "Najczęściej wyszukiwana lokacja o wysokim zagrożeniu ze względu na skalę, wartość militarną i powracające zadania"
+            },
+            {
+              "name": "Tiger Bay",
+              "grid": "198:130",
+              "role": "Największe miasto z dużym centrum handlowym",
+              "why": "Główny punkt orientacyjny w terenie miejskim i jeden z najbardziej oczywistych celów w późnej fazie gry"
+            },
+            {
+              "name": "Blue Lagoon",
+              "grid": "203:117",
+              "role": "Mały kurort na południu w pobliżu gór",
+              "why": "Nazwany punkt orientacyjny, który gracze szybko rozpoznają podczas planowania tras na południe"
+            }
+          ]
+        },
+        {
+          "section": "Uwagi dotyczące posterunków bojowych",
+          "entries": [
+            {
+              "name": "Główne posterunki (COP)",
+              "grid": "zmienne",
+              "role": "Strategiczne punkty odrodzenia, uzupełniania zapasów i kontroli",
+              "why": "Przejęte posterunki mogą służyć jako punkty odrodzenia z dostępem do szafek i handlarzy"
+            },
+            {
+              "name": "Wspólny dostęp do COP w PvE",
+              "grid": "zasada systemu",
+              "role": "Zachowanie przejmowania w trybie Joint Operations",
+              "why": "W trybie PvE, gdy jedna frakcja zabezpieczy posterunek przed AI, wszystkie frakcje mogą go używać jako wspólnej bezpiecznej strefy"
+            }
+          ]
+        }
+      ]
+    },
+    "gzwEditionDifferences": {
+      "title": "Różnice między edycjami Gray Zone Warfare",
+      "intro": "Wybór edycji w Gray Zone Warfare sprowadza się głównie do miejsca w magazynie, pojemności kontenera i elastyczności ekwipunku na starcie. Wersja Standard oferuje najwięcej gotówki na start, ale najmniejszą szafkę.",
+      "items": [
+        {
+          "feature": "Wielkość szafki",
+          "standard": "10x25",
+          "tactical": "10x35",
+          "elite": "10x45",
+          "supporter": "10x60"
+        },
+        {
+          "feature": "Bezpieczny pojemnik",
+          "standard": "2x2",
+          "tactical": "2x2",
+          "elite": "3x2",
+          "supporter": "3x3"
+        },
+        {
+          "feature": "Początkowa gotówka w grze",
+          "standard": "$10,000",
+          "tactical": "+$5,000",
+          "elite": "+$5,000",
+          "supporter": "+$5,000"
+        },
+        {
+          "feature": "Główny typ uzbrojenia",
+          "standard": "Podstawowy zestaw: karabin szturmowy i pistolet",
+          "tactical": "Pakiet startowy skupiony na pistoletach maszynowych",
+          "elite": "Pakiet z karabinem wyborowym (DMR) i pistoletem",
+          "supporter": "Pakiet z karabinem szturmowym i dodatkowym karabinem"
+        },
+        {
+          "feature": "Najważniejsze przedmioty użytkowe",
+          "standard": "Podstawowy zestaw medyczny, pancerz, magazynki i dodatkowe karabiny",
+          "tactical": "Granaty, chwyt przedni, latarka, zestaw słuchawkowy, gogle noktowizyjne",
+          "elite": "Granaty, tłumiki, urządzenie taktyczne, monokular noktowizyjny, lepszy zestaw medyczny",
+          "supporter": "Granaty, tłumik do karabinu, urządzenie taktyczne, celowniki, największa przewaga w przechowywaniu"
+        },
+        {
+          "feature": "Ekskluzywne korzyści",
+          "standard": "Dostęp do podstawowej wersji gry",
+          "tactical": "Więcej miejsca w magazynie i ścieżka ulepszenia sprzętu",
+          "elite": "Większy bezpieczny pojemnik i wyposażenie premium",
+          "supporter": "Koszulka GZW, rękawice, kolorowa nazwa wspierającego, ekskluzywna odznaka, wszystkie DLC w zestawie"
+        },
+        {
+          "feature": "Najlepsza dla",
+          "standard": "Graczy, którzy chcą najniższej ceny wejścia i nie przeszkadza im mniejsza przestrzeń w magazynie",
+          "tactical": "Graczy, którzy cenią sobie więcej miejsca w szafce i praktyczne ulepszenie względem wersji standardowej",
+          "elite": "Graczy, którzy chcą większego bezpiecznego pojemnika i bardziej zaawansowanego zestawu startowego",
+          "supporter": "Graczy, którzy chcą największego magazynu, najszerszego pakietu bonusów i przedmiotów kosmetycznych wspierającego"
+        }
+      ]
+    },
+    "gzwUpdateRoadmap": {
+      "title": "Mapa drogowa aktualizacji Gray Zone Warfare",
+      "intro": "Obecna historia aktualizacji Gray Zone Warfare koncentruje się na cyklu wydawniczym 0.4 Spearhead. Mapa drogowa wyznaczyła długoterminowe cele, podczas gdy ostatnie wiadomości zmieniły wersję 0.4 w znacznie większy kamień milowy.",
+      "items": [
+        {
+          "section": "Przebudowana mapa drogowa",
+          "date": "2025-03-13",
+          "summary": "Mapa drogowa została przebudowana, aby bardziej skupić się na nadchodzących funkcjach, zachowując jednocześnie widoczność długoterminowych planów rozwoju.",
+          "highlights": [
+            "Winds of War zaplanowane na wiosnę 2025",
+            "Dark Revelations zaplanowane na jesień 2025",
+            "Mapa drogowa na rok 2026+ nazwana Battle Forge, Shadow Strike, Rising Tensions oraz Ground Zero",
+            "Główne aktualizacje planowane mniej więcej co sześć miesięcy"
+          ]
+        },
+        {
+          "section": "Pierwsze spojrzenie: Aktualizacja 0.4",
+          "date": "2026-02-27",
+          "summary": "Aktualizacja 0.4 została formalnie zaprezentowana jako Spearhead — znacznie szerszy kamień milowy niż sugerowała jej wcześniejsza nazwa robocza.",
+          "highlights": [
+            "Aktualizacja przemianowana z Dark Revelations na Spearhead",
+            "Okno wydawnicze ustalone na marzec 2026",
+            "Zapowiedziano trzy devlogi poprzedzające premierę",
+            "Właścicielom Supporter Edition obiecano wczesny dostęp do wersji testowej"
+          ]
+        },
+        {
+          "section": "Nowa zawartość w 0.4",
+          "date": "2026-03-11",
+          "summary": "Drugi devlog Spearhead skupił się na rozbudowie mapy, przeciwników, broni oraz świata gry.",
+          "highlights": [
+            "Dodano ponad 25 nowych lokacji o różnej wielkości",
+            "Nowe mikrobiomy: bagna, lasy bambusowe i spalone lasy",
+            "Istniejące lokacje zostały przebudowane i dopracowane",
+            "Przeciwnicy AI zostali przeprojektowani na siedem odrębnych frakcji"
+          ]
+        },
+        {
+          "section": "Przebudowa rdzenia i nowe funkcje",
+          "date": "2026-03-18",
+          "summary": "Trzeci devlog Spearhead ujawnił główne zmiany w pętli rozgrywki i systemie progresji.",
+          "highlights": [
+            "Premiera Spearhead odbędzie się 31 marca 2026",
+            "Wczesny dostęp dla Supporter Edition od 27 marca 2026",
+            "Dodano nowy obszar startowy i samouczek, który można pominąć",
+            "Dodano wewnątrzgrowy podręcznik polowy (Field Manual) liczący ponad 110 stron",
+            "Łączna liczba zadań przekracza teraz 250, w tym ponad 100 nowych zadań i kontraktów"
+          ]
+        },
+        {
+          "section": "Lista obserwowanych po Spearhead",
+          "date": "after 2026-03-31",
+          "summary": "Oficjalny kanał informacyjny wskazuje już na dalsze prace po głównej premierze.",
+          "highlights": [
+            "NVIDIA DLSS 4.5 planowane w aktualizacjach po Spearhead",
+            "Długoterminowa mapa drogowa wciąż wskazuje na Battle Forge, Shadow Strike, Rising Tensions oraz Ground Zero",
+            "Twórcy nadal pozycjonują Gray Zone Warfare jako rozwijający się taktyczny sandbox"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Najczęściej zadawane",
+    "titleHighlight": "Pytania",
+    "subtitle": "Wszystko, co musisz wiedzieć o Gray Zone Warfare",
+    "questions": [
+      {
+        "question": "Czym jest Gray Zone Warfare?",
+        "answer": "Gray Zone Warfare to taktyczna strzelanka typu extraction shooter z otwartym światem, skupiona na PvE, stworzona przez MADFINGER Games. Zadebiutowała w Steam Early Access 30 kwietnia 2024 roku, a jej akcja toczy się na Lamang Island, gdzie gracze wcielają się w kontraktowych operatorów PMC."
+      },
+      {
+        "question": "Czy Gray Zone Warfare posiada tryb PvP?",
+        "answer": "Tak. Gray Zone Warfare oferuje dwa tryby: Warfare (pełne PvEvP, gdzie rywalizujące frakcje mogą ze sobą walczyć) oraz Joint Operations (wyłącznie PvE, bez starć z wrogimi graczami). Progresja postaci jest wspólna dla obu trybów."
+      },
+      {
+        "question": "Jakie frakcje występują w Gray Zone Warfare?",
+        "answer": "Gray Zone Warfare posiada trzy grywalne frakcje PMC: Crimson Shield International (miasto startowe Kiu Vongsa), Mithras Security Systems (miasto startowe Nam Thaven) oraz Lamang Recovery Initiative (miasto startowe Pha Lang). Gracze w tym samym oddziale muszą wybrać tę samą frakcję."
+      },
+      {
+        "question": "Jak działają zadania w Gray Zone Warfare?",
+        "answer": "Zadania to misje zlecane przez handlarzy, takich jak Handshake, Gunny i Lab Rat. Wykonywanie zadań zapewnia PD, gotówkę, przedmioty i reputację u handlarza. Wyższa reputacja odblokowuje lepszy asortyment. Aktualizacja 0.4 Spearhead dodała ponad 100 nowych zadań i kontraktów, co daje łącznie ponad 250."
+      },
+      {
+        "question": "Czym jest aktualizacja Gray Zone Warfare 0.4 Spearhead?",
+        "answer": "Spearhead to duża aktualizacja 0.4, która zadebiutuje 31 marca 2026 roku. Dodaje ponad 25 nowych lokacji, siedem przeprojektowanych frakcji AI, ponad 100 nowych zadań, pełną przebudowę systemu broni i balistyki, nowy obszar startowy oraz wewnątrzgrowy podręcznik polowy (Field Manual) z ponad 110 stronami."
+      },
+      {
+        "question": "Ile edycji posiada Gray Zone Warfare?",
+        "answer": "Gray Zone Warfare jest dostępne w czterech edycjach: Standard (schowek 10x25, lockbox 2x2), Tactical (schowek 10x35, pakiet SMG), Elite (schowek 10x45, pakiet DMR, lockbox 3x2) oraz Supporter (schowek 10x60, lockbox 3x3, wszystkie DLC, ekskluzywne przedmioty kosmetyczne)."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Gotowy na dominację na Lamang Island?",
+    "description": "Dołącz do społeczności Gray Zone Warfare na Discord, aby uzyskać poradniki, aktualizacje i koordynować działania oddziału!",
+    "joinCommunity": "Dołącz do Discord",
+    "joinGame": "Graj na Steam"
+  },
+  "footer": {
+    "title": "Gray Zone Warfare Wiki",
+    "description": "Twoje kompletne centrum zasobów dla map, zadań, kluczy, handlarzy, broni, amunicji i poradników do aktualizacji Gray Zone Warfare.",
+    "resources": "Zasoby",
+    "community": "Społeczność",
+    "legal": "Informacje prawne",
+    "discord": "Discord",
+    "twitter": "Reddit",
+    "steamCommunity": "Społeczność Steam",
+    "steamStore": "Sklep Steam",
+    "about": "O nas",
+    "privacy": "Polityka prywatności",
+    "terms": "Warunki korzystania",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Gray Zone Warfare Wiki. Niezwiązane z MADFINGER Games.",
+    "disclaimer": "Nieoficjalna strona zasobów stworzona przez fanów."
+  },
+  "pages": {
+    "guide": {
+      "title": "Poradniki Gray Zone Warfare",
+      "description": "Kompleksowe poradniki do Gray Zone Warfare obejmujące przetrwanie dla początkujących, wybór frakcji, zarządzanie zdrowiem, strategie ewakuacji i zaawansowane taktyki na Lamang Island.",
+      "metaTitle": "Poradniki Gray Zone Warfare - Taktyki od początkujących do zaawansowanych",
+      "metaDescription": "Opanuj Gray Zone Warfare dzięki naszej kompletnej kolekcji poradników. Wskazówki dotyczące przetrwania dla początkujących, porównanie frakcji, strategie ewakuacji i zaawansowane taktyki PMC na Lamang Island.",
+      "categoryLabel": "PORADNIKI TAKTYCZNE",
+      "whatIs": "Czym są poradniki?",
+      "whatIsDescription": "Poradniki krok po kroku obejmujące każdy aspekt rozgrywki w Gray Zone Warfare — od pierwszego desantu na Lamang Island po zaawansowane wyznaczanie tras ewakuacji, awansowanie handlarzy i podejmowanie decyzji bojowych.",
+      "why": "Dlaczego warto korzystać z poradników Gray Zone Warfare?",
+      "whySteps": {
+        "step1Title": "Przetrwaj swoje pierwsze rajdy",
+        "step1Description": "Poznaj zasady ewakuacji, podstawy leczenia i dowiedz się, jak unikać najczęstszych błędów nowych graczy",
+        "step2Title": "Przyspiesz progresję",
+        "step2Description": "Postępuj zgodnie ze sprawdzonymi sekwencjami awansowania handlarzy i wykonywania zadań, aby szybciej odblokować lepszy sprzęt",
+        "step3Title": "Opanuj decyzje bojowe",
+        "step3Description": "Zrozum, kiedy przechodzić do ataku, kiedy się ewakuować i jak odczytywać sytuację taktyczną w czasie rzeczywistym"
+      },
+      "featured": "Niezbędne poradniki Gray Zone Warfare",
+      "all": "Wszystkie poradniki"
+    },
+    "map": {
+      "title": "Mapy Gray Zone Warfare",
+      "description": "Interaktywne mapy, lokalizacje POI, sygnały wywoławcze LZ, współrzędne siatki i przewodniki po regionach Lamang Island w Gray Zone Warfare.",
+      "metaTitle": "Mapy Gray Zone Warfare - Przewodnik po POI i lokalizacjach Lamang Island",
+      "metaDescription": "Eksploruj mapy Gray Zone Warfare z lokalizacjami POI, sygnałami wywoławczymi LZ, współrzędnymi siatki i przewodnikami po regionach Lamang Island. Znajdź miejsca zadań i punkty ewakuacji.",
+      "categoryLabel": "PRZEWODNIKI PO MAPACH",
+      "whatIs": "Czym są mapy Gray Zone Warfare?",
+      "whatIsDescription": "Przewodniki po regionach obejmujące POI, strefy lądowania (LZ), poziomy przeciwników, współrzędne siatki i planowanie tras dla każdego głównego obszaru na Lamang Island — od miast startowych po bazy wojskowe w późnej fazie gry.",
+      "why": "Dlaczego warto korzystać z przewodników po mapach Gray Zone Warfare?",
+      "whySteps": {
+        "step1Title": "Szybko znajduj miejsca zadań",
+        "step1Description": "Używaj odniesień do siatki i znaczników POI, aby zlokalizować cele zadań bez błądzenia",
+        "step2Title": "Planuj efektywne trasy",
+        "step2Description": "Dowiedz się, które LZ są najbliżej Twoich celów i które regiony są warte ryzyka",
+        "step3Title": "Przetrwaj w kluczowych obszarach",
+        "step3Description": "Zrozum zagęszczenie przeciwników i ruch graczy w strefach wojskowych, zanim wyruszysz na akcję"
+      },
+      "featured": "Niezbędne przewodniki po mapach",
+      "all": "Wszystkie przewodniki po mapach"
+    },
+    "quests": {
+      "title": "Zadania Gray Zone Warfare",
+      "description": "Przewodniki po zadaniach dla wszystkich linii fabularnych Gray Zone Warfare, w tym lokalizacje przedmiotów, wymagane klucze, cele wieloetapowe i nagrody w postaci reputacji u handlarzy.",
+      "metaTitle": "Zadania Gray Zone Warfare - Przewodniki i cele zadań",
+      "metaDescription": "Ukończ każde zadanie w Gray Zone Warfare dzięki naszym szczegółowym przewodnikom. Lokalizacje przedmiotów, wymagane klucze, wskazówki dotyczące tras i nagrody w postaci reputacji u handlarzy dla wszystkich misji.",
+      "categoryLabel": "PRZEWODNIKI PO ZADANIACH",
+      "whatIs": "Czym są zadania w Gray Zone Warfare?",
+      "whatIsDescription": "Przewodniki po każdej misji w Gray Zone Warfare — obejmujące miejsca spawnu przedmiotów, wymagane klucze, sekwencje celów wieloetapowych oraz nagrody w postaci reputacji u handlarzy, które zdobywasz po ukończeniu.",
+      "why": "Dlaczego warto korzystać z przewodników po zadaniach Gray Zone Warfare?",
+      "whySteps": {
+        "step1Title": "Efektywne kończenie zadań",
+        "step1Description": "Poznaj dokładne lokalizacje przedmiotów i strefy celów przed wejściem do rajdu",
+        "step2Title": "Unikaj nieudanych wypraw",
+        "step2Description": "Dowiedz się o wymaganych kluczach i zadaniach wstępnych, aby nigdy nie wyruszać nieprzygotowanym",
+        "step3Title": "Maksymalizuj postępy u handlarzy",
+        "step3Description": "Priorytetyzuj łańcuchy zadań, które odblokowują asortyment handlarzy o najwyższej wartości i poziomy reputacji"
+      },
+      "featured": "Wyróżnione przewodniki po zadaniach",
+      "all": "Wszystkie przewodniki po zadaniach"
+    },
+    "weapons": {
+      "title": "Broń i pancerz w Gray Zone Warfare",
+      "description": "Przewodniki po platformach broni, listy poziomów pancerza, porównania kalibrów i rekomendacje zestawów dla operatorów Gray Zone Warfare.",
+      "metaTitle": "Broń i pancerz w Gray Zone Warfare - Kompletny przewodnik po zestawach",
+      "metaDescription": "Opanuj broń i pancerz w Gray Zone Warfare dzięki naszym kompletnym przewodnikom. Rodziny kalibrów, listy poziomów pancerza, konfiguracje dodatków i rekomendacje wyposażenia dla każdego stylu gry.",
+      "categoryLabel": "PRZEWODNIKI PO BRONI I PANCERZU",
+      "whatIs": "Czym jest broń i pancerz w Gray Zone Warfare?",
+      "whatIsDescription": "Przewodniki po każdej głównej rodzinie broni i systemach pancerza z certyfikatem NIJ w Gray Zone Warfare — obejmujące kalibry, tryby ognia, gniazda na dodatki, klasy płyt i sposób budowania zestawów dla Twojej roli.",
+      "why": "Dlaczego warto korzystać z przewodników po broni i pancerzu Gray Zone Warfare?",
+      "whySteps": {
+        "step1Title": "Wybierz odpowiednią platformę",
+        "step1Description": "Zrozum rodziny kalibrów i tryby ognia przed zainwestowaniem w magazynki i dodatki",
+        "step2Title": "Dopasuj pancerz do poziomu zagrożenia",
+        "step2Description": "Dowiedz się, którą klasę płyty NIJ zabrać, biorąc pod uwagę spodziewane wyposażenie wrogów i strefy",
+        "step3Title": "Buduj pod swoją rolę",
+        "step3Description": "Dopasuj wybór broni i pancerza do swojego stylu gry — solo, oddział, PvE lub PvEvP"
+      },
+      "featured": "Wyróżnione przewodniki po broni i pancerzu",
+      "all": "Wszystkie przewodniki po broni i pancerzu"
+    },
+    "update": {
+      "title": "Aktualizacje Gray Zone Warfare",
+      "description": "Opisy aktualizacji, devlogi, mapa drogowa i historia wersji dla wszystkich wydań Gray Zone Warfare, w tym aktualizacji Spearhead 0.4.",
+      "metaTitle": "Aktualizacje Gray Zone Warfare - Opisy patchy i mapa drogowa 2026",
+      "metaDescription": "Bądź na bieżąco z aktualizacjami Gray Zone Warfare. Opisy patcha Spearhead 0.4, podsumowania devlogów, kamienie milowe mapy drogowej i pełna historia wersji dla wszystkich głównych wydań.",
+      "categoryLabel": "OPISY AKTUALIZACJI",
+      "whatIs": "Czym są aktualizacje Gray Zone Warfare?",
+      "whatIsDescription": "Opisy patchy i podsumowania devlogów obejmujące zmiany w każdej wersji — przebudowy systemów, nową zawartość, rozszerzenia mapy, ulepszenia AI oraz mapę drogową deweloperów dla nadchodzących etapów.",
+      "why": "Dlaczego warto śledzić aktualizacje Gray Zone Warfare?",
+      "whySteps": {
+        "step1Title": "Bądź na bieżąco przed rajdami",
+        "step1Description": "Dowiedz się, co zmieniło się w ostatnim patchu — nowe mechaniki, zbalansowani handlarze lub zmienione tabele łupów",
+        "step2Title": "Planuj z uwzględnieniem dużych patchy",
+        "step2Description": "Zrozum, które aktualizacje zawierają resety ekonomii lub znaczące zmiany w postępach",
+        "step3Title": "Śledź nadchodzącą zawartość",
+        "step3Description": "Śledź mapę drogową, aby wiedzieć, jakie nowe lokalizacje, łańcuchy zadań i systemy pojawią się wkrótce"
+      },
+      "featured": "Najnowsze aktualizacje Gray Zone Warfare",
+      "all": "Wszystkie opisy aktualizacji"
+    },
+    "technical": {
+      "title": "Przewodniki techniczne Gray Zone Warfare",
+      "description": "Wymagania systemowe, wskazówki dotyczące optymalizacji, poprawki błędów i przewodniki wydajności dla płynnego działania Gray Zone Warfare w 2026 roku.",
+      "metaTitle": "Przewodniki techniczne Gray Zone Warfare - Wymagania systemowe i poprawki",
+      "metaDescription": "Napraw błędy Gray Zone Warfare, zoptymalizuj wydajność i sprawdź wymagania systemowe dzięki naszym przewodnikom technicznym. Zaktualizowano dla wersji Spearhead 0.4 w 2026 roku.",
+      "categoryLabel": "PRZEWODNIKI TECHNICZNE",
+      "whatIs": "Czym są przewodniki techniczne Gray Zone Warfare?",
+      "whatIsDescription": "Analizy wymagań systemowych, ustawienia optymalizacji w grze, rozwiązywanie problemów z błędami i przewodniki dostrajania wydajności, które pomogą Ci uruchomić Gray Zone Warfare tak płynnie, jak to możliwe.",
+      "why": "Dlaczego warto korzystać z przewodników technicznych Gray Zone Warfare?",
+      "whySteps": {
+        "step1Title": "Sprawdź przed zakupem",
+        "step1Description": "Zweryfikuj, czy Twój sprzęt spełnia minimalne lub zalecane specyfikacje przed zakupem",
+        "step2Title": "Wyeliminuj błędy",
+        "step2Description": "Postępuj zgodnie z ukierunkowanymi krokami rozwiązywania problemów, aby naprawić najczęstsze problemy ze stabilnością",
+        "step3Title": "Maksymalizuj liczbę klatek na sekundę",
+        "step3Description": "Zastosuj odpowiednie ustawienia, aby zrównoważyć wydajność i jakość wizualną dla Twojego sprzętu"
+      },
+      "featured": "Wyróżnione przewodniki techniczne",
+      "all": "Wszystkie przewodniki techniczne"
+    },
+    "platform": {
+      "title": "Przewodniki po platformach Gray Zone Warfare",
+      "description": "Analiza Supporter Edition, rozgrywka offline i Joint Operations, szczegóły platformy PC oraz przewodniki zakupu Gray Zone Warfare.",
+      "metaTitle": "Przewodniki po platformach Gray Zone Warfare - Edycje i przewodnik PC",
+      "metaDescription": "Wszystko o Gray Zone Warfare na PC — korzyści Supporter Edition, rozgrywka w stylu offline Joint Operations, porównania edycji i przewodniki specyficzne dla platformy.",
+      "categoryLabel": "PRZEWODNIKI PO PLATFORMACH",
+      "whatIs": "Czym są przewodniki po platformach Gray Zone Warfare?",
+      "whatIsDescription": "Przewodniki specyficzne dla platformy obejmujące różnice między edycjami, opcje rozgrywki Joint Operations i w stylu offline, rekomendacje zakupu oraz kwestie systemowe PC dla Gray Zone Warfare.",
+      "why": "Dlaczego warto korzystać z przewodników po platformach Gray Zone Warfare?",
+      "whySteps": {
+        "step1Title": "Wybierz odpowiednią edycję",
+        "step1Description": "Zrozum, co zawiera Supporter Edition, zanim zdecydujesz, ile zainwestować",
+        "step2Title": "Odkryj rozgrywkę w stylu offline",
+        "step2Description": "Dowiedz się, jak Joint Operations pozwala grać bez presji ze strony rywalizujących PMC — idealne do nauki mapy",
+        "step3Title": "Optymalizuj pod PC",
+        "step3Description": "Uzyskaj wskazówki dotyczące konfiguracji specyficzne dla platformy, aby zapewnić stabilną wydajność na swoim sprzęcie"
+      },
+      "featured": "Wyróżnione przewodniki po platformach",
+      "all": "Wszystkie przewodniki po platformach"
+    }
   }
 }

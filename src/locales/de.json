@@ -1,788 +1,1238 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Gray Zone Warfare Wiki - Karte, Aufgaben, Schlüssel & Waffen",
+      "description": "Gray Zone Warfare Wiki mit Karten, Aufgaben, Schlüsseln, Händlern, Waffen, Ballistik, Loot-Routen und Patch-Guides für PvE und PvEvP Operatoren auf Lamang Island.",
+      "keywords": "Gray Zone Warfare, GZW, Karte, Aufgaben, Schlüssel, Händler, Waffen, Ballistik, Loot, Patch",
+      "ogTitle": "Gray Zone Warfare Wiki - Karte, Aufgaben, Schlüssel & Waffen",
+      "ogDescription": "Gray Zone Warfare Wiki mit Karten, Aufgaben, Schlüsseln, Händlern, Waffen, Ballistik, Loot-Routen und Patch-Guides für PvE und PvEvP Operatoren auf Lamang Island.",
+      "twitterTitle": "Gray Zone Warfare Wiki - Karte, Aufgaben, Schlüssel & Waffen",
+      "twitterDescription": "Gray Zone Warfare Wiki mit Karten, Aufgaben, Schlüsseln, Händlern, Waffen, Ballistik und Loot-Guides für Operatoren auf Lamang Island."
     }
   },
   "nav": {
-    "guide": "Leitfäden",
+    "guide": "Guides",
     "map": "Karten",
     "quests": "Quests",
     "weapons": "Waffen & Rüstung",
     "update": "Updates",
-    "technical": "Technisch",
+    "technical": "Technik",
     "platform": "Plattform"
   },
   "common": {
     "home": "Startseite",
     "more": "Mehr",
-    "playNow": "Demo herunterladen",
+    "playNow": "Auf Steam spielen",
     "switchLanguage": "Sprache wechseln",
     "switchTheme": "Design wechseln",
     "lightMode": "Heller Modus",
     "darkMode": "Dunkler Modus",
     "notFound": "Seite nicht gefunden",
-    "notFoundDescription": "Die Seite, die du suchst, existiert nicht.",
+    "notFoundDescription": "Die von Ihnen gesuchte Seite existiert nicht.",
     "backToHome": "Zurück zur Startseite",
     "relatedArticles": "Ähnliche Artikel",
     "readMore": "Mehr lesen"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "PvE-fokussierter Open-World Taktik-Shooter",
+    "title": "Gray Zone Warfare Wiki",
+    "description": "Entdecke Karten, Aufgaben, Schlüssel, Händler, Waffen, Munition, Loot-Routen und Patch-Änderungen für Gray Zone Warfare. Entwickelt für Spieler, die schnelleren Fortschritt, sicherere Extraktionen und bessere Entscheidungen auf Lamang Island anstreben.",
+    "getFreeCodesCTA": "Aufgaben-Guides ansehen",
+    "playOnSteamCTA": "Auf Steam spielen",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "30. Apr. 2024",
+        "label": "Veröffentlichungsdatum"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "72.548",
+        "label": "Peak CCU"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "59.439",
+        "label": "Steam Rezensionen"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "12",
+        "label": "Unterstützte Sprachen"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
+    "title": "Gray Zone Warfare Gameplay",
+    "description": "Erkunde Lamang Island, erledige Aufgaben für Händler, finde Schlüssel, rüste dich mit den richtigen Waffen und Munition aus und überlebe als PMC Operator in diesem Jungle-Warfare Extraction-Shooter."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Ressourcen",
-    "subtitle": "Alles, was du brauchst, um Raubzüge und Koop-Stealth zu meistern",
+    "title": "Gray Zone Warfare",
+    "titleHighlight": "Wiki Guides",
+    "subtitle": "Alles, was du brauchst, um schneller voranzukommen, sicher zu extrahieren und bessere Entscheidungen auf Lamang Island zu treffen",
     "cards": [
       {
-        "icon": "Herunterladen",
-        "title": "Demo-Download",
-        "description": "Hol dir die kostenlose Steam-Demo"
+        "icon": "ClipboardCheck",
+        "title": "Gray Zone Warfare Aufgaben-Guide",
+        "description": "Kern-Aufgabenroute, Ziele, Orte und Belohnungen"
       },
       {
-        "icon": "Buch offen",
-        "title": "Anfängerleitfaden",
-        "description": "Kernschleife und häufige Fallstricke"
+        "icon": "MapPin",
+        "title": "Gray Zone Warfare Interaktive Karte",
+        "description": "POIs, LZ-Rufzeichen, Tiers und Gitterkoordinaten"
       },
       {
-        "icon": "Benutzer",
-        "title": "Koop-Leitfaden",
-        "description": "6-Spieler-Rollen und Rettungstaktiken"
+        "icon": "BookOpen",
+        "title": "Gray Zone Warfare Einsteiger-Guide",
+        "description": "Moduswahl, Fraktion, Überlebensgrundlagen und erste Einsätze"
       },
       {
-        "icon": "Klemmbrett-Check",
-        "title": "Aufgaben & Ziele",
-        "description": "Was High-Gnome von dir will"
+        "icon": "Key",
+        "title": "Gray Zone Warfare Schlüssel-Guide",
+        "description": "Fundorte von Schlüsseln, was sie freischalten und Aufgaben-Links"
       },
       {
-        "icon": "Tastatur",
-        "title": "Steuerung & Tastenbelegung",
-        "description": "Standardtasten und wie man sie ändert"
+        "icon": "DollarSign",
+        "title": "Gray Zone Warfare Geld-Guide",
+        "description": "Aufgabenbelohnungen, Loot-Prioritäten und Wirtschaftskreislauf"
       },
       {
-        "icon": "Schild",
-        "title": "Inhaltseinstellungen",
-        "description": "Inhalte für Erwachsene und Umschaltoptionen"
+        "icon": "Crosshair",
+        "title": "Gray Zone Warfare Waffen-Guide",
+        "description": "Gewehrplattformen, Kaliber und Handhabungsänderungen"
       },
       {
-        "icon": "Hammer",
-        "title": "Crafting & Ausrüstung",
-        "description": "Rüste dich mit gestohlenen Materialien aus"
+        "icon": "Target",
+        "title": "Gray Zone Warfare Munitions-Guide",
+        "description": "Kaliberfamilien, Waffen-Mapping und Ballistik"
       },
       {
-        "icon": "Paket",
-        "title": "Beute & Gegenstände",
-        "description": "Was man stehlen sollte und Trage-Tipps"
+        "icon": "ShoppingCart",
+        "title": "Gray Zone Warfare Händler-Guide",
+        "description": "Händlerspezialisierungen, Rangschwellen und Freischaltungspfade"
       },
       {
-        "icon": "Warndreieck",
-        "title": "Gegner & Gefahren",
-        "description": "Bedrohungen und wie man mit ihnen umgeht"
+        "icon": "Heart",
+        "title": "Gray Zone Warfare Gesundheitssystem-Guide",
+        "description": "Wunden, Blutungen, Organe und Verwendung medizinischer Gegenstände"
       },
       {
-        "icon": "Auge",
-        "title": "Stealth & Flucht",
-        "description": "Bleib versteckt und extrahiere sicher"
+        "icon": "Users",
+        "title": "Gray Zone Warfare Fraktionen-Guide",
+        "description": "PMC Lore, Startstädte und Fraktionsunterschiede"
       },
       {
-        "icon": "Startseite",
-        "title": "Haus-Upgrades",
-        "description": "Verbessere deine schwebende Inselbasis"
+        "icon": "Shield",
+        "title": "Gray Zone Warfare Rüstungs-Guide",
+        "description": "NIJ-Klassen, Plattenabdeckung und Materialvergleich"
       },
       {
-        "icon": "Sprechblase",
-        "title": "Community & Discord",
-        "description": "Offizielle Links und Gruppensuche"
-      },
-      {
-        "icon": "Einstellungen",
-        "title": "Mods & BepInEx",
-        "description": "Installiere Framework und Mod-Setup"
-      },
-      {
-        "icon": "Stern",
-        "title": "Beliebte Mods",
-        "description": "Top-Community-Auswahlen und -Funktionen"
+        "icon": "Layers",
+        "title": "Gray Zone Warfare Beste Loadouts",
+        "description": "Budget-, Stealth-, Squad- und aufgabenorientierte Ausrüstungen"
       },
       {
         "icon": "Gamepad2",
-        "title": "Controller-Unterstützung",
-        "description": "Volle Gamepad-Steuerung mit UI-Cursor"
+        "title": "Gray Zone Warfare PvE vs PvP Guide",
+        "description": "Vergleich zwischen Warfare- und Joint Operations-Modus"
       },
       {
-        "icon": "TrendingUp",
-        "title": "Spielerzahl & Trend",
-        "description": "Live-Statistiken und Peak-Tracking"
+        "icon": "Navigation",
+        "title": "Gray Zone Warfare Orte-Guide",
+        "description": "Startstädte, Militärstandorte und wichtige Ziele"
+      },
+      {
+        "icon": "Star",
+        "title": "Gray Zone Warfare Editions-Unterschiede",
+        "description": "Standard vs Tactical vs Elite vs Supporter Editionen"
+      },
+      {
+        "icon": "Clock",
+        "title": "Gray Zone Warfare Update-Roadmap",
+        "description": "Patch-Zeitplan, Spearhead 0.4 und was als Nächstes kommt"
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Lucid Blocks Demo-Download",
-      "subtitle": "Hol dir die kostenlose Demo auf Steam",
-      "downloadSize": "2,62 GiB",
-      "diskSize": "4,88 GiB",
-      "releaseDate": "30. Januar 2026",
-      "price": "Kostenlos",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Demo herunterladen",
-      "secondaryCTA": "Technische Infos ansehen",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
-        {
-          "heading": "Wo man es herunterladen kann",
-          "items": [
-            "Öffne die offizielle Steam-Store-Seite und nutze den Abschnitt \"Demo herunterladen\".",
-            "Wenn Steam dich auffordert, dich anzumelden, melde dich zuerst an und versuche es erneut."
-          ]
-        },
-        {
-          "heading": "Schnelle Überprüfung von Installation und Start",
-          "items": [
-            "Standardinstallationsort: Steam-Bibliotheksordner → steamapps → common → (Spielordner).",
-            "Wenn es nicht startet: Überprüfe die Spieldateien in Steam und starte Steam neu."
-          ]
-        }
-      ]
-    },
-    "beginnerGuide": {
-      "title": "Lucid Blocks Anfängerleitfaden",
-      "subtitle": "Meistere die Kernschleife und vermeide häufige Fehler",
-      "steps": [
-        {
-          "number": 1,
-          "title": "Betritt das Haus",
-          "description": "Lass dich von deiner schwebenden Inselbasis in ein menschliches Haus fallen. Spawne draußen und schleiche dich durch unverschlossene Türen oder Fenster hinein."
-        },
-        {
-          "number": 2,
-          "title": "Schließe Aufgaben ab",
-          "description": "Erledige High-Gnome-Aufgaben, bevor die Zeit abläuft. Überprüfe die Ziele über die Tab-Taste und priorisiere zuerst riskante Aufgaben."
-        },
-        {
-          "number": 3,
-          "title": "Stehle Gegenstände",
-          "description": "Sammle Wertgegenstände und Materialien zum Craften. Vermeide es, Lärm zu machen oder vom Hausbesitzer entdeckt zu werden."
-        },
-        {
-          "number": 4,
-          "title": "Flucht via Tornado",
-          "description": "Wenn der Timer endet, spawnt ein Tornado im Garten – erreiche ihn, um sicher zu extrahieren. Fang früh an, dich zu bewegen!"
-        },
-        {
-          "number": 5,
-          "title": "Upgrade & Wiederholung",
-          "description": "Verwende Belohnungen und Materialien, um Ausrüstung zu Hause herzustellen, und starte dann deinen nächsten Raubzug mit besserer Ausrüstung."
-        }
-      ],
-      "pitfalls": [
-        {
-          "title": "Erwischt werden",
-          "description": "Der Hausbesitzer wird dich verfolgen. Bleib versteckt, lenke ab und unterbreche die Sichtlinie, um zu entkommen.",
-          "icon": "Warndreieck"
-        },
-        {
-          "title": "Zeit läuft ab",
-          "description": "Der Tornado-Timer ist streng. Beginne frühzeitig mit dem Weg zur Extraktion, anstatt zu viel zu plündern.",
-          "icon": "Uhr"
-        },
-        {
-          "title": "Teamkollegen ignorieren",
-          "description": "Rette gefangene Verbündete schnell aus Kühl-/Ofenfallen – rufe sofort nach Rettung.",
-          "icon": "Benutzer"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Lucid Blocks Koop-Leitfaden",
-      "subtitle": "Koordiniere dich mit bis zu 6 Spielern für maximales Chaos",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Späher",
-          "description": "Überprüfe auf Bedrohungen, markiere sichere Pfade und leite die Teambewegung",
-          "icon": "Auge"
-        },
-        {
-          "name": "Träger",
-          "description": "Konzentriere dich auf schwere Gegenstände mit Rucksack-Upgrades und sichere den Aufgabenfortschritt",
-          "icon": "Paket"
-        },
-        {
-          "name": "Ablenkung",
-          "description": "Locke Hausbesitzer/Haustiere vom Team weg, um sichere Fenster zu schaffen",
-          "icon": "Benutzer"
-        },
-        {
-          "name": "Retter",
-          "description": "Befreie gefangene Teamkollegen aus Kühl-/Ofen, bevor sie sterben",
-          "icon": "Schild"
-        }
-      ],
-      "threats": [
-        "Hausbesitzer (verfolgt und fängt dich)",
-        "Katzen & Mäuse (Patrouillenwege)",
-        "Staubsaugerroboter (sofortige Gefahr)",
-        "Zeitlimit (Tornado-Extraktion)"
-      ],
-      "communication": "Verwende Voice-Chat (V-Taste), um Aufgaben und Rettungen zu koordinieren. Rufe: \"Entdeckt\", \"Route\", \"Brauche Rettung\", \"Bald extrahieren\"."
-    },
-    "tasksObjectives": {
-      "title": "Lucid Blocks Aufgaben & Ziele",
-      "subtitle": "Was der High-Gnome will: Aufgabenbeispiele",
-      "taskTypes": [
-        {
-          "type": "Stehle Gegenstände",
-          "examples": [
-            "Schnapp dir bestimmte Gegenstände, die durch High-Gnome-Ziele markiert sind"
-          ]
-        },
-        {
-          "type": "Erreiche Orte",
-          "examples": [
-            "Navigiere zu bestimmten Bereichen im Haus"
-          ]
-        },
-        {
-          "type": "Verursache Unfug",
-          "examples": [
-            "Mach einen Fernseher kaputt",
-            "Überflute eine Toilette",
-            "Erzeuge Chaos"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Erledige zuerst riskante Aufgaben, während das Team zusammen ist",
-        "Weise einem Träger Aufgabengegenstände zu, damit sie während der Verfolgungsjagden nicht verloren gehen",
-        "Beginne mit der Bewegung zur Extraktion, bevor die Zeit abläuft"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Lucid Blocks Steuerung & Tastenbelegung",
-      "subtitle": "Standard-Tastatursteuerung (und wo man sie ändern kann)",
-      "keybinds": [
-        {
-          "action": "Nach links bewegen",
-          "key": "A"
-        },
-        {
-          "action": "Nach rechts bewegen",
-          "key": "D"
-        },
-        {
-          "action": "Nach vorne bewegen",
-          "key": "W"
-        },
-        {
-          "action": "Nach hinten bewegen",
-          "key": "S"
-        },
-        {
-          "action": "Ducken",
-          "key": "Linke Strg"
-        },
-        {
-          "action": "Angreifen",
-          "key": "Linksklick"
-        },
-        {
-          "action": "Rennen",
-          "key": "Linke Umschalttaste"
-        },
-        {
-          "action": "Gegenstand fallen lassen",
-          "key": "G"
-        },
-        {
-          "action": "Interagieren",
-          "key": "E"
-        },
-        {
-          "action": "Springen",
-          "key": "Leertaste"
-        },
-        {
-          "action": "Sprechen",
-          "key": "V"
-        },
-        {
-          "action": "Schieben",
-          "key": "Rechtsklick"
-        },
-        {
-          "action": "Ragdoll",
-          "key": "Q"
-        },
-        {
-          "action": "Ausrüstungsslot 1",
-          "key": "1"
-        },
-        {
-          "action": "Ausrüstungsslot 2",
-          "key": "2"
-        },
-        {
-          "action": "Ausrüstungsslot 3",
-          "key": "3"
-        },
-        {
-          "action": "Ausrüstungsslot 4",
-          "key": "4"
-        },
-        {
-          "action": "Inventar",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Vom Titelmenü aus: öffne EINSTELLUNGEN und überprüfe dann die Tastatureinstellungen. Verwende das Suchfeld, um die Tastenbelegungszeilen zu filtern."
-    },
-    "contentSettings": {
-      "title": "Lucid Blocks Inhaltseinstellungen",
-      "subtitle": "Inhalte für Erwachsene, Nacktheit-Umschaltung und Steam-Einstellungen",
-      "descriptors": [
-        "Etwas Nacktheit oder sexuelle Inhalte",
-        "Allgemeine Inhalte für Erwachsene"
-      ],
-      "details": [
-        {
-          "heading": "Was die Entwickler angeben",
-          "items": [
-            "Ein Mensch kann nackt erscheinen, während er Aktivitäten wie Baden ausübt.",
-            "Nacktheit wird zensiert und kann optional vollständig ausgeschaltet werden.",
-            "Gnome können zerstückelt werden und auf brutale Weise sterben."
-          ]
-        },
-        {
-          "heading": "Wenn Steam die Community-Seite blockiert",
-          "items": [
-            "Steam kann den Community-Hub je nach deinen Inhaltseinstellungen ausblenden.",
-            "Verwende Steams \"Inhaltseinstellungen aktualisieren\", um anzupassen, was Steam anzeigen darf."
-          ]
-        }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Lucid Blocks Crafting & Ausrüstung",
-      "subtitle": "Ausrüsten: Crafting-Beispiele und was jedes Werkzeug bewirkt",
-      "equipment": [
-        {
-          "item": "Rucksack",
-          "benefit": "Erweitert die Inventarkapazität für mehr Beute pro Durchgang"
-        },
-        {
-          "item": "Gnom-Handschuhe",
-          "benefit": "Ermöglicht es dir, Türen zu öffnen und mit mehr Objekten zu interagieren"
-        },
-        {
-          "item": "Springschuhe",
-          "benefit": "Verhindert Fallschaden bei hohen Stürzen während der Flucht"
-        },
-        {
-          "item": "Waffe",
-          "benefit": "Hilft dir, Bedrohungen wie Mäuse in die Enge zu treiben"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Wie Crafting mit Plündern zusammenhängt",
-          "items": [
-            "Stehle während eines Laufs Gegenstände und bringe sie als Crafting-Materialien zurück.",
-            "Nach der Extraktion unterstützen Belohnungen/Materialien neue Handwerke."
-          ]
-        },
-        {
-          "heading": "Basisverbesserung",
-          "items": [
-            "Stelle Möbel her und verbessere dein schwebendes Inselhaus (vollständige Spielfunktion)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Lucid Blocks Beute & Gegenstände",
-      "subtitle": "Was man stehlen sollte: Gegenstandstypen, Risiko und Trage-Tipps",
-      "categories": [
-        {
-          "type": "Aufgabengegenstände",
-          "examples": [
-            "Gegenstände, die von High-Gnome für Ziele benötigt werden"
-          ]
-        },
-        {
-          "type": "Crafting-Materialien",
-          "examples": [
-            "Haushaltsgegenstände, die in Gnom-Ausrüstung und -Upgrades umgewandelt werden"
-          ]
-        },
-        {
-          "type": "Unfug-Ziele",
-          "examples": [
-            "Objekte, die an Aufgaben wie Zerstören oder Überfluten beteiligt sind"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Priorisiere den Aufgabenfortschritt und fülle dann die verbleibende Kapazität mit Crafting-Materialien",
-        "Wenn sich Bedrohungen in der Nähe befinden, bewege Gegenstände in kurzen, sicheren Sprüngen anstatt in langen, exponierten Tragen",
-        "Plane die Route zur Gartenextraktion, bevor der Timer endet"
-      ],
-      "riskLevels": [
-        {
-          "level": "Niedrig",
-          "description": "In der Nähe von Eingängen oder sicheren Ecken"
-        },
-        {
-          "level": "Mittel",
-          "description": "Tiefer gelegene Räume oder in der Nähe von umherziehenden Bedrohungen"
-        },
-        {
-          "level": "Hoch",
-          "description": "In der Nähe der Patrouille des Hausbesitzers oder des Staubsaugerroboters"
-        }
-      ]
-    },
-    "enemiesHazards": {
-      "title": "Lucid Blocks Gegner & Gefahren",
-      "subtitle": "Wisse, was dich erwischen kann",
-      "threats": [
-        {
-          "name": "Der Hausbesitzer",
-          "trigger": "Beim Einbrechen oder Erledigen von Aufgaben entdeckt werden",
-          "behavior": "Er verfolgt dich und versucht, dich zu fangen",
-          "counter": "Bleib heimlich, unterbreche Sichtlinien und bleib als Team in Bewegung"
-        },
-        {
-          "name": "Katzen",
-          "trigger": "Zu nahe kommen oder ihren Weg kreuzen",
-          "behavior": "Sie werden zu einer direkten Bedrohung, während du dich schleichst",
-          "counter": "Vermeide ihre Routen und gehe leise vorbei"
-        },
-        {
-          "name": "Mäuse",
-          "trigger": "Bereiche betreten, in denen Mäuse umherstreifen",
-          "behavior": "Sie bedrohen zerbrechliche Gnome während der Läufe",
-          "counter": "Bleib wachsam in engen Räumen und sei bereit, dich zurückzuziehen"
-        },
-        {
-          "name": "Staubsaugerroboter",
-          "trigger": "Sich auf seinem Reinigungspfad befinden",
-          "behavior": "Er kann Gnome einsaugen",
-          "counter": "Höre auf ihn, halte dich von seiner Route fern und positioniere dich schnell neu"
-        },
-        {
-          "name": "Kühlschrank / Ofen-Falle",
-          "trigger": "Vom Hausbesitzer erwischt werden",
-          "behavior": "Du kannst darin eingesperrt werden; wenn Teamkollegen nicht rechtzeitig retten, stirbst du",
-          "counter": "Rufe sofort; Teamkollegen priorisieren die Rettungsroute"
-        },
-        {
-          "name": "Zeitlimit",
-          "trigger": "Der Lauf-Timer erreicht das Limit",
-          "behavior": "Der Extraktions-Tornado erscheint im Garten; du musst ihn erreichen, um zu entkommen",
-          "counter": "Hör auf, zu viel zu plündern, gruppiere dich neu und engagiere dich frühzeitig für die Extraktion"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Lucid Blocks Stealth & Flucht Tipps",
-      "subtitle": "Stehle mehr, stirb weniger",
-      "do": [
-        "Bleib heimlich und gehe in Deckung, bevor du mit Objekten interagierst",
-        "Nutze die Teamarbeit: rufe Bedrohungen aus und koordiniere Routen",
-        "Rette Teamkollegen schnell, wenn jemand gefangen oder am Boden ist",
-        "Reduziere deine Verluste und mache dich auf den Weg zur Extraktion, wenn der Timer knapp ist"
-      ],
-      "dont": [
-        "Werde gierig, wenn die Extraktion bevorsteht",
-        "Teile dich zu weit vom Team, wenn der Hausbesitzer aktiv ist",
-        "Ignoriere Staubsaugerroboterpfade oder Tierpatrouillen",
-        "Verzögere Rettungen, wenn ein Teamkollege eingesperrt ist"
-      ],
-      "quickTips": [
-        {
-          "title": "Die 3-Sekunden-Regel",
-          "text": "Wenn du deinen nächsten Zug nicht in 3 Sekunden erklären kannst, wirst du gleich entdeckt."
-        },
-        {
-          "title": "Rettung zuerst",
-          "text": "Eine schnelle Rettung hält den Lauf am Leben; Plündern kann warten."
-        },
-        {
-          "title": "Extraktionsdisziplin",
-          "text": "Gruppiere dich frühzeitig neu und engagiere dich für den Tornado, bevor Panik ausbricht."
-        }
-      ]
-    },
-    "homeUpgrades": {
-      "title": "Lucid Blocks Haus-Upgrades",
-      "subtitle": "Craften, bauen, verbessern",
-      "branches": [
-        {
-          "branch": "Lagerung",
-          "summary": "Mehr tragen und mehr zurückbringen",
-          "items": [
-            "Rucksack (Inventarerweiterung)"
-          ]
-        },
-        {
-          "branch": "Dienstprogramm",
-          "summary": "Effektiver mit dem Haus interagieren",
-          "items": [
-            "Gnom-Handschuhe (ermöglichen es dir, Türen zu öffnen und mehr)"
-          ]
-        },
-        {
-          "branch": "Mobilität",
-          "summary": "Sicherer durch vertikale Räume bewegen",
-          "items": [
-            "Springschuhe (reduzieren Fallschaden)"
-          ]
-        },
-        {
-          "branch": "Verteidigung",
-          "summary": "Mit kleinen Bedrohungen umgehen, wenn nötig",
-          "items": [
-            "Waffen (für Bedrohungen wie Mäuse)"
-          ]
-        },
-        {
-          "branch": "Heimatbasis",
-          "summary": "Stelle Möbel her und verbessere dein schwebendes Inselhaus",
-          "items": [
-            "Funktionale Möbel-Upgrades"
-          ]
-        }
-      ],
-      "priority": [
-        {
-          "rank": 1,
-          "title": "Zuerst Lagerung",
-          "reason": "Mehr Tragfähigkeit verbessert die Auszahlung jedes Laufs"
-        },
-        {
-          "rank": 2,
-          "title": "Als nächstes Dienstprogramm",
-          "reason": "Bessere Interaktionen reduzieren die Zeit, die in Gefahrenzonen verbracht wird"
-        },
-        {
-          "rank": 3,
-          "title": "Mobilität zum Überleben",
-          "reason": "Fallschutz verhindert vermeidbare Todesfälle bei der Flucht"
-        }
-      ]
-    },
-    "community": {
-      "title": "Lucid Blocks Community & Discord",
-      "subtitle": "Finde Trupps, Updates, Diskussionen",
-      "links": [
-        {
-          "title": "Offizieller Discord",
-          "subtitle": "Ankündigungen • Feedback • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
-        },
-        {
-          "title": "Offizielles X (Twitter)",
-          "subtitle": "Updates & Entwicklerbeiträge",
-          "url": "https://x.com/lucidblocks"
-        },
-        {
-          "title": "Steam Community Hub",
-          "subtitle": "Diskussionen • Screenshots • Leitfäden",
-          "url": "https://steamcommunity.com/app/3495730"
-        },
-        {
-          "title": "Steam Store Seite",
-          "subtitle": "Wunschliste • Demo • Offizielle Beschreibung",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
-        }
-      ]
-    },
-    "modsBepInEx": {
-      "title": "Lucid Blocks Mods & BepInEx Setup",
-      "subtitle": "Installiere Mods auf saubere Weise",
+    "gzwTaskGuide": {
+      "title": "Gray Zone Warfare Aufgaben-Guide",
+      "intro": "Aufgaben sind der Hauptmotor für den Fortschritt in Gray Zone Warfare. Dieser Guide zeigt die Missionen aus dem frühen und mittleren Spielverlauf auf, nach denen Spieler am häufigsten suchen, inklusive Zielen, Orten, Belohnungen und wichtigen Freischaltungen.",
       "steps": [
         {
           "step": 1,
-          "title": "Installiere BepInEx 5",
-          "text": "Lade BepInEx 5 herunter und entpacke es in den Spiel-Root-Ordner."
+          "task": "First Recon",
+          "vendor": "Handshake",
+          "area": "Pha Lang / Kiu Vongsa / Nam Thaven Starter-Stadt",
+          "objectives": [
+            "Überprüfe die Hütte am Stadtrand",
+            "Überprüfe den Holzfällerplatz der Stadt",
+            "Überprüfe das Gebiet um die Tankstelle"
+          ],
+          "rewards": [
+            "400 EP",
+            "+25 Ruf bei Handshake",
+            "$1.700 USD",
+            "1x Modular Operator Carrier Gen II"
+          ],
+          "why_it_matters": "Eine der ersten Aufgaben zur Routenplanung, die Spielern den Kreislauf der Orientierungspunkte in der Starter-Stadt beibringt."
         },
         {
           "step": 2,
-          "title": "Einmal starten, um Ordner zu generieren",
-          "text": "Starte das Spiel bis zum Hauptmenü und schließe es dann. Dadurch wird die BepInEx-Ordnerstruktur erstellt."
+          "task": "Cache Retrieval",
+          "vendor": "Gunny",
+          "area": "Holzfällerplatz-Route der Starter-Stadt",
+          "objectives": [
+            "Finde und markiere das Versteck in einem Schuppen am Holzfällerplatz der Stadt"
+          ],
+          "rewards": [
+            "400 EP",
+            "+100 Ruf bei Gunny",
+            "$1.700 USD",
+            "1x Scorpion OCP Convoy Pack"
+          ],
+          "why_it_matters": "Frühe Aufgabe für den Waffenfortschritt, die Ruf bei Gunny innerhalb des sicheren Starter-Kreislaufs aufbaut."
         },
         {
           "step": 3,
-          "title": "Mods installieren",
-          "text": "Platziere Mod-.dll-Dateien in den Plugins-Ordner."
+          "task": "Meds Wanted",
+          "vendor": "Lab Rat",
+          "area": "Wasserturm der Starter-Stadt",
+          "objectives": [
+            "Finde die UNLRA-Medizinvorräte am Wasserturm der Stadt"
+          ],
+          "rewards": [
+            "400 EP",
+            "+100 Ruf bei Lab Rat",
+            "$2.200 USD",
+            "1x IFAK"
+          ],
+          "why_it_matters": "Lab Rat schaltet eine bessere Versorgung und Zugang zu Medikamenten für jeden zukünftigen Einsatz frei."
         },
         {
           "step": 4,
-          "title": "Installation überprüfen",
-          "text": "Starte das Spiel neu und bestätige, dass die Mod-Funktion verfügbar ist (Kamera-Umschaltung, UI-Cursor usw.)."
-        }
-      ],
-      "paths": [
-        {
-          "label": "Typische Steam-Installation",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
+          "task": "Leave No Man Behind",
+          "vendor": "Gunny",
+          "area": "Pha Lang / Kiu Vongsa / Nam Thaven Rathaus",
+          "objectives": [
+            "Markiere den Fundort der Leiche"
+          ],
+          "rewards": [
+            "400 EP",
+            "+100 Ruf bei Gunny",
+            "$1.700 USD",
+            "1x Scorpion OCP Convoy Pack"
+          ],
+          "why_it_matters": "Häufiger Engpass, da Spieler den Aufgabennamen kennen, aber das genaue Gebäude und den Raum vergessen."
         },
         {
-          "label": "Plugins-Ordner",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
+          "step": 5,
+          "task": "Helping Hand",
+          "vendor": "Handshake",
+          "area": "Dachboden des Restaurants in der Starter-Stadt",
+          "objectives": [
+            "Beschaffe die Informationen vom Dachboden des Restaurants",
+            "Bringe die Informationen zu Handshake"
+          ],
+          "rewards": [
+            "400 EP",
+            "+100 Ruf bei Handshake",
+            "$2.300 USD",
+            "1x Leder-Schlüsselhalter"
+          ],
+          "why_it_matters": "Einer der ersten Momente, in denen Spieler auf eine durch Schlüssel blockierte Fortschrittsbarriere stoßen."
+        },
+        {
+          "step": 6,
+          "task": "The Shadow Over Ban Pa",
+          "vendor": "Handshake",
+          "area": "Route von YBL-1 nach Ban Pa",
+          "objectives": [
+            "Spähe den nördlichen Haupteingang von Ban Pa aus",
+            "Spähe den südlichen Haupteingang von Ban Pa aus"
+          ],
+          "rewards": [
+            "1.000 EP",
+            "+150 Ruf bei Handshake",
+            "$4.700 USD",
+            "Schalte den Zugang zum Händler Turncoat frei"
+          ],
+          "why_it_matters": "Wichtiger Wendepunkt im Fortschritt, der Turncoat freischaltet und Spieler aus der Starter-Phase herausführt."
+        }
+      ]
+    },
+    "gzwInteractiveMap": {
+      "title": "Gray Zone Warfare Interaktive Karte",
+      "intro": "Das Suchaufkommen für Gray Zone Warfare ist stark ortsbezogen. Springe von einem Suchbegriff wie Ban Pa, Fort Narith oder YBL-1 direkt zum benötigten Kontext: Kartenraster, Gegnertyp, Tier-Stufe und Unterstützung für Runs.",
+      "items": [
+        {
+          "label": "Starter-Städte",
+          "title": "Wisse, auf welcher Basis-Route du dich tatsächlich befindest",
+          "content": [
+            "Kiu Vongsa — Starter-Stadt von Crimson Shield International — Raster 141:164",
+            "Nam Thaven — Starter-Stadt von Mithras Security Systems — Raster 171:118",
+            "Pha Lang — Starter-Stadt von Lamang Recovery Initiative — Raster 202:162"
+          ],
+          "quick_notes": [
+            "Diese Städte bestimmen deinen frühen Aufgabenfluss",
+            "Abgeschlossene Räume und Aufgabengebäude unterscheiden sich, aber die frühe Fortschrittsstruktur ist gespiegelt"
+          ]
+        },
+        {
+          "label": "YBL-1",
+          "title": "Der Bunker, der Spieler in die Routenplanung zur Kartenmitte drängt",
+          "content": [
+            "Typ: Militärischer Untergrundbunker",
+            "Raster-Position: 143:122",
+            "Häufig mit Aufklärungs- und Informationsbeschaffungs-Aufgaben verknüpft"
+          ],
+          "quick_notes": [
+            "Dient als Brücke zwischen dem Starter-Fortschritt und den Routen nach Ban Pa oder Fort Narith"
+          ]
+        },
+        {
+          "label": "Ban Pa",
+          "title": "Tier-2-Dorf mit Kult-Aufgaben und Schlüsseldruck",
+          "content": [
+            "Tier: 2",
+            "Einheimischentyp: Rebellen",
+            "LZ-Rufzeichen: INDIA",
+            "Raster-Position: 205:137"
+          ],
+          "quick_notes": [
+            "Wichtig für die Suche nach dem Haus des Ältesten, der Fischerhütte und Quest-Schlüsseln",
+            "Häufiger nächster Schritt, nachdem Spieler dem Farming in der Starter-Stadt entwachsen sind"
+          ]
+        },
+        {
+          "label": "Fort Narith",
+          "title": "Der größte Militärstandort der Insel",
+          "content": [
+            "Tier: 3",
+            "Einheimischentyp: LAF-Soldaten",
+            "LZ-Rufzeichen: DELTA",
+            "Raster-Position: 143:129"
+          ],
+          "quick_notes": [
+            "Vereint Aufgaben, Schlüssel, militärische Beute und Gefahr in einer Zone",
+            "Viele Schlüssel für Fort Narith öffnen Räume in oder um die Basis und im nahegelegenen Savanpha"
+          ]
+        },
+        {
+          "label": "Tiger Bay",
+          "title": "Große Stadtzone mit dichter Ziel- und Beuteroutenplanung",
+          "content": [
+            "Tier: 3",
+            "Einheimischentyp: Rebellen und LAF-Soldaten",
+            "LZ-Rufzeichen: JULIET",
+            "Raster-Position: 198:130"
+          ],
+          "quick_notes": [
+            "Größte Stadt auf der Insel",
+            "Hohe Suchanfrage für Einkaufszentrum, zentrales Zeughaus, Kommandant und UNLRA-Aufgabenrouten"
+          ]
+        },
+        {
+          "label": "Midnight Sapphire",
+          "title": "Hochwertige Resort-Zone mit Aufgabenverkehr im Late-Game",
+          "content": [
+            "Tier: 3",
+            "Einheimischentyp: LAF-Soldaten",
+            "LZ-Rufzeichen: HOTEL",
+            "Bekannt für Ziele in Villen, am Wasserfall und im Hotel"
+          ],
+          "quick_notes": [
+            "Wird oft zusammen mit schlüsselgebundenen Aufgabenrouten gesucht"
+          ]
+        },
+        {
+          "label": "Blue Lagoon",
+          "title": "Südlicher POI am Resort für Erkundung und Routenvielfalt",
+          "content": [
+            "Beschreibung: Kleines Resort im Süden nahe der Berge",
+            "Raster-Position: 203:117"
+          ],
+          "quick_notes": [
+            "Nützlich als erkennbarer Ankerpunkt bei der Planung südlicher Rotationen",
+            "Taucht sowohl bei Aufgabenrouten als auch bei Suchen nach Codes/Vorhängeschlössern auf"
+          ]
+        }
+      ]
+    },
+    "gzwBeginnerGuide": {
+      "title": "Gray Zone Warfare Einsteiger-Guide",
+      "intro": "Neue Spieler in Gray Zone Warfare haben oft Schwierigkeiten mit der Moduswahl, der Fraktionswahl, den Überlebensschwellenwerten, der Hubschraubernutzung und den Regeln für Ausrüstungsverlust. Diese kurzen Karten verwandeln die Probleme der ersten Spielstunden in praktische Antworten.",
+      "items": [
+        {
+          "title": "Wähle zuerst den richtigen Modus",
+          "summary": "Warfare ist der PvP-Modus. Joint Operations ist der PvE-Modus.",
+          "details": [
+            "Warfare: feindliche Spieler auf der ganzen Insel präsent",
+            "Joint Operations: keine feindlichen Spieler, nur KI-Gegner",
+            "Joint Operations ermöglicht sicheren Fortschritt und umfassendes Koop-Lernen",
+            "Warfare ist für risikoreichere Fraktionskonflikte und Extraktionsdruck ausgelegt"
+          ]
+        },
+        {
+          "title": "Wähle deine Fraktion nach Geografie",
+          "summary": "Deine Fraktion bestimmt deine Startstadt, die frühen Routen und die Reisezeit zu wertvollen Zonen.",
+          "details": [
+            "Crimson Shield International startet in der Nähe von Kiu Vongsa – langsamerer Fortschritt zu Beginn",
+            "Mithras Security Systems startet in der Nähe von Nam Thaven – liegt zwischen sichereren und gefährlicheren Routen",
+            "Lamang Recovery Initiative startet in der Nähe von Pha Lang mit schnellem Zugang zu umkämpften Zonen",
+            "Ungefährer Fußweg nach Fort Narith: Lamang 5-10 Min., Mithras 15-20 Min., Crimson 25-30+ Min."
+          ]
+        },
+        {
+          "title": "Schütze, was du dir nicht leisten kannst zu verlieren",
+          "summary": "Die meiste Ausrüstung kann im Einsatz verloren gehen, aber die Secure Lockbox schützt ihren Inhalt.",
+          "details": [
+            "Gegenstände in der Secure Lockbox bleiben bei Tod geschützt",
+            "Nahkampfwaffen gehen nicht auf die gleiche Weise verloren wie normal getragene Ausrüstung",
+            "Quest-Gegenstände überleben manchmal im sicheren Lager – priorisiere schnelle Abgabewege"
+          ]
+        },
+        {
+          "title": "Achte auf Hydrations- und Energieschwellenwerte",
+          "summary": "Niedrige Hydration und niedrige Energie beeinträchtigen direkt die Ausdauer und Erholung.",
+          "details": [
+            "Hydration unter 50 Prozent: Durstig – keine Blutregeneration",
+            "Hydration bei 1 Prozent: Dehydriert – verschwommene Sicht",
+            "Energie unter 50 Prozent: Hungrig – keine Blutregeneration",
+            "Energie bei 1 Prozent: Verhungernd – verschwommene Sicht"
+          ]
+        },
+        {
+          "title": "Blutungen und Koma beenden Einsätze schneller als Feuergefechte",
+          "summary": "Tode bei Anfängern resultieren oft aus unbehandelten Verletzungen statt aus Kopfschüssen.",
+          "details": [
+            "Leichte, mittlere und schwere Blutungen führen zu kontinuierlichem Blutverlust, bis sie behandelt werden",
+            "Wenn das Blut unter 50 Prozent fällt, kannst du ins Koma fallen",
+            "Zerstörte Lungen oder Leber können ebenfalls ein Koma verursachen",
+            "Teammitglieder haben etwa 180 Sekunden Zeit für eine Wiederbelebung, bevor der Tod für diesen Einsatz permanent wird"
+          ]
+        },
+        {
+          "title": "Nutze Hubschrauber als Schutz und zur Täuschung",
+          "summary": "Der Hubschrauber ist nicht nur Transportmittel – er ist eine Mechanik für Überlebensfähigkeit und Positionierung.",
+          "details": [
+            "Spieler sind an Bord immun gegen Schaden",
+            "Nach dem Aussteigen gibt es ein 4-sekündiges Unverwundbarkeitsfenster",
+            "Das Hubschraubergeräusch dient als taktische Ablenkung für die KI und andere Spieler"
+          ]
+        },
+        {
+          "title": "Gehe nicht AFK außerhalb von sicheren Bereichen",
+          "summary": "Der AFK-Timer kann Ausrüstung kosten, wenn er dich aus einem laufenden Einsatz entfernt.",
+          "details": [
+            "Das Inaktivitätslimit beträgt 15 Minuten",
+            "Wenn man außerhalb der FOB entfernt wird, gelten die normalen Regeln für den Verlust beim Verlassen des Einsatzes"
+          ]
+        }
+      ]
+    },
+    "gzwKeysGuide": {
+      "title": "Gray Zone Warfare Schlüssel-Guide",
+      "intro": "Durch Schlüssel blockierter Fortschritt ist einer der größten Reibungspunkte in Gray Zone Warfare. Finde den richtigen Schlüssel, bevor du einen weiteren Einsatz verschwendest – wo er droppt, was er freischaltet und welche Aufgaben er ermöglicht.",
+      "items": [
+        {
+          "key_name": "Kiu Vongsa Restaurant-Lagerschlüssel",
+          "area": "Kiu Vongsa",
+          "where_to_find": "In den Taschen von Gegnern in Kiu Vongsa",
+          "unlocks": "Dachbodentür des Restaurants bei 141:164",
+          "related_task": "Helping Hand",
+          "behind_lock": "Ort der Aufgaben-Informationen"
+        },
+        {
+          "key_name": "Pha Lang Restaurant-Lagerschlüssel",
+          "area": "Pha Lang",
+          "where_to_find": "In den Taschen von Gegnern in Pha Lang",
+          "unlocks": "Dachbodenlager im Restaurant von Pha Lang",
+          "related_task": "Helping Hand",
+          "behind_lock": "1x Waffeniste; 1x Medizinschrank"
+        },
+        {
+          "key_name": "Nam Thaven Restaurant-Lagerschlüssel",
+          "area": "Nam Thaven",
+          "where_to_find": "In den Taschen von Gegnern in Nam Thaven",
+          "unlocks": "Dachbodenlager im Restaurant von Nam Thaven",
+          "related_task": "Helping Hand",
+          "behind_lock": "Route zu den Aufgaben-Informationen"
+        },
+        {
+          "key_name": "Sägewerk-Büroschlüssel",
+          "area": "Sawmill",
+          "where_to_find": "In den Taschen von Gegnern im Sägewerk",
+          "unlocks": "Bürogebäude der Tonmai Hainy Lumber Company",
+          "related_task": "EOD",
+          "behind_lock": "1x Waffenbox; 1x Erste-Hilfe-Schrank; lose Waffen"
+        },
+        {
+          "key_name": "Pha Lang Flugplatz-Lagerbüroschlüssel",
+          "area": "Pha Lang Airfield",
+          "where_to_find": "In den Taschen von Gegnern am Pha Lang Flugplatz",
+          "unlocks": "Büroraum im Lagergebäude am Flugplatz",
+          "related_task": "Beuteroute für Hazardous Treasures",
+          "behind_lock": "Beute im Flugplatz-Lagerbüro"
+        },
+        {
+          "key_name": "Ban Pa Schlüssel zum Zimmer des Ältesten",
+          "area": "Ban Pa",
+          "where_to_find": "In der Tasche des Anführers von Ban Pa; kann auch in Ban Pa spawnen",
+          "unlocks": "Raum im zweiten Stock im Haus des Ältesten",
+          "related_task": "It's in the Water II",
+          "behind_lock": "Aufgabenziel-Route im Stil eines Chemieraums"
+        },
+        {
+          "key_name": "Ban Pa Fischerhüttenschlüssel",
+          "area": "Ban Pa",
+          "where_to_find": "In den Taschen von Gegnern in Ban Pa",
+          "unlocks": "Fischerhütte neben dem Haus des Ältesten bei 205:137",
+          "related_task": "Ban Pa Beute und Suchverkehr auf Nebenrouten",
+          "behind_lock": "1x Waffenbox; 1x Ausrüstungsbox; 1x Munitionsbox"
+        },
+        {
+          "key_name": "Fort Narith Außenbezirke Provisorischer Waffenkammer-Schlüssel",
+          "area": "Fort Narith / Savanpha Village",
+          "where_to_find": "Fort Narith Schlüsselroute",
+          "unlocks": "Hinterzimmer im grauen zweistöckigen Haus im Dorf Savanpha bei 146:128",
+          "related_task": "Beuteroute in den Außenbezirken von Fort Narith",
+          "behind_lock": "Provisorischer Waffenkammer-Raum"
+        }
+      ]
+    },
+    "gzwMoneyGuide": {
+      "eyebrow": "Wirtschaft",
+      "title": "Gray Zone Warfare Geld-Guide",
+      "subtitle": "Verbessern Sie Ihren Cashflow mit wiederholbaren Starter-Aufgaben, besseren Loot-Prioritäten und klügeren Verkaufsentscheidungen. Dieses Modul konzentriert sich auf Routen und Aktionen, die Geld einbringen, ohne riskante Kämpfe zu erzwingen.",
+      "intro": "Geld in Gray Zone Warfare stammt aus zwei zuverlässigen Quellen: Aufgabenbelohnungen und diszipliniertem Looten. Frühe Aufgaben bieten bereits Bargeld, Ruf und nützliche Gegenstände, während Waffenbehälter und Wertsachen über das Händlernetzwerk der FOB verkauft werden können. Ein guter Kreislauf ist einfach: Erledigen Sie eine nahegelegene Aufgabe, looten Sie effizient, verkaufen Sie intelligent und nutzen Sie die nächste Auszahlung zum Aufstocken, anstatt ein Kit zu überladen.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Beginnen Sie mit nahegelegenen bezahlten Aufgaben",
+          "summary": "Nutzen Sie Aufgaben am Anfang und in der Mitte der Route als Basis für Ihren Wirtschaftskreislauf, bevor Sie größere Ausrüstungsrisiken eingehen.",
+          "data_points": [
+            "Meds Wanted: 400 EXP, +100 Lab Rat Ruf, $1.200, 2x Combat Tourniquet",
+            "Helping Hand: 225 EXP, +150 Handshake Ruf, $440",
+            "Tools of the Trade: 150 EXP, +105 Artisan Ruf, $400",
+            "What's in Store: 2.000 EXP, +200 Gunny Ruf, $3.300, 1x HARDE Case"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Priorisieren Sie Schusswaffenbehälter beim Looten",
+          "summary": "Waffenbehälter sind wertvolle Ziele, da sie Waffen, Magazine und Waffenteile enthalten können.",
+          "data_points": [
+            "CSI Firearms Box: 8x6 Loot-Behälter für Waffen und Waffenteile",
+            "UN Firearms Box: 7x4 Loot-Behälter für Waffen und Waffenteile",
+            "Firearms Box: 8x3 Loot-Behälter für Waffen und Waffenteile",
+            "Military Firearms Crate kann AK308, AK74 und SVD Dragunov Magazine enthalten"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Verkaufen Sie Wertsachen an den am besten zahlenden Händler",
+          "summary": "Wertvoller Loot kann an jeden Händler verkauft werden, aber verschiedene Käufer zahlen mehr für unterschiedliche Gegenstände.",
+          "data_points": [
+            "Nutzen Sie den aufgeführten besten Käufer, wenn Sie maximalen Ertrag statt Bequemlichkeit wünschen",
+            "Wertsachen können bei jedem Händler für 50 % weniger als den höchsten angezeigten Preis verkauft werden",
+            "Priorisieren Sie, was Sie zur FOB zurückbringen und was Sie zurücklassen"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Wandeln Sie Bargeld in besseren Händlerzugang um",
+          "summary": "Ihre Wirtschaft wird stärker, wenn Aufgabengeld auch den Händlerruf steigert und besseren Vorrat freischaltet.",
+          "data_points": [
+            "Aufgaben sind der schnellste Weg, um EXP zu sammeln, und belohnen oft mit Geld, Gegenständen und Händlerruf",
+            "Einige Aufgaben schalten neuen Händlervorrat frei",
+            "Update 0.4 hat die Belohnungen neu ausbalanciert, um den Schwerpunkt stärker auf Geld statt auf Gegenstände zu legen",
+            "Das erstmalige Abschließen einer Aufgabe gewährt einen größeren Ruf-Boost"
+          ]
+        }
+      ]
+    },
+    "gzwWeaponsGuide": {
+      "eyebrow": "Waffen",
+      "title": "Gray Zone Warfare Waffen-Guide",
+      "subtitle": "Verfolgen Sie die wichtigsten Gewehrplattformen, ihre Kaliber und wie jede Familie in den breiteren Waffenpool passt. Ziel ist es, Spielern zu helfen, Plattformunterschiede schnell zu verstehen, bevor sie in Magazine, Munition und Aufsätze investieren.",
+      "intro": "Das Waffen-Ökosystem von Gray Zone Warfare basiert auf Kaliberfamilien, kompatiblen Magazinen und Aufsatz-Ökosystemen. Die offiziellen Waffen- und Händlerseiten zeigen, welche Plattformen im Spiel existieren, während das neueste Spearhead-Devlog bestätigt, dass Gewicht, Schwanken, ADS-Verhalten, Nachlade-Handling und Ballistik in der aktuellen Ausrichtung des Spiels wichtiger sind. Das bedeutet, dass die Waffenwahl nicht mehr nur von der reinen Feuerkraft abhängt.",
+      "items": [
+        {
+          "name": "AK-12",
+          "category": "Sturmgewehr",
+          "caliber": "5.45x39mm",
+          "fire_mode": "Einzelschuss / Vollautomatisch",
+          "fire_rate": "700 RPM",
+          "notes": [
+            "Teilt die Kaliberfamilie mit AK-74M, AK-74N und AKS-74U",
+            "Gute Plattform für Spieler, die die 5.45 Munitionsfamilie nutzen"
+          ]
+        },
+        {
+          "name": "AK-15",
+          "category": "Sturmgewehr",
+          "caliber": "7.62x39mm",
+          "fire_mode": "Einzelschuss / Vollautomatisch",
+          "fire_rate": "700 RPM",
+          "notes": [
+            "Nutzt dieselbe Kaliberfamilie wie AKM, AKMN, AKMSN und SKS",
+            "Vielseitige Mittelstreckenplattform mit breiter Munitionsverfügbarkeit"
+          ]
+        },
+        {
+          "name": "AK-19",
+          "category": "Sturmgewehr",
+          "caliber": "5.56x45mm NATO",
+          "fire_mode": "Einzelschuss / Vollautomatisch",
+          "fire_rate": "700 RPM",
+          "notes": [
+            "Teilt die Kaliberfamilie mit M4A1, DDM4 und CQ A1",
+            "Verbindet die AK-Plattform mit dem Zugang zu NATO-Kaliber-Munition"
+          ]
+        },
+        {
+          "name": "AK-74M",
+          "category": "Sturmgewehr",
+          "caliber": "5.45x39mm",
+          "fire_mode": "Einzelschuss / Vollautomatisch",
+          "fire_rate": "650 RPM",
+          "notes": [
+            "Teil der 5.45 Gewehrgruppe",
+            "Früh weit verbreitet und eine solide Basis für den 5.45 Kaliberbaum"
+          ]
+        },
+        {
+          "name": "SIG MCX",
+          "category": "Sturmgewehr",
+          "caliber": ".300 AAC Blackout",
+          "fire_mode": "Modulare Plattform",
+          "fire_rate": "Siehe Waffen-Seite",
+          "notes": [
+            "Spezielles Plattformkaliber, am besten als eigenständiger Build zu behandeln",
+            "Nischenhafte, aber leistungsstarke Option für Spieler, die mit einem Ein-Kaliber-Loadout vertraut sind"
+          ]
+        },
+        {
+          "name": "0.4 Handling Changes",
+          "category": "Systemhinweise",
+          "caliber": "Alle Plattformen",
+          "fire_mode": "Alle Modi",
+          "fire_rate": "N/A",
+          "notes": [
+            "Update 0.4 fügt Waffengewichtseffekte auf Ergonomie, Schwanken, Beschleunigung und ADS hinzu",
+            "Waffenstatistiken überarbeitet, um Handling und Nachladeverhalten zu betonen",
+            "Ballistikberechnungen verbessert, um Waffen und Munition lebensfähiger zu machen"
+          ]
+        }
+      ]
+    },
+    "gzwAmmoGuide": {
+      "eyebrow": "Munition",
+      "title": "Gray Zone Warfare Munitions-Guide",
+      "subtitle": "Nutzen Sie diese Kaliberübersicht, um Munitionsfamilien mit den Waffen zu verbinden, die sie abfeuern. Sie bietet Spielern eine praktische Orientierung für die Inventarplanung, Magazinwahl und plattformübergreifende Munitionsnutzung.",
+      "intro": "Die Munitionswahl in Gray Zone Warfare ist direkt an die Waffenplattform und Magazinkompatibilität gebunden. Die Munitionsübersicht im Wiki zeigt, welche Kaliber von welchen Gewehren, DMRs und Repetiergewehren verwendet werden, während das neueste Devlog bestätigt, dass Ballistik und die allgemeine Munitions-Lebensfähigkeit in Spearhead überarbeitet werden. Das macht das Bewusstsein für Kaliber zu einem der einfachsten Wege, um Fehler beim Loadout zu vermeiden.",
+      "items": [
+        {
+          "caliber": ".300 AAC Blackout",
+          "used_by": "SIG MCX",
+          "weapon_class": "Sturmgewehr-Plattform",
+          "planning_note": "Am besten als spezielles Plattformkaliber zu behandeln, statt als geteilter Standard im frühen Inventar."
+        },
+        {
+          "caliber": "5.45x39mm",
+          "used_by": "AK-74M, AK-74N, AK-12, AKS-74U",
+          "weapon_class": "Sturmgewehre",
+          "planning_note": "Nützlich, wenn Sie möchten, dass mehrere AK-Gewehre aus derselben Kaliberfamilie schöpfen."
+        },
+        {
+          "caliber": "5.56x45mm NATO",
+          "used_by": "M4A1, DDM4, CQ A1, AK-19",
+          "weapon_class": "Sturmgewehre",
+          "planning_note": "Eine breite Gewehrkaliberfamilie, die sowohl westliche Gewehre als auch die AK-19 Plattform umfasst."
+        },
+        {
+          "caliber": "7.62x39mm",
+          "used_by": "AKM, AKMN, AKMSN, AK-15, SKS",
+          "weapon_class": "Sturmgewehre und DMR",
+          "planning_note": "Unterstützt sowohl Sturmgewehr- als auch SKS-Setups, nützlich für Spieler, die zwischen Rollen wechseln."
+        },
+        {
+          "caliber": "7.62x51mm NATO",
+          "used_by": "AK-308, M700",
+          "weapon_class": "Sturmgewehr und Repetiergewehr",
+          "planning_note": "Wird bei schwereren, präzisionsorientierten Waffenwahlen statt bei leichteren Sturmgewehrfamilien verwendet."
+        },
+        {
+          "caliber": "0.4 Ballistics Direction",
+          "used_by": "Alle Munitionstypen",
+          "weapon_class": "Systemweit",
+          "planning_note": "Die Spearhead-Update-Notizen bestätigen, dass Ballistikberechnungen verbessert werden und Waffen sowie Munition für eine bessere Lebensfähigkeit neu ausbalanciert werden."
+        }
+      ]
+    },
+    "gzwVendorsGuide": {
+      "eyebrow": "Händler",
+      "title": "Gray Zone Warfare Händler-Guide",
+      "subtitle": "Erfahre, worauf jeder Händler spezialisiert ist, welche Aufgaben zusätzlichen Zugang freischalten und wie der Händler-Ruf besseres Inventar ermöglicht. Dies erleichtert die Fortschrittsplanung erheblich, wenn du eine bestimmte Art von Ausrüstung anstelle von zufälligen Upgrades suchst.",
+      "intro": "Händler sind das Rückgrat des Fortschritts in Gray Zone Warfare. Sie verkaufen Ausrüstung, kaufen geplünderte Gegenstände und schalten besseres Inventar frei, wenn dein Ruf steigt. Die Händlerseiten zeigen auch, dass mehrere Händler durch Aufgabenketten verbunden sind. Kluger Fortschritt bedeutet also nicht nur, Ruf zu verdienen, sondern dies bei dem Händler zu tun, der die Kategorie öffnet, die du als Nächstes möchtest.",
+      "items": [
+        {
+          "vendor": "Handshake",
+          "specialty": "Helme, Ausrüstung, Körperpanzerung, Behälter, Werkzeuge",
+          "rank_thresholds": "Rang 1: 0 | Rang 2: 700 | Rang 3: 2500 | Rang 4: 6500",
+          "unlock_path": "Start-Händler, keine Voraussetzung",
+          "progression_note": "Gut für Spieler, die einen frühen Fortschritt in den Bereichen Schutz, Lagerung und allgemeine Feldausrüstung anstreben."
+        },
+        {
+          "vendor": "Lab Rat",
+          "specialty": "Medikamente, Lebensmittel, Getränke, Behälter",
+          "rank_thresholds": "Rang 1: 0 | Rang 2: 700 | Rang 3: 2500 | Rang 4: 6500",
+          "unlock_path": "Kern-Händler, keine Voraussetzung",
+          "progression_note": "Primärer Händler für medizinische Versorgung und Lebenserhaltung für Heilgegenstände, Vorräte und nützliche Lagerung."
+        },
+        {
+          "vendor": "Gunny",
+          "specialty": "Waffen, Magazine, Munition, Wurfgeschosse, Visierteile, Waffenaufsätze",
+          "rank_thresholds": "Rang 1: 0 | Rang 2: 700 | Rang 3: 2500 | Rang 4: 6500",
+          "unlock_path": "Kern-Händler, keine Voraussetzung",
+          "progression_note": "Bester Ankerpunkt für den frühen Spielverlauf, wenn das Ziel darin besteht, die Gewehrwahl, Aufsätze und den Zugang zu Munition zu verbessern."
+        },
+        {
+          "vendor": "Artisan",
+          "specialty": "Waffen, Magazine, Munition, Visierteile, Aufsätze, Helme, Behälter",
+          "rank_thresholds": "Rang 1: 0 | Rang 2: 700 | Rang 3: 2500 | Rang 4: 6500",
+          "unlock_path": "Erfordert den Abschluss von Native Negotiations von Lab Rat",
+          "progression_note": "Starker Händler, den man priorisieren sollte, sobald man mehr technische Kontrolle über Aufsätze und Waffen-Builds wünscht."
+        },
+        {
+          "vendor": "Banshee",
+          "specialty": "Waffen, Magazine, Munition, Visierteile, Aufsätze, Ausrüstung",
+          "rank_thresholds": "Rang 1: 0 | Rang 2: 700 | Rang 3: 2500 | Rang 4: 6500",
+          "unlock_path": "Erfordert den Abschluss von Invaders From Afar von Artisan",
+          "progression_note": "Passend für Spieler, die einen weiteren waffenfokussierten Zweig suchen und gleichzeitig die Optionen für tragbare Ausrüstung erweitern möchten."
+        },
+        {
+          "vendor": "Turncoat",
+          "specialty": "Waffen, Munition, Visierteile, Aufsätze, Helme, Ausrüstung, Körperpanzerung, Behälter",
+          "rank_thresholds": "Rang 1: 0 | Rang 2: 700 | Rang 3: 2500 | Rang 4: 6500",
+          "unlock_path": "Erfordert den Abschluss von The Shadow Over Ban Pa von Handshake",
+          "progression_note": "Eines der breitesten Inventare – kombiniert Waffenunterstützung mit Panzerungs- und Behälterfortschritt."
+        }
+      ]
+    },
+    "gzwHealthSystemGuide": {
+      "eyebrow": "Überlebenssysteme",
+      "title": "Gray Zone Warfare Gesundheitssystem-Guide",
+      "subtitle": "Gray Zone Warfare nutzt ein System aus Körperteilen und Vitalwerten anstelle eines einfachen HP-Balkens. Der schnellste Weg zum Überleben besteht darin, das Grundproblem zu identifizieren und sofort den richtigen Behandlungsgegenstand zu verwenden.",
+      "intro": "In Gray Zone Warfare interagieren Wunden, Prellungen, Organschäden, Blutverlust, Schmerz und Hydratation miteinander. Ein Spieler kann für einen Moment lebendig wirken und dennoch zusammenbrechen, wenn Blutung, Organschaden oder Dehydrierung nicht in der richtigen Reihenfolge behandelt werden. Dieser Guide dient als schnelle Referenz während des Raids, damit Spieler ein Symptom der richtigen Lösung zuordnen können.",
+      "items": [
+        {
+          "section": "Kern-Gesundheitsmodell",
+          "content": [
+            "Verfolgt Körperteile sowie Vitalwerte wie Blut und Hydratation – kein traditionelles HP-Modell",
+            "Überleben hängt davon ab, die Ursache eines Problems zu behandeln, nicht nur das sichtbare Symptom",
+            "Blut kann sich natürlich regenerieren, aber die Erholung stoppt, wenn Hydratation oder Energie zu tief fallen"
+          ]
+        },
+        {
+          "section": "Wunden und Blutungen",
+          "content": [
+            "Wunden sind rot markiert und entstehen, wenn ein Projektil die Schutzausrüstung durchdringt",
+            "Leichte Wunden können mit der Zeit heilen; mittlere und schwere Wunden müssen behandelt werden",
+            "Bandagen behandeln Wunden; Tourniquets stoppen Blutungen, heilen aber nicht die Wunde"
+          ]
+        },
+        {
+          "section": "Prellungen und Schmerzen",
+          "content": [
+            "Prellungen sind lila markiert und entstehen, wenn die Panzerung einen Treffer stoppt, der Aufprall aber dennoch ein Trauma verursacht",
+            "Prellungen verursachen Schmerzen, heilen aber normalerweise mit der Zeit natürlich ab",
+            "Schmerz und Leiden können zu Zittern führen, was die Waffenhandhabung verschlechtert"
+          ]
+        },
+        {
+          "section": "Knochenbrüche und Mobilitätsverlust",
+          "content": [
+            "Arm- und Beinknochen können durch Aufprall oder Stürze beschädigt werden",
+            "Die Zerstörung von Beinknochen verursacht Hinken, verhindert Sprinten und Springen und verlangsamt die Ausdauerregeneration",
+            "Flexible Schienen (Flexible Splints) sind die Standardbehandlung für gebrochene oder angeknackste Gliedmaßen"
+          ]
+        },
+        {
+          "section": "Organschäden",
+          "content": [
+            "Gehirn, Herz, Lunge und Leber können alle beschädigt werden",
+            "Zerstörte lebenswichtige Organe wie Herz oder Gehirn führen zum sofortigen Tod",
+            "Chirurgie-Kits werden verwendet, um beschädigte oder zerstörte Organe wiederherzustellen"
+          ]
+        },
+        {
+          "section": "Blutverlust und Kollaps",
+          "content": [
+            "Blutverlust verursacht sich verschlimmernde Symptome und kann im Koma enden",
+            "Der Status 'Schwindelig' erscheint, bis das Blut über 5.000 ml steigt oder Hydratation und Energie wiederhergestellt sind",
+            "Blutbeutel werden verwendet, um verlorenes Blut aufzufüllen"
+          ]
+        },
+        {
+          "section": "Hydratation und Energie",
+          "content": [
+            "Durst beginnt, wenn die Hydratation unter 50 Prozent fällt, und stoppt die Blutregeneration",
+            "Dehydrierung verursacht verschwommene Sicht und hält an, bis die Hydratation über 1 Prozent gebracht wird",
+            "Hunger beginnt, wenn die Energie unter 50 Prozent fällt, und stoppt ebenfalls die Blutregeneration"
+          ]
+        },
+        {
+          "section": "Gängige medizinische Gegenstände",
+          "content": [
+            "ARF Trauma Bandage 4 – heilt Wunden, 4 Ladungen",
+            "Zivile Gaze (Civilian Gauze) – heilt Wunden, 3 Ladungen",
+            "Flexible Schiene (Flexible Splint) – repariert Frakturen, 5 Ladungen",
+            "Basis-Chirurgie- & Naht-Kit – behandelt Organverletzungen, 6 Ladungen",
+            "Großer Blutbeutel – 500 ml pro Ladung, 2 Ladungen",
+            "Meloxicam und Ibalin – Schmerzmittel zur Reduzierung von Schmerzeffekten"
+          ]
+        },
+        {
+          "section": "Schnelle Behandlungsreihenfolge",
+          "content": [
+            "Erstens: Aktive Blutungen stoppen",
+            "Zweitens: Wunden und Frakturen versorgen",
+            "Drittens: Organe stabilisieren, falls erforderlich",
+            "Viertens: Blutvolumen wiederherstellen, falls die Symptome anhalten",
+            "Schließlich: Hydratation und Energie auffüllen, damit die Regeneration fortgesetzt werden kann"
+          ]
+        },
+        {
+          "section": "Regeln für die Heilung im Squad",
+          "content": [
+            "Um ein Teammitglied zu heilen, müssen sich medizinische Gegenstände in der taktischen Weste (Tactical Rig), dem taktischen Gürtel (Tactical Belt) oder den Taschen befinden",
+            "Untersuche zuerst den verletzten Spieler, um zu sehen, welche Maßnahmen erforderlich sind",
+            "Medizinische Taschen sparen Inventarplatz, aber Gegenstände müssen vor der Verwendung herausgenommen werden"
+          ]
+        }
+      ]
+    },
+    "gzwFactionsGuide": {
+      "eyebrow": "PMC-Wahl",
+      "title": "Gray Zone Warfare Fraktions-Guide",
+      "subtitle": "Gray Zone Warfare bietet drei spielbare PMCs mit unterschiedlicher Hintergrundgeschichte, Basislager-Positionen, Startstädten und Aufgabenrouten. Deine Fraktionswahl entscheidet auch darüber, ob du dich mit bestimmten Freunden zusammenschließen kannst.",
+      "intro": "Die Fraktionswahl ist nicht nur kosmetisch. Sie beeinflusst deine Startseite der Karte, deine zugänglichen frühen Routen und Teile deines Aufgabenflusses. Die wichtigste Regel für Gruppen: Alle müssen in derselben Fraktion sein.",
+      "items": [
+        {
+          "name": "Lamang Recovery Initiative",
+          "summary": "Eine von Milliardären finanzierte PMC, die sich als Rettungs- und Bergungstruppe rund um Ground Zero präsentiert.",
+          "highlights": [
+            "Das öffentliche Image konzentriert sich auf die Suche nach Überlebenden, Rettung und Aufräumarbeiten",
+            "Setzt kleine, hochprofessionelle Sicherheitsteams zum Schutz der Einheiten ein",
+            "Startstadt: Pha Lang – schneller Zugang zu umkämpften Zonen"
+          ]
+        },
+        {
+          "name": "Mithras Security Systems",
+          "summary": "Eine soldatenorientierte PMC, die Felderfahrung und militärische Kompetenz schätzt.",
+          "highlights": [
+            "Vermarktet sich als ein Unternehmen, das von Soldaten für Soldaten geführt wird",
+            "Akzeptiert erfahrene Operator und betont eine Kultur des Verdienstes und des Teilens der Beute",
+            "Startstadt: Nam Thaven – zwischen sichereren und gefährlicheren Routen"
+          ]
+        },
+        {
+          "name": "Crimson Shield International",
+          "summary": "Eine PMC mit hoher Erfolgsquote, bekannt für rücksichtslose Effektivität und einen härteren Ruf.",
+          "highlights": [
+            "In der Hintergrundgeschichte bekannt für eine Erfolgsquote von 95 Prozent",
+            "Zieht actionorientierte Operator an, hat aber einen Ruf für Kollateralschäden",
+            "Startstadt: Kiu Vongsa – wird oft als einsteigerfreundlicher für langsameren frühen Fortschritt angesehen"
+          ]
+        },
+        {
+          "name": "Was sich tatsächlich ändert",
+          "summary": "Die Fraktionswahl beeinflusst mehr als nur den Begleittext.",
+          "highlights": [
+            "Deine Fraktion bestimmt dein Startgebiet auf Lamang Island",
+            "Einige verfügbare Aufgaben unterscheiden sich je nach Fraktion",
+            "Freunde müssen derselben Fraktion beitreten, um zusammen spielen zu können",
+            "Der Spieler kann den Charakter alle 7 Tage löschen, falls ein Reset erforderlich ist"
+          ]
+        }
+      ]
+    },
+    "gzwArmorGuide": {
+      "eyebrow": "Schutz",
+      "title": "Gray Zone Warfare Rüstungs-Guide",
+      "subtitle": "Die Wirksamkeit der Rüstung hängt von der NIJ-Klasse ab, davon, wo die Platten den Körper tatsächlich abdecken, und aus welchem Material die Rüstung besteht. Mehr zu bezahlen bedeutet nicht automatisch besseren Schutz in jeder Situation.",
+      "intro": "Das Spiel verwendet NIJ-Rüstungsklassen und ein ortsbasiertes Plattensystem. Wenn du ein Rüstungsteil untersuchst, ist nicht nur die Klassennummer wichtig, sondern auch, ob die Platte die Vorder- und Rückseite schützt, die du wahrscheinlich exponierst. Das Material ist ebenfalls wichtig, da verschiedene Rüstungstypen Projektilen unterschiedlich widerstehen, selbst wenn sich die Haltbarkeit ändert.",
+      "rows": [
+        {
+          "name": "Commander (Navy)",
+          "type": "Schutzweste",
+          "nij": "IIIA",
+          "material": "UHMWPE",
+          "weight": "4.000 kg",
+          "how_to_get": "Handshake R.1"
+        },
+        {
+          "name": "Specter",
+          "type": "Plattenträger",
+          "nij": "IIIA",
+          "material": "Aramid",
+          "weight": "1.480 kg",
+          "how_to_get": "Beute"
+        },
+        {
+          "name": "Pantsir 2.0",
+          "type": "Plattenträger",
+          "nij": "III",
+          "material": "Keramik",
+          "weight": "8.480 kg",
+          "how_to_get": "Turncoat R.2 / Beute"
+        },
+        {
+          "name": "Recon Plate Carrier",
+          "type": "Plattenträger",
+          "nij": "III+",
+          "material": "UHMWPE",
+          "weight": "5.600 kg",
+          "how_to_get": "Handshake R.4 / Aufgabenbelohnungen"
+        },
+        {
+          "name": "M2 Plate Carrier",
+          "type": "Plattenträger",
+          "nij": "III+",
+          "material": "Keramik",
+          "weight": "7.640 kg",
+          "how_to_get": "Beute / Aufgabenbelohnung"
+        },
+        {
+          "name": "CZ 4M Lancer",
+          "type": "Plattenträger",
+          "nij": "III",
+          "material": "Stahl",
+          "weight": "9.550 kg",
+          "how_to_get": "Handshake R.3 / Aufgabenbelohnungen"
         }
       ],
-      "multiplayerNote": "Für modifizierte Koop-Gameplay-Funktionen sollte jeder BepInEx und dieselben Gameplay-Mods installieren."
+      "notes": [
+        "Gray Zone Warfare nutzt das NIJ-System — Schutzstufen von schlecht bis gut: I, IIA, IIA+, IIIA, IIIA+, III, III+, III++",
+        "Die sichtbaren Plattenpositionen bei der Untersuchung zeigen, wo Durchschlagsschutz besteht",
+        "Das Rüstungsmaterial ist wichtig: UHMWPE hat einen geringen Widerstand, Keramik einen mittleren, Stahl einen höheren Widerstand",
+        "Plattenträger kombinieren Stauraum mit Rüstung; einfache Westen werden mit einem ungerüsteten taktischen Rig kombiniert",
+        "Das UI von Update 0.4 zeigt Rüstungsstufen jetzt deutlicher an, und Munitionsdetails zeigen die niedrigste Rüstungsklasse, die ein Projektil nicht durchschlagen kann"
+      ]
     },
-    "popularMods": {
-      "title": "Lucid Blocks Beliebte Mods",
-      "subtitle": "Top-Community-Auswahlen",
-      "mods": [
+    "gzwBestLoadouts": {
+      "eyebrow": "Builds",
+      "title": "Die besten Gray Zone Warfare Loadouts",
+      "subtitle": "Die nützlichsten Gray Zone Warfare Loadouts sind keine auffälligen Theorycraft-Builds. Es sind Kits, die auf Überleben, Extraktion, Aufgabeneffizienz, Rüstungsabdeckung, medizinische Bereitschaft und das richtige Maß an Mobilität ausgelegt sind.",
+      "intro": "Dieses Modul konzentriert sich auf echte Einsatz-Archetypen, die Spieler tatsächlich nutzen: ein günstiges Anfänger-Gewehr-Setup, ein leises Solo-PvE-Kit, ein schwereres Squad-Kampf-Build und ein zielorientiertes Aufgaben-Setup. Jedes ist um bewährte Spielsysteme wie Ausdauer, Hydrierung, Unterdrückung, Rüstungsabdeckung und medizinische Vorsorge herum konzipiert.",
+      "items": [
         {
-          "title": "Spawn-Menü",
-          "tags": [
-            "Spaß",
-            "Werkzeuge",
-            "Nur Host"
-          ],
-          "description": "Fügt ein Element-Spawn-Menü mit einem Flugmodus hinzu.",
-          "controls": [
+          "name": "Anfänger-Budget-Run",
+          "summary": "Ein risikoarmes Setup für Aufgaben in der Startstadt und frühe Geldbeschaffung.",
+          "highlights": [
+            "Erschwingliches Gewehr wie die AKM — oft als günstige Startplattform empfohlen",
+            "Rüstungsziel: Schutz für Vorder- und Rückseite ohne Überlastung durch Gewicht",
+            "Medizinischer Kern: Verband, Schiene, Blutbeutel, Schmerzmittel",
+            "Spielstil: Lange Kämpfe vermeiden, Ziel abschließen und extrahieren"
+          ]
+        },
+        {
+          "name": "Solo PvE Stealth-Kit",
+          "summary": "Gebaut für leises Bewegen, das Abschließen von Aufgaben und das Überleben im Alleingang.",
+          "highlights": [
+            "Schallgedämpfte Waffen werden für das Solospiel stark bevorzugt",
+            "Nutze leichtere Rüstung und kontrollierte Bewegung, um Ausdauer und Hydrierung zu verwalten",
+            "Priorisiere Missionsgegenstände und wichtige Beute vor Gier",
+            "Spähe Anlagen vor dem Betreten aus und betrachte die Exfiltration als den eigentlichen Sieg"
+          ]
+        },
+        {
+          "name": "Squad PvEvP Heavy-Kit",
+          "summary": "Ein stärkeres Gruppen-Build für umkämpfte Zonen und härtere Kämpfe.",
+          "highlights": [
+            "Plattenträger mit Vorder- und Rückseitenabdeckung und nach Möglichkeit stärkeren NIJ-Klassen",
+            "Medizinische Gegenstände in zugänglichen Slots, damit Teammitglieder sich gegenseitig schnell behandeln können",
+            "Bewege dich mit mehreren Winkeln, geteilten Vorräten und Wiederbelebungsunterstützung",
+            "Für Late-Game-Gebiete werden schallgedämpftes Feuer und mindestens ein Teammitglied dringend empfohlen"
+          ]
+        },
+        {
+          "name": "Aufgabenorientiertes Utility-Loadout",
+          "summary": "Ein ausgewogenes Kit für Missionen, bei denen Reisen, Suchen und Extraktion wichtiger sind als die Anzahl der Kills.",
+          "highlights": [
+            "Trage nur das, was die Aufgabe unterstützt: Waffe, Meds, Hydrierung und Platz für Questgegenstände",
+            "Die Wahl der Fraktion ändert die Routeneffizienz — jede Fraktion startet in einer anderen Stadt",
+            "Der Aufgabenfluss wurde in Update 0.4 erneut überarbeitet",
+            "Das beste Aufgaben-Loadout hält das Gewicht unter Kontrolle und lässt Platz, um Zielgegenstände nach Hause zu bringen"
+          ]
+        }
+      ]
+    },
+    "gzwPveVsPvpGuide": {
+      "title": "Gray Zone Warfare PvE vs. PvP Guide",
+      "intro": "Gray Zone Warfare unterstützt sowohl Warfare als auch Joint Operations. Der Fortschritt wird zwischen den Modi geteilt, daher nutzen viele Spieler Joint Operations, um Orte und Aufgaben kennenzulernen, bevor sie denselben Charakter in Warfare einsetzen.",
+      "items": [
+        {
+          "aspect": "Kernregeln",
+          "warfare": "Vollständiges PvPvE — rivalisierende Fraktionen können sich auf der gesamten Karte bekämpfen",
+          "joint_operations": "Nur PvE — Spieler können sich nicht gegenseitig angreifen oder plündern, nur KI-Feinde"
+        },
+        {
+          "aspect": "Eignung für neue Spieler",
+          "warfare": "Bestens geeignet für Spieler, die unvorhersehbare Begegnungen und Fraktionsdruck von Anfang an wollen",
+          "joint_operations": "Bestens geeignet für Anfänger, die den Extraktionsfluss, Heilung, Kartenrouten und Aufgabenziele lernen wollen"
+        },
+        {
+          "aspect": "Solo-Freundlichkeit",
+          "warfare": "Solo spielbar, aber Helikopter-Timing und feindliche Spieler machen Fehler bestrafender",
+          "joint_operations": "Nachsichtiger für das Lernen im Alleingang, da der Gegnerdruck von der KI und nicht von menschlichen Hinterhalten kommt"
+        },
+        {
+          "aspect": "Squad-Größe",
+          "warfare": "Solo- oder Squad-Spiel, bis zu vier Spieler",
+          "joint_operations": "Solo- oder Squad-Spiel, bis zu vier Spieler"
+        },
+        {
+          "aspect": "Bedrohung durch Spieler",
+          "warfare": "Feindliche PMCs können dich überall auf der Karte erschießen, außer während des kurzen Schutzes bei der Helikopter-Ankunft",
+          "joint_operations": "Kein Schaden durch feindliche Spieler oder Plündern unter Teilnehmern"
+        },
+        {
+          "aspect": "Kampf-Außenposten",
+          "warfare": "Fraktionen kämpfen um die COP-Kontrolle; rivalisierende Spieler werden Teil des Kampfgeschehens um den Außenposten",
+          "joint_operations": "Die erste Fraktion nimmt den COP ein, indem sie die KI eliminiert; danach können alle Fraktionen ihn als gemeinsame Sicherheitszone nutzen"
+        },
+        {
+          "aspect": "Bester Anwendungsfall",
+          "warfare": "Wähle dies für Extraktionsspannung, Fraktionskonflikte und dynamische Begegnungen an Routen und Außenposten",
+          "joint_operations": "Wähle dies, um Aufgaben abzuschließen, Layouts zu lernen, Kits zu testen oder Erfahrung mit weniger Variablen zu sammeln"
+        },
+        {
+          "aspect": "Fortschritt",
+          "warfare": "Gemeinsamer Charakterfortschritt",
+          "joint_operations": "Gemeinsamer Charakterfortschritt — hier erzielte Fortschritte werden auch in Warfare übernommen"
+        },
+        {
+          "aspect": "Empfohlener Spielertyp",
+          "warfare": "Extraktions-Veteranen, selbstbewusste Duos und Squads sowie Spieler, die umkämpfte Ziele genießen",
+          "joint_operations": "Neue Spieler, aufgabenorientierte Spieler und alle, die Routen, Heilungsabläufe oder Händlerfortschritt üben"
+        }
+      ]
+    },
+    "gzwLocationsGuide": {
+      "title": "Gray Zone Warfare Standort-Guide",
+      "intro": "Die Suchintention bei Gray Zone Warfare ist stark standortorientiert, da sich Spieler ständig zwischen Startstädten, Aufgabenzielen, Loot-Bereichen und Militäranlagen bewegen. Die unten aufgeführten wichtigen POIs decken die nützlichsten Ankerpunkte ab.",
+      "sections": [
+        {
+          "section": "Startstädte",
+          "entries": [
             {
-              "key": "F",
-              "action": "Spawn-Menü öffnen"
+              "name": "Kiu Vongsa",
+              "grid": "141:164",
+              "role": "Startstadt für Crimson Shield International",
+              "why": "Häufiges Ziel im Early-Game für CSI-Routen und Bewegungen in der Nähe der Farmen"
             },
             {
-              "key": "V",
-              "action": "Fliegen aktivieren"
-            }
-          ],
-          "note": "Nur Host; andere müssen es nicht installieren, um beizutreten."
-        },
-        {
-          "title": "ThirdPerson-Ansicht",
-          "tags": [
-            "Kamera",
-            "QoL"
-          ],
-          "description": "Fügt eine Third-Person-Kameraansicht hinzu.",
-          "controls": [
+              "name": "Nam Thaven",
+              "grid": "171:118",
+              "role": "Startstadt für Mithras Security Systems",
+              "why": "Zentrales Startgebiet für Mithras-Spieler und Ankerpunkt für die frühe Routenplanung"
+            },
             {
-              "key": "F7",
-              "action": "First-Person / Third-Person umschalten"
+              "name": "Pha Lang",
+              "grid": "202:162",
+              "role": "Startstadt für Lamang Recovery Initiative",
+              "why": "Haupt-Heimatgebiet im Early-Game für den LRI-Fortschritt und Bewegungen Richtung Süden"
             }
           ]
         },
         {
-          "title": "Mehr Hüte",
-          "tags": [
-            "Kosmetisch"
-          ],
-          "description": "Fügt zusätzliche Hutfarboptionen für Gnome hinzu.",
-          "colors": [
-            "Blau",
-            "Grün",
-            "Orange",
-            "Lila",
-            "Schwarz",
-            "Rot"
+          "section": "Wichtige Aufgaben- und Loot-Ziele",
+          "entries": [
+            {
+              "name": "Sawmill",
+              "grid": "139:144",
+              "role": "Tier-2-Zone mit einem alten Sägewerk",
+              "why": "Erkennbare Steigerung gegenüber den Startgebieten und häufiges Ziel im Mid-Game"
+            },
+            {
+              "name": "Hunter's Paradise",
+              "grid": "159:168",
+              "role": "Privater Schießstand",
+              "why": "Spieler suchen dies für Aufgaben, Routenplanung und nahegelegene Points of Interest"
+            },
+            {
+              "name": "Ban Pa",
+              "grid": "205:137",
+              "role": "Kleine Stadt an der Ostseite in Wassernähe",
+              "why": "Nützlich für die Aufgaben-Routenplanung und die Reiseplanung im Osten"
+            },
+            {
+              "name": "Pha Lang Airfield",
+              "grid": "182:158",
+              "role": "Ziviler Flugplatz auf Lamang Island",
+              "why": "Wichtig für die Orientierung und die Geografie in der Nähe von Transportwegen"
+            }
           ]
         },
         {
-          "title": "DOOM im Fernsehen",
-          "tags": [
-            "Spaß",
-            "Minispiel"
-          ],
-          "description": "Spiele das Original-DOOM auf einem In-Game-Fernseher, wobei der Ton über den TV-Lautsprecher kommt.",
+          "section": "Hochinteressante Militär- und Late-Game-Gebiete",
+          "entries": [
+            {
+              "name": "YBL-1",
+              "grid": "143:122",
+              "role": "Militärischer Untergrundbunker",
+              "why": "Herausragender Militärstandort mit einer ganz anderen Atmosphäre als offene Siedlungen"
+            },
+            {
+              "name": "Fort Narith",
+              "grid": "143:129",
+              "role": "Größter Militärstandort und zweitgrößter Flugplatz auf der Insel",
+              "why": "Meistgesuchter Ort mit hoher Bedrohung aufgrund der Größe, des militärischen Werts und des wiederkehrenden Interesses an Aufgaben"
+            },
+            {
+              "name": "Tiger Bay",
+              "grid": "198:130",
+              "role": "Größte Stadt mit einem großen Handelszentrum",
+              "why": "Wichtiges städtisches Wahrzeichen und eines der klarsten Stadtziele im Late-Game"
+            },
+            {
+              "name": "Blue Lagoon",
+              "grid": "203:117",
+              "role": "Kleines Resort im Süden in der Nähe der Berge",
+              "why": "Benanntes Wahrzeichen, das Spieler bei der Planung südlicher Routen schnell erkennen"
+            }
+          ]
+        },
+        {
+          "section": "Hinweise zu Combat Outposts",
+          "entries": [
+            {
+              "name": "Wichtige COPs",
+              "grid": "variiert",
+              "role": "Strategische Punkte für Respawn, Aufstockung und Kontrolle",
+              "why": "Eroberte COPs können als Respawn-Punkte mit Zugang zu Schließfächern und Händlern dienen"
+            },
+            {
+              "name": "Gemeinsamer PvE-COP-Zugang",
+              "grid": "Systemregel",
+              "role": "Eroberungsverhalten in Joint Operations",
+              "why": "In PvE können alle Fraktionen einen COP als gemeinsame Sicherheitszone nutzen, sobald eine Fraktion ihn vor der KI gesichert hat"
+            }
+          ]
+        }
+      ]
+    },
+    "gzwEditionDifferences": {
+      "title": "Gray Zone Warfare Editionsunterschiede",
+      "intro": "Beim Kauf der Editionen von Gray Zone Warfare geht es hauptsächlich um Lagerplatz, Containerkapazität und Flexibilität im frühen Inventar. Die Standard-Edition beginnt mit dem höchsten gelisteten Basis-Geld, aber dem kleinsten Schließfach.",
+      "items": [
+        {
+          "feature": "Schließfachgröße",
+          "standard": "10x25",
+          "tactical": "10x35",
+          "elite": "10x45",
+          "supporter": "10x60"
+        },
+        {
+          "feature": "Sicherer Behälter",
+          "standard": "2x2",
+          "tactical": "2x2",
+          "elite": "3x2",
+          "supporter": "3x3"
+        },
+        {
+          "feature": "Startguthaben im Spiel",
+          "standard": "$10.000",
+          "tactical": "+$5.000",
+          "elite": "+$5.000",
+          "supporter": "+$5.000"
+        },
+        {
+          "feature": "Waffenfokus",
+          "standard": "Basis-Set aus Sturmgewehr und Pistole",
+          "tactical": "SMG-fokussiertes Starterpaket",
+          "elite": "DMR- und Pistolenpaket",
+          "supporter": "Sturmgewehr plus Gewehrpaket"
+        },
+        {
+          "feature": "Highlights für frühe Ausrüstung",
+          "standard": "Basis-Heilset, Rüstung, Magazine und zusätzliche Gewehre",
+          "tactical": "Granaten, Vordergriff, Taschenlampe, Headset, biokulares Nachtsichtgerät",
+          "elite": "Granaten, Schalldämpfer, taktisches Gerät, monokulares Nachtsichtgerät, größeres Medizinpaket",
+          "supporter": "Granaten, Gewehr-Schalldämpfer, taktisches Gerät, Visiere, maximaler Lagervorteil"
+        },
+        {
+          "feature": "Exklusive Vorteile",
+          "standard": "Zugang zum Basisspiel",
+          "tactical": "Mehr Lagerplatz und Upgrade-Pfad für Ausrüstung",
+          "elite": "Größerer sicherer Behälter und Premium-Loadout",
+          "supporter": "GZW T-Shirt, Handschuhe, Supporter-Namensfarbe, exklusives Abzeichen, alle DLCs enthalten"
+        },
+        {
+          "feature": "Bestens geeignet für",
+          "standard": "Spieler, die den niedrigsten Einstiegspreis suchen und denen ein begrenztes Lager-Management nichts ausmacht",
+          "tactical": "Spieler, die mehr Platz im Schließfach und ein praktisches Upgrade gegenüber dem Standard schätzen",
+          "elite": "Spieler, die einen größeren sicheren Behälter und ein fortgeschritteneres Kampf-Starterkit möchten",
+          "supporter": "Spieler, die den größten Lagerplatz, das umfangreichste Bonuspaket und Supporter-Kosmetika wollen"
+        }
+      ]
+    },
+    "gzwUpdateRoadmap": {
+      "title": "Gray Zone Warfare Update-Roadmap",
+      "intro": "Die aktuelle Update-Story von Gray Zone Warfare konzentriert sich auf den 0.4 Spearhead-Veröffentlichungszyklus. Die Roadmap legte langfristige Ziele fest, während jüngste News-Beiträge 0.4 zu einem viel größeren Meilenstein machten.",
+      "items": [
+        {
+          "section": "Roadmap neu gestaltet",
+          "date": "2025-03-13",
+          "summary": "Die Roadmap wurde umgestaltet, um den Fokus stärker auf naheliegende Features zu legen, während langfristige Expansionspläne sichtbar bleiben.",
           "highlights": [
-            "Funktioniert im Mehrspieler, sodass andere Spieler auf demselben Fernseher zusehen können",
-            "Enthält die Shareware-DOOM-Episodendaten (Episode 1)"
+            "Winds of War für Frühjahr 2025 positioniert",
+            "Dark Revelations für Herbst 2025 positioniert",
+            "Roadmap für 2026+ benannt als Battle Forge, Shadow Strike, Rising Tensions und Ground Zero",
+            "Große Updates etwa alle sechs Monate geplant"
           ]
-        }
-      ]
-    },
-    "controllerSupport": {
-      "title": "Lucid Blocks Controller-Unterstützung",
-      "subtitle": "Volle Gamepad-Steuerung",
-      "native": {
-        "title": "In-Game-Einstellungen",
-        "description": "Verwende die Bindungs-/Einstellungsmenüs des Spiels, um die Steuerung anzupassen."
-      },
-      "mod": {
-        "title": "Controller-Support-Mod",
-        "description": "Fügt vollständige Gamepad-/Controller-Unterstützung und einen UI-Cursor für die Menünavigation hinzu."
-      },
-      "features": [
-        "Volle Gameplay-Steuerung: Bewegung, Kamera, Kampf, Interaktionen und Fähigkeiten, die dem Gamepad zugeordnet sind",
-        "UI-Cursor-Navigation: Ein weißer Kreiscursor erscheint in Menüs; drücke A, um zu klicken und Schieberegler zu ziehen",
-        "Inventarnavigation: Halte Select gedrückt, um das Inventar zu öffnen; verwende den rechten Stick, um zu navigieren, während du ihn hältst",
-        "Scrollbare Menüs: Der rechte Stick scrollt durch Crafting-Rezepte, Einstellungen und andere scrollbare UI-Bereiche",
-        "Hotbar-Cycling: D-Pad links/rechts wechselt durch 4 Hotbar-Slots",
-        "Nahtlose Eingabeumschaltung: Erkennt automatisch Tastatur/Maus vs. Controller"
-      ]
-    },
-    "playerCount": {
-      "title": "Lucid Blocks Spielerzahl & Trend",
-      "subtitle": "Live-Popularitäts-Schnappschuss",
-      "stats": {
-        "now": {
-          "value": "6.047",
-          "label": "Spieler gerade jetzt"
-        },
-        "peak24h": {
-          "value": "13.859",
-          "label": "24-Stunden-Peak"
-        },
-        "allTimePeak": {
-          "value": "15.272",
-          "label": "Allzeit-Peak"
-        }
-      },
-      "milestones": [
-        {
-          "date": "30. Jan. 2026",
-          "title": "Demo auf Steam veröffentlicht",
-          "detail": "Öffentliche Demo wurde auf PC (Steam) verfügbar."
         },
         {
-          "date": "8. Feb. 2026",
-          "title": "Allzeit-Peak erreicht",
-          "detail": "Die Demo erreichte ihre höchste aufgezeichnete Anzahl gleichzeitiger Spieler."
+          "section": "Erster Einblick: Update 0.4",
+          "date": "2026-02-27",
+          "summary": "Update 0.4 wurde offiziell als Spearhead neu vorgestellt – ein viel umfassenderer Meilenstein als sein früherer Arbeitstitel.",
+          "highlights": [
+            "Update von Dark Revelations in Spearhead umbenannt",
+            "Veröffentlichungsfenster für März 2026 festgelegt",
+            "Drei Devlogs im Vorfeld des Launchs angekündigt",
+            "Besitzern der Supporter Edition wurde Vorabzugang zum Preview-Build versprochen"
+          ]
+        },
+        {
+          "section": "Neue Inhalte in 0.4",
+          "date": "2026-03-11",
+          "summary": "Der zweite Spearhead-Devlog konzentrierte sich auf die Erweiterung von Karte, Gegnern, Waffen und der Welt.",
+          "highlights": [
+            "Über 25 neue Orte in verschiedenen Größen hinzugefügt",
+            "Neue Mikrobiome: Sümpfe, Bambuswälder und verbrannte Wälder",
+            "Bestehende Orte neu aufgebaut und überarbeitet",
+            "KI-Gegner in sieben verschiedene Fraktionen umgestaltet"
+          ]
+        },
+        {
+          "section": "Kernüberarbeitungen und neue Features",
+          "date": "2026-03-18",
+          "summary": "Der dritte Spearhead-Devlog enthüllte umfassende Überarbeitungen des Gameplay-Loops und der Progression.",
+          "highlights": [
+            "Spearhead erscheint am 31. März 2026",
+            "Vorabzugang für die Supporter Edition am 27. März 2026",
+            "Neuer Onboarding-Bereich und überspringbares Tutorial hinzugefügt",
+            "In-Game Field Manual mit mehr als 110 Seiten hinzugefügt",
+            "Gesamtzahl der Aufgaben übersteigt nun 250, einschließlich über 100 neuer Aufgaben und Verträge"
+          ]
+        },
+        {
+          "section": "Watchlist nach Spearhead",
+          "date": "after 2026-03-31",
+          "summary": "Der offizielle News-Feed weist bereits auf Folgearbeiten über den Kern-Launch hinaus hin.",
+          "highlights": [
+            "NVIDIA DLSS 4.5 für Patches nach Spearhead geplant",
+            "Langfristige Roadmap weist weiterhin auf Battle Forge, Shadow Strike, Rising Tensions und Ground Zero hin",
+            "Entwickler positionieren Gray Zone Warfare weiterhin als wachsende taktische Sandbox"
+          ]
         }
       ]
     }
@@ -790,177 +1240,197 @@
   "faq": {
     "title": "Häufig gestellte",
     "titleHighlight": "Fragen",
-    "subtitle": "Alles, was du über Lucid Blocks wissen musst",
+    "subtitle": "Alles, was du über Gray Zone Warfare wissen musst",
     "questions": [
       {
-        "question": "Wie lade ich die Lucid Blocks Demo herunter?",
-        "answer": "Besuche die Steam Store Seite und klicke auf \"Demo herunterladen\". Die Demo ist kostenlos und erfordert 2,62 GiB zum Herunterladen, 4,88 GiB Festplattenspeicher."
+        "question": "Was ist Gray Zone Warfare?",
+        "answer": "Gray Zone Warfare ist ein taktischer Open-World-Extraction-Shooter mit PvE-Fokus, entwickelt von MADFINGER Games. Er startete am 30. April 2024 im Steam Early Access und spielt auf Lamang Island, wo Spieler als PMC-Einsatzkräfte agieren."
       },
       {
-        "question": "Kann ich Lucid Blocks solo spielen oder brauche ich Freunde?",
-        "answer": "Lucid Blocks unterstützt sowohl Solo-Spiel als auch Koop mit bis zu 6 Spielern. Solo ist schwieriger, aber möglich."
+        "question": "Hat Gray Zone Warfare einen PvP-Modus?",
+        "answer": "Ja. Gray Zone Warfare bietet zwei Modi: Warfare (volles PvEvP, in dem rivalisierende Fraktionen gegeneinander kämpfen können) und Joint Operations (nur PvE ohne feindliche Spielerbegegnungen). Der Charakterfortschritt wird zwischen beiden Modi geteilt."
       },
       {
-        "question": "Was sind High-Gnome-Aufgaben in Lucid Blocks?",
-        "answer": "High-Gnome ist dein Boss, der Ziele wie \"zerstöre den Fernseher\", \"überflute die Toilette\" oder \"stehle bestimmte Gegenstände\" vergibt. Erledige sie für zusätzliche Belohnungen."
+        "question": "Welche Fraktionen gibt es in Gray Zone Warfare?",
+        "answer": "Gray Zone Warfare hat drei spielbare PMC-Fraktionen: Crimson Shield International (Startstadt Kiu Vongsa), Mithras Security Systems (Startstadt Nam Thaven) und Lamang Recovery Initiative (Startstadt Pha Lang). Spieler im selben Squad müssen dieselbe Fraktion wählen."
       },
       {
-        "question": "Wie installiere ich Mods für Lucid Blocks?",
-        "answer": "Installiere BepInEx 5, starte das Spiel einmal und platziere dann Mod-DLLs im Ordner BepInEx/plugins/. Alle Spieler benötigen die gleichen Mods für den Mehrspieler."
+        "question": "Wie funktionieren Aufgaben in Gray Zone Warfare?",
+        "answer": "Aufgaben sind Missionen, die von Händlern wie Handshake, Gunny und Lab Rat vergeben werden. Das Abschließen von Aufgaben bringt EP, Geld, Gegenstände und Händler-Ruf. Ein höherer Ruf schaltet besseres Händler-Inventar frei. Update 0.4 Spearhead fügte über 100 neue Aufgaben und Verträge hinzu, sodass die Gesamtzahl 250 übersteigt."
       },
       {
-        "question": "Unterstützt Lucid Blocks Controller?",
-        "answer": "Ja! Verwende die In-Game-Einstellungen für grundlegende Controller-Unterstützung oder installiere den Controller Mod von Nexus Mods für vollständige UI-Navigation."
+        "question": "Was ist das Gray Zone Warfare Update 0.4 Spearhead?",
+        "answer": "Spearhead ist das große 0.4-Update, das am 31. März 2026 erscheint. Es fügt über 25 neue Orte, sieben neu gestaltete KI-Fraktionen, über 100 neue Aufgaben, eine komplette Systemüberarbeitung für Waffen und Ballistik, einen neuen Onboarding-Bereich und ein In-Game Field Manual mit über 110 Seiten hinzu."
       },
       {
-        "question": "Wie hoch ist die Spielerzahl für Lucid Blocks?",
-        "answer": "Stand Februar 2026 verzeichnet Lucid Blocks durchschnittlich 6.000+ gleichzeitige Spieler, mit einem Peak von 15.272 am 8. Februar 2026."
+        "question": "Wie viele Editionen gibt es von Gray Zone Warfare?",
+        "answer": "Gray Zone Warfare ist in vier Editionen erhältlich: Standard (10x25 Lager, 2x2 Lockbox), Tactical (10x35 Lager, SMG-Paket), Elite (10x45 Lager, DMR-Paket, 3x2 Lockbox) und Supporter (10x60 Lager, 3x3 Lockbox, alle DLCs, exklusive Kosmetika)."
       }
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
+    "title": "Bereit, Lamang Island zu dominieren?",
+    "description": "Tritt der Gray Zone Warfare-Community auf Discord bei, um Guides, Updates und Squad-Koordination zu erhalten!",
     "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "joinGame": "Auf Steam spielen"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
+    "title": "Gray Zone Warfare Wiki",
+    "description": "Deine vollständige Ressourcen-Zentrale für Gray Zone Warfare-Karten, Aufgaben, Schlüssel, Händler, Waffen, Munition und Patch-Guides.",
     "resources": "Ressourcen",
     "community": "Community",
     "legal": "Rechtliches",
     "discord": "Discord",
-    "twitter": "X / Twitter",
+    "twitter": "Reddit",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
     "about": "Über uns",
     "privacy": "Datenschutzrichtlinie",
     "terms": "Nutzungsbedingungen",
-    "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Gray Zone Warfare Wiki. Nicht mit MADFINGER Games verbunden.",
+    "disclaimer": "Inoffizielle Fan-Ressourcen-Website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Leitfäden",
-      "description": "Vollständige Gameplay-Leitfäden von den Grundlagen für Anfänger bis hin zu fortgeschrittenen Apotheosis-Strategien. Meistern Sie Überleben und Handwerk.",
-      "metaTitle": "Lucid Blocks Leitfäden – Strategien für Anfänger bis Fortgeschrittene",
-      "metaDescription": "Vollständige Lucid Blocks Leitfäden mit Tipps für Anfänger, dem Apotheosis-System, Überlebensstrategien und Expertentaktiken zur Beherrschung der surrealen Sandbox.",
-      "categoryLabel": "SPIEL-LEITFÄDEN",
-      "whatIs": "Was sind Leitfäden?",
-      "whatIsDescription": "Umfassende Leitfäden zu Spielmechaniken, Überlebensstrategien und dem Apotheosis-Handwerkssystem. Lernen Sie alles von den ersten Schritten bis hin zu fortgeschrittenen Techniken.",
-      "why": "Warum Leitfäden lesen?",
+    "guide": {
+      "title": "Gray Zone Warfare Guides",
+      "description": "Umfassende Guides für Gray Zone Warfare, die das Überleben für Anfänger, die Fraktionswahl, Gesundheitsmanagement, Extraktionsstrategien und fortgeschrittene Taktiken auf Lamang Island abdecken.",
+      "metaTitle": "Gray Zone Warfare Guides – Taktiken für Anfänger bis Fortgeschrittene",
+      "metaDescription": "Meistere Gray Zone Warfare mit unserer kompletten Guide-Sammlung. Überlebenstipps für Anfänger, Fraktionsvergleich, Extraktionsstrategien und fortgeschrittene PMC-Taktiken für Lamang Island.",
+      "categoryLabel": "TAKTIK-GUIDES",
+      "whatIs": "Was sind Guides?",
+      "whatIsDescription": "Schritt-für-Schritt-Anleitungen, die jeden Aspekt des Gray Zone Warfare-Gameplays abdecken – von deinem ersten Einsatz auf Lamang Island bis hin zu fortgeschrittenen Extraktionsrouten, Händler-Leveling und taktischen Entscheidungen.",
+      "why": "Warum Gray Zone Warfare-Guides nutzen?",
       "whySteps": {
-        "step1Title": "Kernmechaniken lernen",
-        "step1Description": "Verstehen Sie das Apotheosis-System und vermeiden Sie häufige Anfängerfehler",
-        "step2Title": "Schneller Fortschritt",
-        "step2Description": "Folgen Sie bewährten Pfaden, um in der surrealen Welt zu überleben und erfolgreich zu sein",
-        "step3Title": "Strategien meistern",
-        "step3Description": "Entwickeln Sie fortgeschrittene Taktiken für Erkundung und Handwerk"
+        "step1Title": "Überlebe deine ersten Raids",
+        "step1Description": "Lerne den Extraktionsablauf, Grundlagen der Heilung und wie du die häufigsten Fehler neuer Spieler vermeidest",
+        "step2Title": "Beschleunige den Fortschritt",
+        "step2Description": "Folge bewährten Abfolgen für Händler-Leveling und Aufgabenabschluss, um schneller bessere Ausrüstung freizuschalten",
+        "step3Title": "Meistere taktische Entscheidungen",
+        "step3Description": "Verstehe, wann du vorrücken solltest, wann du extrahieren musst und wie du die taktische Situation in Echtzeit liest"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Leitfäden"
+      "featured": "Essenzielle Gray Zone Warfare-Guides",
+      "all": "Alle Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Handwerk",
-      "description": "Meistern Sie das Apotheosis-Fusionssystem mit Essenz-Mechaniken, Rezepten und Handwerksstrategien für mächtige Gegenstände.",
-      "metaTitle": "Lucid Blocks Handwerk – Apotheosis-System & Rezepte",
-      "metaDescription": "Meistern Sie das Apotheosis-Handwerkssystem von Lucid Blocks. Lernen Sie Essenz-Mechaniken, Fusionsrezepte und Strategien zur Erstellung mächtiger Werkzeuge und Waffen.",
-      "categoryLabel": "HANDWERKSSYSTEM",
-      "whatIs": "Was ist Handwerk?",
-      "whatIsDescription": "Das Apotheosis-System ist eine einzigartige, essenzgesteuerte Fusionsmechanik, bei der Sie bis zu sechs Gegenstände kombinieren, um neue Rezepte zu entdecken. Keine festen Handwerksmenüs – Experimentieren ist der Schlüssel.",
-      "why": "Warum Handwerk meistern?",
+    "map": {
+      "title": "Gray Zone Warfare Karten",
+      "description": "Interaktive Karten, POI-Standorte, LZ-Rufnamen, Gitterkoordinaten und Regions-Guides für Lamang Island in Gray Zone Warfare.",
+      "metaTitle": "Gray Zone Warfare Karten – Lamang Island POI & Standort-Guide",
+      "metaDescription": "Erkunde Gray Zone Warfare-Karten mit POI-Standorten, LZ-Rufnamen, Gitterkoordinaten und Regions-Guides für Lamang Island. Finde Aufgabenstandorte und Extraktionspunkte.",
+      "categoryLabel": "KARTEN-GUIDES",
+      "whatIs": "Was sind Gray Zone Warfare-Karten?",
+      "whatIsDescription": "Regions-Guides, die POIs, Landezonen, Gegner-Stufen, Gitterkoordinaten und Routenplanung für jedes Hauptgebiet auf Lamang Island abdecken – von Startstädten bis hin zu militärischen Komplexen im Late-Game.",
+      "why": "Warum Gray Zone Warfare-Kartenguides nutzen?",
       "whySteps": {
-        "step1Title": "Mächtige Gegenstände freischalten",
-        "step1Description": "Entdecken Sie essenzielle Werkzeuge, Waffen und Mobilitätsausrüstung durch Fusion",
-        "step2Title": "Essenzen verstehen",
-        "step2Description": "Lernen Sie, wie Gegenstandsessenzen kombiniert werden, um vorhersehbare Ergebnisse zu erzielen",
-        "step3Title": "Ressourcen optimieren",
-        "step3Description": "Nutzen Sie Verdünnungsmechaniken, um den Ertrag aus günstigen Materialien zu maximieren"
+        "step1Title": "Aufgabenstandorte schnell finden",
+        "step1Description": "Nutze Gitterreferenzen und POI-Marker, um Aufgabenziele zu finden, ohne dich zu verirren",
+        "step2Title": "Effiziente Routen planen",
+        "step2Description": "Wisse, welche LZs deinen Zielen am nächsten liegen und welche Regionen das Risiko wert sind",
+        "step3Title": "In Hochwertgebieten überleben",
+        "step3Description": "Verstehe die Gegnerdichte und das Spieleraufkommen in Militärzonen, bevor du dich auf einen Run einlässt"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Handwerks-Leitfäden"
+      "featured": "Essenzielle Kartenguides",
+      "all": "Alle Kartenguides"
     },
-    "items": {
-      "title": "Lucid Blocks Gegenstände",
-      "description": "Detaillierte Leitfäden zu Gegenständen, die Werkzeuge, Waffen, Mobilitätsausrüstung und Lagerlösungen mit Handwerksrezepten und Nutzungstipps abdecken.",
-      "metaTitle": "Lucid Blocks Gegenstände – Leitfaden für Werkzeuge, Waffen & Ausrüstung",
-      "metaDescription": "Vollständige Gegenstandsdatenbank für Lucid Blocks, einschließlich Werkzeugen, Waffen, Mobilitätsausrüstung und Lagerung. Lernen Sie, wie Sie jeden Gegenstand effektiv herstellen und einsetzen.",
-      "categoryLabel": "GEGENSTÄNDE & AUSRÜSTUNG",
-      "whatIs": "Was sind Gegenstände?",
-      "whatIsDescription": "Umfassende Leitfäden für Werkzeuge, Waffen, Mobilitätsausrüstung und funktionale Gegenstände. Lernen Sie Handwerksrezepte, Nutzungsstrategien und optimale Kombinationen kennen.",
-      "why": "Warum Gegenstands-Leitfäden lesen?",
+    "quests": {
+      "title": "Gray Zone Warfare Quests",
+      "description": "Aufgaben-Leitfäden für alle Gray Zone Warfare Questreihen, einschließlich Fundorten von Gegenständen, Schlüsselanforderungen, mehrstufigen Zielen und Belohnungen für den Händlerruf.",
+      "metaTitle": "Gray Zone Warfare Quests - Aufgaben-Leitfäden & Ziele",
+      "metaDescription": "Schließe jede Gray Zone Warfare Quest mit unseren detaillierten Aufgaben-Leitfäden ab. Fundorte von Gegenständen, Schlüsselanforderungen, Routen-Tipps und Belohnungen für den Händlerruf für alle Missionen.",
+      "categoryLabel": "QUEST-LEITFÄDEN",
+      "whatIs": "Was sind Gray Zone Warfare Quests?",
+      "whatIsDescription": "Aufgaben-Leitfäden für jede Mission in Gray Zone Warfare – mit Fundorten von Gegenständen, benötigten Schlüsseln, mehrstufigen Zielsequenzen und den Belohnungen für den Händlerruf, die du nach Abschluss erhältst.",
+      "why": "Warum Gray Zone Warfare Quest-Leitfäden nutzen?",
       "whySteps": {
-        "step1Title": "Handwerksrezepte lernen",
-        "step1Description": "Entdecken Sie, wie Sie essenzielle Werkzeuge und Waffen mit Apotheosis herstellen",
-        "step2Title": "Ausrüstung optimieren",
-        "step2Description": "Wählen Sie die besten Gegenstände für Ihren Spielstil und Ihre Fortschrittsstufe",
-        "step3Title": "Überleben verbessern",
-        "step3Description": "Rüsten Sie Mobilitätsausrüstung und Waffen aus, um durch die gefährliche Welt zu navigieren"
+        "step1Title": "Aufgaben effizient abschließen",
+        "step1Description": "Kenne die genauen Fundorte von Gegenständen und Zielzonen, bevor du den Raid betrittst",
+        "step2Title": "Vergebliche Einsätze vermeiden",
+        "step2Description": "Erfahre mehr über Schlüsselanforderungen und Voraussetzungsaufgaben, damit du nie unvorbereitet startest",
+        "step3Title": "Händler-Fortschritt maximieren",
+        "step3Description": "Prioritisiere Questreihen, die das wertvollste Händlerinventar und die höchsten Ruf-Stufen freischalten"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Gegenstände"
+      "featured": "Hervorgehobene Quest-Leitfäden",
+      "all": "Alle Quest-Leitfäden"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biome",
-      "description": "Erkunden Sie Weltregionen, Umweltmerkmale, Ressourcenstandorte und Überlebenstipps für jedes Biom.",
-      "metaTitle": "Lucid Blocks Biome – Weltregionen & Erkundung",
-      "metaDescription": "Erkunden Sie die Biome von Lucid Blocks, einschließlich Tiamana Leylines, Fog Meadow und surrealen Regionen. Finden Sie Ressourcen, vermeiden Sie Gefahren und navigieren Sie durch die unendliche Welt.",
-      "categoryLabel": "WELTREGIONEN",
-      "whatIs": "Was sind Biome?",
-      "whatIsDescription": "Leitfäden zu verschiedenen Weltregionen, Umweltmerkmalen, Ressourcenverteilung und Gefahrenzonen. Lernen Sie, was Sie erwartet und wie Sie sich auf jedes Gebiet vorbereiten.",
-      "why": "Warum Biome erkunden?",
+    "weapons": {
+      "title": "Gray Zone Warfare Waffen & Rüstung",
+      "description": "Waffenplattform-Leitfäden, Rüstungs-Tier-Listen, Kalibervergleiche und Build-Empfehlungen für Gray Zone Warfare Operatoren.",
+      "metaTitle": "Gray Zone Warfare Waffen & Rüstung - Kompletter Build-Leitfaden",
+      "metaDescription": "Meistere Gray Zone Warfare Waffen und Rüstungen mit unseren kompletten Leitfäden. Kaliberfamilien, Rüstungs-Tier-Listen, Aufsatz-Builds und Loadout-Empfehlungen für jeden Spielstil.",
+      "categoryLabel": "WAFFEN- & RÜSTUNGS-LEITFÄDEN",
+      "whatIs": "Was sind Waffen und Rüstungen in Gray Zone Warfare?",
+      "whatIsDescription": "Plattform-Leitfäden für jede wichtige Waffenfamilie und NIJ-zertifizierte Rüstungssysteme in Gray Zone Warfare – mit Kalibern, Feuermodi, Aufsatz-Slots, Plattenbewertungen und wie man Loadouts für seine Rolle erstellt.",
+      "why": "Warum Gray Zone Warfare Waffen- und Rüstungs-Leitfäden nutzen?",
       "whySteps": {
-        "step1Title": "Ressourcen finden",
-        "step1Description": "Finden Sie seltene Materialien und Essenzen, die spezifisch für jede Region sind",
-        "step2Title": "Gefahren vermeiden",
-        "step2Description": "Verstehen Sie Umweltgefahren und feindselige Kreaturen",
-        "step3Title": "Erkundung planen",
-        "step3Description": "Bereiten Sie die richtigen Werkzeuge und Ausrüstung für jeden Biom-Typ vor"
+        "step1Title": "Wähle die richtige Plattform",
+        "step1Description": "Verstehe Kaliberfamilien und Feuermodi, bevor du in Magazine und Aufsätze investierst",
+        "step2Title": "Rüstung an die Bedrohungsstufe anpassen",
+        "step2Description": "Wisse, welche NIJ-Plattenbewertung du basierend auf den erwarteten Gegner-Loadouts und Zonen mitbringen musst",
+        "step3Title": "Baue für deine Rolle",
+        "step3Description": "Passe Waffen- und Rüstungswahl an deinen Spielstil an – Solo, Squad, PvE oder PvEvP"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Biome"
+      "featured": "Hervorgehobene Waffen- & Rüstungs-Leitfäden",
+      "all": "Alle Waffen- & Rüstungs-Leitfäden"
     },
-    "building": {
-      "title": "Lucid Blocks Bauen",
-      "description": "Meistern Sie persönliche Qualia-Dimensionen, Basisbau, Lagerverwaltung und kreative Bautechniken.",
-      "metaTitle": "Lucid Blocks Bauen – Qualia & Basisbau",
-      "metaDescription": "Meistern Sie das Bauen in Lucid Blocks mit persönlichen Qualia-Dimensionen, Basisbau, Lagerlösungen und kreativen Bautechniken.",
-      "categoryLabel": "BAUEN & BASEN",
-      "whatIs": "Was ist Bauen?",
-      "whatIsDescription": "Leitfäden zum persönlichen Qualia-Dimensionssystem, Basisbau, Lagerverwaltung und kreativem Bauen. Lernen Sie, Ihren sicheren Hafen in der surrealen Welt zu erschaffen.",
-      "why": "Warum Basen bauen?",
+    "update": {
+      "title": "Gray Zone Warfare Updates",
+      "description": "Patchnotizen, Devlogs, Update-Roadmap und Versionsverlauf für alle Gray Zone Warfare Veröffentlichungen, einschließlich des Spearhead 0.4 Updates.",
+      "metaTitle": "Gray Zone Warfare Updates - Patchnotizen & Roadmap 2026",
+      "metaDescription": "Bleibe auf dem Laufenden mit Gray Zone Warfare Updates. Spearhead 0.4 Patchnotizen, Devlog-Zusammenfassungen, Roadmap-Meilensteine und vollständiger Versionsverlauf für alle wichtigen Veröffentlichungen.",
+      "categoryLabel": "UPDATE-NOTIZEN",
+      "whatIs": "Was sind Gray Zone Warfare Updates?",
+      "whatIsDescription": "Patchnotizen und Devlog-Zusammenfassungen darüber, was sich in jeder Version geändert hat – Systemüberarbeitungen, neue Inhalte, Kartenerweiterungen, KI-Überarbeitungen und die Entwickler-Roadmap für kommende Meilensteine.",
+      "why": "Warum Gray Zone Warfare Updates verfolgen?",
       "whySteps": {
-        "step1Title": "Sichere Räume schaffen",
-        "step1Description": "Errichten Sie sichere Basen für Lagerung und Handwerksarbeiten",
-        "step2Title": "Ressourcen verwalten",
-        "step2Description": "Organisieren Sie Materialien effizient mit Lagerlösungen",
-        "step3Title": "Qualia freischalten",
-        "step3Description": "Greifen Sie auf persönliche Taschendimensionen für ultimativen Komfort zu"
+        "step1Title": "Vor Raids auf dem Laufenden bleiben",
+        "step1Description": "Wisse, was sich im neuesten Patch geändert hat – neue Mechaniken, neu ausbalancierte Händler oder geänderte Loot-Tabellen",
+        "step2Title": "Plane um große Patches herum",
+        "step2Description": "Verstehe, welche Updates Wirtschafts-Resets oder signifikante Fortschrittsänderungen enthalten",
+        "step3Title": "Kommende Inhalte verfolgen",
+        "step3Description": "Folge der Roadmap, um zu wissen, welche neuen Orte, Aufgabenketten und Systeme als Nächstes erscheinen"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Bau-Leitfäden"
+      "featured": "Neueste Gray Zone Warfare Updates",
+      "all": "Alle Update-Notizen"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technischer Support, Plattformkompatibilität, Leistungsoptimierung und Fehlerbehebung bei häufigen Problemen.",
-      "metaTitle": "Lucid Blocks Support – Technische Hilfe & Fehlerbehebungen",
-      "metaDescription": "Erhalten Sie technischen Support für Lucid Blocks, einschließlich Steam Deck-Einrichtung, Crash-Fixes, Leistungsoptimierung und Leitfäden zur Plattformkompatibilität.",
-      "categoryLabel": "TECHNISCHER SUPPORT",
-      "whatIs": "Was ist Support?",
-      "whatIsDescription": "Technische Leitfäden zu Plattformkompatibilität, Leistungsoptimierung, Crash-Fixes und häufigen Problemen. Erhalten Sie Hilfe zu Steam Deck, Multiplayer-Fragen und Einstellungen.",
-      "why": "Warum Support prüfen?",
+    "technical": {
+      "title": "Gray Zone Warfare Technische Leitfäden",
+      "description": "Systemanforderungen, Optimierungstipps, Crash-Fixes und Performance-Leitfäden, um Gray Zone Warfare im Jahr 2026 reibungslos auszuführen.",
+      "metaTitle": "Gray Zone Warfare Technische Leitfäden - Systemanforderungen & Fixes",
+      "metaDescription": "Behebe Gray Zone Warfare Abstürze, optimiere die Performance und überprüfe die Systemanforderungen mit unseren technischen Leitfäden. Aktualisiert für den Spearhead 0.4 Build im Jahr 2026.",
+      "categoryLabel": "TECHNISCHE LEITFÄDEN",
+      "whatIs": "Was sind Gray Zone Warfare Technische Leitfäden?",
+      "whatIsDescription": "Aufschlüsselung der Systemanforderungen, In-Game-Optimierungseinstellungen, Crash-Fehlersuche und Performance-Tuning-Leitfäden, damit Gray Zone Warfare so reibungslos wie möglich läuft.",
+      "why": "Warum Gray Zone Warfare technische Leitfäden nutzen?",
       "whySteps": {
-        "step1Title": "Technische Probleme beheben",
-        "step1Description": "Beheben Sie Abstürze, Leistungsprobleme und Kompatibilitätsprobleme",
-        "step2Title": "Leistung optimieren",
-        "step2Description": "Konfigurieren Sie Einstellungen für das beste Erlebnis auf Ihrer Plattform",
-        "step3Title": "Plattformkompatibilität",
-        "step3Description": "Erfahren Sie mehr über Steam Deck, Controller-Unterstützung und Systemanforderungen"
+        "step1Title": "Vor dem Kauf prüfen",
+        "step1Description": "Überprüfe, ob deine Hardware die Mindest- oder empfohlenen Anforderungen erfüllt, bevor du kaufst",
+        "step2Title": "Abstürze beseitigen",
+        "step2Description": "Folge gezielten Schritten zur Fehlersuche, um die häufigsten Stabilitätsprobleme zu lösen",
+        "step3Title": "Bildrate maximieren",
+        "step3Description": "Wende die richtigen Einstellungen an, um Performance und visuelle Qualität für deine Hardware-Klasse auszubalancieren"
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Support-Artikel"
+      "featured": "Hervorgehobene technische Leitfäden",
+      "all": "Alle technischen Leitfäden"
+    },
+    "platform": {
+      "title": "Gray Zone Warfare Plattform-Leitfäden",
+      "description": "Aufschlüsselung der Supporter Edition, Offline- und Joint Operations-Spielmodi, PC-Plattformdetails und Kaufberatung für Gray Zone Warfare.",
+      "metaTitle": "Gray Zone Warfare Plattform-Leitfäden - Editionen & PC-Leitfaden",
+      "metaDescription": "Alles über Gray Zone Warfare auf dem PC – Vorteile der Supporter Edition, Joint Operations im Offline-Stil, Editionsvergleiche und plattformspezifische Leitfäden.",
+      "categoryLabel": "PLATTFORM-LEITFÄDEN",
+      "whatIs": "Was sind Gray Zone Warfare Plattform-Leitfäden?",
+      "whatIsDescription": "Plattformspezifische Leitfäden zu Editionsunterschieden, Joint Operations und Offline-Spieloptionen, Kaufempfehlungen und PC-Systemüberlegungen für Gray Zone Warfare.",
+      "why": "Warum Gray Zone Warfare Plattform-Leitfäden nutzen?",
+      "whySteps": {
+        "step1Title": "Wähle die richtige Edition",
+        "step1Description": "Verstehe, was die Supporter Edition enthält, bevor du entscheidest, wie viel du investieren möchtest",
+        "step2Title": "Erkunde das Spiel im Offline-Stil",
+        "step2Description": "Erfahre, wie Joint Operations es dir ermöglicht, ohne den Druck rivalisierender PMC zu spielen – ideal zum Erlernen der Karte",
+        "step3Title": "Für PC optimieren",
+        "step3Description": "Erhalte plattformspezifische Setup-Tipps, um eine stabile Performance auf deiner Hardware zu gewährleisten"
+      },
+      "featured": "Hervorgehobene Plattform-Leitfäden",
+      "all": "Alle Plattform-Leitfäden"
     }
   }
 }

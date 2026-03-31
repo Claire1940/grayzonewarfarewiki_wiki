@@ -1,20 +1,20 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "Gray Zone Warfare Wiki - マップ、タスク、鍵、武器",
+      "description": "Lamang IslandのPvEおよびPvEvPオペレーター向けに、マップ、タスク、鍵、ベンダー、武器、弾道、ルート、パッチガイドを掲載したGray Zone Warfare Wiki。",
+      "keywords": "Gray Zone Warfare, GZW, マップ, タスク, 鍵, ベンダー, 武器, 弾道, ルート, パッチ",
+      "ogTitle": "Gray Zone Warfare Wiki - マップ、タスク、鍵、武器",
+      "ogDescription": "Lamang IslandのPvEおよびPvEvPオペレーター向けに、マップ、タスク、鍵、ベンダー、武器、弾道、ルート、パッチガイドを掲載したGray Zone Warfare Wiki。",
+      "twitterTitle": "Gray Zone Warfare Wiki - マップ、タスク、鍵、武器",
+      "twitterDescription": "Lamang Islandのオペレーター向けに、マップ、タスク、鍵、ベンダー、武器、弾道、ルートガイドを掲載したGray Zone Warfare Wiki。"
     }
   },
   "nav": {
     "guide": "ガイド",
     "map": "マップ",
     "quests": "クエスト",
-    "weapons": "武器・防具",
+    "weapons": "武器＆アーマー",
     "update": "アップデート",
     "technical": "テクニカル",
     "platform": "プラットフォーム"
@@ -34,721 +34,1205 @@
     "readMore": "続きを読む"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
+    "badge": "PvE重視のオープンワールド・タクティカルシューター",
+    "title": "Gray Zone Warfare Wiki",
+    "description": "Gray Zone Warfareのマップ、タスク、鍵、ベンダー、武器、弾薬、ルート、パッチ変更点を確認しましょう。Lamang Islandでの迅速な進行、確実な脱出、より良い意思決定を求めるプレイヤーのために構築されました。",
+    "getFreeCodesCTA": "タスクガイドを見る",
     "playOnSteamCTA": "Steamでプレイ",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "2024年4月30日",
+        "label": "リリース日"
       },
       "stat2": {
-        "value": "1,986",
+        "value": "72,548",
         "label": "最大同時接続数"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "59,439",
+        "label": "Steamレビュー"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "12",
+        "label": "対応言語"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks ゲームプレイ",
-    "description": "超現実的なバイオームを探索し、Apotheosis でアイテムを融合。Steam で、奇妙なクリーチャーから生き延びる夢のようなボクセルサンドボックスを体験しましょう。"
+    "title": "Gray Zone Warfare ゲームプレイ",
+    "description": "Lamang Islandを探索し、ベンダーのタスクを完了し、鍵を見つけ、適切な武器と弾薬を装備して、ジャングル戦のエクストラクション・シューターでPMCオペレーターとして生き残りましょう。"
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "リソース",
-    "subtitle": "Lucid Blocksでの探索、クラフト、生存に必要なすべての情報",
+    "title": "Gray Zone Warfare",
+    "titleHighlight": "Wikiガイド",
+    "subtitle": "Lamang Islandでより速く進行し、より確実に脱出し、より良い判断を下すために必要なすべて",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "初心者ガイド",
-        "description": "最初のステップ、探索、序盤の進め方"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis クラフト",
-        "description": "フリーフォーム・フュージョンシステムと序盤のレシピ"
-      },
-      {
-        "icon": "Hammer",
-        "title": "ツールと武器",
-        "description": "フロストピック、アズラエル、__PROTECTED_6a765cb2__、その他"
-      },
-      {
-        "icon": "Package",
-        "title": "ストレージとインベントリ",
-        "description": "キャッシュキューブ、キャビネット、クオリアストレージ"
-      },
-      {
-        "icon": "Home",
-        "title": "クオリアと拠点建築",
-        "description": "パーソナルクオリアと拠点のセットアップ"
-      },
-      {
-        "icon": "Eye",
-        "title": "ワールドエリア",
-        "description": "Fog Meadow、エッセンスの沼地、その他"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "クリーチャーと敵",
-        "description": "マネキン、クモ、そして生き残る方法"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "移動用装備",
-        "description": "__PROTECTED_6a765cb2__、グライダーグローブ、__PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "農業と成長",
-        "description": "種の進行と素材集め"
-      },
-      {
-        "icon": "Star",
-        "title": "序盤のおすすめアンロック",
-        "description": "プレイ開始1時間で優先すべきアップグレード"
-      },
-      {
         "icon": "ClipboardCheck",
-        "title": "実績トラッカー",
-        "description": "全19個のSteamの実績と解除条件"
+        "title": "Gray Zone Warfare タスクガイド",
+        "description": "主要なタスクルート、目的、場所、報酬"
       },
       {
-        "icon": "MessageCircle",
-        "title": "シングルプレイヤーFAQ",
-        "description": "プラットフォーム、価格、協力プレイ、言語に関する質問"
+        "icon": "MapPin",
+        "title": "Gray Zone Warfare インタラクティブマップ",
+        "description": "POI、LZコールサイン、ティア、グリッド座標"
       },
       {
-        "icon": "Gamepad2",
-        "title": "Steam Deckとコントローラー",
-        "description": "Proton 9.0.4のセットアップとコントローラーのヒント"
+        "icon": "BookOpen",
+        "title": "Gray Zone Warfare 初心者ガイド",
+        "description": "モード選択、派閥、生存の基本、最初の出撃"
       },
       {
-        "icon": "Settings",
-        "title": "設定とアクセシビリティ",
-        "description": "手の非表示、__PROTECTED_38625270__、表示オプション"
+        "icon": "Key",
+        "title": "Gray Zone Warfare 鍵ガイド",
+        "description": "鍵の場所、解錠される場所、タスクとの関連"
       },
       {
-        "icon": "Clock",
-        "title": "アップデートとパッチノート",
-        "description": "最近の修正とロードマップ"
+        "icon": "DollarSign",
+        "title": "Gray Zone Warfare お金ガイド",
+        "description": "タスク報酬、戦利品の優先順位、経済サイクル"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Gray Zone Warfare 武器ガイド",
+        "description": "ライフルプラットフォーム、口径、操作感の変更"
+      },
+      {
+        "icon": "Target",
+        "title": "Gray Zone Warfare 弾薬ガイド",
+        "description": "口径ファミリー、武器の対応、弾道"
+      },
+      {
+        "icon": "ShoppingCart",
+        "title": "Gray Zone Warfare ベンダーガイド",
+        "description": "ベンダーの専門性、ランクの閾値、アンロックパス"
+      },
+      {
+        "icon": "Heart",
+        "title": "Gray Zone Warfare ヘルスシステムガイド",
+        "description": "傷、出血、臓器、医療アイテムの使用方法"
+      },
+      {
+        "icon": "Users",
+        "title": "Gray Zone Warfare 派閥ガイド",
+        "description": "PMCの背景、初期の町、派閥の違い"
       },
       {
         "icon": "Shield",
-        "title": "クラッシュ修正",
-        "description": "__PROTECTED_38625270__の確認、ログのパス、バグ報告"
+        "title": "Gray Zone Warfare アーマーガイド",
+        "description": "NIJクラス、プレートの保護範囲、素材の比較"
+      },
+      {
+        "icon": "Layers",
+        "title": "Gray Zone Warfare おすすめ装備",
+        "description": "低予算、ステルス、分隊、タスク重視のキット"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Gray Zone Warfare PvE vs PvP ガイド",
+        "description": "WarfareモードとJoint Operationsモードの比較"
+      },
+      {
+        "icon": "Navigation",
+        "title": "Gray Zone Warfare ロケーションガイド",
+        "description": "初期の町、軍事施設、主要な目的地"
+      },
+      {
+        "icon": "Star",
+        "title": "Gray Zone Warfare エディションの違い",
+        "description": "Standard vs Tactical vs Elite vs Supporter エディション"
+      },
+      {
+        "icon": "Clock",
+        "title": "Gray Zone Warfare アップデートロードマップ",
+        "description": "パッチのタイムライン、Spearhead 0.4、今後の予定"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks 初心者ガイド",
-      "displayType": "steps",
-      "intro": "まずは探索、融合、そして進行がどのように繋がっているかを学ぶことから始めましょう。Lucid Blocks では試行錯誤が報われます。序盤の進行は、珍しい素材を集め、組み合わせを試し、自分だけのクオリアを解放することから始まります。",
+    "gzwTaskGuide": {
+      "title": "Gray Zone Warfare タスクガイド",
+      "intro": "タスクは Gray Zone Warfare における主要な進行要素です。このガイドでは、プレイヤーが最も検索する序盤から中盤のミッションを、目的、場所、報酬、重要なアンロック要素とともに紹介します。",
       "steps": [
         {
-          "title": "本格的に動く前に探索する",
-          "description": "外へ歩き出し、一般的なブロックを採掘し、見つけた奇妙なドロップアイテムはすべて取っておきましょう。序盤の進行は、決まったクエストをこなすことよりも、素材が何に変化するかを発見することに重点が置かれています。"
+          "step": 1,
+          "task": "First Recon",
+          "vendor": "ハンドシェイク",
+          "area": "Pha Lang / Kiu Vongsa / Nam Thaven スタータータウン",
+          "objectives": [
+            "郊外の小屋を調べる",
+            "町の貯木場を調べる",
+            "ガソリンスタンド周辺を調べる"
+          ],
+          "rewards": [
+            "400 EXP",
+            "+25 ハンドシェイクの評判",
+            "$1,700 USD",
+            "1x Modular Operator Carrier Gen II"
+          ],
+          "why_it_matters": "スタータータウンのランドマークを巡るルートをプレイヤーに教える、最初のルート設定タスクの1つです。"
         },
         {
-          "title": "早めに自分専用のクオリアを解放する",
-          "description": "自分専用のクオリアは、序盤で最も重要なマイルストーンの一つです。体制を立て直し、拠点を構築するための信頼できる場所となります。"
+          "step": 2,
+          "task": "Cache Retrieval",
+          "vendor": "ガニー",
+          "area": "スタータータウン貯木場ルート",
+          "objectives": [
+            "町の貯木場にある小屋でキャッシュを見つけてマークする"
+          ],
+          "rewards": [
+            "400 EXP",
+            "+100 ガニーの評判",
+            "$1,700 USD",
+            "1x Scorpion OCP Convoy Pack"
+          ],
+          "why_it_matters": "安全なスターターループ内でガニーの評判を高める、序盤の武器進行タスクです。"
         },
         {
-          "title": "序盤の素早い進行にオスミウムを活用する",
-          "description": "オスミウムは序盤で最も役立つ素材の一つです。オスミウムと棒を組み合わせて、素早い採掘が可能な「フロストピック」を作るのが人気の序盤ルートです。"
+          "step": 3,
+          "task": "Meds Wanted",
+          "vendor": "ラボラット",
+          "area": "スタータータウンの給水塔",
+          "objectives": [
+            "町の給水塔で UNLRA の医療物資を見つける"
+          ],
+          "rewards": [
+            "400 EXP",
+            "+100 ラボラットの評判",
+            "$2,200 USD",
+            "1x IFAK"
+          ],
+          "why_it_matters": "ラボラットは、今後のすべての出撃において、より優れた生存性と医療品へのアクセスをアンロックします。"
         },
         {
-          "title": "優れた融合を記録する",
-          "description": "成功した組み合わせはジャーナルに記録しておきましょう。Lucid Blocks には膨大な融合パターンがあるため、有用な結果を書き留めておくことで大幅な時間の節約になります。"
+          "step": 4,
+          "task": "Leave No Man Behind",
+          "vendor": "ガニー",
+          "area": "Pha Lang / Kiu Vongsa / Nam Thaven 町役場",
+          "objectives": [
+            "遺体の場所をマークする"
+          ],
+          "rewards": [
+            "400 EXP",
+            "+100 ガニーの評判",
+            "$1,700 USD",
+            "1x Scorpion OCP Convoy Pack"
+          ],
+          "why_it_matters": "タスク名は知っていても、正確な建物や部屋を忘れてしまうため、よく停滞するポイントです。"
+        },
+        {
+          "step": 5,
+          "task": "Helping Hand",
+          "vendor": "ハンドシェイク",
+          "area": "スタータータウンのレストランの屋根裏",
+          "objectives": [
+            "レストランの屋根裏からインテルを回収する",
+            "インテルをハンドシェイクに届ける"
+          ],
+          "rewards": [
+            "400 EXP",
+            "+100 ハンドシェイクの評判",
+            "$2,300 USD",
+            "1x Leather Key Holder"
+          ],
+          "why_it_matters": "プレイヤーが鍵による進行の壁に突き当たる、最初期の場面の1つです。"
+        },
+        {
+          "step": 6,
+          "task": "The Shadow Over Ban Pa",
+          "vendor": "ハンドシェイク",
+          "area": "YBL-1 から Ban Pa へのルート",
+          "objectives": [
+            "Ban Pa への主要な北側進入地点を偵察する",
+            "Ban Pa への主要な南側進入地点を偵察する"
+          ],
+          "rewards": [
+            "1,000 EXP",
+            "+150 ハンドシェイクの評判",
+            "$4,700 USD",
+            "ベンダー Turncoat へのアクセスをアンロック"
+          ],
+          "why_it_matters": "Turncoat を解放し、プレイヤーをスターターフェーズから脱却させる重要な進行の分岐点です。"
         }
-      ],
-      "quickTips": [
-        "Apotheosis には固定のレシピリストは必要ありません。",
-        "無限に生成される世界では、より高く、あるいはより深く移動することで、全く異なる素材が見つかることがあります。",
-        "移動ツールやユーティリティ装備を解放し始めると、プレイの快適さが劇的に向上します。",
-        "序盤に迷うのは普通のことですが、最初の優れた融合が成功すれば、便利なツール、ストレージ、移動手段が次々と手に入るようになります。"
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis クラフト",
-      "displayType": "cards",
-      "intro": "Apotheosis は、このゲームの制限のない融合システムです。従来のレシピ本を暗記する代わりに、素材を組み合わせ、結果を観察し、時間をかけて自分だけのクラフト知識を築き上げていきます。",
-      "cards": [
-        {
-          "name": "フリーフォームな融合",
-          "description": "Apotheosis では、固定のレシピリストに従うことなく、さまざまなアイテムを融合させることができます。"
-        },
-        {
-          "name": "複数の有用な結果",
-          "description": "素材によって、特定の結果に繋がりやすい傾向があります。コミュニティの発見によれば、似たような投入素材からでも、実用的なツール、ストレージ、あるいは戦闘用のアップグレードを作成可能です。"
-        },
-        {
-          "name": "ジャーナル優先のクラフト",
-          "description": "Apotheosis を学ぶ最良の方法は、成功した組み合わせを記録することです。ジャーナルはすぐにあなた専用のクラフトリファレンスになります。"
-        },
-        {
-          "name": "コミュニティ検証済みの序盤の融合",
-          "description": "序盤の代表例としては、オスミウム＋棒で「フロストピック」、棒＋タングステンの付属肢で「アズラエル」、アズラエル＋磁鉄鉱で「触手レイピア」などが挙げられます。"
-        }
-      ],
-      "milestones": [
-        "アイテムを融合させる",
-        "害獣を融合させる",
-        "神聖なアーティファクトを融合させる"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks ツールと武器",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks では、公式のユーティリティ装備とコミュニティが発見した序盤の武器が混在しています。最適なセットアップは通常、素早い採掘、安全な移動、そして信頼できる戦闘手段を組み合わせたものです。",
+    "gzwInteractiveMap": {
+      "title": "Gray Zone Warfare インタラクティブマップ",
+      "intro": "Gray Zone Warfare の検索トラフィックは、場所に強く依存しています。Ban Pa、Fort Narith、YBL-1 などの検索ワードから、マップのグリッド、敵のタイプ、ティア、攻略サポートなど、必要な正確なコンテキストにジャンプできます。",
       "items": [
         {
-          "name": "フロストピック",
-          "type": "採掘ツール",
-          "description": "オスミウムと棒から作られる、高速で安価な序盤用ピッケル。プレイヤーはこれを使って序盤の素材集めを加速させます。"
+          "label": "スタータータウン",
+          "title": "自分が実際にどのベースルートにいるかを知る",
+          "content": [
+            "Kiu Vongsa — Crimson Shield International のスタータータウン — グリッド 141:164",
+            "Nam Thaven — Mithras Security Systems のスタータータウン — グリッド 171:118",
+            "Pha Lang — Lamang Recovery Initiative のスタータータウン — グリッド 202:162"
+          ],
+          "quick_notes": [
+            "これらの町が序盤のタスクの流れを決定します",
+            "施錠された部屋やタスクの建物は異なりますが、序盤の進行構造は共通しています"
+          ]
         },
         {
-          "name": "アズラエル",
-          "type": "初期武器",
-          "description": "棒とタングステンの付属肢からクラフトできる、実用的な序盤の武器ルートです。"
+          "label": "YBL-1",
+          "title": "プレイヤーをマップ中盤のルートへと導き始めるバンカー",
+          "content": [
+            "タイプ：軍事地下バンカー",
+            "グリッド位置：143:122",
+            "偵察やインテル系のタスクで頻繁に関連付けられます"
+          ],
+          "quick_notes": [
+            "スターターの進行と Ban Pa または Fort Narith ルートの架け橋となります"
+          ]
         },
         {
-          "name": "触手レイピア",
-          "type": "強化武器",
-          "description": "アズラエルと磁鉄鉱を組み合わせて作る強力な発展武器。プレイヤー間で共有されている、序盤から中盤にかけて最も有用な戦闘ルートの一つです。"
+          "label": "Ban Pa",
+          "title": "カルトタスクと鍵の重要性が高いティア2の村",
+          "content": [
+            "ティア：2",
+            "現地の敵タイプ：反乱軍",
+            "LZ コールサイン：INDIA",
+            "グリッド位置：205:137"
+          ],
+          "quick_notes": [
+            "長老の家、釣り小屋、クエスト用の鍵の探索において重要です",
+            "スタータータウンでの稼ぎを終えたプレイヤーの一般的な次のステップです"
+          ]
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "移動ツール",
-          "description": "移動能力と垂直方向の探索を大幅に向上させる公式の移動アイテムです。"
+          "label": "Fort Narith",
+          "title": "島内最大の軍事拠点",
+          "content": [
+            "ティア：3",
+            "現地の敵タイプ：LAF 兵士",
+            "LZ コールサイン：DELTA",
+            "グリッド位置：143:129"
+          ],
+          "quick_notes": [
+            "タスク、鍵、軍用戦利品、そして危険が1つのゾーンに集約されています",
+            "多くの Fort Narith の鍵は、基地内や周辺、および近くの Savanpha の部屋を開けます"
+          ]
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "移動ツール",
-          "description": "より安全かつ効率的に距離を移動するのに役立つ公式の移動アイテムです。"
+          "label": "Tiger Bay",
+          "title": "目的と戦利品ルートが密集した大規模な都市ゾーン",
+          "content": [
+            "ティア：3",
+            "現地の敵タイプ：反乱軍および LAF 兵士",
+            "LZ コールサイン：JULIET",
+            "グリッド位置：198:130"
+          ],
+          "quick_notes": [
+            "島内最大の都市",
+            "ショッピングモール、中央兵器庫、指揮官、UNLRA タスクルートの検索需要が高いです"
+          ]
         },
         {
-          "name": "ボールワンド",
-          "type": "ユーティリティ武器",
-          "description": "戦闘やパズルの選択肢を広げる公式の遠距離ユーティリティアイテムです。"
+          "label": "Midnight Sapphire",
+          "title": "終盤のタスクが集中する高価値なリゾートゾーン",
+          "content": [
+            "ティア：3",
+            "現地の敵タイプ：LAF 兵士",
+            "LZ コールサイン：HOTEL",
+            "ヴィラ、滝、ホテルを舞台にした目的で知られています"
+          ],
+          "quick_notes": [
+            "鍵のかかったタスクルートと一緒に検索されることが多いです"
+          ]
         },
         {
-          "name": "スキューバダイビングギア",
-          "type": "移動装備",
-          "description": "通常は探索が困難な場所へ到達するための公式ユーティリティアイテムです。"
-        },
-        {
-          "name": "爆発物",
-          "type": "ユーティリティ・ダメージ",
-          "description": "中核となるツールセットの一部として公式に推奨されており、脅威や障害物を突破するのに役立ちます。"
+          "label": "Blue Lagoon",
+          "title": "探索とルートの多様性を提供する南部のリゾート側 POI",
+          "content": [
+            "説明：山に近い南部にある小さなリゾート",
+            "グリッド位置：203:117"
+          ],
+          "quick_notes": [
+            "南部のローテーションを計画する際の目印として有用です",
+            "タスクルートとコード/南京錠の検索の両方に登場します"
+          ]
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks ストレージとインベントリ",
-      "displayType": "solutionCards",
-      "intro": "Lucid Blocks では早い段階からインベントリが圧迫されるため、ストレージの構築を優先目標にすべきです。実際のプレイヤーによって検証されたいくつかの解決策がすでに確立されています。",
-      "solutions": [
-        {
-          "name": "キャッシュキューブ",
-          "role": "チェスト型ストレージ",
-          "description": "キャッシュキューブは最も初期に利用可能な実用的なストレージであり、プレイヤーの間ではゲーム内の主要なチェスト型コンテナとして扱われています。"
-        },
-        {
-          "name": "キャビネット",
-          "role": "簡易拠点ストレージ",
-          "description": "キャビネットも確認されているストレージの選択肢です。共有されている序盤のレシピでは、カットウッド1つと紐1つを使用します。"
-        },
-        {
-          "name": "個人用クオリア",
-          "role": "長期ストレージハブ",
-          "description": "解放されると、個人用クオリアは素材を整理し、落ち着いてクラフトを行い、拠点を拡張するための自然な拠点となります。"
-        },
-        {
-          "name": "ジャーナルによる追跡",
-          "role": "インベントリの効率化",
-          "description": "有用な組み合わせをジャーナルに記録することで、素材の無駄を減らし、インベントリ管理を大幅に楽にすることができます。"
-        }
-      ],
-      "managementTips": [
-        "レアなドロップ品を溜め込む前に、信頼できるストレージを一つ確保することを優先しましょう。",
-        "個人用クオリアが利用可能になったら、そこを中心に構築を進めましょう。",
-        "クラフト素材、戦闘ツール、移動装備を分けて保管することで、アップグレードの計画が立てやすくなります。",
-        "ジャーナルを単なるクラフトの発見用ではなく、インベントリ管理の一部として活用しましょう。"
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks クオリアと拠点建築",
-      "displayType": "cards",
-      "intro": "クオリアは Lucid Blocks における最も重要な進行マイルストーンの一つです。体制を整え、素材を保管し、探索の成果を徐々に本格的な拠点へと変えていくための個人空間を提供します。",
-      "cards": [
-        {
-          "name": "個人用クオリア",
-          "description": "クオリアの解放は序盤のマイルストーンであり、広い世界を探索する中で戻ってくるための信頼できる場所となります。"
-        },
-        {
-          "name": "ストレージ優先の建築",
-          "description": "多くのプレイヤーは、整理されたクラフトスペースや建築スペースを持つ大きな拠点にする前に、まずクオリアをストレージハブとして使い始めます。"
-        },
-        {
-          "name": "クリエイティブな自宅建築",
-          "description": "Lucid Blocks はクリエイティブな建築をサポートしており、プレイヤーはすでにクオリアの空間を利用して家やパーソナライズされたレイアウトを作成しています。"
-        },
-        {
-          "name": "進行のハブ",
-          "description": "強力な拠点は、探索で得た戦利品、クラフト素材、種、ツール、移動装備を分類するのに役立ち、次のアップグレード計画を容易にします。"
-        }
-      ],
-      "highlights": [
-        "クオリアに入る",
-        "素材を安全に保管する",
-        "実用性から装飾へと拡張する",
-        "拠点のスペースを活用してクラフトや農業を支援する"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks 世界の地域",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks は無限の世界生成を採用しているため、プレイヤーは常に新しい環境や構造物を発見し続けています。実績やコミュニティの議論には、すでにいくつかの地名が登場しています。",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "コミュニティ注目エリア",
-          "description": "Fog Meadow は、隠れた脅威や危険な遭遇に関連する緊張感のあるエリアとして、プレイヤーの間ですでに知られています。"
-        },
-        {
-          "name": "ティアマナ・レイライン",
-          "type": "発見ランドマーク",
-          "description": "ティアマナ・レイラインは独自の実績マイルストーンを持つほど重要であり、これまでに判明している中で最も明確な名前付きの発見場所の一つです。"
-        },
-        {
-          "name": "クロナクオリア",
-          "type": "建築スペース",
-          "description": "プレイヤーはすでにクロナクオリアを、家を建てたり、素材を保管したり、より永続的なレイアウトを試したりする場所として利用しています。"
-        },
-        {
-          "name": "エッセンスの沼地",
-          "type": "ファーミングエリア",
-          "description": "エッセンスの沼地は、特にスライムとの戦闘や経験値稼ぎに役立つファーミング場所としてプレイヤー間で共有されています。"
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks クリーチャーと敵",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks は超現実的なクリーチャーと現実的な危険が混ざり合っています。公式の説明やコミュニティの投稿は、奇妙な生命、敵対的な脅威、そしてプレイヤーがすぐに覚えるような印象的な遭遇に満ちた世界を指し示しています。",
-      "creatures": [
-        {
-          "name": "マネキン",
-          "role": "敵対的な敵",
-          "description": "マネキンはこの世界における公式な名前を持つ敵の一つであり、ゲームの超現実的な脅威リストの一部です。"
-        },
-        {
-          "name": "ぷにぷにジェル",
-          "role": "敵対的な敵",
-          "description": "ぷにぷにジェルも公式な名前を持つ敵タイプであり、ゲームの奇妙な生物学的スタイルを象徴しています。"
-        },
-        {
-          "name": "高次元の存在",
-          "role": "敵対的な敵",
-          "description": "これらの存在は、世界のより抽象的で不安をかき立てる敵ラインナップの一部として登場します。"
-        },
-        {
-          "name": "巨大クモ",
-          "role": "主要な脅威",
-          "description": "クモはコミュニティの議論で最も即座に恐れられている敵の一つであり、明らかに記憶に残る危険な存在です。"
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "名前付きクリーチャー",
-          "description": "__PROTECTED_26ee183b__ は独自の実績を持つほど注目に値し、ゲーム内で最も明確な名前付きクリーチャーとの遭遇の一つです。"
-        },
-        {
-          "name": "可愛い害獣",
-          "role": "インタラクティブな生物",
-          "description": "害獣は融合の進行に関わるだけでなく、名前を付けることもでき、標準的な敵よりも個人的な役割を持ちます。"
-        },
-        {
-          "name": "冒涜的なクリーチャー",
-          "role": "エリートの脅威",
-          "description": "冒涜的なクリーチャーは専用の戦闘実績に関連付けられており、重要な敵との遭遇として位置づけられています。"
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks 移動装備",
-      "displayType": "itemCards",
-      "intro": "移動手段のアップグレードは、Lucid Blocks におけるプレイの快適さを最も大きく向上させる要素の一つです。最初の移動ツールを解放すれば、探索はより速く、より安全に、そしてより実りあるものになります。",
+    "gzwBeginnerGuide": {
+      "title": "Gray Zone Warfare 初心者ガイド",
+      "intro": "Gray Zone Warfareの新規プレイヤーは通常、モードの選択、派閥の選択、生存しきい値、ヘリコプターの使用方法、装備紛失のルールに苦労します。これらの短いカードは、最初のセッションでの悩みを実用的な回答に変えます。",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "移動ツール",
-          "description": "フックショットはゲーム内で最も明確な移動のマイルストーンの一つであり、専用の実績も用意されています。"
+          "title": "まずは適切なモードを選ぼう",
+          "summary": "WarfareはPvPモードです。Joint OperationsはPvEモードです。",
+          "details": [
+            "Warfare：島全体に敵対プレイヤーが存在",
+            "Joint Operations：敵対プレイヤーはおらず、AIの敵のみ",
+            "Joint Operationsでは安全に進行でき、幅広い協力プレイを学ぶことが可能",
+            "Warfareは、よりリスクの高い派閥間の紛争と脱出のプレッシャーのために構築されている"
+          ]
         },
         {
-          "name": "グライダーグローブ",
-          "type": "空中移動",
-          "description": "グライダーグローブはよりスムーズな移動を可能にし、独自の実績を持つもう一つの主要な進行マイルストーンです。"
+          "title": "地理で派閥を選ぼう",
+          "summary": "派閥によって、開始地点の町、序盤のルート、高価値ゾーンへの移動時間が変わります。",
+          "details": [
+            "Crimson Shield InternationalはKiu Vongsaの近くから開始 — 序盤の進行は遅め",
+            "Mithras Security SystemsはNam Thavenの近くから開始 — 安全なルートと激戦ルートの中間に位置",
+            "Lamang Recovery InitiativeはPha Langの近くから開始し、紛争地帯へのアクセスが速い",
+            "Fort Narithまでの徒歩移動時間の目安：Lamang 5-10分、Mithras 15-20分、Crimson 25-30分以上"
+          ]
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "移動ツール",
-          "description": "ビィ・グライダーは、効率的に距離を移動するための移動ツールキットの一部として公式に推奨されています。"
+          "title": "失いたくないものを守ろう",
+          "summary": "ほとんどの装備は出撃中に失う可能性がありますが、Secure Lockboxはその中身を保護します。",
+          "details": [
+            "Secure Lockbox内のアイテムは死亡時も保護される",
+            "近接武器は通常の携行装備とは異なり、紛失しない",
+            "クエストアイテムはセキュアストレージ内で生き残ることがある — 迅速な納品ルートを優先しよう"
+          ]
         },
         {
-          "name": "ボールワンド",
-          "type": "ユーティリティ装備",
-          "description": "ボールワンドは公式に推奨されている特殊ツールの一つで、世界を移動したり干渉したりする方法を広げてくれます。"
+          "title": "水分とエネルギーのしきい値に注意",
+          "summary": "水分不足とエネルギー不足は、生存維持と回復に直接悪影響を及ぼします。",
+          "details": [
+            "水分50%未満：喉の渇き — 血液の再生停止",
+            "水分1%：脱水症状 — 視界の霞み",
+            "エネルギー50%未満：空腹 — 血液の再生停止",
+            "エネルギー1%：飢餓状態 — 視界の霞み"
+          ]
         },
         {
-          "name": "スキューバダイビングギア",
-          "type": "探索装備",
-          "description": "スキューバダイビングギアは、通常では探索が困難なエリアに到達するための中核的なユーティリティセットとして公式にリストされています。"
+          "title": "出血と昏睡は銃撃戦よりも早く命を奪う",
+          "summary": "初心者の死亡原因は、ヘッドショットよりも未治療の負傷によるものが多いです。",
+          "details": [
+            "軽度、中等度、重度の出血はすべて、治療されるまで失血が続く",
+            "血液が50%を下回ると、昏睡状態に陥る可能性がある",
+            "肺や肝臓の破壊も昏睡の原因となる",
+            "分隊員はその回の出撃で死亡が確定する前に、約180秒間の蘇生猶予がある"
+          ]
         },
         {
-          "name": "爆発物",
-          "type": "ユーティリティ・ダメージ",
-          "description": "爆発物は公式に推奨されていると同時に実績マイルストーンにも関連付けられており、ゲームの中核的なユーティリティ進行の一部となっています。"
+          "title": "ヘリコプターを保護と陽動に活用しよう",
+          "summary": "ヘリコプターは単なる輸送手段ではなく、生存性とポジショニングのメカニズムです。",
+          "details": [
+            "搭乗中のプレイヤーはダメージを受けない",
+            "降りた後、4秒間の無敵時間がある",
+            "ヘリコプターの音は、AIや他のプレイヤーに対する戦術的な陽動として機能する"
+          ]
+        },
+        {
+          "title": "安全圏外で離席（AFK）しないこと",
+          "summary": "AFKタイマーによって出撃中のセッションから切断されると、装備を失う可能性があります。",
+          "details": [
+            "無操作制限は15分",
+            "FOBの外で切断された場合、通常の出撃離脱時の紛失ルールが適用される"
+          ]
         }
-      ],
-      "unlockMilestones": [
-        "フックショットを使いこなす",
-        "グライダーグローブで空を飛ぶ",
-        "投射物ワンドを構える",
-        "爆発物を構える"
       ]
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks 農業と成長",
-      "displayType": "mixedCards",
-      "intro": "成長は Lucid Blocks における真の進行の一部です。農業は単に植えて収穫するだけでなく、ツール、武器、クラフトの選択肢を維持するための反復可能な素材ルートを確立することでもあります。",
+    "gzwKeysGuide": {
+      "title": "Gray Zone Warfare 鍵ガイド",
+      "intro": "鍵による進行制限は、Gray Zone Warfareにおける最大の難所の一つです。無駄な出撃を繰り返す前に、適切な鍵を見つけましょう。ドロップ場所、解錠場所、そしてどのタスクに関連しているかを解説します。",
+      "items": [
+        {
+          "key_name": "Kiu Vongsa Restaurant Storage Key",
+          "area": "Kiu Vongsa",
+          "where_to_find": "Kiu Vongsaの敵のポケット",
+          "unlocks": "141:164にあるレストランの屋根裏のドア",
+          "related_task": "Helping Hand",
+          "behind_lock": "タスク情報の場所"
+        },
+        {
+          "key_name": "Pha Lang Restaurant Storage Key",
+          "area": "Pha Lang",
+          "where_to_find": "Pha Langの敵のポケット",
+          "unlocks": "Pha Langのレストランの屋根裏倉庫",
+          "related_task": "Helping Hand",
+          "behind_lock": "武器箱 x1、医療キャビネット x1"
+        },
+        {
+          "key_name": "Nam Thaven Restaurant Storage Key",
+          "area": "Nam Thaven",
+          "where_to_find": "Nam Thavenの敵のポケット",
+          "unlocks": "Nam Thavenのレストランの屋根裏倉庫",
+          "related_task": "Helping Hand",
+          "behind_lock": "タスク情報のルート"
+        },
+        {
+          "key_name": "Sawmill Office Key",
+          "area": "Sawmill",
+          "where_to_find": "Sawmillの敵のポケット",
+          "unlocks": "Tonmai Hainy Lumber Companyのオフィスビル",
+          "related_task": "EOD",
+          "behind_lock": "武器箱 x1、救急キャビネット x1、剥き出しの武器"
+        },
+        {
+          "key_name": "Pha Lang Airfield Storage Office Key",
+          "area": "Pha Lang Airfield",
+          "where_to_find": "Pha Lang Airfieldの敵のポケット",
+          "unlocks": "飛行場の倉庫ビル内にあるオフィスルーム",
+          "related_task": "Hazardous Treasuresのルート探索",
+          "behind_lock": "飛行場倉庫オフィスの戦利品"
+        },
+        {
+          "key_name": "Ban Pa Elder's Room Key",
+          "area": "Ban Pa",
+          "where_to_find": "Ban Paのリーダーのポケット、またはBan Pa内でスポーン",
+          "unlocks": "長老の家（Elder's House）の2階の部屋",
+          "related_task": "It's in the Water II",
+          "behind_lock": "化学室スタイルのタスク目標ルート"
+        },
+        {
+          "key_name": "Ban Pa Fishing Hut Key",
+          "area": "Ban Pa",
+          "where_to_find": "Ban Paの敵のポケット",
+          "unlocks": "205:137にある長老の家の隣の釣り小屋",
+          "related_task": "Ban Paの戦利品およびサイドルートの探索",
+          "behind_lock": "武器箱 x1、装備箱 x1、弾薬箱 x1"
+        },
+        {
+          "key_name": "Fort Narith Outskirts Improvised Armory Key",
+          "area": "Fort Narith / Savanpha Village",
+          "where_to_find": "Fort Narithの鍵ルート",
+          "unlocks": "146:128にあるSavanpha Villageの灰色の2階建て住宅の奥の部屋",
+          "related_task": "Fort Narith郊外のルート探索",
+          "behind_lock": "即席武器庫の部屋"
+        }
+      ]
+    },
+    "gzwMoneyGuide": {
+      "eyebrow": "経済",
+      "title": "Gray Zone Warfare マネーガイド",
+      "subtitle": "繰り返し可能なスタータータスク、戦利品の優先順位の改善、そしてより明確な売却判断によって、キャッシュフローを回復させましょう。このモジュールでは、高リスクな戦闘を強いることなく資金を生み出すルートとアクションに焦点を当てます。",
+      "intro": "Gray Zone Warfare における資金は、タスク報酬と計画的な略奪という2つの信頼できるソースから得られます。初期タスクではすでに現金、評判、有用なアイテムが提供されており、武器コンテナや貴重品はFOBのベンダーネットワークを通じて売却できます。優れたリカバリーループはシンプルです。近くのタスクを実行し、効率的に略奪し、賢く売却し、次の報酬を装備の過剰な構築ではなく補充に充てることです。",
+      "items": [
+        {
+          "step": 1,
+          "title": "近場の報酬付きタスクから始める",
+          "summary": "大きな装備リスクを冒す前に、序盤から中盤のルートにあるタスクを経済ループのベースとして活用しましょう。",
+          "data_points": [
+            "Meds Wanted: 400 EXP, +100 Lab Rat 評判, $1,200, 2x Combat Tourniquet",
+            "Helping Hand: 225 EXP, +150 Handshake 評判, $440",
+            "Tools of the Trade: 150 EXP, +105 Artisan 評判, $400",
+            "What's in Store: 2,000 EXP, +200 Gunny 評判, $3,300, 1x HARDE Case"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "略奪時は銃器コンテナを優先する",
+          "summary": "武器コンテナは、銃、マガジン、武器パーツが入っている可能性があるため、価値の高い立ち寄り先です。",
+          "data_points": [
+            "CSI Firearms Box: 武器および武器パーツ用の8x6戦利品コンテナ",
+            "UN Firearms Box: 武器および武器パーツ用の7x4戦利品コンテナ",
+            "Firearms Box: 武器および武器パーツ用の8x3戦利品コンテナ",
+            "Military Firearms Crate には AK308、AK74、SVD Dragunov のマガジンが含まれる場合があります"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "最も高く買い取るベンダーに貴重品を売る",
+          "summary": "貴重な戦利品はどのベンダーにも売却できますが、アイテムによって買い手ごとに価格が異なります。",
+          "data_points": [
+            "利便性よりも最大の利益を優先する場合は、リストにある最適な買い手を利用しましょう",
+            "貴重品はどのベンダーにも売却できますが、最高表示価格より50%低くなる場合があります",
+            "FOBに持ち帰るものと、その場に残していくものの優先順位を決めましょう"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "現金をより良いベンダーアクセスに変換する",
+          "summary": "タスクの報酬がベンダーの評判を高め、より良い在庫をアンロックすることで、経済状況はさらに強化されます。",
+          "data_points": [
+            "タスクはEXPを獲得する最速の方法であり、多くの場合、現金、アイテム、ベンダーの評判が報酬として与えられます",
+            "一部のタスクは新しいベンダー在庫をアンロックします",
+            "アップデート 0.4 では、アイテムよりも現金を重視するように報酬のバランスが調整されました",
+            "初めてタスクを完了すると、より大きな評判ブーストが得られます"
+          ]
+        }
+      ]
+    },
+    "gzwWeaponsGuide": {
+      "eyebrow": "武器",
+      "title": "Gray Zone Warfare 武器ガイド",
+      "subtitle": "主要なライフルプラットフォーム、その口径、そして各ファミリーが広範な武器プールの中でどこに位置するかを把握しましょう。マガジン、弾薬、アタッチメントに投資する前に、プラットフォームの違いを素早く理解できるようにすることが目的です。",
+      "intro": "Gray Zone Warfare の武器エコシステムは、口径ファミリー、互換性のあるマガジン、およびアタッチメントのエコシステムを中心に構築されています。公式の武器ページやベンダーページにはゲーム内に存在するプラットフォームが表示されており、最新の Spearhead 開発ブログでは、重量、揺れ、ADSの挙動、リロードの操作性、弾道学のすべてが現在のゲームの方向性においてより重要であることが確認されています。つまり、武器の選択はもはや単なる火力だけの問題ではありません。",
+      "items": [
+        {
+          "name": "AK-12",
+          "category": "アサルトライフル",
+          "caliber": "5.45x39mm",
+          "fire_mode": "セミオート / フルオート",
+          "fire_rate": "700 RPM",
+          "notes": [
+            "AK-74M、AK-74N、AKS-74U と口径ファミリーを共有",
+            "5.45弾ファミリーを使用するプレイヤーに適したプラットフォーム"
+          ]
+        },
+        {
+          "name": "AK-15",
+          "category": "アサルトライフル",
+          "caliber": "7.62x39mm",
+          "fire_mode": "セミオート / フルオート",
+          "fire_rate": "700 RPM",
+          "notes": [
+            "AKM、AKMN、AKMSN、SKS と同じ口径ファミリーを使用",
+            "弾薬の入手性が高く、汎用性の高い中距離プラットフォーム"
+          ]
+        },
+        {
+          "name": "AK-19",
+          "category": "アサルトライフル",
+          "caliber": "5.56x45mm NATO",
+          "fire_mode": "セミオート / フルオート",
+          "fire_rate": "700 RPM",
+          "notes": [
+            "M4A1、DDM4、CQ A1 と口径ファミリーを共有",
+            "AKパターンのプラットフォームとNATO口径弾へのアクセスを橋渡しします"
+          ]
+        },
+        {
+          "name": "AK-74M",
+          "category": "アサルトライフル",
+          "caliber": "5.45x39mm",
+          "fire_mode": "セミオート / フルオート",
+          "fire_rate": "650 RPM",
+          "notes": [
+            "5.45ライフルグループの一部",
+            "序盤から広く入手可能で、5.45口径ツリーの確かな基準となります"
+          ]
+        },
+        {
+          "name": "SIG MCX",
+          "category": "アサルトライフル",
+          "caliber": ".300 AAC Blackout",
+          "fire_mode": "モジュラープラットフォーム",
+          "fire_rate": "武器ページを参照",
+          "notes": [
+            "専用プラットフォームの口径であり、スタンドアロンのビルドとして扱うのが最適です",
+            "単一口径のロードアウトに慣れているプレイヤーにとって、ニッチながら強力な選択肢です"
+          ]
+        },
+        {
+          "name": "0.4 操作性の変更",
+          "category": "システムノート",
+          "caliber": "全プラットフォーム",
+          "fire_mode": "全モード",
+          "fire_rate": "N/A",
+          "notes": [
+            "アップデート 0.4 では、エルゴノミクス、揺れ、加速、ADSに対する武器重量の影響が追加されました",
+            "ハンドリングとリロードの挙動を強調するために武器ステータスが刷新されました",
+            "武器と弾薬の有用性を高めるために弾道計算が改善されました"
+          ]
+        }
+      ]
+    },
+    "gzwAmmoGuide": {
+      "eyebrow": "弾薬",
+      "title": "Gray Zone Warfare 弾薬ガイド",
+      "subtitle": "この口径の概要を使用して、弾薬ファミリーとそれを使用する武器を関連付けましょう。インベントリの計画、マガジンの選択、プラットフォーム間での弾薬の共有に役立つ実用的なマップを提供します。",
+      "intro": "Gray Zone Warfare における弾薬の選択は、武器プラットフォームとマガジンの互換性に直接結びついています。ゲームWikiの弾薬概要には、どの口径がどのライフル、DMR、ボルトアクション武器で使用されているかが示されており、最新の開発ブログでは、Spearhead において弾道学と弾薬全体の有用性が再構築されていることが確認されています。そのため、口径を意識することは、ロードアウトの失敗を避けるための最も簡単な方法の1つです。",
+      "items": [
+        {
+          "caliber": ".300 AAC Blackout",
+          "used_by": "SIG MCX",
+          "weapon_class": "アサルトライフルプラットフォーム",
+          "planning_note": "序盤の共有インベントリの定番としてではなく、専用プラットフォームの口径として扱うのが最適です。"
+        },
+        {
+          "caliber": "5.45x39mm",
+          "used_by": "AK-74M, AK-74N, AK-12, AKS-74U",
+          "weapon_class": "アサルトライフル",
+          "planning_note": "複数のAKパターンのライフルで同じ口径ファミリーを使用したい場合に便利です。"
+        },
+        {
+          "caliber": "5.56x45mm NATO",
+          "used_by": "M4A1, DDM4, CQ A1, AK-19",
+          "weapon_class": "アサルトライフル",
+          "planning_note": "西洋スタイルのライフルとAK-19プラットフォームの両方にまたがる、広範なライフル口径ファミリーです。"
+        },
+        {
+          "caliber": "7.62x39mm",
+          "used_by": "AKM, AKMN, AKMSN, AK-15, SKS",
+          "weapon_class": "アサルトライフルおよびDMR",
+          "planning_note": "アサルトライフルとSKSの両方のセットアップをサポートし、ロールを切り替えるプレイヤーに役立ちます。"
+        },
+        {
+          "caliber": "7.62x51mm NATO",
+          "used_by": "AK-308, M700",
+          "weapon_class": "アサルトライフルおよびボルトアクションライフル",
+          "planning_note": "軽量なアサルトライフルファミリーではなく、より重い精度重視の武器の選択肢で共有されます。"
+        },
+        {
+          "caliber": "0.4 弾道学の方向性",
+          "used_by": "全弾薬タイプ",
+          "weapon_class": "システム全体",
+          "planning_note": "Spearhead アップデートノートでは、弾道計算が改善され、武器と弾薬のバランスが調整されて有用性が向上したことが確認されています。"
+        }
+      ]
+    },
+    "gzwVendorsGuide": {
+      "eyebrow": "ベンダー",
+      "title": "Gray Zone Warfare ベンダーガイド",
+      "subtitle": "各ベンダーの専門分野、追加アクセスを解除するタスク、より良い在庫を解放するための評判の仕組みを確認しましょう。特定の装備を狙って計画的に進行するのに役立ちます。",
+      "intro": "ベンダーは Gray Zone Warfare の進行における要です。装備の販売、戦利品の買い取りを行い、評判が上がるにつれてより良い在庫が解放されます。ベンダーのページでは、複数のトレーダーがタスクチェーンで繋がっていることも確認できるため、次に解放したいカテゴリーに合わせて戦略的に評判を上げることが重要です。",
+      "items": [
+        {
+          "vendor": "Handshake",
+          "specialty": "ヘルメット、装備、ボディアーマー、コンテナ、ツール",
+          "rank_thresholds": "ランク 1: 0 | ランク 2: 700 | ランク 3: 2500 | ランク 4: 6500",
+          "unlock_path": "初期ベンダー、前提条件なし",
+          "progression_note": "防御、収納、一般的なフィールド装備を優先したいプレイヤーの初期進行に適しています。"
+        },
+        {
+          "vendor": "Lab Rat",
+          "specialty": "医薬品、食料、飲料、コンテナ",
+          "rank_thresholds": "ランク 1: 0 | ランク 2: 700 | ランク 3: 2500 | ランク 4: 6500",
+          "unlock_path": "コアベンダー、前提条件なし",
+          "progression_note": "回復アイテム、物資、ユーティリティ収納のための主要な医療・維持ベンダーです。"
+        },
+        {
+          "vendor": "Gunny",
+          "specialty": "武器、マガジン、弾薬、投げ物、サイト、武器アタッチメント",
+          "rank_thresholds": "ランク 1: 0 | ランク 2: 700 | ランク 3: 2500 | ランク 4: 6500",
+          "unlock_path": "コアベンダー、前提条件なし",
+          "progression_note": "ライフルの選択肢、アタッチメント、弾薬へのアクセスを改善したい場合の初期の拠点として最適です。"
+        },
+        {
+          "vendor": "Artisan",
+          "specialty": "武器、マガジン、弾薬、サイト、アタッチメント、ヘルメット、コンテナ",
+          "rank_thresholds": "ランク 1: 0 | ランク 2: 700 | ランク 3: 2500 | ランク 4: 6500",
+          "unlock_path": "Lab Rat の Native Negotiations を完了する必要あり",
+          "progression_note": "アタッチメントや武器ビルドをよりテクニカルにカスタマイズしたい場合に優先すべき強力なベンダーです。"
+        },
+        {
+          "vendor": "Banshee",
+          "specialty": "武器、マガジン、弾薬、サイト、アタッチメント、装備",
+          "rank_thresholds": "ランク 1: 0 | ランク 2: 700 | ランク 3: 2500 | ランク 4: 6500",
+          "unlock_path": "Artisan の Invaders From Afar を完了する必要あり",
+          "progression_note": "武器に特化した選択肢を増やしつつ、身に着ける装備の幅も広げたいプレイヤーに適しています。"
+        },
+        {
+          "vendor": "Turncoat",
+          "specialty": "武器、弾薬、サイト、アタッチメント、ヘルメット、装備、ボディアーマー、コンテナ",
+          "rank_thresholds": "ランク 1: 0 | ランク 2: 700 | ランク 3: 2500 | ランク 4: 6500",
+          "unlock_path": "Handshake の The Shadow Over Ban Pa を完了する必要あり",
+          "progression_note": "武器のサポートからアーマー、コンテナの進行までを網羅する、最も幅広い在庫を持つベンダーの一つです。"
+        }
+      ]
+    },
+    "gzwHealthSystemGuide": {
+      "eyebrow": "サバイバルシステム",
+      "title": "Gray Zone Warfare ヘルスシステムガイド",
+      "subtitle": "Gray Zone Warfare では、単純なHPバーではなく、部位別およびバイタルプール（生命維持指標）システムを採用しています。生き残るための最短ルートは、根本的な問題を特定し、正しい治療アイテムを即座に使用することです。",
+      "intro": "Gray Zone Warfare では、傷、打撲、臓器損傷、失血、痛み、水分補給がすべて相互に影響し合います。出血、臓器損傷、脱水症状が適切な順序で処理されないと、一瞬元気そうに見えても突然倒れることがあります。このガイドは、レイド中に症状と適切な対処法を素早く照らし合わせるために作成されました。",
+      "items": [
+        {
+          "section": "コアヘルスモデル",
+          "content": [
+            "従来のHPモデルはなく、身体部位に加えて血液や水分などのバイタルプールを追跡します",
+            "生存は、目に見える症状だけでなく、問題の原因を治療することにかかっています",
+            "血液は自然に再生しますが、水分やエネルギーが低すぎると回復が停止します"
+          ]
+        },
+        {
+          "section": "傷と出血",
+          "content": [
+            "傷は赤色で表示され、弾丸が防具を貫通した際に発生します",
+            "軽傷は時間経過で治癒しますが、中等度から重度の傷は治療が必要です",
+            "包帯は傷を治療し、止血帯は出血を止めますが傷自体は治しません"
+          ]
+        },
+        {
+          "section": "打撲と痛み",
+          "content": [
+            "打撲は紫色で表示され、アーマーが着弾を防いだ際の衝撃で発生します",
+            "打撲は痛みを引き起こしますが、通常は時間の経過とともに自然に治癒します",
+            "痛みや苦しみは震えを引き起こし、武器の扱いを悪化させます"
+          ]
+        },
+        {
+          "section": "骨折と移動能力の低下",
+          "content": [
+            "衝撃や落下により、手足の骨が損傷することがあります",
+            "足の骨の破壊は足を引きずる原因となり、ダッシュやジャンプができなくなり、スタミナ回復が鈍化します",
+            "Flexible Splint（添木）が、骨折やひびの標準的な治療法です"
+          ]
+        },
+        {
+          "section": "臓器損傷",
+          "content": [
+            "脳、心臓、肺、肝臓はすべて損傷する可能性があります",
+            "心臓や脳などの重要な臓器が破壊されると、即死します",
+            "手術キットは、損傷または破壊された臓器を修復するために使用されます"
+          ]
+        },
+        {
+          "section": "失血と虚脱",
+          "content": [
+            "失血は症状を悪化させ、昏睡状態に陥る可能性があります",
+            "血流量が5,000mlを超えるか、水分とエネルギーが回復するまで「めまい」状態が続きます",
+            "血液バッグは、失われた血液を補充するために使用されます"
+          ]
+        },
+        {
+          "section": "水分補給とエネルギー",
+          "content": [
+            "水分が50%を下回ると「喉の渇き」が始まり、血液の再生が停止します",
+            "「脱水」は視界をかすませ、水分が1%以上になるまで継続します",
+            "エネルギーが50%を下回ると「空腹」が始まり、同様に血液の再生が停止します"
+          ]
+        },
+        {
+          "section": "一般的な医療アイテム",
+          "content": [
+            "ARF Trauma Bandage 4 — 傷を治療、4回分",
+            "Civilian Gauze — 傷を治療、3回分",
+            "Flexible Splint — 骨折を修復、5回分",
+            "Basic Surgical & Suture Kit — 臓器損傷を治療、6回分",
+            "Large Blood Bag — 1回につき500ml、2回分",
+            "Meloxicam および Ibalin — 痛みの影響を軽減する鎮痛剤"
+          ]
+        },
+        {
+          "section": "迅速な治療順序",
+          "content": [
+            "第一に：活動的な出血を止める",
+            "次に：傷と骨折を治す",
+            "次に：必要に応じて臓器を安定させる",
+            "次に：症状が続く場合は血流量を回復させる",
+            "最後に：水分とエネルギーを補給して再生を再開させる"
+          ]
+        },
+        {
+          "section": "分隊での治療ルール",
+          "content": [
+            "チームメイトを治療するには、医療アイテムが Tactical Rig、Tactical Belt、または Pockets にある必要があります",
+            "まず負傷したプレイヤーを「調べる（Examine）」して、どのような処置が必要かを確認します",
+            "メディカルバッグはインベントリスペースを節約できますが、使用前に中身を取り出す必要があります"
+          ]
+        }
+      ]
+    },
+    "gzwFactionsGuide": {
+      "eyebrow": "PMC の選択",
+      "title": "Gray Zone Warfare 派閥ガイド",
+      "subtitle": "Gray Zone Warfare には、異なる背景、ベースキャンプの位置、初期の町、タスクのルートを持つ3つのプレイ可能な PMC が存在します。派閥の選択によって、特定の友人と分隊を組めるかどうかも決まります。",
+      "intro": "派閥の選択は単なる見た目の違いではありません。マップの開始地点、アクセス可能な初期ルート、タスクの流れの一部に影響します。グループでプレイする際の最も重要なルールは、全員が同じ派閥に所属しなければならないことです。",
+      "items": [
+        {
+          "name": "Lamang Recovery Initiative",
+          "summary": "億万長者が資金提供する PMC。Ground Zero 周辺での救助・回収部隊を自称しています。",
+          "highlights": [
+            "活動の中心は生存者の捜索、救助、およびクリーンアップです",
+            "チームを保護するために、少数の高度な専門家による警備を運用します",
+            "初期の町：Pha Lang — 紛争地帯へのアクセスが速いのが特徴です"
+          ]
+        },
+        {
+          "name": "Mithras Security Systems",
+          "summary": "現場経験と軍事的能力を重視する、兵士第一の PMC です。",
+          "highlights": [
+            "「兵士による兵士のための会社」として自らを宣伝しています",
+            "経験豊富なオペレーターを受け入れ、実力主義と戦利品共有の文化を強調しています",
+            "初期の町：Nam Thaven — 安全なルートと危険なルートの中間に位置します"
+          ]
+        },
+        {
+          "name": "Crimson Shield International",
+          "summary": "冷酷な効率性と厳しい評判で知られる、高い成功率を誇る PMC です。",
+          "highlights": [
+            "95%の成功率を誇ることで知られています",
+            "行動重視のオペレーターを惹きつけますが、付随的な被害を出すことでも有名です",
+            "初期の町：Kiu Vongsa — 序盤の進行が緩やかで初心者向けとされることが多いです"
+          ]
+        },
+        {
+          "name": "実際に何が変わるのか",
+          "summary": "派閥の選択はフレーバーテキスト以上の影響を与えます。",
+          "highlights": [
+            "派閥によって Lamang Island での開始エリアが決定されます",
+            "利用可能なタスクの一部が派閥によって異なります",
+            "一緒にプレイするには、友人と同一の派閥に参加する必要があります",
+            "リセットが必要な場合は、7日ごとにキャラクターをワイプ（初期化）することが可能です"
+          ]
+        }
+      ]
+    },
+    "gzwArmorGuide": {
+      "eyebrow": "防御",
+      "title": "Gray Zone Warfare アーマーガイド",
+      "subtitle": "アーマーの有効性は、NIJクラス、プレートが実際に体をカバーしている場所、およびアーマーの素材によって決まります。高価なものが必ずしもあらゆる状況で優れた保護を意味するわけではありません。",
+      "intro": "このゲームでは、NIJスタイルのアーマークラスと部位ベースのプレートシステムを採用しています。アーマーを検査する際、重要なのはクラスの数値だけでなく、露出する可能性の高い前面と背面をプレートが保護しているかどうかです。また、耐久値が変化してもアーマーの種類によって弾丸への耐性が異なるため、素材も重要です。",
+      "rows": [
+        {
+          "name": "Commander (Navy)",
+          "type": "アーマーベスト",
+          "nij": "IIIA",
+          "material": "UHMWPE",
+          "weight": "4.000 kg",
+          "how_to_get": "Handshake 親密度1"
+        },
+        {
+          "name": "Specter",
+          "type": "プレートキャリア",
+          "nij": "IIIA",
+          "material": "アラミド",
+          "weight": "1.480 kg",
+          "how_to_get": "略奪"
+        },
+        {
+          "name": "Pantsir 2.0",
+          "type": "プレートキャリア",
+          "nij": "III",
+          "material": "セラミック",
+          "weight": "8.480 kg",
+          "how_to_get": "Turncoat 親密度2 / 略奪"
+        },
+        {
+          "name": "Recon Plate Carrier",
+          "type": "プレートキャリア",
+          "nij": "III+",
+          "material": "UHMWPE",
+          "weight": "5.600 kg",
+          "how_to_get": "Handshake 親密度4 / タスク報酬"
+        },
+        {
+          "name": "M2 Plate Carrier",
+          "type": "プレートキャリア",
+          "nij": "III+",
+          "material": "セラミック",
+          "weight": "7.640 kg",
+          "how_to_get": "略奪 / タスク報酬"
+        },
+        {
+          "name": "CZ 4M Lancer",
+          "type": "プレートキャリア",
+          "nij": "III",
+          "material": "スチール",
+          "weight": "9.550 kg",
+          "how_to_get": "Handshake 親密度3 / タスク報酬"
+        }
+      ],
+      "notes": [
+        "Gray Zone Warfare はNIJシステムを採用しています。保護レベルは低い順に I, IIA, IIA+, IIIA, IIIA+, III, III+, III++ です。",
+        "検査画面で表示されるプレートの位置は、貫通保護が存在する場所を示しています。",
+        "アーマーの素材は重要です：UHMWPEは耐性が低く、セラミックは中程度、スチールは高い耐性を持ちます。",
+        "プレートキャリアは収納スペースとアーマーを兼ね備えています。通常のベストはアーマーのないタクティカルリグと組み合わせて使用します。",
+        "アップデート0.4のUIではアーマーレベルがより明確に表示されるようになり、弾薬の詳細にはその弾丸が貫通できない最低のアーマークラスが表示されます。"
+      ]
+    },
+    "gzwBestLoadouts": {
+      "eyebrow": "ビルド",
+      "title": "Gray Zone Warfare おすすめロードアウト",
+      "subtitle": "Gray Zone Warfare で最も有用なロードアウトは、派手な理論上のビルドではありません。生存、脱出、タスク効率、アーマーのカバー範囲、医療の準備、そして適切な機動性を中心に構築されたキットです。",
+      "intro": "このモジュールでは、プレイヤーが実際に使用する展開アーキタイプに焦点を当てています：安価な初心者用ライフルセット、静かなソロ PvE キット、重装備の分隊戦闘ビルド、そして目的優先のタスク遂行セットです。それぞれがスタミナ、水分補給、抑制、アーマーのカバー範囲、医療の準備といった実証済みのゲームシステムに基づいて設計されています。",
+      "items": [
+        {
+          "name": "初心者向け低予算ラン",
+          "summary": "初期の町のタスクや早期の資金回収のための低リスクなセットアップ。",
+          "highlights": [
+            "AKMなどの手頃なライフル — 安価なスターティングプラットフォームとして一般的に推奨されます",
+            "アーマーの目標：重量を過負荷にせず、前面と背面を保護すること",
+            "医療の核：包帯、副木、血液バッグ、鎮痛剤",
+            "プレイスタイル：長期戦を避け、目的を達成して脱出する"
+          ]
+        },
+        {
+          "name": "ソロ PvE ステルスキット",
+          "summary": "静かに移動し、タスクを完了し、一人で生き残るために構築されています。",
+          "highlights": [
+            "ソロプレイではサプレッサー付きの武器が強く好まれます",
+            "スタミナと水分補給を管理するため、軽いアーマーを使用し、動きを制御します",
+            "欲張らずにミッションアイテムと重要な戦利品を優先します",
+            "進入前に施設を偵察し、脱出を真の勝利と考えます"
+          ]
+        },
+        {
+          "name": "分隊 PvEvP 重装備キット",
+          "summary": "争奪ゾーンや激しい戦闘のための、より強力なグループビルド。",
+          "highlights": [
+            "可能な限り、前面と背面をカバーし、より高いNIJクラスを持つプレートキャリア",
+            "チームメイト同士が素早く治療できるよう、アクセスしやすいスロットに医療アイテムを配置",
+            "複数の角度からの移動、物資の共有、蘇生サポートを活用",
+            "終盤のエリアでは、サプレッサー射撃と少なくとも1人のチームメイトの同行が強く推奨されます"
+          ]
+        },
+        {
+          "name": "タスク特化型ユーティリティロードアウト",
+          "summary": "キル数よりも移動、探索、脱出が重要なミッションのためのバランスの取れたキット。",
+          "highlights": [
+            "武器、医療品、水分、クエストアイテム用のスペースなど、タスクをサポートするものだけを携帯します",
+            "派閥の選択によってルートの効率が変わります。各派閥は異なる町からスタートします",
+            "アップデート0.4でタスクの流れが再び刷新されました",
+            "最高のタスクロードアウトは、重量を抑え、目的のアイテムを持ち帰るための余裕を残します"
+          ]
+        }
+      ]
+    },
+    "gzwPveVsPvpGuide": {
+      "title": "Gray Zone Warfare PvE vs PvP ガイド",
+      "intro": "Gray Zone Warfare は Warfare と Joint Operations の両方をサポートしています。進行状況はモード間で共有されるため、多くのプレイヤーは Joint Operations で場所やタスクを学習してから、同じキャラクターで Warfare に挑みます。",
+      "items": [
+        {
+          "aspect": "基本ルール",
+          "warfare": "完全な PvPvE — 敵対する派閥がマップ全域で互いに戦うことができます",
+          "joint_operations": "PvE のみ — プレイヤー同士の攻撃や略奪はできず、AIの敵のみが対象です"
+        },
+        {
+          "aspect": "新規プレイヤーへの適性",
+          "warfare": "最初から予測不可能な遭遇や派閥のプレッシャーを求めるプレイヤーに最適",
+          "joint_operations": "脱出の流れ、回復、マップルート、タスク目標を学びたい初心者に最適"
+        },
+        {
+          "aspect": "ソロでの遊びやすさ",
+          "warfare": "ソロプレイも可能ですが、ヘリコプターのタイミングや敵プレイヤーの存在により、ミスがより致命的になります",
+          "joint_operations": "敵のプレッシャーが人間の待ち伏せではなく AI から来るため、ソロでの学習に適しています"
+        },
+        {
+          "aspect": "分隊サイズ",
+          "warfare": "ソロまたは最大4人の分隊プレイ",
+          "joint_operations": "ソロまたは最大4人の分隊プレイ"
+        },
+        {
+          "aspect": "プレイヤーの脅威",
+          "warfare": "ヘリコプター到着時の短い保護時間を除き、マップ上のどこでも敵 PMC に撃たれる可能性があります",
+          "joint_operations": "参加者間でのプレイヤーダメージやプレイヤーによる略奪はありません"
+        },
+        {
+          "aspect": "戦闘前哨基地 (COP)",
+          "warfare": "派閥が COP の支配権を争います。ライバルプレイヤーが前哨基地の戦闘の流れの一部となります",
+          "joint_operations": "最初の派閥が AI を排除して COP を占拠します。その後、すべての派閥が共有のセーフゾーンとして使用できます"
+        },
+        {
+          "aspect": "最適な使用例",
+          "warfare": "脱出の緊張感、派閥間の紛争、ルートや前哨基地周辺でのダイナミックな遭遇を求めるならこちら",
+          "joint_operations": "タスクの完了、レイアウトの学習、キットのテスト、または変数の少ない環境での経験値稼ぎならこちら"
+        },
+        {
+          "aspect": "進行状況",
+          "warfare": "共有されるキャラクターの進行状況",
+          "joint_operations": "共有されるキャラクターの進行状況 — ここでの進捗は Warfare にも引き継がれます"
+        },
+        {
+          "aspect": "推奨プレイヤータイプ",
+          "warfare": "脱出系ゲームのベテラン、自信のあるデュオや分隊、そして争奪目標を楽しむプレイヤー",
+          "joint_operations": "新規プレイヤー、タスク重視のプレイヤー、ルートや回復の流れ、ベンダーの進行を練習したい人"
+        }
+      ]
+    },
+    "gzwLocationsGuide": {
+      "title": "Gray Zone Warfare ロケーションガイド",
+      "intro": "Gray Zone Warfareの検索意図は、プレイヤーが初期の町、タスクの目標地点、戦利品エリア、軍事施設の間を常に移動するため、ロケーションに大きく依存しています。以下の主要なPOIは、ホームページのアンカーとして最も有用な場所を網羅しています。",
       "sections": [
         {
-          "name": "種の進行",
-          "description": "種を植えて肥料を与えることはゲーム内の重要なマイルストーンであり、完全に成長したナッツを収穫することも同じ成長パスの一部です。"
-        },
-        {
-          "name": "素材ファーミング",
-          "description": "実用的な序盤のファーミングループは「水銀カプセル」を作成することです。これにより、反復可能なクラフト素材となる触手やグーをドロップする小さなスライムが出現します。"
-        },
-        {
-          "name": "ツールの維持",
-          "description": "オスミウム、ガラスの破片、植物、スライム素材を安定して集められるようになると、その後のクラフトのための資源ファーミングがより強力になります。"
-        },
-        {
-          "name": "拠点のルーチン",
-          "description": "最適な農業セットアップは食料以上のものを支えます。ストレージ、移動ツール、武器のアップグレード、そして将来の融合実験に供給されるべきです。"
-        }
-      ],
-      "growthMilestones": [
-        "種に肥料を与える",
-        "完全に成長したナッツを収穫する",
-        "反復可能な素材ループを作成する",
-        "農業を長期的な進行に組み込む"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks おすすめの序盤解放要素",
-      "displayType": "priorityCards",
-      "intro": "最強の序盤解放要素は、安全性、ストレージ、そして移動能力を向上させるものです。Lucid Blocks では、いくつかの実用的なアップグレードがその後のゲームプレイ全体を非常にスムーズにします。",
-      "priorities": [
-        {
-          "name": "個人用クオリア",
-          "priority": "必須",
-          "description": "個人用クオリアにアクセスできるようになると、プレイが格段に安定します。ストレージ、建築、体制の立て直しのための信頼できるハブとして機能します。"
-        },
-        {
-          "name": "フロストピック",
-          "priority": "極めて高い",
-          "description": "オスミウムと棒で作れる、高速で安価な序盤の採掘ツール。序盤の資源収集を加速させるために最も有用なアップグレードの一つです。"
-        },
-        {
-          "name": "キャッシュキューブ",
-          "priority": "極めて高い",
-          "description": "インベントリの圧迫は早くから始まるため、最初の信頼できるチェスト型コンテナを手に入れることは、プレイの快適さを大きく向上させます。"
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "高い",
-          "description": "フックショットはゲーム内で最も明確な移動のマイルストーンの一つであり、探索をより速く、より安全にします。"
-        },
-        {
-          "name": "グライダーグローブ",
-          "priority": "高い",
-          "description": "グライダーグローブはもう一つの大きな機動力ブーストをもたらし、長距離の移動をはるかに効率的にします。"
-        },
-        {
-          "name": "投射物ワンドまたは爆弾",
-          "priority": "高い",
-          "description": "遠距離ツールや爆発物の選択肢を持つことで、危険な敵や試練形式の遭遇に対してより安全に対処できるようになります。"
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks 実績トラッカー",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks には現在 19 個の Steam 実績があり、それらは探索、クラフト、移動、戦闘、成長の進行に自然に分類されます。",
-      "groups": [
-        {
-          "name": "探索",
-          "achievements": [
+          "section": "初期の町",
+          "entries": [
             {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "クオリアに入る。"
+              "name": "Kiu Vongsa",
+              "grid": "141:164",
+              "role": "Crimson Shield Internationalの初期の町",
+              "why": "CSIルートや近隣の農場側の移動における一般的な序盤の目的地"
             },
             {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "ティアマナ・レイラインを発見する。"
+              "name": "Nam Thaven",
+              "grid": "171:118",
+              "role": "Mithras Security Systemsの初期の町",
+              "why": "Mithrasプレイヤーにとっての主要な開始エリアであり、初期のルート計画の拠点"
             },
             {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "ティアマナの試練を乗り越える。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "隠し実績。"
+              "name": "Pha Lang",
+              "grid": "202:162",
+              "role": "Lamang Recovery Initiativeの初期の町",
+              "why": "LRIの進行と南への移動における主要な序盤のホームエリア"
             }
           ]
         },
         {
-          "name": "クラフトと召喚",
-          "achievements": [
+          "section": "主要なタスクと戦利品の目的地",
+          "entries": [
             {
-              "title": "Apotheosis α",
-              "description": "アイテムを融合させる。"
+              "name": "Sawmill",
+              "grid": "139:144",
+              "role": "古い製材所があるティア2ゾーン",
+              "why": "初期エリアからのステップアップとして認識しやすく、中盤で頻繁に目標となる場所"
             },
             {
-              "title": "Apotheosis β",
-              "description": "害獣を融合させる。"
+              "name": "Hunter's Paradise",
+              "grid": "159:168",
+              "role": "民間の射撃場",
+              "why": "タスク、ルート計画、および近隣の重要地点のためにプレイヤーが検索する場所"
             },
             {
-              "title": "Apotheosis γ",
-              "description": "神聖なアーティファクトを融合させる。"
+              "name": "Ban Pa",
+              "grid": "205:137",
+              "role": "水辺に近い東側の小さな町",
+              "why": "タスクのルート作成や東部への移動計画に有用"
             },
             {
-              "title": "Archangel β",
-              "description": "信仰を召喚する。"
+              "name": "Pha Lang Airfield",
+              "grid": "182:158",
+              "role": "民間の Lamang Island 飛行場",
+              "why": "ナビゲーションの把握や輸送に関連する地理として重要"
             }
           ]
         },
         {
-          "name": "移動とユーティリティ",
-          "achievements": [
+          "section": "関心の高い軍事エリアおよび終盤ルートエリア",
+          "entries": [
             {
-              "title": "Virtue α",
-              "description": "グライダーグローブで空を飛ぶ。"
+              "name": "YBL-1",
+              "grid": "143:122",
+              "role": "軍用地下バンカー",
+              "why": "開放的な集落とは全く異なる雰囲気を持つ、際立った軍事拠点"
             },
             {
-              "title": "Virtue β",
-              "description": "フックショットを使いこなす。"
+              "name": "Fort Narith",
+              "grid": "143:129",
+              "role": "島内最大の軍事拠点であり、2番目に大きい飛行場",
+              "why": "規模、軍事的価値、および繰り返されるタスクの関心により、最も検索される高脅威ロケーション"
             },
             {
-              "title": "Archangel α",
-              "description": "投射物ワンドを構える。"
+              "name": "Tiger Bay",
+              "grid": "198:130",
+              "role": "大規模な商業センターを持つ最大の都市",
+              "why": "主要な都市のランドマークであり、終盤ルートにおける最も明確な都市の目的地の一つ"
             },
             {
-              "title": "Archangel γ",
-              "description": "爆発物を構える。"
+              "name": "Blue Lagoon",
+              "grid": "203:117",
+              "role": "山に近い南部にある小さなリゾート",
+              "why": "南部のルートを計画する際にプレイヤーがすぐに認識する名前付きのランドマーク"
             }
           ]
         },
         {
-          "name": "戦闘とクリーチャー",
-          "achievements": [
+          "section": "戦闘前哨基地（COP）に関する注記",
+          "entries": [
             {
-              "title": "__PROTECTED_26ee183b__ の虐殺",
-              "description": "罪のないバブルベアを倒す。"
+              "name": "主要なCOP",
+              "grid": "varies",
+              "role": "戦略的なリスポーン、補給、およびコントロールポイント",
+              "why": "占領したCOPは、ロッカーやベンダーへのアクセスが可能なリスポーン地点として機能する"
             },
             {
-              "title": "Archangel δ",
-              "description": "冒涜的なクリーチャーを排除する。"
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "死亡する。"
-            },
-            {
-              "title": "Dominion γ",
-              "description": "可愛い害獣に名前を付ける。"
-            }
-          ]
-        },
-        {
-          "name": "成長と農業",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "種に肥料を与える。"
-            },
-            {
-              "title": "Dominion β",
-              "description": "完全に成長したナッツを収穫する。"
-            },
-            {
-              "title": "Dominion δ",
-              "description": "隠し実績。"
+              "name": "共有 PvE COPアクセス",
+              "grid": "system rule",
+              "role": "合同作戦（Joint Operations）における占領の挙動",
+              "why": "PvEでは、一つの勢力がAIからCOPを確保すると、すべての勢力が共有のセーフゾーンとして使用できる"
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks シングルプレイヤーおよびプラットフォーム FAQ",
-      "displayType": "accordion",
-      "intro": "これらは、Lucid Blocks を購入する前にプレイヤーからよく寄せられる、プラットフォームとアクセスに関する核心的な質問です。",
-      "faqs": [
+    "gzwEditionDifferences": {
+      "title": "Gray Zone Warfare エディションの違い",
+      "intro": "Gray Zone Warfareのエディション選びは、主にストレージ、コンテナの容量、および初期インベントリの柔軟性に関するものです。スタンダード版は記載されている基本資金が最も高い状態で始まりますが、ロッカーは最小です。",
+      "items": [
         {
-          "question": "Lucid Blocks はシングルプレイヤーですか？",
-          "answer": "はい。Lucid Blocks はシングルプレイヤー専用ゲームです。"
+          "feature": "ロッカーサイズ",
+          "standard": "10x25",
+          "tactical": "10x35",
+          "elite": "10x45",
+          "supporter": "10x60"
         },
         {
-          "question": "マルチプレイヤーや協力プレイの予定はありますか？",
-          "answer": "いいえ。リリース時および将来のアップデートにおいて、マルチプレイヤーの予定はありません。"
+          "feature": "セキュアロックボックス",
+          "standard": "2x2",
+          "tactical": "2x2",
+          "elite": "3x2",
+          "supporter": "3x3"
         },
         {
-          "question": "Lucid Blocks はどこでプレイできますか？",
-          "answer": "現在は Windows 用に Steam で配信されています。"
+          "feature": "初期ゲーム内通貨",
+          "standard": "$10,000",
+          "tactical": "+$5,000",
+          "elite": "+$5,000",
+          "supporter": "+$5,000"
         },
         {
-          "question": "Lucid Blocks の価格はいくらですか？",
-          "answer": "Steam で 9.99 ドルです。"
+          "feature": "武器の傾向",
+          "standard": "アサルトライフルとピストルの基本セット",
+          "tactical": "SMG中心のスターターパッケージ",
+          "elite": "DMRとピストルのパッケージ",
+          "supporter": "アサルトライフルとライフルのパッケージ"
         },
         {
-          "question": "Lucid Blocks はコントローラーに対応していますか？",
-          "answer": "はい。ただし、メニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。"
+          "feature": "序盤のユーティリティのハイライト",
+          "standard": "基本的な回復キット、アーマー、マガジン、および予備のライフル",
+          "tactical": "手榴弾、フォアグリップ、フラッシュライト、ヘッドセット、双眼暗視装置",
+          "elite": "手榴弾、サプレッサー、タクティカルデバイス、単眼暗視装置、より強力な医療品セット",
+          "supporter": "手榴弾、ライフル用サプレッサー、タクティカルデバイス、スコープ、最大のストレージアドバンテージ"
         },
         {
-          "question": "Lucid Blocks は Steam Deck で動作しますか？",
-          "answer": "はい。Steam Deck では、Proton 9.0 または 9.0.4 の使用が一般的に推奨されています。"
+          "feature": "限定特典",
+          "standard": "ゲーム本編へのアクセス",
+          "tactical": "より多くのストレージと装備のアップグレードパス",
+          "elite": "より大きなロックボックスとプレミアムな初期装備",
+          "supporter": "GZW Tシャツ、グローブ、サポーター限定カラーの名前、限定バッジ、すべてのDLCを含む"
         },
         {
-          "question": "Lucid Blocks は Linux で動作しますか？",
-          "answer": "はい。Linux および Steam Deck において、Proton 9.0 で良好に動作することが報告されています。"
-        },
-        {
-          "question": "Mac や Android はサポートされますか？",
-          "answer": "将来的にサポートされる可能性はありますが、現時点でのローンチプラットフォームではありません。"
-        },
-        {
-          "question": "Lucid Blocks に翻訳はありますか？",
-          "answer": "いいえ。現在、翻訳の予定はありません。"
-        },
-        {
-          "question": "Lucid Blocks はアップデートされ続けますか？",
-          "answer": "はい。リリース後にいくつかのコンテンツアップデートが予定されていますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
+          "feature": "おすすめのプレイヤー",
+          "standard": "最低限の導入価格を求め、タイトなスタッシュ管理を気にしないプレイヤー",
+          "tactical": "スタンダード版よりも広いロッカーと実用的なアップグレードを重視するプレイヤー",
+          "elite": "より大きなロックボックスと、より高度な戦闘用スターターキットを求めるプレイヤー",
+          "supporter": "最大のストレージ、最も幅広いボーナスパッケージ、およびサポーター限定コスメティックを求めるプレイヤー"
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck とコントローラー",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks は Steam Deck で動作しますが、デフォルト設定では調整が必要な場合があります。メニュー操作や一般的なプレイにおいては、キーボードとマウスの方がスムーズです。",
-      "faqs": [
+    "gzwUpdateRoadmap": {
+      "title": "Gray Zone Warfare アップデートロードマップ",
+      "intro": "現在の Gray Zone Warfare のアップデートストーリーは、0.4 Spearhead リリースサイクルを中心に展開されています。ロードマップでは長期的な目標が設定されており、最近のニュース投稿により 0.4 はさらに大きなマイルストーンとなりました。",
+      "items": [
         {
-          "question": "Lucid Blocks は Steam Deck で動作しますか？",
-          "answer": "はい。Proton 9.0 で良好に動作します。また、Proton 9.0.4 は Steam Deck の問題に対する一般的な修正方法として共有されています。"
+          "section": "ロードマップの再編",
+          "date": "2025-03-13",
+          "summary": "ロードマップは、長期的な拡張計画を維持しつつ、より近い時期の機能に焦点を当てるよう再編されました。",
+          "highlights": [
+            "Winds of War を 2025年春に予定",
+            "Dark Revelations を 2025年秋に予定",
+            "2026年以降のロードマップ名を Battle Forge、Shadow Strike、Rising Tensions、Ground Zero と命名",
+            "約6ヶ月ごとの大規模アップデートを計画"
+          ]
         },
         {
-          "question": "Steam Deck の操作が効かない場合はどうすればよいですか？",
-          "answer": "互換性設定を強制し、ゲームを Proton 9.0.4 に切り替えてください。デフォルト設定ではコントローラー入力が正しく受け付けられない場合があります。"
+          "section": "Update 0.4 初公開",
+          "date": "2026-02-27",
+          "summary": "Update 0.4 は、以前の仮題よりもはるかに広範なマイルストーンとして、正式に Spearhead と再導入されました。",
+          "highlights": [
+            "アップデート名を Dark Revelations から Spearhead に変更",
+            "リリース時期を 2026年3月に設定",
+            "ローンチに向けて3つの開発ブログ（devlog）を発表",
+            "Supporter Edition 所有者にプレビュー版への早期アクセスを約束"
+          ]
         },
         {
-          "question": "Lucid Blocks はコントローラーに対応していますか？",
-          "answer": "はい。ただし、ゲームのメニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。"
+          "section": "0.4 の新コンテンツ",
+          "date": "2026-03-11",
+          "summary": "2回目の Spearhead 開発ブログでは、マップ、敵、武器、および世界の拡張に焦点を当てました。",
+          "highlights": [
+            "様々な規模の 25 以上の新しいロケーションを追加",
+            "新しいマイクロバイオーム：湿地、竹林、焼失した森林",
+            "既存のロケーションの再構築とブラッシュアップ",
+            "AI の敵を 7 つの異なる派閥に再設計"
+          ]
         },
         {
-          "question": "Linux のサポートは可能ですか？",
-          "answer": "はい。Linux および Steam Deck において、Proton 9.0 で良好に動作することが報告されています。"
+          "section": "コアリワークと新機能",
+          "date": "2026-03-18",
+          "summary": "3回目の Spearhead 開発ブログでは、主要なゲームプレイループと進行状況のオーバーホールが明らかになりました。",
+          "highlights": [
+            "Spearhead は 2026年3月31日にローンチ",
+            "Supporter Edition の早期アクセスは 2026年3月27日",
+            "新しいオンボーディングエリアとスキップ可能なチュートリアルを追加",
+            "110 ページ以上のゲーム内フィールドマニュアルを追加",
+            "100 以上の新しいタスクと契約を含む、合計タスク数が 250 を突破"
+          ]
         },
         {
-          "question": "最適な入力設定は何ですか？",
-          "answer": "メニューのナビゲーションや一般的なプレイにおいては、キーボードとマウスが最もスムーズな選択肢です。"
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks 設定とアクセシビリティ",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks には、プレイヤーが最初にゲームを起動した際に重要となる、いくつかの実用的な設定と互換性に関する注意点があります。",
-      "settings": [
-        {
-          "name": "ディスプレイ設定",
-          "type": "快適性オプション",
-          "description": "ディスプレイ設定には、画面上の手を表示しないようにするオプションが含まれています。"
-        },
-        {
-          "name": "グラフィックスの互換性",
-          "type": "システム要件",
-          "description": "グラフィックスを正しくレンダリングするには __PROTECTED_38625270__ のサポートが必要です。__PROTECTED_38625270__ に対応していないシステムでは、クラッシュや深刻なグラフィックの不具合が発生する可能性があります。"
-        },
-        {
-          "name": "入力の好み",
-          "type": "操作設定",
-          "description": "コントローラーのサポートは存在しますが、メニューがコントローラー操作向けに構築されていないため、キーボードとマウスの方がスムーズな体験が得られます。"
-        },
-        {
-          "name": "言語サポート",
-          "type": "ローカライズ",
-          "description": "現在の設定は英語のみであり、現時点では翻訳の予定はありません。"
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks アップデートとパッチノート",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks では、リリース直後の迅速な修正や小規模なユーザビリティのアップデートがすでに行われています。",
-      "entries": [
-        {
-          "title": "アップデート 2.8.2",
-          "type": "UI アップデート",
-          "description": "メインメニューの「awaken（目覚める）」を「exit（終了）」に変更しました。"
-        },
-        {
-          "title": "起動時のクラッシュに関する小規模パッチ",
-          "type": "ホットフィックス",
-          "description": "起動時にゲームがクラッシュしていたプレイヤー向けに、専用のパッチがリリースされました。"
-        },
-        {
-          "title": "リリース後のコンテンツサポート",
-          "type": "ロードマップ注記",
-          "description": "リリース後にいくつかのコンテンツアップデートが予定されていますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks クラッシュ修正とトラブルシューティング",
-      "displayType": "steps",
-      "intro": "起動時やクラッシュに関する差し迫った問題は、パッチレベル、グラフィックスサポート、プラットフォームの互換性、ログの順に確認してください。",
-      "steps": [
-        {
-          "title": "最新のクラッシュホットフィックスをインストールする",
-          "description": "起動時にゲームがクラッシュする場合は、まずアップデートを行い、最新の起動クラッシュ用パッチで再度テストしてください。"
-        },
-        {
-          "title": "__PROTECTED_38625270__ のサポートを確認する",
-          "description": "Lucid Blocks には __PROTECTED_38625270__ のサポートが必要です。__PROTECTED_38625270__ に対応していないシステムでは、クラッシュや重大なレンダリングの問題が発生する可能性があります。"
-        },
-        {
-          "title": "Steam Deck で Proton 9.0.4 を使用する",
-          "description": "Steam Deck で入力や起動の挙動に問題がある場合は、互換性設定を強制し、Proton 9.0.4 に切り替えてください。"
-        },
-        {
-          "title": "クラッシュログを収集する",
-          "description": "Windows の「ファイル名を指定して実行」を開き、「%APPDATA%」を貼り付けて、lucid blocks/logs フォルダに移動し、トラブルシューティング用の .txt ファイルを収集してください。"
-        },
-        {
-          "title": "問題を正しく報告する",
-          "description": "公式 Discord の bug-reports フォーラム、または Steam コミュニティページで、ログとデバイスの詳細を共有してください。"
+          "section": "Spearhead 後のウォッチリスト",
+          "date": "after 2026-03-31",
+          "summary": "公式ニュースフィードは、コアローンチ以降のフォローアップ作業をすでに示唆しています。",
+          "highlights": [
+            "Spearhead 以降のパッチで NVIDIA DLSS 4.5 を計画",
+            "長期ロードマップは引き続き Battle Forge、Shadow Strike、Rising Tensions、Ground Zero を指針としています",
+            "開発者は引き続き Gray Zone Warfare を成長し続けるタクティカルサンドボックスとして位置づけています"
+          ]
         }
       ]
     }
@@ -756,177 +1240,197 @@
   "faq": {
     "title": "よくある",
     "titleHighlight": "質問",
-    "subtitle": "Lucid Blocks に関するすべての情報",
+    "subtitle": "Gray Zone Warfare について知っておくべきすべてのこと",
     "questions": [
       {
-        "question": "Lucid Blocks はシングルプレイヤーゲームですか？",
-        "answer": "はい。Lucid Blocks はシングルプレイヤー専用のゲームであり、マルチプレイヤーや協力プレイの予定はありません。"
+        "question": "Gray Zone Warfare とは何ですか？",
+        "answer": "Gray Zone Warfare は、MADFINGER Games が開発した PvE 重視のオープンワールド・タクティカル・エクスストラクション・シューターです。2024年4月30日に Steam 早期アクセスで開始され、プレイヤーは PMC オペレーターとして Lamang Island で活動します。"
       },
       {
-        "question": "Lucid Blocks における Apotheosis システムとは何ですか？",
-        "answer": "Apotheosis は Lucid Blocks のフリーフォーム・フュージョン・クラフトシステムです。決まったレシピに従うのではなく、素材を組み合わせて独自のクラフトパスを発見していきます。"
+        "question": "Gray Zone Warfare には PvP モードがありますか？",
+        "answer": "はい。Gray Zone Warfare には 2 つのモードがあります：Warfare（ライバル派閥同士が交戦できる完全な PvPvE）と Joint Operations（敵対プレイヤーとの遭遇がない PvE 専用）。キャラクターの進行状況は両方のモードで共有されます。"
       },
       {
-        "question": "Lucid Blocks はどこでプレイできますか？",
-        "answer": "Lucid Blocks は現在、Windows向けに Steam で配信されています。Linuxおよび Steam Deckへの対応は、Proton 9.0を通じて提供されています。"
+        "question": "Gray Zone Warfare にはどのような派閥がありますか？",
+        "answer": "Gray Zone Warfare には 3 つのプレイ可能な PMC 派閥があります：Crimson Shield International（初期の町：Kiu Vongsa）、Mithras Security Systems（初期の町：Nam Thaven）、Lamang Recovery Initiative（初期の町：Pha Lang）。同じ分隊のプレイヤーは同じ派閥を選択する必要があります。"
       },
       {
-        "question": "Lucid Blocks の価格はいくらですか？",
-        "answer": "Lucid Blocks は Steam で9.99ドルです。"
+        "question": "Gray Zone Warfare のタスクはどのように機能しますか？",
+        "answer": "タスクは、Handshake、Gunny、Lab Rat などのベンダーから与えられるミッションです。タスクを完了すると、経験値、現金、アイテム、およびベンダーの評判を獲得できます。評判が高まると、より良いベンダーの在庫がアンロックされます。Update 0.4 Spearhead では 100 以上の新しいタスクと契約が追加され、合計で 250 を超えました。"
       },
       {
-        "question": "Lucid Blocks はコントローラーに対応していますか？",
-        "answer": "はい。ただし、メニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。キーボードとマウスの方がスムーズに操作できます。"
+        "question": "Gray Zone Warfare Update 0.4 Spearhead とは何ですか？",
+        "answer": "Spearhead は、2026年3月31日にローンチされる大規模な 0.4 アップデートです。25 以上の新しいロケーション、7 つの再設計された AI 派閥、100 以上の新しいタスク、武器と弾道の完全なシステムリワーク、新しいオンボーディングエリア、および 110 ページを超えるゲーム内フィールドマニュアルが追加されます。"
       },
       {
-        "question": "Lucid Blocks のアップデートはありますか？",
-        "answer": "はい。リリース後にいくつかのコンテンツアップデートを予定していますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
+        "question": "Gray Zone Warfare にはいくつかのエディションがありますか？",
+        "answer": "Gray Zone Warfare は 4 つのエディションで利用可能です：Standard（10x25 ロッカー、2x2 ロックボックス）、Tactical（10x35 ロッカー、SMG パッケージ）、Elite（10x45 ロッカー、DMR パッケージ、3x2 ロックボックス）、Supporter（10x60 ロッカー、3x3 ロックボックス、すべての DLC、限定コスメティック）。"
       }
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "title": "Lamang Island を支配する準備はいいですか？",
+    "description": "ガイド、アップデート、分隊の調整のために、Discord の Gray Zone Warfare コミュニティに参加しましょう！",
+    "joinCommunity": "Discord に参加",
+    "joinGame": "Steam でプレイ"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
+    "title": "Gray Zone Warfare Wiki",
+    "description": "Gray Zone Warfare のマップ、タスク、鍵、ベンダー、武器、弾薬、パッチガイドに関する完全なリソースハブです。",
     "resources": "リソース",
     "community": "コミュニティ",
     "legal": "法的情報",
     "discord": "Discord",
-    "twitter": "X / Twitter",
+    "twitter": "Reddit",
     "steamCommunity": "Steam コミュニティ",
     "steamStore": "Steam ストア",
-    "about": "このサイトについて",
+    "about": "概要",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
-    "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
+    "copyrightNotice": "著作権表示",
+    "copyright": "© 2026 Gray Zone Warfare Wiki. MADFINGER Games とは提携していません。",
     "disclaimer": "非公式のファン作成リソースサイトです。"
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks 攻略ガイド",
-      "description": "初心者向けの基本から、高度な Apotheosis 戦略まで網羅した完全攻略ガイド。サバイバルとクラフトを極めましょう。",
-      "metaTitle": "Lucid Blocks 攻略ガイド - 初心者から上級者向けの戦略",
-      "metaDescription": "初心者向けのヒント、Apotheosis システム、サバイバル戦略、そしてシュールなサンドボックスの世界を攻略するための専門的な戦術を網羅した Lucid Blocks 完全ガイド。",
-      "categoryLabel": "ゲームガイド",
-      "whatIs": "ガイドとは？",
-      "whatIsDescription": "ゲームの仕組み、サバイバル戦略、Apotheosis クラフトシステムを網羅した包括的なガイド。最初の一歩から高度なテクニックまで、すべてを学びましょう。",
-      "why": "なぜガイドを読むのか？",
+    "guide": {
+      "title": "Gray Zone Warfare ガイド",
+      "description": "初心者の生存、派閥の選択、健康管理、脱出戦略、Lamang Island での上級戦術を網羅した Gray Zone Warfare の包括的なガイド。",
+      "metaTitle": "Gray Zone Warfare ガイド - 初心者から上級戦術まで",
+      "metaDescription": "完全なガイドコレクションで Gray Zone Warfare をマスターしましょう。初心者の生存のヒント、派閥の比較、脱出戦略、Lamang Island での上級 PMC 戦術。",
+      "categoryLabel": "タクティカルガイド",
+      "whatIs": "ガイドとは何ですか？",
+      "whatIsDescription": "Lamang Island への最初の出撃から、高度な脱出ルート、ベンダーのレベル上げ、戦闘の意思決定まで、Gray Zone Warfare のゲームプレイのあらゆる側面をカバーするステップバイステップのガイド。",
+      "why": "なぜ Gray Zone Warfare ガイドを使用するのですか？",
       "whySteps": {
-        "step1Title": "基本システムを学ぶ",
-        "step1Description": "Apotheosis システムを理解し、初心者が陥りやすいミスを回避しましょう",
-        "step2Title": "素早い進行",
-        "step2Description": "シュールな世界で生き残り、繁栄するための実証済みの道筋を辿りましょう",
-        "step3Title": "戦略を極める",
-        "step3Description": "探索とクラフトのための高度な戦術を身につけましょう"
+        "step1Title": "最初のレイドを生き残る",
+        "step1Description": "脱出の流れ、回復の基本、そして初心者が陥りやすい最も一般的な間違いを避ける方法を学びます",
+        "step2Title": "進行を加速させる",
+        "step2Description": "実証済みのベンダーレベル上げとタスク完了手順に従って、より良い装備をより早くアンロックします",
+        "step3Title": "戦闘の意思決定をマスターする",
+        "step3Description": "いつ攻めるか、いつ脱出するか、そしてリアルタイムで戦術的な状況をどのように読み取るかを理解します"
       },
-      "featured": "注目・必須ガイド",
+      "featured": "Gray Zone Warfare 必須ガイド",
       "all": "すべてのガイド"
     },
-    "crafting": {
-      "title": "Lucid Blocks クラフト",
-      "description": "エッセンスの仕組み、レシピ、強力なアイテムを作るためのクラフト戦略など、Apotheosis 合成システムをマスターしましょう。",
-      "metaTitle": "Lucid Blocks クラフト - Apotheosis システムとレシピ",
-      "metaDescription": "Lucid Blocks の Apotheosis クラフトシステムを極める。エッセンスの仕組み、合成レシピ、強力な道具や武器を作るための戦略を学びましょう。",
-      "categoryLabel": "クラフトシステム",
-      "whatIs": "クラフトとは？",
-      "whatIsDescription": "Apotheosis システムは、最大6つのアイテムを組み合わせて新しいレシピを発見する、独自のエッセンス駆動型合成メカニズムです。固定されたクラフトメニューはなく、実験が鍵となります。",
-      "why": "なぜクラフトを極めるのか？",
+    "map": {
+      "title": "Gray Zone Warfare マップ",
+      "description": "Gray Zone Warfare における Lamang Island のインタラクティブマップ、POI ロケーション、LZ コールサイン、グリッド座標、および地域ガイド。",
+      "metaTitle": "Gray Zone Warfare マップ - Lamang Island POI ＆ ロケーションガイド",
+      "metaDescription": "POI ロケーション、LZ コールサイン、グリッド座標、Lamang Island の地域ガイドを含む Gray Zone Warfare マップを探索しましょう。タスクの場所や脱出ポイントを見つけます。",
+      "categoryLabel": "マップガイド",
+      "whatIs": "Gray Zone Warfare マップとは何ですか？",
+      "whatIsDescription": "初期の町から終盤の軍事施設まで、Lamang Island のすべての主要エリアに関する POI、ランディングゾーン、敵のティア、グリッド座標、およびルート計画をカバーする地域ガイド。",
+      "why": "なぜ Gray Zone Warfare マップガイドを使用するのですか？",
       "whySteps": {
-        "step1Title": "強力なアイテムをアンロック",
-        "step1Description": "合成を通じて、不可欠な道具、武器、移動用装備を発見しましょう",
-        "step2Title": "エッセンスを理解する",
-        "step2Description": "アイテムのエッセンスがどのように組み合わさり、予測可能な結果を生み出すかを学びましょう",
-        "step3Title": "リソースを最適化",
-        "step3Description": "希釈メカニズムを使用して、安価な材料から出力を最大化しましょう"
+        "step1Title": "タスクの場所を素早く見つける",
+        "step1Description": "グリッド参照と POI マーカーを使用して、迷うことなくタスクの目標を特定します",
+        "step2Title": "効率的なルートを計画する",
+        "step2Description": "どの LZ が目標に最も近いか、どの地域がリスクを冒す価値があるかを知ることができます",
+        "step3Title": "価値の高いエリアで生き残る",
+        "step3Description": "出撃する前に、軍事ゾーンにおける敵の密度とプレイヤーの往来を把握します"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのクラフトガイド"
+      "featured": "必須マップガイド",
+      "all": "すべてのマップガイド"
     },
-    "items": {
-      "title": "Lucid Blocks アイテム",
-      "description": "道具、武器、移動用装備、収納ソリューションを網羅した詳細なアイテムガイド。クラフトレシピや使い方のヒントも掲載。",
-      "metaTitle": "Lucid Blocks アイテム - 道具、武器、装備ガイド",
-      "metaDescription": "道具、武器、移動用装備、収納を含む Lucid Blocks の完全アイテムデータベース。各アイテムを効果的に作り、使用する方法を学びましょう。",
-      "categoryLabel": "アイテム＆装備",
-      "whatIs": "アイテムとは？",
-      "whatIsDescription": "道具、武器、移動用装備、機能的なアイテムに関する包括的なガイド。クラフトレシピ、使用戦略、最適な組み合わせを学びましょう。",
-      "why": "なぜアイテムガイドをチェックするのか？",
+    "quests": {
+      "title": "Gray Zone Warfare クエスト",
+      "description": "アイテムの場所、鍵の要件、多段階の目標、ベンダーの評判報酬など、すべての Gray Zone Warfare クエストラインのタスクガイド。",
+      "metaTitle": "Gray Zone Warfare クエスト - タスクガイドと目標",
+      "metaDescription": "詳細なタスクガイドで Gray Zone Warfare のすべてのクエストを完了しましょう。全ミッションのアイテムの場所、鍵の要件、ルートのヒント、ベンダーの評判報酬を掲載。",
+      "categoryLabel": "クエストガイド",
+      "whatIs": "Gray Zone Warfare のクエストとは？",
+      "whatIsDescription": "Gray Zone Warfare の全ミッションのタスクガイド。アイテムの出現場所、必要な鍵、多段階の目標手順、完了時に獲得できるベンダーの評判報酬を網羅しています。",
+      "why": "なぜ Gray Zone Warfare のクエストガイドを使うのか？",
       "whySteps": {
-        "step1Title": "クラフトレシピを学ぶ",
-        "step1Description": "Apotheosis を使用して、不可欠な道具や武器をクラフトする方法を発見しましょう",
-        "step2Title": "装備を最適化",
-        "step2Description": "プレイスタイルや進行状況に合わせて最適なアイテムを選びましょう",
-        "step3Title": "生存率を高める",
-        "step3Description": "移動用装備や武器を装備して、危険な世界を探索しましょう"
+        "step1Title": "タスクを効率的に完了",
+        "step1Description": "出撃前に正確なアイテムの出現場所と目標ゾーンを把握",
+        "step2Title": "無駄な出撃を避ける",
+        "step2Description": "必要な鍵や前提タスクを確認し、準備不足での出撃を防止",
+        "step3Title": "ベンダーの進行を最大化",
+        "step3Description": "価値の高いベンダー在庫や評判ティアをアンロックするクエストチェーンを優先"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのアイテム"
+      "featured": "注目のクエストガイド",
+      "all": "すべてのクエストガイド"
     },
-    "biomes": {
-      "title": "Lucid Blocks バイオーム",
-      "description": "世界の各地域、環境の特徴、リソースの場所、各バイオームでのサバイバルのヒントを探索しましょう。",
-      "metaTitle": "Lucid Blocks バイオーム - 世界の地域と探索",
-      "metaDescription": "ティアマナ・レイライン、Fog Meadow、シュールな地域を含む Lucid Blocks のバイオームを探索。リソースを見つけ、危険を回避し、無限の世界を旅しましょう。",
-      "categoryLabel": "世界の地域",
-      "whatIs": "バイオームとは？",
-      "whatIsDescription": "世界のさまざまな地域、環境の特徴、リソースの分布、危険地帯に関するガイド。各エリアで何が待ち受けているか、どのように準備すべきかを学びましょう。",
-      "why": "なぜバイオームを探索するのか？",
+    "weapons": {
+      "title": "Gray Zone Warfare の武器とアーマー",
+      "description": "Gray Zone Warfare オペレーター向けの武器プラットフォームガイド、アーマーティアリスト、口径比較、ビルド推奨。",
+      "metaTitle": "Gray Zone Warfare の武器とアーマー - 完全ビルドガイド",
+      "metaDescription": "完全ガイドで Gray Zone Warfare の武器とアーマーをマスターしましょう。口径ファミリー、アーマーティアリスト、アタッチメントビルド、あらゆるプレイスタイルに対応したロードアウト推奨。",
+      "categoryLabel": "武器＆アーマーガイド",
+      "whatIs": "Gray Zone Warfare における武器とアーマーとは？",
+      "whatIsDescription": "Gray Zone Warfare の主要な武器ファミリーと NIJ 定格アーマーシステムのプラットフォームガイド。口径、射撃モード、アタッチメントスロット、プレートの定格、役割に応じたロードアウトの構築方法を解説。",
+      "why": "なぜ Gray Zone Warfare の武器・アーマーガイドを使うのか？",
       "whySteps": {
-        "step1Title": "リソースを見つける",
-        "step1Description": "各地域特有の希少な材料やエッセンスの場所を特定しましょう",
-        "step2Title": "危険を回避",
-        "step2Description": "環境の危険や敵対的な生物について理解しましょう",
-        "step3Title": "探索を計画",
-        "step3Description": "各バイオームのタイプに合わせて、適切な道具と装備を準備しましょう"
+        "step1Title": "適切なプラットフォームを選択",
+        "step1Description": "マガジンやアタッチメントに投資する前に、口径ファミリーと射撃モードを理解",
+        "step2Title": "脅威レベルに合わせたアーマー",
+        "step2Description": "予想される敵の装備やゾーンに基づいて、持参すべき NIJ プレートの定格を把握",
+        "step3Title": "役割に合わせたビルド",
+        "step3Description": "ソロ、スクワッド、PvE、または PvEvP など、プレイスタイルに合わせて武器とアーマーを選択"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのバイオーム"
+      "featured": "注目の武器＆アーマーガイド",
+      "all": "すべての武器＆アーマーガイド"
     },
-    "building": {
-      "title": "Lucid Blocks 建築",
-      "description": "クオリア個人次元、拠点建築、収納管理、クリエイティブな建設テクニックをマスターしましょう。",
-      "metaTitle": "Lucid Blocks 建築 - クオリアと拠点建設",
-      "metaDescription": "クオリア個人次元、拠点建設、収納ソリューション、クリエイティブな建築テクニックなど、Lucid Blocks の建築を極めましょう。",
-      "categoryLabel": "建築＆拠点",
-      "whatIs": "建築とは？",
-      "whatIsDescription": "クオリア個人次元システム、拠点建設、収納管理、クリエイティブな建築に関するガイド。シュールな世界の中に自分だけの安息の地を作る方法を学びましょう。",
-      "why": "なぜ拠点を建てるのか？",
+    "update": {
+      "title": "Gray Zone Warfare アップデート",
+      "description": "Spearhead 0.4 アップデートを含む、すべての Gray Zone Warfare リリースのパッチノート、開発ログ、アップデートロードマップ、バージョン履歴。",
+      "metaTitle": "Gray Zone Warfare アップデート - パッチノートとロードマップ 2026",
+      "metaDescription": "Gray Zone Warfare の最新アップデート情報をチェック。Spearhead 0.4 パッチノート、開発ログの要約、ロードマップの節目、主要リリースの完全なバージョン履歴。",
+      "categoryLabel": "アップデートノート",
+      "whatIs": "Gray Zone Warfare のアップデートとは？",
+      "whatIsDescription": "各バージョンでの変更点（システムの刷新、新コンテンツ、マップの拡張、AI のオーバーホール、今後の開発ロードマップ）を網羅したパッチノートと開発ログの要約。",
+      "why": "なぜ Gray Zone Warfare のアップデートを追うのか？",
       "whySteps": {
-        "step1Title": "安全な場所を作る",
-        "step1Description": "収納やクラフト作業のための安全な拠点を確立しましょう",
-        "step2Title": "リソースを管理",
-        "step2Description": "収納ソリューションを使用して、材料を効率的に整理しましょう",
-        "step3Title": "クオリアをアンロック",
-        "step3Description": "究極の利便性を備えた個人のポケット次元にアクセスしましょう"
+        "step1Title": "出撃前に最新情報を確認",
+        "step1Description": "最新パッチでの変更点（新メカニクス、ベンダーのバランス調整、戦利品テーブルの変更など）を把握",
+        "step2Title": "大型パッチに備える",
+        "step2Description": "経済のリセットや大幅な進行状況の変更が含まれるアップデートを理解",
+        "step3Title": "今後のコンテンツを追跡",
+        "step3Description": "ロードマップを確認して、次に登場する新しい場所、タスクチェーン、システムを把握"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべての建築ガイド"
+      "featured": "最新の Gray Zone Warfare アップデート",
+      "all": "すべてのアップデートノート"
     },
-    "support": {
-      "title": "Lucid Blocks サポート",
-      "description": "テクニカルサポート、プラットフォームの互換性、パフォーマンスの最適化、一般的な問題のトラブルシューティング。",
-      "metaTitle": "Lucid Blocks サポート - テクニカルヘルプと修正",
-      "metaDescription": "Steam Deck のセットアップ、クラッシュの修正、パフォーマンスの最適化、プラットフォームの互換性ガイドなど、Lucid Blocks のテクニカルサポートを受けられます。",
-      "categoryLabel": "テクニカルサポート",
-      "whatIs": "サポートとは？",
-      "whatIsDescription": "プラットフォームの互換性、パフォーマンスの最適化、クラッシュの修正、一般的な問題を網羅したテクニカルガイド。Steam Deck、マルチプレイヤーに関する質問、設定などのヘルプ。",
-      "why": "なぜサポートをチェックするのか？",
+    "technical": {
+      "title": "Gray Zone Warfare テクニカルガイド",
+      "description": "2026年に Gray Zone Warfare をスムーズに動作させるためのシステム要件、最適化のヒント、クラッシュ修正、パフォーマンスガイド。",
+      "metaTitle": "Gray Zone Warfare テクニカルガイド - システム要件と修正",
+      "metaDescription": "テクニカルガイドで Gray Zone Warfare のクラッシュを修正し、パフォーマンスを最適化し、システム要件を確認。2026年の Spearhead 0.4 ビルドに対応。",
+      "categoryLabel": "テクニカルガイド",
+      "whatIs": "Gray Zone Warfare のテクニカルガイドとは？",
+      "whatIsDescription": "Gray Zone Warfare を可能な限りスムーズに動作させるための、システム要件の詳細、ゲーム内の最適化設定、クラッシュのトラブルシューティング、パフォーマンス調整ガイド。",
+      "why": "なぜ Gray Zone Warfare のテクニカルガイドを使うのか？",
       "whySteps": {
-        "step1Title": "技術的な問題を解決",
-        "step1Description": "クラッシュ、パフォーマンスの問題、互換性の問題を解決しましょう",
-        "step2Title": "パフォーマンスを最適化",
-        "step2Description": "お使いのプラットフォームで最高の体験を得るために設定を構成しましょう",
-        "step3Title": "プラットフォームの互換性",
-        "step3Description": "Steam Deck、コントローラーのサポート、システム要件について学びましょう"
+        "step1Title": "購入前に確認",
+        "step1Description": "購入前に、お使いのハードウェアが最小または推奨スペックを満たしているか Steam で確認",
+        "step2Title": "クラッシュを解消",
+        "step2Description": "最も一般的な安定性の問題を解決するために、特定のトラブルシューティング手順に従う",
+        "step3Title": "フレームレートを最大化",
+        "step3Description": "ハードウェアの層に合わせて、パフォーマンスと視覚品質のバランスをとる適切な設定を適用"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのサポート記事"
+      "featured": "注目のテクニカルガイド",
+      "all": "すべてのテクニカルガイド"
+    },
+    "platform": {
+      "title": "Gray Zone Warfare プラットフォームガイド",
+      "description": "Supporter Edition の詳細、オフラインおよび Joint Operations プレイ、PC プラットフォームの詳細、購入ガイド。",
+      "metaTitle": "Gray Zone Warfare プラットフォームガイド - エディションと PC ガイド",
+      "metaDescription": "PC 版 Gray Zone Warfare のすべて。Supporter Edition の特典、Joint Operations のオフラインスタイルプレイ、エディションの比較、プラットフォーム固有のガイド。",
+      "categoryLabel": "プラットフォームガイド",
+      "whatIs": "Gray Zone Warfare のプラットフォームガイドとは？",
+      "whatIsDescription": "Gray Zone Warfare のエディションの違い、Joint Operations やオフラインスタイルのプレイオプション、購入の推奨事項、PC システムに関する考慮事項を網羅したプラットフォーム固有のガイド。",
+      "why": "なぜ Gray Zone Warfare のプラットフォームガイドを使うのか？",
+      "whySteps": {
+        "step1Title": "適切なエディションを選択",
+        "step1Description": "投資額を決める前に、Supporter Edition に含まれる内容を理解",
+        "step2Title": "オフラインスタイルのプレイを探索",
+        "step2Description": "敵対する PMC のプレッシャーなしでプレイできる Joint Operations について学ぶ（マップの学習に最適）",
+        "step3Title": "PC 向けに最適化",
+        "step3Description": "Steam Deck や PC ハードウェアで安定したパフォーマンスを確保するための、プラットフォーム固有のセットアップのヒントを入手"
+      },
+      "featured": "注目のプラットフォームガイド",
+      "all": "すべてのプラットフォームガイド"
     }
   }
 }
