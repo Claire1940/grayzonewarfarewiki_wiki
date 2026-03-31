@@ -514,12 +514,22 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="money-guide" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <DollarSign className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+                {t.modules.gzwMoneyGuide.eyebrow}
+              </span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <LinkedTitle linkData={moduleLinkMap['gzwMoneyGuide']} locale={locale}>
                 {t.modules.gzwMoneyGuide.title}
               </LinkedTitle>
             </h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.gzwMoneyGuide.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground/70 max-w-2xl mx-auto leading-relaxed">
               {t.modules.gzwMoneyGuide.intro}
             </p>
           </div>
@@ -551,12 +561,22 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="weapons-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Crosshair className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+                {t.modules.gzwWeaponsGuide.eyebrow}
+              </span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <LinkedTitle linkData={moduleLinkMap['gzwWeaponsGuide']} locale={locale}>
                 {t.modules.gzwWeaponsGuide.title}
               </LinkedTitle>
             </h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.gzwWeaponsGuide.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground/70 max-w-2xl mx-auto leading-relaxed">
               {t.modules.gzwWeaponsGuide.intro}
             </p>
           </div>
@@ -590,12 +610,22 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="ammo-guide" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Target className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+                {t.modules.gzwAmmoGuide.eyebrow}
+              </span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <LinkedTitle linkData={moduleLinkMap['gzwAmmoGuide']} locale={locale}>
                 {t.modules.gzwAmmoGuide.title}
               </LinkedTitle>
             </h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.gzwAmmoGuide.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground/70 max-w-2xl mx-auto leading-relaxed">
               {t.modules.gzwAmmoGuide.intro}
             </p>
           </div>
@@ -629,12 +659,22 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="vendors-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <ShoppingCart className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+                {t.modules.gzwVendorsGuide.eyebrow}
+              </span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <LinkedTitle linkData={moduleLinkMap['gzwVendorsGuide']} locale={locale}>
                 {t.modules.gzwVendorsGuide.title}
               </LinkedTitle>
             </h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.gzwVendorsGuide.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground/70 max-w-2xl mx-auto leading-relaxed">
               {t.modules.gzwVendorsGuide.intro}
             </p>
           </div>

@@ -489,8 +489,10 @@
       ]
     },
     "gzwMoneyGuide": {
+      "eyebrow": "Economy",
       "title": "Gray Zone Warfare Money Guide",
-      "intro": "Recover your cash flow with repeatable starter tasks, better loot priorities, and cleaner sell decisions. A good recovery loop: run a nearby task, loot efficiently, sell intelligently, and restock instead of overbuilding a kit.",
+      "subtitle": "Recover your cash flow with repeatable starter tasks, better loot priorities, and cleaner sell decisions. This module focuses on routes and actions that create money without forcing high-risk fights.",
+      "intro": "Money in Gray Zone Warfare comes from two reliable sources: task rewards and disciplined looting. Early tasks already provide cash, reputation, and useful items, while weapon containers and valuables can be sold through the FOB vendor network. A good recovery loop is simple: run a nearby task, loot efficiently, sell intelligently, and use the next payout to restock instead of overbuilding a kit.",
       "items": [
         {
           "step": 1,
@@ -538,8 +540,10 @@
       ]
     },
     "gzwWeaponsGuide": {
+      "eyebrow": "Weapons",
       "title": "Gray Zone Warfare Weapons Guide",
-      "intro": "Track the core rifle platforms, their calibers, and where each family fits into the weapon pool. Weapon choice now matters more than ever after Update 0.4 reworked weight, sway, ADS behavior, and ballistics.",
+      "subtitle": "Track the core rifle platforms, their calibers, and where each family fits into the broader weapon pool. The goal is to help players quickly understand platform differences before investing in magazines, ammo, and attachments.",
+      "intro": "Gray Zone Warfare's weapon ecosystem is built around caliber families, compatible magazines, and attachment ecosystems. The official weapon pages and vendor pages show which platforms exist in the game, while the latest Spearhead devlog confirms that weight, sway, ADS behavior, reload handling, and ballistics all matter more in the current direction of the game. That means weapon choice is not just about raw firepower anymore.",
       "items": [
         {
           "name": "AK-12",
@@ -611,8 +615,10 @@
       ]
     },
     "gzwAmmoGuide": {
+      "eyebrow": "Ammo",
       "title": "Gray Zone Warfare Ammo Guide",
-      "intro": "Use this caliber overview to connect ammo families to the weapons that fire them. Caliber awareness is one of the easiest ways to avoid bad loadout mistakes before investing in magazines and attachments.",
+      "subtitle": "Use this caliber overview to connect ammo families to the weapons that fire them. It gives players a practical map for inventory planning, magazine selection, and cross-platform ammo sharing.",
+      "intro": "Ammo choice in Gray Zone Warfare is tied directly to weapon platform and magazine compatibility. The game wiki's ammunition overview shows which calibers are used by which rifles, DMRs, and bolt-action weapons, while the latest devlog confirms that ballistics and overall ammo viability are being reworked in Spearhead. That makes caliber awareness one of the easiest ways to avoid bad loadout mistakes.",
       "items": [
         {
           "caliber": ".300 AAC Blackout",
@@ -653,8 +659,10 @@
       ]
     },
     "gzwVendorsGuide": {
+      "eyebrow": "Vendors",
       "title": "Gray Zone Warfare Vendors Guide",
-      "intro": "Vendors are the backbone of Gray Zone Warfare progression. They sell gear, buy looted items, and unlock better stock as your reputation climbs. Smart progression means leveling the vendor that opens the category you need next.",
+      "subtitle": "See what each vendor specializes in, which tasks unlock extra access, and how vendor reputation gates better stock. This makes progression planning much easier when you want a specific type of gear instead of random upgrades.",
+      "intro": "Vendors are the backbone of Gray Zone Warfare progression. They sell gear, buy looted items, and unlock better stock as your reputation climbs. The vendor pages also show that several traders are linked by task chains, so smart progression means not only earning reputation, but doing it with the vendor that opens the category you want next.",
       "items": [
         {
           "vendor": "Handshake",
