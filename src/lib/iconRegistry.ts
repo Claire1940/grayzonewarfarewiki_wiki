@@ -27,6 +27,16 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Star: LucideIcons.Star,
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
+  MapPin: LucideIcons.MapPin,
+  Key: LucideIcons.Key,
+  Crosshair: LucideIcons.Crosshair,
+  Target: LucideIcons.Target,
+  ShoppingCart: LucideIcons.ShoppingCart,
+  Heart: LucideIcons.Heart,
+  Layers: LucideIcons.Layers,
+  Navigation: LucideIcons.Navigation,
+  Map: LucideIcons.Map,
+  DollarSign: LucideIcons.DollarSign,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
