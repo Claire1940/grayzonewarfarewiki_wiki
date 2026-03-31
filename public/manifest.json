@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Gray Zone Warfare Wiki - Map, Tasks, Keys & Weapons",
+  "short_name": "GZW Wiki",
+  "description": "Gray Zone Warfare Wiki with maps, tasks, keys, vendors, weapons, ballistics, loot routes, and patch guides for PvE and PvEvP operators on Lamang Island.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#2e6644",
   "background_color": "#0a0a0a",
   "icons": [
     {
