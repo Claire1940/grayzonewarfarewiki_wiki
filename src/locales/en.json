@@ -709,8 +709,10 @@
       ]
     },
     "gzwHealthSystemGuide": {
+      "eyebrow": "Survival Systems",
       "title": "Gray Zone Warfare Health System Guide",
-      "intro": "Gray Zone Warfare uses a body-part and vital-pool system instead of a simple HP bar. A player can look alive for a moment and still collapse if bleeding, organ damage, or dehydration is not handled in the right order.",
+      "subtitle": "Gray Zone Warfare uses a body-part and vital-pool system instead of a simple HP bar. The fastest way to survive is to identify the root problem and use the correct treatment item immediately.",
+      "intro": "In Gray Zone Warfare, wounds, bruises, organ damage, blood loss, pain, and hydration all interact with each other. A player can look alive for a moment and still collapse if bleeding, organ damage, or dehydration is not handled in the right order. This guide is built for quick mid-raid reference so players can match a symptom to the right fix.",
       "items": [
         {
           "section": "Core Health Model",
@@ -800,7 +802,9 @@
       ]
     },
     "gzwFactionsGuide": {
+      "eyebrow": "PMC Choice",
       "title": "Gray Zone Warfare Factions Guide",
+      "subtitle": "Gray Zone Warfare has three playable PMCs with different lore, base camp positions, starter towns, and task routing. Your faction choice also decides whether you can squad up with specific friends.",
       "intro": "Faction choice is not just cosmetic. It affects your starting side of the map, your accessible early routes, and parts of your task flow. The most important rule for groups: everyone must be in the same faction.",
       "items": [
         {
@@ -843,8 +847,10 @@
       ]
     },
     "gzwArmorGuide": {
+      "eyebrow": "Protection",
       "title": "Gray Zone Warfare Armor Guide",
-      "intro": "Armor effectiveness depends on NIJ class, where the plates actually cover your body, and what material the armor is made from. Paying more does not automatically mean better protection in every situation.",
+      "subtitle": "Armor effectiveness depends on NIJ class, where the plates actually cover your body, and what material the armor is made from. Paying more does not automatically mean better protection in every situation.",
+      "intro": "The game uses NIJ-style armor classes and a location-based plate system. When you inspect an armor piece, the important question is not only the class number but also whether the plate protects the front and back areas you are likely to expose. Material matters too, because different armor types resist rounds differently even when durability changes.",
       "rows": [
         {
           "name": "Commander (Navy)",
@@ -904,8 +910,10 @@
       ]
     },
     "gzwBestLoadouts": {
+      "eyebrow": "Builds",
       "title": "Gray Zone Warfare Best Loadouts",
-      "intro": "The most useful Gray Zone Warfare loadouts are kits built around survival, extraction, task efficiency, armor coverage, medical readiness, and the right amount of mobility — not flashy theorycraft builds.",
+      "subtitle": "The most useful Gray Zone Warfare loadouts are not flashy theorycraft builds. They are kits built around survival, extraction, task efficiency, armor coverage, medical readiness, and the right amount of mobility.",
+      "intro": "This module focuses on real deployment archetypes players actually use: a cheap beginner rifle setup, a quiet solo PvE kit, a heavier squad combat build, and an objective-first task run setup. Each one is designed around proven game systems such as stamina, hydration, suppression, armor coverage, and medical preparedness.",
       "items": [
         {
           "name": "Beginner Budget Run",

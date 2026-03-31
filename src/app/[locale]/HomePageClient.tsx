@@ -714,12 +714,22 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="health-system-guide" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Heart className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+                {t.modules.gzwHealthSystemGuide.eyebrow}
+              </span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <LinkedTitle linkData={moduleLinkMap['gzwHealthSystemGuide']} locale={locale}>
                 {t.modules.gzwHealthSystemGuide.title}
               </LinkedTitle>
             </h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.gzwHealthSystemGuide.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground/70 max-w-2xl mx-auto leading-relaxed">
               {t.modules.gzwHealthSystemGuide.intro}
             </p>
           </div>
@@ -748,12 +758,22 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="factions-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Users className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+                {t.modules.gzwFactionsGuide.eyebrow}
+              </span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <LinkedTitle linkData={moduleLinkMap['gzwFactionsGuide']} locale={locale}>
                 {t.modules.gzwFactionsGuide.title}
               </LinkedTitle>
             </h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.gzwFactionsGuide.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground/70 max-w-2xl mx-auto leading-relaxed">
               {t.modules.gzwFactionsGuide.intro}
             </p>
           </div>
@@ -783,12 +803,22 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="armor-guide" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Shield className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+                {t.modules.gzwArmorGuide.eyebrow}
+              </span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <LinkedTitle linkData={moduleLinkMap['gzwArmorGuide']} locale={locale}>
                 {t.modules.gzwArmorGuide.title}
               </LinkedTitle>
             </h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.gzwArmorGuide.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground/70 max-w-2xl mx-auto leading-relaxed">
               {t.modules.gzwArmorGuide.intro}
             </p>
           </div>
@@ -830,12 +860,22 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
       <section id="best-loadouts" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full
+                            bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Layers className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-xs font-semibold uppercase tracking-wide text-[hsl(var(--nav-theme-light))]">
+                {t.modules.gzwBestLoadouts.eyebrow}
+              </span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <LinkedTitle linkData={moduleLinkMap['gzwBestLoadouts']} locale={locale}>
                 {t.modules.gzwBestLoadouts.title}
               </LinkedTitle>
             </h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.gzwBestLoadouts.subtitle}
+            </p>
+            <p className="text-sm text-muted-foreground/70 max-w-2xl mx-auto leading-relaxed">
               {t.modules.gzwBestLoadouts.intro}
             </p>
           </div>
