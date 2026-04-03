@@ -1,0 +1,113 @@
+export const metadata = {
+  title: "Gray Zone Warfare Steam Deck: Performance-Leitfaden & Einstellungen 2026",
+  description: "Kann man Gray Zone Warfare auf dem Steam Deck spielen? Entdecken Sie die besten Einstellungen, Performance-Benchmarks und Controller-Layouts für diesen anspruchsvollen UE5-Shooter.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Gray+Zone+Warfare+Steam+Deck",
+  date: "2026-04-03",
+  author: "Gray Zone Warfare Wiki Team"
+}
+
+Gray Zone Warfare hat sich schnell als einer der ehrgeizigsten taktischen Extraction-Shooter auf dem Markt etabliert und verschiebt die Grenzen der Unreal Engine 5. Für Handheld-Enthusiasten ist das **Gray Zone Warfare Steam Deck**-Erlebnis jedoch eine erhebliche Herausforderung, die eine sorgfältige Abstimmung und realistische Erwartungen erfordert. Stand 2026 befindet sich das Spiel weiterhin in einer intensiven Early-Access-Phase. Während die Entwickler von Madfinger Games die Umgebung ständig optimieren, setzt die schiere Größe der Karte von Lamang Island die tragbare Hardware massiv unter Druck.
+
+Derzeit wird die Kompatibilität von **Gray Zone Warfare auf dem Steam Deck** von Valve offiziell als „Nicht unterstützt“ (Unsupported) eingestuft. Diese Klassifizierung resultiert aus einer Kombination von hohen Hardwareanforderungen, dem Fehlen nativer Controller-Unterstützung und der starken Abhängigkeit des Spiels vom Arbeitsspeicher. In diesem Leitfaden erklären wir genau, wie Sie das Spiel zum Laufen bringen, welche Leistung Sie erwarten können und welche spezifischen Einstellungen erforderlich sind, um das Erlebnis unterwegs halbwegs spielbar zu machen.
+
+## Aktuelle Kompatibilität und Performance-Übersicht
+
+Einen High-Fidelity-Titel der Unreal Engine 5 auf einem Handheld-Gerät auszuführen, ist keine kleine Leistung. Gray Zone Warfare nutzt fortschrittliche Funktionen wie Global Illumination und komplexes Rendering von Vegetation, die traditionell High-End-Desktop-GPUs vorbehalten sind. Auf dem Steam Deck ist der primäre Flaschenhals die Architektur des gemeinsamen Speichers. Mit nur 16 GB RAM, die sich System und GPU teilen müssen, stößt das Spiel oft an eine „Speicherwand“, was zu Rucklern und niedrigen Bildraten führt.
+
+| Metrik | Erwartete Leistung (Steam Deck) | Anmerkungen |
+|---|---|---|
+| **Durchschnittliche FPS** | 15 - 25 FPS | Stark abhängig von den FSR-Einstellungen |
+| **Auflösung** | 800p (Intern 400p) | Erfordert 50% Auflösungsskalierung |
+| **RAM-Auslastung** | 14,5 GB+ | Sehr nah am physischen Limit von 16 GB |
+| **VRAM-Zuweisung** | 6,0 GB - 7,0 GB | Dynamisch verwaltet durch SteamOS |
+| **Controller-Unterstützung** | Keine (Nativ) | Erfordert Steam Input Mapping |
+
+> **Warnung:** Aufgrund der niedrigen Bildrate und der hohen Latenz ist das Spielen im PvP-Modus (Player vs Player) auf dem Steam Deck extrem schwierig. Es wird dringend empfohlen, auf einem Handheld bei „Joint Operations“ (PvE) zu bleiben.
+
+## Optimierte Grafikeinstellungen für das Steam Deck
+
+Um eine Bildrate zu erreichen, die sich 30 FPS annähert, müssen Sie bei Ihren Einstellungen aggressiv vorgehen. Das Spiel unterstützt FSR (FidelityFX Super Resolution) und Frame Generation, aber diese Technologien haben Grenzen, wenn die Basis-Bildrate bereits sehr niedrig ist. Die Verwendung von Frame Generation bei einer Basis-FPS von unter 30 kann zu signifikantem Input-Lag führen, wodurch sich das taktische Gunplay „schwammig“ anfühlt.
+
+Befolgen Sie diese Schritte, um Ihre Grafik für die bestmöglichen Ergebnisse zu konfigurieren:
+
+| Einstellung | Empfohlener Wert | Auswirkung |
+|---|---|---|
+| **Qualitäts-Voreinstellung** | Benutzerdefiniert / Niedrig | Essenziell für Stabilität |
+| **Kantenglättung (AA)** | FSR 3.0 | Zwingend erforderlich für Upscaling |
+| **FSR-Modus** | Performance | Rendert mit 50% Auflösung |
+| **Frame Generation** | Ein (Optional) | Erhöht die visuelle Flüssigkeit, fügt aber Lag hinzu |
+| **Texturqualität** | Niedrig | Hilft, innerhalb der VRAM-Limits zu bleiben |
+| **Globale Beleuchtung** | Niedrig | Reduziert die GPU-Rechenlast |
+| **Schattenqualität** | Niedrig | Signifikanter FPS-Gewinn |
+| **Vegetationsqualität** | Niedrig | Kritisch für die Dschungelumgebungen |
+
+Obwohl das Spiel bei einer Auflösungsskalierung von 50 % (effektiv 400p, hochskaliert auf 800p) unscharf aussehen kann, ist dies derzeit die einzige Möglichkeit, in dichten Dschungelgebieten eine Bildrate über der 15-FPS-Marke zu halten.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/kkDtkUpyHKc"
+    title="The MOST DEMANDING UE5 Game on Steam Deck - Gray Zone Warfare"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Umgang mit den Controller-Einschränkungen
+
+Eine der größten Hürden für die **Gray Zone Warfare Steam Deck**-Community ist das Fehlen nativer Gamepad-Unterstützung. Gray Zone Warfare ist ein „Hardcore“-Shooter mit einer Vielzahl von Tastaturbelegungen zum Lehnen, Überprüfen von Magazinen, Anpassen der Duckhöhe und Verwalten eines komplexen Inventars.
+
+Da das Spiel die Tasten des Steam Decks nicht als Controller erkennt, müssen Sie das Steam Input-System verwenden, um Tastatur- und Mausbefehle auf die Eingaben Ihres Handhelds abzubilden.
+
+1. **Trackpads nutzen:** Mappen Sie das rechte Trackpad auf „Maus“ für präzises Zielen.
+2. **Rücktasten (Back Paddles):** Weisen Sie den Tasten L4, L5, R4 und R5 wichtige Funktionen wie „Nachladen“ (R), „Interagieren“ (F) und „Lehnen“ (Q/E) zu.
+3. **Radialmenüs:** Erstellen Sie ein virtuelles Radialmenü auf dem linken Trackpad, um auf das Inventar (Tab), die Karte (M) und den Gesundheitsstatus zuzugreifen.
+4. **Gyro-Zielen:** Aktivieren Sie Gyro-zu-Maus für die Feinabstimmung von Schüssen, was bei niedrigeren Bildraten lebenswichtig ist.
+
+> **💡 Tipp:** Suchen Sie im Menü „Controller-Einstellungen“ des Steam Decks nach Community-Layouts. Suchen Sie nach „GZW Tactical Layout“ für Konfigurationen, die die komplexen Tastaturkürzel bereits abgebildet haben.
+
+## Speichermanagement und SteamOS 3.6+
+
+Der 16 GB große gemeinsame Speicher des Steam Decks ist die größte physische Einschränkung für diesen Titel. Updates in SteamOS (insbesondere Version 3.6 und neuer) haben jedoch die Art und Weise verbessert, wie das System mit „ZRAM“ und speicherbegrenzten Szenarien umgeht. Wenn bei Ihnen häufig Abstürze auf den Desktop auftreten, stellen Sie sicher, dass Ihr System vollständig aktualisiert ist.
+
+Das Spiel nutzt oft bis zu 12,8 GB System-RAM, während es gleichzeitig 6,9 GB VRAM beansprucht. Da sich diese beiden Pools dieselben 16 GB teilen, ist das System gezwungen, ständig Daten auszulagern (Swapping). Dies ist der Grund, warum Sie möglicherweise „matschige Texturen“ oder spät aufpappende Objekte sehen. Um dies zu mildern, vermeiden Sie es, Hintergrundanwendungen (wie Browser oder schwere Chat-Apps) während des Spielens laufen zu lassen.
+
+## Linux und Anti-Cheat-Status
+
+Ein positiver Aspekt für die **Gray Zone Warfare Steam Deck**-Nutzerbasis ist, dass die Implementierung von Easy Anti-Cheat (EAC) im Spiel mit Linux und Proton kompatibel ist. Im Gegensatz zu einigen anderen taktischen Shootern, die Linux-Nutzer blockieren, erlaubt Gray Zone Warfare den Beitritt zu offiziellen Servern ohne zusätzliche Workarounds. Solange Sie eine aktuelle Version von Proton Experimental oder Proton GE verwenden, sollte das Spiel ohne Probleme starten und eine Verbindung zum Netzwerk herstellen.
+
+## Zukunftsaussichten für Handheld-Spieler
+
+Während wir uns weiter in das Jahr 2026 bewegen, bleibt der Optimierungsweg für Gray Zone Warfare eine Priorität für die Entwickler. Obwohl das Spiel derzeit „Nicht unterstützt“ wird, könnten mehrere Faktoren dies in Zukunft ändern:
+
+*   **FSR 3.1 und darüber hinaus:** Verbesserungen in der Upscaling-Technologie könnten eine bessere Bildklarheit bei niedrigeren Auflösungen bieten.
+*   **Shader-Pre-Caching:** Sobald Valve mehr Shader-Sets für das Steam Deck kompiliert hat, sollten die anfänglichen Ruckler während der Einsätze abnehmen.
+*   **Dedizierte Handheld-Profile:** Viele Early-Access-Titel fügen schließlich einen „Handheld“- oder „Low Spec“-Modus hinzu, der schwere UE5-Funktionen wie Lumen oder Nanite zugunsten der Performance deaktiviert.
+
+Bis diese Optimierungen eintreffen, sollte das Steam Deck als sekundäre Spielmöglichkeit betrachtet werden – perfekt, um das Lager zu überprüfen, Händler zu verwalten oder leichtes Looting in Gebieten mit geringer Bedrohung durchzuführen, aber vielleicht nicht als Hauptgerät für intensive taktische Operationen.
+
+## FAQ
+
+**F: Ist Gray Zone Warfare offiziell für das Steam Deck „Verifiziert“?**
+
+A: Nein, Stand 2026 wird das Spiel von Valve als „Nicht unterstützt“ gelistet. Es kann zwar laufen, aber die Performance und die fehlende native Controller-Unterstützung verhindern eine Einstufung als „Spielbar“ oder „Verifiziert“.
+
+**F: Warum sieht das Spiel auf dem Steam-Deck-Bildschirm so unscharf aus?**
+
+A: Um eine spielbare Bildrate beizubehalten, müssen Sie FSR im Performance-Modus verwenden. Dabei wird das Spiel mit einer viel niedrigeren internen Auflösung (400p) gerendert und dann hochskaliert. Dies führt zu einem Verlust an feinen Details, insbesondere bei dichter Vegetation.
+
+**F: Kann ich Gray Zone Warfare auf dem Steam Deck ohne Internetverbindung spielen?**
+
+A: Nein, Gray Zone Warfare ist ein persistenter Online-Taktik-Shooter. Sie müssen über eine aktive Internetverbindung verfügen, um sich auf den Servern anzumelden, selbst wenn Sie im Modus „Joint Operations“ (PvE) spielen.
+
+**F: Was ist die beste Proton-Version für Gray Zone Warfare?**
+
+A: Die meisten Nutzer berichten von der besten Stabilität mit **Proton Experimental** oder der neuesten Version von **Proton GE**. Diese Versionen enthalten oft spezifische Korrekturen für neuere Unreal Engine 5-Titel und eine verbesserte Kompatibilität für Easy Anti-Cheat.
+
+**F: Wird das Steam Deck OLED in Gray Zone Warfare besser abschneiden?**
+
+A: Das OLED-Modell verfügt zwar über etwas schnelleren Speicher und einen effizienteren Prozessor, aber die Performance-Gewinne liegen in der Regel nur bei 5-10 %. Der Hauptvorteil des OLED-Modells für dieses Spiel ist der verbesserte Farbkontrast, der dabei hilft, Gegner in dunklen Dschungelschatten zu entdecken.
+
+Für weitere Informationen zu Updates und offiziellen Patches besuchen Sie die [Gray Zone Warfare Steam-Seite](https://store.steampowered.com/app/2477940/Gray_Zone_Warfare/).

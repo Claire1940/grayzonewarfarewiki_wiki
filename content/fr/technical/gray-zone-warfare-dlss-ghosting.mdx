@@ -1,0 +1,130 @@
+export const metadata = {
+  title: "Gray Zone Warfare DLSS Ghosting : Corriger le flou et les problèmes visuels 2026",
+  description: "Apprenez à éliminer le ghosting DLSS dans Gray Zone Warfare, à corriger les textures floues et à optimiser vos paramètres de visibilité pour une expérience tactique optimale.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=GZW+DLSS+Ghosting+Fix",
+  date: "2026-04-03",
+  author: "Gray Zone Warfare Wiki Team"
+}
+
+Atteindre une clarté visuelle maximale dans un shooter d'extraction tactique fait toute la différence entre repérer un "bush-wookie" et revenir à la base dans un sac mortuaire. De nombreux joueurs ont signalé un **ghosting DLSS significatif dans Gray Zone Warfare** ainsi qu'un flou d'image général, ce qui peut gravement entraver les engagements à longue distance. Ces artefacts visuels proviennent souvent de la manière dont le jeu gère les technologies d'upscaling et de génération d'images. Si vous constatez des effets de traînée derrière les objets en mouvement ou une sensation de "barbouillage" lors des rotations de caméra, vous êtes probablement confronté à des problèmes de **ghosting DLSS dans Gray Zone Warfare**.
+
+Dans ce guide, nous allons détailler les paramètres spécifiques causant ces perturbations et fournir un parcours d'optimisation étape par étape pour garantir que votre image reste nette et stable. En ajustant votre résolution 3D, en choisissant les bonnes méthodes d'anti-aliasing et en peaufinant les effets de post-traitement, vous pourrez retrouver la fidélité visuelle requise pour un gameplay tactique à enjeux élevés.
+
+## Comprendre les causes du ghosting dans Gray Zone Warfare
+
+Le ghosting dans les jeux modernes est généralement un sous-produit de l'upscaling temporel. Des technologies comme le DLSS (Deep Learning Super Sampling), le FSR (FidelityFX Super Resolution) et le TSR (Temporal Super Resolution) utilisent les données des images précédentes pour reconstruire l'image actuelle. Bien que cela augmente considérablement le nombre d'images par seconde (FPS), cela peut laisser des "traînées" ou des "fantômes" derrière les objets en mouvement, en particulier dans les environnements à fort contraste comme les jungles denses de l'île de Lamang.
+
+Dans Gray Zone Warfare, les principaux coupables du ghosting et du flou incluent :
+
+1.  **Frame Generation :** Bien qu'elle booste les FPS, elle introduit des images "factices" qui entraînent souvent un ghosting notable lors de mouvements rapides.
+2.  **Basse résolution interne :** Utiliser le DLSS en mode "Performance" ou "Ultra Performance" force le jeu à effectuer le rendu à une résolution de base très basse (ex: 720p ou 540p), ce qui oblige l'upscaler à travailler davantage et produit plus d'artefacts.
+3.  **Variable Rate Shading (VRS) :** Cette technique peut provoquer des scintillements sur les lignes fines, comme les câbles électriques ou les bords du feuillage.
+4.  **Bugs d'illumination globale :** Certains paramètres d'éclairage interagissent mal avec les upscalers, provoquant des ombres qui clignotent ou qui "scintillent" au sol.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/p833fK-sbgg"
+    title="THIS Is Why You Can't See In Gray Zone Warfare! | GZW FSR / DLSS / TSR Settings and FPS Discussion"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Optimisation du DLSS et des paramètres d'upscaling
+
+Pour atténuer le **ghosting DLSS dans Gray Zone Warfare**, vous devez trouver un équilibre entre la résolution native de votre moniteur et la charge de travail de l'upscaler. Si votre matériel le permet, le standard de référence pour la clarté est l'utilisation du **DLAA (Deep Learning Anti-Aliasing)**. Celui-ci fait tourner le jeu à 100 % de la résolution native mais utilise l'algorithme DLSS uniquement pour un anti-aliasing supérieur, éliminant virtuellement le ghosting.
+
+### Ratios de résolution d'upscaling
+
+Le tableau suivant illustre comment les différents modes d'upscaling affectent votre résolution de rendu interne. Plus le pourcentage est bas, plus le risque de rencontrer des artefacts visuels est élevé.
+
+| Mode d'upscaling | Résolution interne (1440p) | Résolution interne (1080p) | Risque de Ghosting |
+| :--- | :--- | :--- | :--- |
+| **Natif / DLAA** | 1440p (100%) | 1080p (100%) | **Le plus bas** |
+| **Qualité** | 960p (67%) | 720p (67%) | Faible |
+| **Équilibré** | 845p (58%) | 626p (58%) | Moyen |
+| **Performance** | 720p (50%) | 540p (50%) | **Élevé** |
+
+> **💡 Conseil :** Si vous jouez en 1080p, évitez d'utiliser le mode "Performance". La résolution de base de 540p est trop basse pour que l'upscaler puisse reconstruire l'image avec précision, ce qui entraîne un flou et un ghosting extrêmes.
+
+## Comment corriger les scintillements et les artefacts d'ombre
+
+Même si vous résolvez le ghosting, vous pourriez remarquer des "scintillements" sur le feuillage ou des ombres clignotantes. Cela est souvent lié aux paramètres d'**Illumination Globale** et de **Variable Rate Shading (VRS)**. Dans la version actuelle de Gray Zone Warfare, régler l'Illumination Globale sur "Bas" peut provoquer un scintillement intense des ombres lorsqu'il est couplé au DLSS ou au FSR.
+
+### Paramètres de qualité recommandés pour la stabilité
+
+| Paramètre | Valeur recommandée | Raison |
+| :--- | :--- | :--- |
+| **Illumination Globale** | **Moyen ou Élevé** | Corrige le clignotement des ombres sur le feuillage et les textures au sol. |
+| **Variable Rate Shading** | **Désactivé** | Empêche le scintillement sur les objets fins comme les fils et les arbres distants. |
+| **Frame Generation** | **Désactivé** | Élimine la source principale de ghosting lié au mouvement. |
+| **Résolution des textures** | **Élevé** | Nécessite plus de 12 Go de VRAM ; réduit le "pop-in" des textures et le flou. |
+
+Si vous trouvez que votre taux de rafraîchissement chute trop bas sans la Frame Generation, envisagez de baisser d'autres paramètres gourmands comme la "Qualité des ombres" ou les "Effets" avant de réactiver les "images factices" qui causent le ghosting.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/EzjFhIA4XRs"
+    title="Fix BLUR and SEE MORE With These GZW Settings! | Gray Zone Warfare Visibility / Image Quality Guide"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Ajustements de post-traitement et de visibilité
+
+Une fois le **ghosting DLSS dans Gray Zone Warfare** minimisé, vous devriez vous concentrer sur la visibilité. L'étalonnage des couleurs par défaut du jeu peut parfois être trop sombre ou délavé, ce qui rend difficile la détection des ennemis dans les ombres.
+
+### Peaufinage des Post-FX
+
+1.  **Gamma :** Augmentez-le de 10 à 15 % (ex: 1.10 ou 1.15). Cela éclaircit les intérieurs sombres et les zones ombragées sans délaver toute l'image.
+2.  **Saturation :** Poussez à 110. Cela aide à distinguer les modèles de joueurs (souvent en vert/beige) de l'environnement de jungle environnant.
+3.  **Contraste :** Maintenez-le entre 85 et 100. Un contraste élevé (au-dessus de 100) rend les ombres d'un noir absolu et les hautes lumières aveuglantes, ce qui nuit au repérage des cibles.
+
+> **⚠️ Attention :** Évitez de trop augmenter le contraste. Bien que cela rende le jeu plus "percutant", cela crée des "noirs bouchés", cachant efficacement les ennemis dans n'importe quelle ombre de plus de quelques centimètres.
+
+## Considérations matérielles avancées
+
+Pour les joueurs possédant des cartes NVIDIA RTX série 40 haut de gamme, s'assurer d'utiliser les derniers fichiers DLL DLSS peut parfois aider. Bien que Madfinger Games mette régulièrement le jeu à jour, certains utilisateurs réussissent en mettant à jour manuellement leur fichier `nvngx_dlss.dll` via des outils tiers comme DLSS Swapper. Cependant, vérifiez toujours la [page Steam officielle de Gray Zone Warfare](https://store.steampowered.com/app/2477940/Gray_Zone_Warfare/) pour les derniers correctifs avant de modifier les fichiers du jeu.
+
+### Gestion de la VRAM
+
+Le flou des textures est souvent confondu avec le ghosting. Si votre GPU possède 8 Go de VRAM ou moins, régler les textures sur "Élevé" entraînera une saturation de la mémoire, menant à des textures floues et basse résolution qui ne se chargent jamais complètement.
+
+*   **8 Go VRAM :** Utilisez des textures Basses ou Moyennes.
+*   **12 Go VRAM :** Moyennes ou Élevées (surveillez les saccades).
+*   **16 Go+ VRAM :** Élevées ou Epiques.
+
+## Liste récapitulative pour une clarté maximale
+
+Suivez ces étapes dans l'ordre pour obtenir l'image la plus claire possible en 2026 :
+
+1.  **Sélectionnez DLSS** comme upscaler principal (si vous utilisez une carte NVIDIA).
+2.  **Réglez la Super Résolution** sur "DLAA" si vos FPS sont stables, ou "Qualité" si vous avez besoin d'un boost.
+3.  **Désactivez la Frame Generation** pour supprimer la source principale de ghosting.
+4.  **Désactivez le Variable Rate Shading (VRS)** pour arrêter les scintillements.
+5.  **Réglez l'Illumination Globale** sur au moins Moyen pour stabiliser les ombres.
+6.  **Ajustez le Gamma** à 1.10 pour une meilleure visibilité dans les coins sombres.
+
+## FAQ
+
+**Q : Pourquoi ma lunette est-elle floue lorsque je vise dans Gray Zone Warfare ?**
+
+R : C'est généralement causé par une résolution 3D réglée trop bas via l'upscaling. Si vous utilisez le mode DLSS Performance, le jeu effectue le rendu de la vue de la lunette à une résolution très basse avant de l'agrandir. Passer au mode DLSS Qualité ou au DLAA rendra vos optiques nettement plus nettes.
+
+**Q : Est-ce que le FSR a moins de ghosting que le DLSS dans GZW ?**
+
+R : Généralement, non. Le DLSS gère mieux la stabilité temporelle que le FSR 3.0. Cependant, l'implémentation du FSR dans Gray Zone Warfare s'est améliorée. Si vous avez une carte AMD, assurez-vous d'utiliser l'option "Native AA" pour éviter l'équivalent du **ghosting DLSS** présent dans l'upscaling FSR.
+
+**Q : Puis-je corriger le ghosting sans perdre de FPS ?**
+
+R : C'est un compromis. Le ghosting est plus présent dans les modes "Performance" qui offrent les FPS les plus élevés. Pour réduire le ghosting, vous devez augmenter la résolution de rendu (mode Qualité) ou désactiver la Frame Generation, ce qui réduira votre taux de rafraîchissement. De petits ajustements aux "Ombres" et au "Post-traitement" peuvent aider à regagner une partie de ces performances perdues.
+
+**Q : Y a-t-il un paramètre spécifique de "Flou de mouvement" (Motion Blur) à désactiver ?**
+
+R : Oui, vous devriez toujours désactiver le Motion Blur dans les paramètres graphiques. Bien qu'il ne cause pas de ghosting au sens technique, il ajoute une couche de flou artificiel lors des mouvements qui rend beaucoup plus difficile le suivi des cibles dans un environnement tactique.

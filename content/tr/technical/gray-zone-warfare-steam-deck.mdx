@@ -1,0 +1,113 @@
+export const metadata = {
+  title: "Gray Zone Warfare Steam Deck: Performans Rehberi ve Ayarlar 2026",
+  description: "Gray Zone Warfare Steam Deck'te çalışır mı? Bu zorlayıcı UE5 nişancı oyunu için en iyi ayarları, performans testlerini ve kontrolcü düzenlerini keşfedin.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Gray+Zone+Warfare+Steam+Deck",
+  date: "2026-04-03",
+  author: "Gray Zone Warfare Wiki Ekibi"
+}
+
+Gray Zone Warfare, Unreal Engine 5'in sınırlarını zorlayarak piyasadaki en iddialı taktiksel extraction nişancı oyunlarından biri olarak kendini hızla kanıtladı. Ancak, el konsolu meraklıları için **gray zone warfare steam deck** deneyimi, dikkatli bir ayarlama ve gerçekçi beklentiler gerektiren önemli bir zorluktur. 2026 itibarıyla oyun yoğun bir Erken Erişim aşamasında kalmaya devam ediyor ve Madfinger Games'teki geliştiriciler ortamı sürekli optimize etseler de, Lamang Adası haritasının devasa ölçeği taşınabilir donanım üzerinde muazzam bir baskı oluşturuyor.
+
+Şu anda, **gray zone warfare steam deck** uyumluluğu Valve tarafından resmi olarak \"Desteklenmiyor\" olarak listelenmiştir. Bu sınıflandırma; yüksek donanım gereksinimleri, yerel kontrolcü desteğinin eksikliği ve oyunun sistem belleğine olan aşırı bağımlılığının birleşiminden kaynaklanmaktadır. Bu rehberde, oyunu tam olarak nasıl çalıştıracağınızı, hangi performansı bekleyebileceğinizi ve deneyimi hareket halindeyken bir nebze oynanabilir kılmak için kullanmanız gereken özel ayarları detaylandıracağız.
+
+## Mevcut Uyumluluk ve Performans Genel Bakışı
+
+Yüksek kaliteli bir Unreal Engine 5 yapımını bir el cihazında çalıştırmak küçümsenecek bir iş değildir. Gray Zone Warfare, geleneksel olarak üst düzey masaüstü GPU'lar için ayrılmış olan Küresel Aydınlatma (Global Illumination) ve karmaşık bitki örtüsü işleme gibi gelişmiş özellikleri kullanır. Steam Deck'te birincil darboğaz, birleşik bellek mimarisidir. Sistem ve GPU arasında paylaşılan yalnızca 16 GB RAM ile oyun sık sık bir \"bellek duvarına\" çarparak takılmalara ve düşük kare hızlarına neden olur.
+
+| Metrik | Beklenen Performans (Steam Deck) | Notlar |
+|---|---|---|
+| **Ortalama FPS** | 15 - 25 FPS | FSR ayarlarına yüksek oranda bağlıdır |
+| **Çözünürlük** | 800p (Dahili 400p) | %50 Çözünürlük Ölçeği gerektirir |
+| **RAM Kullanımı** | 14.5 GB+ | 16 GB fiziksel sınıra çok yakın |
+| **VRAM Tahsisi** | 6.0 GB - 7.0 GB | SteamOS tarafından dinamik olarak yönetilir |
+| **Kontrolcü Desteği** | Yok (Yerel) | Steam Girdisi Ataması gerektirir |
+
+> **Uyarı:** Düşük kare hızı ve yüksek gecikme süresi nedeniyle, Steam Deck'te PvP (Oyuncuya Karşı Oyuncu) modunda oynamak son derece zordur. El konsolunda oynarken Ortak Operasyonlara (PvE) bağlı kalmanız şiddetle tavsiye edilir.
+
+## Steam Deck İçin Optimize Edilmiş Grafik Ayarları
+
+30 FPS'ye yaklaşan bir kare hızına ulaşmak için ayarlarınızda agresif olmalısınız. Oyun, FSR (FidelityFX Super Resolution) ve Kare Oluşturma (Frame Generation) desteği içerir ancak bu teknolojilerin taban kare hızı zaten çok düşük olduğunda sınırları vardır. Taban FPS'niz 30'un altındayken Kare Oluşturma kullanmak, taktiksel silahlı çatışmaların \"hantal\" hissettirmesine neden olan önemli bir giriş gecikmesine yol açabilir.
+
+Mümkün olan en iyi sonuçlar için grafiklerinizi yapılandırmak üzere şu adımları izleyin:
+
+| Ayar | Önerilen Değer | Etki |
+|---|---|---|
+| **Kalite Önayarı** | Özel / Düşük | Kararlılık için temel gereklilik |
+| **Kenar Yumuşatma** | FSR 3.0 | Ölçekleme için zorunlu |
+| **FSR Modu** | Performans | %50 çözünürlükte işleme yapar |
+| **Kare Oluşturma** | Açık (İsteğe Bağlı) | Görsel akıcılığı artırır ancak gecikme ekler |
+| **Doku Kalitesi** | Düşük | VRAM sınırları içinde kalmaya yardımcı olur |
+| **Küresel Aydınlatma** | Düşük | GPU işlem yükünü azaltır |
+| **Gölge Kalitesi** | Düşük | Önemli FPS kazancı sağlar |
+| **Bitki Örtüsü Kalitesi** | Düşük | Orman ortamları için kritiktir |
+
+Oyun %50 çözünürlük ölçeğinde (etkili bir şekilde 800p'ye yükseltilmiş 400p) bulanık görünse de, yoğun ormanlık alanlarda 15 FPS sınırının üzerinde kalan bir kare hızını korumanın şu andaki tek yolu budur.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/kkDtkUpyHKc"
+    title="The MOST DEMANDING UE5 Game on Steam Deck - Gray Zone Warfare"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Kontrolcü Sınırlamasının Üstesinden Gelme
+
+**gray zone warfare steam deck** topluluğu için en büyük engellerden biri yerel gamepad desteğinin olmamasıdır. Gray Zone Warfare; eğilme, şarjör kontrolü, çömelme yüksekliğini ayarlama ve karmaşık bir envanteri yönetme gibi çok sayıda tuş atamasına sahip \"hardcore\" bir nişancı oyunudur.
+
+Oyun, Steam Deck'in düğmelerini bir kontrolcü olarak tanımadığı için klavye ve fare komutlarını el cihazınızın girişlerine atamak için Steam Girdisi (Steam Input) sistemini kullanmalısınız.
+
+1.  **İzleme Panellerini (Trackpads) Kullanın:** Hassas nişan alma için sağ izleme panelini \"Fare\" olarak atayın.
+2.  **Arka Düğmeler (Back Paddles):** L4, L5, R4 ve R5 düğmelerini 'Şarjör Değiştirme' (R), 'Etkileşim' (F) ve 'Eğilme' (Q/E) gibi temel tuşlara atayın.
+3.  **Radyal Menüler:** Envanter (Tab), Harita (M) ve sağlık durumuna erişmek için sol izleme panelinde sanal bir radyal menü oluşturun.
+4.  **Gyro Nişan Alma:** Düşük kare hızlarında oynarken hayati önem taşıyan hassas atışlar için Gyro-to-Mouse özelliğini etkinleştirin.
+
+> **💡 İpucu:** Steam Deck \"Kontrolcü Ayarları\" menüsünde topluluk tarafından oluşturulmuş kontrolcü düzenlerine bakın. Karmaşık klavye kısayollarını zaten atamış olan konfigürasyonlar için \"GZW Tactical Layout\" araması yapın.
+
+## Bellek Yönetimi ve SteamOS 3.6+
+
+Steam Deck'in 16 GB birleşik belleği, bu oyun için en büyük fiziksel kısıtlamadır. Ancak SteamOS güncellemeleri (özellikle sürüm 3.6 ve sonrası), sistemin \"ZRAM\" ve bellek kısıtlı senaryoları işleme biçimini iyileştirdi. Sık sık masaüstüne çökme yaşıyorsanız, sisteminizin tamamen güncel olduğundan emin olun.
+
+Oyun genellikle 12,8 GB'a kadar sistem RAM'i kullanırken aynı zamanda 6,9 GB VRAM talep eder. Bu iki havuz aynı 16 GB'ı paylaştığı için sistem sürekli veri takas etmeye zorlanır. Bu durum, \"bozuk dokular\" veya nesnelerin geç yüklenmesi gibi sorunları görmenizin nedenidir. Bunu hafifletmek için oyun oynarken arka planda herhangi bir uygulama (tarayıcılar veya ağır sohbet uygulamaları gibi) çalıştırmaktan kaçının.
+
+## Linux ve Anti-Cheat Durumu
+
+**gray zone warfare steam deck** kullanıcı kitlesi için olumlu bir not, oyunun Easy Anti-Cheat (EAC) uygulamasının Linux ve Proton ile uyumlu olmasıdır. Linux kullanıcılarını engelleyen diğer bazı taktiksel nişancı oyunlarının aksine, Gray Zone Warfare herhangi bir ek çözüm gerektirmeden resmi sunuculara katılmanıza izin verir. Proton Experimental veya Proton GE'nin güncel bir sürümünü kullandığınız sürece oyun sorunsuz bir şekilde açılmalı ve ağa bağlanmalıdır.
+
+## El Konsolu Oyuncuları İçin Gelecek Beklentileri
+
+2026'ya doğru ilerlerken, Gray Zone Warfare için optimizasyon yolu geliştiriciler için bir öncelik olmaya devam ediyor. Oyun şu anda \"Desteklenmiyor\" olsa da, gelecekte birkaç faktör bunu değiştirebilir:
+
+*   **FSR 3.1 ve Ötesi:** Yükseltme teknolojisindeki iyileştirmeler, düşük çözünürlüklerde daha iyi görüntü netliği sağlayabilir.
+*   **Gölgelendirici (Shader) Önbelleğe Alma:** Valve, Steam Deck için daha fazla gölgelendirici seti derledikçe, konuşlandırmalar sırasındaki ilk takılmalar azalacaktır.
+*   **Özel El Konsolu Profilleri:** Birçok Erken Erişim oyunu, sonunda Lumen veya Nanite gibi ağır UE5 özelliklerini performans lehine devre dışı bırakan bir \"El Konsolu\" veya \"Düşük Özellikli\" mod ekler.
+
+Bu optimizasyonlar gelene kadar Steam Deck, ikincil bir oynama yolu olarak düşünülmelidir; zulanızı kontrol etmek, satıcılarınızı yönetmek veya düşük tehditli alanlarda hafif yağma yapmak için mükemmeldir, ancak yoğun taktiksel operasyonlar için birincil cihaz olmayabilir.
+
+## SSS
+
+**S: Gray Zone Warfare resmi olarak Steam Deck için \"Onaylı\" mı?**
+
+C: Hayır, 2026 itibarıyla oyun Valve tarafından \"Desteklenmiyor\" olarak listelenmiştir. Çalışabilse de, performans ve yerel kontrolcü desteği eksikliği, Oynanabilir veya Onaylı derecesi almasını engellemektedir.
+
+**S: Oyun Steam Deck ekranında neden bu kadar bulanık görünüyor?**
+
+C: Oynanabilir bir kare hızını korumak için, oyunu çok daha düşük bir dahili çözünürlükte (400p) işleyen ve ardından ölçeklendiren Performans modunda FSR kullanmalısınız. Bu, özellikle yoğun bitki örtüsünde ince detay kaybına neden olur.
+
+**S: Gray Zone Warfare'i Steam Deck'te internet bağlantısı olmadan oynayabilir miyim?**
+
+C: Hayır, Gray Zone Warfare kalıcı bir çevrimiçi taktiksel nişancı oyunudur. Ortak Operasyonlar (PvE) modunda oynuyor olsanız bile sunuculara giriş yapmak için aktif bir internet bağlantınız olmalıdır.
+
+**S: Gray Zone Warfare için en iyi Proton sürümü hangisidir?**
+
+C: Çoğu kullanıcı **Proton Experimental** veya **Proton GE**'nin en son sürümünü kullanarak en iyi kararlılığı bildirmektedir. Bu sürümler genellikle yeni Unreal Engine 5 oyunları için özel düzeltmeler ve Easy Anti-Cheat için geliştirilmiş uyumluluk içerir.
+
+**S: Steam Deck OLED, Gray Zone Warfare'de daha iyi performans gösterir mi?**
+
+C: OLED modeli biraz daha hızlı belleğe ve daha verimli bir işlemciye sahip olsa da, performans kazanımları genellikle %5-10 arasındadır. OLED modelinin bu oyun için birincil avantajı, karanlık orman gölgelerindeki düşmanları tespit etmeye yardımcı olan gelişmiş renk kontrastıdır.
+
+Güncellemeler ve resmi yamalar hakkında daha fazla bilgi için [Gray Zone Warfare Steam Sayfasını](https://store.steampowered.com/app/2477940/Gray_Zone_Warfare/) ziyaret edin.
