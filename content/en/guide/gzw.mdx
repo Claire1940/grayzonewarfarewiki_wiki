@@ -1,0 +1,121 @@
+export const metadata = {
+  title: "GZW: Complete Update 0.4.1 Patch Notes & Gameplay Guide 2026",
+  description: "Explore the massive changes in Gray Zone Warfare Update 0.4.1. From ballistics overhauls to AI fixes, learn how to master the latest GZW tactical meta.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=GZW+Update+0.4.1+Guide",
+  date: "2026-04-18",
+  author: "Gray Zone Warfare Wiki Team"
+}
+
+The tactical landscape of Lamang Island has shifted once again with the release of the Spearhead expansion and the subsequent 0.4.1 balancing patch. For players dedicated to **gzw**, these updates represent a fundamental shift in how combat, ballistics, and AI interactions function within the open-world environment. Whether you are a veteran PMC or a new recruit, understanding the nuances of **gzw** terminal ballistics and the recent fixes to weapon zeroing is essential for survival in high-risk zones like Tiger Bay and Midnight Sapphire.
+
+This guide provides a comprehensive breakdown of the latest technical adjustments, gameplay refinements, and strategic shifts introduced in 2026. We will dive deep into the specific "math" behind bullet penetration, the long-awaited fixes for optic zeroing, and how the revamped AI behavior changes your approach to tactical engagements.
+
+## Ballistics Overhaul: Impact Angles and Ricochets
+
+The most significant change in the 0.4.1 update involves the complex ballistic system that defines the lethality of every encounter. Previously, players reported "tanky" AI and inconsistent hit registration where well-placed shots failed to neutralize targets. The developers have addressed this by adjusting the effect of impact angles on overall bullet penetration performance.
+
+In earlier versions, steep impact angles often resulted in disproportionate damage reduction or unintended ricochets. The new system ensures that the "feel" of the game matches the visual feedback. If you land a shot on a vital area, the internal calculations now better prioritize penetration over deflection, especially when dealing with armor and biological structures.
+
+| Feature | Previous Behavior (Pre-0.4.1) | Updated Behavior (Patch 0.4.1) |
+| :--- | :--- | :--- |
+| **Ricochet Probability** | Extremely high, even on soft surfaces and bones. | Reduced frequency; more predictable deflection. |
+| **Impact Angles** | Steep angles caused massive penetration loss. | Adjusted math to favor lethality at off-angles. |
+| **Bone Interactions** | Bones could cause bullets to bounce internally. | Less likely to bounce off bones that should be penetrable. |
+| **Kill Consistency** | Inconsistent due to "adamantium" AI skulls. | Higher reliability for head and torso vitals. |
+
+> **💡 Tip:** Even with the ricochet reduction, always aim for the "T-box" on the head or the center mass of the chest to ensure the highest probability of bypassing armor and reaching vital organs.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/SPPxFz_Pbhc"
+    title="Gray Zone Warfare Update 0.4.1 - Massive Changes Explained"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Weapon Zeroing and Optic Fixes
+
+For long-range marksmen in **gzw**, the zeroing bug was perhaps the most frustrating technical hurdle. Before the 0.4.1 patch, many players noticed that their zeroing would reset to default values immediately after leaving the Aim Down Sights (ADS) view. This led to shots consistently hitting low, even when the target was within the intended range.
+
+The update has fully resolved the convergence point issues between the scope and the bullet's ballistic trajectory. This means that if you set your M700 or M4 to a 200-meter zero, that setting will persist through movement and re-aiming. 
+
+### Key Optic Improvements:
+*   **Zeroing Persistence:** Your manual adjustments no longer reset when you stop aiming.
+*   **Scope Compatibility:** Previously un-zeroable scopes have been fixed to allow for full range adjustment.
+*   **ADS Clarity:** Fixes to NPC model resolution when viewed through high-magnification optics at a distance.
+
+## AI Behavior and Combat Engagement
+
+The AI in **gzw** has received a "lethality" adjustment that players must be wary of. A critical bug was fixed where NPCs would hesitate to shoot after regaining visibility of a player. While this pause previously gave players a "grace period" to reposition, the AI will now engage almost immediately upon re-establishing a line of sight.
+
+| AI State | Modification Detail | Tactical Impact |
+| :--- | :--- | :--- |
+| **Engagement Speed** | Removed the delay after regaining visibility. | Peeking the same corner twice is now extremely dangerous. |
+| **Idle State Bug** | Fixed rare instances of AI "freezing" in place. | Expect all NPCs in an area to be active and reactive. |
+| **Unreachable Areas** | Fixed AI unresponsiveness to players in "glitched" spots. | AI will now track your last known position more effectively. |
+| **Hit Reactions** | Reduced severe "wacky inflatable man" reactions to buckshot. | Targets react more realistically to shotgun blasts. |
+
+## Technical Optimizations and UI Enhancements
+
+Beyond the combat mechanics, the 0.4.1 update focuses heavily on the stability and quality of life for the **gzw** community. Memory optimizations on the server side aim to reduce the performance degradation often seen during long sessions or in high-density areas like the Tiger Bay Mall.
+
+### Loot and Economy Adjustments
+The developers have updated the loot spawn chances for various valuable items across Lamang. While specific percentage changes aren't always disclosed, the goal is to make high-tier locations more rewarding for the risk involved. Additionally, the "wallet bug"—which caused critical errors when stacking uneven amounts of currency—has been resolved.
+
+### User Interface Fixes:
+1.  **Blood Level Indicator:** The UI now accurately reflects your actual blood level, preventing "surprise" comas.
+2.  **Backpack Stacking:** Fixed an exploit/bug where backpacks containing weapons could be nested indefinitely, which previously caused inventory corruption.
+3.  **Task Statistics:** Decision-based tasks are no longer counted twice in your completion statistics.
+
+> **⚠️ Warning:** Be cautious when moving items within container detail windows. While many bugs were fixed, the complex inventory system can still occasionally desync if items are moved too rapidly during server lag.
+
+## Exploring the Digital Editions of Gray Zone Warfare
+
+For those looking to enhance their experience, the various digital editions provide different starting advantages. It is important to note that these editions are sold as standalone keys and do not currently offer a discounted upgrade path on all platforms.
+
+| Edition | Locker Size | Secure Lockbox | Additional Perks |
+| :--- | :--- | :--- | :--- |
+| **Base Game** | 10x25 | 2x2 | Standard starting equipment. |
+| **Tactical Edition** | 10x35 | 2x2 | Expanded storage for hoarding rare loot. |
+| **Elite Edition** | 10x45 | 3x3 (Estimated) | Maximum storage and unique equipment. |
+| **Supporter Edition** | 10x60 | 3x3 | Access to Update Previews and exclusive cosmetics. |
+
+You can find more details on the [official Gray Zone Warfare website](https://www.grayzonewarfare.com/) regarding current pricing and seasonal events.
+
+## Environmental and Sound Refinements
+
+The immersion of **gzw** relies heavily on its audio-visual fidelity. The 0.4.1 patch addressed several "immersion breakers" that had plagued the community since the Spearhead launch.
+
+*   **Breathing and Heartbeat:** The volume and frequency of breathing sounds while running have been tuned down to be less intrusive during long treks.
+*   **Helicopter Audio:** A strange bug where helicopter sounds would mute when opening the statistics menu has been fixed.
+*   **Map Geometry:** Invisible collisions near the Tiger Bay Mall and the "bullet-proof" staircases in the Midnight Sapphire Hotel have been removed, allowing for fairer firefights in these vertical environments.
+
+## Summary of Strategy Changes for 2026
+
+With these changes, the meta for **gzw** has shifted toward precision and patience. The fix to zeroing means that long-range sniping is more viable than ever, but the increased AI reaction speed means you cannot afford to miss your first shot. 
+
+1.  **Respect the AI:** Treat every NPC as a legitimate threat that can and will headshot you if you linger in their line of sight.
+2.  **Master Your Zero:** Spend time at the firing range in the base camp to learn the new convergence points for your favorite optics.
+3.  **Loot Smart:** With the valuable item spawn rates adjusted, focus on clearing out high-tier residential areas and locked rooms for the best ROI on your kits.
+
+## FAQ
+
+**Q: Did the GZW 0.4.1 update improve FPS?**
+
+A: Yes, the patch included several server-side memory optimizations and fixed a rare bug that limited players to 15 FPS after respawning. While individual results vary based on hardware, general stability has seen an upward trend in 2026.
+
+**Q: Can I still ricochet bullets off the ground into enemies?**
+
+A: While ricochets are still part of the complex ballistic system, the frequency has been reduced to prevent "ping-pong" bullets. It is no longer a reliable strategy to rely on ground deflections for kills.
+
+**Q: How do I fix the "Critical Error" when moving money in my wallet?**
+
+A: This issue was specifically addressed in Patch 0.4.1. Ensure your game is updated to the latest version via Steam to eliminate the error when handling partial stacks of currency.
+
+**Q: Why are my shots still hitting low after the update?**
+
+A: Check your zeroing distance. If you are zeroed for 100m but shooting at a target at 50m, your bullet will hit slightly low or high depending on the bore height of your optic. The patch fixed the bug where the zeroing *reset*, but manual range estimation is still required.

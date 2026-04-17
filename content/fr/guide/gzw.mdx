@@ -1,0 +1,121 @@
+export const metadata = {
+  title: "GZW : Notes de mise à jour 0.4.1 complètes et guide de gameplay 2026",
+  description: "Explorez les changements massifs de la mise à jour 0.4.1 de Gray Zone Warfare. De la refonte de la balistique aux corrections de l'IA, apprenez à maîtriser la nouvelle méta tactique de GZW.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=GZW+Update+0.4.1+Guide",
+  date: "2026-04-18",
+  author: "Équipe du Wiki Gray Zone Warfare"
+}
+
+Le paysage tactique de l'île de Lamang a encore une fois évolué avec la sortie de l'extension Spearhead et du patch d'équilibrage 0.4.1 qui a suivi. Pour les joueurs dévoués à **gzw**, ces mises à jour représentent un changement fondamental dans le fonctionnement des combats, de la balistique et des interactions avec l'IA au sein de l'environnement en monde ouvert. Que vous soyez un vétéran des PMC ou une nouvelle recrue, comprendre les nuances de la balistique terminale de **gzw** et les récentes corrections apportées au réglage du zéro des armes est essentiel pour survivre dans les zones à haut risque comme Tiger Bay et Midnight Sapphire.
+
+Ce guide propose une analyse complète des derniers ajustements techniques, des affinements du gameplay et des changements stratégiques introduits en 2026. Nous plongerons dans les détails mathématiques de la pénétration des balles, les corrections tant attendues pour le réglage des optiques, et la manière dont le comportement repensé de l'IA modifie votre approche des engagements tactiques.
+
+## Refonte de la balistique : angles d'impact et ricochets
+
+Le changement le plus significatif de la mise à jour 0.4.1 concerne le système balistique complexe qui définit la létalité de chaque rencontre. Auparavant, les joueurs signalaient une IA trop résistante ("tanky") et un enregistrement des impacts incohérent, où des tirs bien placés ne parvenaient pas à neutraliser les cibles. Les développeurs ont remédié à cela en ajustant l'effet des angles d'impact sur la performance globale de pénétration des balles.
+
+Dans les versions précédentes, les angles d'impact prononcés entraînaient souvent une réduction disproportionnée des dégâts ou des ricochets imprévus. Le nouveau système garantit que le "ressenti" du jeu correspond au retour visuel. Si vous touchez une zone vitale, les calculs internes donnent désormais la priorité à la pénétration plutôt qu'à la déviation, en particulier face aux protections balistiques et aux structures biologiques.
+
+| Fonctionnalité | Comportement précédent (Pré-0.4.1) | Comportement mis à jour (Patch 0.4.1) |
+| :--- | :--- | :--- |
+| **Probabilité de ricochet** | Extrêmement élevée, même sur les surfaces molles et les os. | Fréquence réduite ; déviation plus prévisible. |
+| **Angles d'impact** | Les angles prononcés causaient une perte massive de pénétration. | Mathématiques ajustées pour favoriser la létalité sur les angles indirects. |
+| **Interactions avec les os** | Les os pouvaient faire rebondir les balles à l'intérieur du corps. | Moins de chances de rebondir sur des os qui devraient être pénétrables. |
+| **Cohérence des éliminations** | Incohérente à cause des crânes en "adamantium" de l'IA. | Fiabilité accrue pour les points vitaux de la tête et du torse. |
+
+> **💡 Conseil :** Même avec la réduction des ricochets, visez toujours la "T-box" sur la tête ou le centre de masse du torse pour garantir la plus haute probabilité de traverser l'armure et d'atteindre les organes vitaux.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/SPPxFz_Pbhc"
+    title="Gray Zone Warfare Update 0.4.1 - Massive Changes Explained"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Réglage du zéro et corrections des optiques
+
+Pour les tireurs de précision à longue distance dans **gzw**, le bug du réglage du zéro (zeroing) était peut-être l'obstacle technique le plus frustrant. Avant le patch 0.4.1, de nombreux joueurs remarquaient que leur réglage se réinitialisait aux valeurs par défaut immédiatement après avoir quitté la vue de visée (ADS). Cela entraînait des tirs frappant systématiquement trop bas, même lorsque la cible se trouvait à la portée prévue.
+
+La mise à jour a entièrement résolu les problèmes de point de convergence entre la lunette et la trajectoire balistique de la balle. Cela signifie que si vous réglez votre M700 ou votre M4 sur un zéro à 200 mètres, ce réglage persistera malgré les déplacements et les nouvelles visées.
+
+### Améliorations clés des optiques :
+*   **Persistance du zéro :** Vos ajustements manuels ne se réinitialisent plus lorsque vous cessez de viser.
+*   **Compatibilité des lunettes :** Des lunettes auparavant impossibles à régler ont été corrigées pour permettre un ajustement complet de la portée.
+*   **Clarté en visée (ADS) :** Corrections de la résolution des modèles de PNJ lorsqu'ils sont observés à travers des optiques à fort grossissement à distance.
+
+## Comportement de l'IA et engagement au combat
+
+L'IA dans **gzw** a reçu un ajustement de "létalité" dont les joueurs doivent se méfier. Un bug critique a été corrigé : les PNJ hésitaient auparavant à tirer après avoir retrouvé la visibilité sur un joueur. Alors que cette pause offrait auparavant aux joueurs une "période de grâce" pour se repositionner, l'IA engagera désormais le combat presque immédiatement après avoir rétabli une ligne de mire.
+
+| État de l'IA | Détail de la modification | Impact tactique |
+| :--- | :--- | :--- |
+| **Vitesse d'engagement** | Suppression du délai après avoir retrouvé la visibilité. | Sortir deux fois au même coin est désormais extrêmement dangereux. |
+| **Bug d'état inactif** | Correction de cas rares où l'IA restait "figée" sur place. | Attendez-vous à ce que tous les PNJ d'une zone soient actifs et réactifs. |
+| **Zones inaccessibles** | Correction de l'absence de réponse de l'IA face aux joueurs dans des zones "glitchées". | L'IA suivra désormais votre dernière position connue plus efficacement. |
+| **Réactions aux impacts** | Réduction des réactions exagérées de type "bonhomme gonflable" à la chevrotine. | Les cibles réagissent de manière plus réaliste aux tirs de fusil à pompe. |
+
+## Optimisations techniques et améliorations de l'interface
+
+Au-delà des mécanismes de combat, la mise à jour 0.4.1 se concentre lourdement sur la stabilité et la qualité de vie de la communauté **gzw**. Les optimisations de mémoire côté serveur visent à réduire la dégradation des performances souvent observée lors de longues sessions ou dans des zones à haute densité comme le centre commercial de Tiger Bay.
+
+### Ajustements du butin et de l'économie
+Les développeurs ont mis à jour les chances d'apparition (spawn) de divers objets de valeur à travers Lamang. Bien que les pourcentages spécifiques ne soient pas toujours divulgués, l'objectif est de rendre les lieux de haut niveau plus gratifiants compte tenu du risque encouru. De plus, le "bug du portefeuille" — qui causait des erreurs critiques lors de l'empilage de montants de devises inégaux — a été résolu.
+
+### Corrections de l'interface utilisateur :
+1.  **Indicateur de niveau de sang :** L'interface reflète désormais avec précision votre niveau de sang réel, évitant les comas "surprises".
+2.  **Empilage de sacs à dos :** Correction d'un exploit/bug où les sacs à dos contenant des armes pouvaient être imbriqués indéfiniment, ce qui provoquait auparavant une corruption de l'inventaire.
+3.  **Statistiques de tâches :** Les tâches basées sur des décisions ne sont plus comptées deux fois dans vos statistiques de complétion.
+
+> **⚠️ Avertissement :** Soyez prudent lorsque vous déplacez des objets dans les fenêtres de détail des conteneurs. Bien que de nombreux bugs aient été corrigés, le système d'inventaire complexe peut encore occasionnellement se désynchroniser si les objets sont déplacés trop rapidement pendant des lags du serveur.
+
+## Explorer les éditions numériques de Gray Zone Warfare
+
+Pour ceux qui cherchent à améliorer leur expérience, les différentes éditions numériques offrent divers avantages de départ. Il est important de noter que ces éditions sont vendues comme des clés autonomes et ne proposent pas actuellement de mise à niveau à prix réduit sur toutes les plateformes.
+
+| Édition | Taille du casier | Coffre sécurisé | Avantages supplémentaires |
+| :--- | :--- | :--- | :--- |
+| **Jeu de base** | 10x25 | 2x2 | Équipement de départ standard. |
+| **Édition Tactique** | 10x35 | 2x2 | Stockage étendu pour accumuler du butin rare. |
+| **Édition Élite** | 10x45 | 3x3 (Estimé) | Stockage maximum et équipement unique. |
+| **Édition Supporter** | 10x60 | 3x3 | Accès aux aperçus des mises à jour et cosmétiques exclusifs. |
+
+Vous pouvez trouver plus de détails sur le [site officiel de Gray Zone Warfare](https://www.grayzonewarfare.com/) concernant les tarifs actuels et les événements saisonniers.
+
+## Affinements de l'environnement et du son
+
+L'immersion de **gzw** repose largement sur sa fidélité audio-visuelle. Le patch 0.4.1 a corrigé plusieurs "éléments brisant l'immersion" qui tourmentaient la communauté depuis le lancement de Spearhead.
+
+*   **Respiration et battements de cœur :** Le volume et la fréquence des sons de respiration lors de la course ont été réduits pour être moins intrusifs pendant les longs trajets.
+*   **Audio de l'hélicoptère :** Un bug étrange où les sons de l'hélicoptère se coupaient lors de l'ouverture du menu des statistiques a été corrigé.
+*   **Géométrie de la carte :** Les collisions invisibles près du centre commercial de Tiger Bay et les escaliers "pare-balles" de l'hôtel Midnight Sapphire ont été supprimés, permettant des combats plus équitables dans ces environnements verticaux.
+
+## Résumé des changements stratégiques pour 2026
+
+Avec ces changements, la méta de **gzw** s'est orientée vers la précision et la patience. La correction du réglage du zéro signifie que le tir de précision à longue distance est plus viable que jamais, mais l'augmentation de la vitesse de réaction de l'IA signifie que vous ne pouvez pas vous permettre de rater votre premier tir.
+
+1.  **Respectez l'IA :** Traitez chaque PNJ comme une menace légitime capable de vous mettre une balle dans la tête si vous restez trop longtemps dans sa ligne de mire.
+2.  **Maîtrisez votre zéro :** Passez du temps au champ de tir du camp de base pour apprendre les nouveaux points de convergence de vos optiques préférées.
+3.  **Pillez intelligemment :** Avec l'ajustement des taux d'apparition des objets de valeur, concentrez-vous sur le nettoyage des zones résidentielles de haut niveau et des pièces verrouillées pour obtenir le meilleur retour sur investissement de vos équipements.
+
+## FAQ
+
+**Q : La mise à jour GZW 0.4.1 a-t-elle amélioré les FPS ?**
+
+R : Oui, le patch inclut plusieurs optimisations de mémoire côté serveur et a corrigé un bug rare qui limitait les joueurs à 15 FPS après une réapparition. Bien que les résultats individuels varient selon le matériel, la stabilité générale a connu une tendance à la hausse en 2026.
+
+**Q : Puis-je toujours faire ricocher des balles sur le sol pour toucher des ennemis ?**
+
+R : Bien que les ricochets fassent toujours partie du système balistique complexe, leur fréquence a été réduite pour éviter les balles de type "ping-pong". Ce n'est plus une stratégie fiable de compter sur les déviations au sol pour éliminer des cibles.
+
+**Q : Comment corriger l'"Erreur critique" lors du déplacement d'argent dans mon portefeuille ?**
+
+R : Ce problème a été spécifiquement traité dans le patch 0.4.1. Assurez-vous que votre jeu est mis à jour vers la dernière version via Steam pour éliminer l'erreur lors de la manipulation de piles de devises partielles.
+
+**Q : Pourquoi mes tirs frappent-ils toujours trop bas après la mise à jour ?**
+
+R : Vérifiez votre distance de réglage du zéro. Si vous êtes réglé pour 100m mais que vous tirez sur une cible à 50m, votre balle frappera légèrement plus bas ou plus haut selon la hauteur de l'axe optique par rapport au canon. Le patch a corrigé le bug de *réinitialisation* du zéro, mais l'estimation manuelle de la distance reste nécessaire.
