@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Gamepad } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Controller Support: Current Status & Future Plans",
+  description: "Explore the current state of controller support in Gray Zone Warfare, including official statements, community workarounds, and potential future developments for console players.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/343a40/fff?text=GZW+Controller+Support",
+  date: "2026-06-15",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Gray Zone Warfare controller support** is not officially implemented for PC at launch.
+- Players use **third-party software** like Steam Input or reWASD for controller emulation.
+- Official console release would bring dedicated **controller optimization**.
+- PC controller experience may involve **compromises** in precision and UI navigation.
+- Keep an eye on official **developer updates** for future plans.
+</Callout>
+
+<Section icon={Gamepad} title="Understanding Gray Zone Warfare Controller Support">
+Gray Zone Warfare is a tactical extraction shooter primarily designed for PC, emphasizing a realistic and immersive experience. As of its early access launch on April 30, 2024, the game does not feature native, official controller support for PC players. This means that while you might be able to plug in a controller, the game won't natively recognize it or provide optimized button layouts and sensitivity settings. The core gameplay loop, with its intricate inventory management, precise shooting mechanics, and complex UI, is built around mouse and keyboard input.
+
+However, the question of controller support is a frequent topic within the community, especially concerning potential console releases and the desire for more accessible control schemes on PC.
+
+<Callout type="warning" title="Important Note">
+While it's possible to force a controller to work on PC using third-party tools, the experience may not be ideal due to the game's design for mouse and keyboard precision and a complex user interface. Expect a learning curve and potential limitations.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Unofficial Workarounds for PC Players">
+For those determined to use a controller on PC, several community-driven workarounds exist. These typically involve mapping keyboard and mouse inputs to controller buttons using external software. This approach allows players to get a basic level of functionality, but it's crucial to manage expectations regarding performance and ease of use.
+
+**Video Highlights:**
+- Demonstrates how to set up controller keybinds.
+- Shows basic movement and shooting with a controller.
+- Discusses limitations and potential improvements.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Early Access Launch Trailer" />
+
+Here's a breakdown of common methods:
+
+<Steps>
+  <Step num="1" title="Utilize Steam Input">
+    Steam's built-in Big Picture Mode offers robust controller configuration options. You can create custom profiles for Gray Zone Warfare, mapping mouse movements to analog sticks and keyboard keys to buttons. This is often the most straightforward method for Steam users.
+  </Step>
+  <Step num="2" title="Third-Party Mapping Software">
+    Software like reWASD or JoyToKey allows for more granular control over button remapping. These tools can emulate keyboard and mouse inputs, providing a more customizable experience, including deadzone adjustments and sensitivity curves.
+  </Step>
+  <Step num="3" title="Community Profiles">
+    Check online forums like Reddit (r/GrayZoneWarfare) or community Discord servers for pre-made controller profiles shared by other players. These can serve as a good starting point, saving you time on initial setup.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Optimizing Your Controller Experience">
+When using third-party software, focus on mapping essential actions like movement, aiming, shooting, and basic inventory navigation. Consider leaving less critical or precise actions to a nearby mouse or keyboard for quick access.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Challenges of Controller Play on PC">
+Adapting a controller to a PC-centric tactical shooter like Gray Zone Warfare presents several challenges. The game's design prioritizes the precision and speed offered by a mouse and keyboard, which controllers inherently struggle to match in certain aspects.
+
+| Feature         | Mouse & Keyboard Advantage                  | Controller Limitation                                |
+| :-------------- | :------------------------------------------ | :--------------------------------------------------- |
+| **Aiming**      | Pinpoint accuracy, rapid flick shots        | Slower, less precise aiming, reliance on aim assist (if any) |
+| **Inventory**   | Fast drag-and-drop, quick hotkey access     | Cumbersome cursor movement, slower item management   |
+| **Movement**    | Instant directional changes, fluid strafing | Analog stick movement can feel less responsive       |
+| **Keybinds**    | Vast array of customizable keys             | Limited buttons, often requiring complex radial menus |
+| **UI Navigation** | Direct cursor interaction                 | Slower menu traversal, potential for frustrating inputs |
+
+<Callout type="info" title="Developer Focus">
+The developers, MADFINGER Games, have historically focused on PC optimization for their tactical shooter experience. This often means that controller support, if implemented, comes later or is tailored for specific console versions.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Future of Controller Support and Console Release">
+While Gray Zone Warfare is currently a PC-exclusive title in Early Access, the possibility of a console release and subsequent official controller support is a frequent topic of discussion. Many extraction shooters eventually make their way to consoles, and with that, comes dedicated controller optimization.
+
+| Aspect                | Current PC Status (Early Access) | Potential Console/Future PC Status |
+| :-------------------- | :------------------------------- | :--------------------------------- |
+| **Native Support**    | No                               | Likely with console release        |
+| **UI Optimization**   | Mouse/Keyboard focused           | Redesigned for controller navigation |
+| **Aim Assist**        | None                             | Possible addition for competitive balance |
+| **Performance**       | Optimized for PC hardware        | Tailored for console specifications |
+| **Cross-play**        | Not applicable                   | Potential for cross-platform play  |
+
+<CardGrid cols={2}>
+  <Card title="Console Release Impact">
+    A console release would almost certainly bring official, well-integrated **Gray Zone Warfare controller support**. This would include optimized UI, nuanced aim assist, and tailored control schemes designed for a smoother console experience.
+  </Card>
+  <Card title="Developer Communication">
+    Keep an eye on the official Gray Zone Warfare website news section and their social media channels for any announcements regarding console development or official controller integration for PC. The developers frequently update the community on their roadmap.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist for Setting Up a Controller on PC">
+
+If you're opting for an unofficial controller setup, here's a checklist to guide you:
+
+<Checklist
+  id="controller-setup"
+  title="PC Controller Setup Steps:"
+  items={[
+    "Ensure your controller is connected and recognized by your PC.",
+    "Launch Steam in Big Picture Mode (if using Steam Input).",
+    "Navigate to Gray Zone Warfare in your library and access controller settings.",
+    "Create a custom controller profile or search for community-made ones.",
+    "Map essential movement (WASD) and camera control (mouse) to analog sticks.",
+    "Assign primary actions (shoot, aim, reload, interact) to face buttons and triggers.",
+    "Consider radial menus or modifier buttons for less frequent actions.",
+    "Test your setup in-game and make adjustments for sensitivity and deadzones.",
+    "Be prepared to switch back to mouse and keyboard for precision tasks if needed."
+  ]}
+/>
+
+<Callout type="success" title="Success Factors">
+Patience and continuous tweaking are key to making an unofficial controller setup viable. Experiment with different sensitivity settings and button layouts to find what feels most comfortable for your playstyle in Gray Zone Warfare.
+</Callout>
+
+</Section>
+
+<Section icon={Gamepad} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Does Gray Zone Warfare have official controller support on PC?",
+    answer: "No, Gray Zone Warfare does not currently have native, official controller support for PC in its Early Access phase. The game is designed primarily for mouse and keyboard input."
+  },
+  {
+    question: "Can I use a controller with Gray Zone Warfare on PC?",
+    answer: "Yes, you can use third-party software like Steam Input or reWASD to map keyboard and mouse commands to your controller. However, this is an unofficial workaround and may not provide an optimized experience."
+  },
+  {
+    question: "Will Gray Zone Warfare come to consoles with controller support?",
+    answer: "A console release for Gray Zone Warfare has not been officially announced, but if it does happen, it's highly likely to include dedicated and optimized controller support, similar to other tactical shooters on consoles."
+  },
+  {
+    question: "What are the main challenges of using a controller in Gray Zone Warfare?",
+    answer: "The primary challenges include less precise aiming compared to a mouse, slower inventory management due to the complex UI, and a limited number of buttons requiring creative keybinding solutions."
+  }
+]} />
+
+</Section>

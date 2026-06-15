@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Moon } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Nachteinsätze: Strategien für taktische Vorteile",
+  description: "Meistern Sie Nachteinsätze in Gray Zone Warfare mit fortgeschrittenen Strategien, Ausrüstungsempfehlungen und taktischen Tipps für Stealth, Kampf und Extraktion im Schutz der Dunkelheit auf Lamang Island.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/2C3E50/fff?text=Night+Ops+Guide",
+  date: "2026-06-15",
+  author: "gray zone warfare Wiki-Team",
+  keywords: "Nachteinsätze, Gray Zone Warfare, Taktik, Stealth, Nachtsicht, Thermaloptik, Extraktion"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Nachteinsätze** in Gray Zone Warfare erfordern spezialisierte Ausrüstung und Taktiken.
+- **Thermaloptiken** und **Nachtsichtgeräte** sind entscheidend für die Sichtbarkeit.
+- **Lautlose Fortbewegung** und schallgedämpfte Waffen bieten erhebliche Vorteile.
+- **Kartenkenntnis** und vorab geplante Routen sind lebenswichtig für eine erfolgreiche Extraktion.
+- **Teamkoordination** wird bei Gefechten unter schlechten Lichtverhältnissen verstärkt.
+</Callout>
+
+<Section icon={Moon} title="Meisterung von Nachteinsätzen in Gray Zone Warfare">
+Nachteinsätze in Gray Zone Warfare führen eine einzigartige Ebene taktischer Komplexität ein und verwandeln vertraute Landschaften in tückische Schlachtfelder. Der Schutz der Dunkelheit bietet sowohl beispiellose Stealth-Möglichkeiten als auch erhebliche Herausforderungen für Sichtbarkeit und Kampf. Zu verstehen, wie man sich ausrüstet und seinen Spielstil anpasst, ist entscheidend für das Überleben und den Erfolg auf Lamang Island nach Sonnenuntergang.
+
+Der Wechsel von Tag zu Nacht verändert die Kampfdynamik radikal. Entfernungen sind schwerer einzuschätzen, feindliche Positionen sind verdeckt und Geräusche werden zu einem kritischeren Indikator. Operatoren müssen spezialisierte Ausrüstung nutzen, um einen Vorteil zu behalten und die Dunkelheit zu einem Verbündeten statt zu einem Hindernis zu machen. Effektive Nachteinsätze erfordern eine Mischung aus überlegener Ausrüstung, disziplinierter Bewegung und akuter Situationswahrnehmung.
+
+<Callout type="tip">
+Erkunden Sie Ihr geplantes Einsatzgebiet für die Nacht nach Möglichkeit bei Tageslicht. Die Vertrautheit mit Orientierungspunkten und potenziellen feindlichen Patrouillen verschafft Ihnen einen erheblichen Vorteil bei geringer Sichtbarkeit.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Essenzielle Ausrüstung für Nachteinsätze">
+Sich richtig auszurüsten, ist der erste Schritt zur Dominanz in den Nachteinsätzen von Gray Zone Warfare. Die Investition in die richtigen Werkzeuge kann den Unterschied zwischen einer erfolgreichen Extraktion und einem weiteren Opfer in der Dunkelheit ausmachen.
+
+| Ausrüstungstyp         | Empfohlener Gegenstand             | Hauptvorteil                                   | Notizen                                                              |
+|:------------------|:-----------------------------|:----------------------------------------------|:-------------------------------------------------------------------|
+| **Nachtsichtgerät** | PVS-14, GPNVG-18             | Verbesserte Sicht bei schwachem Licht                 | Unverzichtbar für die Navigation und Identifizierung von Zielen in völliger Dunkelheit. |
+| **Thermaloptik**| T-7 Thermal Scope, FLIR Scout | Erkennt Wärmesignaturen durch Rauch/Laub  | Hervorragend für die Zielerfassung, insbesondere gegen verdeckte Feinde. |
+| **Waffenlicht**  | SureFire M300, Streamlight TLR-1 | Temporäre Blendung, Zielbeleuchtung       | Sparsam einsetzen, um die eigene Position nicht zu verraten.                     |
+| **Laservisier**   | PEQ-15 (IR)                  | Präzision aus der Hüfte, IR-Zielmarkierung      | In Kombination mit Nachtsichtgeräten für präzises Zielen ohne sichtbares Licht.             |
+| **Schalldämpfer**| Verschiedene Modelle              | Reduziertes Mündungsfeuer und Geräuschsignatur      | Entscheidend für Stealth-Einsätze und zur Vermeidung von Entdeckung.              |
+| **Dunkle Kleidung** | Schwarz, Olivgrün, Tarnung | Verbesserte Tarnung bei schlechtem Licht             | Verschmelzen Sie mit den Schatten, reduzieren Sie Ihr visuelles Profil.                         |
+
+<Callout type="warning" title="Thermal vs. Nachtsicht">
+Obwohl sowohl Thermal- als auch Nachtsichtgeräte von unschätzbarem Wert sind, dienen sie unterschiedlichen Zwecken. Thermaloptiken sind exzellent darin, warme Körper zu entdecken, können aber Schwierigkeiten haben, Freund von Feind aus der Ferne zu unterscheiden. Nachtsicht bietet eine klarere, wenn auch monochromatische Sicht auf die Umgebung. Idealerweise kombinieren Sie beides oder wechseln je nach Situation zwischen ihnen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Taktische Bewegung und Kampf">
+Die Durchführung erfolgreicher Nachteinsätze erfordert mehr als nur die richtige Ausrüstung; sie verlangt einen verfeinerten Ansatz für Bewegung, Kampf und Kommunikation.
+
+<Steps>
+  <Step num="1" title="Langsame und kontrollierte Bewegung">
+    Reduzieren Sie Ihre Bewegungsgeschwindigkeit. Sprinten und schnelle Bewegungen verursachen Lärm und machen Sie zu einem leichten Ziel. Nutzen Sie Deckung und Tarnung, bewegen Sie sich von Schatten zu Schatten. **Geducktes Gehen** und **Kriechen** sind Ihre besten Freunde.
+  </Step>
+  <Step num="2" title="Geräuschdisziplin">
+    Jedes Geräusch wird nachts verstärkt. Vermeiden Sie unnötige Aktionen wie lautes Öffnen des Inventars oder Nachladen im Freien. Verwenden Sie nach Möglichkeit schallgedämpfte Waffen. Hören Sie aufmerksam auf feindliche Schritte, entfernte Schüsse und Umgebungsgeräusche.
+  </Step>
+  <Step num="3" title="Strategischer Einsatz von Licht">
+    Waffenlichter und sichtbare Laser sind mächtig, haben aber ihren Preis. Aktivieren Sie diese nur, wenn Sie aktiv einen Gegner bekämpfen oder einen Raum säubern. Ein kurzer Lichtblitz kann Ihnen den Vorteil verschaffen, aber längerer Gebrauch wird Ihre Position verraten.
+  </Step>
+  <Step num="4" title="Kampfentfernungen">
+    Nachteinsätze begünstigen oft Nahkampfgefechte, insbesondere ohne High-End-Optik. Verstehen Sie die effektive Reichweite Ihrer gewählten Ausrüstung und Waffen. Vermeiden Sie Schüsse auf große Distanz, es sei denn, Sie sind sich Ihres Ziels sicher und haben einen klaren Fluchtweg.
+  </Step>
+  <Step num="5" title="Teamkommunikation">
+    Klare und präzise Kommunikation ist nachts noch kritischer. Verwenden Sie genaue Callouts für feindliche Positionen, Bewegungen und potenzielle Bedrohungen. Bestimmen Sie einen führenden Späher und eine Nachhut. Erwägen Sie die Verwendung nonverbaler Zeichen, falls verfügbar.
+  </Step>
+</Steps>
+
+<Callout type="info">
+Das Hubschraubergeräusch beim Einfliegen oder bei der Extraktion kann taktisch genutzt werden. Sein Lärm kann Ihre ersten Bewegungen maskieren oder eine Ablenkung für KI und andere Spieler schaffen, was Ihnen die Neupositionierung ermöglicht.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navigation und Extraktion in der Dunkelheit">
+Die Navigation auf Lamang Island bei Nacht stellt besondere Herausforderungen dar. Ohne klare visuelle Anhaltspunkte wird das Vertrauen auf Karte und Kompass unerlässlich.
+
+<CardGrid cols={2}>
+  <Card title="Planen Sie Ihre Route im Voraus">
+    Studieren Sie Ihre Karte im Detail, bevor Sie zu einem Nachteinsatz aufbrechen. Identifizieren Sie wichtige Orientierungspunkte, potenzielle Hinterhaltspunkte und mehrere Extraktionsrouten. Geländekenntnis ist Ihr verlässlichstes Gut, wenn visuelle Informationen begrenzt sind.
+  </Card>
+  <Card title="Nutzen Sie Kartenmarkierungen">
+    Verwenden Sie Markierungen im Spiel, um Ziele, bekannte feindliche Positionen und Sicherheitszonen zu kennzeichnen. Dies ist besonders hilfreich bei der Koordination mit einem Trupp, um sicherzustellen, dass trotz der Dunkelheit alle auf dem gleichen Stand sind.
+  </Card>
+  <Card title="Kompass und Planquadrate">
+    Werden Sie sicher im Umgang mit Ihrem Kompass und dem Verständnis von Planquadraten. Diese Werkzeuge sind unverzichtbar, um Standorte punktgenau zu bestimmen und Teamkollegen genaue Callouts zu geben, wenn Sichtkontakt schwierig ist.
+  </Card>
+  <Card title="Sichern Sie Extraktionspunkte">
+    Nähern Sie sich Extraktionszonen immer mit äußerster Vorsicht. Diese Bereiche sind oft stark frequentiert und können hart umkämpft sein. Nutzen Sie die Dunkelheit zu Ihrem Vorteil, indem Sie sich aus unerwarteten Winkeln nähern und den Bereich sichern, bevor Sie die Abholung anfordern.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Erfolgsfaktor">
+Erfolgreiche Extraktionen bei Nacht hängen oft von Geduld und Anpassungsfähigkeit ab. Wenn Ihre primäre Extraktionsroute kompromittiert ist, seien Sie bereit, auf einen Sekundärplan auszuweichen. Flexibilität ist der Schlüssel zum Überleben.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Bedrohungen bei Nachteinsätzen und Gegenmaßnahmen">
+Die Dunkelheit verbirgt nicht nur Sie; sie verbirgt auch Ihre Feinde. Das Verständnis allgemeiner Bedrohungen und deren Gegenmaßnahmen ist entscheidend für das Überleben.
+
+| Bedrohungstyp         | Beschreibung                                       | Gegenmaßnahme                                                |
+|:--------------------|:--------------------------------------------------|:--------------------------------------------------------------|
+| **KI-Patrouillen**      | Vorhersehbar, können aber zahlreich sein; verwenden oft Licht | Direkten Kampf vermeiden, Stealth nutzen, schallgedämpfte Waffen.       |
+| **Spieler-Operatoren**| Unvorhersehbar, verwenden oft Nachtsichtgeräte/Thermaloptiken          | Deckung nutzen, auf Bewegungen hören, IR-Stroboskope einsetzen (falls verfügbar). |
+| **Umweltgefahren**| Verminderte Sichtbarkeit von Fallen, unebenes Gelände       | Langsam bewegen, Waffenlicht für kurze Scans nutzen, auf bekannten Pfaden bleiben. |
+| **Scharfschützenfeuer**     | Ursprung schwer zu entdecken; verwenden oft schallgedämpfte Gewehre  | Unregelmäßige Bewegungen beibehalten, Deckung nutzen, Mündungsfeuer identifizieren. |
+| **Hinterhaltspunkte**   | Engpässe, dunkle Ecken, dichtes Laub          | Bekannte Hotspots mit Granaten vorbearbeiten, sich mit einem Teamkollegen bewegen, der die Flanke deckt. |
+
+<Callout type="warning">
+Seien Sie vorsichtig bei Spielern, die Waffenlichter oder sichtbare Laser als Köder verwenden. Ein kurzes Aufblitzen könnte Sie in einen vorbereiteten Hinterhalt locken. Gehen Sie immer davon aus, dass ein Feind Ihre allgemeine Richtung kennt, wenn Sie entdeckt wurden.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fortgeschrittene Strategien für Nachteinsätze">
+Für erfahrene Operatoren können diese fortgeschrittenen Strategien die Effektivität während der Nachteinsätze in Gray Zone Warfare weiter steigern.
+
+<Checklist
+  id="advanced-night-tactics"
+  title="Checkliste für fortgeschrittene Nachteinsätze:"
+  items={[
+    "**IR-Stroboskope & Markierungen**: Zur Truppidentifizierung nutzen, ohne die Position für Nicht-NVG-Nutzer zu verraten.",
+    "**Blendgranaten**: Extrem effektiv gegen Gegner ohne Nachtsichtgeräte in dunklen Umgebungen.",
+    "**Wärmesignatur-Management**: Minimieren Sie die Wärmeabgabe, indem Sie ruhig bleiben oder wärmedämmende Ausrüstung verwenden.",
+    "**Eindringen & Raumsäuberung**: Nutzen Sie Waffenlichter und Blendgranaten für schnelles Eindringen und zur Desorientierung.",
+    "**Anti-Scharfschützen-Techniken**: Rauchgranaten verwenden, um die Sicht zu vernebeln, dann flankieren oder neu positionieren.",
+    "**Ablenkungstaktiken**: Werfen Sie Granaten oder geben Sie ungedämpfte Schüsse ab, um die KI von Ihrem Ziel wegzulocken."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Moon} title="Häufig gestellte Fragen zu Gray Zone Warfare Nachteinsätzen">
+
+<FAQ items={[
+  {
+    question: "Sind Nachteinsätze in Gray Zone Warfare gefährlicher?",
+    answer: "Ja, Nachteinsätze sind im Allgemeinen gefährlicher aufgrund der eingeschränkten Sicht, was es schwieriger machen kann, Feinde zu entdecken und zu navigieren. Sie bieten jedoch auch erhebliche Möglichkeiten für Stealth und Überraschungsangriffe, wenn man entsprechend ausgerüstet und geschickt ist."
+  },
+  {
+    question: "Was ist das wichtigste Ausrüstungsstück für Nachteinsätze?",
+    answer: "Obwohl viele Gegenstände entscheidend sind, sind **Nachtsichtgeräte (NVGs)** wohl am wichtigsten, da sie die primäre Herausforderung der Dunkelheit direkt kontern. Thermaloptiken stehen an zweiter Stelle und bieten andere, aber ebenso wertvolle Vorteile."
+  },
+  {
+    question: "Kann ich nachts normale Zielfernrohre verwenden?",
+    answer: "Die Verwendung normaler Zielfernrohre bei Nacht ist möglich, aber höchst unpraktisch. Sie bieten eine sehr begrenzte Sicht, was die Zielerfassung extrem erschwert. Es wird dringend empfohlen, **Thermaloptiken** oder **Nachtsichtgeräte** für effektive Kämpfe zu verwenden."
+  },
+  {
+    question: "Wie vermeide ich es, meine Position bei Nachteinsätzen zu verraten?",
+    answer: "Um Entdeckung zu vermeiden, priorisieren Sie **langsame und leise Bewegungen**, verwenden Sie **schallgedämpfte Waffen** und begrenzen Sie den Einsatz von **Waffenlichtern** oder sichtbaren Lasern. Umgebungsgeräusche und die Teamkommunikation sollten ebenfalls sorgfältig gehandhabt werden."
+  }
+]} />
+
+</Section>

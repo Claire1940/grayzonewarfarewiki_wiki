@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Firestarter: Early Task Progression",
+  description: "Master the Gray Zone Warfare Firestarter tasks with this detailed guide, covering objectives, locations, rewards, and key strategies for early progression on Lamang Island.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Firestarter+Guide",
+  date: "2026-06-15",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Gray Zone Warfare Firestarter** phase focuses on initial vendor tasks.
+- Prioritize **Handshake, Gunny, and Lab Rat** tasks for early reputation and cash.
+- **Key unlocks** are crucial for progressing through early missions.
+- Efficient **loot routes** and selling strategies maximize initial profits.
+- Understanding **faction choice** impacts your starting location and early task flow.
+</Callout>
+
+<Section icon={Target} title="Understanding Early Progression: The Firestarter Phase">
+The "Firestarter" phase in Gray Zone Warfare refers to the critical initial tasks that players undertake to establish their foothold on Lamang Island. These missions are designed to introduce core mechanics, build vendor reputation, and provide essential gear and currency. Mastering these early tasks is crucial for a smooth transition into the mid-game.
+
+These initial tasks often involve scouting locations, retrieving vital intel, or securing supplies, laying the groundwork for more complex operations. Successful completion not only grants experience and cash but also unlocks higher-tier items from vendors, making subsequent deployments more manageable.
+
+<Callout type="tip" title="Focus on Vendor Reputation">
+Early tasks primarily serve to build your reputation with key vendors like Handshake, Gunny, and Lab Rat. Higher reputation tiers unlock better gear, essential medical supplies, and advanced weapon attachments, significantly impacting your survivability and combat effectiveness.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Key Firestarter Tasks and Objectives">
+The initial tasks are often straightforward but require careful navigation and awareness of your surroundings. Knowing the objectives and potential pitfalls beforehand can save valuable time and gear. This table outlines some of the earliest and most impactful tasks for new recruits.
+
+| Task Name            | Vendor    | Primary Objective                                   | Rewards (Key)                                         | Why it Matters                                                              |
+|----------------------|-----------|-----------------------------------------------------|-------------------------------------------------------|-----------------------------------------------------------------------------|
+| **First Recon**      | Handshake | Scout specific landmarks in your starter town       | 400 EXP, +25 Rep (Handshake), $1,700, Modular Carrier | Teaches basic navigation and map awareness in a safe zone.                  |
+| **Cache Retrieval**  | Gunny     | Find and mark a cache in the lumberyard             | 400 EXP, +100 Rep (Gunny), $1,700, Scorpion OCP Pack  | Early access to weapon progression and builds Gunny reputation.             |
+| **Meds Wanted**      | Lab Rat   | Locate UNLRA medical supplies near a water tower    | 400 EXP, +100 Rep (Lab Rat), $2,200, IFAK             | Unlocks critical medical supplies and boosts Lab Rat reputation.            |
+| **Leave No Man Behind** | Gunny     | Mark a body's location in the town hall             | 400 EXP, +100 Rep (Gunny), $1,700, Scorpion OCP Pack  | Common bottleneck; reinforces objective-focused gameplay and specific POIs. |
+| **Helping Hand**     | Handshake | Retrieve intel from a restaurant attic              | 400 EXP, +100 Rep (Handshake), $2,300, Leather Key Holder | Often the first key-gated progression hurdle.                               |
+| **The Shadow Over Ban Pa** | Handshake | Scout Ban Pa entry points                         | 1,000 EXP, +150 Rep (Handshake), $4,700, Unlocks Turncoat | Major progression breakpoint, opening up a new vendor and mid-game areas.   |
+
+</Section>
+
+<Section icon={Map} title="Navigating Starter Towns: Essential Locations">
+Your starting town is crucial for the Firestarter tasks. Each faction begins in a different town, but the general layout and types of objectives are mirrored. Understanding these key locations will streamline your early game.
+
+<CardGrid cols={2}>
+  <Card title="Kiu Vongsa (Crimson Shield International)">
+    - **Grid Position**: 141:164
+    - **Key POIs**: Restaurant (for "Helping Hand"), Lumberyard, Gas Station, Town Hall
+    - **Notes**: Often considered a slightly safer starting area for slower progression.
+  </Card>
+  <Card title="Nam Thaven (Mithras Security Systems)">
+    - **Grid Position**: 171:118
+    - **Key POIs**: Restaurant, Lumberyard, Gas Station, Town Hall
+    - **Notes**: Balanced location, offering access to both safer and hotter routes.
+  </Card>
+  <Card title="Pha Lang (Lamang Recovery Initiative)">
+    - **Grid Position**: 202:162
+    - **Key POIs**: Restaurant, Lumberyard, Gas Station, Town Hall, Airfield (nearby)
+    - **Notes**: Provides fast access to more contested zones, suitable for aggressive players.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Location Specificity">
+While task objectives are often similar across factions, the exact coordinates and layouts of buildings within each starter town will differ. Always cross-reference your in-game map or a reliable interactive map for precise locations.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Securing Keys for Early Tasks">
+Many Firestarter tasks, especially those involving intel retrieval or specific item collection, are gated by keys. Knowing where to find these keys and what they unlock is vital.
+
+<Steps>
+  <Step num="1" title="Identify Key-Gated Tasks">
+    Before deploying, check your task objectives for any mention of locked rooms or required keys. Tasks like "Helping Hand" explicitly require a key to progress.
+  </Step>
+  <Step num="2" title="Locate Key Spawns">
+    Most early game keys drop from enemies within the associated POI or can be found in specific loot containers. For example, Kiu Vongsa Restaurant Storage Key often drops from enemies in Kiu Vongsa.
+  </Step>
+  <Step num="3" title="Prioritize Key Collection">
+    If a task requires a key, make finding that key your primary objective for that deployment. Do not attempt the task without it, as it will lead to wasted time and potential gear loss.
+  </Step>
+  <Step num="4" title="Understand Key Utility">
+    Some keys unlock valuable loot rooms in addition to task objectives. Prioritize keys that offer both progression and economic benefits.
+  </Step>
+</Steps>
+
+| Key Name                          | Area             | Common Drop Location                               | Unlocks                                              | Related Task(s)                  | Value Behind Lock                                       |
+|-----------------------------------|------------------|----------------------------------------------------|------------------------------------------------------|----------------------------------|---------------------------------------------------------|
+| **Kiu Vongsa Restaurant Storage Key** | Kiu Vongsa       | Pockets of enemies in Kiu Vongsa                   | Restaurant attic door at 141:164                     | Helping Hand                     | Task intel location                                     |
+| **Pha Lang Restaurant Storage Key**   | Pha Lang         | Pockets of enemies in Pha Lang                     | Attic storage in Pha Lang restaurant                 | Helping Hand                     | 1x Firearm crate; 1x Medical cabinet                    |
+| **Nam Thaven Restaurant Storage Key** | Nam Thaven       | Pockets of enemies in Nam Thaven                   | Attic storage in Nam Thaven restaurant               | Helping Hand                     | Task intel route                                        |
+| **Sawmill Office Key**            | Sawmill          | Pockets of enemies in Sawmill                      | Office building at Tonmai Hainy Lumber Company       | EOD                              | 1x Firearms Box; 1x First Aid Cabinet; loose weapons    |
+| **Ban Pa Elder's Room Key**       | Ban Pa           | Ban Pa leader's pocket; spawns in Ban Pa           | Second-floor room inside the Elder's House           | It's in the Water II             | Chemistry-room style task objective route               |
+
+</Section>
+
+<Section icon={Sparkles} title="Optimizing Your Firestarter Runs">
+Efficiently completing your Firestarter tasks involves more than just knowing objectives; it requires smart planning and execution.
+
+<Checklist
+  id="firestarter-optimization"
+  title="Firestarter Success Checklist:"
+  items={[
+    "Always check task requirements before deployment (keys, items).",
+    "Prioritize low-risk loot routes in starter towns for initial funds.",
+    "Sell high-value items to the best-paying vendor for maximum profit.",
+    "Use task rewards to restock essential gear, not over-kit.",
+    "Understand your faction's starting location and associated tasks.",
+    "Utilize secure lockboxes for critical task items to prevent loss."
+  ]}
+/>
+
+<Callout type="success" title="Economy Management">
+The early game economy in Gray Zone Warfare is directly tied to task completion and smart looting. Focus on tasks that offer good cash rewards and vendor reputation. Avoid unnecessary engagements that could lead to gear loss, especially when you are just starting out.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions about Firestarter Tasks">
+
+<FAQ items={[
+  {
+    question: "What are the most important Firestarter tasks in Gray Zone Warfare?",
+    answer: "The most important Firestarter tasks are those given by Handshake, Gunny, and Lab Rat early on. Missions like 'First Recon,' 'Cache Retrieval,' and 'Meds Wanted' are crucial for gaining initial experience, currency, and vendor reputation, which unlocks better gear and medical supplies."
+  },
+  {
+    question: "How do I find keys for Firestarter tasks?",
+    answer: "Keys for Firestarter tasks typically drop from AI enemies within the relevant points of interest (POIs) or can be found in specific containers within those locations. For example, restaurant storage keys are often found on enemies in the respective starter towns. Always check the task description or an interactive map for potential key locations."
+  },
+  {
+    question: "What happens if I fail a Firestarter task?",
+    answer: "Failing a Firestarter task usually means you lose any gear you brought into the raid (unless it was in your secure lockbox) and you'll need to re-attempt the task. There are no permanent penalties beyond the lost time and resources. You can always restart the task from your vendor."
+  },
+  {
+    question: "Should I focus on PvE or PvP during the Firestarter phase?",
+    answer: "For the initial Firestarter phase, it's generally recommended to focus on PvE (Joint Operations mode) to safely learn the map, complete tasks, and build up your gear and reputation without the added pressure of hostile players. Once you have a solid understanding and gear base, you can transition to PvP (Warfare mode) if desired."
+  }
+]} />
+
+</Section>

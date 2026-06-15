@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Moon } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Gece Operasyonları: Taktiksel Avantaj İçin Stratejiler",
+  description: "Gray Zone Warfare'de gece operasyonlarında ustalaşın. Lamang Adası'nda karanlıkta gizlilik, çatışma ve çıkarma için gelişmiş stratejiler, ekipman önerileri ve taktiksel ipuçları.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/2C3E50/fff?text=Night+Ops+Guide",
+  date: "2026-06-15",
+  author: "gray zone warfare Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- Gray Zone Warfare'deki **gece operasyonları** özel ekipman ve taktikler gerektirir.
+- **Termal optikler** ve **gece görüş cihazları** görünürlük için çok önemlidir.
+- **Gizli hareket** ve susturuculu silahlar önemli avantajlar sunar.
+- **Harita bilgisi** ve önceden planlanmış rotalar başarılı çıkarma için hayati öneme sahiptir.
+- Düşük ışıklı çatışmalarda **takım koordinasyonu** daha da önem kazanır.
+</Callout>
+
+<Section icon={Moon} title="Gray Zone Warfare'de Gece Operasyonlarında Ustalaşmak">
+Gray Zone Warfare'deki gece operasyonları, tanıdık manzaraları tehlikeli savaş alanlarına dönüştürerek benzersiz bir taktiksel karmaşıklık katmanı getirir. Karanlığın örtüsü hem eşsiz gizlilik fırsatları hem de görünürlük ve çatışma için önemli zorluklar sunar. Güneş battıktan sonra Lamang Adası'nda hayatta kalmak ve başarılı olmak için kendinizi nasıl donatacağınızı ve oyun tarzınızı nasıl uyarlayacağınızı anlamak çok önemlidir.
+
+Gündüzden geceye geçiş, çatışma dinamiklerini kökten değiştirir. Mesafeleri yargılamak zorlaşır, düşman pozisyonları gizlenir ve ses daha kritik bir gösterge haline gelir. Operatörler, karanlığı bir engel yerine bir müttefike dönüştürerek avantajlarını korumak için özel ekipmanlardan yararlanmalıdır. Etkili gece operasyonları, üstün ekipman, disiplinli hareket ve keskin durumsal farkındalığın birleşimini gerektirir.
+
+<Callout type="tip">
+Mümkünse, gece operasyonu yapmayı düşündüğünüz alanı gündüz saatlerinde her zaman keşfedin. Arazi işaretleri ve potansiyel düşman devriyeleri hakkında bilgi sahibi olmak, görüş mesafesi düşük olduğunda size önemli bir avantaj sağlayacaktır.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gece Operasyonları İçin Temel Ekipmanlar">
+Kendinizi doğru şekilde donatmak, Gray Zone Warfare gece operasyonlarında üstünlük sağlamanın ilk adımıdır. Doğru araçlara yatırım yapmak, başarılı bir çıkarma ile karanlıkta bir başka kayıp olmak arasındaki farkı yaratabilir.
+
+| Ekipman Türü         | Önerilen Öğe             | Temel Faydası                                 | Notlar                                                             |
+|:------------------|:-----------------------------|:----------------------------------------------|:-------------------------------------------------------------------|
+| **Gece Görüş Cihazı** | PVS-14, GPNVG-18             | Gelişmiş düşük ışık görünürlüğü                 | Tam karanlıkta gezinmek ve hedefleri belirlemek için vazgeçilmezdir. |
+| **Termal Optikler**| T-7 Termal Dürbün, FLIR Scout | Duman/bitki örtüsü içindeki ısı izlerini algılar | Özellikle gizlenmiş düşmanlara karşı hedef tespiti için mükemmeldir. |
+| **Silah Feneri**  | SureFire M300, Streamlight TLR-1 | Geçici körleme, hedef aydınlatma              | Konumunuzu ele vermemek için idareli kullanın.                     |
+| **Lazer Nişangah**   | PEQ-15 (IR)                  | Kalça ateşi doğruluğu, IR hedef belirleme      | Görünür ışık olmadan hassas nişan almak için NVG'lerle eşleştirin. |
+| **Susturucu/Bastırıcı**| Çeşitli modeller              | Azaltılmış namlu flaşı ve ses imzası           | Gizli çatışmalar ve tespit edilmekten kaçınmak için çok önemlidir. |
+| **Koyu Renk Giysiler** | Siyah, Zeytin Yeşili, Kamuflaj | Düşük ışıkta gelişmiş gizlenme                | Gölgelerle uyum sağlayın, görsel profilinizi azaltın.             |
+
+<Callout type="warning" title="Termal ve Gece Görüşü Arasındaki Fark">
+Hem termal hem de gece görüşü paha biçilmez olsa da, farklı amaçlara hizmet ederler. Termal optikler sıcak cisimleri tespit etmede mükemmeldir, ancak uzaktan dost mu düşman mı olduğunu belirlemede zorlanabilirler. Gece görüşü, daha net, ancak tek renkli bir çevre görünümü sağlar. İdeal olarak, her ikisini birleştirin veya duruma göre aralarında geçiş yapın.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Taktiksel Hareket ve Çatışma">
+Başarılı gece operasyonları yürütmek, sadece doğru ekipmana sahip olmaktan öteye gider; hareket, çatışma ve iletişim için rafine bir yaklaşım gerektirir.
+
+<Steps>
+  <Step num="1" title="Yavaş ve Kontrollü Hareket">
+    Hareket hızınızı azaltın. Koşmak ve hızlı hareketler gürültü yaratır ve sizi kolay bir hedef haline getirir. Siper ve gizlenmeden yararlanın, gölgeden gölgeye hareket edin. **Çömelerek yürüme** ve **sürünme** en iyi dostlarınızdır.
+  </Step>
+  <Step num="2" title="Ses Disiplini">
+    Geceleri her ses yükselir. Envanteri yüksek sesle açmak veya açıkta yeniden yüklemek gibi gereksiz eylemlerden kaçının. Mümkün olduğunda susturuculu silahlar kullanın. Düşman ayak seslerini, uzaktan gelen silah seslerini ve çevresel ipuçlarını dikkatlice dinleyin.
+  </Step>
+  <Step num="3" title="Stratejik Aydınlatma Kullanımı">
+    Silah fenerleri ve görünür lazerler güçlüdür ancak bir bedeli vardır. Bunları yalnızca bir hedefle aktif olarak çatışırken veya bir odayı temizlerken etkinleştirin. Anlık bir flaş size avantaj sağlayabilir, ancak uzun süreli kullanım konumunuzu ortaya çıkaracaktır.
+  </Step>
+  <Step num="4" title="Çatışma Mesafeleri">
+    Gece operasyonları, özellikle üst düzey optikler olmadan, genellikle daha yakın mesafeli çatışmaları tercih eder. Seçtiğiniz ekipman ve silahların etkili menzilini anlayın. Nişanınızdan eminseniz ve net bir kaçış rotanız varsa uzun menzilli atışlardan kaçının.
+  </Step>
+  <Step num="5" title="Takım İletişimi">
+    Net ve özlü iletişim geceleri daha da kritiktir. Düşman pozisyonları, hareket ve potansiyel tehditler için kesin çağrılar kullanın. Bir ön keşifçi ve bir arka koruma belirleyin. Mümkünse sözsüz ipuçları kullanmayı düşünün.
+  </Step>
+</Steps>
+
+<Callout type="info">
+Giriş veya çıkarma sırasındaki helikopter sesi taktiksel olarak kullanılabilir. Gürültüsü, ilk hareketlerinizi maskeleyebilir veya yapay zeka ve diğer oyuncular için bir dikkat dağıtıcı oluşturarak yeniden konumlanmanıza olanak tanır.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Karanlıkta Navigasyon ve Çıkarma">
+Lamang Adası'nda geceleri gezinmek benzersiz zorluklar sunar. Net görsel ipuçları olmadan, haritanıza ve pusulanıza güvenmek hayati önem taşır.
+
+<CardGrid cols={2}>
+  <Card title="Rotanızı Önceden Planlayın">
+    Bir gece operasyonu için konuşlanmadan önce haritanızı ayrıntılı olarak inceleyin. Önemli arazi işaretlerini, potansiyel pusu noktalarını ve birden fazla çıkarma rotasını belirleyin. Görsel bilginin sınırlı olduğu durumlarda arazi bilgisi en güvenilir varlığınızdır.
+  </Card>
+  <Card title="Harita İşaretleyicilerini Kullanın">
+    Hedefleri, bilinen düşman pozisyonlarını ve güvenli bölgeleri belirtmek için oyun içi harita işaretleyicilerini kullanın. Bu, özellikle bir ekiple koordinasyon sağlarken, karanlığa rağmen herkesin aynı sayfada olmasını sağlamak için çok faydalıdır.
+  </Card>
+  <Card title="Pusula ve Grid Referansları">
+    Pusulanızı kullanmada ve grid referanslarını anlamada yetkin olun. Bu araçlar, konumları kesin olarak belirlemek ve görsel temasın zor olduğu durumlarda takım arkadaşlarına doğru çağrılar sağlamak için vazgeçilmezdir.
+  </Card>
+  <Card title="Güvenli Çıkarma Noktaları">
+    Çıkarma bölgelerine her zaman aşırı dikkatle yaklaşın. Bu alanlar genellikle yoğun trafiğe sahiptir ve şiddetli bir şekilde tartışılabilir. Beklenmedik açılardan yaklaşarak ve alma çağrısı yapmadan önce alanı temizleyerek karanlığı avantajınıza kullanın.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Başarı Faktörü">
+Başarılı gece çıkarmaları genellikle sabır ve uyarlanabilirliğe bağlıdır. Birincil çıkarma rotanız tehlikeye girerse, ikincil bir plana geçmeye hazır olun. Esneklik, hayatta kalmanın anahtarıdır.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gece Operasyonları Tehditleri ve Karşı Önlemleri">
+Karanlık sadece sizi saklamaz; düşmanlarınızı da saklar. Yaygın tehditleri ve bunlara karşı nasıl koyulacağını anlamak hayatta kalmak için çok önemlidir.
+
+| Tehdit Türü         | Açıklama                                       | Karşı Önlem                                                |
+|:--------------------|:--------------------------------------------------|:--------------------------------------------------------------|
+| **Yapay Zeka Devriyeleri**| Tahmin edilebilir ancak sayıca fazla olabilir; genellikle ışık kullanırlar | Doğrudan çatışmadan kaçının, gizlilik, susturuculu silahlar kullanın. |
+| **Oyuncu Operatörler**| Tahmin edilemez, genellikle NVG/Termal kullanırlar | Siper kullanın, hareketi dinleyin, IR flaşları (varsa) konuşlandırın. |
+| **Çevresel Tehlikeler**| Tuzakların, engebeli arazinin görüş mesafesi azalır       | Yavaş hareket edin, kısa taramalar için silah feneri kullanın, bilinen yollara sadık kalın. |
+| **Keskin Nişancı Ateşi**     | Kökenini tespit etmek zor; genellikle susturuculu tüfekler kullanırlar  | Düzensiz hareket edin, siper kullanın, namlu flaşını tespit edin. |
+| **Pusu Noktaları**   | Dar geçitler, karanlık köşeler, yoğun bitki örtüsü          | Bilinen sıcak noktaları önceden bombalayın, yanınızı koruyan bir takım arkadaşıyla hareket edin. |
+
+<Callout type="warning">
+Silah fenerleri veya görünür lazerleri yem olarak kullanan oyunculara karşı dikkatli olun. Anlık bir flaş sizi hazırlanmış bir pusuya çekebilir. Tespit edildiyseniz, düşmanın genel yönünüzü bildiğini varsayın.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gelişmiş Gece Operasyonları Stratejileri">
+Tecrübeli operatörler için bu gelişmiş stratejiler, Gray Zone Warfare gece operasyonları sırasında etkinliğinizi daha da artırabilir.
+
+<Checklist
+  id="advanced-night-tactics"
+  title="Gelişmiş Gece Operasyonları Kontrol Listesi:"
+  items={[
+    "**IR Flaşlar ve İşaretleyiciler**: NVG kullanmayanlara konumunuzu açıklığa kavuşturmadan takım tanımlaması için kullanın.",
+    "**Flaş Bombaları**: Karanlık ortamlarda NVG'si olmayan düşmanlara karşı son derece etkilidir.",
+    "**Termal İmza Yönetimi**: Hareketsiz kalarak veya termal sönümleyici ekipman kullanarak ısı çıkışını en aza indirin.",
+    "**İhlal ve Oda Temizleme**: Hızlı giriş ve şaşırtma için silah fenerleri ve flaş bombaları kullanın.",
+    "**Keskin Nişancıya Karşı Teknikler**: Görüşü engellemek için sis bombaları kullanın, ardından yandan saldırın veya yeniden konumlanın.",
+    "**Dikkat Dağıtma Taktikleri**: Yapay zekayı hedefinizden uzaklaştırmak için el bombaları atın veya susturucusuz atışlar yapın."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Moon} title="Gray Zone Warfare Gece Operasyonları Hakkında Sıkça Sorulan Sorular">
+
+<FAQ items={[
+  {
+    question: "Gray Zone Warfare'de gece operasyonları daha mı tehlikelidir?",
+    answer: "Evet, gece operasyonları genellikle görüş mesafesinin azalması nedeniyle daha tehlikelidir, bu da düşmanları tespit etmeyi ve gezinmeyi zorlaştırabilir. Ancak, doğru şekilde donatılmış ve yetenekliyseniz, gizlilik ve sürpriz saldırılar için önemli fırsatlar da sunarlar."
+  },
+  {
+    question: "Gece operasyonları için en önemli ekipman parçası nedir?",
+    answer: "Birçok öğe kritik olsa da, **Gece Görüş Cihazları (NVG'ler)** tartışmasız en önemlileridir, çünkü karanlığın temel zorluğuna doğrudan karşı koyarlar. Termal optikler, farklı ancak eşit derecede değerli avantajlar sunan yakın bir ikinci sıradadır."
+  },
+  {
+    question: "Geceleri normal dürbün kullanabilir miyim?",
+    answer: "Geceleri normal dürbün kullanmak mümkündür, ancak son derece pratik değildir. Çok sınırlı görüş mesafesi sunacaklar ve hedef tespiti son derece zor olacaktır. Etkili çatışma için **termal optikler** veya **gece görüş cihazları** kullanmanız şiddetle tavsiye edilir."
+  },
+  {
+    question: "Gece operasyonları sırasında konumumu ele vermekten nasıl kaçınırım?",
+    answer: "Tespit edilmekten kaçınmak için **yavaş ve sessiz harekete**, **susturuculu silahlara** öncelik verin ve **silah fenerleri** veya görünür lazer kullanımını sınırlayın. Çevresel sesler ve takım iletişimi de dikkatlice yönetilmelidir."
+  }
+]} />
+
+</Section>

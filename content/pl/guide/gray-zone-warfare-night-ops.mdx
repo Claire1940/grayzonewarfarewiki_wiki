@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Moon } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Night Ops: Strategie dla przewagi taktycznej",
+  description: "Opanuj operacje nocne w Gray Zone Warfare dzięki zaawansowanym strategiom, rekomendacjom sprzętu i taktycznym wskazówkom dotyczącym skradania się, walki i ekstrakcji pod osłoną ciemności na wyspie Lamang.",
+  category: "Przewodnik",
+  image: "https://placehold.co/800x400/2C3E50/fff?text=Night+Ops+Guide",
+  date: "2026-06-15",
+  author: "Zespół Wiki Gray Zone Warfare"
+}
+
+<Callout type="info" title="Szybki przewodnik">
+- **Operacje nocne** w Gray Zone Warfare wymagają specjalistycznego sprzętu i taktyki.
+- **Optyka termowizyjna** i **urządzenia noktowizyjne** są kluczowe dla widoczności.
+- **Skryte poruszanie się** i broń z tłumikami oferują znaczące korzyści.
+- **Znajomość mapy** i wcześniej zaplanowane trasy są niezbędne do udanej ekstrakcji.
+- **Koordynacja zespołowa** jest wzmocniona podczas walki w słabym oświetleniu.
+</Callout>
+
+<Section icon={Moon} title="Opanowanie operacji nocnych w Gray Zone Warfare">
+Operacje nocne w Gray Zone Warfare wprowadzają unikalną warstwę złożoności taktycznej, przekształcając znane krajobrazy w zdradzieckie pola bitew. Osłona ciemności oferuje zarówno niezrównane możliwości skradania się, jak i znaczące wyzwania dla widoczności i zaangażowania. Zrozumienie, jak się wyposażyć i dostosować swój styl gry, jest najważniejsze dla przetrwania i sukcesu na wyspie Lamang po zmierzchu.
+
+Przejście z dnia na noc radykalnie zmienia dynamikę walki. Odległości stają się trudniejsze do oceny, pozycje wroga są zasłonięte, a dźwięk staje się bardziej krytycznym wskaźnikiem. Operatorzy muszą wykorzystać specjalistyczny sprzęt, aby utrzymać przewagę, zamieniając ciemność w sprzymierzeńca, a nie przeszkodę. Skuteczne operacje nocne wymagają połączenia doskonałego sprzętu, zdyscyplinowanego ruchu i ostrej świadomości sytuacyjnej.
+
+<Callout type="tip">
+Zawsze, jeśli to możliwe, zwiadowczo badaj obszar planowanej operacji nocnej w ciągu dnia. Znajomość punktów orientacyjnych i potencjalnych patroli wroga zapewni ci znaczną przewagę, gdy widoczność jest niska.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Niezbędny sprzęt do operacji nocnych">
+Właściwe wyposażenie to pierwszy krok do dominacji w operacjach nocnych Gray Zone Warfare. Inwestowanie w odpowiednie narzędzia może zadecydować o udanej ekstrakcji lub o tym, że staniesz się kolejną ofiarą w ciemności.
+
+| Typ sprzętu             | Zalecany przedmiot           | Kluczowa korzyść                               | Uwagi                                                              |
+|:------------------------|:-----------------------------|:-----------------------------------------------|:-------------------------------------------------------------------|
+| **Urządzenie noktowizyjne** | PVS-14, GPNVG-18             | Zwiększona widoczność w słabym świetle         | Niezbędne do nawigacji i identyfikacji celów w całkowitej ciemności. |
+| **Optyka termowizyjna**| Celownik termowizyjny T-7, FLIR Scout | Wykrywa sygnatury cieplne przez dym/roślinność | Doskonałe do namierzania celów, zwłaszcza ukrytych wrogów.         |
+| **Latarka taktyczna**    | SureFire M300, Streamlight TLR-1 | Tymczasowe oślepienie, oświetlenie celu       | Używaj oszczędnie, aby nie zdradzić swojej pozycji.               |
+| **Celownik laserowy**    | PEQ-15 (IR)                  | Celność strzelania z biodra, namierzanie IR | Połącz z noktowizją dla precyzyjnego celowania bez widocznego światła. |
+| **Tłumik/Wyciszacz**    | Różne modele                | Zmniejszony błysk wylotowy i sygnatura dźwięku | Kluczowe dla skradania się i unikania wykrycia.                    |
+| **Ciemne ubranie**      | Czarne, oliwkowe, kamuflaż   | Lepsze ukrycie w słabym świetle                | Wtop się w cienie, zmniejsz profil wizualny.                       |
+
+<Callout type="warning" title="Termowizja kontra noktowizja">
+Chociaż zarówno termowizja, jak i noktowizja są nieocenione, służą różnym celom. Optyka termowizyjna doskonale wykrywa ciepłe ciała, ale może mieć trudności z identyfikacją przyjaciela lub wroga z dużej odległości. Noktowizja zapewnia wyraźniejszy, choć monochromatyczny, widok otoczenia. Idealnie jest łączyć oba systemy lub przełączać się między nimi w zależności od sytuacji.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Taktyczne poruszanie się i walka">
+Prowadzenie udanych operacji nocnych to coś więcej niż tylko posiadanie odpowiedniego sprzętu; wymaga to wyrafinowanego podejścia do ruchu, walki i komunikacji.
+
+<Steps>
+  <Step num="1" title="Powolny i kontrolowany ruch">
+    Zmniejsz prędkość ruchu. Sprint i szybkie ruchy generują hałas i czynią cię łatwym celem. Wykorzystuj osłony i ukrycia, poruszając się od cienia do cienia. **Chodzenie w kucki** i **czołganie się** to twoi najlepsi przyjaciele.
+  </Step>
+  <Step num="2" title="Dyscyplina dźwiękowa">
+    Każdy dźwięk jest wzmocniony w nocy. Unikaj niepotrzebnych działań, takich jak głośne otwieranie ekwipunku czy przeładowywanie na otwartej przestrzeni. Używaj broni z tłumikiem, kiedy tylko to możliwe. Uważnie nasłuchuj kroków wroga, odległych strzałów i sygnałów środowiskowych.
+  </Step>
+  <Step num="3" title="Strategiczne użycie oświetlenia">
+    Latarki taktyczne i widoczne lasery są potężne, ale mają swoją cenę. Aktywuj je tylko wtedy, gdy aktywnie angażujesz cel lub oczyszczasz pomieszczenie. Chwilowy błysk może dać ci przewagę, ale długotrwałe użycie ujawni twoją pozycję.
+  </Step>
+  <Step num="4" title="Odległości zaangażowania">
+    Operacje nocne często sprzyjają walkom na krótszych dystansach, zwłaszcza bez wysokiej klasy optyki. Zrozum efektywny zasięg wybranego sprzętu i broni. Unikaj strzelania na długie dystanse, chyba że jesteś pewien swojego celu i masz jasną drogę ucieczki.
+  </Step>
+  <Step num="5" title="Komunikacja zespołowa">
+    Jasna i zwięzła komunikacja jest jeszcze bardziej krytyczna w nocy. Używaj precyzyjnych komunikatów o pozycjach wroga, ruchu i potencjalnych zagrożeniach. Wyznacz głównego zwiadowcę i tylną straż. Rozważ użycie niewerbalnych sygnałów, jeśli są dostępne.
+  </Step>
+</Steps>
+
+<Callout type="info">
+Dźwięk helikoptera podczas wstawiania lub ekstrakcji może być wykorzystany taktycznie. Jego hałas może maskować twoje początkowe ruchy lub tworzyć rozproszenie dla AI i innych graczy, umożliwiając ci zmianę pozycji.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Nawigacja i ekstrakcja w ciemności">
+Nawigacja po wyspie Lamang w nocy stwarza unikalne wyzwania. Bez wyraźnych wskazówek wizualnych, poleganie na mapie i kompasie staje się niezbędne.
+
+<CardGrid cols={2}>
+  <Card title="Wcześniejsze planowanie trasy">
+    Przed wyruszeniem na nocną operację szczegółowo przestudiuj swoją mapę. Zidentyfikuj kluczowe punkty orientacyjne, potencjalne miejsca zasadzek i wiele dróg ewakuacji. Znajomość terenu jest twoim najbardziej niezawodnym atutem, gdy informacje wizualne są ograniczone.
+  </Card>
+  <Card title="Wykorzystaj znaczniki mapy">
+    Używaj znaczników mapy w grze do oznaczania celów, znanych pozycji wroga i bezpiecznych stref. Jest to szczególnie pomocne podczas koordynacji z oddziałem, zapewniając, że wszyscy są na tej samej stronie pomimo ciemności.
+  </Card>
+  <Card title="Kompas i odniesienia siatkowe">
+    Opanuj posługiwanie się kompasem i zrozumienie odniesień siatkowych. Narzędzia te są niezbędne do precyzyjnego określania lokalizacji i dostarczania dokładnych komunikatów do kolegów z drużyny, gdy kontakt wizualny jest trudny.
+  </Card>
+  <Card title="Bezpieczne punkty ekstrakcji">
+    Zawsze podchodź do stref ekstrakcji z niezwykłą ostrożnością. Obszary te są często o dużym natężeniu ruchu i mogą być silnie sporne. Wykorzystaj ciemność na swoją korzyść, zbliżając się z nieoczekiwanych kierunków i oczyszczając obszar przed wezwaniem do odbioru.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Czynnik sukcesu">
+Udane ekstrakcje nocne często zależą od cierpliwości i zdolności adaptacji. Jeśli twoja główna trasa ekstrakcji jest zagrożona, bądź gotów przełączyć się na plan awaryjny. Elastyczność jest kluczem do przetrwania.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Zagrożenia i środki zaradcze w operacjach nocnych">
+Ciemność nie tylko cię ukrywa; ukrywa również twoich wrogów. Zrozumienie typowych zagrożeń i sposobów ich zwalczania jest kluczowe dla przetrwania.
+
+| Typ zagrożenia         | Opis                                                | Środek zaradczy                                                   |
+|:-----------------------|:----------------------------------------------------|:------------------------------------------------------------------|
+| **Patrole AI**         | Przewidywalne, ale mogą być liczne; często używają świateł | Unikaj bezpośredniego starcia, używaj skradania, broni z tłumikiem. |
+| **Operatorzy graczy**  | Nieprzewidywalni, często używają noktowizji/termowizji | Używaj osłon, nasłuchuj ruchu, rozmieszczaj stroboskopy IR (jeśli dostępne). |
+| **Zagrożenia środowiskowe**| Zmniejszona widoczność pułapek, nierówny teren       | Poruszaj się powoli, używaj latarki taktycznej do krótkich skanów, trzymaj się znanych ścieżek. |
+| **Ogień snajperski**   | Trudno zlokalizować źródło; często używają karabinów z tłumikiem | Utrzymuj nieregularny ruch, używaj osłon, identyfikuj błysk wylotowy. |
+| **Punkty zasadzki**    | Wąskie gardła, ciemne zakamarki, gęste rośliny        | Rzucaj granaty w znane gorące punkty, poruszaj się z kolegą z drużyny osłaniającym twoją flankę. |
+
+<Callout type="warning">
+Uważaj na graczy używających latarek taktycznych lub widocznych laserów jako przynęty. Szybki błysk może wciągnąć cię w przygotowaną zasadzkę. Zawsze zakładaj, że wróg zna twój ogólny kierunek, jeśli zostałeś zauważony.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Zaawansowane strategie operacji nocnych">
+Dla doświadczonych operatorów te zaawansowane strategie mogą dodatkowo zwiększyć twoją skuteczność podczas operacji nocnych w Gray Zone Warfare.
+
+<Checklist
+  id="advanced-night-tactics"
+  title="Zaawansowana lista kontrolna operacji nocnych:"
+  items={[
+    "**Stroboskopy i markery IR**: Używaj do identyfikacji oddziału bez ujawniania pozycji użytkownikom bez noktowizji.",
+    "**Granaty błyskowe**: Niezwykle skuteczne przeciwko wrogom bez noktowizji w ciemnych środowiskach.",
+    "**Zarządzanie sygnaturą termiczną**: Minimalizuj wydzielanie ciepła, pozostając w bezruchu lub używając sprzętu tłumiącego ciepło.",
+    "**Włamanie i oczyszczanie pomieszczeń**: Wykorzystaj latarki taktyczne i granaty błyskowe do szybkiego wejścia i dezorientacji.",
+    "**Techniki anty-snajperskie**: Używaj granatów dymnych do zasłaniania widoczności, a następnie oskrzydlaj lub zmieniaj pozycję.",
+    "**Taktyki odwracające uwagę**: Rzucaj granaty lub strzelaj z broni bez tłumika, aby odciągnąć AI od twojego celu."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Moon} title="Często zadawane pytania dotyczące operacji nocnych w Gray Zone Warfare">
+
+<FAQ items={[
+  {
+    question: "Czy operacje nocne są bardziej niebezpieczne w Gray Zone Warfare?",
+    answer: "Tak, operacje nocne są generalnie bardziej niebezpieczne ze względu na zmniejszoną widoczność, co może utrudniać dostrzeganie wrogów i nawigację. Jednak oferują również znaczące możliwości skradania się i ataków z zaskoczenia, jeśli jesteś odpowiednio wyposażony i wykwalifikowany."
+  },
+  {
+    question: "Jaki jest najważniejszy element wyposażenia do operacji nocnych?",
+    answer: "Chociaż wiele przedmiotów jest kluczowych, **Urządzenia noktowizyjne (NVG)** są prawdopodobnie najważniejsze, ponieważ bezpośrednio przeciwdziałają głównemu wyzwaniu ciemności. Optyka termowizyjna jest tuż za nimi, oferując inne, ale równie cenne korzyści."
+  },
+  {
+    question: "Czy mogę używać zwykłych lunet w nocy?",
+    answer: "Używanie zwykłych lunet w nocy jest możliwe, ale bardzo niepraktyczne. Będą one oferować bardzo ograniczoną widoczność, co sprawi, że namierzanie celów będzie niezwykle trudne. Zdecydowanie zaleca się używanie **optyki termowizyjnej** lub **urządzeń noktowizyjnych** do skutecznej walki."
+  },
+  {
+    question: "Jak uniknąć zdradzenia swojej pozycji podczas operacji nocnych?",
+    answer: "Aby uniknąć wykrycia, priorytetowo traktuj **powolny i cichy ruch**, używaj **broni z tłumikiem** i ograniczaj użycie **latarek taktycznych** lub widocznych laserów. Dźwięki otoczenia i komunikacja zespołowa również powinny być starannie zarządzane."
+  }
+]} />
+
+</Section>
