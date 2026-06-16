@@ -1,0 +1,220 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Hand, Skull, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Freedom Fighter: Maximizing Early Game Progression",
+  description: "Master the early game as a Gray Zone Warfare Freedom Fighter. Discover optimal task routes, vendor strategies, and gear choices for swift progression in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Freedom+Fighter+Guide",
+  date: "2026-06-16",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- As a **Gray Zone Warfare Freedom Fighter**, prioritize early tasks from Handshake to quickly build **reputation** and **cash**.
+- Efficiently loot firearm containers and valuable items to maintain a healthy **economy**.
+- Understand your faction's **starting town** and its impact on early task flow and travel times.
+- Focus on unlocking key **vendors** like Lab Rat and Gunny for essential medical supplies and weapon upgrades.
+- Utilize secure lockboxes to protect critical **quest items** and valuable gear during deployments.
+</Callout>
+
+<Section icon={Hand} title="Understanding Your Freedom Fighter Faction Choice">
+As a **Gray Zone Warfare Freedom Fighter**, your journey begins with a crucial decision: selecting your PMC faction. While the term "Freedom Fighter" isn't an official faction name within Gray Zone Warfare, players often associate it with the independent spirit of the Lamang Recovery Initiative (LRI) due to their proximity to contested zones and direct engagement with the conflict. Your chosen faction dictates your initial starting town, which in turn influences your early task routes, vendor access, and overall gameplay experience on Lamang Island.
+
+Understanding these initial geographical advantages and disadvantages is key to maximizing your early game progression and becoming an effective operator. Each faction offers a slightly different entry point into the hazardous environment, shaping your first hours in the game.
+
+<Callout type="tip">
+Choosing your faction wisely impacts your initial experience. The Lamang Recovery Initiative (LRI) often appeals to players looking for a more direct and challenging path, akin to a "freedom fighter" spirit, due to their spawn locations near contested areas.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Crimson Shield International (CSI)">
+    - **Starting Town**: Kiu Vongsa (141:164)
+    - **Progression**: Generally considered friendlier for slower, safer early progression.
+    - **Travel Time to Fort Narith**: 25-30+ minutes on foot.
+  </Card>
+  <Card title="Mithras Security Systems (MSS)">
+    - **Starting Town**: Nam Thaven (171:118)
+    - **Progression**: Balanced routes, sitting between safer and hotter zones.
+    - **Travel Time to Fort Narith**: 15-20 minutes on foot.
+  </Card>
+  <Card title="Lamang Recovery Initiative (LRI)">
+    - **Starting Town**: Pha Lang (202:162) / Pha Lang Airfield
+    - **Progression**: Fast access to contested zones, often preferred by aggressive players.
+    - **Travel Time to Fort Narith**: 5-10 minutes on foot.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Essential Early Game Tasks for Freedom Fighters">
+The core of early game progression in Gray Zone Warfare revolves around completing tasks for your vendors. As a budding **Gray Zone Warfare Freedom Fighter**, mastering these initial missions is paramount for gaining experience, reputation, and crucial gear. Many early tasks are designed to familiarize you with your starting town and introduce you to the game's mechanics, while simultaneously providing valuable rewards that kickstart your economy and unlock better vendor stock.
+
+Focus on tasks that build reputation with Handshake, Gunny, and Lab Rat early on. Handshake provides general gear and containers, Gunny offers weapons and ammo, and Lab Rat is your source for essential medical supplies. Efficiently tackling these tasks will ensure you're well-equipped for the challenges ahead.
+
+<Callout type="warning" title="Task Bottlenecks">
+Be aware that some tasks, like "Helping Hand," are key-gated. This means you'll need to find a specific key to access a required area, which can temporarily halt your progression. Prioritize key-finding as soon as these tasks appear.
+</Callout>
+
+<Steps>
+  <Step num="1" title="First Recon (Handshake)">
+    This is one of the initial route-setting tasks. It teaches you the landmarks of your starter town and helps you get a feel for navigation.
+    **Objectives**: Check the shack on the outskirts, check the town's lumberyard, check the area around the gas station.
+    **Known Locations**: Demolished Building - 141 165, Convenience Store - 141 162, Gas Station - 144 161.
+    **Rewards**: **400 EXP**, +25 Reputation with Handshake, **$1,700 USD**, 1x Modular Operator Carrier Gen II.
+  </Step>
+  <Step num="2" title="Cache Retrieval (Gunny)">
+    An early weapon-progression task that keeps you in the safe starter loop while building Gunny reputation.
+    **Objectives**: Find and mark the cache in a shed at the town's lumberyard.
+    **Known Locations**: Warehouse Location - 140 163, Lumber Yard Location - 141 161.
+    **Rewards**: **400 EXP**, +100 Reputation with Gunny, **$1,700 USD**, 1x Scorpion OCP Convoy Pack.
+  </Step>
+  <Step num="3" title="Meds Wanted (Lab Rat)">
+    Crucial for unlocking better medical supplies. Players constantly search for this task to improve their sustain and med access.
+    **Objectives**: Find the UNLRA medical supplies at the town's water tower.
+    **Known Locations**: Medical Supplies - 140 161.
+    **Rewards**: **400 EXP**, +100 Reputation with Lab Rat, **$2,200 USD**, 1x IFAK.
+  </Step>
+  <Step num="4" title="Helping Hand (Handshake)">
+    This task is a common key-gated progression point. You'll need a specific key to retrieve intel.
+    **Objectives**: Retrieve the intel, bring the intel from the restaurant to Handshake.
+    **Known Locations**: Restaurant attic in the starter town, Kiu Vongsa restaurant attic door - 141:164.
+    **Rewards**: **400 EXP**, +100 Reputation with Handshake, **$2,300 USD**, 1x Leather Key Holder.
+  </Step>
+  <Step num="5" title="The Shadow Over Ban Pa (Handshake)">
+    A major progression breakpoint that pushes players out of the starter phase and unlocks the Turncoat vendor.
+    **Objectives**: Scout the main northern entry point to Ban Pa, scout the main southern entry point to Ban Pa.
+    **Known Locations**: Staging area: YBL-1, Ban Pa sits north of the Tiger Bay shopping center and marina.
+    **Rewards**: **1,000 EXP**, +150 Reputation with Handshake, **$4,700 USD**, 2x Recon Chest Rig, Unlock access to Turncoat vendor.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Managing Your Economy and Gear as a Freedom Fighter">
+A successful **Gray Zone Warfare Freedom Fighter** understands that survival isn't just about combat prowess; it's also about effective resource management. Your economy is directly linked to your ability to complete tasks, loot efficiently, and make smart selling decisions. Early on, focus on low-risk loot routes and prioritize items that offer high value-to-slot ratios.
+
+The game's economy is designed to reward disciplined looting and strategic vendor interactions. Selling valuables to the right vendor can significantly boost your cash flow, allowing you to restock and upgrade your gear without constantly risking high-value runs.
+
+<Callout type="info">
+Update 0.4 rebalanced task rewards to place a greater emphasis on money rather than just items. This makes early tasks even more critical for building a stable financial foundation.
+</Callout>
+
+### Key Economic Principles:
+
+| Principle               | Description                                                                                             | Impact on Freedom Fighter |
+| :---------------------- | :------------------------------------------------------------------------------------------------------ | :------------------------ |
+| **Task Rewards**        | Early and mid-route tasks provide significant cash, EXP, and vendor reputation.                         | **Primary income source** |
+| **Loot Prioritization** | Focus on firearm containers and high-value loose items.                                                 | Maximizes profit per run  |
+| **Smart Selling**       | Sell items to the vendor offering the best price, not just the closest one.                             | **Boosts profit by up to 50%** |
+| **Vendor Progression**  | Use task money to push vendor reputation, unlocking better stock and more profitable trade options.      | Long-term economic growth |
+
+### Protecting Your Valuables: The Secure Lockbox
+
+Your Secure Lockbox is an invaluable asset for any **Gray Zone Warfare Freedom Fighter**. It protects its contents from loss upon death, making it essential for safeguarding quest items, high-value loot, and crucial medical supplies. Always transfer important items to your lockbox before deploying.
+
+<Checklist
+  id="loot-management"
+  title="Loot Management Essentials:"
+  items={[
+    "Always place quest items in your Secure Lockbox.",
+    "Prioritize valuable small items for lockbox storage.",
+    "Melee weapons are not lost upon death.",
+    "Be mindful of the AFK timer (15 minutes) outside FOBs to avoid gear loss."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Vendor Strategies for the Freedom Fighter">
+Vendors are your lifelines in Gray Zone Warfare, providing access to essential gear, weapons, and medical supplies. As a **Gray Zone Warfare Freedom Fighter**, understanding each vendor's specialty and their unlock paths is crucial for efficient progression. Building reputation with key traders allows you to access higher tiers of equipment, giving you a significant edge in combat and survival.
+
+Your progression with vendors is often tied to completing their specific tasks. These task chains not only grant reputation but also unlock new stock, making it easier to acquire the items you need.
+
+### Vendor Specializations and Progression:
+
+| Vendor    | Specialty                                             | Unlock Path                                                              | Progression Note                                                                 |
+| :-------- | :---------------------------------------------------- | :----------------------------------------------------------------------- | :------------------------------------------------------------------------------- |
+| **Handshake** | Helmets, gear, body armor, containers, tools          | Starting vendor                                                          | Good for early protection, storage, and general field gear.                      |
+| **Lab Rat**   | Medicaments, food, drinks, containers                 | Core vendor                                                              | Primary medical and sustain vendor, crucial for healing and supplies.            |
+| **Gunny**     | Weapons, magazines, ammo, throwables, attachments    | Core vendor                                                              | Best early anchor for improving rifle choice, attachments, and ammunition access. |
+| **Artisan**   | Weapons, ammo, sights, attachments, helmets, containers | Complete **Native Negotiations** (Lab Rat)                               | Prioritize for technical control over attachments and weapon builds.             |
+| **Banshee**   | Weapons, ammo, sights, attachments, gear              | Complete **Invaders From Afar** (Artisan)                                | Another weapon-focused branch, expanding wearable gear options.                  |
+| **Turncoat**  | Weapons, ammo, sights, attachments, helmets, gear, armor, containers | Complete **The Shadow Over Ban Pa** (Handshake)                          | Broadest inventory, combining weapon support with armor and container progression. |
+
+<Callout type="tip">
+When planning your vendor progression, consider which gear category you need most. If you're struggling with survivability, focus on Handshake for armor. If you need better firepower, prioritize Gunny and then Artisan.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Weapon and Ammo Choices for the Gray Zone Warfare Freedom Fighter">
+As a **Gray Zone Warfare Freedom Fighter**, your weapon and ammunition choices directly impact your effectiveness in engagements. The game's intricate ballistics and weapon handling mechanics mean that simply picking the highest damage weapon isn't always the best strategy. Understanding weapon platforms, compatible calibers, and the nuances of ammo penetration is essential.
+
+Recent updates, particularly the 0.4 Spearhead patch, have further refined weapon handling, sway, and ballistics, making thoughtful gear selection more critical than ever. Your goal is to choose a loadout that complements your playstyle and the specific threats you expect to encounter on Lamang Island.
+
+### Understanding Caliber Families:
+
+| Caliber              | Used By                                     | Weapon Class            | Planning Note                                                                 |
+| :------------------- | :------------------------------------------ | :---------------------- | :---------------------------------------------------------------------------- |
+| **5.45x39mm**        | AK-74M, AK-74N, AK-12, AKS-74U              | Assault rifles          | Useful for multiple AK-pattern rifles, good for shared inventory.             |
+| **5.56x45mm NATO**   | M4A1, DDM4, CQ A1, AK-19                    | Assault rifles          | Broad rifle caliber, spans Western and AK-19 platforms.                       |
+| **7.62x39mm**        | AKM, AKMN, AKMSN, AK-15, SKS                | Assault rifles and DMR  | Supports both assault-rifle and SKS setups, versatile for different roles.    |
+| **7.62x51mm NATO**   | AK-308, M700                                | Assault rifle and bolt-action rifle | Shared across heavier precision-oriented weapon choices.                      |
+| **Ballistics Update**| All ammunition types                        | System-wide             | 0.4 Spearhead improved ballistics and rebalanced viability across all ammo. |
+
+<Callout type="success">
+Experiment with different weapon and ammo combinations early on. Finding a setup that feels comfortable and effective for your playstyle is more important than chasing the "meta" if it doesn't suit you.
+</Callout>
+
+</Section>
+
+<Section icon={Skull} title="Staying Alive: Health and Survival Basics">
+The harsh environment of Lamang Island can be unforgiving. As a **Gray Zone Warfare Freedom Fighter**, understanding the health system and basic survival mechanics is paramount to avoiding unnecessary deaths and preserving your hard-earned gear. Injuries, bleeding, hydration, and energy levels all play a critical role in your combat effectiveness and overall survivability.
+
+Ignoring these elements can lead to a swift and frustrating end to your deployment. Always carry adequate medical supplies and monitor your character's status closely.
+
+### Critical Survival Mechanics:
+
+| Mechanic           | Effect of Neglect                                                              | Treatment/Prevention                                                            |
+| :----------------- | :----------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| **Hydration**      | Below 50%: Thirsty (no blood regeneration); 1%: Dehydrated (hazy vision).      | Carry water bottles; consume drinks regularly.                                  |
+| **Energy**         | Below 50%: Hungry (no blood regeneration); 1%: Starving (hazy vision).         | Carry food items; consume food regularly.                                       |
+| **Bleeding**       | Light, medium, severe bleeding leads to continuous blood loss.                 | Apply bandages (light), tourniquets (medium), or surgical kits (severe).        |
+| **Coma**           | Blood below 50% or destroyed organs (lungs/liver) can induce coma.             | Squadmates have ~180 seconds to revive; use stimulants to prevent/treat.        |
+| **Invulnerability**| 4 seconds of invulnerability after disembarking helicopter.                    | Use this window to assess threats and find cover immediately after landing.     |
+
+<Callout type="info" title="Revival Protocol">
+If a squadmate enters a coma, you have approximately 180 seconds to revive them before their death becomes permanent for that run. Always prioritize reviving teammates to preserve valuable gear and progression.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions for Freedom Fighters">
+
+<FAQ items={[
+  {
+    question: "What is a 'Freedom Fighter' in Gray Zone Warfare?",
+    answer: "While 'Freedom Fighter' isn't an official faction name, players often use it to describe operators, particularly those aligned with the Lamang Recovery Initiative (LRI), who operate with a sense of independence and direct engagement in the conflict zones of Lamang Island. It embodies a playstyle focused on challenging encounters and rapid progression."
+  },
+  {
+    question: "Which faction is best for a 'Freedom Fighter' playstyle?",
+    answer: "The Lamang Recovery Initiative (LRI) is typically the best choice. Their starting town, Pha Lang, and Pha Lang Airfield, offer fast access to contested zones, which suits an aggressive, independent playstyle focused on high-risk, high-reward engagements."
+  },
+  {
+    question: "How do I maximize my early game economy as a Gray Zone Warfare Freedom Fighter?",
+    answer: "To maximize your early game economy, focus on completing tasks for cash and reputation, prioritize looting firearm containers and high-value items, and always sell your valuables to the vendor offering the best price. Use your Secure Lockbox for critical quest items and high-tier loot."
+  },
+  {
+    question: "What are the most important early tasks for a new player?",
+    answer: "Key early tasks include 'First Recon' (Handshake) for map familiarity, 'Cache Retrieval' (Gunny) for early weapon progression, and 'Meds Wanted' (Lab Rat) for crucial medical supply access. 'Helping Hand' (Handshake) is also vital but often requires a specific key."
+  }
+]} />
+
+</Section>

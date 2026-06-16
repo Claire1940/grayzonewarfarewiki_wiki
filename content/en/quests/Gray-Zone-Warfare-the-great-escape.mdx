@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare the Great Escape: Extraction Strategies",
+  description: "Master the art of extraction in Gray Zone Warfare with our comprehensive guide. Learn optimal routes, gear setups, and survival tactics for successful exfils on Lamang Island.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/34495e/fff?text=GZW+Great+Escape",
+  date: "2026-06-16",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **The Great Escape** in Gray Zone Warfare relies on **strategic planning** and map knowledge.
+- Prioritize **lightweight gear** and stamina-boosting consumables for faster movement to extraction points.
+- Always check your map for **available Landing Zones (LZs)** and their current status before committing to an exfil.
+- Utilize **helicopters** for safe, damage-immune transport, but be aware of their sound as a tactical distraction.
+- Understanding **faction-specific starter towns** can influence early-game extraction routes and safety.
+</Callout>
+
+<Section icon={Shield} title="Understanding Extraction Mechanics in Gray Zone Warfare">
+Successful extraction, often referred to as "the great escape," is the ultimate goal of any deployment in Gray Zone Warfare. It's not just about reaching a point; it's about doing so safely, with your hard-earned loot intact. The game offers various extraction methods, primarily through helicopter LZs, each with its own set of risks and rewards. Knowing these mechanics is crucial for survival on Lamang Island.
+
+<Callout type="tip" title="Always Plan Your Exit">
+Before you even drop into Lamang, always have a primary and secondary extraction plan. Scout potential routes on your map and identify nearby LZs. This foresight can prevent panic and gear loss during a hot exfil.
+</Callout>
+
+**Video Highlights:**
+- Demonstrates safe approaches to common extraction zones.
+- Highlights key visual cues for active LZs.
+- Shows optimal movement techniques during exfil.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Early Access Launch Trailer" />
+
+The island's dynamic nature means that LZs can become contested or temporarily unavailable. Staying updated on map conditions and adapting your plans on the fly are vital skills for any PMC operator.
+
+</Section>
+
+<Section icon={Map} title="Optimal Extraction Routes and Landing Zones (LZs)">
+Lamang Island is vast, and knowing the best paths to your extraction points can mean the difference between a successful haul and losing everything. Each Faction's starting town offers different early-game advantages for extraction, and understanding the layout of major POIs is key.
+
+<Callout type="warning" title="LZ Status and Contention">
+Always remember that LZs are not always safe. They can become hot zones, especially in PvP-enabled modes. Listen for gunfire, observe your surroundings, and be prepared for combat upon arrival.
+</Callout>
+
+Here's a breakdown of key LZs and their characteristics:
+
+| LZ Callsign | Location Type | Grid Position (Example) | Associated POIs | Risk Level | Notes |
+| :---------- | :------------ | :---------------------- | :-------------- | :--------- | :---- |
+| **INDIA**   | Village       | 205:137                 | Ban Pa          | Medium     | Common for cult-related tasks. Frequently contested by Rebels. |
+| **DELTA**   | Military Base | 143:129                 | Fort Narith     | High       | Heavily guarded by LAF Soldiers. High-value loot area, expect player encounters. |
+| **JULIET**  | City Zone     | 198:130                 | Tiger Bay       | High       | Largest city, dense with objectives. Multiple enemy types, high player traffic. |
+| **HOTEL**   | Resort Zone   | Varies                  | Midnight Sapphire | Medium-High | Late-game task hub. Can attract players looking for specific keys. |
+| **KILO**    | Outskirts     | Varies                  | Starter Towns   | Low-Medium | Generally safer for early-game extractions. Good for quick task hand-ins. |
+
+<CardGrid cols={2}>
+  <Card title="Kiu Vongsa (Crimson Shield)">
+    - **LZ KILO (Approx. 141:164)**
+    - Good for early tasks like "First Recon" and "Helping Hand."
+    - Routes often involve the restaurant attic and lumberyard.
+  </Card>
+  <Card title="Nam Thaven (Mithras Security)">
+    - **LZ KILO (Approx. 171:118)**
+    - Balanced routes between safer and hotter zones.
+    - Central location for mid-game transitions.
+  </Card>
+  <Card title="Pha Lang (Lamang Recovery)">
+    - **LZ KILO (Approx. 202:162)**
+    - Fast access to contested areas like Pha Lang Airfield.
+    - Ideal for aggressive early pushes.
+  </Card>
+</CardGrid>
+
+Remember that the approximate distance to Fort Narith on foot from a faction route is: Lamang 5-10 min, Mithras 15-20 min, Crimson 25-30+ min, influencing your extraction planning significantly.
+
+</Section>
+
+<Section icon={Target} title="Gear Setup for a Smooth Extraction">
+Your loadout plays a critical role in your ability to make "the great escape." Mobility, survivability, and utility items are paramount. Overloading yourself with unnecessary gear can slow you down and make you an easy target.
+
+<Callout type="success" title="Lightweight Gear for Mobility">
+Prioritize lighter armor and a compact weapon setup if your main goal is quick extraction after securing a high-value item. A faster sprint and lower stamina drain can save your life.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Prioritize Movement & Stamina">
+    Equip lighter armor (e.g., Recon Chest Rig over heavy plate carriers) and consider a primary weapon with good ergonomics. Carry energy drinks and water to maintain hydration and energy, which directly impacts stamina. Low hydration (below 50%) leads to no blood regeneration, and low energy (below 50%) also stops blood regeneration.
+  </Step>
+  <Step num="2" title="Essential Medical Supplies">
+    Always carry combat tourniquets, bandages, and painkillers. Untreated bleeding and pain can quickly incapacitate you. If blood drops below 50 percent, you risk entering a coma, and squadmates have only about 180 seconds to revive you.
+  </Step>
+  <Step num="3" title="Secure Lockbox Management">
+    Place all high-value task items and irreplaceable loot into your Secure Lockbox immediately. Items inside are protected even if you die. Quest items sometimes survive when placed in secure storage, but prioritize quick hand-ins.
+  </Step>
+  <Step num="4" title="Navigation Tools">
+    A reliable compass and a physical map (or mental map knowledge) are invaluable. Digital maps can be accessed, but understanding your surroundings without constant menu-checking is a survival advantage.
+  </Step>
+  <Step num="5" title="Communication (Squad Play)">
+    If playing in a squad, coordinate your extraction. Designate a rally point, cover each other's flanks, and communicate enemy sightings or changes in LZ status.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Tactical Considerations for Safe Exfils">
+Extraction is rarely a simple walk to the helicopter. It often involves navigating hostile territory, avoiding patrols, and potentially engaging other players or AI.
+
+<Callout type="info" title="Helicopter Immunity Window">
+Players are immune to damage while onboard the helicopter. After stepping off, there is a 4-second invulnerability window. Use this to your advantage for quick repositioning or to avoid immediate threats upon landing.
+</Callout>
+
+**Key Tactical Elements:**
+
+| Tactic           | Description                                                                 | Application for Extraction                                          | Risk/Reward                                          |
+| :--------------- | :-------------------------------------------------------------------------- | :------------------------------------------------------------------ | :--------------------------------------------------- |
+| **Stealth Movement** | Utilizing cover, low-profile movement, and avoiding direct engagements.     | Ideal for solo players or when carrying high-value loot. Minimizes exposure. | Low risk, but slower. May miss opportunistic kills.  |
+| **Flanking & Diversion** | Drawing enemy attention away from the main extraction route.                | A squadmate can lay suppressive fire while others push the LZ.        | High risk for the diverter, high reward for successful extraction. |
+| **LZ Scouting**  | Approaching the LZ cautiously, checking for enemies before calling the heli. | Prevents ambushes at the extraction point.                           | Slightly slower exfil, but significantly safer.      |
+| **Combat Breakout** | Engaging and eliminating threats directly to clear the path to the LZ.      | Necessary when an LZ is heavily contested or your path is blocked.   | High risk, high reward. Requires good combat skills and gear. |
+| **Emergency Exfils** | Having a backup LZ or alternative route planned if the primary is compromised. | Crucial for adapting to dynamic situations on the fly.                | Saves your run when primary plans fail.              |
+
+Remember, the helicopter sound also acts as a tactical distraction for both AI and other players. Use this to mask your movements or to bait enemies into a specific area.
+
+</Section>
+
+<Section icon={Trophy} title="Common Extraction Pitfalls and How to Avoid Them">
+Even experienced operators can fall victim to common mistakes during extraction. Being aware of these pitfalls can significantly improve your survival rate and ensure your "great escape" is successful.
+
+<Callout type="warning" title="Don't AFK Outside Safe Zones">
+The inactivity limit is 15 minutes. If you are removed while outside the FOB, the same normal gear loss rules apply. Never go AFK in a live deployment.
+</Callout>
+
+<Checklist
+  id="extraction-pitfalls"
+  title="Avoid These Mistakes:"
+  items={[
+    "**Over-encumbering:** Carrying too much loot slows you down, making you an easy target and draining stamina faster. Prioritize high-value items.",
+    "**Ignoring Hydration/Energy:** Low stats severely impact your ability to sprint, heal, and see clearly. Always keep consumables topped up.",
+    "**Rushing LZs Blindly:** Never sprint directly into an LZ without scouting it first. It's an ambush waiting to happen.",
+    "**Lack of Backup Plan:** Always have a secondary extraction route or LZ in mind if your primary is compromised.",
+    "**Poor Squad Coordination:** In a team, failing to communicate or cover each other during extraction is a recipe for disaster.",
+    "**Underestimating AI Threat:** Even in PvE mode, AI can be deadly. Don't assume an area is safe just because there are no players."
+  ]}
+/>
+
+By actively mitigating these risks, you transform extraction from a desperate scramble into a calculated and successful "great escape."
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Mastering the Gray Zone Warfare Extraction">
+
+<FAQ items={[
+  {
+    question: "What is the most common reason for failed extractions in Gray Zone Warfare?",
+    answer: "The most common reasons for failed extractions are often over-encumbrance, which leads to slow movement and being easily targeted, and rushing LZs without proper reconnaissance, exposing players to ambushes. Ignoring critical survival stats like hydration and energy also contributes significantly to failed 'great escape' attempts."
+  },
+  {
+    question: "How do I choose the best LZ for my extraction?",
+    answer: "Choosing the best LZ depends on your current location, the amount and value of your loot, and the current threat level. Generally, LZs closer to your Faction's starter town (like LZ KILO) are safer for early-game extractions. For high-value, high-risk zones like Fort Narith or Tiger Bay, it's crucial to scout the LZ thoroughly before calling the helicopter and to have a contingency plan."
+  },
+  {
+    question: "Can I use the helicopter as a tactical advantage during extraction?",
+    answer: "Yes, the helicopter offers several tactical advantages. While onboard, you are immune to damage, and there's a 4-second invulnerability window after disembarking, allowing for quick repositioning. Furthermore, the loud sound of the helicopter can act as a tactical distraction, masking your movements or drawing AI and other players' attention away from your actual approach."
+  },
+  {
+    question: "What gear should I prioritize for a successful 'the great escape' in Gray Zone Warfare?",
+    answer: "For a successful 'the great escape', prioritize lightweight gear that enhances mobility and stamina. This includes lighter armor, a compact weapon, and essential medical supplies like combat tourniquets and painkillers. Crucially, always use your Secure Lockbox for high-value items to protect them even if your extraction fails."
+  }
+]} />
+
+</Section>
