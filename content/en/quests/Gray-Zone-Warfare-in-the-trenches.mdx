@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare in the Trenches: Tactical Combat & Survival Guide",
+  description: "Master Gray Zone Warfare in the trenches with our tactical guide to Lamang Island. Learn task progression, weapon ballistics, and extraction strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d2d2d/f97316?text=Tactical+Combat+Guide",
+  date: "2026-06-17",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Gray Zone Warfare in the trenches** requires a slow, methodical approach to tactical movement and environmental awareness.
+- **Task progression** is your primary engine for unlocking better gear, weapons, and medical supplies from vendors.
+- **Ballistics matter** more than raw damage; choosing the right armor-piercing caliber determines your survival in Tier 3 zones.
+- **Faction choice** dictates your starting town and early-game routing, impacting how you navigate the initial 10-20 hours.
+- **Health management** involves treating specific injuries like bleeding or organ damage before they lead to a fatal coma.
+</Callout>
+
+<Section icon={Swords} title="Gray Zone Warfare in the Trenches: Combat Fundamentals">
+
+Surviving **Gray Zone Warfare in the trenches** means embracing the "PvE-First" philosophy of Lamang Island. Unlike traditional fast-paced shooters, this tactical extraction experience punishes reckless movement. Whether you are navigating the dense jungles or clearing the military corridors of Fort Narith, every step must be calculated. The game's realism extends to its ballistics and health systems, where a single untreated wound can end a successful raid.
+
+**Video Highlights:**
+- Overview of the tactical open-world environment on Lamang Island.
+- Demonstration of the realistic combat HUD and weapon handling mechanics.
+- Glimpse into the high-stakes extraction gameplay and squad coordination.
+- Visuals of the diverse POIs, from starter towns to high-tier military bases.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Early Access Launch Trailer" />
+
+Before deploying, you must choose between two primary game modes. This decision dictates your level of risk and the type of opposition you will face during your operations.
+
+| Mode | Player Interaction | Risk Level | Best For |
+|:---|:---|:---|:---|
+| **Warfare** | PvPvE (Hostile PMCs present) | High | Competitive play / Faction conflict |
+| **Joint Operations** | PvE (No hostile PMCs) | Moderate | Learning maps / Safe task progression |
+
+<Callout type="tip" title="Tactical Tip">
+For players new to the "trenches," starting in Joint Operations is highly recommended. It allows you to learn the map layouts and AI behavior without the added pressure of enemy player ambushes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navigating Lamang Island: POIs and Tier Zones">
+
+Lamang Island is divided into various Points of Interest (POIs) that range in difficulty. Understanding the tier system is essential for survival. Starter towns provide a relatively safe environment for early tasks, while Tier 3 zones like Tiger Bay and Midnight Sapphire contain elite AI soldiers and high-value loot.
+
+<CardGrid cols={3}>
+  <Card title="Starter Towns">
+    - **Tier 1**
+    - Local Rebels
+    - Focus: Basic tasks and initial vendor reputation
+  </Card>
+  <Card title="Fort Narith">
+    - **Tier 3**
+    - LAF Soldiers
+    - Focus: Military gear, high-tier weapon parts, and keys
+  </Card>
+  <Card title="Tiger Bay">
+    - **Tier 3**
+    - Dense Urban Combat
+    - Focus: UNLRA tasks and large-scale squad operations
+  </Card>
+</CardGrid>
+
+The geography of your faction determines your initial experience. Each faction starts in a mirrored but geographically distinct location on the map.
+
+| Faction | Starting Town | Grid | Tactical Advantage |
+|:---|:---|:---|:---|
+| **Crimson Shield** | Kiu Vongsa | 141:164 | Slower, methodical early progression |
+| **Mithras Security** | Nam Thaven | 171:118 | Balanced access to various routes |
+| **Lamang Recovery** | Pha Lang | 202:162 | Fast access to contested southern zones |
+
+<Callout type="warning" title="Landing Zone Safety">
+Landing Zones (LZs) are hotspots for combat. When exiting a helicopter, you have a 4-second invulnerability window. Use this time to scan the immediate area and find hard cover before the timer expires.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progression Path: Essential Early Tasks">
+
+Progression in Gray Zone Warfare is driven by completing tasks for various vendors. These missions unlock new equipment and higher-tier ammunition. Following the core task route is the fastest way to move from a "rookie" to an elite operator.
+
+<Steps>
+  <Step num="1" title="First Recon">
+    Deploy to your faction's starter town. You must check the shack on the outskirts, the lumberyard, and the gas station. This task introduces you to the basic landmark loop.
+  </Step>
+  <Step num="2" title="Meds Wanted">
+    Visit the town's water tower to locate UNLRA medical supplies. Completing this for Lab Rat is critical as it unlocks better healing items like IFAKs and tourniquets.
+  </Step>
+  <Step num="3" title="Helping Hand">
+    Retrieve intel from the restaurant attic. This is often the first "key-gated" task. You will need to find the Restaurant Storage Key on local enemies to progress.
+  </Step>
+  <Step num="4" title="The Shadow Over Ban Pa">
+    This major milestone pushes you out of the starter town. Scouting the northern and southern entries of Ban Pa unlocks the Turncoat vendor, expanding your gear options significantly.
+  </Step>
+</Steps>
+
+| Task Name | Vendor | Primary Reward | Why It Matters |
+|:---|:---|:---|:---|
+| **First Recon** | Handshake | $1,700 / Armor | Sets the initial town landmarks |
+| **Meds Wanted** | Lab Rat | $2,200 / IFAK | Unlocks essential medical sustain |
+| **Cache Retrieval** | Gunny | $1,700 / Backpack | Early weapon-focused progression |
+| **Helping Hand** | Handshake | $2,300 / Key Holder | First encounter with key-locked areas |
+
+<Callout type="success" title="Progression Bonus">
+Completing a task for the first time grants a significant reputation boost. Prioritize finishing new tasks over farming AI to reach Vendor Rank 2 as quickly as possible.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gear and Ballistics: Mastering the Loadout">
+
+In the trenches of Lamang Island, your choice of ammunition is often more important than the gun itself. The Spearhead 0.4 update introduced significant reworks to weapon weight, sway, and ergonomics. Heavy builds now impact your Aim Down Sights (ADS) speed and stamina drain, making "budget" builds more viable for long-range reconnaissance.
+
+<Checklist
+  id="loadout-essentials"
+  title="Pre-Deployment Checklist:"
+  items={[
+    "Verify magazine compatibility with chosen caliber",
+    "Pack at least 2 tourniquets and 1 surgical kit",
+    "Equip a Secure Lockbox with your most valuable keys",
+    "Fill hydration and energy levels to 100% at the FOB",
+    "Check armor plate integrity before leaving the base"
+  ]}
+/>
+
+| Caliber | Compatible Platforms | Typical Use Case |
+|:---|:---|:---|
+| **5.45x39mm** | AK-74M, AK-12, AKS-74U | Versatile, common early-game ammo |
+| **5.56x45mm** | M4A1, DDM4, AK-19 | High accuracy, western-style rifles |
+| **7.62x39mm** | AK-15, SKS, AKM | High stopping power for unarmored targets |
+| **7.62x51mm** | AK-308, M700 | Long-range precision and armor penetration |
+| **.300 Blackout** | SIG MCX | Specialized, modular platform performance |
+
+<Callout type="warning" title="Sustain Warning">
+If your hydration or energy drops below 50%, your blood regeneration stops. If they reach 1%, you will suffer from hazy vision and eventual collapse. Always carry water and food during long deployments.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="The Economy: Vendors and Key Management">
+
+Maintaining a healthy cash flow is vital for replacing lost kits. Money is earned through task rewards and selling looted valuables to the right vendors. Each vendor specializes in different gear categories and has specific reputation thresholds for unlocking better stock.
+
+| Vendor | Specialty | Unlock Requirement |
+|:---|:---|:---|
+| **Handshake** | Armor, Helmets, Gear | Available at start |
+| **Gunny** | Weapons, Attachments, Ammo | Available at start |
+| **Lab Rat** | Medical, Food, Water | Available at start |
+| **Artisan** | Technical Weapon Parts | Complete 'Native Negotiations' |
+| **Turncoat** | Broad Inventory / Armor | Complete 'Shadow Over Ban Pa' |
+
+Keys are the most valuable items you can find in the "trenches." They unlock rooms containing high-tier loot or essential task objectives. Always store these in your Secure Lockbox to prevent loss upon death.
+
+| Key Name | Location | Related Task | Loot Type |
+|:---|:---|:---|:---|
+| **Restaurant Storage Key** | Starter Town | Helping Hand | Task Intel / Meds |
+| **Sawmill Office Key** | Sawmill | EOD | Weapons / First Aid |
+| **Elder's Room Key** | Ban Pa | It's in the Water II | Chemistry / Task Route |
+| **Improvised Armory Key** | Fort Narith | Loot Route | High-tier Military Gear |
+
+<Callout type="info" title="Vendor Tip">
+Different vendors may pay different prices for the same item. While any vendor can buy your loot, checking the [Official Gray Zone Warfare News](https://www.grayzonewarfare.com/news) for economy updates can help you maximize your profits.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Gray Zone Warfare Survival">
+
+<FAQ items={[
+  {
+    question: "What is the best way to survive Gray Zone Warfare in the trenches?",
+    answer: "The best way to survive is to move slowly, use hard cover, and always carry adequate medical supplies. Avoid running in the open and use your headset to listen for AI or player movement before entering a new POI."
+  },
+  {
+    question: "Do I lose my gear if I die in Gray Zone Warfare?",
+    answer: "Yes, you lose all gear carried on your person if you die and cannot retrieve your body. However, items stored in your Secure Lockbox are protected and will return to the FOB with you."
+  },
+  {
+    question: "How do I unlock more vendors like Turncoat or Artisan?",
+    answer: "Vendors are unlocked by completing specific task chains. For example, Artisan requires 'Native Negotiations' from Lab Rat, while Turncoat requires 'The Shadow Over Ban Pa' from Handshake."
+  },
+  {
+    question: "What happens if I go AFK during a deployment?",
+    answer: "There is a 15-minute inactivity limit. If you are removed from the server for being AFK while outside the safe FOB area, you will lose your current loadout as if you had died."
+  }
+]} />
+
+</Section>

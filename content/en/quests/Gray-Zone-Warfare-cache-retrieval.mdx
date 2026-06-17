@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Cache Retrieval: Lumberyard Task Guide",
+  description: "A detailed guide for completing the 'Cache Retrieval' task in Gray Zone Warfare, including objectives, locations, rewards, and strategic tips for a successful run. Learn how to efficiently find and mark the cache in the starter town lumberyard.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/34495E/fff?text=Cache+Retrieval+Guide",
+  date: "2026-06-17",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Cache Retrieval** task is an early progression mission from **Gunny**.
+- Your primary objective is to **find and mark a cache** in a shed at the town's lumberyard.
+- The task helps build **Gunny reputation** and provides valuable early-game rewards.
+- Known locations for the cache include the **Warehouse (140 163)** and **Lumber Yard (141 161)**.
+- Completing this task grants **EXP, USD, and a Scorpion OCP Convoy Pack**.
+</Callout>
+
+<Section icon={Target} title="Understanding the 'Cache Retrieval' Task">
+The 'Cache Retrieval' task is a crucial early-game mission in Gray Zone Warfare, assigned by **Gunny**. This task is designed to introduce players to basic navigation and objective marking within the starter town's lumberyard, while also contributing significantly to your reputation with Gunny. Building good rapport with vendors like Gunny is essential for unlocking better weapons, magazines, and other crucial gear as you progress. This guide will walk you through the objectives, pinpoint key locations, and outline the rewards you'll earn upon successful completion.
+
+<Callout type="tip" title="Why This Task Matters">
+Completing 'Cache Retrieval' not only provides immediate rewards but also solidifies your standing with Gunny, granting access to superior weaponry and attachments earlier in your Gray Zone Warfare journey. It's an early weapon-progression task that keeps players inside the safe starter loop while building essential vendor reputation.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Locating the Cache: Key Areas">
+The cache for this task is located within a shed in the lumberyard area of your starter town. While the exact shed can vary slightly, the general vicinity remains consistent. Knowing the coordinates and key landmarks will significantly streamline your search and minimize exposure to potential threats.
+
+**Video Highlights:**
+- Visual walkthrough of the lumberyard area.
+- Specific shed identification for the cache.
+- Safe approaches to the objective.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Early Access Launch Trailer" />
+
+The primary locations to focus on are the warehouse and the main lumber yard structure. Always approach these areas with caution, as AI enemies often patrol them.
+
+| Location Name      | Grid Coordinates | Description                                     | Notes                                    |
+|--------------------|------------------|-------------------------------------------------|------------------------------------------|
+| **Warehouse**      | 140 163          | Large storage building, often guarded.          | Check all sheds and outbuildings nearby. |
+| **Lumber Yard**    | 141 161          | Main processing area with piles of wood.        | The cache shed is usually small and isolated. |
+| **Starter Town**   | Varies by Faction| Your initial deployment zone (Kiu Vongsa, Nam Thaven, Pha Lang). | The lumberyard is always connected to your faction's town. |
+
+<Callout type="warning" title="Threat Assessment">
+The lumberyard, while part of the "safe starter loop," can still house AI enemies. Be prepared for engagements, especially around larger structures like the warehouse. Clear the area before attempting to mark the cache to avoid interruptions.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Step-by-Step Cache Retrieval">
+Follow these steps to successfully locate and mark the cache, ensuring a smooth completion of your mission.
+
+<Steps>
+  <Step num="1" title="Gear Up Appropriately">
+    Before heading out, ensure you have a basic weapon, some spare ammunition, and at least one healing item. While this is an early task, being prepared for minor skirmishes is always wise. Consider bringing a tactical backpack if you plan on looting other items in the area.
+  </Step>
+  <Step num="2" title="Navigate to the Lumberyard">
+    From your FOB, head towards the designated lumberyard area of your starter town. Refer to your in-game map and the coordinates provided (140 163 for the Warehouse, 141 161 for the Lumber Yard) to accurately reach the vicinity.
+  </Step>
+  <Step num="3" title="Locate the Shed and Cache">
+    Once in the lumberyard, systematically search the smaller sheds and outbuildings. The cache is typically found inside one of these sheds. It will appear as a distinct interactable object.
+    
+    <CardGrid cols={2}>
+      <Card title="Key Visual Cues">
+        - Small, wooden or corrugated metal shed.
+        - Often slightly away from the main lumber piles.
+        - Look for a glowing outline or prompt when close to the cache.
+      </Card>
+      <Card title="Common Cache Types">
+        - Small wooden crate
+        - Military-style supply box
+        - Canvas-covered bundle
+      </Card>
+    </CardGrid>
+  </Step>
+  <Step num="4" title="Mark the Cache">
+    Once you've found the cache, interact with it to "mark" its location. This usually involves holding down a specific key (e.g., 'F' by default) until the progress bar completes. Ensure the area is clear of enemies before attempting to mark, as the process takes a few seconds and leaves you vulnerable.
+  </Step>
+  <Step num="5" title="Extract and Report">
+    After successfully marking the cache, proceed to a safe extraction point. Once back at your FOB, report to Gunny to claim your rewards.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mission Success Checklist">
+<Checklist
+  id="cache-retrieval-checklist"
+  title="Before Exfil:"
+  items={[
+    "Cache successfully marked",
+    "Area cleared of immediate threats",
+    "Extraction route secured",
+    "Inventory checked for additional loot"
+  ]}
+/>
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Rewards and Progression Benefits">
+Completing 'Cache Retrieval' offers a solid boost to your early-game progression, providing experience, currency, and a useful gear item.
+
+| Reward Category | Item/Value                  | Benefit                                     |
+|-----------------|-----------------------------|---------------------------------------------|
+| **Experience**  | **400 EXP**                 | Contributes to overall player level progression. |
+| **Reputation**  | **+100 Reputation with Gunny** | Unlocks higher-tier weapons and attachments from Gunny. |
+| **Currency**    | **$1,700 USD**              | Essential for purchasing supplies and gear. |
+| **Gear**        | **1x Scorpion OCP Convoy Pack** | A useful backpack for increased carrying capacity. |
+
+These rewards are tailored to help you in the initial stages of Gray Zone Warfare, providing both financial stability and access to better equipment. The Scorpion OCP Convoy Pack, in particular, is a valuable asset for extending your looting capacity during future runs.
+
+<Callout type="info" title="Vendor Progression Insight">
+Gunny is your go-to vendor for weapons, magazines, and ammunition. The +100 reputation from this task is a significant step towards unlocking more advanced weapon options and modifications, making your future deployments more effective.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Strategic Tips for Efficiency">
+To maximize your efficiency and minimize risk during the 'Cache Retrieval' task, consider these strategic tips:
+
+<CardGrid cols={3}>
+  <Card title="Stealth Approach">
+    - Move slowly and use cover.
+    - Listen for enemy footsteps and vocal cues.
+    - Avoid direct confrontations unless necessary.
+  </Card>
+  <Card title="Map Awareness">
+    - Regularly check your map for known enemy locations.
+    - Plan your route to and from the objective carefully.
+    - Identify potential escape paths in advance.
+  </Card>
+  <Card title="Looting Discipline">
+    - Prioritize task items and high-value loot.
+    - Don't over-commit to looting if the area is contested.
+    - Remember your Secure Lockbox for essential items.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions About Cache Retrieval">
+
+<FAQ items={[
+  {
+    question: "What is the 'Cache Retrieval' task in Gray Zone Warfare?",
+    answer: "The 'Cache Retrieval' task is an early mission from the vendor Gunny, requiring players to find and mark a hidden cache within a shed in the starter town's lumberyard. Completing it grants EXP, USD, and Gunny reputation."
+  },
+  {
+    question: "Where exactly can I find the cache for this task?",
+    answer: "The cache is located in a shed within the lumberyard area of your starter town. Key locations to check include the Warehouse (140 163) and the main Lumber Yard (141 161). It's typically in a smaller, isolated shed."
+  },
+  {
+    question: "What rewards do I get for completing 'Cache Retrieval'?",
+    answer: "Upon successful completion, you receive 400 EXP, +100 Reputation with Gunny, $1,700 USD, and a Scorpion OCP Convoy Pack. These rewards are vital for early-game progression and vendor access."
+  },
+  {
+    question: "Are there enemies in the lumberyard during the 'Cache Retrieval' task?",
+    answer: "Yes, even though it's part of the starter loop, AI enemies frequently patrol the lumberyard. Always approach with caution and be prepared for potential engagements, especially around larger structures."
+  }
+]} />
+
+</Section>

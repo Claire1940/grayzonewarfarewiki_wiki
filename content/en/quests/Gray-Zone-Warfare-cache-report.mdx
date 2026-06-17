@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Package, Building, Users, Clock } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Cache Report: Locating & Securing Hidden Stashes",
+  description: "Uncover all hidden caches in Gray Zone Warfare with our detailed report on locations, task objectives, and optimal retrieval strategies on Lamang Island.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/343a40/fff?text=GZW+Cache+Report",
+  date: "2026-06-17",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Gray Zone Warfare cache report** details key locations for hidden stashes.
+- Prioritize caches linked to **vendor tasks** for maximum progression.
+- Understand **key requirements** for locked cache containers.
+- Utilize interactive maps to pinpoint **exact cache coordinates**.
+- Secure caches quickly to minimize **risk from hostile players** and AI.
+</Callout>
+
+<Section icon={Package} title="Understanding Cache Mechanics in Gray Zone Warfare">
+In the unforgiving world of Gray Zone Warfare, caches represent hidden stashes of valuable loot, crucial for survival and progression. These reports are vital for any operator looking to maximize their efficiency on Lamang Island. Caches can range from simple ground stashes to locked containers requiring specific keys, often tied directly to vendor tasks. Knowing where to find them, what they contain, and how to access them is a cornerstone of successful operations.
+
+The game's design emphasizes tactical awareness, making every cache retrieval a potential high-risk, high-reward scenario. Early game caches often provide essential starting gear and resources, while later game caches can yield rare weapons, attachments, and high-value trade items.
+
+<Callout type="tip" title="Cache Security Protocol">
+Always scout the area around a known cache location before attempting retrieval. Hostile AI and other players frequently patrol high-value areas, turning a simple loot run into a deadly encounter. Consider bringing a squad for added protection, especially for caches in contested zones.
+</Callout>
+
+**Video Highlights:**
+- Demonstrates common cache types and their visual cues.
+- Shows a quick route to an early-game cache in a starter town.
+- Provides tips on clearing an area before looting a cache.
+
+</Section>
+
+<Section icon={Map} title="Key Cache Locations and Task Integration">
+Many caches in Gray Zone Warfare are not just random loot spawns; they are integral to various tasks given by vendors like Gunny. For instance, the "Cache Retrieval" task from Gunny explicitly directs players to find and mark a specific cache in a shed within the starter town's lumberyard. Successfully completing these tasks not only grants you the cache's contents but also significant experience, vendor reputation, and currency.
+
+Here's a breakdown of some notable cache locations and their associated tasks:
+
+| Cache Name               | Area                        | Objectives                                  | Known Locations                 | Related Task         |
+|--------------------------|-----------------------------|---------------------------------------------|---------------------------------|----------------------|
+| Lumberyard Cache         | Starter Town Lumberyard     | Find and mark cache in a shed               | Warehouse: **140 163**, Lumber Yard: **141 161** | Cache Retrieval (Gunny) |
+| UNLRA Medical Supplies   | Starter Town Water Tower    | Find UNLRA medical supplies                 | Medical Supplies: **140 161**   | Meds Wanted (Lab Rat)|
+| Intel Stash              | Kiu Vongsa Restaurant Attic | Retrieve intel from restaurant              | Kiu Vongsa: **141 164**         | Helping Hand (Handshake)|
+| Sawmill Office Cache     | Sawmill                     | Access office building at lumber company    | Office Building: **Tonmai Hainy Lumber Co.** | EOD (Artisan)        |
+| Airfield Storage Cache   | Pha Lang Airfield           | Access office room in storage building      | Airfield Storage Office         | Hazardous Treasures  |
+
+<Callout type="warning" title="Contested Cache Zones">
+Be aware that caches tied to high-reward tasks or located in central map areas are often hotbeds for player-versus-player engagements. Proceed with extreme caution and always assume hostile contact.
+</Callout>
+
+</Section>
+
+<Section icon={Building} title="Accessing Locked Caches: Keys and Requirements">
+Some of the most valuable caches are secured behind locked doors, requiring specific keys to access. These keys are often rare drops from enemies, found in specific locations, or rewarded through other tasks. Understanding which keys open which caches is crucial for efficient loot runs and task completion.
+
+The "Helping Hand" task from Handshake, for example, often bottlenecks players because it requires a specific key to access the restaurant attic intel. Knowing where to find these keys or which enemies to prioritize can save valuable time and gear.
+
+<Steps>
+  <Step num="1" title="Identify Key-Dependent Caches">
+    Before heading out, consult your map and task log to identify caches that require a specific key. This prevents wasted trips to locked locations.
+  </Step>
+  <Step num="2" title="Locate Key Spawn Points">
+    Keys are typically found on enemies within the same general area as the locked cache or in nearby high-value loot containers. Some keys can also be task rewards.
+  </Step>
+  <Step num="3" title="Secure the Key">
+    Prioritize eliminating enemies known to drop the required key. If it's a task reward, complete that task first. Always store keys in your secure container if possible.
+  </Step>
+  <Step num="4" title="Access the Cache">
+    Once you have the key, approach the locked cache location with caution. Clear any hostiles, unlock the door, and retrieve the contents.
+  </Step>
+</Steps>
+
+Here’s a look at some critical keys and the caches they unlock:
+
+| Key Name                                  | Area                  | Where to Find                                 | Unlocks                                           | Related Task         |
+|-------------------------------------------|-----------------------|-----------------------------------------------|---------------------------------------------------|----------------------|
+| Kiu Vongsa Restaurant Storage Key         | Kiu Vongsa            | Pockets of enemies in Kiu Vongsa              | Restaurant attic door at **141:164**              | Helping Hand         |
+| Pha Lang Restaurant Storage Key           | Pha Lang              | Pockets of enemies in Pha Lang                | Attic storage in the Pha Lang restaurant          | Helping Hand         |
+| Nam Thaven Restaurant Storage Key         | Nam Thaven            | Pockets of enemies in Nam Thaven              | Attic storage in the Nam Thaven restaurant        | Helping Hand         |
+| Sawmill Office Key                        | Sawmill               | Pockets of enemies in Sawmill                 | Office building at the **Tonmai Hainy Lumber Co.**| EOD                  |
+| Pha Lang Airfield Storage Office Key      | Pha Lang Airfield     | Pockets of enemies in Pha Lang Airfield       | Office room in storage building at airfield       | Hazardous Treasures  |
+| Ban Pa Elder's Room Key                   | Ban Pa                | Ban Pa leader's pocket; also spawns in Ban Pa | Second-floor room inside Elder's House            | It's in the Water II |
+
+</Section>
+
+<Section icon={Users} title="Optimizing Cache Runs: Strategy and Safety">
+Efficient cache runs require more than just knowing locations; they demand tactical planning and risk assessment. Whether you're playing solo or with a squad, a well-thought-out approach can significantly increase your success rate and minimize gear loss.
+
+<CardGrid cols={2}>
+  <Card title="Solo Cache Run Strategy">
+    - **Stealth First**: Utilize cover, move slowly, and avoid unnecessary engagements.
+    - **Light Loadout**: Carry minimal gear to maximize sprint speed and inventory space for loot.
+    - **Emergency Exfil**: Plan an escape route or nearby LZ before approaching the cache.
+    - **Secure Container**: Place high-value items directly into your secure container immediately.
+  </Card>
+  <Card title="Squad Cache Run Strategy">
+    - **Designated Roles**: Assign a point man, flankers, and a rear guard.
+    - **Communicate**: Use clear callouts for enemy sightings, loot, and objectives.
+    - **Cover Fire**: Provide suppression while teammates loot the cache.
+    - **Shared Keys**: Designate one person to carry specific keys to avoid duplication.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Maximizing Loot Value">
+After securing a cache, prioritize valuable items that can be sold for high prices to vendors. Firearm containers are often high-value as they can contain weapons, magazines, and parts. Always check the best-paying vendor for specific items to maximize your profits. Remember, vendor reputation also unlocks better stock, making early task completion for vendors like Gunny and Handshake crucial.
+</Callout>
+
+</Section>
+
+<Section icon={Clock} title="Checklist for a Successful Cache Retrieval">
+Preparing for a cache run involves several critical steps to ensure both success and survival. Follow this checklist before deploying to Lamang Island.
+
+<Checklist
+  id="cache-run-prep"
+  title="Pre-Deployment Cache Checklist:"
+  items={[
+    "Review task objectives and required keys.",
+    "Check interactive maps for cache coordinates and surrounding POIs.",
+    "Equip appropriate gear for the threat level of the cache area.",
+    "Pack enough medical supplies for potential engagements.",
+    "Ensure secure container has space for high-value items.",
+    "Communicate plan with squadmates (if applicable).",
+    "Set a clear exfil point and alternative routes."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions about Gray Zone Warfare Caches">
+
+<FAQ items={[
+  {
+    question: "What is a cache in Gray Zone Warfare?",
+    answer: "A cache in Gray Zone Warfare refers to a hidden stash of valuable items, often found in specific locations or secured within containers. These can contain anything from basic supplies to rare weapons and task-related intel."
+  },
+  {
+    question: "How do I find a cache for a task?",
+    answer: "Tasks often provide general area descriptions or coordinates for caches. You'll typically need to search sheds, buildings, or specific landmarks within the designated area. Using an interactive map and cross-referencing task details is highly recommended."
+  },
+  {
+    question: "Can other players steal my cache loot?",
+    answer: "Yes, in PvP-enabled zones (Warfare mode), other players can find and loot caches before you, or engage you while you are attempting to retrieve items from a cache. In PvE-only zones (Joint Operations), only AI enemies pose a threat."
+  },
+  {
+    question: "What should I do if a cache is locked?",
+    answer: "If a cache is locked, it means you need a specific key to open it. These keys are usually found by eliminating enemies in the vicinity of the locked cache, searching nearby loot containers, or as rewards from other tasks. Always check the item description for clues on where to find the corresponding key."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gray Zone Warfare guns and ammo: Elite Loadouts & Ballistics Guide",
+  description: "Master Gray Zone Warfare guns and ammo with our 2026 guide. Explore ballistics, weapon platforms, vendor unlocks, and elite loadouts for Lamang Island.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a2e1a/ff8c00?text=Guns+and+Ammo+Guide",
+  date: "2026-06-17",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Gray Zone Warfare guns and ammo**: Success on Lamang Island depends on matching the correct caliber to your target's armor tier.
+- **Ballistics Over Raw Power**: The 0.4 Spearhead update prioritizes handling, weight, and penetration over simple damage stats.
+- **Platform Compatibility**: Focus on weapon families like the AK-series or M4-series to streamline magazine and attachment management.
+- **Vendor Progression**: Gunny and Artisan are your primary sources for high-tier ammunition and tactical attachments.
+- **Tactical Tip**: Always carry at least two spare magazines of high-penetration rounds for unexpected armored encounters.
+</Callout>
+
+<Section icon={Swords} title="Weapon Platforms and Handling Mechanics">
+
+Understanding the ecosystem of **Gray Zone Warfare guns and ammo** begins with selecting a reliable platform. In the current 2026 meta, weapon choice is no longer just about the highest rate of fire. Following the 0.4 Spearhead update, developers implemented a comprehensive overhaul of weapon ergonomics. Factors such as weapon weight, barrel length, and attachment choice now directly impact your Aim Down Sights (ADS) speed, weapon sway, and stamina drain.
+
+The weapon pool is divided into several distinct families based on their origin and caliber compatibility. Choosing a platform dictates your logistics for the rest of the raid, as magazines and internal parts are rarely interchangeable between different families.
+
+| Platform Family | Primary Caliber | Notable Weapons | Best Use Case |
+| :--- | :--- | :--- | :--- |
+| **Western AR** | 5.56x45mm NATO | M4A1, DDM4, CQ A1 | Versatile, high modding potential |
+| **Eastern AR** | 5.45x39mm | AK-12, AK-74M, AKS-74U | Reliable, common loot drops |
+| **Heavy AR** | 7.62x39mm | AK-15, AKM, SKS | High stopping power, mid-range |
+| **Battle Rifle** | 7.62x51mm NATO | AK-308, M700 | Long-range precision, anti-armor |
+| **Specialized** | .300 AAC Blackout | SIG MCX | CQC, suppressed operations |
+
+<CardGrid cols={2}>
+  <Card title="Ergonomics and Sway">
+    - **Weight Matters**: Heavier builds increase weapon sway and drain arm stamina faster.
+    - **ADS Speed**: Short-barreled rifles offer superior handling in urban POIs like Tiger Bay.
+    - **Recoil Control**: Vertical grip attachments are essential for full-auto stability.
+  </Card>
+  <Card title="Platform Logistics">
+    - **Shared Magazines**: AK-series weapons often share magazine types within the same caliber.
+    - **Part Compatibility**: Western platforms offer the most modularity for optics and lasers.
+    - **Loot Sustainability**: 5.45x39mm ammo is abundant in rebel-controlled starter towns.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pro Handling Tip">
+In the 0.4 update, crouching or prone positions significantly reduce the new procedural sway mechanic. Always stabilize your weapon before engaging targets beyond 100 meters to conserve ammunition.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Ammunition Tiers and Ballistic Performance">
+
+The core of the **Gray Zone Warfare guns and ammo** system lies in the complex ballistics engine. Unlike traditional shooters, projectiles in Gray Zone Warfare calculate penetration based on velocity, material density, and angle of impact. Using the wrong ammunition against a Tier 3 armored opponent will result in "shattered" rounds that deal zero vital organ damage.
+
+When preparing for a deployment, you must categorize your ammunition into three roles: Training/Budget, Standard Issue, and Armor Piercing (AP). High-velocity rounds like the 5.56x45mm NATO excel at distance, while the 7.62x39mm offers superior kinetic energy for stopping unarmored threats instantly.
+
+| Caliber | Type | Penetration Rating | Ideal Target |
+| :--- | :--- | :--- | :--- |
+| **5.56x45mm** | M855A1 | High | Armored PMCs / LAF Soldiers |
+| **5.45x39mm** | 7N6M | Medium | Standard Rebels / Early Tasks |
+| **7.62x39mm** | BP | High | High-value targets in Fort Narith |
+| **7.62x51mm** | M80 | Very High | Sniping / Long-range interdiction |
+| **.300 BLK** | AP | High | Stealth runs / Midnight Sapphire |
+
+<Callout type="warning" title="Critical Ballistics Warning">
+Never mix different ammunition types within the same magazine unless you have a specific tactical reason. Inconsistent recoil and bullet drop between rounds can cause you to miss critical follow-up shots during intense firefights.
+</Callout>
+
+The 2026 ballistics rework ensures that every caliber has a viable niche. For example, while 5.45x39mm was previously considered weak, its low recoil and high availability make it the king of sustained suppression in PvE "Joint Operations" mode.
+
+</Section>
+
+<Section icon={Target} title="How to Build Elite Loadouts">
+
+Creating an effective kit requires balancing your budget with the expected threat level of your destination. An elite loadout for Fort Narith looks vastly different from a starter town recon build. Follow these steps to ensure your **Gray Zone Warfare guns and ammo** setup is optimized for extraction.
+
+<Steps>
+  <Step num="1" title="Define Your Mission Objective">
+    Identify if you are hunting high-tier AI (LAF Soldiers) or clearing low-threat rebel zones. High-tier zones require at least Level 3+ Armor and AP ammunition.
+  </Step>
+  <Step num="2" title="Select Your Primary Platform">
+    Choose a weapon you have mastered. For most players in 2026, the M4A1 or AK-12 remains the gold standard for versatility. Ensure you have the necessary vendor reputation to buy spare parts.
+  </Step>
+  <Step num="3" title="Optimize Attachments for POI">
+    If heading to the dense jungle, prioritize a suppressive muzzle and a 1x/4x variable optic. For urban city clearing, a high-lumen flashlight and a red dot sight are mandatory.
+  </Step>
+  <Step num="4" title="Configure Ammunition and Mags">
+    Pack at least 3 spare magazines. Load your first two mags with AP rounds (like M855A1 or BP) and keep a stack of loose rounds in your secure container for mid-raid reloading.
+  </Step>
+  <Step num="5" title="Final Weight Check">
+    Review your total weight in the inventory screen. If you are in the "Heavy" category, remove unnecessary gear to regain your stamina recovery and ADS speed.
+  </Step>
+</Steps>
+
+| Loadout Tier | Primary Weapon | Recommended Ammo | Total Est. Cost |
+| :--- | :--- | :--- | :--- |
+| **Starter** | SKS / AK-74M | 7.62 PS / 5.45 PRS | $2,500 - $4,000 |
+| **Mid-Game** | M4A1 / AK-12 | M855 / 7N6 | $8,000 - $12,000 |
+| **Elite** | DDM4 / SIG MCX | M855A1 / .300 AP | $25,000+ |
+
+<Callout type="success" title="Loadout Success">
+A balanced loadout increases your survival rate by 40%. By focusing on "Ergonomics" over "Cool Factor," you ensure that your weapon is ready to fire the moment an enemy appears from the jungle brush.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Vendor Progression and Ammo Unlocks">
+
+Your access to the best **Gray Zone Warfare guns and ammo** is strictly gated by your reputation with the FOB vendors. Gunny is your primary contact for all things ballistic, but Artisan and Turncoat provide the specialized parts needed to turn a basic rifle into a precision instrument.
+
+Reputation is earned by completing tasks and selling looted items. In the 2026 economy, selling firearm containers and high-value weapon parts to the correct vendor is the fastest way to reach Rank 3 and 4.
+
+| Vendor | Specialty | Key Ammo Unlocks | Rank 2 Requirement |
+| :--- | :--- | :--- | :--- |
+| **Gunny** | Weapons / Ammo / Sights | 5.56 M855, 7.62 NATO | 700 Reputation |
+| **Artisan** | Technical Parts / AKs | 7.62x39mm BP, AK-15 | 700 Reputation |
+| **Turncoat** | Armor / High-end Gear | .300 BLK AP, Exotic Mags | 700 Reputation |
+| **Banshee** | Tactical Utility | Specialized Suppressors | 700 Reputation |
+
+<Callout type="info" title="Vendor Knowledge">
+Artisan's tasks often require you to venture into rebel territory. Completing her "Tools of the Trade" task early is essential for unlocking the suppressors needed for stealthy night operations in the Spearhead update.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Raid Readiness Checklist">
+
+Before you board the Little Bird helicopter for your next deployment, run through this checklist to ensure you haven't forgotten the essentials of your **Gray Zone Warfare guns and ammo** setup. Missing a single item, like a spare magazine or the correct caliber of loose rounds, can end a high-stakes raid prematurely.
+
+<Checklist
+  id="raid-prep"
+  title="Pre-Deployment Checklist:"
+  items={[
+    "Verify primary weapon is loaded with the correct ammo type",
+    "Check that all spare magazines are full",
+    "Pack at least 60 rounds of loose AP ammo in Secure Lockbox",
+    "Ensure optic is zeroed (check for missing mounts)",
+    "Confirm weapon weight is within 'Normal' or 'Light' limits",
+    "Equip a sidearm with at least one spare magazine for emergencies"
+  ]}
+/>
+
+<Callout type="tip" title="Maintenance Tip">
+Always check your weapon's durability before leaving the FOB. Guns with durability below 50% have a significantly higher chance of jamming during sustained fire, which can be fatal in a PvP encounter.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the best overall gun and ammo combo for beginners?",
+    answer: "The AK-74M using 5.45x39mm 7N6 ammunition is the best starting point. It offers manageable recoil, decent penetration against early-game rebels, and the ammo is easily found in starter town loot containers."
+  },
+  {
+    question: "How does the 0.4 Spearhead update change ammo usage?",
+    answer: "The update introduced a more realistic friction and drag model. This means that heavier rounds like 7.62x51mm retain their energy better at long ranges, while lighter rounds like 5.45x39mm lose penetration power faster beyond 300 meters."
+  },
+  {
+    question: "Can I use 5.56mm ammo in an AK platform?",
+    answer: "Only in the AK-19 platform. Standard AKs use 5.45mm or 7.62mm. Always check the 'Caliber' tag in the weapon inspection screen before attempting to load magazines to avoid malfunctions."
+  },
+  {
+    question: "Where can I find high-tier ammo in the world?",
+    answer: "Military Firearms Crates located in Fort Narith, Tiger Bay, and Midnight Sapphire are the most reliable sources. Look for 'UN' or 'CSI' labeled boxes for the highest probability of finding AP rounds like M855A1 or 7N12."
+  }
+]} />
+
+</Section>
