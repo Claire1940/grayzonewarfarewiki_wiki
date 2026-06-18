@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gray Zone Warfare Yanlış Pozitif: Anti-Hile Düzeltme Rehberi",
+  description: "Lamang Adası'nda Gray Zone Warfare yanlış pozitif anti-hile atmalarını ve doğrulama hatalarını teknik sorun giderme rehberimizle çözün.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anti-Cheat+Fix+Guide",
+  date: "2026-06-18",
+  author: "Gray Zone Warfare Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Birincil Sorun**: Easy Anti-Cheat, zararsız arka plan yazılımlarını kötü amaçlı araçlar olarak işaretler.
+- **Yaygın Tetikleyiciler**: Çevre birimi RGB yazılımları, performans bindirmeleri ve agresif antivirüs sezgisel taramaları.
+- **Temel Çözüm**: Oyun dosyalarının bütünlüğünü doğrulayın, anti-hile hizmetini onarın ve dizin beyaz listeleri oluşturun.
+- **Hesap Güvenliği**: Özel makro motorları, çekirdek düzeyinde hata ayıklayıcıları veya doğrulanmamış ağ hızlandırıcılarını kullanmaktan kaçının.
+- **Resmi İtiraz**: Kısıtlanmanız durumunda teknik teşhis günlüklerini doğrudan yayıncı destek portalı aracılığıyla gönderin.
+</Callout>
+
+<Section icon={Shield} title="Anti-Hile Mimarisi ve Çatışma Tetikleyicileri">
+
+Taktiksel bir çıkarma nişancı oyunu olarak Gray Zone Warfare, Lamang Adası'ndaki rekabetçi ortamını güvence altına almak için Easy Anti-Cheat kullanır. Bu çekirdek düzeyindeki güvenlik sistemi, etkin sistem belleğini izler, işlem imzalarını doğrular ve oyun dosyalarının değiştirilmeden kalmasını sağlar. Ancak, zararsız yardımcı uygulamalar yetkisiz manipülasyon betiklerini taklit eden davranışlar sergilediğinde bir **Gray Zone Warfare yanlış pozitif** durumu meydana gelebilir.
+
+Anti-hile motoru etkin bellek havuzlarını tararken, oyun istemcisine veri okumaya veya yazmaya çalışan doğrulanmamış iş parçacıklarını arar. Bazı meşru programlar, özellikle sistem donanımını veya ağ yönlendirmesini yönetenler, güvenlik bayraklarını yanlışlıkla tetikleyebilecek düşük seviyeli kancalar kullanır. Bu durum, sunucularla anında bağlantı kesilmesi, kimlik doğrulama zaman aşımları veya geçici hesap kilitlenmeleri ile sonuçlanır.
+
+| Tetikleyici Kategorisi | Yazılım Örneği | Risk Seviyesi | Azaltma Eylemi |
+|---|---|---|---|
+| RGB Kontrol Cihazları | Aura Sync, Corsair iCUE | Orta | Sürücüleri güncelleyin veya arka plan hizmetlerini devre dışı bırakın |
+| Yer Paylaşımı Yardımcı Programları | RivaTuner, Discord Overlay | Düşük | Oyunda donanım hızlandırmalı yer paylaşımlarını devre dışı bırakın |
+| Güvenlik Paketleri | Windows Defender, Bitdefender | Orta | Açık klasör dışlama kuralları yapılandırın |
+| Ağ İyileştiriciler | Doğrulanmamış VPN'ler, Yönlendirme Hızlandırıcıları | Yüksek | Bölünmüş tünelleme veya yerel bölgesel yönlendirme kullanın |
+
+Bu algılama olaylarının arkasındaki belirli mekaniği anlamak, operatörlerin gerekli sistem yardımcı programlarından ödün vermeden işletim ortamlarını güvence altına almalarını sağlar. Çoğu yanlış bayrak, kasıtlı yazılım manipülasyonundan ziyade eski sürücü imzalarından veya agresif izleme yapılandırmalarından kaynaklanır.
+
+<Callout type="warning" title="Kritik Sistem Uyarısı">
+Oyun istemcisiyle birlikte çekirdek düzeyinde hata ayıklayıcılar, sanal makine ortamları veya gelişmiş makro derleyicileri çalıştırmak, yanlış pozitif bütünlük atması olasılığını önemli ölçüde artırır. Bir dağıtım başlatmadan önce geliştirme araçlarını her zaman kapatın.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Yanlış Pozitif Atışlar İçin Adım Adım Çözüm">
+
+Tekrarlayan bütünlük bağlantı kesilmeleri veya kimlik doğrulama hataları ile karşılaşıldığında, çakışan sistem bileşenini izole etmek için yapılandırılmış bir teşhis dizisi uygulamak gerekir. Bu sistematik yaklaşım, temel oyun dosyalarının doğrulanmasını ve güvenlik motorunun doğru yönetici izinleriyle başlatılmasını sağlar.
+
+<Steps>
+  <Step num="1" title="Steam İstemci Dosya Bütünlüğünü Doğrulayın">
+    Steam istemcisini başlatın ve yerel kütüphane arayüzünüze gidin. Oyun başlığına sağ tıklayın, özellikleri seçin ve yüklü dosyalar menüsüne erişin. Tüm yerel varlıkları resmi manifest sunucularına karşı taramak için doğrulama sürecini başlatın. Bu, anti-hile motorunun dosya kurcalamasından şüphelenmesine neden olabilecek bozuk blokları geri yükler.
+  </Step>
+  <Step num="2" title="Manuel Easy Anti-Cheat Onarımını Gerçekleştirin">
+    Oyun istemcisinin yerel kurulum dizinine doğrudan gidin. Anti-hile alt klasörünü bulun ve yönetici ayrıcalıklarıyla kurulum yardımcı programını çalıştırın. Oyun için belirli yapılandırma profilini seçin ve eksik kayıt defteri anahtarlarını ve hizmet bağımlılıklarını yeniden oluşturmak için servis onarım seçeneğine tıklayın.
+  </Step>
+  <Step num="3" title="Açık Güvenlik İstisnaları Oluşturun">
+    Etkin antivirüs panonuzu veya Windows Güvenlik merkezini açın. Virüs ve tehdit koruma ayarlarına erişin, ardından dışlamalar yönetimi arayüzünü bulun. Çalışma zamanında sezgisel tarayıcıların etkin oyun belleği bloklarını kilitlemesini önlemek için tüm kurulum dizini klasörünü beyaz listeye ekleyin.
+  </Step>
+  <Step num="4" title="Temiz Bir Önyükleme Ortamı Yapılandırın">
+    Windows arama çubuğuna sistem yapılandırması yazarak sistem yapılandırma yardımcı programını açın. Hizmetler sekmesine erişin, tüm Microsoft hizmetlerini gizleme seçeneğini seçin ve kalan üçüncü taraf girişlerini devre dışı bırakın. İstemciyi gereksiz arka plan süreçleri çalışmadan başlatmak için sistemi yeniden başlatın.
+  </Step>
+</Steps>
+
+Bu diziyi takip etmek, hatalı güvenlik bayraklarına yol açan yerel yazılım çakışmalarının büyük çoğunluğunu ortadan kaldırır. İstemci temiz bir önyükleme ortamında kararlı hale gelirse, müdahaleye neden olan kesin uygulamayı bulmak için üçüncü taraf hizmetler tek tek yeniden etkinleştirilebilir.
+
+| Yürütülebilir Dosya | Varsayılan Yol Konumu | Güvenlik Duvarı Kuralı | Gerekli İzin |
+|---|---|---|---|
+| GZWClient-Win64.exe | /SteamApps/common/GrayZoneWarfare/Binaries/ | Giden/Gelen | Standart Kullanıcı |
+| EasyAntiCheat_EOSSetup.exe | /SteamApps/common/GrayZoneWarfare/EasyAntiCheat/ | Yerel Yürütme | Yönetici |
+| GZW.exe | /SteamApps/common/GrayZoneWarfare/ | Tam Ağ Erişimi | Standart Kullanıcı |
+
+<Callout type="tip" title="Yönetimsel Yetkilendirme">
+Steam istemcisini yönetici olarak çalıştırmak, entegre anti-hile hizmeti de dahil olmak üzere tüm alt süreçlerin, sistem belleğini erişim ihlalleri olmadan taramak için gerekli güvenlik belirteçlerini devralmasını sağlar.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Yazılım Uyumluluğu ve Beyaz Liste Doğrulaması">
+
+Donanım yönetim paketleri ve iletişim araçları, etkin Windows süreçleriyle etkileşimlerini değiştiren optimizasyon güncellemelerini sık sık yayınlar. Taktiksel operatörler için bu yardımcı programların doğru şekilde yapılandırılması, baskın ortasında beklenmedik bağlantı kesilmelerini önler.
+
+<CardGrid cols={3}>
+  <Card title="Çevre Birimi RGB Yöneticileri">
+    Razer Synapse veya Logitech G Hub gibi uygulamalar, doğrudan sistem donanımıyla etkileşim kuran özel aydınlatma modülleri kullanır. Güvenlik motorları tarafından tanınan geçerli dijital imzaları korumak için bu programların en son kararlı sürümlerine güncellendiğinden emin olun.
+  </Card>
+  <Card title="Performans Analizleri">
+    Ekran üstü yer paylaşımlarını kullanan kare hızı sayaçları, donanım monitörleri ve yakalama yazılımları, oyun istemcisinin işleme hattına müdahale etmeye çalıştıklarında güvenlik bayraklarını tetikleyebilir. Mümkün olduğunda yerel Steam seçeneklerini kullanın.
+  </Card>
+  <Card title="Ağ Optimizasyon Paketleri">
+    Özel proxy yapılandırmaları ve agresif VPN yönlendirme protokolleri, sunucu tarafında kimlik doğrulama uyuşmazlıklarına neden olabilir. Bölgesel bağlantınız bir hızlandırıcı gerektiriyorsa, yazılımın güvenli, bölünmüş tünelleme yollarını kullandığını doğrulayın.
+  </Card>
+</CardGrid>
+
+Dağıtım ortamınızı yapılandırırken, etkin uygulamaları bilinen çakışma türleriyle karşılaştırmak, kararlılık risklerini en aza indirir. Aşağıdaki tablo, yaygın yazılım paketleri için standart operasyonel protokolleri özetlemektedir.
+
+| Uygulama Türü | İzleme Mekanizması | Risk Azaltma Stratejisi | Kararlılık Endeksi |
+|---|---|---|---|
+| Donanım Hız Aşırtma | Çekirdek Sürücüsü Bağlantısı | Gerçek zamanlı voltaj izleme yer paylaşımlarını devre dışı bırakın | Kararlı |
+| VoIP Yer Paylaşımları | Direct3D Enjeksiyonu | Oyun pencerelerindeki görsel avatarları devre dışı bırakın | Yüksek |
+| Özel Nişangahlar | Ekran Katmanı Enjeksiyonu | Uygulamalar yerine monitör donanım seçeneklerini kullanın | Kararlı |
+| Otomatik Makro Araçları | Giriş Emülasyonu | Görev yöneticisi aracılığıyla süreçleri tamamen sonlandırın | Düşük |
+
+<Callout type="info" title="Geliştirici Politikası Güncellemesi">
+Madfinger Games'teki geliştirme ekibi, popüler akış yardımcı programlarının ve çevre birimi sürücülerinin yanlış azaltma protokollerini tetiklememesini sağlamak için imza veritabanlarını güncellemek üzere güvenlik sağlayıcılarıyla düzenli olarak koordinasyon kurar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Yanlış Kısıtlamalar İçin Resmi İtiraz Protokolü">
+
+Bir sistem çakışmasının hesap kısıtlamasına veya yasağına dönüştüğü nadir durumlarda, operatörler bir hesap incelemesi talep etmek için resmi doğrulama protokolünü takip etmelidir. Otomatik güvenlik sistemleri katı ikili parametrelerle çalışır, ancak manuel insan incelemeleri benzersiz donanım veya yazılım yapılandırmalarından kaynaklanan yapısal yanlış pozitifleri tanımlayabilir.
+
+<Checklist
+  id="appeal-documentation"
+  title="Gerekli İtiraz Belgeleme Kontrol Listesi:"
+  items={[
+    "Hesap detaylarınız aracılığıyla benzersiz 17 haneli Steam 64 ID'nizi bulun",
+    "Tam hata kodunu veya azaltma bildiriminin ekran görüntüsünü dışa aktarın",
+    "dxdiag yardımcı programını kullanarak temiz bir sistem bilgi raporu oluşturun",
+    "Yerel AppData dizin yolundan son çökme dökümlerini toplayın"
+  ]}
+/>
+
+Bu verileri doğrudan resmi destek altyapısı aracılığıyla gönderin. Yinelenen istekler göndermekten kaçının, çünkü bu, yardım masası sistemi içindeki işlem sürelerini geciktirebilir.
+
+| Destek Kanalı | Gönderme Yöntemi | Beklenen Yanıt Süresi | Çözüm Kapsamı |
+|---|---|---|---|
+| Yayıncı Yardım Masası | Resmi Bilet Portalı | 48 ila 72 İş Saati | Hesap Durumu İncelemeleri |
+| Anti-Hile Geliştiricisi | Web İtiraz Formu | 3 ila 7 İş Günü | İmza Muafiyet Denetimleri |
+| Topluluk Discord | Bilet Bot Arayüzü | Değişken Kullanılabilirlik | Genel Teknik Rehberlik |
+
+<Callout type="success" title="Gönderme Mükemmeliyeti">
+Duygusal dil kullanmadan net, objektif teknik veriler sağlamak, destek biletinizin kapsamlı bir teşhis incelemesi için doğrudan mühendislik ekibine yönlendirilmesini sağlar.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Uzun Süreli Kararlılık İçin Sistem Bakımı">
+
+Temiz bir işletim sistemi ortamı sürdürmek, gelecekteki anti-hile çakışmalarını önlemek için son derece etkilidir. Düzenli bakım, geçersiz kayıt defteri girişlerini en aza indirir, bozuk önbellek dosyalarını temizler ve sistem sürücülerinin modern güvenlik çerçevelerine tamamen uygun kalmasını sağlar.
+
+| Bakım Görevi | Önerilen Sıklık | Hedef Bileşen | Temel Operasyonel Fayda |
+|---|---|---|---|
+| DirectX Önbelleğini Temizle | Aylık | Depolama Özellikleri | Gölgelendirici bozulma bayraklarını ortadan kaldırır |
+| İşletim Sistemi Yapısını Güncelle | Haftalık | Windows Update | Modern güvenlik belirteci hizalamasını sağlar |
+| Geçici Dizinleri Temizle | İki Haftada Bir | AppData Yerel Geçici | Yetim yazılım yapılandırma dosyalarını kaldırır |
+| Başlangıç Uygulamalarını Denetle | Mevsimlik | Görev Yöneticisi | Doğrulanmamış araçların başlatılmasını önler |
+
+Bu rutin bakım adımlarını kurulumunuza entegre ederek, işletim sisteminin Lamang Adası'nın zorlu taktik ortamı için optimize edilmiş kalmasını sağlarsınız. Arka plan süreçlerini düzenli tutmak, azaltılmış gecikme süresi ve otomatik güvenlik bağlantı kesilmelerinin daha düşük sıklığı ile doğrudan ilişkilidir.
+
+<Callout type="tip" title="Sürücü Kimlik Doğrulaması">
+Grafik ve çevre birimi sürücülerini her zaman doğrudan resmi donanım üreticisi web sitelerinden temin edin. Üçüncü taraf sürücü güncelleme yardımcı programları genellikle anti-hile doğrulama bayraklarını tetikleyebilecek değiştirilmiş veya doğrulanmamış dijital imzalar yükler.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sıkça Sorulan Sorular">
+
+<FAQ items={[
+  {
+    question: "Aktif bir VPN, Gray Zone Warfare yanlış pozitif atmasına neden olabilir mi?",
+    answer: "Evet. Bazı ağ optimizasyon araçları ve VPN'ler, paket yönlendirme başlıklarını değiştirir veya kimlik doğrulama belirteçlerini maskeler. Sunucu tutarsız yönlendirme imzaları algılarsa, otomatik bir bütünlük atmasını tetikleyebilir. Bu sorunu çözmek için bölünmüş tünelleme kullanın veya yüksek kaliteli, özel bir oyun ağı aracına geçin."
+  },
+  {
+    question: "Antivirüsüm oyun başlatıcı yürütülebilir dosyasını işaretlerse ne yapmalıyım?",
+    answer: "Bu, büyük oyun güncellemeleri sırasında sezgisel algılama algoritmalarının yeni kod bloklarını doğrulanmamış yazılım olarak yanlış yorumlamasıyla ortaya çıkan yaygın bir yanlış bayraktır. Antivirüs ayarlarınıza gidin ve tüm kurulum dizini için açık bir klasör dışlama kuralı oluşturun."
+  },
+  {
+    question: "Yerel motor ini yapılandırma dosyalarını değiştirmek yasaklanmaya neden olur mu?",
+    answer: "İzin verilen parametreler dahilinde temel grafik ayarlarını değiştirmek genellikle yasaklanmaya neden olmaz, ancak haksız bir görünürlük avantajı elde etmek için çekirdek motor değişkenlerini değiştirmek dosya kurcalama olarak işaretlenebilir. Performans ayarlarınızı güvenli bir şekilde özelleştirmek için her zaman oyun içi seçenekler menüsünü kullanın."
+  },
+  {
+    question: "Bir arka plan hizmetinin kimlik doğrulama zaman aşımlarına neden olup olmadığını nasıl doğrulayabilirim?",
+    answer: "En etkili yöntem, Windows içinde temiz bir önyükleme yapılandırmaktır. Tüm gereksiz üçüncü taraf başlangıç uygulamalarını ve hizmetlerini devre dışı bırakarak oyun istemcisini izole edebilirsiniz. Bağlantı kararlı hale gelirse, belirli çakışan yazılımı bulmak için arka plan uygulamalarınızı tek tek yeniden etkinleştirin."
+  }
+]} />
+
+<Callout type="info" title="Son Operasyonel Protokol">
+Sunucu bakım pencereleri, bilinen yazılım uyumluluk sorunları veya aktif anti-hile dağıtım ayarlamalarıyla ilgili gerçek zamanlı güncellemeler için geliştirme ekibi tarafından sağlanan resmi iletişim kanallarını izleyin.
+</Callout>
+
+</Section>

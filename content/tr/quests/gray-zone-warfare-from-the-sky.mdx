@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Plane } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Gökyüzünden: Helikopter Kullanımı ve İniş Bölgesi (LZ) Stratejisi",
+  description: "Gray Zone Warfare'de helikopter kullanımını ve iniş bölgesi (LZ) stratejisini ustalıkla öğrenerek Lamang Adası'nda hayatta kalma, konumlandırma ve taktiksel avantajınızı artırın.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/3A4F41/fff?text=GZW+Helicopter+Guide",
+  date: "2026-06-18",
+  author: "Gray Zone Warfare Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Helikopter kullanımı**, **Gray Zone Warfare gökyüzünden** hızlı konuşlanma ve taktiksel yeniden konumlandırma için hayati öneme sahiptir.
+- Oyuncular, helikopterlerden indikten sonra, başlangıçtaki çatışmalar için kritik olan **geçici yenilmezlik** kazanır.
+- **İniş Bölgeleri (LZ'ler)**, rota planlaması ve farklı POI'lerdeki düşman türlerini anlamak için gereklidir.
+- Helikopterin sesi, ekibinizin hareketlerini maskeleyerek **taktiksel bir dikkat dağıtıcı** olarak hizmet edebilir.
+- Doğru **LZ seçimi**, erken görev akışını ve yüksek değerli bölgelere erişimi doğrudan etkiler.
+</Callout>
+
+<Section icon={Plane} title="Gray Zone Warfare'de Helikopter Kullanımında Ustalaşmak">
+Helikopterler, Gray Zone Warfare'de sadece bir ulaşım aracından daha fazlasıdır; hayatta kalma, konumlandırma ve genel görev başarısını etkileyen kritik bir taktiksel varlıktır. Hava taşımacılığını konuşlandırmadan inişe kadar etkili bir şekilde nasıl kullanacağınızı anlamak, Lamang Adası'ndaki baskınlarınızı önemli ölçüde etkileyebilir. Bu rehber, optimum oyun deneyimi için **Gray Zone Warfare gökyüzünden** mekaniklerini kullanmaya odaklanmaktadır.
+
+**Video Önemli Noktaları:**
+- Helikopter, içindeyken hasar bağışıklığı sağlar.
+- İndikten sonra 4 saniyelik bir yenilmezlik penceresi etkinleşir.
+- Helikopter sesi, yapay zekayı ve diğer oyuncuları rahatsız etmek için kullanılabilir.
+
+<Callout type="tip" title="Taktiksel Avantaj">
+İlk çatışmanızı veya çıkarma işleminizi planlarken her zaman helikopterin geçici yenilmezlik penceresini göz önünde bulundurun. Bu kısa süre, çekişmeli iniş bölgelerinde oyunun kurallarını değiştirebilir.
+</Callout>
+
+### Helikopter Mekaniğine Genel Bakış
+
+| Özellik | Açıklama                                             | Taktiksel Fayda                                              |
+| :------ | :--------------------------------------------------- | :----------------------------------------------------------- |
+| Ulaşım  | Belirlenmiş İniş Bölgelerine (LZ'ler) hızlı konuşlandırma | Görev hedeflerine veya yüksek değerli ganimetlere hızlı erişim |
+| Bağışıklık | Helikopterin içindeyken hasara karşı bağışıklık        | Tehlikeli bölgeler üzerinde güvenli seyahat, yeniden gruplanma |
+| Yenilmezlik | İndikten sonra 4 saniyelik pencere                  | Başlangıçtaki konumlandırma, ani tehditlerden kaçınma için kritik |
+| Ses     | Varış/kalkışta önemli ses imzası                     | Yapay zeka için dikkat dağıtma, oyuncu hareketini maskeleme veya dikkat çekme |
+
+</Section>
+
+<Section icon={Map} title="Stratejik İniş Bölgesi (LZ) Seçimi">
+Doğru İniş Bölgesi (LZ) seçimi, **Gray Zone Warfare**'de etkili görev planlaması için çok önemlidir. Her LZ, belirli İlgi Çekici Noktalar (POI'ler), düşman türleri ve tehdit seviyeleriyle bağlantılıdır. İyi seçilmiş bir LZ, daha sorunsuz bir giriş, daha iyi siper ve hedeflerinize daha hızlı bir yol sağlayabilir.
+
+<CardGrid cols={2}>
+  <Card title="Başlangıç Kasabaları (Düşük Tehdit)">
+    - **Kiu Vongsa** (Crimson Shield International)
+    - **Nam Thaven** (Mithras Güvenlik Sistemleri)
+    - **Pha Lang** (Lamang Kurtarma İnisiyatifi)
+    - **Hızlı Notlar**: Erken görev akışını yönlendirir, farklı kilitli odalar, aynalı ilerleme yapısı.
+  </Card>
+  <Card title="Harita Ortası POI'ler (Orta Tehdit)">
+    - **YBL-1**: Askeri yeraltı sığınağı, 143:122.
+    - **Ban Pa**: 2. Kademe köy, İsyanlar, LZ Çağrı Kodu: INDIA, 205:137.
+    - **Hızlı Notlar**: YBL-1, başlangıç ilerlemesini Ban Pa/Fort Narith'e bağlar. Ban Pa, kült görevleri ve görev anahtarları için anahtardır.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="LZ Tehdit Değerlendirmesi">
+Taahhütte bulunmadan önce her zaman bir LZ'nin tehdit seviyesini değerlendirin. Doğru bilgi olmadan doğrudan yoğun çatışmalı bölgelere inmek, anında ekipman kaybına yol açabilir.
+</Callout>
+
+### Anahtar İniş Bölgeleri ve Özellikleri
+
+| LZ Çağrı Kodu | İlişkili POI        | Tehdit Katmanı | Yerel Fraksiyon              | Izgara Konumu | Stratejik Notlar                                         |
+| :---------- | :------------------ | :---------- | :-------------------------- | :------------ | :------------------------------------------------------- |
+| CHARLIE     | Kiu Vongsa          | 1           | PMC'ler                     | 141:164       | Erken görevler, düşük riskli ganimet ve satıcı erişimi için ideal |
+| ECHO        | Nam Thaven          | 1           | PMC'ler                     | 171:118       | Dengeli giriş noktası, farklı rotaların merkezi            |
+| FOXTROT     | Pha Lang            | 1           | PMC'ler                     | 202:162       | Çekişmeli bölgelere hızlı erişim, agresif başlangıçlar için iyi |
+| DELTA       | Fort Narith         | 3           | **LAF Askerleri**           | 143:129       | Yüksek değerli askeri ganimet, çok sayıda görev ve anahtar |
+| INDIA       | Ban Pa              | 2           | İsyanlar                    | 205:137       | Görev anahtarı baskısı, yaşlı evi, balıkçı kulübesi         |
+| JULIET      | Tiger Bay           | 3           | İsyanlar ve LAF Askerleri   | 198:130       | Yoğun hedefler, alışveriş merkezi, merkezi cephanelik, UNLRA görevleri |
+| HOTEL       | Midnight Sapphire   | 3           | LAF Askerleri               | N/A           | Geç oyun görevleri, villa, şelale, otel hedefleri          |
+| LIMA        | Blue Lagoon         | 2           | İsyanlar                    | 203:117       | Keşif, güney rotasyonları, kod/asma kilit aramaları          |
+
+</Section>
+
+<Section icon={Target} title="Helikopter Operasyonları: Adım Adım Rehber">
+Başarılı helikopter operasyonları sadece uçağa binmekten daha fazlasını içerir. Uçuş öncesi kontrollerden taktiksel inişe kadar her adım, görev verimliliğine ve güvenliğine katkıda bulunur. Bu adımları anlamak, **Gray Zone Warfare gökyüzünden** konuşlandırmalarınızı sorunsuz hale getirebilir.
+
+<Steps>
+  <Step num="1" title="Konuşlandırma Öncesi Planlama">
+    Helikopteri çağırmadan önce, optimal LZ için haritanızı inceleyin. Görev hedeflerinizi, potansiyel düşman devriyelerini ve istenen ganimet rotalarını göz önünde bulundurun. Ekibinizin iner inmez harekete geçmeye hazır olduğundan emin olun.
+  </Step>
+  <Step num="2" title="Helikopteri Çağırma">
+    Haritanıza gidin ve uygun bir LZ seçin. Hedefi onaylayın ve çıkarma yapıyorsanız tüm ekip üyelerinin belirlenen alma bölgesinde olduğundan emin olun. Konuşlandırma için sadece istediğiniz LZ'yi seçin.
+  </Step>
+  <Step num="3" title="Uçuş İçi Hazırlık">
+    Yoldayken, ekibinizle anlık iniş bölgesi planı hakkında iletişim kurun. Giriş noktalarını, başlangıç siper pozisyonlarını ve potansiyel tehditleri belirleyin. Birincil silahınızı kuşanın ve anında harekete geçmeye hazırlanın.
+  </Step>
+  <Step num="4" title="Taktiksel İniş">
+    İndikten sonra, 4 saniyelik yenilmezlik penceresini hızlıca siper almaya veya stratejik bir konuma geçmek için kullanın. Açıkta hareketsiz durmaktan kaçının. Helikopterin sesini, ilk hareketlerinizi maskelemek veya düşman dikkatini istediğiniz yoldan uzaklaştırmak için bir dikkat dağıtıcı olarak kullanın.
+  </Step>
+  <Step num="5" title="İniş Sonrası Değerlendirme">
+    Yakın çevrenizi güvence altına aldıktan sonra, düşmanlar için hızlı bir tarama yapın ve hedeflerinize göre konumunuzu onaylayın. Beklenmedik tehditler veya fırsatlar ortaya çıkarsa planınızı ayarlayın.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verimli Çıkarma">
+Çıkarmalar için, tüm görev açısından kritik öğelerin güvenli kilitli kutunuzda olduğundan emin olun. Bu, ekibinizin LZ'de beklenmedik bir direnişle karşılaşması durumunda kaybı en aza indirir.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Taktiksel Aldatma İçin Helikopter Sesini Kullanma">
+**Gray Zone Warfare**'de bir helikopterin belirgin sesi sadece işitsel bir ipucu değildir; güçlü bir taktiksel araçtır. Zeki oyuncular, bu sesi aldatma, yanıltma ve hem yapay zeka hem de diğer oyunculara karşı avantaj elde etmek için kullanabilirler.
+
+### Helikopter Sesleri İçin Aldatma Kontrol Listesi
+
+<Checklist
+  id="helicopter-tactics"
+  title="Taktiksel Uygulamalar:"
+  items={[
+    "Yaklaşım sırasında ayak seslerini ve yakın mesafe hareketlerini maskeleme",
+    "Yapay zeka dikkatini birincil giriş noktalarından uzaklaştırma",
+    "Ekip kanatları veya yeniden konumlandırma için dikkat dağıtıcılar oluşturma",
+    "Düşman oyuncuların tam iniş konumları hakkında kafalarını karıştırma",
+    "Yenilmezlik penceresi sırasında sürpriz bir saldırı başlatma"
+  ]}
+/>
+
+<Callout type="info">
+Helikopterin ses efekti sistem genelindedir ve yakındaki tüm oyuncular ve yapay zeka tarafından duyulabilir, bu da onu taktiksel oyunlar için evrensel bir araç haline getirir.
+</Callout>
+
+### Gelişmiş Taktiksel Manevralar
+
+| Manevra                      | Amaç                                         | Uygulama                                                        | Risk Seviyesi |
+| :---------------------------- | :------------------------------------------- | :-------------------------------------------------------------- | :--------- |
+| **Sessiz Sızma**              | Ekibin sıcak bölgeye girişini maskeleme      | Hedef POI'den biraz uzağa inin, siper için sesi kullanın      | Orta       |
+| **Dikkat Dağıtma Düşüşü**     | Yapay zekayı güvenli bir hedeften uzaklaştırma | Bir POI'nin bir tarafına inin, diğer taraftan kuşatın            | Düşük      |
+| **Sahte Çıkarma**             | Düşman oyuncuları ayrılış hakkında yanıltma | Çıkarma çağırın, LZ'den uzaklaşın, sonra yeniden çatışmaya girin | Yüksek     |
+| **Yenilmezlik İtmesi**        | Çekişmeli bir binaya agresif giriş           | Doğrudan hedefe inin, giriş temizlemek için 4 saniye dokunulmazlığı kullanın | Yüksek     |
+
+</Section>
+
+<Section icon={Shield} title="Helikopter Güvenliği ve En İyi Uygulamalar">
+Helikopterler muazzam taktiksel avantajlar sunarken, güvenlik protokollerini ihmal etmek stratejik bir avantajı hızla maliyetli bir hataya dönüştürebilir. En iyi uygulamalara uymak, **Gray Zone Warfare gökyüzünden** faydalarını gereksiz riskler olmadan en üst düzeye çıkarmanızı sağlar.
+
+<Steps>
+  <Step num="1" title="LZ Niyetini İletin">
+    Seçtiğiniz LZ'yi ve acil planınızı ekibinize her zaman açıkça iletin. Düzensiz inişler genellikle erken kayıplara yol açar.
+  </Step>
+  <Step num="2" title="İniş Bölgelerini Temizle">
+    Çıkarma çağırmadan önce, LZ'nin ani tehditlerden mümkün olduğunca temiz olduğundan emin olun. Bölgeyi güvence altına almak için görünen düşmanlarla çatışın.
+  </Step>
+  <Step num="3" title="İnişte AFK Kalmaktan Kaçının">
+    İndikten hemen sonra veya çıkarma beklerken asla AFK kalmayın. 15 dakikalık hareketsizlik zamanlayıcısı sizi canlı bir konuşlandırmadan çıkarabilir ve ekipman kaybına yol açabilir.
+  </Step>
+  <Step num="4" title="Ekipman Korumasını Önceliklendirin">
+    Yüksek değerli eşyalar veya görev hedefleri için, özellikle çıkarma sırasında helikoptere binmeden önce her zaman güvenli kilitli kutunuza yerleştirin.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="SSS: Gray Zone Warfare Helikopter ve LZ">
+
+<FAQ items={[
+  {
+    question: "Gray Zone Warfare'de bir helikopterden indikten sonra yenilmezlik ne kadar sürer?",
+    answer: "Oyuncular, bir helikopterden indikten hemen sonra 4 saniyelik bir yenilmezlik penceresine sahiptir. Bu kısa süre, inişte taktiksel konumlandırma veya siper arama için çok önemlidir."
+  },
+  {
+    question: "Helikopter sesini diğer oyunculara karşı avantajıma kullanabilir miyim?",
+    answer: "Evet, helikopterin yüksek ses imzası taktiksel aldatma için kullanılabilir. Ekibinizin hareketlerini maskeleyebilir, dikkat dağıtıcılar yaratabilir veya düşman oyuncuların tam iniş veya çıkarma noktanız hakkında kafasını karıştırabilir, bu da onu **Gray Zone Warfare gökyüzünden** taktiklerinin önemli bir yönü haline getirir."
+  },
+  {
+    question: "Farklı İniş Bölgelerinde (LZ'ler) farklı düşman türleri var mı?",
+    answer: "Evet, çeşitli LZ'ler genellikle farklı yerel fraksiyonlar ve tehdit seviyeleri içeren belirli İlgi Çekici Noktalar (POI'ler) ile ilişkilidir. Örneğin, Fort Narith LZ'leri tipik olarak LAF Askerlerini içerirken, Ban Pa LZ'leri İsyanları içerebilir ve taktiksel yaklaşımınızı etkileyebilir."
+  },
+  {
+    question: "Bir helikopter konuşlandırması veya çıkarma sırasında AFK kalırsam ne olur?",
+    answer: "İleri Operasyon Üssünüzün (FOB) dışındayken veya transit sırasında 15 dakikalık hareketsizlik zamanlayıcısı nedeniyle canlı bir konuşlandırmadan çıkarılırsanız, normal bir ölüm gibi taşıdığınız tüm ekipmanı kaybedersiniz. Güvenli bir FOB'da olana veya çıkarma işleminizi tamamlayana kadar her zaman aktif kalın."
+  }
+]} />
+
+</Section>

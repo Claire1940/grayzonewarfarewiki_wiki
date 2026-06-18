@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Plane } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare vom Himmel aus: Helikoptereinsatz & LZ-Strategie",
+  description: "Meistern Sie den Helikoptereinsatz und die Landezonen (LZ)-Strategie in Gray Zone Warfare, um Überlebensfähigkeit, Positionierung und taktischen Vorteil auf Lamang Island zu verbessern.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/3A4F41/fff?text=GZW+Helicopter+Guide",
+  date: "2026-06-18",
+  author: "Gray Zone Warfare Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Der **Helikoptereinsatz** ist entscheidend für schnelle Einsätze und taktische Neupositionierung in **Gray Zone Warfare vom Himmel aus**.
+- Spieler erhalten nach dem Aussteigen aus Helikoptern eine **temporäre Unverwundbarkeit**, die für erste Gefechte entscheidend ist.
+- **Landezonen (LZs)** sind unerlässlich für die Planung von Routen und das Verständnis von Gegnertypen in verschiedenen POIs.
+- Das Geräusch des Helikopters kann als **taktische Ablenkung** dienen und die Bewegungen Ihres Trupps verschleiern.
+- Die richtige **LZ-Auswahl** beeinflusst direkt den frühen Aufgabenfluss und den Zugang zu hochwertigen Zonen.
+</Callout>
+
+<Section icon={Plane} title="Helikoptereinsatz in Gray Zone Warfare meistern">
+Helikopter sind in Gray Zone Warfare mehr als nur Transportmittel; sie sind ein kritisches taktisches Asset, das Überlebensfähigkeit, Positionierung und den gesamten Missionserfolg beeinflusst. Das Verständnis, wie man den Lufttransport von der Entsendung bis zum Aussteigen effektiv nutzt, kann Ihre Raids auf Lamang Island erheblich beeinflussen. Dieser Leitfaden konzentriert sich auf die Nutzung der **Gray Zone Warfare vom Himmel aus** Mechaniken für optimales Gameplay.
+
+**Video-Highlights:**
+- Der Helikopter bietet Immunität gegen Schaden, solange man sich an Bord befindet.
+- Ein 4-sekündiges Unverwundbarkeitsfenster aktiviert sich nach dem Aussteigen.
+- Helikopterlärm kann zur Ablenkung von KI und anderen Spielern genutzt werden.
+
+<Callout type="tip" title="Taktischer Vorteil">
+Berücksichtigen Sie immer das temporäre Unverwundbarkeitsfenster des Helikopters, wenn Sie Ihr erstes Gefecht oder Ihre Extraktion planen. Dieser kurze Zeitraum kann in umkämpften Landezonen entscheidend sein.
+</Callout>
+
+### Überblick über die Helikoptermechanik
+
+| Merkmal       | Beschreibung                                          | Taktischer Vorteil                                         |
+| :------------ | :---------------------------------------------------- | :--------------------------------------------------------- |
+| Transport     | Schnelle Entsendung zu festgelegten Landezonen (LZs) | Schneller Zugang zu Missionszielen oder hochwertiger Beute |
+| Immunität     | Immun gegen Schaden im Helikopter                     | Sichere Reise über gefährliche Gebiete, Neuformierung      |
+| Unverwundbarkeit | 4-Sekunden-Fenster nach dem Aussteigen             | Entscheidend für die anfängliche Positionierung, Vermeidung unmittelbarer Bedrohungen |
+| Sound         | Deutliche Audiosignatur bei Ankunft/Abflug            | Ablenkung für KI, Verschleierung der Spielerbewegung oder Aufmerksamkeitslenkung |
+
+</Section>
+
+<Section icon={Map} title="Strategische Landezonen (LZ) Auswahl">
+Die Wahl der richtigen Landezone (LZ) ist entscheidend für eine effektive Missionsplanung in **Gray Zone Warfare**. Jede LZ ist an bestimmte Points of Interest (POIs), Gegnertypen und Bedrohungsstufen gebunden. Eine gut gewählte LZ kann einen reibungsloseren Einstieg, bessere Deckung und einen schnelleren Weg zu Ihren Zielen ermöglichen.
+
+<CardGrid cols={2}>
+  <Card title="Startstädte (Geringe Bedrohung)">
+    - **Kiu Vongsa** (Crimson Shield International)
+    - **Nam Thaven** (Mithras Security Systems)
+    - **Pha Lang** (Lamang Recovery Initiative)
+    - **Kurze Anmerkungen**: Treibt den frühen Aufgabenfluss an, verschiedene verschlossene Räume, gespiegelte Fortschrittsstruktur.
+  </Card>
+  <Card title="POIs in der Kartenmitte (Moderate Bedrohung)">
+    - **YBL-1**: Militärischer Untergrundbunker, 143:122.
+    - **Ban Pa**: Tier-2-Dorf, Rebellen, LZ-Rufzeichen: INDIA, 205:137.
+    - **Kurze Anmerkungen**: YBL-1 verbindet den Starter-Fortschritt mit Ban Pa/Fort Narith. Ban Pa ist entscheidend für Kult-Aufgaben und Quest-Schlüssel.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="LZ-Bedrohungsanalyse">
+Bewerten Sie immer die Bedrohungsstufe einer LZ, bevor Sie sich festlegen. Das direkte Landen in stark umkämpften Gebieten ohne entsprechende Informationen kann zu sofortigem Ausrüstungsverlust führen.
+</Callout>
+
+### Wichtige Landezonen und ihre Eigenschaften
+
+| LZ-Rufzeichen | Zugehöriger POI     | Bedrohungsstufe | Lokale Fraktion         | Gitterposition | Strategische Anmerkungen                                     |
+| :------------ | :------------------ | :-------------- | :---------------------- | :------------- | :----------------------------------------------------------- |
+| CHARLIE       | Kiu Vongsa          | 1               | PMCs                    | 141:164        | Ideal für frühe Aufgaben, risikoarme Beute und Händlerzugang |
+| ECHO          | Nam Thaven          | 1               | PMCs                    | 171:118        | Ausgewogener Einstiegspunkt, zentral für verschiedene Routen |
+| FOXTROT       | Pha Lang            | 1               | PMCs                    | 202:162        | Schneller Zugang zu umkämpften Zonen, gut für aggressive Starts |
+| DELTA         | Fort Narith         | 3               | **LAF-Soldaten**        | 143:129        | Hochwertige Militärbeute, zahlreiche Aufgaben und Schlüssel |
+| INDIA         | Ban Pa              | 2               | Rebellen                | 205:137        | Quest-Schlüssel-Druck, Ältestenhaus, Fischerhütte            |
+| JULIET        | Tiger Bay           | 3               | Rebellen & LAF-Soldaten | 198:130        | Dichte Ziele, Einkaufszentrum, zentrale Waffenkammer, UNLRA-Aufgaben |
+| HOTEL         | Midnight Sapphire   | 3               | LAF-Soldaten            | N/A            | Späte Aufgaben, Villa, Wasserfall, Hotelziele                |
+| LIMA          | Blue Lagoon         | 2               | Rebellen                | 203:117        | Erkundung, südliche Rotationen, Code-/Vorhängeschloss-Suche |
+
+</Section>
+
+<Section icon={Target} title="Helikopteroperationen: Eine Schritt-für-Schritt-Anleitung">
+Erfolgreiche Helikopteroperationen umfassen mehr als nur das Einsteigen. Von der Vorflugkontrolle bis zum taktischen Aussteigen trägt jeder Schritt zur Missionseffizienz und -sicherheit bei. Das Verständnis dieser Schritte kann Ihre **Gray Zone Warfare vom Himmel aus** Einsätze nahtlos gestalten.
+
+<Steps>
+  <Step num="1" title="Planung vor dem Einsatz">
+    Bevor Sie den Helikopter anfordern, prüfen Sie Ihre Karte auf die optimale LZ. Berücksichtigen Sie Ihre Aufgabenziele, potenzielle feindliche Patrouillen und gewünschte Beuterouten. Stellen Sie sicher, dass Ihr Trupp bereit ist, sofort nach der Landung loszulegen.
+  </Step>
+  <Step num="2" title="Helikopter anfordern">
+    Navigieren Sie zu Ihrer Karte und wählen Sie eine verfügbare LZ aus. Bestätigen Sie das Ziel und stellen Sie sicher, dass sich alle Truppmitglieder innerhalb der festgelegten Abholzone befinden, falls sie extrahieren. Für den Einsatz wählen Sie einfach Ihre gewünschte LZ aus.
+  </Step>
+  <Step num="3" title="Vorbereitung während des Fluges">
+    Kommunizieren Sie während des Fluges mit Ihrem Trupp über den unmittelbaren Landezonenplan. Legen Sie Einstiegspunkte, anfängliche Deckungspositionen und potenzielle Bedrohungen fest. Rüsten Sie Ihre Primärwaffe aus und bereiten Sie sich auf sofortige Aktionen vor.
+  </Step>
+  <Step num="4" title="Taktisches Aussteigen">
+    Nutzen Sie nach der Landung das 4-sekündige Unverwundbarkeitsfenster, um sich schnell in Deckung oder eine strategische Position zu begeben. Vermeiden Sie es, offen stehen zu bleiben. Nutzen Sie das Geräusch des Helikopters als Ablenkung, um Ihre anfänglichen Bewegungen zu verschleiern oder die Aufmerksamkeit des Feindes von Ihrem beabsichtigten Weg abzulenken.
+  </Step>
+  <Step num="5" title="Bewertung nach der Landung">
+    Nachdem Sie Ihre unmittelbare Umgebung gesichert haben, scannen Sie schnell nach Feinden und bestätigen Sie Ihre Position relativ zu Ihren Zielen. Passen Sie Ihren Plan an, wenn unerwartete Bedrohungen oder Gelegenheiten auftreten.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Effiziente Extraktion">
+Stellen Sie für Extraktionen sicher, dass alle missionskritischen Gegenstände in Ihrer sicheren Schließkassette sind. Dies minimiert Verluste, falls Ihr Team unerwarteten Widerstand in der LZ trifft.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Nutzung des Helikoptergeräuschs zur taktischen Täuschung">
+Das markante Geräusch eines Helikopters in **Gray Zone Warfare** ist nicht nur ein akustisches Signal; es ist ein mächtiges taktisches Werkzeug. Versierte Spieler können dieses Geräusch zur Täuschung, Irreführung und zur Erlangung eines Vorteils gegenüber KI und anderen Spielern nutzen.
+
+### Checkliste zur Täuschung durch Helikoptergeräusche
+
+<Checklist
+  id="helicopter-tactics"
+  title="Taktische Anwendungen:"
+  items={[
+    "Verbergen von Schritten und Nahkampfbewegungen während des Anflugs",
+    "Ablenken der KI von primären Einstiegspunkten",
+    "Erzeugen von Ablenkungen für Flankenangriffe oder Neupositionierungen des Trupps",
+    "Verwirren feindlicher Spieler über genaue Landeorte",
+    "Einleiten eines Überraschungsangriffs während des Unverwundbarkeitsfensters"
+  ]}
+/>
+
+<Callout type="info">
+Der Helikopter-Soundeffekt ist systemweit und kann von allen Spielern und KI in der Nähe gehört werden, was ihn zu einem universellen Werkzeug für taktische Spielzüge macht.
+</Callout>
+
+### Fortgeschrittene taktische Manöver
+
+| Manöver                       | Ziel                                         | Ausführung                                                  | Risiko-Level |
+| :---------------------------- | :------------------------------------------- | :---------------------------------------------------------- | :----------- |
+| **Stille Infiltration**       | Verschleierung des Eindringens des Trupps in eine heiße Zone | Leicht entfernt vom Ziel-POI landen, Geräusch zur Deckung nutzen | Mittel       |
+| **Ablenkungsabwurf**          | Ablenken der KI von einem sicheren Ziel     | Nahe einer Seite eines POI landen, von einer anderen Seite flankieren | Niedrig      |
+| **Täuschungs-Extraktion**     | Irreführung feindlicher Spieler über den Abflug | Extraktion anfordern, sich von der LZ entfernen, dann wieder angreifen | Hoch         |
+| **Unverwundbarkeits-Vorstoß** | Aggressiver Eintritt in ein umkämpftes Gebäude | Direkt auf dem Ziel landen, 4s Immunität nutzen, um den Eingang zu sichern | Hoch         |
+
+</Section>
+
+<Section icon={Shield} title="Helikoptersicherheit und Best Practices">
+Obwohl Helikopter immense taktische Vorteile bieten, kann die Vernachlässigung von Sicherheitsprotokollen einen strategischen Vorteil schnell in einen kostspieligen Fehler verwandeln. Die Einhaltung bewährter Verfahren stellt sicher, dass Sie die Vorteile von **Gray Zone Warfare vom Himmel aus** ohne unnötige Risiken maximieren.
+
+<Steps>
+  <Step num="1" title="LZ-Absicht kommunizieren">
+    Kommunizieren Sie Ihrer Truppe immer klar die gewählte LZ und Ihren unmittelbaren Plan. Unorganisierte Landungen führen oft zu frühen Verlusten.
+  </Step>
+  <Step num="2" title="Landezonen freimachen">
+    Bevor Sie eine Extraktion anfordern, stellen Sie sicher, dass die LZ so weit wie möglich von unmittelbaren Bedrohungen befreit ist. Bekämpfen Sie alle sichtbaren Feinde, um das Gebiet zu sichern.
+  </Step>
+  <Step num="3" title="AFK nach der Landung vermeiden">
+    Gehen Sie niemals sofort nach der Landung oder während des Wartens auf die Extraktion AFK. Der 15-minütige Inaktivitäts-Timer kann Sie aus einem Live-Einsatz entfernen und zu Ausrüstungsverlust führen.
+  </Step>
+  <Step num="4" title="Ausrüstungsschutz priorisieren">
+    Legen Sie für hochwertige Gegenstände oder Questziele diese immer in Ihre sichere Schließkassette, bevor Sie den Helikopter besteigen, insbesondere während der Extraktion.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Gray Zone Warfare Helikopter und LZ">
+
+<FAQ items={[
+  {
+    question: "Wie lange hält die Unverwundbarkeit an, nachdem man in Gray Zone Warfare aus einem Helikopter ausgestiegen ist?",
+    answer: "Spieler haben ein 4-sekündiges Unverwundbarkeitsfenster unmittelbar nach dem Aussteigen aus einem Helikopter. Dieser kurze Zeitraum ist entscheidend für die taktische Positionierung oder das Suchen von Deckung bei der Landung."
+  },
+  {
+    question: "Kann ich den Helikopterlärm zu meinem Vorteil gegen andere Spieler nutzen?",
+    answer: "Ja, die laute Audiosignatur des Helikopters kann zur taktischen Täuschung genutzt werden. Sie kann die Bewegungen Ihres Teams verschleiern, Ablenkungen erzeugen oder feindliche Spieler über Ihren genauen Lande- oder Extraktionspunkt verwirren, was sie zu einem wichtigen Aspekt der **Gray Zone Warfare vom Himmel aus** Taktiken macht."
+  },
+  {
+    question: "Haben verschiedene Landezonen (LZs) unterschiedliche Gegnertypen?",
+    answer: "Ja, verschiedene LZs sind mit spezifischen Points of Interest (POIs) verbunden, die oft unterschiedliche lokale Fraktionen und Bedrohungsstufen aufweisen. Zum Beispiel beinhalten Fort Narith LZs typischerweise LAF-Soldaten, während Ban Pa LZs Rebellen haben könnten, was Ihren taktischen Ansatz beeinflusst."
+  },
+  {
+    question: "Was passiert, wenn ich während eines Helikoptereinsatzes oder einer Extraktion AFK gehe?",
+    answer: "Wenn Sie aufgrund des 15-minütigen Inaktivitäts-Timers während eines Live-Einsatzes außerhalb Ihrer Forward Operating Base (FOB) oder während des Transports entfernt werden, verlieren Sie jegliche Ausrüstung, die Sie bei sich trugen, ähnlich einem normalen Tod. Bleiben Sie immer aktiv, bis Sie sicher in einer FOB sind oder Ihre Extraktion abgeschlossen haben."
+  }
+]} />
+
+</Section>

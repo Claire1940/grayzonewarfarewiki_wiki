@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Yeni Oyuncu Rehberi: Yeni Başlayanlar İçin Hayatta Kalma Kılavuzu",
+  description: "2026'da Lamang Adası'nda 'yeni oyuncu' olarak Gray Zone Warfare'ın temellerini bu kapsamlı hayatta kalma rehberiyle öğrenin; başlangıç görevleri, temel ekipman ve erken ilerleme ipuçları.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/34495e/fff?text=Fresh+Meat+Survival+Guide",
+  date: "2026-06-18",
+  author: "Gray Zone Warfare Wiki Ekibi"
+}
+
+<Callout type="info" title="Yeni Oyuncular İçin Hızlı Rehber">
+- **Gray Zone Warfare yeni oyuncuları**, erken görevlere ve güvenli yağma koşularına odaklanarak hızla adapte olabilir.
+- Daha iyi ekipman ve malzeme kilidini açmak için **satıcı itibarını** önceliklendirin.
+- Kanama veya dehidrasyondan kaynaklanan yaygın başlangıç ölümlerini önlemek için **sağlık sistemini** anlayın.
+- Başlangıç bölgenizi ve erken oyun rotalarınızı etkilediği için **fraksiyonunuzu akıllıca seçin**.
+- Teçhizatınızı yenilemek ve yükseltmek için etkili **para yönetimi** çok önemlidir.
+</Callout>
+
+<Section icon={Map} title="Lamang Adası'nda Navigasyon: Yeni Oyuncular İçin İlk Adımlar">
+Yeni bir acemi veya "yeni oyuncu" olarak Lamang Adası'nın düşmanca ortamına bırakıldığınızda, çevrenizi anlamak çok önemlidir. İlk görevleriniz size temel bilgileri öğretecek, ancak anahtar konumları ve bunlara güvenli bir şekilde nasıl yaklaşılacağını bilmek hayatta kalmak için hayati öneme sahiptir. Ada geniş ve affetmezdir ve iniş bölgenizden çıkarma rotanıza kadar her karar ağırlık taşır.
+
+**Video Önemli Noktaları:**
+- Erken oyun hareketini ve hedef işaretlerini gösterir.
+- Ortak başlangıç kasabası POI'lerine güvenli yaklaşımları gösterir.
+- Yapay zekaya karşı temel muharebe karşılaşmalarını vurgular.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Erken Erişim Lansman Fragmanı" />
+
+Başlangıç kasabanız seçtiğiniz fraksiyona bağlıdır, ancak temel ilerleme döngüsü benzer kalır. Daha tehlikeli bölgelere girmeden önce yakın çevrenize aşina olmaya odaklanın.
+
+<Callout type="tip" title="Başlangıç Kasabanızı Tanıyın">
+Her fraksiyonun kendine özgü bir başlangıç kasabası vardır (Kiu Vongsa, Nam Thaven veya Pha Lang). Bu kasabalar ilk güvenli bölgeleriniz ve erken görevler için merkezlerdir. Riski en aza indirmek için düzenlerini, potansiyel düşman spawn'larını ve verimli yağma rotalarını öğrenin.
+</Callout>
+
+### Anahtar Başlangıç Konumları ve Önemleri
+
+| Konum Türü | Fraksiyon | Izgara Konumu | Anahtar Çıkarım | Risk Seviyesi |
+|:--------------|:--------|:--------------|:-------------|:-----------|
+| **Kiu Vongsa** | Crimson Shield International | 141:164 | Daha yavaş erken ilerleme için iyi, kıyı bölgelerine yakın. | Düşük |
+| **Nam Thaven** | Mithras Security Systems | 171:118 | Daha güvenli ve daha sıcak bölgeler arasında dengeli rotalar. | Orta |
+| **Pha Lang** | Lamang Recovery Initiative | 202:162 | Pha Lang Havaalanı gibi çekişmeli bölgelere hızlı erişim. | Yüksek |
+| **YBL-1 Sığınağı** | Hepsi | 143:122 | Harita ortası yönlendirme, genellikle istihbarat görevleriyle bağlantılı. | Orta |
+| **Ban Pa Köyü** | Hepsi | 205:137 | Seviye 2 bölgesi, kültle ilgili görevler ve belirli anahtarlar için önemli. | Orta-Yüksek |
+
+</Section>
+
+<Section icon={Target} title="Erken Görev İlerlemesi: Yeni Oyuncuları Deneyimli Operatörlere Dönüştürmek">
+Görevler, Gray Zone Warfare'da değerli deneyim, para ve satıcı itibarı sunan birincil ilerleme yönteminizdir. "Yeni oyuncu" olarak, bu görevleri verimli bir şekilde ele almak erken başarınızı belirleyecektir. Hedefleri, gerekli öğeleri ve optimal rotaları anlamak, gereksiz ölümleri ve ekipman kaybını önleyebilir.
+
+<Steps>
+  <Step num="1" title="İlk Keşif (Handshake)">
+    **Amaç**: Başlangıç kasabanızdaki belirli simge yapıları (kulübe, kereste deposu, benzin istasyonu) kontrol edin.
+    **Konumlar**: Yıkılmış Bina (141 165), Market (141 162), Benzin İstasyonu (144 161).
+    **Ödüller**: 400 TP, +25 Handshake İtibarı, 1.700 USD, 1x Modüler Operatör Taşıyıcı Gen II.
+    <Callout type="success">
+    Bu görev, güvenli bölgenizdeki temel navigasyonu ve simge yapı tanımlamasını öğretir. Gizliliğe ve gözlemlemeye odaklanın.
+    </Callout>
+  </Step>
+  <Step num="2" title="İstenen İlaçlar (Lab Rat)">
+    **Amaç**: Kasabanın su kulesi yakınındaki UNLRA tıbbi malzemelerini bulun.
+    **Konum**: Tıbbi Malzemeler (140 161).
+    **Ödüller**: 400 TP, +100 Lab Rat İtibarı, 2.200 USD, 1x IFAK.
+    <Callout type="tip">
+    Bu görevi erken önceliklendirin. Lab Rat, daha iyi tıbbi malzemelerin kilidini açmak için çok önemlidir ve hayatta kalma yeteneğinizi doğrudan etkiler.
+    </Callout>
+  </Step>
+  <Step num="3" title="Yardım Eli (Handshake)">
+    **Amaç**: Restoran tavan arasından istihbarat alın ve Handshake'e teslim edin.
+    **Konum**: Kiu Vongsa restoran tavan arası (141:164) veya diğer başlangıç kasabalarındaki eşdeğeri.
+    **Ödüller**: 400 TP, +100 Handshake İtibarı, 2.300 USD, 1x Deri Anahtarlık.
+    <Callout type="warning">
+    Bu görev genellikle oyuncuları anahtar geçişli ilerlemeyle tanıştırır. Doğru restoran depolama anahtarına sahip olduğunuzdan emin olun, bu genellikle bölgedeki düşmanlardan düşer.
+    </Callout>
+  </Step>
+  <Step num="4" title="Ban Pa Üzerindeki Gölge (Handshake)">
+    **Amaç**: Ban Pa'nın kuzey ve güney giriş noktalarını keşfedin.
+    **Konum**: YBL-1 hazırlık alanı, ardından Tiger Koyu'nun kuzeyindeki Ban Pa'yı keşfedin.
+    **Ödüller**: 1.000 TP, +150 Handshake İtibarı, 4.700 USD, 2x Keşif Göğüs Teçhizatı, **Turncoat satıcısının kilidini açar**.
+    <Callout type="info">
+    Bu önemli bir dönüm noktasıdır, sizi başlangıç aşamasından çıkarır ve daha geniş bir envantere sahip yeni bir satıcıya erişim sağlar. Artan riske hazırlanın.
+    </Callout>
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Yeni Oyuncular İçin Temel Ekipman ve Para Yönetimi">
+Gray Zone Warfare'da "yeni oyuncu" olarak hayatta kalmak, ekipmanınız ve mali durumunuz hakkında akıllı kararlar vermek anlamına gelir. Kit kaybetmek kaçınılmazdır, ancak verimli para rehberleri ve silah/mühimmat uyumluluğunu anlamak, acıyı azaltabilir ve sizi daha hızlı savaşa geri döndürebilir.
+
+### Anahtar Yağma ve Satış Stratejileri
+
+| Strateji | Açıklama | Fayda | Risk |
+|:---------|:------------|:--------|:-----|
+| **Ücretli Görevlere Öncelik Verin** | Erken ve orta rota görevleri garantili nakit, TP ve itibar sunar. | İstikrarlı gelir, satıcı kilitleri. | Minimal, güvenli bölgelerde yapılırsa. |
+| **Ateşli Silah Konteynerlerine Odaklanın** | Silah kutuları genellikle yüksek değerli silahlar, şarjörler ve parçalar içerir. | Daha iyi satış değeri, potansiyel silah yükseltmeleri. | Çekişmeli bölgelerde olabilir. |
+| **En İyi Satıcıya Satın** | Değerliler belirli satıcılara daha pahalıya satılır (wiki'yi kontrol edin). | Yağmalanmış öğeler için maksimum kar. | Seyahat, envanter yönetimi gerektirir. |
+| **Nakit Parayı İtibara Dönüştürün** | Satıcılardan satın almak için görev parasını kullanın, daha iyi stok için itibar oluşturun. | Üstün ekipman, ilaç ve mühimmata erişim. | İlk yatırım gerektirir. |
+
+<Callout type="tip" title="Silah ve Mühimmat Sinerjisi">
+Gray Zone Warfare'ın silah sistemi, kalibre ailelerine ve şarjör uyumluluğuna büyük ölçüde bağlıdır. Envanteri düzenlemek ve uyumsuz mühimmat taşımaktan kaçınmak için tercih ettiğiniz silahların hangi kalibreleri kullandığını öğrenin. En son Spearhead güncellemesi, kullanım ve balistiğe vurgu yaparak akıllı mühimmat seçimlerini daha da kritik hale getiriyor.
+</Callout>
+
+### Silah Kalibrelerini Anlamak
+
+| Kalibre | Kullanıldığı Yer (Örnekler) | Silah Sınıfı | Planlama Notu |
+|:--------|:-------------------|:-------------|:--------------|
+| **5.45x39mm** | AK-74M, AK-12 | Saldırı Tüfekleri | Çoklu AK desenli tüfekler için iyi. |
+| **5.56x45mm NATO** | M4A1, AK-19 | Saldırı Tüfekleri | Geniş aile, Batı ve bazı AK platformlarını kapsar. |
+| **7.62x39mm** | AKM, AK-15, SKS | Saldırı Tüfekleri, DMR | Hem saldırı tüfekleri hem de SKS kurulumları için çok yönlü. |
+| **7.62x51mm NATO** | AK-308, M700 | AR, Bolt-Action | Ağır hassas mermiler, belirli platformlarda paylaşılır. |
+| **.300 AAC Blackout** | SIG MCX | Saldırı Tüfeği | Özel platform kalibresi, başlangıçta daha az yaygın. |
+
+</Section>
+
+<Section icon={Sparkles} title="Satıcı İlerlemesi: Hayatta Kalmak İçin Daha İyi Araçların Kilidini Açma">
+Satıcılar, Gray Zone Warfare'da cankurtaranınızdır. Temel ekipman sağlarlar, yağmanızı satın alırlar ve onlarla olan itibarınız arttıkça gelişmiş öğelerin kilidini açarlar. Her satıcının uzmanlığını ve kilit açma yollarını anlamak, güçlü bir dayanak noktası oluşturmak isteyen her "yeni oyuncu" için hayati öneme sahiptir.
+
+<CardGrid cols={2}>
+  <Card title="Handshake: Genel Tedarikçi">
+    - **Uzmanlık Alanı**: Kasklar, teçhizat, vücut zırhı, konteynerler, aletler.
+    - **Kilit Açma Yolu**: Başlangıç satıcısı.
+    - **İlerleme**: Erken koruma ve depolamaya odaklanın.
+  </Card>
+  <Card title="Lab Rat: Medikal ve Destek">
+    - **Uzmanlık Alanı**: İlaçlar, yiyecek, içecek, konteynerler.
+    - **Kilit Açma Yolu**: Çekirdek satıcı.
+    - **İlerleme**: İyileşme ve baskın sürdürülebilirliği için çok önemli.
+  </Card>
+  <Card title="Gunny: Silah Uzmanı">
+    - **Uzmanlık Alanı**: Silahlar, şarjörler, mühimmat, eklentiler.
+    - **Kilit Açma Yolu**: Çekirdek satıcı.
+    - **İlerleme**: Ateş gücünüzü artırmak için başvuracağınız kişi.
+  </Card>
+  <Card title="Artisan: Gelişmiş Silahlar">
+    - **Uzmanlık Alanı**: Silahlar, eklentiler, kasklar, konteynerler.
+    - **Kilit Açma Yolu**: "Yerli Müzakereler" (Lab Rat görevi) tamamlayın.
+    - **İlerleme**: Silah yapılarında teknik kontrol için.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="İtibar Önemlidir">
+Bir satıcı için görevleri tamamlamak, onlarla olan itibarınızı artırmanın en hızlı yoludur. Daha yüksek itibar seviyeleri, daha güçlü öğelerin ve daha iyi anlaşmaların kilidini açarak gelecekteki koşuları daha güvenli ve daha karlı hale getirir. İyi bir satıcı ilişkisinin gücünü hafife almayın.
+</Callout>
+
+### Satıcı Rütbe Eşikleri
+
+| Satıcı | Rütbe 1 (İtibar) | Rütbe 2 (İtibar) | Rütbe 3 (İtibar) | Rütbe 4 (İtibar) | İlerleme Notu |
+|:-------|:-------------|:-------------|:-------------|:-------------|:-----------------|
+| **Handshake** | 0 | 700 | 2500 | 6500 | Genel ekipman ve depolama. |
+| **Lab Rat** | 0 | 700 | 2500 | 6500 | Tıbbi malzemeler ve destek. |
+| **Gunny** | 0 | 700 | 2500 | 6500 | Silahlar, mühimmat ve eklentiler. |
+| **Artisan** | 0 | 700 | 2500 | 6500 | Gelişmiş silah modları, Lab Rat görevi gerektirir. |
+| **Banshee** | 0 | 700 | 2500 | 6500 | Silahlar ve giyilebilir teçhizat, Artisan görevi gerektirir. |
+| **Turncoat** | 0 | 700 | 2500 | 6500 | Geniş envanter, Handshake görevi gerektirir. |
+
+</Section>
+
+<Section icon={Trophy} title="Yeni Oyuncular SSS: Yeni Acemiler İçin Sıkça Sorulan Sorular">
+Gray Zone Warfare'daki yolculuğunuza başlarken birçok soru ortaya çıkacaktır. İşte "yeni oyuncuların" en sık sorduğu sorulardan bazıları ve Lamang Adası'nın karmaşıklıklarında gezinmenize yardımcı olacak cevapları.
+
+<FAQ items={[
+  {
+    question: "Gray Zone Warfare yeni oyuncuları için öncelikle odaklanılması gereken en önemli şey nedir?",
+    answer: "Yeni oyuncular için en önemli odak noktası, Handshake ve Lab Rat gibi satıcılardan gelen erken görevleri tamamlamaktır. Bu görevler, hayatta kalmak için çok önemli olan daha iyi ekipman ve tıbbi malzemelerin kilidini açan temel deneyim, para ve itibar sağlar."
+  },
+  {
+    question: "Yeni bir oyuncu olarak verimli bir şekilde nasıl para kazanırım?",
+    answer: "Verimli para kazanma, erken ücretli görevlere öncelik vermeyi, yüksek değerli öğeler için ateşli silah konteynerlerini yağmalamaya odaklanmayı ve değerli eşyaları en iyi fiyatı sunan satıcıya satmayı içerir. İstikrarlı bir ekonominiz olana kadar pahalı kitlere aşırı harcama yapmaktan kaçının."
+  },
+  {
+    question: "Yeni oyuncu olarak hangi fraksiyonu seçmeliyim?",
+    answer: "Fraksiyon seçiminiz başlangıç kasabanızı ve erken rotalarınızı etkiler. Crimson Shield International (Kiu Vongsa), daha güvenli erken ilerleme nedeniyle genellikle yeni başlayanlar için daha uygun kabul edilir. Mithras Security Systems (Nam Thaven) dengeli rotalar sunarken, Lamang Recovery Initiative (Pha Lang) daha agresif oyuncular için uygun, çekişmeli bölgelere daha hızlı erişim sağlar."
+  },
+  {
+    question: "Tüm ekipmanımı kaybetmeye devam edersem ne yapmalıyım?",
+    answer: "Sürekli ekipman kaybediyorsanız, yaklaşımınızı yeniden değerlendirin. Haritaları ve mekanikleri güvenli bir şekilde öğrenmek için yalnızca PvE Ortak Operasyonlar moduna odaklanın. Değerli görev öğeleri veya yüksek seviyeli yağma için Güvenli Kilitleme Kutunuzu kullanın. Envanterinizi yeniden oluşturmak için ekipman veya para ödüllendiren görevlere öncelik verin ve daha iyi donatılana kadar yüksek riskli alanlardan kaçının."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Info, CheckCircle, Lightbulb } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Ground Zero : Guide de Survie Essentiel",
+  description: "Naviguez dans Ground Zero de Gray Zone Warfare avec ce guide de survie essentiel, couvrant les tâches, le butin et les conseils tactiques pour une progression rapide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/34495e/fff?text=Ground+Zero+Survival",
+  date: "2026-06-18",
+  author: "Équipe Wiki de Gray Zone Warfare"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Ground Zero** est le point de départ critique pour tous les nouveaux opérateurs PMC dans **Gray Zone Warfare**.
+- Concentrez-vous sur l'accomplissement des premières **tâches** de Handshake, Gunny et Lab Rat pour une progression rapide.
+- Priorisez la gestion de la **boîte de verrouillage sécurisée** pour protéger le butin de valeur et les objets de quête.
+- Comprenez les **mécaniques de survie** de base comme l'hydratation, l'énergie et le traitement des blessures pour éviter les morts précoces.
+- Utilisez des **cartes interactives** pour localiser efficacement les objectifs clés, les points d'intérêt et les zones d'extraction.
+</Callout>
+
+<Section icon={Map} title="Comprendre Ground Zero : Vos Premiers Pas">
+Ground Zero dans Gray Zone Warfare désigne les zones initiales où les opérateurs PMC sont déployés, servant de point de départ crucial pour tous les nouveaux joueurs. Cette zone est conçue pour introduire les mécaniques de base, les tâches initiales et les dures réalités de l'île de Lamang. Maîtriser cette zone est vital pour une progression fluide et la survie. Les joueurs rencontreront la ville de départ de leur faction, qui agit comme un hub pour les premières missions et les zones sûres.
+
+**Points forts de la vidéo :**
+- Aperçu des emplacements des villes de départ et de leur importance.
+- Conseils pour naviguer dans les environs immédiats de votre point d'apparition initial.
+- Introduction aux premières tâches des vendeurs et à leurs objectifs.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Bande-annonce de lancement de l'accès anticipé" />
+
+Votre choix de faction dicte votre ville de départ : Crimson Shield International près de Kiu Vongsa, Mithras Security Systems près de Nam Thaven, et Lamang Recovery Initiative près de Pha Lang. Chaque ville offre une structure de progression en miroir, ce qui signifie que les types de tâches initiales et la disposition générale sont similaires, bien que les emplacements spécifiques et les pièces verrouillées diffèrent. Se familiariser avec la disposition et les points d'intérêt (POI) de votre ville choisie est primordial.
+
+<Callout type="tip" title="Choisissez judicieusement votre ville de départ">
+Bien que la progression initiale soit en miroir, la ville de départ de votre faction choisie influencera vos itinéraires initiaux et les temps de trajet vers les zones du milieu de la carte comme Fort Narith. Considérez les temps de marche approximatifs : Lamang (5-10 min), Mithras (15-20 min), Crimson (25-30+ min) si vous prévoyez de vous enfoncer rapidement dans l'île.
+</Callout>
+
+### Aperçu des villes de départ clés
+
+| Faction                      | Ville de départ | Position sur la grille | Objectif principal                                   | Notes                                                         |
+| :--------------------------- | :------------ | :------------ | :--------------------------------------------------- | :------------------------------------------------------------ |
+| **Crimson Shield International** | Kiu Vongsa    | 141:164       | Progression initiale plus lente et plus sûre         | Bon pour les nouveaux joueurs pour apprendre les mécaniques   |
+| **Mithras Security Systems**     | Nam Thaven    | 171:118       | Équilibré entre les routes sûres et dangereuses      | Risque modéré, offre des expériences initiales variées       |
+| **Lamang Recovery Initiative**   | Pha Lang      | 202:162       | Accès rapide aux zones contestées, risque plus élevé | Idéal pour les joueurs agressifs ou les vétérans expérimentés |
+
+</Section>
+
+<Section icon={Target} title="Tâches Essentielles Précoces sur Ground Zero">
+Les tâches sont le principal moteur de progression dans Gray Zone Warfare, fournissant de l'expérience, de la monnaie et de la réputation auprès des vendeurs. Sur Ground Zero, vos tâches initiales vous guideront à travers les bases de la navigation, du pillage et de l'engagement. Accomplir ces premières missions efficacement est crucial pour débloquer un meilleur équipement et étendre vos capacités opérationnelles.
+
+<Steps>
+  <Step num="1" title="Première Reconnaissance (Handshake)">
+    **Objectifs :** Vérifier la cabane, la scierie et la station-service dans votre ville de départ.
+    **Emplacements connus :** Bâtiment Démoli (141 165), Dépanneur (141 162), Station-service (144 161).
+    **Récompenses :** 400 EXP, +25 Réputation Handshake, 1 700 $ USD, 1x Porte-opérateur modulaire Gen II.
+    **Pourquoi c'est important :** Enseigne l'identification des points de repère de base et le mouvement dans la zone sécurisée.
+  </Step>
+  <Step num="2" title="Récupération de cache (Gunny)">
+    **Objectifs :** Trouver et marquer une cache dans la scierie de votre ville.
+    **Emplacements connus :** Entrepôt (140 163), Scierie (141 161).
+    **Récompenses :** 400 EXP, +100 Réputation Gunny, 1 700 $ USD, 1x Sac de convoi Scorpion OCP.
+    **Pourquoi c'est important :** Une tâche de progression d'arme précoce qui développe une réputation Gunny cruciale.
+  </Step>
+  <Step num="3" title="Besoin de Médicaments (Lab Rat)">
+    **Objectifs :** Localiser les fournitures médicales de l'UNLRA près du château d'eau de la ville.
+    **Emplacements connus :** Fournitures Médicales (140 161).
+    **Récompenses :** 400 EXP, +100 Réputation Lab Rat, 2 200 $ USD, 1x IFAK.
+    **Pourquoi c'est important :** Débloque de meilleures fournitures médicales et des options de survie de Lab Rat, essentielles pour la survie.
+  </Step>
+  <Step num="4" title="Coup de main (Handshake)">
+    **Objectifs :** Récupérer et livrer des informations du grenier du restaurant à Handshake.
+    **Emplacements connus :** Grenier du restaurant dans la ville de départ (par exemple, Kiu Vongsa 141:164).
+    **Récompenses :** 400 EXP, +100 Réputation Handshake, 2 300 $ USD, 1x Porte-clés en cuir.
+    **Pourquoi c'est important :** Souvent la première tâche liée à une clé, introduisant l'importance de la gestion des clés.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Priorisation des tâches">
+Priorisez toujours les tâches qui accordent de la réputation auprès des vendeurs comme Lab Rat et Gunny dès le début. Cela débloque l'accès à de meilleures fournitures médicales, armes et accessoires, augmentant considérablement votre capacité de survie et votre efficacité au combat.
+</Callout>
+
+### Progression des tâches des vendeurs
+
+| Vendeur    | Tâches initiales clés                               | Récompenses principales                                   | Note de progression                                     |
+| :-------- | :------------------------------------------------ | :------------------------------------------------ | :------------------------------------------------------ |
+| **Handshake** | Première Reconnaissance, Coup de main, L'Ombre sur Ban Pa | EXP, USD, Rép, Équipement, Débloque le Vendeur Turncoat | Équipement général, stockage et tâches d'information initiales |
+| **Gunny**     | Récupération de cache, Ne laissez personne derrière | EXP, USD, Rép, Pièces d'armes, Gilets de poitrine | Armes, chargeurs et accessoires d'armes              |
+| **Lab Rat**   | Besoin de Médicaments, Négociations autochtones | EXP, USD, Rép, IFAK, Débloque le Vendeur Artisan  | Fournitures médicales, nourriture et articles de subsistance |
+| **Artisan**   | Outils du métier, Envahisseurs d'ailleurs        | EXP, USD, Rép, Pièces d'armes spécifiques         | Personnalisation avancée des armes et équipement spécialisé |
+
+</Section>
+
+<Section icon={Shield} title="Essentiels de survie : Rester en vie sur l'île de Lamang">
+Gray Zone Warfare est un jeu de tir à extraction, ce qui signifie que chaque raid comporte le risque de perdre votre équipement. Comprendre et gérer les mécaniques de survie de base est essentiel, surtout au début sur Ground Zero. Portez une attention particulière à votre santé, votre hydratation et vos niveaux d'énergie pour éviter les morts évitables.
+
+<CardGrid cols={2}>
+  <Card title="Hydratation et Énergie">
+    - **Soif :** En dessous de 50 % d'hydratation, pas de régénération sanguine.
+    - **Déshydraté :** À 1 % d'hydratation, vision trouble.
+    - **Faim :** En dessous de 50 % d'énergie, pas de régénération sanguine.
+    - **Affamé :** À 1 % d'énergie, vision trouble.
+    - **Toujours transporter de l'eau et de la nourriture.**
+  </Card>
+  <Card title="Blessure et Coma">
+    - **Saignement :** Les saignements légers, moyens et graves entraînent une perte de sang continue. Traitez immédiatement.
+    - **Coma :** Peut survenir si le sang tombe en dessous de 50 % ou à cause d'organes détruits (poumons/foie).
+    - **Fenêtre de réanimation :** Les coéquipiers ont environ 180 secondes pour réanimer un joueur en coma.
+    - Les **articles médicaux** comme les IFAK et les bandages sont essentiels.
+  </Card>
+</CardGrid>
+
+La boîte de verrouillage sécurisée est votre meilleure amie sur Ground Zero. Tous les objets qui y sont placés sont protégés contre la perte en cas de mort. Ceci est particulièrement important pour les objets de quête ou le butin de grande valeur que vous ne pouvez pas vous permettre de perdre.
+
+<Callout type="warning" title="Sécurisez vos objets de valeur">
+Placez toujours les objets de quête et le butin de grande valeur que vous avez l'intention de conserver dans votre boîte de verrouillage sécurisée. Perdre des objets cruciaux pour la mission peut considérablement entraver votre progression et vous obliger à recommencer les tâches.
+</Callout>
+
+### Stratégies de survie clés
+
+<Checklist
+  id="survival-tips"
+  title="Liste de contrôle de survie Ground Zero :"
+  items={[
+    "Maintenez l'hydratation et l'énergie au-dessus de 50 % à tout moment.",
+    "Transportez au moins un IFAK et des bandages pour les urgences.",
+    "Utilisez la boîte de verrouillage sécurisée pour tous les objets de quête et le butin de haut niveau.",
+    "Comprenez les mécanismes des hélicoptères : invulnérabilité à bord et période de grâce de 4 secondes après la sortie.",
+    "Évitez l'AFK en dehors des zones sûres ; l'inactivité peut entraîner la perte d'équipement si vous êtes retiré du déploiement."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimisation du butin et de l'économie sur Ground Zero">
+Établir une économie stable tôt dans Gray Zone Warfare est crucial pour l'acquisition continue d'équipement et l'accomplissement des tâches. Sur Ground Zero, concentrez-vous sur les routes de butin à faible risque et les pratiques de vente intelligentes. Les récompenses de tâche fournissent un revenu de base, mais un pillage efficace augmente considérablement vos fonds.
+
+<Callout type="info" title="Philosophie de l'argent et du pillage">
+L'argent dans Gray Zone Warfare provient de deux sources constantes : les récompenses de tâche et le pillage intelligent. Les premières tâches offrent de l'argent et de la réputation, tandis que les réseaux de vendeurs au FOB vous permettent de vendre des objets de valeur. Une bonne boucle de récupération implique l'accomplissement de tâches à proximité, un pillage efficace, une vente intelligente et l'utilisation des gains pour se réapprovisionner sans dépenser trop pour des kits coûteux.
+</Callout>
+
+### Pillage et vente efficaces
+
+| Action                               | Priorité | Détails                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| :----------------------------------- | :------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Accomplir les tâches rémunérées**  | Élevée    | De nombreuses tâches initiales de Handshake, Gunny et Lab Rat offrent des récompenses en espèces directes, ainsi que de l'EXP et de la réputation. Des exemples incluent "Besoin de Médicaments" (1 200 $), "Coup de main" (440 $) et "Ce qui est en stock" (3 300 $). Ce sont des sources de revenus fiables.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Prioriser les conteneurs d'armes à feu** | Élevée    | Lors du pillage, concentrez-vous sur les conteneurs d'armes à feu (CSI Firearms Box, UN Firearms Box, Firearms Box). Ceux-ci contiennent souvent des armes, des chargeurs et des pièces d'armes, qui sont généralement plus précieux que le désordre aléatoire. Les caisses d'armes militaires peuvent également contenir des chargeurs de haut niveau comme le **chargeur AK308 7.62x51mm 20 coups** ou le **chargeur AK74 5.45x39mm 60 coups**.                                                                                                                                                                                                                                                                                                                                                            |
+| **Vendre au vendeur le plus offrant** | Moyenne  | Bien que vous puissiez vendre des objets de valeur à n'importe quel vendeur, certains vendeurs paient plus pour des objets spécifiques. Consultez un wiki de jeu ou des ressources communautaires pour identifier l'acheteur le plus offrant pour chaque objet afin de maximiser vos retours. Vendre à un vendeur non spécialisé entraîne généralement une réduction de prix de 50 %.                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Convertir l'argent en accès vendeur** | Élevée    | Utilisez votre monnaie gagnée pour acheter des objets qui aident à accomplir des tâches, ce qui à son tour augmente la réputation du vendeur. Une réputation de vendeur plus élevée débloque un meilleur stock, vous permettant d'acheter des armes, des armures et des fournitures médicales supérieures. Cela crée une boucle de rétroaction positive pour la progression. La mise à jour 0.4 a rééquilibré les récompenses pour privilégier l'argent plutôt que les objets, rendant la gestion de l'argent encore plus importante.                                                                                                                                                                                                                                                                                                       |
+| **Routes de butin à faible risque**  | Élevée    | Restez dans les zones avec moins de PNJ hostiles ou de trafic de joueurs pendant les premiers raids. Les villes de départ et leurs périphéries immédiates contiennent souvent suffisamment de butin de bas niveau pour constituer une bonne réserve d'argent sans s'engager dans des combats à enjeux élevés. Concentrez-vous sur les conteneurs et les points de butin spécifiques liés aux premières tâches.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Utilisation de la boîte de verrouillage sécurisée** | Critique | Utilisez toujours votre boîte de verrouillage sécurisée pour les objets que vous souhaitez conserver. Cela inclut les composants de grande valeur, les objets de quête ou les trouvailles rares. Cela empêche de perdre des ressources critiques si vous êtes éliminé lors d'un raid.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+
+</Section>
+
+<Section icon={Trophy} title="FAQ sur Ground Zero">
+<FAQ items={[
+  {
+    question: "Qu'est-ce que Ground Zero dans Gray Zone Warfare ?",
+    answer: "Ground Zero fait référence aux zones de départ initiales pour les nouveaux opérateurs PMC sur l'île de Lamang. Il est conçu pour introduire les joueurs aux mécaniques de jeu de base, aux premières tâches et à la survie de base avant qu'ils ne s'aventurent dans des zones plus dangereuses."
+  },
+  {
+    question: "Quelle faction dois-je choisir pour la meilleure expérience Ground Zero ?",
+    answer: "Votre choix de faction détermine votre ville de départ (Kiu Vongsa, Nam Thaven ou Pha Lang). Crimson Shield International (Kiu Vongsa) est souvent considérée comme plus conviviale pour les débutants en raison de routes initiales plus sûres, tandis que Lamang Recovery Initiative (Pha Lang) offre un accès plus rapide aux zones contestées pour les joueurs expérimentés."
+  },
+  {
+    question: "Comment puis-je protéger mon équipement sur Ground Zero ?",
+    answer: "Le moyen le plus efficace de protéger votre équipement, en particulier les objets de quête et les objets de valeur, est de les placer dans votre boîte de verrouillage sécurisée. Les objets dans la boîte de verrouillage sécurisée ne sont pas perdus en cas de mort, ce qui vous assure de conserver des ressources critiques."
+  },
+  {
+    question: "Quelles sont les tâches initiales les plus importantes sur Ground Zero ?",
+    answer: "Concentrez-vous sur des tâches comme 'Première Reconnaissance' (Handshake), 'Récupération de cache' (Gunny) et 'Besoin de Médicaments' (Lab Rat). Ces tâches fournissent de l'EXP, de la monnaie et de la réputation de vendeur essentiels, débloquant un meilleur équipement et des fournitures médicales critiques pour la survie et la progression précoces."
+  }
+]} />
+</Section>

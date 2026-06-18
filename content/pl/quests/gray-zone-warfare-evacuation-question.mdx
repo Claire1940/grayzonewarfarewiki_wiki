@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertCircle, CheckCircle, Lightbulb, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Pytanie o Ewakuację: Opanowanie Punktów Ekstrakcji",
+  description: "Zrozum niuanse ewakuacji w Gray Zone Warfare, w tym mechanikę helikopterów, okna niewrażliwości i taktyczne rozważania dotyczące udanej ekstrakcji z wyspy Lamang.",
+  category: "Przewodnik",
+  image: "https://placehold.co/800x400/8B4513/fff?text=GZW+Evacuation+Guide",
+  date: "2026-06-18",
+  author: "Zespół Wiki Gray Zone Warfare"
+}
+
+<Callout type="info" title="Szybki Przewodnik">
+- Opanowanie **ewakuacji w Gray Zone Warfare** jest kluczowe dla zachowania sprzętu i postępów.
+- Wykorzystaj **4-sekundowe okno niewrażliwości** po opuszczeniu helikoptera do taktycznego pozycjonowania.
+- Helikoptery zapewniają **odporność na obrażenia** podczas lotu, oferując bezpieczną opcję podróży.
+- Ostrożnie planuj **trasy ekstrakcji**, biorąc pod uwagę SI i potencjalne zagrożenia ze strony graczy.
+- Zrozumienie **sygnałów wywoławczych LZ** i ich lokalizacji jest kluczem do efektywnego poruszania się po wyspie Lamang.
+</Callout>
+
+<Section icon={Map} title="Zrozumienie Mechaniki Ewakuacji w Gray Zone Warfare">
+Pomyślna ekstrakcja jest kamieniem węgielnym postępu w Gray Zone Warfare. Wiedza o tym, jak efektywnie i bezpiecznie ewakuować się, jest najważniejsza dla zachowania ciężko zdobytego łupu i ukończenia zadań. Mechanika gry związana z transportem helikopterem i oknami niewrażliwości jest kluczowa dla każdego operatora na wyspie Lamang.
+
+Oficjalny opis gry definiuje Gray Zone Warfare jako „taktyczną strzelankę z otwartym światem, skoncentrowaną na PvE”, podkreślając strategiczne podejście do rozgrywki. To bezpośrednio wpływa na sposób, w jaki gracze zarządzają swoimi ekstrakcjami. Błędy podczas ewakuacji mogą prowadzić do znacznej utraty sprzętu i niepowodzenia misji, co podkreśla znaczenie zrozumienia każdego szczegółu.
+
+**Najważniejsze fragmenty wideo:**
+- Pokazuje odbiór i wysadzenie helikopterem.
+- Pokazuje okres niewrażliwości po wyjściu z helikoptera.
+- Wyjaśnia, jak dźwięki helikoptera mogą rozpraszać SI.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Early Access Launch Trailer" />
+
+Helikoptery to nie tylko pojazdy transportowe; są one krytycznym atutem taktycznym. Gracze są odporni na obrażenia podczas lotu, co czyni je bezpiecznym schronieniem podczas niebezpiecznych podróży. Ponadto, 4-sekundowe okno niewrażliwości po wyjściu z helikoptera zapewnia krótką, ale kluczową okazję do zmiany pozycji lub zaangażowania zagrożeń bez natychmiastowego ryzyka. Sam dźwięk helikoptera może również służyć jako taktyczne rozproszenie, odciągając uwagę SI od twojej bezpośredniej strefy lądowania.
+
+<Callout type="tip" title="Ruch Strategiczny">
+Zawsze traktuj przylot i odlot helikoptera jako wydarzenie taktyczne. Wykorzystaj hałas na swoją korzyść, aby flankować wrogów lub tworzyć dywersje, i wykorzystaj okno niewrażliwości, aby zabezpieczyć swoje bezpośrednie otoczenie.
+</Callout>
+
+### Użycie helikoptera i niewrażliwość
+
+| Cecha                | Opis                                                                      | Korzyść Taktyczna                                         | Czynnik Ryzyka         |
+| :------------------ | :------------------------------------------------------------------------ | :-------------------------------------------------------- | :--------------------- |
+| **Odporność na obrażenia** | Gracze nie mogą odnieść obrażeń wewnątrz helikoptera.                   | Bezpieczna podróż między FOB a strefami rozmieszczenia.   | Brak (podczas lotu)   |
+| **4-sekundowa niewrażliwość**| Krótka niewrażliwość na obrażenia po opuszczeniu pojazdu.                 | Pozwala na natychmiastowe repozycjonowanie lub ocenę zagrożenia. | Szybko wygasa        |
+| **Rozpraszanie dźwiękiem**| Hałas helikoptera przyciąga SI i potencjalnie innych graczy.             | Może być użyty do zwabienia wrogów lub maskowania ruchów. | Alarmuje odległe zagrożenia |
+| **Stałe punkty LZ** | Punkty ewakuacji są z góry określone na całej mapie.                     | Przewidywalne trasy, ale mogą być sporne.                 | Możliwe wąskie gardła |
+
+</Section>
+
+<Section icon={Target} title="Planowanie Tras Ekstrakcji">
+Skuteczna ewakuacja w Gray Zone Warfare wymaga skrupulatnego planowania. Zrozumienie mapy, identyfikacja kluczowych punktów zainteresowania (POI) i znajomość stref lądowania (LZ) to kluczowe elementy. Każda frakcja rozpoczyna w określonym mieście, co wpływa na początkowy przebieg zadań i optymalne ścieżki ekstrakcji.
+
+Na przykład, Crimson Shield International zaczyna w pobliżu Kiu Vongsa, Mithras Security Systems w pobliżu Nam Thaven, a Lamang Recovery Initiative w pobliżu Pha Lang. Te początkowe miasta nie tylko określają twoje początkowe zadania, ale także najbliższe i najbezpieczniejsze LZ. W miarę postępów będziesz zapuszczać się w bardziej niebezpieczne obszary, takie jak Ban Pa, Fort Narith i Tiger Bay, gdzie planowanie ekstrakcji staje się jeszcze bardziej złożone.
+
+<Callout type="warning" title="Ostrzeżenie o Czasie AFK">
+Nie opuszczaj się w trybie AFK poza bezpiecznymi obszarami. Limit braku aktywności wynosi 15 minut, a jeśli zostaniesz usunięty z aktywnego rozmieszczenia w trybie AFK, stracisz cały przenoszony sprzęt, podobnie jak w przypadku normalnej śmierci.
+</Callout>
+
+### Kluczowe Kroki Planowania Ekstrakcji
+
+<Steps>
+  <Step num="1" title="Ocena Celów Misji i Lokalizacji">
+    Przed rozmieszczeniem, zrozum dokładną lokalizację swojego zadania i potencjalne punkty ekstrakcji w pobliżu. Użyj interaktywnej mapy, aby zidentyfikować główne i drugorzędne LZ. Weź pod uwagę poziom zagrożenia obszaru i rodzaj wrogów, których możesz napotkać (Rebelianci, Żołnierze LAF).
+  </Step>
+  <Step num="2" title="Mądry Wybór Frakcji">
+    Wybór frakcji wpływa na twoje początkowe miasto i bliskość niektórych LZ. Na przykład, Lamang Recovery Initiative zaczyna w pobliżu lotniska Pha Lang, oferując szybki dostęp do spornych stref. Crimson Shield International w pobliżu Kiu Vongsa może oferować wolniejszy, bezpieczniejszy początek postępów.
+  </Step>
+  <Step num="3" title="Priorytetyzacja Sprzętu i Bezpiecznej Skrzyni">
+    Przed ewakuacją upewnij się, że wszystkie wartościowe lub krytyczne dla zadań przedmioty są umieszczone w Twojej Bezpiecznej Skrzyni. Chroni to je przed utratą po śmierci. Broń biała również nie jest tracona w taki sam sposób, jak zwykły przenoszony sprzęt.
+  </Step>
+  <Step num="4" title="Monitoruj Nawodnienie i Energię">
+    Niski poziom nawodnienia i energii może poważnie osłabić twoją zdolność do sprintu, leczenia i przetrwania. Zawsze upewnij się, że te progi są zarządzane, zwłaszcza podczas stresującej ekstrakcji. Odwodnienie może prowadzić do zamazanego widzenia, utrudniając walkę i nawigację.
+  </Step>
+  <Step num="5" title="Komunikuj się z Członkami Drużyny">
+    Jeśli grasz w drużynie, skoordynuj swój plan ekstrakcji. Wyznacz, kto pokrywa które kąty podczas wysiadania i upewnij się, że wszyscy są świadomi wybranego LZ i potencjalnych zagrożeń. Członkowie drużyny mogą cię ożywić w ciągu 180 sekund, jeśli wejdziesz w śpiączkę, ale jest to niemożliwe, jeśli zostaniesz rozdzielony podczas ekstrakcji.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Przegląd Stref Ewakuacji i Rozważania Taktyczne">
+Wyspa Lamang jest pełna niebezpieczeństw, a każda strefa ewakuacji stawia własne wyzwania. Zrozumienie specyficznych cech LZ, ich sygnałów wywoławczych i typowej obecności wroga jest kluczowe dla udanej ekstrakcji. Główne POI, takie jak Fort Narith i Tiger Bay, posiadają łup wysokiej klasy, ale także przyciągają najbardziej groźnych wrogów i potencjalnie innych graczy.
+
+Oficjalna wiki Gray Zone Warfare i różne interaktywne mapy stworzone przez społeczność dostarczają szczegółowych informacji na temat tych lokalizacji. Zaleca się konsultowanie tych zasobów przed wyruszeniem na rajd, zwłaszcza na nieznane terytorium. Znajomość terenu i typów wrogów może pomóc w przygotowaniu odpowiedniego wyposażenia i podejścia.
+
+### Główne Strefy Ewakuacji i Ich Charakterystyka
+
+| Sygnał wywoławczy LZ | Główny POI           | Poziom | Typ miejscowych         | Pozycja w siatce | Kluczowe uwagi taktyczne                                                              |
+| :---------- | :----------------- | :--- | :-------------------- | :------------ | :------------------------------------------------------------------------------ |
+| **INDIA**   | Ban Pa             | 2    | Rebelianci                | 205:137       | Ważne dla zadań kultowych i poszukiwań kluczy; częsty punkt ekstrakcji w środku gry.     |
+| **DELTA**   | Fort Narith        | 3    | Żołnierze LAF          | 143:129       | Strefa wysokiego zagrożenia i wysokiej nagrody; wymaga silnego sprzętu i ostrożnego podejścia.       |
+| **JULIET**  | Tiger Bay          | 3    | Rebelianci i żołnierze LAF | 198:130       | Największa strefa miejska; gęste cele, duży ruch graczy, złożona ekstrakcja.   |
+| **HOTEL**   | Midnight Sapphire  | 3    | Żołnierze LAF          | N/A           | Wysokiej wartości kurort; często powiązany z zadaniami późnej fazy gry i zablokowanymi trasami.       |
+| **BRAVO**   | YBL-1              | 2    | Żołnierze LAF          | 143:122       | Kompleks bunkrów; służy jako most do routingu w środku mapy.                            |
+| **ECHO**    | Blue Lagoon        | 1    | Rebelianci                | 203:117       | POI po stronie południowego kurortu; ogólnie niższe zagrożenie, dobre do wczesnej eksploracji.   |
+
+<Callout type="success" title="Optymalizacja Twojego Ekwipunku">
+Dla stref LZ o wysokim zagrożeniu, takich jak Fort Narith lub Tiger Bay, rozważ zabranie granatów dymnych do osłony podczas ekstrakcji lub magazynka o dużej pojemności do ognia zaporowego, jeśli napotkasz opór. Obliczenia balistyczne są ulepszane w aktualizacji 0.4, co czyni wybór amunicji bardziej krytycznym.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Zaawansowane Strategie Ewakuacji i Typowe Pułapki">
+Nawet doświadczeni operatorzy mogą paść ofiarą nieoczekiwanych wyzwań podczas ekstrakcji. Zaawansowane strategie obejmują nie tylko znajomość mapy, ale także przewidywanie zachowań graczy, wykorzystywanie aktualizacji gry i unikanie typowych błędów. Aktualizacja 0.4 „Spearhead” wprowadziła znaczące zmiany w mechanice gry, w tym zrównoważenie nagród i podkreślenie zachowania broni podczas obsługi i przeładowania. Te zmiany bezpośrednio wpływają na twoją zdolność do przetrwania i ekstrakcji.
+
+Jedną z typowych pułapek jest niedocenianie znaczenia reputacji u sprzedawców. Sprzedawcy tacy jak Handshake, Lab Rat i Gunny oferują kluczowy sprzęt, który może zaważyć na sukcesie lub porażce ekstrakcji. Postępy w ich zadaniach nie tylko dostarczają gotówki, ale także odblokowują lepszy dostęp do środków medycznych, broni i pancerza, które są niezbędne do przetrwania walki w drodze do LZ.
+
+<CardGrid cols={2}>
+  <Card title="Ewakuacja PvE (Operacje Połączone)">
+    - **Mniejsze ryzyko spotkań z graczami**: Skup się przede wszystkim na zagrożeniach AI.
+    - **Bardziej przewidywalne trasy**: Mniejsza potrzeba martwienia się o zasadzki ze strony innych PMC.
+    - **Idealne do ukończenia zadań**: Bezpieczne postępy w misjach i zbieranie łupu.
+    - **Nadal wymaga ostrożności**: AI może być liczne i dobrze uzbrojone, zwłaszcza w obszarach wyższego poziomu.
+  </Card>
+  <Card title="Ewakuacja PvEvP (Wojna)">
+    - **Wysokie ryzyko spotkań z graczami**: Ciągłe zagrożenie ze strony wrogich PMC.
+    - **Nieprzewidywalne trasy**: Bądź przygotowany na zasadzki w LZ lub na popularnych ścieżkach.
+    - **Wysoki potencjał nagród**: Bardziej wartościowy łup i intensywne doświadczenia bojowe.
+    - **Wymaga zaawansowanych taktyk**: Używaj osłon, ognia zaporowego i skoordynowanych ruchów z drużyną.
+  </Card>
+</CardGrid>
+
+### Lista Kontrolna dla Pomyślnej Ekstrakcji
+
+<Checklist
+  id="extraction-checklist"
+  title="Gotowość przed ewakuacją:"
+  items={[
+    "Zapasy medyczne w pełni uzupełnione (IFAK, bandaże, szyny).",
+    "Bezpieczna Skrzynia wypełniona wartościowymi przedmiotami.",
+    "Broń przeładowana i dostępne zapasowe magazynki.",
+    "Poziom nawodnienia i energii powyżej 50%.",
+    "Potwierdzona komunikacja z drużyną (jeśli dotyczy).",
+    "Wybrana strefa lądowania wolna od bezpośrednich zagrożeń (jeśli to możliwe)."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Info} title="Często Zadawane Pytania dotyczące Ewakuacji w Gray Zone Warfare">
+
+<FAQ items={[
+  {
+    question: "Jak długo trwa niewrażliwość po opuszczeniu helikoptera?",
+    answer: "Po wyjściu z helikoptera gracze mają 4-sekundowe okno niewrażliwości. Ten krótki okres jest kluczowy do szybkiej oceny otoczenia i zajęcia osłony lub zaangażowania bezpośrednich zagrożeń."
+  },
+  {
+    question: "Czy mogę stracić przedmioty z zadań podczas ewakuacji, jeśli zginę?",
+    answer: "Chociaż przedmioty z zadań czasami przetrwają, gdy zostaną umieszczone w bezpiecznym schowku, zawsze najlepiej jest priorytetyzować szybkie trasy dostarczania dla zadań. Wszelkie przedmioty nie znajdujące się w twojej Bezpiecznej Skrzyni są zazwyczaj tracone po śmierci poza FOB."
+  },
+  {
+    question: "Czy dźwięk helikoptera zawsze przyciąga SI?",
+    answer: "Tak, dźwięk helikoptera działa jako taktyczne rozproszenie dla SI i potencjalnie innych graczy. Można to wykorzystać na swoją korzyść, aby odciągnąć wrogów od zamierzonej ścieżki lub zamaskować własne ruchy po wylądowaniu."
+  },
+  {
+    question: "Jaki jest limit braku aktywności w Gray Zone Warfare i jak wpływa na ewakuację?",
+    answer: "Limit braku aktywności wynosi 15 minut. Jeśli zostaniesz usunięty z aktywnego rozmieszczenia z powodu braku aktywności poza FOB, stracisz cały swój sprzęt, tak jakbyś zginął w walce. Zawsze upewnij się, że aktywnie grasz lub znajdujesz się w bezpiecznej strefie."
+  }
+]} />
+
+</Section>

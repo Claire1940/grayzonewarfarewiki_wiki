@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Info, CheckCircle, Lightbulb } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Ground Zero: Guia Essencial de Sobrevivência",
+  description: "Navegue pelo Ground Zero do Gray Zone Warfare com este guia essencial de sobrevivência, cobrindo tarefas, saques e dicas táticas para a progressão inicial.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/34495e/fff?text=Ground+Zero+Survival",
+  date: "2026-06-18",
+  author: "Equipe da Wiki de Gray Zone Warfare",
+  keywords: "gray zone warfare, ground zero, guia de sobrevivência, tarefas iniciais, dicas táticas"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Ground Zero** é o ponto de partida crítico para todos os novos operadores PMC em **Gray Zone Warfare**.
+- Concentre-se em completar as **tarefas** iniciais de Handshake, Gunny e Lab Rat para uma progressão rápida.
+- Priorize o gerenciamento do **cofre seguro** (secure lockbox) para proteger saques valiosos e itens de missão.
+- Entenda as **mecânicas básicas de sobrevivência**, como hidratação, energia e tratamento de ferimentos para evitar mortes precoces.
+- Utilize **mapas interativos** para localizar objetivos principais, pontos de interesse (POIs) e zonas de extração de forma eficiente.
+</Callout>
+
+<Section icon={Map} title="Entendendo o Ground Zero: Seus Primeiros Passos">
+O Ground Zero em Gray Zone Warfare refere-se às áreas iniciais onde os operadores PMC são implantados, servindo como o ponto de partida crucial para todos os novos jogadores. Esta zona foi projetada para introduzir as mecânicas principais, as tarefas iniciais e as realidades severas da Ilha Lamang. Dominar esta área é vital para uma progressão e sobrevivência tranquilas. Os jogadores encontrarão a cidade inicial de sua facção, que atua como um centro para missões iniciais e zonas seguras.
+
+**Destaques do Vídeo:**
+- Visão geral das localizações das cidades iniciais e sua importância.
+- Dicas para navegar nos arredores imediatos do seu spawn inicial.
+- Introdução às primeiras tarefas dos vendedores e seus objetivos.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Trailer de Lançamento do Acesso Antecipado" />
+
+Sua escolha de facção dita sua cidade inicial: Crimson Shield International perto de Kiu Vongsa, Mithras Security Systems perto de Nam Thaven e Lamang Recovery Initiative perto de Pha Lang. Cada cidade oferece uma estrutura de progressão espelhada, o que significa que os tipos de tarefas iniciais e o layout geral são semelhantes, embora as localizações específicas e as salas trancadas variem. Familiarizar-se com o layout da cidade escolhida e os principais pontos de interesse (POIs) é primordial.
+
+<Callout type="tip" title="Escolha sua Cidade Inicial com Sabedoria">
+Embora a progressão inicial seja espelhada, a cidade inicial da sua facção influenciará suas rotas iniciais e tempos de viagem para zonas no meio do mapa, como Fort Narith. Considere os tempos aproximados de viagem a pé: Lamang (5-10 min), Mithras (15-20 min), Crimson (25-30+ min) se você planeja avançar rapidamente para o interior da ilha.
+</Callout>
+
+### Visão Geral das Principais Cidades Iniciais
+
+| Facção | Cidade Inicial | Posição na Grade | Foco Principal | Notas |
+| :--- | :--- | :--- | :--- | :--- |
+| **Crimson Shield International** | Kiu Vongsa | 141:164 | Progressão inicial mais lenta e segura | Boa para novos jogadores aprenderem as mecânicas |
+| **Mithras Security Systems** | Nam Thaven | 171:118 | Equilibrada entre rotas seguras e perigosas | Risco moderado, oferece experiências iniciais variadas |
+| **Lamang Recovery Initiative** | Pha Lang | 202:162 | Acesso rápido a zonas contestadas, maior risco | Ideal para jogadores agressivos ou veteranos experientes |
+
+</Section>
+
+<Section icon={Target} title="Tarefas Iniciais Essenciais no Ground Zero">
+As tarefas são o principal motor de progressão no Gray Zone Warfare, fornecendo experiência, moeda e reputação com os vendedores. No Ground Zero, suas tarefas iniciais o guiarão pelo básico de navegação, saque e combate. Completar essas missões iniciais com eficiência é crucial para desbloquear equipamentos melhores e expandir suas capacidades operacionais.
+
+<Steps>
+  <Step num="1" title="Primeiro Reconhecimento (Handshake)">
+    **Objetivos:** Verificar o barraco, o pátio de madeira e o posto de gasolina em sua cidade inicial.
+    **Locais Conhecidos:** Edifício Demolido (141 165), Loja de Conveniência (141 162), Posto de Gasolina (144 161).
+    **Recompensas:** 400 EXP, +25 Rep com Handshake, $1.700 USD, 1x Portador de Operador Modular Gen II.
+    **Por que é importante:** Ensina a identificação básica de pontos de referência e movimento dentro da zona segura.
+  </Step>
+  <Step num="2" title="Recuperação de Cache (Gunny)">
+    **Objetivos:** Encontrar e marcar um cache no pátio de madeira da sua cidade.
+    **Locais Conhecidos:** Armazém (140 163), Pátio de Madeira (141 161).
+    **Recompensas:** 400 EXP, +100 Rep com Gunny, $1.700 USD, 1x Mochila Scorpion OCP Convoy.
+    **Por que é importante:** Uma tarefa inicial de progressão de armas que constrói a reputação crucial com Gunny.
+  </Step>
+  <Step num="3" title="Procura-se Medicamentos (Lab Rat)">
+    **Objetivos:** Localizar suprimentos médicos da UNLRA perto da torre de água da cidade.
+    **Locais Conhecidos:** Suprimentos Médicos (140 161).
+    **Recompensas:** 400 EXP, +100 Rep com Lab Rat, $2.200 USD, 1x IFAK.
+    **Por que é importante:** Desbloqueia melhores suprimentos médicos e opções de sustentação da Lab Rat, essenciais para a sobrevivência.
+  </Step>
+  <Step num="4" title="Mão Amiga (Handshake)">
+    **Objetivos:** Recuperar e entregar informações do sótão do restaurante para Handshake.
+    **Locais Conhecidos:** Sótão do restaurante na cidade inicial (ex: Kiu Vongsa 141:164).
+    **Recompensas:** 400 EXP, +100 Rep com Handshake, $2.300 USD, 1x Porta-chaves de Couro.
+    **Por que é importante:** Frequentemente a primeira tarefa que exige chave, introduzindo a importância do gerenciamento de chaves.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Priorização de Tarefas">
+Sempre priorize tarefas que concedem reputação com vendedores como Lab Rat e Gunny logo no início. Isso desbloqueia o acesso a melhores suprimentos médicos, armas e acessórios, aumentando significativamente sua sobrevivência e eficácia em combate.
+</Callout>
+
+### Progressão de Tarefas por Vendedor
+
+| Vendedor | Principais Tarefas Iniciais | Recompensas Principais | Nota de Progressão |
+| :--- | :--- | :--- | :--- |
+| **Handshake** | First Recon, Helping Hand, The Shadow Over Ban Pa | EXP, USD, Rep, Equipamento, Desbloqueia Vendedor Turncoat | Equipamento geral, armazenamento e tarefas iniciais de inteligência |
+| **Gunny** | Cache Retrieval, Leave No Man Behind | EXP, USD, Rep, Partes de armas, Coletes | Armas, carregadores e acessórios de armas |
+| **Lab Rat** | Meds Wanted, Native Negotiations | EXP, USD, Rep, IFAK, Desbloqueia Vendedor Artisan | Suprimentos médicos, comida e itens de sustentação |
+| **Artisan** | Tools of the Trade, Invaders From Afar | EXP, USD, Rep, Partes específicas de armas | Customização avançada de armas e equipamentos especializados |
+
+</Section>
+
+<Section icon={Shield} title="Essenciais de Sobrevivência: Mantendo-se Vivo na Ilha Lamang">
+Gray Zone Warfare é um jogo de tiro com extração, o que significa que cada incursão traz o risco de perder seu equipamento. Entender e gerenciar as mecânicas básicas de sobrevivência é crítico, especialmente ao começar no Ground Zero. Preste muita atenção aos seus níveis de saúde, hidratação e energia para evitar mortes evitáveis.
+
+<CardGrid cols={2}>
+  <Card title="Hidratação e Energia">
+    - **Sede:** Abaixo de 50% de hidratação, sem regeneração de sangue.
+    - **Desidratado:** Com 1% de hidratação, visão embaçada.
+    - **Fome:** Abaixo de 50% de energia, sem regeneração de sangue.
+    - **Faminto:** Com 1% de energia, visão embaçada.
+    - **Sempre carregue água e comida.**
+  </Card>
+  <Card title="Ferimento e Coma">
+    - **Sangramento:** Sangramentos leves, médios e graves causam perda contínua de sangue. Trate imediatamente.
+    - **Coma:** Pode ocorrer se o sangue cair abaixo de 50% ou por órgãos destruídos (pulmões/fígado).
+    - **Janela de Reanimação:** Colegas de equipe têm cerca de 180 segundos para reanimar um jogador em coma.
+    - **Itens médicos** como IFAKs e bandagens são essenciais.
+  </Card>
+</CardGrid>
+
+O cofre seguro (secure lockbox) é seu melhor amigo no Ground Zero. Quaisquer itens colocados dentro dele estão protegidos contra perda em caso de morte. Isso é particularmente importante para itens de missão ou saques de alto valor que você não pode se dar ao luxo de perder.
+
+<Callout type="warning" title="Proteja seus Objetos de Valor">
+Sempre coloque itens de missão e saques de alto valor que pretende manter em seu cofre seguro. Perder itens críticos de missão pode impedir significativamente sua progressão e forçá-lo a reiniciar as tarefas.
+</Callout>
+
+### Principais Estratégias de Sobrevivência
+
+<Checklist
+  id="survival-tips"
+  title="Checklist de Sobrevivência no Ground Zero:"
+  items={[
+    "Mantenha a hidratação e a energia acima de 50% o tempo todo.",
+    "Carregue pelo menos um IFAK e bandagens para emergências.",
+    "Utilize o cofre seguro para todos os itens de missão e saques de alto nível.",
+    "Entenda as mecânicas do helicóptero: invulnerabilidade a bordo e período de carência de 4 segundos após a saída.",
+    "Evite ficar AFK fora das zonas seguras; a inatividade pode levar à perda de equipamento se você for removido da implantação."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Otimizando Saques e Economia no Ground Zero">
+Estabelecer uma economia estável cedo no Gray Zone Warfare é crucial para a aquisição contínua de equipamentos e conclusão de tarefas. No Ground Zero, concentre-se em rotas de saque de baixo risco e práticas de venda inteligentes. As recompensas das tarefas fornecem uma renda base, mas o saque eficiente impulsiona significativamente seus fundos.
+
+<Callout type="info" title="Filosofia de Dinheiro e Saque">
+O dinheiro no Gray Zone Warfare vem de duas fontes consistentes: recompensas de tarefas e saques inteligentes. As tarefas iniciais oferecem dinheiro e reputação, enquanto as redes de vendedores no FOB permitem que você venda objetos de valor. Um bom ciclo de recuperação envolve completar tarefas próximas, saquear com eficiência, vender com inteligência e usar os pagamentos para reabastecer sem gastar demais em kits caros.
+</Callout>
+
+### Saque e Venda Eficientes
+
+| Ação | Prioridade | Detalhes |
+| :--- | :--- | :--- |
+| **Concluir Tarefas Pagas** | Alta | Muitas tarefas iniciais de Handshake, Gunny e Lab Rat fornecem recompensas diretas em dinheiro, além de EXP e reputação. Exemplos incluem "Meds Wanted" ($1.200), "Helping Hand" ($440) e "What's in Store" ($3.300). Estas são fontes de renda confiáveis. |
+| **Priorizar Recipientes de Armas** | Alta | Ao saquear, concentre-se em recipientes de armas de fogo (CSI Firearms Box, UN Firearms Box, Firearms Box). Eles geralmente contêm armas, carregadores e partes de armas, que são geralmente mais valiosos do que tralhas aleatórias. Caixas de Armas Militares também podem render carregadores de alto nível, como o **AK308 7.62x51mm 20-Round Magazine**. |
+| **Vender para o Melhor Vendedor** | Média | Embora você possa vender objetos de valor para qualquer vendedor, alguns pagam mais por itens específicos. Consulte uma wiki do jogo ou recursos da comunidade para identificar o comprador que paga mais por cada item para maximizar seus retornos. Vender para um vendedor não especializado geralmente resulta em uma redução de 50% no preço. |
+| **Dinheiro em Acesso ao Vendedor** | Alta | Use sua moeda ganha para comprar itens que ajudam a completar tarefas, o que, por sua vez, aumenta a reputação do vendedor. Uma reputação maior desbloqueia estoques melhores, permitindo que você compre armas, armaduras e suprimentos médicos superiores. Isso cria um ciclo de feedback positivo para a progressão. |
+| **Rotas de Saque de Baixo Risco** | Alta | Fique em áreas com menos NPCs hostis ou tráfego de jogadores durante as incursões iniciais. As cidades iniciais e suas periferias imediatas costumam conter saques de baixo nível suficientes para construir uma reserva decente sem entrar em combates de alto risco. |
+| **Uso do Cofre Seguro** | Crítica | Sempre use seu cofre seguro para itens que deseja garantir que manterá. Isso inclui componentes de alto valor, itens de missão ou achados raros. Isso evita a perda de recursos críticos se você for eliminado durante uma incursão. |
+
+</Section>
+
+<Section icon={Trophy} title="FAQ do Ground Zero">
+<FAQ items={[
+  {
+    question: "O que é o Ground Zero em Gray Zone Warfare?",
+    answer: "Ground Zero refere-se às áreas iniciais para novos operadores PMC na Ilha Lamang. Foi projetado para introduzir os jogadores às mecânicas principais do jogo, tarefas iniciais e sobrevivência básica antes de se aventurarem em zonas mais perigosas."
+  },
+  {
+    question: "Qual facção devo escolher para a melhor experiência no Ground Zero?",
+    answer: "Sua escolha de facção determina sua cidade inicial (Kiu Vongsa, Nam Thaven ou Pha Lang). A Crimson Shield International (Kiu Vongsa) é frequentemente considerada mais amigável para iniciantes devido a rotas iniciais mais seguras, enquanto a Lamang Recovery Initiative (Pha Lang) oferece acesso mais rápido a zonas contestadas para jogadores experientes."
+  },
+  {
+    question: "Como posso proteger meu equipamento no Ground Zero?",
+    answer: "A maneira mais eficaz de proteger seu equipamento, especialmente itens de missão e objetos de valor, é colocá-los em seu cofre seguro (secure lockbox). Itens no cofre seguro não são perdidos em caso de morte, garantindo que você mantenha recursos críticos."
+  },
+  {
+    question: "Quais são as tarefas iniciais mais importantes no Ground Zero?",
+    answer: "Concentre-se em tarefas como 'First Recon' (Handshake), 'Cache Retrieval' (Gunny) e 'Meds Wanted' (Lab Rat). Essas tarefas fornecem EXP essencial, moeda e reputação com os vendedores, desbloqueando equipamentos melhores e suprimentos médicos críticos para a sobrevivência e progressão inicial."
+  }
+]} />
+</Section>

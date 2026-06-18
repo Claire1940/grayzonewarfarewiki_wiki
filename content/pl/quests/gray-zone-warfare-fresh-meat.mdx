@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Świeże Mięso: Przewodnik Przetrwania dla Początkujących",
+  description: "Opanuj podstawy Gray Zone Warfare jako 'świeże mięso' dzięki temu kompleksowemu przewodnikowi przetrwania, obejmującemu pierwsze zadania, niezbędny sprzęt i wskazówki dotyczące wczesnej progresji na wyspie Lamang w 2026 roku.",
+  category: "Poradnik",
+  image: "https://placehold.co/800x400/34495e/fff?text=Fresh+Meat+Survival+Guide",
+  date: "2026-06-18",
+  author: "Zespół Wiki Gray Zone Warfare",
+  keywords: "Gray Zone Warfare, świeże mięso, przewodnik dla początkujących, przetrwanie, zadania, sprzęt, Lamang Island"
+}
+
+<Callout type="info" title="Szybki przewodnik dla świeżego mięsa">
+- **Świeże mięso w Gray Zone Warfare** może szybko się zaadaptować, skupiając się na wczesnych zadaniach i bezpiecznych wyprawach po łup.
+- Priorytetowo traktuj **reputację u handlarzy**, aby odblokować lepszy sprzęt i zaopatrzenie.
+- Zrozum **system zdrowia**, aby uniknąć częstych śmierci początkujących z powodu krwawienia lub odwodnienia.
+- Wybierz **frakcję mądrze**, ponieważ wpływa ona na twój obszar startowy i wczesne trasy w grze.
+- Efektywne **zarządzanie pieniędzmi** jest kluczowe dla uzupełniania zapasów i ulepszania wyposażenia.
+</Callout>
+
+<Section icon={Map} title="Nawigacja po wyspie Lamang: Pierwsze kroki dla świeżego mięsa">
+Jako nowy rekrut, czyli "świeże mięso", rzucony w wrogie środowisko wyspy Lamang, zrozumienie otoczenia jest sprawą nadrzędną. Twoje początkowe zadania przeprowadzą Cię przez podstawy, ale znajomość kluczowych lokalizacji i sposobów bezpiecznego podchodzenia do nich jest kluczowa dla przetrwania. Wyspa jest ogromna i bezlitosna, a każda decyzja, od strefy lądowania po trasę ewakuacji, ma swoje znaczenie.
+
+**Najważniejsze fragmenty wideo:**
+- Prezentacja poruszania się we wczesnej fazie gry i znaczników celów.
+- Pokazanie bezpiecznych podejść do typowych punktów orientacyjnych w miastach startowych.
+- Przedstawienie podstawowych starć bojowych przeciwko SI.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Early Access Launch Trailer" />
+
+Twoje miasto startowe zależy od wybranej frakcji, ale główna pętla progresji pozostaje podobna. Skup się na zapoznaniu się z najbliższą okolicą, zanim zapuścisz się w bardziej niebezpieczne rejony.
+
+<Callout type="tip" title="Poznaj swoje miasto startowe">
+Każda frakcja ma unikalne miasto startowe (Kiu Vongsa, Nam Thaven lub Pha Lang). Miasta te są Twoimi początkowymi bezpiecznymi strefami i centrum wczesnych zadań. Poznaj ich układ, potencjalne miejsca odradzania się wrogów i wydajne trasy łupienia, aby zminimalizować ryzyko.
+</Callout>
+
+### Kluczowe lokalizacje startowe i ich znaczenie
+
+| Typ lokalizacji | Frakcja | Pozycja na siatce | Kluczowe przesłanie | Poziom ryzyka |
+|:----------------|:--------|:------------------|:--------------------|:--------------|
+| **Kiu Vongsa** | Crimson Shield International | 141:164 | Dobre dla wolniejszej progresji, blisko obszarów przybrzeżnych. | Niski |
+| **Nam Thaven** | Mithras Security Systems | 171:118 | Zrównoważone trasy między bezpieczniejszymi a gorętszymi strefami. | Średni |
+| **Pha Lang** | Lamang Recovery Initiative | 202:162 | Szybki dostęp do spornych stref, takich jak lotnisko Pha Lang. | Wysoki |
+| **Bunkier YBL-1** | Wszystkie | 143:122 | Punkt na środku mapy, często powiązany z zadaniami wywiadowczymi. | Średni |
+| **Wioska Ban Pa** | Wszystkie | 205:137 | Obszar poziomu 2, kluczowy dla zadań związanych z kultem i konkretnych kluczy. | Średnio-wysoki |
+
+</Section>
+
+<Section icon={Target} title="Wczesna progresja zadań: Zmienianie świeżego mięsa w doświadczonych operatorów">
+Zadania są główną metodą progresji w Gray Zone Warfare, oferując cenne doświadczenie, pieniądze i reputację u handlarzy. Jako "świeże mięso", sprawne radzenie sobie z tymi misjami zadecyduje o Twoim wczesnym sukcesie. Zrozumienie celów, wymaganych przedmiotów i optymalnych tras może zapobiec niepotrzebnym śmiercią i utracie sprzętu.
+
+<Steps>
+  <Step num="1" title="Pierwszy rekonesans (Handshake)">
+    **Cel**: Sprawdź konkretne punkty orientacyjne w swoim mieście startowym (szopa, tartak, stacja benzynowa).
+    **Lokalizacje**: Zburzony budynek (141 165), Sklep wielobranżowy (141 162), Stacja benzynowa (144 161).
+    **Nagrody**: 400 PD, +25 Reputacji u Handshake, $1,700 USD, 1x Modular Operator Carrier Gen II.
+    <Callout type="success">
+    To zadanie uczy podstaw nawigacji i identyfikacji punktów orientacyjnych w bezpiecznej strefie. Skup się na skradaniu i obserwacji.
+    </Callout>
+  </Step>
+  <Step num="2" title="Potrzebne leki (Lab Rat)">
+    **Cel**: Znajdź zapasy medyczne UNLRA w pobliżu miejskiej wieży ciśnień.
+    **Lokalizacja**: Zapasy medyczne (140 161).
+    **Nagrody**: 400 PD, +100 Reputacji u Lab Rat, $2,200 USD, 1x IFAK.
+    <Callout type="tip">
+    Uczyń to zadanie priorytetem na początku. Lab Rat jest kluczowa dla odblokowania lepszych zapasów medycznych, co bezpośrednio wpływa na Twoją przeżywalność.
+    </Callout>
+  </Step>
+  <Step num="3" title="Pomocna dłoń (Handshake)">
+    **Cel**: Odzyskaj dane wywiadowcze z poddasza restauracji i dostarcz je do Handshake.
+    **Lokalizacja**: Poddasze restauracji w Kiu Vongsa (141:164) lub odpowiednik w innych miastach startowych.
+    **Nagrody**: 400 PD, +100 Reputacji u Handshake, $2,300 USD, 1x Skórzane etui na klucze.
+    <Callout type="warning">
+    To zadanie często wprowadza graczy w progresję blokowaną kluczami. Upewnij się, że masz odpowiedni klucz do magazynu restauracji, który zazwyczaj wypada z wrogów w okolicy.
+    </Callout>
+  </Step>
+  <Step num="4" title="Cień nad Ban Pa (Handshake)">
+    **Cel**: Zbadaj północne i południowe punkty wejścia do Ban Pa.
+    **Lokalizacja**: Strefa oczekiwania YBL-1, następnie zbadaj Ban Pa na północ od Tiger Bay.
+    **Nagrody**: 1,000 PD, +150 Reputacji u Handshake, $4,700 USD, 2x Recon Chest Rig, **Odblokowuje handlarza Turncoat**.
+    <Callout type="info">
+    To znaczący kamień milowy, wypychający Cię z fazy startowej i dający dostęp do nowego handlarza z szerszym asortymentem. Przygotuj się na zwiększone ryzyko.
+    </Callout>
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Niezbędny sprzęt i zarządzanie pieniędzmi dla nowych graczy">
+Przetrwanie jako "świeże mięso" w Gray Zone Warfare oznacza podejmowanie mądrych decyzji dotyczących sprzętu i finansów. Utrata zestawów jest nieunikniona, ale efektywne przewodniki finansowe i zrozumienie kompatybilności broni i amunicji mogą złagodzić ból i pozwolić szybciej wrócić do walki.
+
+### Kluczowe strategie łupienia i sprzedaży
+
+| Strategia | Opis | Korzyść | Ryzyko |
+|:----------|:-----|:--------|:-------|
+| **Priorytetyzuj płatne zadania** | Zadania na wczesnych i środkowych trasach oferują gwarantowaną gotówkę, PD i reputację. | Stabilny dochód, odblokowanie handlarzy. | Minimalne, jeśli wykonywane w bezpiecznych strefach. |
+| **Skup się na pojemnikach z bronią** | Skrzynie z bronią często zawierają wartościowe pistolety, magazynki i części. | Lepsza wartość sprzedaży, potencjalne ulepszenia broni. | Mogą znajdować się w spornych obszarach. |
+| **Sprzedawaj najlepszemu handlarzowi** | Kosztowności sprzedają się drożej u konkretnych handlarzy (sprawdź wiki). | Maksymalizacja zysku z zagrabionych przedmiotów. | Wymaga podróży i zarządzania ekwipunkiem. |
+| **Zamieniaj gotówkę na reputację** | Używaj pieniędzy z zadań, aby kupować u handlarzy, budując reputację dla lepszego towaru. | Dostęp do lepszego sprzętu, leków i amunicji. | Wymaga początkowej inwestycji. |
+
+<Callout type="tip" title="Synergia broni i amunicji">
+System broni w Gray Zone Warfare w dużej mierze opiera się na rodzinach kalibrów i kompatybilności magazynków. Dowiedz się, jakich kalibrów używają Twoje ulubione bronie, aby usprawnić ekwipunek i uniknąć noszenia niekompatybilnej amunicji. Najnowsza aktualizacja Spearhead kładzie nacisk na obsługę i balistykę, czyniąc mądry wybór amunicji jeszcze ważniejszym.
+</Callout>
+
+### Zrozumienie kalibrów broni
+
+| Kaliber | Używany przez (Przykłady) | Klasa broni | Uwaga planistyczna |
+|:--------|:--------------------------|:------------|:-------------------|
+| **5.45x39mm** | AK-74M, AK-12 | Karabiny szturmowe | Dobre dla wielu karabinów typu AK. |
+| **5.56x45mm NATO** | M4A1, AK-19 | Karabiny szturmowe | Szeroka rodzina, obejmuje platformy zachodnie i niektóre AK. |
+| **7.62x39mm** | AKM, AK-15, SKS | Karabiny szturmowe, DMR | Wszechstronne zarówno dla karabinów szturmowych, jak i zestawów SKS. |
+| **7.62x51mm NATO** | AK-308, M700 | AR, Karabin powtarzalny | Ciężkie pociski precyzyjne, wspólne dla konkretnych platform. |
+| **.300 AAC Blackout** | SIG MCX | Karabin szturmowe | Dedykowany kaliber platformy, rzadszy na początku. |
+
+</Section>
+
+<Section icon={Sparkles} title="Progresja handlarzy: Odblokowywanie lepszych narzędzi do przetrwania">
+Handlarze są Twoją linią życia w Gray Zone Warfare. Dostarczają niezbędny sprzęt, kupują Twoje łupy i odblokowują zaawansowane przedmioty wraz ze wzrostem Twojej reputacji. Zrozumienie specjalizacji każdego handlarza i ścieżek ich odblokowywania jest niezbędne dla każdego "świeżego mięsa" chcącego ugruntować swoją pozycję.
+
+<CardGrid cols={2}>
+  <Card title="Handshake: Ogólny dostawca">
+    - **Specjalizacja**: Hełmy, sprzęt, kamizelki kuloodporne, pojemniki, narzędzia.
+    - **Ścieżka odblokowania**: Handlarz startowy.
+    - **Progresja**: Skup się na wczesnej ochronie i przechowywaniu.
+  </Card>
+  <Card title="Lab Rat: Medycyna i utrzymanie">
+    - **Specjalizacja**: Lekarstwa, jedzenie, napoje, pojemniki.
+    - **Ścieżka odblokowania**: Główny handlarz.
+    - **Progresja**: Niezbędna do leczenia i przetrwania rajdów.
+  </Card>
+  <Card title="Gunny: Ekspert od broni">
+    - **Specjalizacja**: Broń, magazynki, amunicja, dodatki.
+    - **Ścieżka odblokowania**: Główny handlarz.
+    - **Progresja**: Twój główny wybór w celu poprawy siły ognia.
+  </Card>
+  <Card title="Artisan: Zaawansowane uzbrojenie">
+    - **Specjalizacja**: Broń, dodatki, hełmy, pojemniki.
+    - **Ścieżka odblokowania**: Ukończ zadanie "Native Negotiations" (zadanie Lab Rat).
+    - **Progresja**: Dla technicznej kontroli nad modyfikacjami broni.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Reputacja ma znaczenie">
+Wykonywanie zadań dla handlarza to najszybszy sposób na zwiększenie u niego reputacji. Wyższe poziomy reputacji odblokowują potężniejsze przedmioty i lepsze oferty, czyniąc przyszłe wyprawy bezpieczniejszymi i bardziej opłacalnymi. Nie lekceważ potęgi dobrych relacji z handlarzem.
+</Callout>
+
+### Progi rang handlarzy
+
+| Handlarz | Ranga 1 (Rep) | Ranga 2 (Rep) | Ranga 3 (Rep) | Ranga 4 (Rep) | Uwaga dotycząca progresji |
+|:---------|:--------------|:--------------|:--------------|:--------------|:-------------------------|
+| **Handshake** | 0 | 700 | 2500 | 6500 | Ogólny sprzęt i przechowywanie. |
+| **Lab Rat** | 0 | 700 | 2500 | 6500 | Zapasy medyczne i utrzymanie. |
+| **Gunny** | 0 | 700 | 2500 | 6500 | Broń, amunicja i dodatki. |
+| **Artisan** | 0 | 700 | 2500 | 6500 | Zaawansowane mody broni, wymaga zadania Lab Rat. |
+| **Banshee** | 0 | 700 | 2500 | 6500 | Broń i sprzęt do noszenia, wymaga zadania Artisan. |
+| **Turncoat** | 0 | 700 | 2500 | 6500 | Szeroki asortyment, wymaga zadania Handshake. |
+
+</Section>
+
+<Section icon={Trophy} title="FAQ dla świeżego mięsa: Częste pytania nowych rekrutów">
+Rozpoczynając swoją przygodę w Gray Zone Warfare, napotkasz wiele pytań. Oto niektóre z najczęstszych zapytań od "świeżego mięsa" wraz z odpowiedziami, które pomogą Ci poruszać się po zawiłościach wyspy Lamang.
+
+<FAQ items={[
+  {
+    question: "Na czym przede wszystkim powinno skupić się świeże mięso w Gray Zone Warfare?",
+    answer: "Najważniejszym celem dla nowych graczy jest ukończenie wczesnych zadań od handlarzy takich jak Handshake i Lab Rat. Zadania te zapewniają niezbędne doświadczenie, pieniądze i reputację, co odblokowuje lepszy sprzęt i zapasy medyczne kluczowe dla przetrwania."
+  },
+  {
+    question: "Jak efektywnie zarabiać pieniądze jako nowy gracz?",
+    answer: "Efektywne zarabianie pieniędzy polega na priorytetyzowaniu wczesnych płatnych zadań, skupieniu się na łupieniu pojemników z bronią w poszukiwaniu wartościowych przedmiotów oraz sprzedaży kosztowności handlarzowi, który oferuje najlepszą cenę. Unikaj nadmiernych wydatków na drogie zestawy, dopóki nie będziesz mieć stabilnej sytuacji finansowej."
+  },
+  {
+    question: "Którą frakcję powinienem wybrać jako świeże mięso?",
+    answer: "Wybór frakcji wpływa na Twoje miasto startowe i wczesne trasy. Crimson Shield International (Kiu Vongsa) jest ogólnie uważana za bardziej przyjazną dla początkujących ze względu na bezpieczniejszą wczesną progresję. Mithras Security Systems (Nam Thaven) oferuje zrównoważone trasy, podczas gdy Lamang Recovery Initiative (Pha Lang) zapewnia szybszy dostęp do spornych stref, co jest odpowiednie dla bardziej agresywnych graczy."
+  },
+  {
+    question: "Co powinienem zrobić, jeśli ciągle tracę cały sprzęt?",
+    answer: "Jeśli ciągle tracisz sprzęt, przeanalizuj swoje podejście. Skup się na trybie Joint Operations (tylko PvE), aby bezpiecznie poznać mapy i mechanikę. Używaj swojej bezpiecznej skrytki (Secure Lockbox) na wartościowe przedmioty z zadań lub łupy wysokiej klasy. Priorytetyzuj zadania, które nagradzają sprzętem lub gotówką, aby odbudować ekwipunek, i unikaj obszarów wysokiego ryzyka, dopóki nie będziesz lepiej wyposażony."
+  }
+]} />
+
+</Section>

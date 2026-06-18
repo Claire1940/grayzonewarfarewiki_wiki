@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertCircle, CheckCircle, Lightbulb, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Pregunta de Evacuación en Gray Zone Warfare: Dominando los Puntos de Extracción",
+  description: "Comprende los matices de la evacuación en Gray Zone Warfare, incluyendo la mecánica de los helicópteros, las ventanas de invulnerabilidad y las consideraciones tácticas para una extracción exitosa de la Isla de Lamang.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B4513/fff?text=GZW+Evacuation+Guide",
+  date: "2026-06-18",
+  author: "Equipo de Wiki de Gray Zone Warfare"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Dominar la **evacuación en Gray Zone Warfare** es crucial para conservar el equipo y el progreso.
+- Utiliza la **ventana de invulnerabilidad de 4 segundos** después de desembarcar de los helicópteros para un posicionamiento táctico.
+- Los helicópteros proporcionan **inmunidad al daño** mientras estás a bordo, ofreciendo una opción de viaje segura.
+- Planifica tus **rutas de extracción** cuidadosamente, considerando la IA y las posibles amenazas de los jugadores.
+- Comprender los **indicativos de las LZ** y sus ubicaciones es clave para un movimiento eficiente por la Isla de Lamang.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo la Mecánica de Evacuación en Gray Zone Warfare">
+La extracción exitosa es la piedra angular del progreso en Gray Zone Warfare. Saber cómo evacuar de manera eficiente y segura es primordial para conservar el botín ganado con tanto esfuerzo y completar las tareas. La mecánica del juego en torno al transporte en helicóptero y las ventanas de invulnerabilidad son vitales para cada operador en la Isla de Lamang.
+
+La descripción oficial del juego define Gray Zone Warfare como un "Shooter Táctico de Mundo Abierto PvE-Primero", enfatizando un enfoque estratégico del juego. Esto se extiende directamente a cómo los jugadores gestionan sus extracciones. Los errores durante la evacuación pueden llevar a una pérdida significativa de equipo y al fracaso de la misión, lo que subraya la importancia de comprender cada detalle.
+
+**Puntos destacados del video:**
+- Demuestra la recogida y el desembarco en helicóptero.
+- Muestra el período de invulnerabilidad al salir del helicóptero.
+- Explica cómo los sonidos del helicóptero pueden distraer a la IA.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Early Access Launch Trailer" />
+
+Los helicópteros no son meros vehículos de transporte; son un activo táctico crítico. Los jugadores son inmunes al daño mientras están a bordo, lo que los convierte en un refugio seguro durante tránsitos peligrosos. Además, una ventana de invulnerabilidad de 4 segundos después de bajar del helicóptero proporciona una oportunidad breve pero crucial para reposicionarse o enfrentarse a amenazas sin riesgo inmediato. El sonido del helicóptero en sí mismo también puede servir como una distracción táctica, desviando la atención de la IA de tu zona de aterrizaje inmediata.
+
+<Callout type="tip" title="Movimiento Estratégico">
+Considera siempre la llegada y salida del helicóptero como un evento táctico. Usa el ruido a tu favor para flanquear enemigos o crear desvíos, y aprovecha la ventana de invulnerabilidad para asegurar tu entorno inmediato.
+</Callout>
+
+### Uso del helicóptero e invulnerabilidad
+
+| Característica             | Descripción                                                               | Beneficio táctico                                         | Factor de riesgo            |
+| :------------------ | :------------------------------------------------------------------------ | :-------------------------------------------------------- | :--------------------- |
+| **Inmunidad al daño** | Los jugadores no pueden recibir daño mientras están dentro del helicóptero. | Viaje seguro entre la Base de Operaciones Avanzada (FOB) y las zonas de despliegue. | Ninguno (mientras está a bordo) |
+| **Invulnerabilidad de 4 segundos**| Breve inmunidad al daño después de desembarcar.                                 | Permite un reposicionamiento inmediato o la evaluación de amenazas.      | Expira rápidamente        |
+| **Distracción por sonido**| El ruido del helicóptero atrae a la IA y potencialmente a otros jugadores.               | Puede usarse para atraer enemigos o enmascarar tus movimientos.       | Alerta a amenazas distantes |
+| **Puntos LZ fijos** | Los puntos de evacuación están predeterminados en el mapa.                       | Rutas predecibles, pero pueden ser disputadas.                 | Posibles puntos de estrangulamiento |
+
+</Section>
+
+<Section icon={Target} title="Planificando tus Rutas de Extracción">
+La evacuación efectiva en Gray Zone Warfare requiere una planificación meticulosa. Comprender el mapa, identificar puntos de interés clave (POI) y conocer tus zonas de aterrizaje (LZ) son componentes críticos. Cada facción comienza en un pueblo específico, lo que influye en el flujo de tareas tempranas y en las rutas de extracción óptimas.
+
+Por ejemplo, Crimson Shield International comienza cerca de Kiu Vongsa, Mithras Security Systems cerca de Nam Thaven y Lamang Recovery Initiative cerca de Pha Lang. Estos pueblos de inicio no solo dictan tus tareas iniciales, sino también tus LZ más cercanas y seguras. A medida que avanzas, te aventurarás en áreas más peligrosas como Ban Pa, Fort Narith y Tiger Bay, donde la planificación de la extracción se vuelve aún más compleja.
+
+<Callout type="warning" title="Alerta de Temporizador AFK">
+No te quedes AFK fuera de las zonas seguras. El límite de inactividad es de 15 minutos, y si eres expulsado de un despliegue en vivo mientras estás AFK, perderás todo el equipo que lleves, de forma similar a una muerte normal.
+</Callout>
+
+### Pasos clave para la planificación de la extracción
+
+<Steps>
+  <Step num="1" title="Evalúa los objetivos de la misión y la ubicación">
+    Antes de desplegar, comprende la ubicación exacta de tu tarea y los posibles puntos de extracción cercanos. Utiliza un mapa interactivo para identificar las LZ primarias y secundarias. Considera el nivel de amenaza del área y el tipo de enemigos que podrías encontrar (Rebeldes, Soldados de las LAF).
+  </Step>
+  <Step num="2" title="Elige tu facción sabiamente">
+    La elección de tu facción influye en tu ciudad de inicio y en la proximidad a ciertas LZ. Por ejemplo, Lamang Recovery Initiative comienza cerca del aeródromo de Pha Lang, ofreciendo acceso rápido a zonas en disputa. Crimson Shield International, cerca de Kiu Vongsa, podría ofrecer una progresión temprana más lenta y segura.
+  </Step>
+  <Step num="3" title="Prioriza el equipo y el buzón seguro">
+    Antes de evacuar, asegúrate de que todos los objetos de alto valor o críticos para la misión estén colocados en tu Buzón Seguro. Esto los protege de la pérdida en caso de muerte. Las armas cuerpo a cuerpo tampoco se pierden de la misma manera que el equipo normal.
+  </Step>
+  <Step num="4" title="Monitorea la hidratación y la energía">
+    La baja hidratación y energía pueden afectar gravemente tu capacidad para correr, curarte y sobrevivir. Asegúrate siempre de gestionar estos umbrales, especialmente durante una extracción de alto estrés. La deshidratación puede provocar visión borrosa, dificultando el combate y la navegación.
+  </Step>
+  <Step num="5" title="Comunícate con tus compañeros de escuadrón">
+    Si juegas en escuadrón, coordina tu plan de extracción. Designa quién cubre qué ángulos durante el desembarco y asegúrate de que todos estén al tanto de la LZ elegida y las posibles amenazas. Los compañeros de escuadrón pueden revivirte en 180 segundos si entras en coma, pero esto es imposible si te separas durante la extracción.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Descripción general de la zona de evacuación y consideraciones tácticas">
+La isla de Lamang está plagada de peligros, y cada zona de evacuación presenta su propio conjunto de desafíos. Comprender las características específicas de las LZ, sus distintivos de llamada y la presencia típica de enemigos es vital para una extracción exitosa. Los puntos de interés principales como Fort Narith y Tiger Bay tienen botín de alto nivel, pero también atraen a los enemigos más formidables y, potencialmente, a otros jugadores.
+
+La wiki oficial de Gray Zone Warfare y varios mapas interactivos creados por la comunidad proporcionan información detallada sobre estas ubicaciones. Se recomienda consultar estos recursos antes de embarcarse en una incursión, especialmente en territorio desconocido. Conocer el terreno y los tipos de enemigos puede ayudarte a preparar el equipo y el enfoque adecuados.
+
+### Principales zonas de evacuación y sus características
+
+| Distintivo de llamada LZ | POI principal        | Nivel | Tipo de locales           | Posición en la cuadrícula | Notas tácticas clave                                                              |
+| :---------- | :----------------- | :--- | :-------------------- | :------------ | :------------------------------------------------------------------------------ |
+| **INDIA**   | Ban Pa             | 2    | Rebeldes                | 205:137       | Importante para la tarea de culto y la búsqueda de llaves; punto de extracción común a mitad del juego.     |
+| **DELTA**   | Fort Narith        | 3    | Soldados de las LAF          | 143:129       | Zona de alta amenaza y alta recompensa; requiere equipo fuerte y un enfoque cuidadoso.       |
+| **JULIET**  | Tiger Bay          | 3    | Rebeldes y Soldados de las LAF | 198:130       | La zona urbana más grande; objetivos densos, alto tráfico de jugadores, extracción compleja.   |
+| **HOTEL**   | Midnight Sapphire  | 3    | Soldados de las LAF          | N/A           | Complejo turístico de alto valor; a menudo vinculado a tareas de final de juego y rutas con llave.       |
+| **BRAVO**   | YBL-1              | 2    | Soldados de las LAF          | 143:122       | Complejo de búnkeres; actúa como puente para el enrutamiento a mitad del mapa.                            |
+| **ECHO**    | Blue Lagoon        | 1    | Rebeldes                | 203:117       | POI del lado del resort sur; generalmente de menor amenaza, bueno para la exploración temprana.   |
+
+<Callout type="success" title="Optimizando tu equipo">
+Para LZ de alta amenaza como Fort Narith o Tiger Bay, considera llevar granadas de humo para cubrirte durante la extracción o un cargador de alta capacidad para fuego de supresión si encuentras resistencia. Los cálculos balísticos están siendo mejorados en la Actualización 0.4, lo que hace que la elección de munición sea más crítica.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estrategias de evacuación avanzadas y errores comunes">
+Incluso los operadores experimentados pueden ser víctimas de desafíos inesperados durante la extracción. Las estrategias avanzadas implican no solo conocer el mapa, sino también anticipar el comportamiento del jugador, aprovechar las actualizaciones del juego y evitar errores comunes. La Actualización 0.4 "Spearhead" ha traído cambios significativos en la mecánica del juego, incluido el reequilibrio de las recompensas y la mejora del manejo y el comportamiento de recarga de las armas. Estos cambios afectan directamente tu capacidad para sobrevivir y extraer.
+
+Un error común es subestimar la importancia de la reputación del vendedor. Vendedores como Handshake, Lab Rat y Gunny ofrecen equipo crucial que puede determinar el éxito o el fracaso de una extracción. Progresar a través de sus tareas no solo proporciona dinero en efectivo, sino que también desbloquea un mejor acceso a suministros médicos, armas y armaduras, que son esenciales para sobrevivir al combate en el camino a una LZ.
+
+<CardGrid cols={2}>
+  <Card title="Evacuación PvE (Operaciones Conjuntas)">
+    - **Menor riesgo de encuentros con jugadores**: Concéntrate principalmente en las amenazas de la IA.
+    - **Rutas más predecibles**: Menos necesidad de preocuparse por emboscadas de otros PMC.
+    - **Ideal para completar tareas**: Progresa de forma segura en las misiones y recolecta botín.
+    - **Aun así, requiere precaución**: La IA puede ser numerosa y estar bien armada, especialmente en áreas de mayor nivel.
+  </Card>
+  <Card title="Evacuación PvEvP (Guerra)">
+    - **Alto riesgo de encuentros con jugadores**: Amenaza constante de PMC hostiles.
+    - **Rutas impredecibles**: Prepárate para emboscadas en las LZ o a lo largo de caminos populares.
+    - **Alto potencial de recompensa**: Botín más valioso y experiencias de combate intensas.
+    - **Requiere tácticas avanzadas**: Usa cobertura, fuego de supresión y movimientos coordinados con tu escuadrón.
+  </Card>
+</CardGrid>
+
+### Lista de verificación para una extracción exitosa
+
+<Checklist
+  id="extraction-checklist"
+  title="Preparación previa a la evacuación:"
+  items={[
+    "Suministros médicos completamente abastecidos (IFAK, vendas, férulas).",
+    "Caja de seguridad llena de artículos de alto valor.",
+    "Arma recargada y cargadores de repuesto accesibles.",
+    "Niveles de hidratación y energía superiores al 50%.",
+    "Comunicación de escuadrón confirmada (si corresponde).",
+    "LZ elegida libre de amenazas inmediatas (si es posible)."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Info} title="Preguntas frecuentes sobre la evacuación en Gray Zone Warfare">
+
+<FAQ items={[
+  {
+    question: "¿Cuánto dura la invulnerabilidad después de desembarcar de un helicóptero?",
+    answer: "Después de bajar de un helicóptero, los jugadores tienen una ventana de invulnerabilidad de 4 segundos. Este breve período es crucial para evaluar rápidamente tu entorno y buscar cobertura o enfrentarte a amenazas inmediatas."
+  },
+  {
+    question: "¿Puedo perder objetos de misión durante la evacuación si muero?",
+    answer: "Aunque los objetos de misión a veces sobreviven si se colocan en almacenamiento seguro, siempre es mejor priorizar rutas de entrega rápidas para las tareas. Cualquier objeto que no esté en tu Caja de Seguridad generalmente se pierde al morir fuera de la FOB."
+  },
+  {
+    question: "¿El sonido del helicóptero siempre atrae a la IA?",
+    answer: "Sí, el sonido del helicóptero actúa como una distracción táctica para la IA y, potencialmente, para otros jugadores. Esto se puede usar a tu favor para alejar a los enemigos de tu camino previsto o para enmascarar tus propios movimientos al aterrizar."
+  },
+  {
+    question: "¿Cuál es el límite de inactividad en Gray Zone Warfare y cómo afecta a la evacuación?",
+    answer: "El límite de inactividad es de 15 minutos. Si eres expulsado de un despliegue en vivo debido a la inactividad mientras estás fuera de la FOB, perderás todo tu equipo, al igual que si hubieras muerto en combate. Asegúrate siempre de estar jugando activamente o en una zona segura."
+  }
+]} />
+
+</Section>

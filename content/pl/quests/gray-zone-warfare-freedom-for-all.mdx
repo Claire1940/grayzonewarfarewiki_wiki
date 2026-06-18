@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gray Zone Warfare Freedom for All: Przewodnik krok po kroku po zadaniu",
+  description: "Opanuj zadanie Freedom for All w Gray Zone Warfare. Dowiedz się o optymalnej nawigacji na mapie, kluczowych lokalizacjach, odblokowywaniu handlarzy i konfiguracjach sprzętu taktycznego.",
+  category: "Poradnik",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Freedom+For+All+Task+Guide",
+  date: "2026-06-18",
+  author: "Zespół Wiki Gray Zone Warfare",
+  keywords: "Gray Zone Warfare, Freedom for All, poradnik do zadania, Ban Pa, lokalizacje zadań, sprzęt taktyczny"
+}
+
+<Callout type="info" title="Szybki przewodnik">
+- **Cel zadania**: Misja **Gray Zone Warfare Freedom for All** wymaga od operatorów infiltracji wrogiego terytorium, zebrania danych wywiadowczych i zabezpieczenia konkretnych punktów zainteresowania (POI).
+- **Kluczowa lokalizacja**: Operacje koncentrują się wokół niebezpiecznych stref w środkowej części mapy, z intensywnym wykorzystaniem regionalnych stref lądowania (LZ).
+- **Główne wymagania**: Priorytetem jest wyeliminowanie lokalnych sił rebelianckich i zabezpieczenie krytycznych kluczy przed próbą interakcji z celami misji.
+- **Wskazówka dotycząca przetrwania**: Utrzymuj nawodnienie i energię powyżej 50 procent, aby zapewnić nieprzerwaną regenerację krwi podczas przedłużających się strzelanin.
+- **Główna nagroda**: Pomyślna ewakuacja odblokowuje zaawansowaną reputację u handlarzy, wypłaty gotówkowe i wysokiej klasy sprzęt taktyczny.
+</Callout>
+
+<Section icon={Target} title="Gray Zone Warfare Freedom for All: Przegląd misji">
+
+Zadanie **Gray Zone Warfare Freedom for All** stanowi główny kamień milowy w progresji dla operatorów prywatnych firm wojskowych (PMC) na wyspie Lamang. Kontrakt ten, wydawany w fazie przejścia do środkowej fazy gry, wymaga głębokiego zrozumienia manewrowania taktycznego, oczyszczania terenu i bezpieczeństwa ewakuacji. W przeciwieństwie do wprowadzających zadań z wczesnej fazy gry, to wdrożenie stawia Cię w bezpośrednim konflikcie z dobrze uzbrojonymi lokalnymi frakcjami i wrogimi rebeliantami, którzy agresywnie bronią swoich twierdz.
+
+Przed wyruszeniem z bazy operacyjnej (FOB), zrozumienie parametrów logistycznych operacji jest kluczowe dla przetrwania. Kontrakt wymaga precyzyjnej nawigacji do konkretnych współrzędnych siatki, starć taktycznych na krótkim i średnim dystansie oraz bezpiecznego odzyskania lub aktywacji zasobów misji.
+
+<Callout type="warning" title="Ostrzeżenie przed wdrożeniem">
+Niepowodzenie w bezpiecznej ewakuacji po ukończeniu celu zmusi Cię do ponownego przebycia trasy infiltracji. Zawsze zabezpieczaj przedmioty questowe o wysokiej wartości w swoim bezpiecznym pojemniku (Secure Lockbox), aby zapobiec katastrofalnej utracie sprzętu.
+</Callout>
+
+Aby pomóc Ci przygotować podejście taktyczne, zapoznaj się z podstawowymi parametrami operacyjnymi kontraktu przedstawionymi poniżej.
+
+| Parametr operacyjny | Szczegóły i wymagania misji |
+| :--- | :--- |
+| **Zlecający handlarz** | Turncoat / Oddział Operacji Taktycznych |
+| **Główna lokalizacja** | Ban Pa / Odległe twierdze rebeliantów |
+| **Poziom zagrożenia** | Wroga obecność poziomu 2 (Tier 2) |
+| **Zalecany kaliber** | 5.56x45mm NATO / 7.62x39mm |
+| **Misja wymagana** | The Shadow Over Ban Pa |
+| **Kluczowe cele** | Infiltracja POI, eliminacja obrońców, zabezpieczenie zasobów |
+
+</Section>
+
+<Section icon={Map} title="Solucja krok po kroku i trasa infiltracji">
+
+Efektywne ukończenie misji wymaga zdyscyplinowanego podejścia do poruszania się i walki. Nawigacja przez gęstą dżunglę w celu dotarcia do obszaru celu naraża graczy na zasadzki lokalnych sił rebelianckich. Prawidłowe korzystanie z sieci transportu helikopterowego zapewnia zarówno bezpieczne wprowadzenie, jak i taktyczne zmylenie przeciwnika.
+
+Pamiętaj, że po opuszczeniu helikoptera w wyznaczonej strefie lądowania, operatorzy otrzymują krótkie, 4-sekundowe okno niewrażliwości. Wykorzystaj te cenne sekundy na przeskanowanie linii drzew, zidentyfikowanie pobliskich osłon i skoordynowanie wektorów ruchu swojej drużyny.
+
+<Callout type="tip" title="Uwaga dotycząca taktycznego wejścia">
+Dźwięk przylatującego helikoptera działa jak głośny rozpraszacz akustyczny zarówno dla przeciwników AI, jak i graczy wroga. Wykorzystaj hałas otoczenia, aby zamaskować swoje początkowe uderzenie w perymetr celu.
+</Callout>
+
+Postępuj zgodnie z poniższymi krokami, aby bezbłędnie wykonać parametry misji.
+
+<Steps>
+  <Step num="1" title="Zabezpiecz strefę lądowania i wektory podejścia">
+    Przyleć do regionalnej strefy LZ (takiej jak LZ INDIA dla operacji w Ban Pa). Po wylądowaniu natychmiast przyjmij pozycję leżącą lub kucającą za naturalną osłoną. Unikaj poruszania się bezpośrednio głównymi drogami, ponieważ patrole AI często pilnują asfaltowych tras. Zamiast tego wykonaj szeroki manewr flankujący przez zarośla dżungli, aby bezpiecznie podejść do północnych lub południowych punktów wejścia.
+  </Step>
+  <Step num="2" title="Oczyść perymetr z obrońców i patroli">
+    Przed wejściem do gęstej zabudowy miejskiej lub kompleksów wiejskich, wyeliminuj zewnętrzne czujki. Używaj broni z tłumikiem, aby uniknąć zaalarmowania całej strefy jednocześnie. Przeciwnicy AI na tym poziomie używają podstawowych pancerzy i wezwą posiłki, jeśli wymiana ognia będzie się przedłużać. Utrzymuj stałe tempo i sumiennie sprawdzaj narożniki.
+  </Step>
+  <Step num="3" title="Zlokalizuj i wejdź w interakcję z celem misji">
+    Udaj się do wyznaczonych współrzędnych siatki wewnątrz kompleksu. Jeśli cel znajduje się za zamkniętymi drzwiami, musisz pokonać lokalnych wrogów, aby zdobyć odpowiedni klucz regionalny (taki jak Ban Pa Elder's Room Key lub klucze do lokalnych magazynów). Po wejściu do docelowego pomieszczenia wejdź w interakcję z fizycznym zasobem lub dokumentem wywiadowczym, aby zaktualizować dziennik zadań.
+  </Step>
+  <Step num="4" title="Ustanów bezpieczny łańcuch ewakuacji">
+    Po zabezpieczeniu celu otwórz mapę taktyczną i wezwij helikopter ewakuacyjny do najbliższej bezpiecznej strefy LZ. Nie biegnij w linii prostej do punktu lądowania; wykorzystuj obniżenia terenu i gęstą roślinność, aby przerwać linię wzroku wroga. Czekaj w głębokim ukryciu w pobliżu LZ, dopóki helikopter fizycznie nie wyląduje, aby zminimalizować ekspozycję na kontrataki.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Kluczowe lokalizacje i współrzędne siatki">
+
+Precyzyjna nawigacja to różnica między udaną ewakuacją a nieudanym wdrożeniem w *Gray Zone Warfare*. Wyspa Lamang posiada odrębne układy regionalne w zależności od wybranej frakcji: Crimson Shield International, Mithras Security Systems lub Lamang Recovery Initiative. Podczas gdy układy miast startowych są lustrzanym odbiciem geograficznym, lokalizacje w środkowej części mapy, takie jak Ban Pa, Fort Narith i Tiger Bay, pozostają wysoce spornymi strefami uniwersalnymi.
+
+Podczas operowania w obszarze misji uważnie obserwuj siatkę współrzędnych taktycznych. Skorzystaj z poniższej tabeli referencyjnej, aby zidentyfikować krytyczne punkty orientacyjne, gęstość wrogów i kluczowe cechy taktyczne istotne dla Twojego wdrożenia.
+
+| Punkt orientacyjny / POI | Współrzędne siatki | Rodzaj lokalnego zagrożenia | Znaczenie taktyczne |
+| :--- | :--- | :--- | :--- |
+| **Wioska Ban Pa** | 205:137 | Uzbrojeni rebelianci | Główna strefa dla zadań kultu i wyzwolenia Tier 2 |
+| **LZ INDIA** | Obrzeża | Ewakuacja helikopterem | Główny punkt wejścia dla rotacji wschodnich |
+| **Dom Starszego** | Centrum wioski | Elitarni ochroniarze | Zawiera zamknięte pokoje zadań i cenny wywiad |
+| **Bunkier YBL-1** | 143:122 | Pozostałości wojskowe | Most łączący środek mapy i obszar stagingowy |
+| **Wioska Savanpha** | 146:128 | Żołnierze LAF | Strefa na obrzeżach przydatna do manewrów flankujących |
+
+<Callout type="info" title="Świadomość otoczenia">
+Strefy miejskie w obrębie tych współrzędnych charakteryzują się dużą wertykalnością. Zawsze sprawdzaj okna na piętrach, balkony i dachy podczas poruszania się po wiejskich uliczkach, ponieważ strzelcy AI często zajmują podwyższone punkty obserwacyjne.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Optymalne zestawy wyposażenia i wybór sprzętu">
+
+Przetrwanie operacji o wysokiej intensywności wymaga zbalansowanego wyposażenia dostosowanego do dystansów walki w strefie misji. Najnowsze aktualizacje taktyczne kładą nacisk na fizyczną mechanikę broni, co oznacza, że całkowita waga broni bezpośrednio wpływa na ergonomię, kołysanie broni i przyspieszenie celowania (ADS). Noszenie zbyt ciężkiego karabinu szybko wyczerpie Twoją wytrzymałość podczas intensywnych starć.
+
+Wybór amunicji jest prawdopodobnie ważniejszy niż sama platforma broni. Standardowe obliczenia balistyczne wskazują, że amunicja przeciwpancerna (AP) jest obowiązkowa w starciach z opancerzonymi żołnierzami LAF lub elitarnymi przywódcami rebeliantów.
+
+<CardGrid cols={3}>
+  <Card title="Zestaw przetrwania Solo PvE">
+    - **Karabin główny**: M4A1 lub DDM4
+    - **Kaliber**: 5.56x45mm NATO (Poziomy AP)
+    - **Klasa pancerza**: Kamizelka z płytami klasy 3 lub wyższej
+    - **Podejście taktyczne**: Wolniejsze tempo, ogień z tłumikiem, maksymalna ilość środków medycznych.
+  </Card>
+  <Card title="Budżetowy zestaw mobilny">
+    - **Karabin główny**: AK-74M lub SKS
+    - **Kaliber**: 5.45x39mm / 7.62x39mm
+    - **Klasa pancerza**: Lekka kamizelka klasy 2
+    - **Podejście taktyczne**: Szybki ruch, minimalna waga ekwipunku, błyskawiczna interakcja z celem.
+  </Card>
+  <Card title="Infiltracja drużynowa PvEvP">
+    - **Karabin główny**: AK-15 lub SIG MCX
+    - **Kaliber**: 7.62x39mm / .300 AAC Blackout
+    - **Klasa pancerza**: Pełna ciężka ochrona balistyczna klasy 4
+    - **Podejście taktyczne**: Nakładające się sektory ognia, wyznaczony szpica, skoordynowane zabezpieczenie LZ.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Wskazówka dotycząca przygotowania medycznego">
+Zawsze pakuj co najmniej dwie stazy taktyczne (tourniquets) i wiele wysokiej klasy bandaży. Lekkie, średnie i ciężkie krwawienia będą stale obniżać poziom krwi do momentu opatrzenia, a spadek poniżej 50 procent objętości krwi grozi natychmiastową śpiączką.
+</Callout>
+
+Aby upewnić się, że wybór amunicji pasuje do wybranej platformy broni, zapoznaj się z poniższym indeksem balistyki i kompatybilności.
+
+| Rodzina kalibrów | Kompatybilne platformy broni | Główna rola taktyczna | Uwaga dot. planowania ekwipunku |
+| :--- | :--- | :--- | :--- |
+| **5.56x45mm NATO** | M4A1, DDM4, CQ A1, AK-19 | Wszechstronna walka na średnim dystansie | Doskonała prędkość wylotowa, szerokie wsparcie dla zachodnich akcesoriów |
+| **7.62x39mm** | AKM, AKMN, AK-15, SKS | Wysoka siła kinetyczna | Skuteczna w przebijaniu podstawowych miękkich pancerzy |
+| **5.45x39mm** | AK-74M, AK-74N, AK-12, AKS-74U | Kontrolowany ogień automatyczny | Idealny dla budżetowych strzelców karabinów automatycznych |
+| **.300 Blackout** | SIG MCX | Specjalistyczna walka w zwarciu | Mocno uderzająca platforma modułowa, wysoka skuteczność CQB |
+
+</Section>
+
+<Section icon={Trophy} title="Progresja u handlarzy i nagrody za misję">
+
+Wykonywanie kontraktów dla różnych handlarzy stacjonujących w bazie operacyjnej jest głównym motorem postępu postaci w *Gray Zone Warfare*. Zwiększanie reputacji odblokowuje wyższe poziomy lojalności handlarzy, dając bezpośredni dostęp do zakupu zaawansowanych modyfikacji broni, amunicji premium, większych plecaków i doskonałych środków medycznych.
+
+Zmiany w balansie ekonomii kładą większy nacisk na bezpośrednie wypłaty pieniężne niż na losowe pakiety przedmiotów. Pozwala to operatorom gromadzić kapitał potrzebny do kupowania konkretnych zestawów sprzętu, zamiast polegać na niekonsekwentnym łupie.
+
+| Nazwa handlarza | Główna specjalizacja | Próg 2 poziomu lojalności | Próg 3 poziomu lojalności |
+| :--- | :--- | :--- | :--- |
+| **Handshake** | Hełmy, Pancerze, Kamizelki, Narzędzia | 700 Rep | 2,500 Łącznej Rep |
+| **Gunny** | Broń, Magazynki, Celowniki, Amunicja | 700 Rep | 2,500 Łącznej Rep |
+| **Lab Rat** | Środki medyczne, Żywność, Pojemniki | 700 Rep | 2,500 Łącznej Rep |
+| **Artisan** | Techniczne części broni, Modyfikacje | 700 Rep | 2,500 Łącznej Rep |
+| **Turncoat** | Broń, Pancerze, Duże kontenery | 700 Rep | 2,500 Łącznej Rep |
+
+<Callout type="info" title="Mechanika reputacji">
+Ukończenie zadania u handlarza po raz pierwszy daje ogromny jednorazowy zastrzyk reputacji. Jeśli przypadkowo wybierzesz sprzeczne zadanie od rywalizującego handlarza, dokładnie oceń strukturę nagród przed zaangażowaniem zasobów w misję.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista kontrolna i FAQ">
+
+Przed wejściem do helikoptera na kolejną misję, przeprowadź końcową weryfikację operacyjną. Upewnienie się, że Twój ekwipunek, zapasy medyczne i cele strategiczne są zgodne, znacznie zwiększy Twój wskaźnik przetrwania na wyspie Lamang.
+
+<Checklist
+  id="freedom-all-prep"
+  title="Lista kontrolna operatora przed lotem:"
+  items={[
+    "Sprawdź, czy broń główna jest załadowana amunicją przeciwpancerną",
+    "Wyposaż się w Secure Lockbox, aby zabezpieczyć krytyczne dane wywiadowcze",
+    "Potwierdź, że poziom nawodnienia i energii jest uzupełniony do 100 procent",
+    "Spakuj minimum dwie szyny na złamania i IFAK na ciężkie krwawienia",
+    "Skoordynuj wybór strefy lądowania z aktywnymi członkami drużyny"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Jaki jest najszybszy sposób na ukończenie zadania Gray Zone Warfare Freedom for All?",
+    answer: "Najskuteczniejszą metodą jest sformowanie drużyny i wczesne zabezpieczenie helikoptera ewakuacyjnego. Infiltruj teren osłoniętą trasą przez dżunglę, używaj broni z tłumikiem do oczyszczenia perymetru bez alarmowania całego kompleksu i natychmiast przechowuj odzyskane przedmioty misji w swoim Secure Lockbox, aby zagwarantować postęp, nawet jeśli nie uda Ci się ewakuować."
+  },
+  {
+    question: "Co się stanie, jeśli zostanę rozłączony lub przejdę w tryb AFK podczas misji?",
+    answer: "Gra posiada ścisły 15-minutowy limit bezczynności. Jeśli przejdziesz w tryb AFK lub zostaniesz rozłączony poza bezpieczną strefą (FOB), obowiązują normalne zasady utraty ekwipunku po opuszczeniu misji – stracisz cały niesiony sprzęt, który nie znajduje się w bezpiecznym pojemniku."
+  },
+  {
+    question: "Jak odblokować handlarza Turncoat dla zaawansowanych kontraktów?",
+    answer: "Turncoat jest odblokowywany poprzez postępy w głównych łańcuchach zadań oferowanych przez Handshake'a. Konkretnie, ukończenie kamienia milowego o nazwie 'The Shadow Over Ban Pa' zapewni Ci bezpośredni dostęp do ekwipunku i kontraktów Turncoata."
+  },
+  {
+    question: "Dlaczego moja krew nie regeneruje się po wygranej walce w zwarciu?",
+    answer: "Regeneracja krwi jest bezpośrednio powiązana z progami utrzymania fizycznego. Jeśli poziom nawodnienia lub energii spadnie poniżej 50 procent, Twoja postać wejdzie w stan 'Pragnienia' lub 'Głodu', co całkowicie zatrzymuje naturalną regenerację krwi do momentu spożycia jedzenia lub płynów."
+  }
+]} />
+
+Aby uzyskać bardziej szczegółowe mapy taktyczne, aktualne informacje o poprawkach i sieci do szukania grup, odwiedź [Oficjalną stronę Gray Zone Warfare](https://www.grayzonewarfare.com/) lub sprawdź najnowsze aktualizacje deweloperskie via [Steam Store Community Hub](https://store.steampowered.com/app/2479810/Gray_Zone_Warfare/).
+
+</Section>

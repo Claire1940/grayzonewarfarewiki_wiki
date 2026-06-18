@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Info, CheckCircle, Lightbulb } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Ground Zero: Niezbędny Przewodnik Przetrwania",
+  description: "Poruszaj się po Ground Zero w Gray Zone Warfare dzięki temu niezbędnemu przewodnikowi przetrwania, obejmującemu zadania, łupy i taktyczne wskazówki dotyczące wczesnego postępu.",
+  category: "Przewodnik",
+  image: "https://placehold.co/800x400/34495e/fff?text=Ground+Zero+Survival",
+  date: "2026-06-18",
+  author: "Zespół Wiki Gray Zone Warfare"
+}
+
+<Callout type="info" title="Szybki Przewodnik">
+- **Ground Zero** to kluczowy punkt startowy dla wszystkich nowych operatorów PMC w **Gray Zone Warfare**.
+- Skup się na wykonywaniu wczesnych **zadań** od Handshake'a, Gunny'ego i Lab Rat, aby szybko awansować.
+- Priorytetowo traktuj zarządzanie **bezpieczną skrzynią** w celu ochrony cennych łupów i przedmiotów do zadań.
+- Zrozum podstawowe **mechaniki przetrwania**, takie jak nawodnienie, energia i leczenie obrażeń, aby uniknąć wczesnych zgonów.
+- Wykorzystuj **interaktywne mapy** do efektywnego lokalizowania kluczowych celów, POI i stref ekstrakcji.
+</Callout>
+
+<Section icon={Map} title="Zrozumienie Ground Zero: Twoje Pierwsze Kroki">
+Ground Zero w Gray Zone Warfare odnosi się do początkowych obszarów, w których rozlokowują się operatorzy PMC, służąc jako kluczowy punkt startowy dla wszystkich nowych graczy. Ta strefa ma na celu wprowadzenie podstawowych mechanik, początkowych zadań i surowych realiów Wyspy Lamang. Opanowanie tego obszaru jest kluczowe dla płynnego postępu i przetrwania. Gracze napotkają miasto startowe swojej frakcji, które działa jako centrum dla wczesnych misji i bezpiecznych stref.
+
+**Najważniejsze informacje wideo:**
+- Przegląd lokalizacji miast startowych i ich znaczenia.
+- Wskazówki dotyczące nawigacji w bezpośrednim otoczeniu początkowego miejsca odrodzenia.
+- Wprowadzenie do pierwszych kilku zadań sprzedawcy i ich celów.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Zwiastun wczesnego dostępu" />
+
+Twój wybór frakcji decyduje o twoim mieście startowym: Crimson Shield International w pobliżu Kiu Vongsa, Mithras Security Systems w pobliżu Nam Thaven i Lamang Recovery Initiative w pobliżu Pha Lang. Każde miasto oferuje lustrzaną strukturę postępu, co oznacza, że typy wczesnych zadań i ogólny układ są podobne, choć konkretne lokalizacje i zamknięte pokoje będą się różnić. Zapoznanie się z układem wybranego miasta i kluczowymi punktami zainteresowania (POI) jest najważniejsze.
+
+<Callout type="tip" title="Wybierz swoje miasto startowe mądrze">
+Chociaż wczesny postęp jest lustrzany, miasto startowe wybranej frakcji będzie wpływać na twoje początkowe trasy i czasy podróży do stref środkowej mapy, takich jak Fort Narith. Rozważ przybliżone czasy podróży pieszo: Lamang (5-10 min), Mithras (15-20 min), Crimson (25-30+ min), jeśli planujesz szybko zagłębić się w wyspę.
+</Callout>
+
+### Przegląd kluczowych miast startowych
+
+| Frakcja                      | Miasto startowe | Pozycja w siatce | Główny cel                                           | Uwagi                                                    |
+| :--------------------------- | :-------------- | :--------------- | :--------------------------------------------------- | :------------------------------------------------------- |
+| **Crimson Shield International** | Kiu Vongsa      | 141:164          | Wolniejszy, bezpieczniejszy wczesny postęp           | Dobre dla nowych graczy do nauki mechanik                |
+| **Mithras Security Systems**     | Nam Thaven      | 171:118          | Zrównoważony między bezpieczniejszymi a gorętszymi trasami | Umiarkowane ryzyko, oferuje różnorodne wczesne doświadczenia |
+| **Lamang Recovery Initiative**   | Pha Lang        | 202:162          | Szybki dostęp do spornych stref, wyższe ryzyko       | Idealne dla agresywnych graczy lub doświadczonych weteranów |
+
+</Section>
+
+<Section icon={Target} title="Niezbędne wczesne zadania na Ground Zero">
+Zadania są głównym motorem postępu w Gray Zone Warfare, zapewniając doświadczenie, walutę i reputację u sprzedawców. Na Ground Zero twoje początkowe zadania poprowadzą cię przez podstawy nawigacji, zbierania łupów i walki. Efektywne wykonywanie tych wczesnych misji jest kluczowe dla odblokowania lepszego sprzętu i rozszerzenia twoich możliwości operacyjnych.
+
+<Steps>
+  <Step num="1" title="Pierwszy rekonesans (Handshake)">
+    **Cele:** Sprawdź chatę, tartak i stację benzynową w swoim mieście startowym.
+    **Znane lokalizacje:** Zniszczony budynek (141 165), Sklep spożywczy (141 162), Stacja benzynowa (144 161).
+    **Nagrody:** 400 EXP, +25 reputacji Handshake'a, 1700 USD, 1x Modular Operator Carrier Gen II.
+    **Dlaczego to ważne:** Uczy podstawowej identyfikacji punktów orientacyjnych i poruszania się w bezpiecznej strefie.
+  </Step>
+  <Step num="2" title="Odzyskiwanie skrytki (Gunny)">
+    **Cele:** Znajdź i oznacz skrytkę w tartaku swojego miasta.
+    **Znane lokalizacje:** Magazyn (140 163), Tartak (141 161).
+    **Nagrody:** 400 EXP, +100 reputacji Gunny'ego, 1700 USD, 1x Scorpion OCP Convoy Pack.
+    **Dlaczego to ważne:** Wczesne zadanie związane z postępem broni, które buduje kluczową reputację Gunny'ego.
+  </Step>
+  <Step num="3" title="Poszukiwanie leków (Lab Rat)">
+    **Cele:** Zlokalizuj zapasy medyczne UNLRA w pobliżu wieży ciśnień w mieście.
+    **Znane lokalizacje:** Zapasy medyczne (140 161).
+    **Nagrody:** 400 EXP, +100 reputacji Lab Rat, 2200 USD, 1x IFAK.
+    **Dlaczego to ważne:** Odblokowuje lepsze zapasy medyczne i opcje utrzymania od Lab Rat, niezbędne do przetrwania.
+  </Step>
+  <Step num="4" title="Pomocna dłoń (Handshake)">
+    **Cele:** Odzyskaj i dostarcz informacje wywiadowcze ze strychu restauracji do Handshake'a.
+    **Znane lokalizacje:** Strych restauracji w mieście startowym (np. Kiu Vongsa 141:164).
+    **Nagrody:** 400 EXP, +100 reputacji Handshake'a, 2300 USD, 1x Skórzany uchwyt na klucze.
+    **Dlaczego to ważne:** Często pierwsze zadanie z zamkniętym kluczem, wprowadzające znaczenie zarządzania kluczami.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Priorytetyzacja zadań">
+Zawsze priorytetowo traktuj zadania, które zapewniają reputację u sprzedawców, takich jak Lab Rat i Gunny, na wczesnym etapie. Odblokowuje to dostęp do lepszych zapasów medycznych, broni i dodatków, znacznie zwiększając twoją przeżywalność i skuteczność bojową.
+</Callout>
+
+### Postęp zadań sprzedawcy
+
+| Sprzedawca    | Kluczowe wczesne zadania                          | Główne nagrody                                    | Uwagi dotyczące postępu                                |
+| :------------ | :------------------------------------------------ | :------------------------------------------------ | :----------------------------------------------------- |
+| **Handshake** | Pierwszy rekonesans, Pomocna dłoń, Cień nad Ban Pa | EXP, USD, reputacja, sprzęt, odblokowanie sprzedawcy Turncoat | Ogólny sprzęt, przechowywanie i początkowe zadania wywiadowcze |
+| **Gunny**     | Odzyskiwanie skrytki, Nie zostawiaj nikogo za sobą | EXP, USD, reputacja, części broni, kamizelki      | Broń, magazynki i dodatki do broni                    |
+| **Lab Rat**   | Poszukiwanie leków, Negocjacje z tubylcami        | EXP, USD, reputacja, IFAK, odblokowanie sprzedawcy Artisan | Zapasy medyczne, żywność i przedmioty do utrzymania   |
+| **Artisan**   | Narzędzia rzemiosła, Najeźdźcy z daleka            | EXP, USD, reputacja, specyficzne części broni      | Zaawansowana personalizacja broni i specjalistyczny sprzęt |
+
+</Section>
+
+<Section icon={Shield} title="Podstawy przetrwania: Pozostać przy życiu na wyspie Lamang">
+Gray Zone Warfare to strzelanka ekstrakcyjna, co oznacza, że każdy rajd wiąże się z ryzykiem utraty sprzętu. Zrozumienie i zarządzanie podstawowymi mechanikami przetrwania jest kluczowe, zwłaszcza na początku na Ground Zero. Zwracaj szczególną uwagę na swoje zdrowie, nawodnienie i poziom energii, aby uniknąć możliwych do uniknięcia zgonów.
+
+<CardGrid cols={2}>
+  <Card title="Nawodnienie i energia">
+    - **Spragniony:** Poniżej 50% nawodnienia, brak regeneracji krwi.
+    - **Odwodniony:** Przy 1% nawodnienia, zamglony wzrok.
+    - **Głodny:** Poniżej 50% energii, brak regeneracji krwi.
+    - **Umierający z głodu:** Przy 1% energii, zamglony wzrok.
+    - **Zawsze noś wodę i jedzenie.**
+  </Card>
+  <Card title="Obrażenia i śpiączka">
+    - **Krwawienie:** Lekkie, średnie i ciężkie krwawienie powoduje ciągłą utratę krwi. Leczyć natychmiast.
+    - **Śpiączka:** Może wystąpić, jeśli poziom krwi spadnie poniżej 50% lub z powodu zniszczonych organów (płuc/wątroby).
+    - **Okno reanimacji:** Członkowie drużyny mają ~180 sekund na reanimację gracza w śpiączce.
+    - **Przedmioty medyczne**, takie jak IFAK-i i bandaże, są niezbędne.
+  </Card>
+</CardGrid>
+
+Bezpieczna skrzynia to twój najlepszy przyjaciel na Ground Zero. Wszystkie przedmioty umieszczone w niej są chronione przed utratą po śmierci. Jest to szczególnie ważne w przypadku przedmiotów do zadań lub cennych łupów, których nie możesz sobie pozwolić na utratę.
+
+<Callout type="warning" title="Zabezpiecz swoje kosztowności">
+Zawsze umieszczaj przedmioty do zadań i cenne łupy, które zamierzasz zatrzymać, w swojej bezpiecznej skrzyni. Utrata przedmiotów kluczowych dla misji może znacznie utrudnić twój postęp i zmusić cię do ponownego rozpoczęcia zadań.
+</Callout>
+
+### Kluczowe strategie przetrwania
+
+<Checklist
+  id="survival-tips"
+  title="Lista kontrolna przetrwania na Ground Zero:"
+  items={[
+    "Utrzymuj nawodnienie i energię powyżej 50% przez cały czas.",
+    "Zawsze miej przy sobie co najmniej jeden IFAK i bandaże na wypadek nagłych wypadków.",
+    "Używaj bezpiecznej skrzyni na wszystkie przedmioty do zadań i łupy wysokiego poziomu.",
+    "Zrozum mechanikę helikopterów: nietykalność na pokładzie i 4-sekundowy okres łaski po wyjściu.",
+    "Unikaj AFK poza bezpiecznymi strefami; nieaktywność może prowadzić do utraty sprzętu, jeśli zostaniesz usunięty z rozmieszczenia."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Optymalizacja łupów i ekonomii na Ground Zero">
+Ustanowienie stabilnej ekonomii na wczesnym etapie w Gray Zone Warfare jest kluczowe dla ciągłego pozyskiwania sprzętu i wykonywania zadań. Na Ground Zero skup się na trasach łupów o niskim ryzyku i inteligentnych praktykach sprzedaży. Nagrody za zadania zapewniają podstawowy dochód, ale efektywne zbieranie łupów znacznie zwiększa twoje fundusze.
+
+<Callout type="info" title="Pieniądze i filozofia zbierania łupów">
+Pieniądze w Gray Zone Warfare pochodzą z dwóch stałych źródeł: nagród za zadania i inteligentnego zbierania łupów. Wczesne zadania oferują gotówkę i reputację, podczas gdy sieci sprzedawców w FOB pozwalają sprzedawać cenne przedmioty. Dobra pętla odzyskiwania obejmuje wykonywanie pobliskich zadań, efektywne zbieranie łupów, sprytną sprzedaż i wykorzystywanie wypłat do uzupełniania zapasów bez nadmiernego wydawania na drogie zestawy.
+</Callout>
+
+### Efektywne zbieranie łupów i sprzedaż
+
+| Akcja                               | Priorytet | Szczegóły                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| :---------------------------------- | :-------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Wykonuj płatne zadania**          | Wysoki    | Wiele wczesnych zadań od Handshake'a, Gunny'ego i Lab Rat zapewnia bezpośrednie nagrody pieniężne wraz z EXP i reputacją. Przykłady to „Poszukiwanie leków” (1200 $), „Pomocna dłoń” (440 $) i „Co jest w sklepie” (3300 $). Są to niezawodne źródła dochodu.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Priorytetyzuj pojemniki na broń** | Wysoki    | Podczas zbierania łupów skup się na pojemnikach na broń (CSI Firearms Box, UN Firearms Box, Firearms Box). Często zawierają one broń, magazynki i części broni, które są zazwyczaj cenniejsze niż przypadkowy bałagan. Wojskowe skrzynie z bronią palną mogą również zawierać magazynki wysokiego poziomu, takie jak **magazynek AK308 7.62x51mm 20-nabojowy** lub **magazynek AK74 5.45x39mm 60-nabojowy**.                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Sprzedawaj najlepiej płacącemu sprzedawcy** | Średni    | Chociaż możesz sprzedawać kosztowności każdemu sprzedawcy, niektórzy sprzedawcy płacą więcej za konkretne przedmioty. Skonsultuj się z wiki gry lub zasobami społeczności, aby zidentyfikować najlepiej płacącego kupca dla każdego przedmiotu, aby zmaksymalizować swoje zyski. Sprzedaż sprzedawcy niespecjalistycznemu zazwyczaj skutkuje 50% obniżką ceny.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Zamień gotówkę na dostęp do sprzedawcy** | Wysoki    | Wykorzystaj zarobioną walutę, aby kupować przedmioty, które pomagają w wykonywaniu zadań, co z kolei zwiększa reputację sprzedawcy. Wyższa reputacja sprzedawcy odblokowuje lepszy asortyment, umożliwiając zakup lepszej broni, pancerza i zapasów medycznych. Tworzy to pozytywną pętlę sprzężenia zwrotnego dla postępu. Aktualizacja 0.4 zrebalansowała nagrody, aby położyć większy nacisk na pieniądze niż przedmioty, co czyni zarządzanie gotówką jeszcze ważniejszym.                                                                                                                                                                                                                                                                                                                                                                     |
+| **Trasy łupów niskiego ryzyka**     | Wysoki    | Trzymaj się obszarów z mniejszą liczbą wrogich NPC-ów lub ruchu graczy podczas wczesnych rajdów. Miasta startowe i ich bezpośrednie obrzeża często zawierają wystarczającą ilość łupów niskiego poziomu, aby zbudować przyzwoity kapitał bez angażowania się w walkę o wysoką stawkę. Skup się na pojemnikach i konkretnych miejscach łupów związanych z wczesnymi zadaniami.                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Użycie bezpiecznej skrzyni**      | Krytyczny | Zawsze używaj bezpiecznej skrzyni na przedmioty, które chcesz na pewno zachować. Obejmuje to komponenty o wysokiej wartości, przedmioty do zadań lub rzadkie znaleziska. Zapobiega to utracie kluczowych zasobów, jeśli zostaniesz wyeliminowany podczas rajdu.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+
+</Section>
+
+<Section icon={Trophy} title="Ground Zero FAQ">
+<FAQ items={[
+  {
+    question: "Czym jest Ground Zero w Gray Zone Warfare?",
+    answer: "Ground Zero odnosi się do początkowych obszarów startowych dla nowych operatorów PMC na wyspie Lamang. Ma na celu wprowadzenie graczy w podstawowe mechaniki gry, wczesne zadania i podstawowe przetrwanie, zanim wyruszą do bardziej niebezpiecznych stref."
+  },
+  {
+    question: "Którą frakcję powinienem wybrać, aby uzyskać najlepsze doświadczenie na Ground Zero?",
+    answer: "Twój wybór frakcji określa twoje miasto startowe (Kiu Vongsa, Nam Thaven lub Pha Lang). Crimson Shield International (Kiu Vongsa) jest często uważany za bardziej przyjazny dla początkujących ze względu na bezpieczniejsze wczesne trasy, podczas gdy Lamang Recovery Initiative (Pha Lang) oferuje szybszy dostęp do spornych stref dla doświadczonych graczy."
+  },
+  {
+    question: "Jak mogę chronić swój sprzęt na Ground Zero?",
+    answer: "Najskuteczniejszym sposobem ochrony sprzętu, zwłaszcza przedmiotów do zadań i kosztowności, jest umieszczenie ich w bezpiecznej skrzyni. Przedmioty w bezpiecznej skrzyni nie są tracone po śmierci, co zapewnia zachowanie krytycznych zasobów."
+  },
+  {
+    question: "Jakie są najważniejsze wczesne zadania na Ground Zero?",
+    answer: "Skup się na zadaniach takich jak 'Pierwszy rekonesans' (Handshake), 'Odzyskiwanie skrytki' (Gunny) i 'Poszukiwanie leków' (Lab Rat). Zadania te zapewniają niezbędne EXP, walutę i reputację u sprzedawców, odblokowując lepszy sprzęt i zapasy medyczne kluczowe dla wczesnego przetrwania i postępu."
+  }
+]} />
+</Section>

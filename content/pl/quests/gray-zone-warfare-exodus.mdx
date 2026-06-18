@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Exodus: Przygotowanie do ostatecznej ewakuacji",
+  description: "Dowiedz się, jak przygotować się do eksodusu w Gray Zone Warfare, korzystając z podstawowych wskazówek dotyczących sprzętu, tras i wyborów frakcji, aby zapewnić udaną ekstrakcję.",
+  category: "Przewodnik",
+  image: "https://placehold.co/800x400/8B4513/fff?text=GZW+Exodus+Guide",
+  date: "2026-06-18",
+  author: "Zespół Wiki Gray Zone Warfare"
+}
+
+<Callout type="info" title="Szybki przewodnik">
+- **Eksodus w Gray Zone Warfare** wymaga starannego planowania sprzętu i tras ekstrakcji.
+- Priorytetem jest **wysokowartościowy łup** i przedmioty kluczowe dla misji, aby zapewnić efektywną ekstrakcję.
+- Zrozumienie **korzyści frakcyjnych** i miejsc startowych w celu optymalizacji strategii ucieczki.
+- Opanowanie **pętli ekonomicznych**, aby zapewnić fundusze na kluczowe zapasy.
+- Bądź na bieżąco z **zmianami patchy**, ponieważ mogą one znacząco wpłynąć na dynamikę ekstrakcji.
+</Callout>
+
+<Section icon={Map} title="Zrozumienie krajobrazu eksodusu">
+Koncepcja „eksodusu” w Gray Zone Warfare odnosi się do krytycznej fazy ewakuacji z niebezpiecznych stref z cennym łupem i ukończonymi zadaniami. Sukces zależy od głębokiego zrozumienia geografii wyspy Lamang, rozmieszczenia wrogów i efektywnych punktów ekstrakcji. Ta sekcja przedstawia kluczowe elementy, które musisz opanować, aby pomyślnie się wycofać.
+
+**Najważniejsze informacje z wideo:**
+- Przegląd kluczowych funkcji mapy istotnych dla ekstrakcji.
+- Strategie identyfikacji bezpiecznych stref i obszarów wysokiego zagrożenia.
+- Wskazówki dotyczące efektywnego poruszania się po złożonym terenie.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Zwiastun premiery wczesnego dostępu" />
+
+Wyspa Lamang to rozległe, otwarte środowisko taktycznej strzelanki, gdzie każda decyzja ma znaczenie. Znajomość terenu to nie tylko kwestia wykonywania zadań; to kwestia wyjścia z życiem z ciężko zdobytych łupów. Dynamiczny charakter gry oznacza, że trasy i zagrożenia mogą się zmieniać, co podkreśla potrzebę adaptacji.
+
+<Callout type="tip">
+Zawsze miej oko na mapę w grze i rozważ alternatywne punkty ekstrakcji, jeśli twoja główna trasa zostanie zagrożona. Elastyczność jest kluczem do przetrwania eksodusu.
+</Callout>
+
+### Kluczowe lokalizacje do planowania ekstrakcji
+
+| Rodzaj lokalizacji | Opis | Poziom zagrożenia | Główne zastosowanie |
+|---|---|---|---|
+| **Miasta startowe** | Kiu Vongsa, Nam Thaven, Pha Lang. Początkowa baza operacyjna. | Niska-Średnia | Wczesne zadania, bezpieczne przezbrajanie, podstawowy dostęp do sprzedawców |
+| **Bunkier YBL-1** | Podziemny bunkier wojskowy, często związany z zadaniami w środku mapy. | Średnie-Wysokie | Odzyskiwanie danych, most do gorących stref |
+| **Wioska Ban Pa** | Wioska poziomu 2 o złożonym układzie i specyficznych liniach zadań. | Średnie-Wysokie | Klucze do zadań, wartościowy łup, cele frakcyjne |
+| **Fort Narith** | Największy obiekt wojskowy, łup wysokiego poziomu i intensywna walka. | Wysokie | Zaawansowane zadania, rzadki sprzęt, główne strefy walki |
+| **Tiger Bay** | Gęste środowisko miejskie, główna strefa miejska z różnymi wrogami. | Wysokie | Wysokowartościowy łup, złożone trasy zadań, punkty zapalne PvP |
+| **Midnight Sapphire** | Strefa wypoczynkowa, zadania późnej fazy gry, często sporne. | Wysokie | Zadania końcowe gry, unikalne lokalizacje kluczy |
+
+</Section>
+
+<Section icon={Target} title="Opanowanie zadań dla efektywnego postępu">
+Zadania są siłą napędową postępu w Gray Zone Warfare, oferując nie tylko doświadczenie i gotówkę, ale także kluczową reputację u sprzedawców i odblokowanie przedmiotów. Skuteczna strategia eksodusu obejmuje priorytetyzację zadań, które usprawniają dostęp do lepszego sprzętu i zasobów, skracając czas spędzany w niebezpiecznych obszarach.
+
+<Steps>
+  <Step num="1" title="Priorytetyzacja wczesnych zadań sprzedawców">
+    Skoncentruj się na zadaniach dla Handshake'a, Gunny'ego i Lab Rata. Te wczesne misje często dotyczą twojego miasta startowego i zapewniają niezbędną reputację dla podstawowego sprzętu, zaopatrzenia medycznego i broni. Na przykład, „Meds Wanted” dla Lab Rata szybko odblokowuje lepsze przedmioty lecznicze.
+  </Step>
+  <Step num="2" title="Identyfikacja misji blokowanych kluczami">
+    Wiele zadań jest blokowanych przez konkretne klucze. Zrozumienie, które klucze otwierają które drzwi i gdzie je znaleźć, jest kluczowe. Zadanie „Helping Hand” dla Handshake'a jest wczesnym przykładem, wymagającym konkretnego klucza do magazynu restauracji.
+  </Step>
+  <Step num="3" title="Planowanie wieloobiektywnych rajdów">
+    Grupuj zadania, które są blisko siebie lub na podobnej trasie. Minimalizuje to czas podróży i ekspozycję. Na przykład, zadania wokół YBL-1 często można łączyć z początkowymi zwiadami w kierunku Ban Pa.
+  </Step>
+  <Step num="4" title="Strategiczne wykorzystanie nagród za zadania">
+    Nagrody za zadania to nie tylko gotówka. Mogą obejmować pojemniki, konkretne bronie, a nawet odblokować nowych sprzedawców, takich jak Turncoat po ukończeniu „The Shadow Over Ban Pa”. Wykorzystaj te nagrody do ulepszenia swojego wyposażenia lub zabezpieczenia wartościowych przedmiotów.
+  </Step>
+</Steps>
+
+<Callout type="success">
+Ukończenie wczesnych zadań nie tylko zwiększa twoją reputację, ale także stanowi solidną podstawę dla twojej ekonomii, czyniąc kolejne rajdy bardziej zrównoważonymi.
+</Callout>
+
+### Podstawowe zadania wczesnej fazy gry
+
+| Nazwa zadania | Sprzedawca | Obszar | Kluczowe nagrody | Znaczenie |
+|---|---|---|---|---|
+| **Pierwszy zwiad** | Handshake | Miasto startowe | 1700 $, Modular Operator Carrier Gen II | Uczy podstawowej nawigacji po mapie, wczesnego sprzętu |
+| **Odzyskanie skrytki** | Gunny | Tartak | 1700 $, Scorpion OCP Convoy Pack | Wczesny rozwój broni, reputacja Gunny'ego |
+| **Potrzebne leki** | Lab Rat | Wieża ciśnień | 2200 $, IFAK | Odblokowuje lepsze środki medyczne, reputacja Lab Rata |
+| **Pomocna dłoń** | Handshake | Poddasze restauracji | 2300 $, Skórzany uchwyt na klucze | Wprowadza postęp blokowany kluczami, reputacja Handshake'a |
+| **Cień nad Ban Pa** | Handshake | YBL-1 do Ban Pa | 4700 $, Odblokuj sprzedawcę Turncoat | Główny punkt przełomowy w postępie, dostęp do nowego sprzedawcy |
+
+</Section>
+
+<Section icon={Shield} title="Przygotuj się na eksodus: broń i amunicja">
+Twoje wyposażenie to twoja linia życia podczas eksodusu. Wybór odpowiedniej broni i amunicji, zrozumienie mechaniki pancerza i optymalizacja ekwipunku są najważniejsze. Aktualizacja Spearhead ponownie zrównoważyła obsługę broni i balistykę, co sprawia, że świadome wybory są jeszcze bardziej krytyczne.
+
+<CardGrid cols={2}>
+  <Card title="Koncentracja na platformach broni">
+    - **AK-12 (5.45x39mm):** Niezawodny karabin szturmowy, dobry do walki na średnim dystansie. Dzieli amunicję z innymi wariantami AK-74.
+    - **AK-15 (7.62x39mm):** Wyższe obrażenia, dzieli kaliber z AKM i SKS. Wszechstronny do różnych ról bojowych.
+    - **M4A1 (5.56x45mm NATO):** Karabin szturmowy w stylu zachodnim, szeroka kompatybilność z akcesoriami. Dobry do celności i ciągłego ognia.
+    - **SIG MCX (.300 AAC Blackout):** Modułowa platforma, oferuje elastyczność dla wyspecjalizowanych konfiguracji.
+  </Card>
+  <Card title="Amunicja i balistyka">
+    - **Penetracja:** Kluczowa w walce z opancerzonymi celami. Pociski o wyższej penetracji skuteczniej przebijają pancerz.
+    - **Obrażenia ciała:** Ważne dla nieopancerzonych wrogów lub podczas celowania w odsłonięte części ciała.
+    - **Rodziny kalibrów:** Zrozum, które bronie dzielą typy amunicji, aby uprościć zarządzanie ekwipunkiem. Np. 5.45x39mm dla wielu AK.
+    - **Przebudowa Spearhead:** Balistyka i żywotność broni zostały zrównoważone, więc eksperymentuj i sprawdzaj notatki z patchy.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Wybór amunicji jest kluczowy">
+Nie lekceważ wpływu wybranej amunicji. Użycie niewłaściwego typu amunicji przeciwko opancerzonym wrogom może znacznie zmniejszyć twoją skuteczność i przeżywalność. Zawsze dopasowuj amunicję do przewidywanego zagrożenia.
+</Callout>
+
+### Kompatybilność amunicji
+
+| Kaliber | Używany przez (przykłady) | Klasa broni | Uwaga dotyczące planowania |
+|---|---|---|---|
+| **5.45x39mm** | AK-74M, AK-74N, AK-12, AKS-74U | Karabiny szturmowe | Doskonałe dla graczy używających wielu karabinów typu AK. |
+| **5.56x45mm NATO** | M4A1, DDM4, CQ A1, AK-19 | Karabiny szturmowe | Szeroko stosowane, dobre dla platform zachodnich i niektórych wschodnich. |
+| **7.62x39mm** | AKM, AKMN, AKMSN, AK-15, SKS | Karabiny szturmowe, DMR | Obsługuje zarówno tryb automatyczny, jak i półautomatyczny, wszechstronne. |
+| **7.62x51mm NATO** | AK-308, M700 | Karabin szturmowy, karabin powtarzalny | Dzielone przez cięższe, precyzyjne bronie. |
+| **.300 AAC Blackout** | SIG MCX | Platforma karabinu szturmowego | Dedykowany kaliber platformy, mniejsza kompatybilność. |
+
+</Section>
+
+<Section icon={Sparkles} title="Optymalizacja ekonomii i relacji ze sprzedawcami">
+Zrównoważony eksodus opiera się na silnej gospodarce. Wiedza o tym, jak zarabiać pieniądze, co sprzedawać i jak wykorzystywać sprzedawców, zapewni Ci stałe zaopatrzenie na każdą wyprawę. Skuteczny handel i zarządzanie reputacją u sprzedawców są równie ważne jak umiejętności bojowe.
+
+<Steps>
+  <Step num="1" title="Skoncentruj się na płatnych zadaniach">
+    Wczesne zadania są niezawodnym źródłem gotówki i reputacji. Priorytetyzuj je, aby zbudować swój początkowy kapitał. „Meds Wanted” i „Helping Hand” to przykłady zadań, które oferują dobre nagrody pieniężne na wczesnym etapie.
+  </Step>
+  <Step num="2" title="Priorytetyzacja pojemników z cennym łupem">
+    Podczas plądrowania priorytetyzuj pojemniki na broń (CSI Firearms Box, UN Firearms Box), ponieważ często zawierają cenne bronie, magazynki i części broni, które osiągają dobre ceny.
+  </Step>
+  <Step num="3" title="Sprzedawaj najlepszemu sprzedawcy">
+    Nie wszyscy sprzedawcy płacą tak samo za przedmioty. Chociaż możesz sprzedawać każdemu sprzedawcy, skonsultuj się z wiki lub swoją wiedzą, aby znaleźć sprzedawcę, który oferuje najwyższą cenę za konkretny wartościowy łup. Maksymalizuje to twój zysk.
+  </Step>
+  <Step num="4" title="Konwertuj gotówkę na dostęp do sprzedawców">
+    Zarobione pieniądze i ukończone zadania bezpośrednio przyczyniają się do reputacji sprzedawcy. Wyższa reputacja odblokowuje lepszy sprzęt, potężniejsze bronie i niezbędne zaopatrzenie medyczne. Na przykład, ukończenie „Native Negotiations” dla Lab Rata odblokowuje zadania Artisan.
+  </Step>
+</Steps>
+
+<Callout type="info">
+Ostatnia aktualizacja 0.4 ponownie zrównoważyła nagrody, kładąc większy nacisk na pieniądze zamiast przedmiotów w wielu zadaniach, co wzmacnia znaczenie solidnej strategii ekonomicznej.
+</Callout>
+
+### Przegląd postępu u sprzedawców
+
+| Sprzedawca | Specjalizacja | Ścieżka odblokowania | Uwaga dotycząca postępu |
+|---|---|---|---|
+| **Handshake** | Hełmy, sprzęt, pancerz, pojemniki | Początkowy sprzedawca | Skup się na ochronie i przechowywaniu. |
+| **Lab Rat** | Leki, jedzenie, napoje, pojemniki | Początkowy sprzedawca | Niezbędny do leczenia i utrzymania. |
+| **Gunny** | Broń, magazynki, amunicja, akcesoria | Początkowy sprzedawca | Podstawa ulepszeń broni i amunicji. |
+| **Artisan** | Broń, specyficzne akcesoria, hełmy | Ukończ „Native Negotiations” (Lab Rat) | Zaawansowane dostosowywanie broni. |
+| **Banshee** | Broń, amunicja, celowniki, sprzęt | Ukończ „Invaders From Afar” (Artisan) | Kolejna gałąź dla broni i noszonego sprzętu. |
+| **Turncoat** | Szeroki asortyment (broń, pancerz, pojemniki) | Ukończ „The Shadow Over Ban Pa” (Handshake) | Jeden z najbardziej wszechstronnych sprzedawców, dostęp w późnej fazie gry. |
+
+</Section>
+
+<Section icon={Target} title="Lista kontrolna gotowości do eksodusu">
+Przed rozpoczęciem jakiejkolwiek większej ekstrakcji lub „eksodusu” kluczowe jest dokładne sprawdzenie sprzętu, celów i planowanych tras. Ta lista kontrolna pomaga zapewnić, że jesteś tak przygotowany, jak to tylko możliwe, na nadchodzące wyzwania.
+
+<Checklist
+  id="exodus-prep"
+  title="Gotowość przed eksodusem:"
+  items={[
+    "Potwierdź główne i drugorzędne trasy ekstrakcji.",
+    "Sprawdź, czy wszystkie cele zadań są zrozumiałe i przedmioty zdobyte.",
+    "Sprawdź wytrzymałość broni i pancerza, napraw w razie potrzeby.",
+    "Zgromadź wystarczające zapasy medyczne (IFAK-i, bandaże, szyny).",
+    "Upewnij się, że masz wystarczająco płynów i przedmiotów energetycznych.",
+    "Przejrzyj aktualne notatki z patchy dotyczące ostatnich zmian wpływających na trasy lub zachowanie SI.",
+    "Przekaż plan członkom drużyny (jeśli dotyczy).",
+    "Zabezpiecz cenne przedmioty w swojej skrzynce przed rozmieszczeniem."
+  ]}
+/>
+
+<Callout type="tip">
+Zawsze miej plan awaryjny na wypadek ekstrakcji. Zablokowana trasa lub nieoczekiwane spotkanie z wrogiem może szybko zamienić udaną wyprawę w katastrofę bez alternatyw.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Często zadawane pytania dotyczące eksodusu w Gray Zone Warfare">
+
+<FAQ items={[
+  {
+    question: "Co oznacza „eksodus” w Gray Zone Warfare?",
+    answer: "W Gray Zone Warfare „eksodus” odnosi się do strategicznego procesu pomyślnego wycofania się ze strefy wysokiego ryzyka na wyspie Lamang z cennym łupem i ukończonymi celami zadań. Kładzie nacisk na staranne planowanie i wykonanie, aby uniknąć utraty sprzętu."
+  },
+  {
+    question: "Jak ważne są wybory frakcji dla strategii eksodusu?",
+    answer: "Wybory frakcji są kluczowe, ponieważ określają twoje miasto startowe i wpływają na wczesne trasy zadań. Różne frakcje zapewniają różny dostęp do pewnych obszarów i sprzedawców, co może wpłynąć na ogólny postęp i efektywność ekstrakcji. Na przykład, Inicjatywa Odzyskiwania Lamang zaczyna się w pobliżu spornych stref, oferując szybszy dostęp, ale większe ryzyko."
+  },
+  {
+    question: "Jakie są najlepsze sposoby na zapewnienie udanego eksodusu w Gray Zone Warfare?",
+    answer: "Aby zapewnić udany eksodus, skup się na opanowaniu zadań w celu zdobycia reputacji u sprzedawców, optymalizacji wyposażenia za pomocą odpowiedniej broni i amunicji oraz rozwoju silnej pętli ekonomicznej. Zawsze planuj wiele tras ekstrakcji i bądź na bieżąco ze zmianami w grze."
+  },
+  {
+    question: "Czy są jakieś konkretne przedmioty, które powinienem priorytetyzować podczas eksodusu?",
+    answer: "Tak, priorytetem są przedmioty kluczowe dla misji, wysokowartościowy łup (np. z pojemników na broń) i niezbędne środki medyczne. Umieszczenie kluczowych przedmiotów w bezpiecznej skrzynce jest również kluczowe, aby zapobiec ich utracie po śmierci."
+  }
+]} />
+
+</Section>

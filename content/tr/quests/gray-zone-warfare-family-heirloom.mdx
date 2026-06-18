@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Aile Yadigarı: Görev Rehberi ve Konumlar",
+  description: "Gray Zone Warfare'deki 'Aile Yadigarı' görevini, hedefler, ana konumlar ve tamamlamak için en iyi stratejileri kapsayan bu kapsamlı rehberle tamamlayın.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Family+Heirloom+GZW",
+  date: "2026-06-18",
+  author: "Gray Zone Warfare Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Gray Zone Warfare Aile Yadigarı** görevi, belirli istihbaratları almayı içerir.
+- Bu görev genellikle **anahtarlı bölgelerde** gezinmeyi gerektirir.
+- Gerekli eşyaları ve para birimini toplamak için verimli **yağma rotalarına** odaklanın.
+- Gelecekteki görevler için daha iyi ekipmanların kilidini açmak için **satıcı itibarını** anlamak çok önemlidir.
+- İlerlemeyi kaybetmemek için yadigarı güvence altına aldıktan sonra **güvenli tahliyeyi** önceliklendirin.
+</Callout>
+
+<Section icon={Target} title="'Aile Yadigarı' Görevini Anlamak">
+Gray Zone Warfare'deki 'Aile Yadigarı' görevi, oyuncuların sıklıkla karşılaştığı, keşif, savaş ve eşya toplamanın bir karışımını içeren yaygın bir hedeftir. Bu tür görevler, karakter gelişiminin merkezindedir ve çeşitli satıcılarla önemli EXP ve itibar kazanımları sunar. Görevi başarıyla tamamlamak, kişisel hikayenizi ilerletmekle kalmaz, aynı zamanda daha yüksek seviyeli ekipmanlara ve daha fazla göreve erişim sağlar.
+
+Bu özel görev, genellikle kilitli bir odanın veya ağır korunan bir alanın içinde saklı olan belirli bir istihbarat parçasını veya değerli bir eşyayı bulmayı ve almayı gerektirir. Hazırlık çok önemlidir, çünkü bu konumlar tehlikeli olabilir, bu da uygun yükleme ve taktiksel planlamayı zorunlu kılar.
+
+**Video Öne Çıkanları:**
+- Genel görev genel bakışı ve hedefleri.
+- İstihbarat toplama görevleri için önerilen ekipman.
+- Çatışma bölgelerinde gezinme ipuçları.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Erken Erişim Lansman Fragmanı" />
+
+<Callout type="tip" title="Hazırlık Çok Önemli">
+Dağıtımdan önce görev hedeflerini her zaman dikkatlice gözden geçirin. Tam olarak neyi bulmanız gerektiğini ve nerede bulunabileceğini bilmek, size değerli zaman kazandırabilir ve gereksiz riskleri önleyebilir. Potansiyel giriş ve çıkış noktaları için haritanızı kontrol edin.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Aile Yadigarı İçin Ana Konumlar ve Navigasyon">
+'Aile Yadigarı' görevi sizi Lamang Adası haritasındaki belirli ilgi çekici noktalara (POI'ler) yönlendirecektir. Bu konumlar genellikle diğer görevlerle bağlantılıdır ve hem yapay zeka düşmanları hem de diğer PMC operatörleri için sık sık sıcak noktalara dönüşür. Başarı için verimli navigasyon ve harita bilgisi hayati öneme sahiptir.
+
+'Aile Yadigarı' gibi görevler için kendinizi Kiu Vongsa, Pha Lang, Nam Thaven gibi alanlarda veya hatta Ban Pa veya Fort Narith gibi daha çekişmeli bölgelerde bulabilirsiniz. Her alan benzersiz zorluklar ve düşman türleri sunar.
+
+<CardGrid cols={3}>
+  <Card title="Başlangıç Kasabası Konumları">
+    - **Kiu Vongsa**: Genellikle restoran çatı katları ve depo anahtarlarını içerir.
+    - **Pha Lang**: Kiu Vongsa'ya benzer, yerel işletmelerde görevler bulunur.
+    - **Nam Thaven**: Benzersiz yerel binalar ve düşman devriyeleri içerir.
+  </Card>
+  <Card title="Orta Seviye Bölgeler">
+    - **YBL-1 (Sığınak)**: Genellikle istihbarat ve keşif görevleriyle bağlantılıdır, erken oyundan orta oyuna köprü kurar.
+    - **Ban Pa (Köy)**: Yaşlı evi ve balıkçı kulübesi anahtarlarıyla bilinir, genellikle ilerleme için bir sonraki adımdır.
+    - **Fort Narith Çevresi**: Savanpha gibi yakın köylerde daha küçük, doğaçlama silah depoları içerebilir.
+  </Card>
+  <Card title="Yüksek Değerli Bölgeler">
+    - **Fort Narith (Askeri Alan)**: Yüksek tehdit, yüksek ödül. Birçok anahtar ve görev hedefi buradadır.
+    - **Tiger Bay (Şehir)**: Alışveriş merkezleri ve silah depoları dahil olmak üzere birden fazla hedefle yoğun kentsel savaş.
+    - **Midnight Sapphire (Tatil Köyü)**: Geç oyun görevleri genellikle villalar ve oteller etrafında döner.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Dar Boğazlara Dikkat Edin">
+'Aile Yadigarı' ile potansiyel olarak ilgili olanlar da dahil olmak üzere birçok görev anahtarla kilitlenmiştir. Sıkışıp kalırsanız, muhtemelen belirli bir anahtara ihtiyacınız vardır. Anahtarın spawn konumlarını ve gerekli görev kilitlerini belirlemek için Anahtarlar Rehberine bakın.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Yadigarı Geri Almak: Adım Adım Yaklaşım">
+'Aile Yadigarı'nı başarıyla elde etmek, taktiksel hareketi hassas hedef tamamlamayla birleştiren metodik bir yaklaşım gerektirir. İşte izlemeniz gereken genel adımlar dizisi:
+
+<Steps>
+  <Step num="1" title="İstihbarat Toplayın ve Teçhizatınızı Hazırlayın">
+    Dağıtımdan önce, yadigarı ve gerekli anahtarların tam yerini belirleyin. Beklenen tehdit seviyesine uygun bir yükleme hazırlayın. Ekstra tıbbi malzeme, güvenilir bir birincil silah ve yakın mesafeler için güçlü bir ikincil silah getirmeyi düşünün.
+  </Step>
+  <Step num="2" title="Rotanızı Planlayın ve Sızın">
+    Giriş ve çıkışınızı planlamak için interaktif haritayı kullanın. Hedefinize en güvenli yaklaşımı sunan bir iniş bölgesi (LZ) seçin. Kapsama kullanarak ve köşeleri kontrol ederek beklenmedik karşılaşmalardan kaçınmak için dikkatli hareket edin.
+  </Step>
+  <Step num="3" title="Hedef Alanı Güvence Altına Alın">
+    Yadigarı bulunduğu yere ulaştığınızda, acil tehditleri temizlemeye öncelik verin. Bu, yapay zeka devriyeleri veya hatta diğer PMC gruplarıyla çatışmayı içerebilir. Temizlendikten sonra, yadigarı bulunduğu odayı veya binayı güvence altına alın.
+  </Step>
+  <Step num="4" title="Yadigarı Alın ve Tahliye Edin">
+    'Aile Yadigarı' eşyasını bulun ve alın. Güvence altına alındıktan sonra, hemen tahliyeyi önceliklendirin. Sıcak bölgede kalmak, eşyayı kaybetme riskinizi artırdığı için oyalanmayın. Seçtiğiniz tahliye noktasına gidin ve alım için çağrı yapın.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verimli Tahliye">
+'Aile Yadigarı' gibi değerli bir görev eşyasını güvence altına aldıktan sonra, önceliğiniz tamamen güvenli bir tahliyeye kayar. Gereksiz çatışmalardan kaçının ve önceden planlanmış rotalara sadık kalın. Bir helikopter iniş bölgesi (LZ) kullanmak, bölgeden ayrılmanın genellikle en güvenli yoludur.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Anahtar Yönetimi ve Satıcı İlerlemesi">
+'Aile Yadigarı'nı almayı içerebilecekler de dahil olmak üzere birçok görev, belirli anahtarların arkasına kilitlenmiştir. Hangi anahtarların hangi kapıları açtığını ve potansiyel spawn konumlarını bilmek, verimli ilerleme için çok önemlidir. Ayrıca, satıcılarla olan ilişkiniz, bu zorlu görevler için edinebileceğiniz ekipmanları doğrudan etkiler.
+
+İşte görev ilerlemesi ve satıcı uzmanlıklarıyla ilgili yaygın anahtarları özetleyen bir tablo:
+
+| Anahtar Adı                       | Alan         | Nerede Bulunur                                  | Kilidini Açtığı Yer                                     | İlgili Görev/Yağma                         |
+| :-------------------------------- | :----------- | :---------------------------------------------- | :------------------------------------------------------ | :----------------------------------------- |
+| Kiu Vongsa Restoran Depo Anahtarı | Kiu Vongsa   | Kiu Vongsa'daki düşmanlerin cepleri             | 141:164'teki restoran çatı katı kapısı                  | **Yardım Eli** (Görev istihbaratı)        |
+| Ban Pa Yaşlı Odası Anahtarı       | Ban Pa       | Ban Pa liderinin cebi veya genel Ban Pa spawn'ları | Yaşlı Evi'nin içindeki ikinci kat odası                 | **Sudaki II** (Kimya hedefi)              |
+| Fort Narith Çevresi Cephanelik Anahtarı | Fort Narith  | Fort Narith anahtar rotası                      | Savanpha Köyü'ndeki gri iki katlı evin arka odası       | **Fort Narith çevresi yağma rotası** (Cephanelik odası) |
+| Kereste Fabrikası Ofis Anahtarı   | Kereste Fabrikası | Kereste Fabrikası'ndaki düşmanların cepleri     | Tonmai Hainy Kereste Şirketi'ndeki ofis binası          | **EOD** (Ateşli silah kutusu, Tıbbi dolap) |
+
+<Callout type="info" title="Satıcı İtibarı ve Kilit Açmaları">
+Satıcılarla olan itibarınız, sattıkları ekipmanı doğrudan etkiler. Belirli bir satıcı için görevleri tamamlamak, itibarlarını artıracak ve daha zorlu görevler için gerekli daha iyi silahlar, zırhlar ve tıbbi malzemelerin kilidini açacaktır. Envanteri ihtiyaçlarınızla uyumlu olan satıcılar için görevlere öncelik verin.
+</Callout>
+
+İşte ana satıcıların ve uzmanlıklarının bir dökümü:
+
+| Satıcı    | Uzmanlık                                      | Kilit Açma Yolu                                                 | İlerleme Notu                                            |
+| :-------- | :-------------------------------------------- | :---------------------------------------------------------- | :------------------------------------------------------- |
+| Handshake | Kasklar, teçhizat, vücut zırhı, konteynerler, aletler | Başlangıç satıcısı                                          | Koruma, depolama ve genel saha teçhizatı için iyidir.    |
+| Lab Rat   | İlaçlar, yiyecek, içecek, konteynerler        | Çekirdek satıcı                                             | Birincil tıbbi ve idame satıcısı.                        |
+| Gunny     | Silahlar, şarjörler, mühimmat, nişangahlar, eklentiler | Çekirdek satıcı                                             | Silah ve mühimmat erişimi için en iyi erken çapadır.     |
+| Artisan   | Silahlar, eklentiler, kasklar, konteynerler   | Lab Rat'tan **Yerel Müzakereler**'i tamamlayın              | Silah yapılarında teknik kontrol için öncelik verin.     |
+| Turncoat  | Geniş envanter: silahlar, zırh, konteynerler  | Handshake'ten **Ban Pa Üzerindeki Gölge**'yi tamamlayın    | Destek birleştiren en geniş envanterlerden biri.         |
+
+</Section>
+
+<Section icon={Sparkles} title="Yadigarı Geri Alma Yüklemenizi Optimize Etme">
+Doğru ekipmanı seçmek, 'Aile Yadigarı' gibi görevler için başarı oranınızı önemli ölçüde etkileyebilir. İçinde faaliyet göstereceğiniz ortamı, beklenen düşman direncini ve hızlı tahliye ihtiyacını göz önünde bulundurun.
+
+| Dişli Yuvası | Öneri                                           | Neden Önemli                                                      |
+| :----------- | :---------------------------------------------- | :--------------------------------------------------------------- |
+| **Birincil Silah** | AK-15 (7.62x39mm) veya M4A1 (5.56x45mm NATO) | Orta ila uzun menzilli için çok yönlü, iyi hasar.                 |
+| **İkincil Silah** | SMG (örn. MPX) veya yüksek kapasiteli tabanca | Yakın mesafe çatışmaları, acil durum yedeklemesi.                  |
+| **Zırh**     | Plaka Taşıyıcı (Seviye III veya üzeri)          | Özellikle sıcak bölgelerde çatışmalardan sağ çıkmak için hayati öneme sahiptir. |
+| **Kask**     | Balistik Kask (Seviye II veya üzeri)            | Kafa vuruşlarına karşı korur, hayatta kalmak için kritiktir.      |
+| **Tıbbi**    | IFAK, Savaş Turnikesi, Ağrı Kesiciler, Atel     | Kanama, kırıklar ve ağrıyı tedavi ederek savaş etkinliğini sürdürün. |
+| **Yardımcı** | El bombaları (parça/duman), Harita, Pusula, Güvenli Kutu | Alan kontrolü, siper, navigasyon ve değerli eşyaları koruma.     |
+
+<Callout type="tip" title="Mühimmat En Önemlisidir">
+Silahınız için her zaman uygun mühimmat getirin. 'Aile Yadigarı' tipi görevler için, zırhlı düşmanlar için zırh delici mermiler ve zırhsız hedefler için et hasarı veren mermilerin bir karışımını taşımayı düşünün. Son güncellemelerde (0.4 Spearhead) balistikler yeniden dengeleniyor, bu da mühimmat seçimini daha da kritik hale getiriyor.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Geri Alım Sonrası: Ödüllerinizi Güvence Altına Alma">
+'Aile Yadigarı' güvenli konteynerinizde veya envanterinizde güvenli bir şekilde bulunduğunda, görev başarılı bir şekilde tahliye edilene kadar gerçekten tamamlanmış sayılmaz. Tahliye sonrası, eşyayı ilgili satıcıya teslim edebilir, ödüllerinizi alabilir ve bir sonraki dağıtımınız için hazırlanabilirsiniz.
+
+<Checklist
+  id="post-retrieval-checklist"
+  title="Başarılı Bir Çalışmadan Sonra:"
+  items={[
+    "'Aile Yadigarı'nı belirlenen satıcıya teslim edin.",
+    "EXP, nakit ve itibar ödüllerini talep edin.",
+    "Fazla yağmayı en yüksek ödeme yapan satıcıya satın.",
+    "Tıbbi malzemeleri ve mühimmatı yenileyin.",
+    "Hasarlı ekipmanı onarın veya değiştirin.",
+    "Sonraki görevleri gözden geçirin ve yüklemeyi hazırlayın."
+  ]}
+/>
+
+<Callout type="warning" title="Sıcak Bölgelerde AFK Kalmayın">
+Oyunun bir hareketsizlik zamanlayıcısı vardır (15 dakika). Bir İleri Harekat Üssü (FOB) dışında canlı bir dağıtımdan çıkarılırsanız, ekipmanınızı kaybedersiniz. Her zaman klavyenizden ayrılmadan önce güvenli bir bölgede olduğunuzdan veya tahliye edildiğinizden emin olun.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="'Aile Yadigarı' Hakkında Sıkça Sorulan Sorular">
+
+<FAQ items={[
+  {
+    question: "'Aile Yadigarı'nı Gray Zone Warfare'de nerede bulabilirim?",
+    answer: "'Aile Yadigarı' görevinin tam konumu değişebilir, ancak genellikle Kiu Vongsa, Ban Pa veya Fort Narith gibi belirli POI'lerde, genellikle kilitli bir odanın içinde bulunur. Kesin koordinatlar veya ipuçları için her zaman görev açıklamanızı kontrol edin."
+  },
+  {
+    question: "'Aile Yadigarı' görevi için özel bir anahtara ihtiyacım var mı?",
+    answer: "Evet, 'Aile Yadigarı' da dahil olmak üzere değerli eşya toplamayı içeren birçok görev, kilitli odalara veya konteynerlere erişmek için özel anahtarlar gerektirir. Hangi anahtara ihtiyacınız olduğunu ve nerede edineceğinizi öğrenmek için Anahtarlar Rehberine bakın."
+  },
+  {
+    question: "'Aile Yadigarı' görevini tamamladığımda hangi ödülleri alırım?",
+    answer: "'Aile Yadigarı' görevini tamamlamak genellikle deneyim puanları (EXP), nakit ve ilişkili satıcıyla artan itibar sağlar. Bu ödüller ilerleme ve daha iyi ekipmanların kilidini açmak için çok önemlidir."
+  },
+  {
+    question: "'Aile Yadigarı'nı aldıktan sonra tahliye için en iyi yol nedir?",
+    answer: "'Aile Yadigarı'nı güvence altına aldıktan sonra, güvenli bir tahliyeye öncelik verin. Doğrudan en yakın helikopter iniş bölgesine gidin ve alım için çağrı yapın. Değerli eşyanızı kaybetme riskini en aza indirmek için gereksiz çatışmalardan kaçının."
+  }
+]} />
+
+</Section>

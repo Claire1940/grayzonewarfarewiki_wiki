@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Info, CheckCircle, Lightbulb } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Ground Zero: Essential Survival Guide",
+  description: "Navigate Gray Zone Warfare's Ground Zero with this essential survival guide, covering tasks, loot, and tactical tips for early progression.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/34495e/fff?text=Ground+Zero+Survival",
+  date: "2026-06-18",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Ground Zero** is the critical starting point for all new PMC operators in **Gray Zone Warfare**.
+- Focus on completing early **tasks** from Handshake, Gunny, and Lab Rat for quick progression.
+- Prioritize **secure lockbox** management to protect valuable loot and quest items.
+- Understand basic **survival mechanics** like hydration, energy, and injury treatment to avoid early deaths.
+- Utilize **interactive maps** to locate key objectives, POIs, and extraction zones efficiently.
+</Callout>
+
+<Section icon={Map} title="Understanding Ground Zero: Your First Steps">
+Ground Zero in Gray Zone Warfare refers to the initial areas where PMC operators deploy, serving as the crucial starting point for all new players. This zone is designed to introduce core mechanics, initial tasks, and the harsh realities of Lamang Island. Mastering this area is vital for smooth progression and survival. Players will encounter their faction's starter town, which acts as a hub for early missions and safe zones.
+
+**Video Highlights:**
+- Overview of starter town locations and their importance.
+- Tips for navigating the immediate surroundings of your initial spawn.
+- Introduction to the first few vendor tasks and their objectives.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Early Access Launch Trailer" />
+
+Your choice of faction dictates your starting town: Crimson Shield International near Kiu Vongsa, Mithras Security Systems near Nam Thaven, and Lamang Recovery Initiative near Pha Lang. Each town offers a mirrored progression structure, meaning the types of early tasks and general layout are similar, though specific locations and locked rooms will differ. Familiarizing yourself with your chosen town's layout and key points of interest (POIs) is paramount.
+
+<Callout type="tip" title="Choose Your Starting Town Wisely">
+While early progression is mirrored, your chosen faction's starting town will influence your initial routes and travel times to mid-map zones like Fort Narith. Consider the approximate foot travel times: Lamang (5-10 min), Mithras (15-20 min), Crimson (25-30+ min) if you plan on pushing deeper into the island quickly.
+</Callout>
+
+### Key Starter Towns Overview
+
+| Faction                      | Starter Town  | Grid Position | Primary Focus                                        | Notes                                                    |
+| :--------------------------- | :------------ | :------------ | :--------------------------------------------------- | :------------------------------------------------------- |
+| **Crimson Shield International** | Kiu Vongsa    | 141:164       | Slower, safer early progression                      | Good for new players to learn mechanics                  |
+| **Mithras Security Systems**     | Nam Thaven    | 171:118       | Balanced between safer and hotter routes             | Moderate risk, offers varied early experiences           |
+| **Lamang Recovery Initiative**   | Pha Lang      | 202:162       | Fast access to contested zones, higher risk          | Ideal for aggressive players or experienced veterans     |
+
+</Section>
+
+<Section icon={Target} title="Essential Early Tasks on Ground Zero">
+Tasks are the primary driver of progression in Gray Zone Warfare, providing experience, currency, and reputation with vendors. On Ground Zero, your initial tasks will guide you through the basics of navigation, looting, and engagement. Completing these early missions efficiently is crucial for unlocking better gear and expanding your operational capabilities.
+
+<Steps>
+  <Step num="1" title="First Recon (Handshake)">
+    **Objectives:** Check the shack, lumberyard, and gas station in your starter town.
+    **Known Locations:** Demolished Building (141 165), Convenience Store (141 162), Gas Station (144 161).
+    **Rewards:** 400 EXP, +25 Handshake Rep, $1,700 USD, 1x Modular Operator Carrier Gen II.
+    **Why it matters:** Teaches basic landmark identification and movement within the safe zone.
+  </Step>
+  <Step num="2" title="Cache Retrieval (Gunny)">
+    **Objectives:** Find and mark a cache in your town's lumberyard.
+    **Known Locations:** Warehouse (140 163), Lumber Yard (141 161).
+    **Rewards:** 400 EXP, +100 Gunny Rep, $1,700 USD, 1x Scorpion OCP Convoy Pack.
+    **Why it matters:** An early weapon progression task that builds crucial Gunny reputation.
+  </Step>
+  <Step num="3" title="Meds Wanted (Lab Rat)">
+    **Objectives:** Locate UNLRA medical supplies near the town's water tower.
+    **Known Locations:** Medical Supplies (140 161).
+    **Rewards:** 400 EXP, +100 Lab Rat Rep, $2,200 USD, 1x IFAK.
+    **Why it matters:** Unlocks better medical supplies and sustain options from Lab Rat, essential for survival.
+  </Step>
+  <Step num="4" title="Helping Hand (Handshake)">
+    **Objectives:** Retrieve and deliver intel from the restaurant attic to Handshake.
+    **Known Locations:** Restaurant attic in the starter town (e.g., Kiu Vongsa 141:164).
+    **Rewards:** 400 EXP, +100 Handshake Rep, $2,300 USD, 1x Leather Key Holder.
+    **Why it matters:** Often the first key-gated task, introducing the importance of key management.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Task Prioritization">
+Always prioritize tasks that grant reputation with vendors like Lab Rat and Gunny early on. This unlocks access to better medical supplies, weapons, and attachments, significantly boosting your survivability and combat effectiveness.
+</Callout>
+
+### Vendor Task Progression
+
+| Vendor    | Key Early Tasks                                   | Primary Rewards                                   | Progression Note                                        |
+| :-------- | :------------------------------------------------ | :------------------------------------------------ | :------------------------------------------------------ |
+| **Handshake** | First Recon, Helping Hand, The Shadow Over Ban Pa | EXP, USD, Rep, Gear, Unlock Turncoat Vendor       | General gear, storage, and initial intel tasks          |
+| **Gunny**     | Cache Retrieval, Leave No Man Behind              | EXP, USD, Rep, Weapon parts, Chest Rigs           | Weapons, magazines, and weapon attachments              |
+| **Lab Rat**   | Meds Wanted, Native Negotiations                  | EXP, USD, Rep, IFAK, Unlock Artisan Vendor        | Medical supplies, food, and sustain items               |
+| **Artisan**   | Tools of the Trade, Invaders From Afar            | EXP, USD, Rep, Specific weapon parts              | Advanced weapon customization and specialized gear      |
+
+</Section>
+
+<Section icon={Shield} title="Survival Essentials: Staying Alive on Lamang Island">
+Gray Zone Warfare is an extraction shooter, meaning every raid carries the risk of losing your gear. Understanding and managing basic survival mechanics is critical, especially when starting out on Ground Zero. Pay close attention to your health, hydration, and energy levels to avoid preventable deaths.
+
+<CardGrid cols={2}>
+  <Card title="Hydration & Energy">
+    - **Thirsty:** Below 50% hydration, no blood regeneration.
+    - **Dehydrated:** At 1% hydration, hazy vision.
+    - **Hungry:** Below 50% energy, no blood regeneration.
+    - **Starving:** At 1% energy, hazy vision.
+    - **Always carry water and food.**
+  </Card>
+  <Card title="Injury & Coma">
+    - **Bleeding:** Light, medium, and severe bleeding cause continuous blood loss. Treat immediately.
+    - **Coma:** Can occur if blood drops below 50% or from destroyed organs (lungs/liver).
+    - **Revival Window:** Squadmates have ~180 seconds to revive a player in a coma.
+    - **Medical items** like IFAKs and bandages are essential.
+  </Card>
+</CardGrid>
+
+The secure lockbox is your best friend on Ground Zero. Any items placed inside it are protected from loss upon death. This is particularly important for quest items or high-value loot you cannot afford to lose.
+
+<Callout type="warning" title="Secure Your Valuables">
+Always place quest items and high-value loot you intend to keep into your secure lockbox. Losing mission-critical items can significantly impede your progression and force you to restart tasks.
+</Callout>
+
+### Key Survival Strategies
+
+<Checklist
+  id="survival-tips"
+  title="Ground Zero Survival Checklist:"
+  items={[
+    "Keep hydration and energy above 50% at all times.",
+    "Carry at least one IFAK and bandages for emergencies.",
+    "Utilize the secure lockbox for all quest items and high-tier loot.",
+    "Understand helicopter mechanics: invulnerability on board and 4-second grace period after exit.",
+    "Avoid AFK outside safe zones; inactivity can lead to gear loss if removed from deployment."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimizing Loot & Economy on Ground Zero">
+Establishing a stable economy early in Gray Zone Warfare is crucial for continuous gear acquisition and task completion. On Ground Zero, focus on low-risk loot routes and smart selling practices. Task rewards provide a baseline income, but efficient looting significantly boosts your funds.
+
+<Callout type="info" title="Money & Looting Philosophy">
+Money in Gray Zone Warfare stems from two consistent sources: task rewards and intelligent looting. Early tasks offer cash and reputation, while vendor networks at the FOB allow you to sell valuables. A good recovery loop involves completing nearby tasks, looting efficiently, selling smartly, and using payouts to restock without overspending on expensive kits.
+</Callout>
+
+### Efficient Looting and Selling
+
+| Action                               | Priority | Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| :----------------------------------- | :------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Complete Paid Tasks**              | High     | Many early tasks from Handshake, Gunny, and Lab Rat provide direct cash rewards alongside EXP and reputation. Examples include "Meds Wanted" ($1,200), "Helping Hand" ($440), and "What's in Store" ($3,300). These are reliable income sources.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Prioritize Firearm Containers**    | High     | When looting, focus on firearm containers (CSI Firearms Box, UN Firearms Box, Firearms Box). These often contain weapons, magazines, and weapon parts, which are generally more valuable than random clutter. Military Firearms Crates can also yield high-tier magazines like the **AK308 7.62x51mm 20-Round Magazine** or **AK74 5.45x39mm 60-Round Magazine**.                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Sell to Best-Paying Vendor**       | Medium   | While you can sell valuables to any vendor, some vendors pay more for specific items. Consult a game wiki or community resources to identify the highest-paying buyer for each item to maximize your returns. Selling to a non-specialized vendor typically results in a 50% price reduction.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Turn Cash into Vendor Access**     | High     | Use your earned currency to buy items that help complete tasks, which in turn boosts vendor reputation. Higher vendor reputation unlocks better stock, allowing you to purchase superior weapons, armor, and medical supplies. This creates a positive feedback loop for progression. Update 0.4 rebalanced rewards to emphasize money over items, making cash management even more important.                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Low-Risk Loot Routes**             | High     | Stick to areas with fewer hostile NPCs or player traffic during early raids. Starter towns and their immediate peripheries often contain enough low-tier loot to build a decent bankroll without engaging in high-stakes combat. Focus on containers and specific loot spots tied to early tasks.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Secure Lockbox Usage**             | Critical | Always use your secure lockbox for items you want to guarantee keeping. This includes high-value components, quest items, or rare finds. This prevents losing critical resources if you are eliminated during a raid.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+
+</Section>
+
+<Section icon={Trophy} title="Ground Zero FAQ">
+<FAQ items={[
+  {
+    question: "What is Ground Zero in Gray Zone Warfare?",
+    answer: "Ground Zero refers to the initial starting areas for new PMC operators on Lamang Island. It's designed to introduce players to core game mechanics, early tasks, and basic survival before they venture into more dangerous zones."
+  },
+  {
+    question: "Which faction should I choose for the best Ground Zero experience?",
+    answer: "Your faction choice determines your starting town (Kiu Vongsa, Nam Thaven, or Pha Lang). Crimson Shield International (Kiu Vongsa) is often considered more beginner-friendly due to safer early routes, while Lamang Recovery Initiative (Pha Lang) offers quicker access to contested zones for experienced players."
+  },
+  {
+    question: "How can I protect my gear on Ground Zero?",
+    answer: "The most effective way to protect your gear, especially quest items and valuables, is to place them in your secure lockbox. Items in the secure lockbox are not lost upon death, ensuring you retain critical resources."
+  },
+  {
+    question: "What are the most important early tasks on Ground Zero?",
+    answer: "Focus on tasks like 'First Recon' (Handshake), 'Cache Retrieval' (Gunny), and 'Meds Wanted' (Lab Rat). These tasks provide essential EXP, currency, and vendor reputation, unlocking better gear and medical supplies critical for early survival and progression."
+  }
+]} />
+</Section>

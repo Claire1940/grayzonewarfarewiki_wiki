@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Plane } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare vu du ciel : Utilisation des hélicoptères et stratégie de zone d'atterrissage (LZ)",
+  description: "Maîtrisez l'utilisation des hélicoptères et la stratégie de zone d'atterrissage (LZ) dans Gray Zone Warfare pour améliorer la survie, le positionnement et l'avantage tactique sur l'île de Lamang.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3A4F41/fff?text=GZW+Helicopter+Guide",
+  date: "2026-06-18",
+  author: "Équipe Wiki de Gray Zone Warfare"
+}
+
+<Callout type="info" title="Guide Rapide">
+- L'**utilisation des hélicoptères** est vitale pour un déploiement rapide et un repositionnement tactique dans **Gray Zone Warfare vu du ciel**.
+- Les joueurs bénéficient d'une **invulnérabilité temporaire** après être descendus des hélicoptères, cruciale pour les engagements initiaux.
+- Les **zones d'atterrissage (LZ)** sont essentielles pour planifier les itinéraires et comprendre les types d'ennemis dans différents POI.
+- Le son de l'hélicoptère peut servir de **distraction tactique**, masquant les mouvements de votre équipe.
+- Une **sélection appropriée de la LZ** a un impact direct sur le déroulement précoce des tâches et l'accès aux zones de grande valeur.
+</Callout>
+
+<Section icon={Plane} title="Maîtriser l'utilisation des hélicoptères dans Gray Zone Warfare">
+Les hélicoptères sont plus qu'un simple moyen de transport dans Gray Zone Warfare ; ce sont des atouts tactiques critiques qui influencent la survie, le positionnement et le succès global des missions. Comprendre comment utiliser efficacement le transport aérien, du déploiement au débarquement, peut avoir un impact significatif sur vos raids à travers l'île de Lamang. Ce guide se concentre sur l'exploitation des mécaniques de **Gray Zone Warfare vu du ciel** pour un gameplay optimal.
+
+**Points forts de la vidéo :**
+- L'hélicoptère offre une immunité aux dégâts à bord.
+- Une fenêtre d'invulnérabilité de 4 secondes s'active après la descente.
+- Le bruit de l'hélicoptère peut être utilisé pour distraire l'IA et les autres joueurs.
+
+<Callout type="tip" title="Avantage Tactique">
+Considérez toujours la fenêtre d'invulnérabilité temporaire de l'hélicoptère lorsque vous planifiez votre engagement initial ou votre extraction. Cette brève période peut changer la donne dans les zones d'atterrissage contestées.
+</Callout>
+
+### Aperçu des mécaniques d'hélicoptère
+
+| Caractéristique | Description                                          | Avantage Tactique                                         |
+| :------ | :--------------------------------------------------- | :------------------------------------------------------- |
+| Transport | Déploiement rapide vers les zones d'atterrissage (LZ) désignées   | Accès rapide aux objectifs de mission ou au butin de grande valeur    |
+| Immunité  | Immunisé aux dégâts à l'intérieur de l'hélicoptère         | Voyage sûr au-dessus des zones dangereuses, regroupement              |
+| Invulnérabilité | Fenêtre de 4 secondes après le débarquement           | Crucial pour le positionnement initial, évitant les menaces immédiates |
+| Son       | Signature audio significative à l'arrivée/au départ | Distraction pour l'IA, masquant le mouvement du joueur, ou attirant l'attention |
+
+</Section>
+
+<Section icon={Map} title="Sélection stratégique de la zone d'atterrissage (LZ)">
+Le choix de la bonne zone d'atterrissage (LZ) est primordial pour une planification de mission efficace dans **Gray Zone Warfare**. Chaque LZ est liée à des points d'intérêt (POI) spécifiques, des types d'ennemis et des niveaux de menace. Une LZ bien choisie peut offrir une entrée plus fluide, une meilleure couverture et un chemin plus rapide vers vos objectifs.
+
+<CardGrid cols={2}>
+  <Card title="Villes de départ (Faible menace)">
+    - **Kiu Vongsa** (Crimson Shield International)
+    - **Nam Thaven** (Mithras Security Systems)
+    - **Pha Lang** (Lamang Recovery Initiative)
+    - **Notes rapides** : Favorise le flux précoce des tâches, différentes pièces verrouillées, structure de progression en miroir.
+  </Card>
+  <Card title="POI du milieu de carte (Menace modérée)">
+    - **YBL-1** : Bunker militaire souterrain, 143:122.
+    - **Ban Pa** : Village de niveau 2, Rebelles, Indicatif LZ : INDIA, 205:137.
+    - **Notes rapides** : YBL-1 relie la progression de départ à Ban Pa/Fort Narith. Ban Pa est essentiel pour les tâches de culte et les clés de quête.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Évaluation de la menace LZ">
+Évaluez toujours le niveau de menace d'une LZ avant de vous engager. Atterrir directement dans des zones très contestées sans informations appropriées peut entraîner une perte immédiate d'équipement.
+</Callout>
+
+### Zones d'atterrissage clés et leurs caractéristiques
+
+| Indicatif LZ | POI associé      | Niveau de menace | Faction locale           | Position sur la grille | Notes stratégiques                                     |
+| :---------- | :------------------ | :---------- | :---------------------- | :------------ | :-------------------------------------------------- |
+| CHARLIE     | Kiu Vongsa          | 1           | PMCs                    | 141:164       | Idéal pour les tâches précoces, le butin à faible risque et l'accès aux vendeurs |
+| ECHO        | Nam Thaven          | 1           | PMCs                    | 171:118       | Point d'entrée équilibré, central pour différentes routes   |
+| FOXTROT     | Pha Lang            | 1           | PMCs                    | 202:162       | Accès rapide aux zones contestées, bon pour les départs agressifs |
+| DELTA       | Fort Narith         | 3           | **Soldats LAF**        | 143:129       | Butin militaire de grande valeur, nombreuses tâches et clés   |
+| INDIA       | Ban Pa              | 2           | Rebelles                  | 205:137       | Pression des clés de quête, maison de l'ancien, cabane de pêche        |
+| JULIET      | Tiger Bay           | 3           | Rebelles et soldats LAF   | 198:130       | Objectifs denses, centre commercial, armurerie centrale, tâches UNLRA |
+| HOTEL       | Midnight Sapphire   | 3           | Soldats LAF            | N/A           | Tâches de fin de partie, villa, cascade, objectifs de l'hôtel |
+| LIMA        | Blue Lagoon         | 2           | Rebelles                  | 203:117       | Exploration, rotations sud, recherches de code/cadenas |
+
+</Section>
+
+<Section icon={Target} title="Opérations d'hélicoptère : Un guide étape par étape">
+Les opérations d'hélicoptère réussies impliquent plus qu'un simple embarquement. Des vérifications avant le vol au débarquement tactique, chaque étape contribue à l'efficacité et à la sécurité de la mission. Comprendre ces étapes peut rendre vos déploiements dans **Gray Zone Warfare vu du ciel** fluides.
+
+<Steps>
+  <Step num="1" title="Planification avant le déploiement">
+    Avant d'appeler l'hélicoptère, consultez votre carte pour trouver la LZ optimale. Tenez compte de vos objectifs de tâche, des patrouilles ennemies potentielles et des itinéraires de butin souhaités. Assurez-vous que votre équipe est prête à se déplacer immédiatement après l'atterrissage.
+  </Step>
+  <Step num="2" title="Appeler l'hélicoptère">
+    Naviguez sur votre carte et sélectionnez une LZ disponible. Confirmez la destination et assurez-vous que tous les membres de l'équipe se trouvent dans la zone de ramassage désignée, si vous extrayez. Pour le déploiement, sélectionnez simplement votre LZ souhaitée.
+  </Step>
+  <Step num="3" title="Préparation en vol">
+    Pendant le trajet, communiquez avec votre équipe le plan immédiat de la zone d'atterrissage. Désignez les points d'entrée, les positions de couverture initiales et les menaces potentielles. Équipez votre arme principale et préparez-vous à une action immédiate.
+  </Step>
+  <Step num="4" title="Débarquement tactique">
+    À l'atterrissage, utilisez la fenêtre d'invulnérabilité de 4 secondes pour vous déplacer rapidement vers une couverture ou une position stratégique. Évitez de rester immobile à découvert. Utilisez le son de l'hélicoptère comme distraction pour masquer vos mouvements initiaux ou pour détourner l'attention de l'ennemi de votre chemin prévu.
+  </Step>
+  <Step num="5" title="Évaluation post-atterrissage">
+    Après avoir sécurisé votre environnement immédiat, effectuez un balayage rapide pour détecter les hostiles et confirmez votre position par rapport à vos objectifs. Ajustez votre plan si des menaces ou des opportunités inattendues surviennent.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Extraction Efficace">
+Pour les extractions, assurez-vous que tous les objets critiques de la mission se trouvent dans votre coffre-fort sécurisé. Cela minimise les pertes si votre équipe rencontre une résistance inattendue à la LZ.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Utiliser le son de l'hélicoptère pour la tromperie tactique">
+Le son distinctif d'un hélicoptère dans **Gray Zone Warfare** n'est pas seulement un indice auditif ; c'est un outil tactique puissant. Les joueurs avisés peuvent exploiter ce son pour la tromperie, la désorientation et l'obtention d'un avantage sur l'IA et les autres joueurs.
+
+### Liste de contrôle de la tromperie pour les sons d'hélicoptère
+
+<Checklist
+  id="helicopter-tactics"
+  title="Applications tactiques :"
+  items={[
+    "Masquer les pas et les mouvements rapprochés pendant l'approche",
+    "Détourner l'attention de l'IA des points d'entrée principaux",
+    "Créer des diversions pour les flancs d'équipe ou le repositionnement",
+    "Confondre les joueurs ennemis sur les emplacements d'atterrissage exacts",
+    "Lancer une attaque surprise pendant la fenêtre d'invulnérabilité"
+  ]}
+/>
+
+<Callout type="info">
+L'effet sonore de l'hélicoptère est à l'échelle du système et peut être entendu par tous les joueurs et l'IA à proximité, ce qui en fait un outil universel pour les jeux tactiques.
+</Callout>
+
+### Manœuvres tactiques avancées
+
+| Manœuvre                      | Objectif                                    | Exécution                                                   | Niveau de risque |
+| :---------------------------- | :------------------------------------------- | :---------------------------------------------------------- | :--------- |
+| **Infiltration Silencieuse**       | Masquer l'entrée de l'équipe dans une zone chaude          | Atterrir légèrement à l'écart du POI cible, utiliser le son pour se couvrir | Moyen     |
+| **Lâcher de distraction**          | Détourner l'IA d'un objectif sécurisé      | Atterrir près d'un côté d'un POI, flanquer de l'autre côté        | Faible        |
+| **Fausse extraction**       | Tromper les joueurs ennemis sur le départ     | Appeler l'extraction, s'éloigner de la LZ, puis réengager          | Élevé        |
+| **Poussée d'invulnérabilité**      | Entrée agressive dans un bâtiment contesté   | Atterrir directement sur la cible, utiliser l'immunité de 4s pour dégager l'entrée     | Élevé        |
+
+</Section>
+
+<Section icon={Shield} title="Sécurité des hélicoptères et meilleures pratiques">
+Bien que les hélicoptères offrent d'immenses avantages tactiques, négliger les protocoles de sécurité peut rapidement transformer un avantage stratégique en une erreur coûteuse. Le respect des meilleures pratiques vous assure de maximiser les avantages de **Gray Zone Warfare vu du ciel** sans risques inutiles.
+
+<Steps>
+  <Step num="1" title="Communiquer l'intention de la LZ">
+    Communiquez toujours clairement votre LZ choisie et votre plan immédiat à votre équipe. Les atterrissages désorganisés entraînent souvent des pertes précoces.
+  </Step>
+  <Step num="2" title="Dégager les zones d'atterrissage">
+    Avant d'appeler l'extraction, assurez-vous que la LZ est aussi dégagée que possible des menaces immédiates. Engagez tout hostile visible pour sécuriser la zone.
+  </Step>
+  <Step num="3" title="Éviter l'AFK à l'atterrissage">
+    Ne jamais passer en AFK immédiatement après l'atterrissage ou en attendant l'extraction. Le compte à rebours d'inactivité de 15 minutes peut vous retirer d'un déploiement en direct, entraînant une perte d'équipement.
+  </Step>
+  <Step num="4" title="Prioriser la protection de l'équipement">
+    Pour les objets de grande valeur ou les objectifs de quête, placez-les toujours dans votre coffre-fort sécurisé avant de monter à bord de l'hélicoptère, surtout pendant l'extraction.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ : Hélicoptère et LZ de Gray Zone Warfare">
+
+<FAQ items={[
+  {
+    question: "Combien de temps dure l'invulnérabilité après être sorti d'un hélicoptère dans Gray Zone Warfare ?",
+    answer: "Les joueurs bénéficient d'une fenêtre d'invulnérabilité de 4 secondes immédiatement après être descendus d'un hélicoptère. Cette courte période est cruciale pour le positionnement tactique ou la recherche de couverture à l'atterrissage."
+  },
+  {
+    question: "Puis-je utiliser le son de l'hélicoptère à mon avantage contre d'autres joueurs ?",
+    answer: "Oui, la signature audio forte de l'hélicoptère peut être utilisée pour la tromperie tactique. Elle peut masquer les mouvements de votre équipe, créer des diversions ou confondre les joueurs ennemis sur votre point d'atterrissage ou d'extraction exact, ce qui en fait un aspect clé des tactiques de **Gray Zone Warfare vu du ciel**."
+  },
+  {
+    question: "Les différentes zones d'atterrissage (LZ) ont-elles différents types d'ennemis ?",
+    answer: "Oui, diverses LZ sont associées à des points d'intérêt (POI) spécifiques qui présentent souvent des factions locales et des niveaux de menace distincts. Par exemple, les LZ de Fort Narith impliquent généralement des soldats LAF, tandis que les LZ de Ban Pa peuvent avoir des rebelles, ce qui a un impact sur votre approche tactique."
+  },
+  {
+    question: "Que se passe-t-il si je suis AFK pendant un déploiement ou une extraction en hélicoptère ?",
+    answer: "Si vous êtes retiré d'un déploiement en direct en raison du compte à rebours d'inactivité de 15 minutes alors que vous êtes en dehors de votre base d'opérations avancée (BOA) ou en transit, vous perdrez tout l'équipement que vous transportiez, de manière similaire à une mort normale. Restez toujours actif jusqu'à ce que vous soyez en sécurité dans une BOA ou que vous ayez terminé votre extraction."
+  }
+]} />
+
+</Section>

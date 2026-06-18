@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Plane } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare desde el cielo: Uso de helicópteros y estrategia de LZ",
+  description: "Domina el uso de helicópteros y la estrategia de zonas de aterrizaje (LZ) en Gray Zone Warfare para mejorar la supervivencia, el posicionamiento y la ventaja táctica en la Isla Lamang.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/3A4F41/fff?text=GZW+Helicopter+Guide",
+  date: "2026-06-18",
+  author: "Equipo de Wiki de Gray Zone Warfare",
+  keywords: "Gray Zone Warfare, helicóptero, LZ, zona de aterrizaje, estrategia, guía, transporte"
+}
+
+<Callout type="info" title="Guía rápida">
+- **El uso de helicópteros** es vital para el despliegue rápido y el reposicionamiento táctico en **Gray Zone Warfare desde el cielo**.
+- Los jugadores obtienen **invulnerabilidad temporal** al desembarcar de los helicópteros, lo cual es crucial para los enfrentamientos iniciales.
+- Las **Zonas de Aterrizaje (LZ)** son esenciales para planificar rutas y comprender los tipos de enemigos en diferentes POI.
+- El sonido del helicóptero puede servir como una **distracción táctica**, ocultando los movimientos de tu escuadrón.
+- La **selección adecuada de la LZ** impacta directamente en el flujo de las tareas iniciales y el acceso a zonas de alto valor.
+</Callout>
+
+<Section icon={Plane} title="Dominando el uso de helicópteros en Gray Zone Warfare">
+Los helicópteros son más que un simple transporte en Gray Zone Warfare; son un activo táctico crítico que influye en la supervivencia, el posicionamiento y el éxito general de la misión. Comprender cómo utilizar eficazmente el transporte aéreo, desde el despliegue hasta el desembarco, puede afectar significativamente tus incursiones en la Isla Lamang. Esta guía se centra en aprovechar las mecánicas de **Gray Zone Warfare desde el cielo** para una jugabilidad óptima.
+
+**Puntos destacados del video:**
+- El helicóptero proporciona inmunidad al daño mientras se está a bordo.
+- Se activa una ventana de invulnerabilidad de 4 segundos después de bajar.
+- El ruido del helicóptero se puede utilizar para distraer a la IA y a otros jugadores.
+
+<Callout type="tip" title="Ventaja táctica">
+Considera siempre la ventana de invulnerabilidad temporal del helicóptero al planificar tu enfrentamiento inicial o extracción. Este breve período puede cambiar las reglas del juego en zonas de aterrizaje disputadas.
+</Callout>
+
+### Resumen de las mecánicas del helicóptero
+
+| Característica | Descripción | Beneficio táctico |
+| :--- | :--- | :--- |
+| Transporte | Despliegue rápido a Zonas de Aterrizaje (LZ) designadas | Acceso rápido a objetivos de misión o botín de alto valor |
+| Inmunidad | Inmune al daño mientras se está dentro del helicóptero | Viaje seguro sobre áreas peligrosas, reagrupamiento |
+| Invulnerabilidad | Ventana de 4 segundos después de desembarcar | Crucial para el posicionamiento inicial, evitando amenazas inmediatas |
+| Sonido | Firma auditiva significativa al llegar/salir | Distracción para la IA, ocultar el movimiento del jugador o atraer la atención |
+
+</Section>
+
+<Section icon={Map} title="Selección estratégica de la Zona de Aterrizaje (LZ)">
+Elegir la Zona de Aterrizaje (LZ) adecuada es primordial para una planificación de misión eficaz en **Gray Zone Warfare**. Cada LZ está vinculada a Puntos de Interés (POI) específicos, tipos de enemigos y niveles de amenaza. Una LZ bien elegida puede proporcionar una entrada más fluida, mejor cobertura y un camino más rápido hacia tus objetivos.
+
+<CardGrid cols={2}>
+  <Card title="Pueblos de inicio (Amenaza baja)">
+    - **Kiu Vongsa** (Crimson Shield International)
+    - **Nam Thaven** (Mithras Security Systems)
+    - **Pha Lang** (Lamang Recovery Initiative)
+    - **Notas rápidas**: Impulsan el flujo de tareas iniciales, diferentes habitaciones cerradas, estructura de progresión espejada.
+  </Card>
+  <Card title="POI de mitad de mapa (Amenaza moderada)">
+    - **YBL-1**: Búnker subterráneo militar, 143:122.
+    - **Ban Pa**: Aldea de Nivel 2, Rebeldes, Indicativo de LZ: INDIA, 205:137.
+    - **Notas rápidas**: YBL-1 sirve de puente entre la progresión inicial y Ban Pa/Fort Narith. Ban Pa es clave para tareas de culto y llaves de misión.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Evaluación de amenaza de la LZ">
+Evalúa siempre el nivel de amenaza de una LZ antes de comprometerte. Aterrizar directamente en áreas fuertemente disputadas sin información previa puede llevar a la pérdida inmediata de equipo.
+</Callout>
+
+### Zonas de aterrizaje clave y sus características
+
+| Indicativo de LZ | POI asociado | Nivel de amenaza | Facción local | Posición en cuadrícula | Notas estratégicas |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| CHARLIE | Kiu Vongsa | 1 | PMCs | 141:164 | Ideal para tareas iniciales, botín de bajo riesgo y acceso a vendedores |
+| ECHO | Nam Thaven | 1 | PMCs | 171:118 | Punto de entrada equilibrado, central para diferentes rutas |
+| FOXTROT | Pha Lang | 1 | PMCs | 202:162 | Acceso rápido a zonas disputadas, bueno para inicios agresivos |
+| DELTA | Fort Narith | 3 | **Soldados de la LAF** | 143:129 | Botín militar de alto valor, numerosas tareas y llaves |
+| INDIA | Ban Pa | 2 | Rebeldes | 205:137 | Presión por llaves de misión, casa del anciano, cabaña de pesca |
+| JULIET | Tiger Bay | 3 | Rebeldes y Soldados de la LAF | 198:130 | Objetivos densos, centro comercial, armería central, tareas de UNLRA |
+| HOTEL | Midnight Sapphire | 3 | Soldados de la LAF | N/A | Tareas de juego tardío, villa, cascada, objetivos del hotel |
+| LIMA | Blue Lagoon | 2 | Rebeldes | 203:117 | Exploración, rotaciones al sur, búsqueda de códigos/candados |
+
+</Section>
+
+<Section icon={Target} title="Operaciones con helicópteros: Guía paso a paso">
+Las operaciones exitosas con helicópteros implican más que simplemente abordar. Desde las comprobaciones previas al vuelo hasta el desembarco táctico, cada paso contribuye a la eficiencia y seguridad de la misión. Comprender estos pasos puede hacer que tus despliegues en **Gray Zone Warfare desde el cielo** sean fluidos.
+
+<Steps>
+  <Step num="1" title="Planificación previa al despliegue">
+    Antes de llamar al helicóptero, consulta tu mapa para encontrar la LZ óptima. Considera tus objetivos de tarea, posibles patrullas enemigas y rutas de botín deseadas. Asegúrate de que tu escuadrón esté listo para moverse inmediatamente al aterrizar.
+  </Step>
+  <Step num="2" title="Llamar al helicóptero">
+    Navega por tu mapa y selecciona una LZ disponible. Confirma el destino y asegúrate de que todos los miembros del escuadrón estén dentro de la zona de recogida designada, si vas a realizar una extracción. Para el despliegue, simplemente selecciona la LZ deseada.
+  </Step>
+  <Step num="3" title="Preparación durante el vuelo">
+    Mientras estás en ruta, comunícate con tu escuadrón sobre el plan inmediato en la zona de aterrizaje. Designa puntos de entrada, posiciones de cobertura iniciales y amenazas potenciales. Equipa tu arma principal y prepárate para la acción inmediata.
+  </Step>
+  <Step num="4" title="Desembarco táctico">
+    Al aterrizar, utiliza la ventana de invulnerabilidad de 4 segundos para moverte rápidamente a cubierto o a una posición estratégica. Evita quedarte quieto al aire libre. Usa el sonido del helicóptero como distracción para ocultar tus movimientos iniciales o para desviar la atención del enemigo de tu camino previsto.
+  </Step>
+  <Step num="5" title="Evaluación posterior al aterrizaje">
+    Después de asegurar tu entorno inmediato, realiza un escaneo rápido en busca de hostiles y confirma tu posición en relación con tus objetivos. Ajusta tu plan si surgen amenazas u oportunidades inesperadas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Extracción eficiente">
+Para las extracciones, asegúrate de que todos los artículos críticos de la misión estén en tu caja de seguridad. Esto minimiza las pérdidas si tu equipo encuentra resistencia inesperada en la LZ.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Uso del sonido del helicóptero para el engaño táctico">
+El sonido distintivo de un helicóptero en **Gray Zone Warfare** no es solo una señal auditiva; es una poderosa herramienta táctica. Los jugadores astutos pueden aprovechar este sonido para el engaño, la distracción y obtener una ventaja tanto sobre la IA como sobre otros jugadores.
+
+### Lista de verificación de engaño para sonidos de helicóptero
+
+<Checklist
+  id="helicopter-tactics"
+  title="Aplicaciones tácticas:"
+  items={[
+    "Enmascarar pasos y movimientos en distancias cortas durante la aproximación",
+    "Desviar la atención de la IA de los puntos de entrada principales",
+    "Crear distracciones para flanqueos de escuadrón o reposicionamiento",
+    "Confundir a los jugadores enemigos sobre las ubicaciones exactas de aterrizaje",
+    "Iniciar un ataque sorpresa durante la ventana de invulnerabilidad"
+  ]}
+/>
+
+<Callout type="info">
+El efecto de sonido del helicóptero es para todo el sistema y puede ser escuchado por todos los jugadores e IA en las cercanías, lo que lo convierte en una herramienta universal para jugadas tácticas.
+</Callout>
+
+### Maniobras tácticas avanzadas
+
+| Maniobra | Objetivo | Ejecución | Nivel de riesgo |
+| :--- | :--- | :--- | :--- |
+| **Infiltración silenciosa** | Ocultar la entrada del escuadrón a una zona caliente | Aterrizar ligeramente alejado del POI objetivo, usar el sonido como cobertura | Medio |
+| **Despliegue de distracción** | Alejar a la IA de un objetivo seguro | Aterrizar cerca de un lado de un POI, flanquear desde otro lado | Bajo |
+| **Extracción falsa** | Engañar a los jugadores enemigos sobre la salida | Llamar a la extracción, alejarse de la LZ y luego volver a atacar | Alto |
+| **Empuje con invulnerabilidad** | Entrada agresiva en un edificio disputado | Aterrizar directamente en el objetivo, usar la inmunidad de 4s para despejar la entrada | Alto |
+
+</Section>
+
+<Section icon={Shield} title="Seguridad del helicóptero y mejores prácticas">
+Si bien los helicópteros ofrecen inmensas ventajas tácticas, descuidar los protocolos de seguridad puede convertir rápidamente una ventaja estratégica en un error costoso. Seguir las mejores prácticas garantiza que maximices los beneficios de **Gray Zone Warfare desde el cielo** sin riesgos innecesarios.
+
+<Steps>
+  <Step num="1" title="Comunicar la intención de la LZ">
+    Comunica siempre claramente la LZ elegida y tu plan inmediato a tu escuadrón. Los aterrizajes desorganizados a menudo conducen a bajas tempranas.
+  </Step>
+  <Step num="2" title="Despejar zonas de aterrizaje">
+    Antes de llamar para la extracción, asegúrate de que la LZ esté lo más libre posible de amenazas inmediatas. Enfréntate a cualquier hostil visible para asegurar el área.
+  </Step>
+  <Step num="3" title="Evitar estar AFK al aterrizar">
+    Nunca te quedes AFK inmediatamente después de aterrizar o mientras esperas la extracción. El temporizador de inactividad de 15 minutos puede sacarte de un despliegue activo, lo que conlleva la pérdida de equipo.
+  </Step>
+  <Step num="4" title="Priorizar la protección del equipo">
+    Para artículos de alto valor u objetivos de misión, colócalos siempre en tu caja de seguridad antes de abordar el helicóptero, especialmente durante la extracción.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes: Helicóptero y LZ en Gray Zone Warfare">
+
+<FAQ items={[
+  {
+    question: "¿Cuánto dura la invulnerabilidad después de salir de un helicóptero en Gray Zone Warfare?",
+    answer: "Los jugadores tienen una ventana de invulnerabilidad de 4 segundos inmediatamente después de bajar de un helicóptero. Este breve período es crucial para el posicionamiento táctico o para buscar cobertura al aterrizar."
+  },
+  {
+    question: "¿Puedo usar el sonido del helicóptero a mi favor contra otros jugadores?",
+    answer: "Sí, la fuerte firma de audio del helicóptero se puede utilizar para el engaño táctico. Puede ocultar los movimientos de tu equipo, crear distracciones o confundir a los jugadores enemigos sobre tu punto exacto de aterrizaje o extracción, lo que lo convierte en un aspecto clave de las tácticas de **Gray Zone Warfare desde el cielo**."
+  },
+  {
+    question: "¿Tienen las diferentes Zonas de Aterrizaje (LZ) diferentes tipos de enemigos?",
+    answer: "Sí, varias LZ están asociadas con Puntos de Interés (POI) específicos que a menudo presentan facciones locales y niveles de amenaza distintos. Por ejemplo, las LZ de Fort Narith suelen involucrar a soldados de la LAF, mientras que las LZ de Ban Pa pueden tener rebeldes, lo que afecta tu enfoque táctico."
+  },
+  {
+    question: "¿Qué sucede si me quedo AFK durante un despliegue o extracción en helicóptero?",
+    answer: "Si eres expulsado de un despliegue activo debido al temporizador de inactividad de 15 minutos mientras estás fuera de tu Base de Operaciones Avanzada (FOB) o durante el tránsito, perderás cualquier equipo que lleves contigo, de forma similar a una muerte normal. Permanece siempre activo hasta que estés a salvo en una FOB o hayas completado tu extracción."
+  }
+]} />
+
+</Section>

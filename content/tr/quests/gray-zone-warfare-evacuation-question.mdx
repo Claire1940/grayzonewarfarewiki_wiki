@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertCircle, CheckCircle, Lightbulb, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Tahliye Sorusu: Çıkış Noktalarında Ustalaşma",
+  description: "Gray Zone Warfare'de tahliyenin inceliklerini, helikopter mekaniğini, dokunulmazlık sürelerini ve Lamang Adası'ndan başarılı bir şekilde çıkış için taktiksel değerlendirmeleri anlayın.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/8B4513/fff?text=GZW+Evacuation+Guide",
+  date: "2026-06-18",
+  author: "Gray Zone Warfare Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Gray Zone Warfare tahliyesinde** ustalaşmak, teçhizatınızı ve ilerlemenizi korumak için çok önemlidir.
+- Taktiksel konumlandırma için helikopterlerden indikten sonraki **4 saniyelik dokunulmazlık penceresini** kullanın.
+- Helikopterler, gemideyken **hasar bağışıklığı** sağlayarak güvenli bir seyahat seçeneği sunar.
+- Yapay zeka ve potansiyel oyuncu tehditlerini göz önünde bulundurarak **tahliye rotalarınızı** dikkatlice planlayın.
+- **İniş bölgesi çağrı işaretlerini** ve konumlarını anlamak, Lamang Adası'nda verimli hareket için anahtardır.
+</Callout>
+
+<Section icon={Map} title="Gray Zone Warfare'de Tahliye Mekaniğini Anlamak">
+Başarılı tahliye, Gray Zone Warfare'deki ilerlemenin temel taşıdır. Verimli ve güvenli bir şekilde nasıl tahliye edileceğini bilmek, zor kazanılan ganimetinizi korumak ve görevleri tamamlamak için hayati önem taşır. Oyunun helikopter taşımacılığı ve dokunulmazlık pencereleri etrafındaki mekaniği, Lamang Adası'ndaki her operatör için çok önemlidir.
+
+Resmi oyun açıklaması Gray Zone Warfare'i "PvE Öncelikli Açık Dünya Taktiksel Nişancı" olarak tanımlayarak, oyuna stratejik bir yaklaşımı vurgular. Bu, oyuncuların tahliyelerini nasıl yönettikleriyle doğrudan bağlantılıdır. Tahliye sırasındaki yanlış adımlar, önemli teçhizat kaybına ve görev başarısızlığına yol açabilir, bu da her ayrıntıyı anlamanın önemini vurgular.
+
+**Video Önemli Noktaları:**
+- Helikopterin alım ve bırakma işlemlerini gösterir.
+- Helikopterden çıkışta dokunulmazlık süresini gösterir.
+- Helikopter seslerinin yapay zekayı nasıl rahatsız edebileceğini açıklar.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Erken Erişim Lansman Fragmanı" />
+
+Helikopterler sadece taşıma araçları değildir; kritik bir taktiksel varlıktır. Oyuncular gemideyken hasara karşı bağışıktır, bu da onları tehlikeli geçişler sırasında güvenli bir sığınak haline getirir. Ayrıca, helikopterden indikten sonraki 4 saniyelik bir dokunulmazlık penceresi, yeniden konumlandırmak veya anında risk almadan tehditlerle başa çıkmak için kısa ama önemli bir fırsat sunar. Helikopterin sesi de, yapay zeka dikkatini anında iniş bölgenizden uzaklaştırmak için taktiksel bir dikkat dağıtıcı olarak hizmet edebilir.
+
+<Callout type="tip" title="Stratejik Hareket">
+Helikopterin gelişini ve gidişini her zaman taktiksel bir olay olarak değerlendirin. Gürültüyü düşmanları kuşatmak veya dikkat dağıtmak için kullanın ve dokunulmazlık penceresini çevrenizi güvene almak için değerlendirin.
+</Callout>
+
+### Helikopter Kullanımı ve Dokunulmazlık
+
+| Özellik             | Açıklama                                                                  | Taktiksel Fayda                                              | Risk Faktörü           |
+| :------------------ | :------------------------------------------------------------------------ | :-------------------------------------------------------- | :--------------------- |
+| **Hasar Bağışıklığı**| Oyuncular helikopterin içindeyken hasar alamazlar.                       | FOB ve konuşlandırma bölgeleri arasında güvenli seyahat.  | Yok (gemideyken)       |
+| **4 Saniyelik Dokunulmazlık**| İndikten sonra kısa süreli hasar bağışıklığı.                      | Anında yeniden konumlandırma veya tehdit değerlendirmesi sağlar. | Hızla sona erer        |
+| **Ses Dağıtıcı**    | Helikopter sesi yapay zekayı ve potansiyel diğer oyuncuları çeker.      | Düşmanları çekmek veya hareketlerinizi gizlemek için kullanılabilir. | Uzaktaki tehditleri uyarır |
+| **Sabit LZ Noktaları**| Tahliye noktaları harita üzerinde önceden belirlenmiştir.                | Tahmin edilebilir rotalar, ancak çekişmeli olabilir.      | Boğulma noktaları mümkün |
+
+</Section>
+
+<Section icon={Target} title="Tahliye Rotalarınızı Planlama">
+Gray Zone Warfare'de etkili tahliye, titiz bir planlama gerektirir. Haritayı anlamak, önemli ilgi alanlarını (POI'ler) belirlemek ve iniş bölgelerinizi (LZ'ler) bilmek kritik bileşenlerdir. Her grup belirli bir kasabada başlar, bu da erken görev akışını ve optimal tahliye yollarını etkiler.
+
+Örneğin, Crimson Shield International Kiu Vongsa yakınlarında, Mithras Security Systems Nam Thaven yakınlarında ve Lamang Recovery Initiative Pha Lang yakınlarında başlar. Bu başlangıç kasabaları sadece ilk görevlerinizi değil, aynı zamanda en yakın ve en güvenli LZ'lerinizi de belirler. İlerledikçe, Ban Pa, Fort Narith ve Tiger Bay gibi daha tehlikeli bölgelere gireceksiniz, burada tahliye planlaması daha da karmaşık hale gelir.
+
+<Callout type="warning" title="AFK Zamanlayıcı Uyarısı">
+Güvenli alanlar dışında AFK kalmayın. Hareketsizlik limiti 15 dakikadır ve AFK iken canlı bir konuşlandırmadan çıkarılırsanız, normal bir ölümde olduğu gibi tüm taşıdığınız teçhizatı kaybedersiniz.
+</Callout>
+
+### Temel Tahliye Planlama Adımları
+
+<Steps>
+  <Step num="1" title="Görev Hedeflerini ve Konumu Değerlendirin">
+    Konuşlandırmadan önce, görevinizin tam yerini ve yakındaki potansiyel tahliye noktalarını anlayın. Birincil ve ikincil LZ'leri belirlemek için etkileşimli bir harita kullanın. Bölgenin tehdit seviyesini ve karşılaşabileceğiniz düşman türlerini (İsyancılar, LAF Askerleri) göz önünde bulundurun.
+  </Step>
+  <Step num="2" title="Farklı Birim Seçiminizi Akıllıca Yapın">
+    Biriminizi seçmeniz, başlangıç kasabanızı ve belirli LZ'lere olan yakınlığınızı etkiler. Örneğin, Lamang Recovery Initiative, Pha Lang Havaalanı yakınında başlar ve çekişmeli bölgelere hızlı erişim sunar. Kiu Vongsa yakınındaki Crimson Shield International daha yavaş, daha güvenli bir erken ilerleme sunabilir.
+  </Step>
+  <Step num="3" title="Teçhizata ve Güvenli Kilitli Kutuyu Öncelik Verin">
+    Tahliye etmeden önce, tüm yüksek değerli veya görev açısından kritik öğelerin Güvenli Kilitli Kutunuza yerleştirildiğinden emin olun. Bu, onları ölüm üzerine kayıptan korur. Yakın dövüş silahları da normal taşınan teçhizat gibi kaybolmaz.
+  </Step>
+  <Step num="4" title="Hidrasyon ve Enerjiyi İzleyin">
+    Düşük hidrasyon ve enerji, koşma, iyileşme ve hayatta kalma yeteneğinizi ciddi şekilde bozabilir. Özellikle yüksek stresli bir tahliye sırasında bu eşiklerin yönetildiğinden her zaman emin olun. Dehidrasyon, bulanık görüşe yol açarak çatışma ve navigasyonu zorlaştırabilir.
+  </Step>
+  <Step num="5" title="Takım Arkadaşlarınızla İletişim Kurun">
+    Bir takımda oynuyorsanız, tahliye planınızı koordine edin. İniş sırasında kimin hangi açıları kapatacağını belirleyin ve herkesin seçilen LZ'yi ve potansiyel tehditleri bildiğinden emin olun. Koma durumuna girerseniz takım arkadaşlarınız sizi 180 saniye içinde canlandırabilir, ancak tahliye sırasında ayrılırsanız bu imkansızdır.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Tahliye Bölgesi Genel Bakışı ve Taktiksel Hususlar">
+Lamang Adası tehlikelerle doludur ve her tahliye bölgesi kendine özgü zorluklar sunar. LZ'lerin belirli özelliklerini, çağrı işaretlerini ve tipik düşman varlığını anlamak, başarılı tahliye için hayati önem taşır. Fort Narith ve Tiger Bay gibi büyük POI'ler yüksek seviyeli ganimetlere sahiptir, ancak aynı zamanda en zorlu düşmanları ve potansiyel olarak diğer oyuncuları da çeker.
+
+Resmi Gray Zone Warfare wiki'si ve çeşitli topluluk tarafından oluşturulan etkileşimli haritalar, bu konumlar hakkında ayrıntılı bilgi sağlar. Özellikle bilinmeyen bir bölgeye baskın yapmadan önce bu kaynaklara başvurmanız önerilir. Araziyi ve düşman türlerini bilmek, doğru teçhizatı ve yaklaşımı hazırlamanıza yardımcı olabilir.
+
+### Başlıca Tahliye Bölgeleri ve Özellikleri
+
+| LZ Çağrı İşareti | Birincil POI        | Katman | Yerel Türü           | Izgara Konumu | Anahtar Taktiksel Notlar                                                              |
+| :---------- | :----------------- | :--- | :-------------------- | :------------ | :------------------------------------------------------------------------------ |
+| **INDIA**   | Ban Pa             | 2    | İsyancılar           | 205:137       | Tarikat görevi ve anahtar aramaları için önemli; yaygın orta oyun tahliye noktası. |
+| **DELTA**   | Fort Narith        | 3    | LAF Askerleri         | 143:129       | Yüksek tehditli, yüksek ödüllü bölge; güçlü teçhizat ve dikkatli yaklaşım gerektirir. |
+| **JULIET**  | Tiger Bay          | 3    | İsyancılar ve LAF Askerleri | 198:130       | En büyük şehir bölgesi; yoğun hedefler, yüksek oyuncu trafiği, karmaşık tahliye. |
+| **HOTEL**   | Midnight Sapphire  | 3    | LAF Askerleri         | N/A           | Yüksek değerli tatil köyü; genellikle oyun sonu görevleri ve anahtarla kilitli rotalarla bağlantılıdır. |
+| **BRAVO**   | YBL-1              | 2    | LAF Askerleri         | 143:122       | Sığınak kompleksi; orta harita yönlendirmesine köprü görevi görür.             |
+| **ECHO**    | Blue Lagoon        | 1    | İsyancılar           | 203:117       | Güney tatil köyü tarafındaki POI; genellikle daha düşük tehdit, erken keşif için iyi. |
+
+<Callout type="success" title="Teçhizatınızı Optimize Etme">
+Fort Narith veya Tiger Bay gibi yüksek tehditli LZ'ler için, tahliye sırasında siper için sis bombaları veya dirençle karşılaşırsanız bastırıcı ateş için yüksek kapasiteli bir şarjör taşımayı düşünün. Balistik hesaplamaları Güncelleme 0.4'te geliştiriliyor, bu da mühimmat seçimini daha kritik hale getiriyor.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gelişmiş Tahliye Stratejileri ve Yaygın Hatalar">
+Deneyimli operatörler bile tahliye sırasında beklenmedik zorlukların kurbanı olabilir. Gelişmiş stratejiler sadece haritayı bilmeyi değil, aynı zamanda oyuncu davranışını tahmin etmeyi, oyun güncellemelerinden yararlanmayı ve yaygın hatalardan kaçınmayı da içerir. Güncelleme 0.4 "Spearhead", ödüllerin yeniden dengelenmesi ve silahlar için kullanım ve yeniden yükleme davranışına vurgu yapılması da dahil olmak üzere oyun mekaniklerinde önemli değişiklikler getirdi. Bu değişiklikler, hayatta kalma ve tahliye yeteneğinizi doğrudan etkiler.
+
+Yaygın bir hata, satıcı itibarının önemini hafife almaktır. Handshake, Lab Rat ve Gunny gibi satıcılar, tahliyeyi başarılı veya başarısız kılacak kritik teçhizat sunar. Görevlerinde ilerlemek sadece nakit sağlamakla kalmaz, aynı zamanda bir LZ'ye giderken çatışmada hayatta kalmak için gerekli olan tıbbi malzemelere, silahlara ve zırhlara daha iyi erişim sağlar.
+
+<CardGrid cols={2}>
+  <Card title="PvE (Ortak Operasyonlar) Tahliyesi">
+    - **Oyuncu karşılaşması riski daha düşük**: Öncelikle yapay zeka tehditlerine odaklanın.
+    - **Daha tahmin edilebilir rotalar**: Diğer PMC'lerden gelen pusu korkusu daha azdır.
+    - **Görev tamamlama için ideal**: Görevleri güvenli bir şekilde ilerletin ve ganimet toplayın.
+    - **Yine de dikkat gerektirir**: Yapay zeka, özellikle yüksek seviyeli bölgelerde çok sayıda ve iyi silahlanmış olabilir.
+  </Card>
+  <Card title="PvEvP (Savaş) Tahliyesi">
+    - **Yüksek oyuncu karşılaşması riski**: Düşman PMC'lerden sürekli tehdit.
+    - **Tahmin edilemeyen rotalar**: LZ'lerde veya popüler yollarda pusuya hazırlıklı olun.
+    - **Yüksek ödül potansiyeli**: Daha değerli ganimet ve yoğun çatışma deneyimleri.
+    - **Gelişmiş taktikler gerektirir**: Siper kullanın, bastırıcı ateş açın ve takımınızla koordineli hareket edin.
+  </Card>
+</CardGrid>
+
+### Başarılı Bir Tahliye İçin Kontrol Listesi
+
+<Checklist
+  id="extraction-checklist"
+  title="Tahliye Öncesi Hazırlık:"
+  items={[
+    "Tıbbi malzemeler tam stoklanmış (IFAK, bandajlar, ateller).",
+    "Güvenli Kilitli Kutu yüksek değerli eşyalarla dolu.",
+    "Silah yeniden doldurulmuş ve yedek şarjörler erişilebilir.",
+    "Hidrasyon ve enerji seviyeleri %50'nin üzerinde.",
+    "Takım iletişimi onaylandı (varsa).",
+    "Seçilen LZ'nin acil tehditlerden arındırılmış olması (mümkünse)."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Info} title="Gray Zone Warfare Tahliyesi Hakkında Sıkça Sorulan Sorular">
+
+<FAQ items={[
+  {
+    question: "Helikopterden indikten sonra dokunulmazlık ne kadar sürer?",
+    answer: "Bir helikopterden indikten sonra, oyuncuların 4 saniyelik bir dokunulmazlık süresi vardır. Bu kısa süre, çevrenizi hızlı bir şekilde değerlendirmek ve siper almak veya acil tehditlerle başa çıkmak için çok önemlidir."
+  },
+  {
+    question: "Tahliye sırasında ölürsem görev eşyalarını kaybeder miyim?",
+    answer: "Görev eşyaları bazen güvenli depolama alanına yerleştirildiğinde hayatta kalsa da, görevler için hızlı teslimat rotalarına öncelik vermek her zaman en iyisidir. Güvenli Kilitli Kutunuzda olmayan herhangi bir eşya, FOB dışında öldüğünüzde genellikle kaybolur."
+  },
+  {
+    question: "Helikopter sesi her zaman yapay zekayı çeker mi?",
+    answer: "Evet, helikopter sesi yapay zeka ve potansiyel olarak diğer oyuncular için taktiksel bir dikkat dağıtıcı görevi görür. Bu, düşmanları hedeflediğiniz yoldan uzaklaştırmak veya inişinizde kendi hareketlerinizi gizlemek için avantajınıza kullanılabilir."
+  },
+  {
+    question: "Gray Zone Warfare'de hareketsizlik limiti nedir ve tahliyeyi nasıl etkiler?",
+    answer: "Hareketsizlik limiti 15 dakikadır. FOB dışındayken hareketsizlik nedeniyle canlı bir konuşlandırmadan çıkarılırsanız, tıpkı savaşta ölmüş gibi tüm teçhizatınızı kaybedersiniz. Her zaman aktif olarak oynadığınızdan veya güvenli bir bölgede olduğunuzdan emin olun."
+  }
+]} />
+
+</Section>

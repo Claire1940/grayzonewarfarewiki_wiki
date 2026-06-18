@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Info, CheckCircle, Lightbulb } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Ground Zero: Essentieller Überlebensleitfaden",
+  description: "Navigieren Sie durch Gray Zone Warfares Ground Zero mit diesem essentiellen Überlebensleitfaden, der Aufgaben, Beute und taktische Tipps für den frühen Fortschritt abdeckt.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/34495e/fff?text=Ground+Zero+Survival",
+  date: "2026-06-18",
+  author: "Gray Zone Warfare Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Ground Zero** ist der kritische Startpunkt für alle neuen PMC-Operatoren in **Gray Zone Warfare**.
+- Konzentrieren Sie sich auf das Abschließen früher **Aufgaben** von Handshake, Gunny und Lab Rat für schnellen Fortschritt.
+- Priorisieren Sie das Management der **sicheren Schließfächer**, um wertvolle Beute und Questgegenstände zu schützen.
+- Verstehen Sie grundlegende **Überlebensmechaniken** wie Hydration, Energie und die Behandlung von Verletzungen, um frühe Todesfälle zu vermeiden.
+- Nutzen Sie **interaktive Karten**, um wichtige Ziele, POIs und Extraktionszonen effizient zu lokalisieren.
+</Callout>
+
+<Section icon={Map} title="Ground Zero verstehen: Ihre ersten Schritte">
+Ground Zero in Gray Zone Warfare bezieht sich auf die anfänglichen Gebiete, in denen PMC-Operatoren eingesetzt werden, und dient als entscheidender Startpunkt für alle neuen Spieler. Diese Zone wurde entwickelt, um Kernmechaniken, erste Aufgaben und die harten Realitäten der Lamang-Insel einzuführen. Die Beherrschung dieses Bereichs ist entscheidend für einen reibungslosen Fortschritt und das Überleben. Spieler werden die Startstadt ihrer Fraktion finden, die als Drehscheibe für frühe Missionen und Sicherheitszonen dient.
+
+**Video-Highlights:**
+- Überblick über die Standorte der Startstädte und ihre Bedeutung.
+- Tipps zur Navigation in der unmittelbaren Umgebung Ihres anfänglichen Spawns.
+- Einführung in die ersten Händleraufgaben und deren Ziele.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Early Access Launch Trailer" />
+
+Ihre Fraktionswahl bestimmt Ihre Startstadt: Crimson Shield International in der Nähe von Kiu Vongsa, Mithras Security Systems in der Nähe von Nam Thaven und Lamang Recovery Initiative in der Nähe von Pha Lang. Jede Stadt bietet eine gespiegelte Fortschrittsstruktur, was bedeutet, dass die Arten der frühen Aufgaben und das allgemeine Layout ähnlich sind, obwohl sich spezifische Orte und verschlossene Räume unterscheiden werden. Die Vertrautheit mit dem Layout Ihrer gewählten Stadt und wichtigen Sehenswürdigkeiten (POIs) ist von größter Bedeutung.
+
+<Callout type="tip" title="Wählen Sie Ihre Startstadt mit Bedacht">
+Während der frühe Fortschritt gespiegelt wird, beeinflusst die Startstadt Ihrer gewählten Fraktion Ihre anfänglichen Routen und Reisezeiten zu den mittleren Kartenzonen wie Fort Narith. Berücksichtigen Sie die ungefähren Fußwege: Lamang (5-10 Min.), Mithras (15-20 Min.), Crimson (25-30+ Min.), wenn Sie schnell tiefer in die Insel vordringen möchten.
+</Callout>
+
+### Übersicht der wichtigsten Startstädte
+
+| Fraktion                         | Startstadt    | Gitterposition | Primärer Fokus                                       | Anmerkungen                                                    |
+| :------------------------------- | :------------ | :------------ | :--------------------------------------------------- | :------------------------------------------------------- |
+| **Crimson Shield International** | Kiu Vongsa    | 141:164       | Langsamer, sichererer früher Fortschritt             | Gut für neue Spieler, um Mechaniken zu lernen                  |
+| **Mithras Security Systems**     | Nam Thaven    | 171:118       | Ausgewogen zwischen sicheren und heißeren Routen     | Moderates Risiko, bietet vielfältige frühe Erfahrungen           |
+| **Lamang Recovery Initiative**   | Pha Lang      | 202:162       | Schneller Zugang zu umkämpften Zonen, höheres Risiko | Ideal für aggressive Spieler oder erfahrene Veteranen     |
+
+</Section>
+
+<Section icon={Target} title="Wesentliche frühe Aufgaben in Ground Zero">
+Aufgaben sind der primäre Motor des Fortschritts in Gray Zone Warfare und bieten Erfahrung, Währung und Ruf bei Händlern. In Ground Zero werden Ihre anfänglichen Aufgaben Sie durch die Grundlagen der Navigation, des Plünderns und des Kampfes führen. Das effiziente Abschließen dieser frühen Missionen ist entscheidend, um bessere Ausrüstung freizuschalten und Ihre operativen Fähigkeiten zu erweitern.
+
+<Steps>
+  <Step num="1" title="Erste Aufklärung (Handshake)">
+    **Ziele:** Überprüfen Sie die Hütte, den Holzlagerplatz und die Tankstelle in Ihrer Startstadt.
+    **Bekannte Orte:** Abgerissenes Gebäude (141 165), Supermarkt (141 162), Tankstelle (144 161).
+    **Belohnungen:** 400 EP, +25 Handshake-Reputation, 1.700 USD, 1x Modular Operator Carrier Gen II.
+    **Warum es wichtig ist:** Lehrt grundlegende Orientierung und Bewegung innerhalb der Sicherheitszone.
+  </Step>
+  <Step num="2" title="Cache-Wiederherstellung (Gunny)">
+    **Ziele:** Finden und markieren Sie einen Cache auf dem Holzlagerplatz Ihrer Stadt.
+    **Bekannte Orte:** Lagerhaus (140 163), Holzlagerplatz (141 161).
+    **Belohnungen:** 400 EP, +100 Gunny-Reputation, 1.700 USD, 1x Scorpion OCP Convoy Pack.
+    **Warum es wichtig ist:** Eine frühe Waffenfortschrittsaufgabe, die entscheidende Gunny-Reputation aufbaut.
+  </Step>
+  <Step num="3" title="Medikamente gesucht (Lab Rat)">
+    **Ziele:** Lokalisieren Sie UNLRA-Medizinvorräte in der Nähe des Wasserturms der Stadt.
+    **Bekannte Orte:** Medizinische Vorräte (140 161).
+    **Belohnungen:** 400 EP, +100 Lab Rat-Reputation, 2.200 USD, 1x IFAK.
+    **Warum es wichtig ist:** Schaltet bessere medizinische Vorräte und Versorgungsoptionen von Lab Rat frei, die für das Überleben unerlässlich sind.
+  </Step>
+  <Step num="4" title="Helfende Hand (Handshake)">
+    **Ziele:** Beschaffen und liefern Sie Informationen vom Dachboden des Restaurants an Handshake.
+    **Bekannte Orte:** Dachboden des Restaurants in der Startstadt (z.B. Kiu Vongsa 141:164).
+    **Belohnungen:** 400 EP, +100 Handshake-Reputation, 2.300 USD, 1x Leder-Schlüsselanhänger.
+    **Warum es wichtig ist:** Oft die erste schlüsselgesicherte Aufgabe, die die Bedeutung des Schlüsselmanagements einführt.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Aufgabenpriorisierung">
+Priorisieren Sie immer Aufgaben, die frühzeitig Reputation bei Händlern wie Lab Rat und Gunny gewähren. Dies schaltet den Zugang zu besseren medizinischen Vorräten, Waffen und Aufsätzen frei, was Ihre Überlebensfähigkeit und Kampfeffektivität erheblich steigert.
+</Callout>
+
+### Händleraufgaben-Fortschritt
+
+| Händler         | Wichtige frühe Aufgaben                           | Primäre Belohnungen                               | Fortschrittsanmerkung                                   |
+| :-------------- | :------------------------------------------------ | :------------------------------------------------ | :------------------------------------------------------ |
+| **Handshake**   | Erste Aufklärung, Helfende Hand, Der Schatten über Ban Pa | EP, USD, Rep, Ausrüstung, Schaltet Turncoat-Händler frei | Allgemeine Ausrüstung, Lagerung und erste Informationsaufgaben |
+| **Gunny**       | Cache-Wiederherstellung, Niemanden zurücklassen | EP, USD, Rep, Waffenteile, Chest Rigs           | Waffen, Magazine und Waffenaufsätze              |
+| **Lab Rat**     | Medikamente gesucht, Einheimische Verhandlungen    | EP, USD, Rep, IFAK, Schaltet Artisan-Händler frei | Medizinische Vorräte, Nahrung und Versorgungsgegenstände |
+| **Artisan**     | Werkzeuge des Handwerks, Eindringlinge von Weitem | EP, USD, Rep, Spezifische Waffenteile              | Fortgeschrittene Waffenanpassung und spezialisierte Ausrüstung |
+
+</Section>
+
+<Section icon={Shield} title="Überlebensgrundlagen: Überleben auf Lamang Island">
+Gray Zone Warfare ist ein Extraction Shooter, was bedeutet, dass jeder Raid das Risiko birgt, Ihre Ausrüstung zu verlieren. Das Verständnis und die Verwaltung grundlegender Überlebensmechaniken sind entscheidend, besonders wenn Sie in Ground Zero beginnen. Achten Sie genau auf Ihre Gesundheit, Hydration und Energielevel, um vermeidbare Todesfälle zu vermeiden.
+
+<CardGrid cols={2}>
+  <Card title="Hydration & Energie">
+    - **Durstig:** Unter 50 % Hydration, keine Blutregeneration.
+    - **Dehydriert:** Bei 1 % Hydration, verschwommenes Sehen.
+    - **Hungrig:** Unter 50 % Energie, keine Blutregeneration.
+    - **Verhungern:** Bei 1 % Energie, verschwommenes Sehen.
+    - **Tragen Sie immer Wasser und Nahrung bei sich.**
+  </Card>
+  <Card title="Verletzung & Koma">
+    - **Blutung:** Leichte, mittelschwere und schwere Blutungen führen zu kontinuierlichem Blutverlust. Sofort behandeln.
+    - **Koma:** Kann auftreten, wenn der Blutspiegel unter 50 % fällt oder durch zerstörte Organe (Lunge/Leber).
+    - **Wiederbelebungsfenster:** Squadmates haben ~180 Sekunden Zeit, einen Spieler im Koma wiederzubeleben.
+    - **Medizinische Gegenstände** wie IFAKs und Bandagen sind unerlässlich.
+  </Card>
+</CardGrid>
+
+Das sichere Schließfach ist Ihr bester Freund in Ground Zero. Alle darin platzierten Gegenstände sind vor Verlust im Todesfall geschützt. Dies ist besonders wichtig für Questgegenstände oder wertvolle Beute, die Sie sich nicht leisten können zu verlieren.
+
+<Callout type="warning" title="Sichern Sie Ihre Wertsachen">
+Legen Sie Questgegenstände und wertvolle Beute, die Sie behalten möchten, immer in Ihr sicheres Schließfach. Der Verlust missionskritischer Gegenstände kann Ihren Fortschritt erheblich behindern und Sie zwingen, Aufgaben neu zu starten.
+</Callout>
+
+### Wichtige Überlebensstrategien
+
+<Checklist
+  id="survival-tips"
+  title="Ground Zero Überlebens-Checkliste:"
+  items={[
+    "Halten Sie Hydration und Energie jederzeit über 50 %.",
+    "Tragen Sie mindestens einen IFAK und Bandagen für Notfälle bei sich.",
+    "Nutzen Sie das sichere Schließfach für alle Questgegenstände und hochwertige Beute.",
+    "Verstehen Sie die Helikoptermechanik: Unverwundbarkeit an Bord und 4 Sekunden Gnadenfrist nach dem Ausstieg.",
+    "Vermeiden Sie AFK außerhalb von Sicherheitszonen; Inaktivität kann zum Verlust der Ausrüstung führen, wenn Sie aus dem Einsatz entfernt werden."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Beute & Wirtschaft in Ground Zero optimieren">
+Der Aufbau einer stabilen Wirtschaft früh in Gray Zone Warfare ist entscheidend für die kontinuierliche Beschaffung von Ausrüstung und das Abschließen von Aufgaben. Konzentrieren Sie sich in Ground Zero auf risikoarme Beuterouten und clevere Verkaufspraktiken. Aufgabenbelohnungen bieten ein Grundeinkommen, aber effizientes Plündern steigert Ihre Gelder erheblich.
+
+<Callout type="info" title="Geld- & Plünderphilosophie">
+Geld in Gray Zone Warfare stammt aus zwei konstanten Quellen: Aufgabenbelohnungen und intelligentes Plündern. Frühe Aufgaben bieten Bargeld und Reputation, während Händlernetzwerke am FOB es Ihnen ermöglichen, Wertsachen zu verkaufen. Ein guter Wiederherstellungszyklus beinhaltet das Abschließen nahegelegener Aufgaben, effizientes Plündern, kluges Verkaufen und die Verwendung von Auszahlungen zum Wiederauffüllen ohne zu viel für teure Ausrüstungen auszugeben.
+</Callout>
+
+### Effizientes Plündern und Verkaufen
+
+| Aktion                               | Priorität | Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| :----------------------------------- | :------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Bezahlte Aufgaben abschließen**     | Hoch     | Viele frühe Aufgaben von Handshake, Gunny und Lab Rat bieten direkte Bargeldprämien neben EP und Reputation. Beispiele sind „Meds Wanted“ (1.200 $), „Helping Hand“ (440 $) und „What's in Store“ (3.300 $). Dies sind zuverlässige Einkommensquellen.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Feuerwaffenbehälter priorisieren** | Hoch     | Konzentrieren Sie sich beim Plündern auf Feuerwaffenbehälter (CSI Firearms Box, UN Firearms Box, Firearms Box). Diese enthalten oft Waffen, Magazine und Waffenteile, die im Allgemeinen wertvoller sind als zufälliger Krimskrams. Militärische Feuerwaffenkisten können auch hochwertige Magazine wie das **AK308 7.62x51mm 20-Schuss-Magazin** oder das **AK74 5.45x39mm 60-Schuss-Magazin** enthalten.                                                                                                                                                                                                                                                                                                                                                                                           |
+| **An den bestzahlenden Händler verkaufen** | Mittel   | Während Sie Wertsachen an jeden Händler verkaufen können, zahlen einige Händler mehr für bestimmte Gegenstände. Konsultieren Sie ein Spiel-Wiki oder Community-Ressourcen, um den bestzahlenden Käufer für jeden Gegenstand zu ermitteln und Ihre Rendite zu maximieren. Der Verkauf an einen nicht spezialisierten Händler führt typischerweise zu einer Preisminderung von 50 %.                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Bargeld in Händlerzugang umwandeln** | Hoch     | Verwenden Sie Ihr verdientes Geld, um Gegenstände zu kaufen, die Ihnen helfen, Aufgaben zu erledigen, was wiederum die Händlerreputation steigert. Eine höhere Händlerreputation schaltet besseren Bestand frei, sodass Sie überlegene Waffen, Rüstungen und medizinische Vorräte kaufen können. Dies schafft eine positive Rückkopplungsschleife für den Fortschritt. Update 0.4 hat die Belohnungen neu ausbalanciert, um Geld gegenüber Gegenständen zu betonen, was das Geldmanagement noch wichtiger macht.                                                                                                                                                                                                                                                                                                                                      |
+| **Risikoarme Beuterouten**          | Hoch     | Halten Sie sich bei frühen Raids an Gebiete mit weniger feindlichen NPCs oder Spieleraufkommen. Startstädte und ihre unmittelbaren Randgebiete enthalten oft genug Beute niedriger Stufe, um ein anständiges Bankroll aufzubauen, ohne sich in hochriskante Kämpfe zu verwickeln. Konzentrieren Sie sich auf Behälter und spezifische Beutepunkte, die mit frühen Aufgaben verbunden sind.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Verwendung des sicheren Schließfachs** | Kritisch | Verwenden Sie immer Ihr sicheres Schließfach für Gegenstände, die Sie garantiert behalten möchten. Dazu gehören hochwertige Komponenten, Questgegenstände oder seltene Funde. Dies verhindert den Verlust kritischer Ressourcen, wenn Sie während eines Raids eliminiert werden.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+
+</Section>
+
+<Section icon={Trophy} title="Ground Zero FAQ">
+<FAQ items={[
+  {
+    question: "Was ist Ground Zero in Gray Zone Warfare?",
+    answer: "Ground Zero bezieht sich auf die anfänglichen Startgebiete für neue PMC-Operatoren auf Lamang Island. Es wurde entwickelt, um Spieler in die Kernspielmechaniken, frühe Aufgaben und grundlegendes Überleben einzuführen, bevor sie sich in gefährlichere Zonen wagen."
+  },
+  {
+    question: "Welche Fraktion sollte ich für das beste Ground Zero-Erlebnis wählen?",
+    answer: "Ihre Fraktionswahl bestimmt Ihre Startstadt (Kiu Vongsa, Nam Thaven oder Pha Lang). Crimson Shield International (Kiu Vongsa) wird aufgrund sichererer früher Routen oft als anfängerfreundlicher angesehen, während Lamang Recovery Initiative (Pha Lang) erfahrenen Spielern einen schnelleren Zugang zu umkämpften Zonen bietet."
+  },
+  {
+    question: "Wie kann ich meine Ausrüstung in Ground Zero schützen?",
+    answer: "Der effektivste Weg, Ihre Ausrüstung, insbesondere Questgegenstände und Wertsachen, zu schützen, besteht darin, sie in Ihr sicheres Schließfach zu legen. Gegenstände im sicheren Schließfach gehen beim Tod nicht verloren, wodurch Sie kritische Ressourcen behalten."
+  },
+  {
+    question: "Was sind die wichtigsten frühen Aufgaben in Ground Zero?",
+    answer: "Konzentrieren Sie sich auf Aufgaben wie 'First Recon' (Handshake), 'Cache Retrieval' (Gunny) und 'Meds Wanted' (Lab Rat). Diese Aufgaben liefern wesentliche EP, Währung und Händlerreputation, wodurch bessere Ausrüstung und medizinische Vorräte freigeschaltet werden, die für das frühe Überleben und den Fortschritt entscheidend sind."
+  }
+]} />
+</Section>

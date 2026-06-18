@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Carne Fresca: Guia de Sobrevivência para Iniciantes",
+  description: "Domine o básico de Gray Zone Warfare como 'carne fresca' com este guia completo de sobrevivência, cobrindo tarefas iniciais, equipamento essencial e dicas de progressão precoce para a Ilha Lamang em 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/34495e/fff?text=Fresh+Meat+Survival+Guide",
+  date: "2026-06-18",
+  author: "Equipe Wiki de Gray Zone Warfare"
+}
+
+<Callout type="info" title="Guia Rápido para Carne Fresca">
+- **Carne fresca em Gray Zone Warfare** pode se adaptar rapidamente focando em tarefas iniciais e rotas de saque seguras.
+- Priorize a **reputação do vendedor** para desbloquear melhores equipamentos e suprimentos.
+- Entenda o **sistema de saúde** para prevenir mortes comuns de iniciantes por sangramento ou desidratação.
+- Escolha sua **facção sabiamente**, pois isso afeta sua área inicial e rotas de jogo precoce.
+- Uma **gestão eficiente do dinheiro** é crucial para reabastecer e atualizar seu equipamento.
+</Callout>
+
+<Section icon={Map} title="Navegando pela Ilha Lamang: Primeiros Passos para Carne Fresca">
+Como um novo recruta, ou "carne fresca", lançado no ambiente hostil da Ilha Lamang, entender seus arredores é fundamental. Suas tarefas iniciais o guiarão pelos fundamentos, mas conhecer os locais chave e como abordá-los com segurança é crucial para a sobrevivência. A ilha é vasta e implacável, e cada decisão, desde sua zona de pouso até sua rota de extração, tem seu peso.
+
+**Destaques do Vídeo:**
+- Demonstra movimento inicial no jogo e marcadores de objetivo.
+- Mostra abordagens seguras para POIs comuns de cidades iniciais.
+- Destaca encontros de combate básicos contra IA.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Trailer de Lançamento do Acesso Antecipado" />
+
+Sua cidade inicial depende da facção escolhida, mas o ciclo de progressão central permanece similar. Concentre-se em se familiarizar com a vizinhança imediata antes de se aventurar em áreas mais perigosas.
+
+<Callout type="tip" title="Conheça Sua Cidade Inicial">
+Cada facção tem uma cidade inicial única (Kiu Vongsa, Nam Thaven ou Pha Lang). Essas cidades são suas zonas seguras iniciais e o centro para as tarefas iniciais. Aprenda seus layouts, possíveis pontos de surgimento de inimigos e rotas de saque eficientes para minimizar o risco.
+</Callout>
+
+### Locais Iniciais Chave e Sua Importância
+
+| Tipo de Local | Facção | Posição na Grade | Principal Conclusão | Nível de Risco |
+|:--------------|:--------|:--------------|:-------------|:-----------|
+| **Kiu Vongsa** | Crimson Shield International | 141:164 | Bom para progressão inicial mais lenta, perto de áreas costeiras. | Baixo |
+| **Nam Thaven** | Mithras Security Systems | 171:118 | Rotas equilibradas entre zonas mais seguras e mais quentes. | Médio |
+| **Pha Lang** | Lamang Recovery Initiative | 202:162 | Acesso rápido a zonas contestadas como o Aeródromo de Pha Lang. | Alto |
+| **Bunker YBL-1** | Todas | 143:122 | Roteamento no meio do mapa, frequentemente ligado a tarefas de inteligência. | Médio |
+| **Aldeia Ban Pa** | Todas | 205:137 | Área de Nível 2, crucial para tarefas relacionadas a cultos e chaves específicas. | Médio-Alto |
+
+</Section>
+
+<Section icon={Target} title="Progressão de Tarefas Iniciais: Transformando Carne Fresca em Operadores Experientes">
+As tarefas são seu método principal de progressão em Gray Zone Warfare, oferecendo experiência valiosa, dinheiro e reputação com vendedores. Como "carne fresca", cumprir essas missões de forma eficiente ditará seu sucesso inicial. Entender os objetivos, itens necessários e rotas ideais pode prevenir mortes desnecessárias e perdas de equipamento.
+
+<Steps>
+  <Step num="1" title="Primeiro Reconhecimento (Handshake)">
+    **Objetivo**: Verificar pontos de referência específicos em sua cidade inicial (barraco, madeireira, posto de gasolina).
+    **Locais**: Prédio Demolido (141 165), Loja de Conveniência (141 162), Posto de Gasolina (144 161).
+    **Recompensas**: 400 EXP, +25 Reputação com Handshake, US$ 1.700, 1x Modular Operator Carrier Gen II.
+    <Callout type="success">
+    Esta tarefa ensina navegação básica e identificação de pontos de referência dentro de sua zona segura. Concentre-se em furtividade e observação.
+    </Callout>
+  </Step>
+  <Step num="2" title="Medicamentos Procurados (Lab Rat)">
+    **Objetivo**: Encontrar suprimentos médicos da UNLRA perto da torre de água da cidade.
+    **Local**: Suprimentos Médicos (140 161).
+    **Recompensas**: 400 EXP, +100 Reputação com Lab Rat, US$ 2.200, 1x IFAK.
+    <Callout type="tip">
+    Priorize esta tarefa cedo. Lab Rat é crucial para desbloquear melhores suprimentos médicos, impactando diretamente sua capacidade de sobrevivência.
+    </Callout>
+  </Step>
+  <Step num="3" title="Mão Amiga (Handshake)">
+    **Objetivo**: Recuperar inteligência do sótão do restaurante e entregá-la a Handshake.
+    **Local**: Sótão do restaurante Kiu Vongsa (141:164) ou equivalente em outras cidades iniciais.
+    **Recompensas**: 400 EXP, +100 Reputação com Handshake, US$ 2.300, 1x Chaveiro de Couro.
+    <Callout type="warning">
+    Esta tarefa frequentemente introduz os jogadores à progressão por chaves. Certifique-se de ter a chave correta do depósito do restaurante, que geralmente cai de inimigos na área.
+    </Callout>
+  </Step>
+  <Step num="4" title="A Sombra Sobre Ban Pa (Handshake)">
+    **Objetivo**: Explorar os pontos de entrada norte e sul de Ban Pa.
+    **Local**: Área de preparação YBL-1, depois explore Ban Pa ao norte de Tiger Bay.
+    **Recompensas**: 1.000 EXP, +150 Reputação com Handshake, US$ 4.700, 2x Colete Tático Recon, **Desbloqueia o vendedor Turncoat**.
+    <Callout type="info">
+    Este é um marco significativo, empurrando você para fora da fase inicial e concedendo acesso a um novo vendedor com um inventário mais amplo. Prepare-se para um risco maior.
+    </Callout>
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Equipamento Essencial e Gerenciamento de Dinheiro para Novos Jogadores">
+Sobreviver como "carne fresca" em Gray Zone Warfare significa tomar decisões inteligentes sobre seu equipamento e finanças. Perder kits é inevitável, mas guias de dinheiro eficientes e a compreensão da compatibilidade de armas/munições podem reduzir a dor e colocá-lo de volta na luta mais rapidamente.
+
+### Estratégias Chave de Saque e Venda
+
+| Estratégia | Descrição | Benefício | Risco |
+|:---------|:------------|:--------|:-----|
+| **Priorizar Tarefas Pagas** | Tarefas iniciais e de meio de rota oferecem dinheiro, EXP e reputação garantidos. | Renda estável, desbloqueio de vendedores. | Mínimo, se feito em zonas seguras. |
+| **Focar em Contêineres de Armas** | Caixas de armas frequentemente contêm armas, carregadores e peças de alto valor. | Melhor valor de venda, potenciais melhorias de armas. | Pode estar em áreas contestadas. |
+| **Vender para o Melhor Vendedor** | Itens valiosos vendem por mais para vendedores específicos (verifique a wiki). | Lucro maximizado para itens saqueados. | Requer viagem, gerenciamento de inventário. |
+| **Transformar Dinheiro em Reputação** | Use o dinheiro das tarefas para comprar de vendedores, construindo reputação para melhor estoque. | Acesso a equipamentos, medicamentos e munições superiores. | Requer investimento inicial. |
+
+<Callout type="tip" title="Sinergia de Armas e Munições">
+O sistema de armas de Gray Zone Warfare depende muito de famílias de calibres e compatibilidade de carregadores. Aprenda quais calibres suas armas preferidas usam para otimizar o inventário e evitar carregar munições incompatíveis. A última atualização Spearhead enfatiza o manuseio e a balística, tornando as escolhas inteligentes de munição ainda mais críticas.
+</Callout>
+
+### Entendendo os Calibres de Armas
+
+| Calibre | Usado Por (Exemplos) | Classe de Arma | Nota de Planejamento |
+|:--------|:-------------------|:-------------|:--------------|
+| **5.45x39mm** | AK-74M, AK-12 | Rifles de Assalto | Bom para vários rifles padrão AK. |
+| **5.56x45mm NATO** | M4A1, AK-19 | Rifles de Assalto | Família ampla, cobre plataformas ocidentais e algumas AK. |
+| **7.62x39mm** | AKM, AK-15, SKS | Rifles de Assalto, DMR | Versátil tanto para rifles de assalto quanto para configurações SKS. |
+| **7.62x51mm NATO** | AK-308, M700 | AR, Ferrolho | Munições de precisão pesadas, compartilhadas entre plataformas específicas. |
+| **.300 AAC Blackout** | SIG MCX | Rifle de Assalto | Calibre de plataforma dedicado, menos comum no início. |
+
+</Section>
+
+<Section icon={Sparkles} title="Progressão de Vendedores: Desbloqueando Melhores Ferramentas para Sobrevivência">
+Os vendedores são sua tábua de salvação em Gray Zone Warfare. Eles fornecem equipamentos essenciais, compram seu saque e desbloqueiam itens avançados à medida que sua reputação com eles cresce. Entender a especialidade de cada vendedor e seus caminhos de desbloqueio é vital para qualquer "carne fresca" que busca estabelecer uma base sólida.
+
+<CardGrid cols={2}>
+  <Card title="Handshake: O Fornecedor Geral">
+    - **Especialidade**: Capacetes, equipamentos, armaduras corporais, contêineres, ferramentas.
+    - **Caminho de Desbloqueio**: Vendedor inicial.
+    - **Progressão**: Foco em proteção e armazenamento iniciais.
+  </Card>
+  <Card title="Lab Rat: Médico e Suporte">
+    - **Especialidade**: Medicamentos, comida, bebidas, contêineres.
+    - **Caminho de Desbloqueio**: Vendedor principal.
+    - **Progressão**: Essencial para cura e suporte em incursões.
+  </Card>
+  <Card title="Gunny: Especialista em Armas">
+    - **Especialidade**: Armas, carregadores, munição, acessórios.
+    - **Caminho de Desbloqueio**: Vendedor principal.
+    - **Progressão**: Sua opção para melhorar o poder de fogo.
+  </Card>
+  <Card title="Artisan: Armamento Avançado">
+    - **Especialidade**: Armas, acessórios, capacetes, contêineres.
+    - **Caminho de Desbloqueio**: Concluir "Negociações Nativas" (tarefa de Lab Rat).
+    - **Progressão**: Para controle técnico sobre construções de armas.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="A Reputação Importa">
+Completar tarefas para um vendedor é a maneira mais rápida de aumentar sua reputação com ele. Níveis de reputação mais altos desbloqueiam itens mais poderosos e melhores negócios, tornando futuras corridas mais seguras e lucrativas. Não subestime o poder de um bom relacionamento com o vendedor.
+</Callout>
+
+### Limiares de Classificação de Vendedores
+
+| Vendedor | Classificação 1 (Rep) | Classificação 2 (Rep) | Classificação 3 (Rep) | Classificação 4 (Rep) | Nota de Progressão |
+|:-------|:-------------|:-------------|:-------------|:-------------|:-----------------|
+| **Handshake** | 0 | 700 | 2500 | 6500 | Equipamento geral e armazenamento. |
+| **Lab Rat** | 0 | 700 | 2500 | 6500 | Suprimentos médicos e suporte. |
+| **Gunny** | 0 | 700 | 2500 | 6500 | Armas, munição e acessórios. |
+| **Artisan** | 0 | 700 | 2500 | 6500 | Mods de armas avançados, requer tarefa de Lab Rat. |
+| **Banshee** | 0 | 700 | 2500 | 6500 | Armas e equipamentos vestíveis, requer tarefa de Artisan. |
+| **Turncoat** | 0 | 700 | 2500 | 6500 | Inventário amplo, requer tarefa de Handshake. |
+
+</Section>
+
+<Section icon={Trophy} title="FAQ da Carne Fresca: Perguntas Comuns para Novos Recrutas">
+Ao embarcar em sua jornada em Gray Zone Warfare, muitas perguntas surgirão. Aqui estão algumas das perguntas mais comuns de "carne fresca" e suas respostas para ajudá-lo a navegar pelas complexidades da Ilha Lamang.
+
+<FAQ items={[
+  {
+    question: "Qual é a coisa mais importante para a carne fresca de Gray Zone Warfare focar primeiro?",
+    answer: "O foco mais importante para novos jogadores é completar as tarefas iniciais de vendedores como Handshake e Lab Rat. Essas tarefas fornecem experiência essencial, dinheiro e reputação, que desbloqueiam melhores equipamentos e suprimentos médicos cruciais para a sobrevivência."
+  },
+  {
+    question: "Como faço para ganhar dinheiro eficientemente como um novo jogador?",
+    answer: "Ganhar dinheiro eficientemente envolve priorizar tarefas pagas iniciais, focar em saquear contêineres de armas para itens de alto valor e vender objetos de valor para o vendedor que oferece o melhor preço. Evite gastar demais em kits caros até ter uma economia estável."
+  },
+  {
+    question: "Qual facção devo escolher como carne fresca?",
+    answer: "Sua escolha de facção impacta sua cidade inicial e rotas iniciais. A Crimson Shield International (Kiu Vongsa) é geralmente considerada mais amigável para iniciantes devido a uma progressão inicial mais segura. A Mithras Security Systems (Nam Thaven) oferece rotas equilibradas, enquanto a Lamang Recovery Initiative (Pha Lang) proporciona acesso mais rápido a zonas contestadas, adequado para jogadores mais agressivos."
+  },
+  {
+    question: "O que devo fazer se continuar perdendo todo o meu equipamento?",
+    answer: "Se você está constantemente perdendo equipamento, reavalie sua abordagem. Concentre-se no modo de Operações Conjuntas apenas PvE para aprender mapas e mecânicas com segurança. Use sua Caixa Segura para itens de missão valiosos ou saques de alto nível. Priorize tarefas que recompensam equipamento ou dinheiro para reconstruir seu inventário e evite áreas de alto risco até estar melhor equipado."
+  }
+]} />
+
+</Section>

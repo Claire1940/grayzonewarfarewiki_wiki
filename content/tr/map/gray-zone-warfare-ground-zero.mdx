@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle, Info, CheckCircle, Lightbulb } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Ground Zero: Temel Hayatta Kalma Rehberi",
+  description: "Erken ilerleme için görevler, ganimet ve taktiksel ipuçlarını içeren bu temel hayatta kalma rehberiyle Gray Zone Warfare'ın Ground Zero'sunda gezinin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/34495e/fff?text=Ground+Zero+Survival",
+  date: "2026-06-18",
+  author: "Gray Zone Warfare Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Ground Zero**, tüm yeni PMC operatörleri için **Gray Zone Warfare**'da kritik bir başlangıç noktasıdır.
+- Hızlı ilerleme için Handshake, Gunny ve Lab Rat'tan gelen erken **görevleri** tamamlamaya odaklanın.
+- Değerli ganimetleri ve görev öğelerini korumak için **güvenli kilitli kutu** yönetimine öncelik verin.
+- Erken ölümleri önlemek için hidrasyon, enerji ve yaralanma tedavisi gibi temel **hayatta kalma mekaniklerini** anlayın.
+- Ana hedefleri, ilgi çekici noktaları ve çıkarma bölgelerini verimli bir şekilde bulmak için **interaktif haritaları** kullanın.
+</Callout>
+
+<Section icon={Map} title="Ground Zero'yu Anlamak: İlk Adımlarınız">
+Gray Zone Warfare'daki Ground Zero, PMC operatörlerinin konuşlandığı başlangıç bölgelerini ifade eder ve tüm yeni oyuncular için kritik bir başlangıç noktası görevi görür. Bu bölge, temel mekanikleri, ilk görevleri ve Lamang Adası'nın zorlu gerçeklerini tanıtmak için tasarlanmıştır. Bu alanda ustalaşmak, sorunsuz ilerleme ve hayatta kalmak için hayati öneme sahiptir. Oyuncular, erken görevler ve güvenli bölgeler için bir merkez görevi gören kendi fraksiyonlarının başlangıç kasabasıyla karşılaşacaklar.
+
+**Video Önemli Noktaları:**
+- Başlangıç kasabası konumlarına ve önemlerine genel bakış.
+- İlk doğuş yerinizin yakın çevresinde gezinme ipuçları.
+- İlk birkaç satıcı görevi ve hedeflerine giriş.
+
+<YouTubeEmbed videoId="CEqmu4QvkKE" title="Gray Zone Warfare | Erken Erişim Lansman Fragmanı" />
+
+Fraksiyon seçiminiz başlangıç kasabanızı belirler: Kiu Vongsa yakınlarındaki Crimson Shield International, Nam Thaven yakınlarındaki Mithras Security Systems ve Pha Lang yakınlarındaki Lamang Recovery Initiative. Her kasaba, benzer bir ilerleme yapısı sunar, yani erken görevlerin türleri ve genel düzen benzerdir, ancak belirli konumlar ve kilitli odalar farklılık gösterecektir. Seçtiğiniz kasabanın düzenine ve ana ilgi çekici noktalarına (POI'ler) aşina olmak çok önemlidir.
+
+<Callout type="tip" title="Başlangıç Kasabanızı Akıllıca Seçin">
+Erken ilerleme benzer olsa da, seçtiğiniz fraksiyonun başlangıç kasabası, Fort Narith gibi orta harita bölgelerine giden ilk rotalarınızı ve seyahat sürelerinizi etkileyecektir. Adaya hızlı bir şekilde daha derinlere inmeyi planlıyorsanız, yaklaşık yürüme sürelerini göz önünde bulundurun: Lamang (5-10 dk), Mithras (15-20 dk), Crimson (25-30+ dk).
+</Callout>
+
+### Başlangıç Kasabalarına Genel Bakış
+
+| Fraksiyon                      | Başlangıç Kasabası | Izgara Konumu | Birincil Odak                                        | Notlar                                                    |
+| :--------------------------- | :------------ | :------------ | :--------------------------------------------------- | :------------------------------------------------------- |
+| **Crimson Shield International** | Kiu Vongsa    | 141:164       | Daha yavaş, daha güvenli erken ilerleme              | Yeni oyuncuların mekanikleri öğrenmesi için iyi          |
+| **Mithras Security Systems**     | Nam Thaven    | 171:118       | Daha güvenli ve daha sıcak rotalar arasında dengeli | Orta risk, çeşitli erken deneyimler sunar           |
+| **Lamang Recovery Initiative**   | Pha Lang      | 202:162       | Çatışmalı bölgelere hızlı erişim, daha yüksek risk  | Agresif oyuncular veya deneyimli veteranlar için ideal     |
+
+</Section>
+
+<Section icon={Target} title="Ground Zero'daki Temel Erken Görevler">
+Görevler, Gray Zone Warfare'da ilerlemenin ana itici gücüdür ve deneyim, para birimi ve satıcılarla itibar sağlar. Ground Zero'da, ilk görevleriniz size navigasyon, yağmalama ve çatışmanın temellerinde rehberlik edecektir. Bu erken görevleri verimli bir şekilde tamamlamak, daha iyi teçhizatın kilidini açmak ve operasyonel yeteneklerinizi genişletmek için çok önemlidir.
+
+<Steps>
+  <Step num="1" title="İlk Keşif (Handshake)">
+    **Hedefler:** Başlangıç kasabanızdaki kulübeyi, kereste deposunu ve benzin istasyonunu kontrol edin.
+    **Bilinen Konumlar:** Yıkılmış Bina (141 165), Market (141 162), Benzin İstasyonu (144 161).
+    **Ödüller:** 400 EXP, +25 Handshake İtibarı, 1.700 USD, 1x Modüler Operatör Taşıyıcı Gen II.
+    **Neden Önemli:** Güvenli bölge içinde temel yer işaretlerini tanımayı ve hareketi öğretir.
+  </Step>
+  <Step num="2" title="Önbellek Kurtarma (Gunny)">
+    **Hedefler:** Kasabanızın kereste deposunda bir önbellek bulun ve işaretleyin.
+    **Bilinen Konumlar:** Depo (140 163), Kereste Deposu (141 161).
+    **Ödüller:** 400 EXP, +100 Gunny İtibarı, 1.700 USD, 1x Akrep OCP Konvoy Paketi.
+    **Neden Önemli:** Kritik Gunny itibarını inşa eden erken bir silah ilerleme görevi.
+  </Step>
+  <Step num="3" title="İstenen İlaçlar (Lab Rat)">
+    **Hedefler:** Kasabanın su kulesi yakınındaki UNLRA tıbbi malzemelerini bulun.
+    **Bilinen Konumlar:** Tıbbi Malzemeler (140 161).
+    **Ödüller:** 400 EXP, +100 Lab Rat İtibarı, 2.200 USD, 1x IFAK.
+    **Neden Önemli:** Lab Rat'tan daha iyi tıbbi malzemelerin ve sürdürme seçeneklerinin kilidini açar, hayatta kalmak için temeldir.
+  </Step>
+  <Step num="4" title="Yardım Eli (Handshake)">
+    **Hedefler:** Restoran çatısından istihbaratı alıp Handshake'e teslim edin.
+    **Bilinen Konumlar:** Başlangıç kasabasındaki restoran çatısı (örn. Kiu Vongsa 141:164).
+    **Ödüller:** 400 EXP, +100 Handshake İtibarı, 2.300 USD, 1x Deri Anahtarlık.
+    **Neden Önemli:** Genellikle anahtar yönetiminin önemini tanıtan ilk anahtar kapılı görevdir.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Görev Önceliklendirme">
+Her zaman Lab Rat ve Gunny gibi satıcılardan itibar kazandıran görevlere erken öncelik verin. Bu, daha iyi tıbbi malzemelere, silahlara ve eklentilere erişimin kilidini açar, hayatta kalma ve savaş etkinliğinizi önemli ölçüde artırır.
+</Callout>
+
+### Satıcı Görev İlerlemesi
+
+| Satıcı    | Anahtar Erken Görevler                            | Birincil Ödüller                                   | İlerleme Notu                                        |
+| :-------- | :------------------------------------------------ | :------------------------------------------------ | :------------------------------------------------------ |
+| **Handshake** | İlk Keşif, Yardım Eli, Ban Pa Üzerindeki Gölge | EXP, USD, İtibar, Teçhizat, Turncoat Satıcısının Kilidini Açma | Genel teçhizat, depolama ve ilk istihbarat görevleri          |
+| **Gunny**     | Önbellek Kurtarma, Kimseyi Geride Bırakma              | EXP, USD, İtibar, Silah parçaları, Göğüs Rigleri           | Silahlar, şarjörler ve silah eklentileri              |
+| **Lab Rat**   | İstenen İlaçlar, Yerli Müzakereler                  | EXP, USD, İtibar, IFAK, Zanaatkar Satıcısının Kilidini Açma | Tıbbi malzemeler, yiyecek ve sürdürme öğeleri               |
+| **Artisan**   | Zanaat Aletleri, Uzaklardan Gelen İstilacılar            | EXP, USD, İtibar, Belirli silah parçaları              | Gelişmiş silah özelleştirmesi ve özel teçhizat      |
+
+</Section>
+
+<Section icon={Shield} title="Hayatta Kalma Temelleri: Lamang Adası'nda Hayatta Kalmak">
+Gray Zone Warfare bir çıkarma nişancı oyunudur, yani her baskın teçhizatınızı kaybetme riskini taşır. Temel hayatta kalma mekaniklerini anlamak ve yönetmek, özellikle Ground Zero'da başlarken kritik öneme sahiptir. Önlenmesi mümkün ölümlerden kaçınmak için sağlığınıza, hidrasyonunuza ve enerji seviyelerinize çok dikkat edin.
+
+<CardGrid cols={2}>
+  <Card title="Hidrasyon ve Enerji">
+    - **Susuz:** %50 hidrasyonun altında, kan yenilenmesi olmaz.
+    - **Dehidre:** %1 hidrasyonda, bulanık görüş.
+    - **Aç:** %50 enerjinin altında, kan yenilenmesi olmaz.
+    - **Açlıktan Ölen:** %1 enerjide, bulanık görüş.
+    - **Her zaman su ve yiyecek taşıyın.**
+  </Card>
+  <Card title="Yaralanma ve Koma">
+    - **Kanama:** Hafif, orta ve şiddetli kanama sürekli kan kaybına neden olur. Hemen tedavi edin.
+    - **Koma:** Kan %50'nin altına düşerse veya tahrip olmuş organlardan (akciğer/karaciğer) kaynaklanabilir.
+    - **Diriltme Penceresi:** Takım arkadaşları komadaki bir oyuncuyu diriltmek için ~180 saniyeye sahiptir.
+    - IFAK ve bandaj gibi **tıbbi malzemeler** çok önemlidir.
+  </Card>
+</CardGrid>
+
+Güvenli kilitli kutu, Ground Zero'daki en iyi arkadaşınızdır. İçine yerleştirilen tüm öğeler ölüm durumunda kaybolmaya karşı korunur. Bu, özellikle görev öğeleri veya kaybetmeyi göze alamayacağınız yüksek değerli ganimetler için önemlidir.
+
+<Callout type="warning" title="Değerli Eşyalarınızı Güvenceye Alın">
+Görev öğelerini ve saklamak istediğiniz yüksek değerli ganimetleri her zaman güvenli kilitli kutunuza koyun. Görev açısından kritik öğeleri kaybetmek, ilerlemenizi önemli ölçüde engelleyebilir ve görevleri baştan başlatmanıza neden olabilir.
+</Callout>
+
+### Temel Hayatta Kalma Stratejileri
+
+<Checklist
+  id="survival-tips"
+  title="Ground Zero Hayatta Kalma Kontrol Listesi:"
+  items={[
+    "Hidrasyonu ve enerjiyi her zaman %50'nin üzerinde tutun.",
+    "Acil durumlar için en az bir IFAK ve bandaj taşıyın.",
+    "Tüm görev öğeleri ve yüksek seviyeli ganimetler için güvenli kilitli kutuyu kullanın.",
+    "Helikopter mekaniğini anlayın: gemide dokunulmazlık ve çıkıştan sonra 4 saniyelik ek süre.",
+    "Güvenli bölgeler dışında AFK kalmaktan kaçının; hareketsizlik, konuşlandırmadan çıkarılırsanız teçhizat kaybına yol açabilir."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Ground Zero'da Ganimet ve Ekonomiyi Optimize Etmek">
+Gray Zone Warfare'da erken dönemde istikrarlı bir ekonomi kurmak, sürekli teçhizat edinimi ve görev tamamlama için çok önemlidir. Ground Zero'da, düşük riskli ganimet rotalarına ve akıllı satış uygulamalarına odaklanın. Görev ödülleri temel bir gelir sağlar, ancak verimli ganimet toplama fonlarınızı önemli ölçüde artırır.
+
+<Callout type="info" title="Para ve Ganimet Felsefesi">
+Gray Zone Warfare'da para iki tutarlı kaynaktan gelir: görev ödülleri ve akıllı ganimet toplama. Erken görevler nakit ve itibar sunarken, FOB'daki satıcı ağları değerli eşyaları satmanıza olanak tanır. İyi bir kurtarma döngüsü, yakındaki görevleri tamamlamayı, verimli bir şekilde ganimet toplamayı, akıllıca satmayı ve pahalı kitlere aşırı harcama yapmadan yeniden stoklamak için ödemeleri kullanmayı içerir.
+</Callout>
+
+### Verimli Ganimet Toplama ve Satış
+
+| Eylem                               | Öncelik | Detaylar                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| :----------------------------------- | :------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Ücretli Görevleri Tamamlayın**              | Yüksek     | Handshake, Gunny ve Lab Rat'tan gelen birçok erken görev, EXP ve itibarın yanı sıra doğrudan nakit ödüller sağlar. Örnekler arasında "İstenen İlaçlar" (1.200 $), "Yardım Eli" (440 $) ve "Mağazada Ne Var" (3.300 $) bulunur. Bunlar güvenilir gelir kaynaklarıdır.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Ateşli Silah Konteynerlerine Öncelik Verin**    | Yüksek     | Ganimet toplarken, ateşli silah konteynerlerine (CSI Ateşli Silah Kutusu, BM Ateşli Silah Kutusu, Ateşli Silah Kutusu) odaklanın. Bunlar genellikle silah, şarjör ve silah parçaları içerir, bunlar genellikle rastgele dağınıklıktan daha değerlidir. Askeri Ateşli Silah Kasaları ayrıca **AK308 7.62x51mm 20 Mermi Şarjörü** veya **AK74 5.45x39mm 60 Mermi Şarjörü** gibi yüksek seviyeli şarjörler de verebilir.                                                                                                                                                                                                                                                                                                                                                                                           |
+| **En Yüksek Ödeyen Satıcıya Satın**       | Orta   | Değerli eşyaları herhangi bir satıcıya satabilirken, bazı satıcılar belirli öğeler için daha fazla öder. Getirilerinizi en üst düzeye çıkarmak için her öğe için en yüksek ödeyen alıcıyı belirlemek için bir oyun vikisini veya topluluk kaynaklarını inceleyin. Uzmanlaşmamış bir satıcıya satış yapmak genellikle %50 fiyat indirimine neden olur.                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Nakit Parayı Satıcı Erişimine Dönüştürün**     | Yüksek   | Kazandığınız para birimini, satıcı itibarını artıran görevleri tamamlamaya yardımcı olan öğeleri satın almak için kullanın. Daha yüksek satıcı itibarı, daha iyi stokların kilidini açar ve üstün silahlar, zırhlar ve tıbbi malzemeler satın almanıza olanak tanır. Bu, ilerleme için pozitif bir geri bildirim döngüsü oluşturur. Güncelleme 0.4, ödülleri öğeler yerine paraya odaklanacak şekilde yeniden dengeledi, bu da nakit yönetimini daha da önemli hale getirdi.                                                                                                                                                                                                                                                                                                                                                                     |
+| **Düşük Riskli Ganimet Rotaları**             | Yüksek   | Erken baskınlar sırasında daha az düşman NPC veya oyuncu trafiği olan alanlara bağlı kalın. Başlangıç kasabaları ve yakın çevreleri, yüksek riskli çatışmalara girmeden iyi bir banka hesabı oluşturmak için yeterli düşük seviyeli ganimet içerir. Erken görevlerle bağlantılı konteynerlere ve belirli ganimet noktalarına odaklanın.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Güvenli Kilitli Kutu Kullanımı**             | Kritik | Garanti olarak saklamak istediğiniz öğeler için her zaman güvenli kilitli kutunuzu kullanın. Buna yüksek değerli bileşenler, görev öğeleri veya nadir bulunanlar dahildir. Bu, bir baskın sırasında elenirseniz kritik kaynakları kaybetmenizi önler.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+
+</Section>
+
+<Section icon={Trophy} title="Ground Zero SSS">
+<FAQ items={[
+  {
+    question: "Gray Zone Warfare'da Ground Zero nedir?",
+    answer: "Ground Zero, Lamang Adası'ndaki yeni PMC operatörleri için ilk başlangıç bölgelerini ifade eder. Oyuncuları daha tehlikeli bölgelere girmeden önce temel oyun mekaniklerine, erken görevlere ve temel hayatta kalmaya alıştırmak için tasarlanmıştır."
+  },
+  {
+    question: "En iyi Ground Zero deneyimi için hangi fraksiyonu seçmeliyim?",
+    answer: "Fraksiyon seçiminiz başlangıç kasabanızı (Kiu Vongsa, Nam Thaven veya Pha Lang) belirler. Crimson Shield International (Kiu Vongsa), daha güvenli erken rotalar nedeniyle genellikle yeni başlayanlar için daha uygun kabul edilirken, Lamang Recovery Initiative (Pha Lang), deneyimli oyuncular için çatışmalı bölgelere daha hızlı erişim sunar."
+  },
+  {
+    question: "Ground Zero'da teçhizatımı nasıl koruyabilirim?",
+    answer: "Teçhizatınızı, özellikle görev öğelerini ve değerli eşyaları korumanın en etkili yolu, bunları güvenli kilitli kutunuza yerleştirmektir. Güvenli kilitli kutudaki öğeler ölüm durumunda kaybolmaz, bu da kritik kaynakları korumanızı sağlar."
+  },
+  {
+    question: "Ground Zero'daki en önemli erken görevler nelerdir?",
+    answer: "'İlk Keşif' (Handshake), 'Önbellek Kurtarma' (Gunny) ve 'İstenen İlaçlar' (Lab Rat) gibi görevlere odaklanın. Bu görevler, erken hayatta kalma ve ilerleme için kritik olan daha iyi teçhizat ve tıbbi malzemelerin kilidini açan temel EXP, para birimi ve satıcı itibarı sağlar."
+  }
+]} />
+</Section>
