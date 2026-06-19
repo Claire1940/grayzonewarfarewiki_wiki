@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gray Zone Warfare Unlisted Flight: Walkthrough & Locations",
+  description: "Complete the Gray Zone Warfare Unlisted Flight task. Find the exact crash site coordinates, retrieve the flight recorder, and escape safely.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/ffffff?text=Unlisted+Flight+Guide",
+  date: "2026-06-19",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Locate the crashed aircraft southeast of the airfield to complete the **Gray Zone Warfare unlisted flight** quest.
+- **Key Item**: Retrieve the black box flight recorder from the wreckage cargo compartment.
+- **Secure Storage**: Place the recovered flight recorder document inside your Secure Lockbox immediately upon acquisition.
+- **Extraction Protocol**: Return to the Forward Operating Base and hand the recorder over to Handshake for progression.
+</Callout>
+
+<Section icon={Target} title="Task Overview & Tactical Requirements">
+
+The **Gray Zone Warfare unlisted flight** task is a critical early-to-midgame mission issued by Handshake. This operation requires PMCs to investigate a radar anomaly corresponding to an unregistered flight that went down on Lamang Island. Your objective is to locate the crash site, search the debris field, retrieve the aircraft's flight recorder, and extract back to the Forward Operating Base (FOB) safely.
+
+Before deploying to the active zone, you must prepare your character for sustained forest engagement. The airfield perimeter is heavily patrolled by local militia who carry assault rifles. Attempting this run without proper armor and high-penetration ammunition will result in a rapid extraction failure.
+
+| Quest Detail | Specifications |
+|---|---|
+| Quest Giver | Handshake |
+| Primary Location | Outskirts of Pha Lang Airfield |
+| Objective Item | Flight Recorder Document |
+| Enemy Tier | Tier 1 to Tier 2 Militia |
+| Key Requirement | Secure Lockbox space (1x1 slot) |
+
+<Callout type="warning" title="Secure Lockbox Rule">
+Always leave at least one empty slot in your Secure Lockbox before boarding the helicopter. If you die with the flight recorder in your standard backpack or rig, you will lose the item and must repeat the search.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Crash Site Coordinates & Faction Routes">
+
+The wreckage of the unlisted flight lies in the dense jungle vegetation southeast of the Pha Lang Airfield. The airfield itself is located around grid coordinates **202 162**. The actual crash site is tucked away in the tree line, making it difficult to spot from the air or from the main runway.
+
+Depending on your chosen PMC faction, your approach vectors and nearest Landing Zones (LZs) will vary. Use the table below to plan your flight rotation and foot path to the objective site.
+
+| Faction | Starting Town | Recommended LZ | Primary Approach Vector | Danger Level |
+|---|---|---|---|---|
+| Crimson Shield | Kiu Vongsa | LZ Juliet | Approach from the northern road, cutting through the eastern forest line | Medium |
+| Mithras Security | Nam Thaven | LZ Lima | Push east past the swamp area, maintaining cover along the southern ridge | Medium |
+| Lamang Recovery | Pha Lang | LZ Delta | Direct eastern foot path from the starter town outskirts | Low |
+
+<CardGrid cols={3}>
+  <Card title="Crimson Shield Route">
+    - **Helo Landing**: LZ Juliet
+    - **Forest Ingress**: Maintain a stealthy approach through the thick foliage to avoid alerting patrolling guard groups.
+    - **Escape Plan**: Rotate back to the landing zone using the depression in the terrain to break line of sight.
+  </Card>
+  <Card title="Mithras Security Route">
+    - **Helo Landing**: LZ Lima
+    - **Swamp Navigation**: Beware of reduced movement speed in waterlogged areas. Keep your weapon raised.
+    - **Escape Plan**: Secure the southern tree line before calling for extraction to prevent getting pinned down.
+  </Card>
+  <Card title="Lamang Recovery Route">
+    - **Helo Landing**: LZ Delta
+    - **Direct Run**: The shortest foot journey. Watch out for AI spawning near the hangar ruins.
+    - **Escape Plan**: Utilize the airfield perimeter fence for cover during the extraction countdown.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Environmental Cover">
+The crash site is surrounded by tall grass and thick bushes. Move in a crouched position when approaching the wreck. AI units in the area have high detection capabilities and will fire through the foliage if they hear running footsteps.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Steps to Complete the Gray Zone Warfare Unlisted Flight">
+
+Completing the task requires a methodical approach to searching the crash site. Follow these steps to locate the flight recorder, secure the evidence, and return to safety.
+
+<Steps>
+  <Step num="1" title="Accept the Mission and Prepare Gear">
+    Interact with Handshake at the FOB menu. Accept the task and verify you have a 1x1 space open in your Secure Lockbox. Equip a weapon chambered in 5.45x39mm or 5.56x45mm NATO with at least two spare magazines.
+  </Step>
+  <Step num="2" title="Deploy to the Airfield Region">
+    Open your map and request a helicopter transport to the nearest active LZ near Pha Lang Airfield. Board the helicopter. Remember that you are immune to damage while onboard and for 4 seconds after stepping off.
+  </Step>
+  <Step num="3" title="Locate the Wreckage Site">
+    Move toward coordinates **203 162**. Look for broken tree branches and scattered metal debris. The tail section of the fuselage is painted in a faded gray military pattern and rests partially submerged in the mud.
+  </Step>
+  <Step num="4" title="Retrieve the Flight Recorder">
+    Approach the cargo compartment situated near the broken midsection of the aircraft. Search the orange casing container inside the fuselage. Take the document titled "Flight Recorder Data" and place it in your Secure Lockbox.
+  </Step>
+  <Step num="5" title="Extract and Turn In">
+    Move away from the crash site toward your designated extraction zone. Open your map, call a helicopter, and board it immediately upon arrival. Once back at the FOB, open the vendor menu and hand the item to Handshake.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Helicopter Sound Distraction">
+Use the loud engine noise of incoming helicopters to mask your movement. When you hear a helicopter flying overhead, you can sprint to reposition without alerting nearby AI patrols.
+</Callout>
+
+| Target Object | Exact Map Grid | Container Type | Interaction Action | Item Weight / Size |
+|---|---|---|---|---|
+| Fuselage Wreckage | 203 162 | Open Cargo Bay | Search Orange Box | 1x1 Slot |
+| Tail Section | 204 162 | Ground Debris | None (Landmark) | N/A |
+| Flight Recorder | Inside Fuselage | Secure Document | Retrieve | 1x1 Slot |
+
+</Section>
+
+<Section icon={Shield} title="Threat Assessment & Tactical Loadouts">
+
+The airfield and its surrounding forests are occupied by Tier 1 and Tier 2 local rebels. While they lack the heavy plate carriers found in late-game zones like Fort Narith or Tiger Bay, they often patrol in groups of three to five. Engaging them without a plan can lead to getting flanked.
+
+| Enemy Type | Typical Weaponry | Armor Class | Combat Range | Threat Level |
+|---|---|---|---|---|
+| Scout | SKS, AKS-74U | None | Close | Low |
+| Guard | AK-74M, AKM | Class II (Soft) | Medium | Medium |
+| Patrol Leader | M4A1, CQ A1 | Class III (Plates) | Medium to Long | High |
+
+<Callout type="warning" title="Bleeding and Health Penalties">
+If you take damage from militia rounds, treat the bleeding immediately. Light, medium, and severe wounds cause continuous blood loss. If your blood level drops below 50 percent, your operator will enter a coma, leaving you vulnerable unless revived by a squadmate within 180 seconds.
+</Callout>
+
+Use this checklist to verify your operational readiness before boarding the helicopter:
+
+<Checklist
+  id="deployment-readiness"
+  title="Pre-Flight Gear Checklist:"
+  items={[
+    "Class III or higher body armor and helmet equipped",
+    "At least 120 rounds of spare ammunition (preferably PRS or FMJ)",
+    "Two Combat Tourniquets and two Splints in your quick-access pockets",
+    "Hydration and energy levels above 80 percent before leaving the FOB",
+    "At least one free slot inside the Secure Lockbox for the flight document"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Rewards & Progression Outcomes">
+
+Handing over the flight recorder to Handshake completes the mission. The progression rewards significantly boost your standing, allowing you to access better armor and weapon attachments.
+
+| Reward Category | Reward Value | Progression Benefit |
+|---|---|---|
+| Experience Points | 600 EXP | Fast-tracks player account level progression |
+| Vendor Reputation | +120 Handshake Reputation | Helps unlock Rank 2 Handshake shop inventory |
+| Currency | $2,400 USD | Offsets the cost of lost gear sets and ammo |
+| Equipment | 1x Recon Chest Rig | Provides a high-capacity chest rig for future runs |
+
+<Callout type="success" title="Progression Unlocked">
+Completing this task is a prerequisite for unlocking mid-tier intelligence missions. Earning Handshake reputation is critical to buying the Class III armor plates and larger backpacks required for raids on YBL-1.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What should I do if the flight recorder is not spawning in the orange container?",
+    answer: "If the item is missing, another player in your session may have recently looted it. Wait for the location loot pool to reset (typically 10-15 minutes), or log out and join a different server to find a fresh spawn."
+  },
+  {
+    question: "Can I complete the Gray Zone Warfare unlisted flight task in Joint Operations mode?",
+    answer: "Yes. The task objectives, coordinates, and loot spawns are identical in both Warfare (PvPvE) and Joint Operations (PvE) modes. Playing in Joint Operations removes the risk of enemy player intervention."
+  },
+  {
+    question: "How do I deal with the high density of AI patrolling near the crash site?",
+    answer: "Avoid engaging the AI from the open runway. Draw them into the tree line where you can use trees and bushes for cover. Use single-fire mode to conserve ammunition and secure clean headshots."
+  },
+  {
+    question: "Does this task unlock any new weapon vendors?",
+    answer: "Completing this task progresses Handshake's questline, which eventually opens up routing to other vendors like Turncoat and Artisan. However, this specific task does not directly unlock a new trader."
+  }
+]} />
+
+</Section>

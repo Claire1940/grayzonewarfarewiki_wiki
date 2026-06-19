@@ -1,0 +1,175 @@
+import { Map, Shield, Target, Swords, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gray Zone Warfare silent village: Ban Pa Location & Tasks",
+  description: "Navigate the Silent Village of Ban Pa in Gray Zone Warfare. Get coordinates, key spawns, and walkthroughs for crucial Tier 2 faction tasks.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Silent+Village+Guide",
+  date: "2026-06-19",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- Locate the **Gray Zone Warfare silent village** (Ban Pa) at grid coordinates **205 137** in the east.
+- Unlock LZ **India** to establish a secure landing zone and retreat route near the wetlands.
+- Secure the **Elder Room Key** and **Fishing Hut Key** from local Rebel fighters to bypass task blocks.
+- Bring **5.45x39mm or 5.56x45mm** rifles to effectively eliminate heavily armored Rebel patrols in stilt houses.
+</Callout>
+
+<Section icon={Map} title="Finding the Silent Village (Ban Pa)">
+
+The wetlands of Lamang Island present a unique tactical challenge, particularly when deployed to the quiet stilt structures of Ban Pa. Known colloquially as the **Gray Zone Warfare silent village**, this location serves as a critical junction for operators transitioning from early-game deployments to mid-game progression. Navigating this area requires an understanding of waterlogged terrain, tight sightlines, and aggressive patrol routes.
+
+<Callout type="info" title="Tactical Map Positioning">
+Ban Pa is situated in the eastern sector of the map at grid coordinates **205 137**. It sits north of the Tiger Bay shopping center and marina, making it a natural transition zone before operators tackle high-tier city locations.
+</Callout>
+
+To deploy efficiently, operators must unlock LZ **India**, which serves as the primary landing zone for the village. The approach from LZ India requires navigating through dense reeds and shallow water, which limits movement speed and makes you vulnerable to elevated sniper positions on stilt structures. 
+
+| Location Attribute | Details | Tactical Action |
+| :--- | :--- | :--- |
+| **Grid Coordinates** | Grid position 205 137 | Anchor map marker before departure |
+| **Threat Tier** | Tier 2 enemy zone | Prepare medium armor and penetration ammo |
+| **Primary LZ** | LZ India | Primary landing and extraction point |
+| **Local Hostiles** | Rebel forces | Watch for shotgun traps and stilt snipers |
+
+</Section>
+
+<Section icon={Shield} title="Key Spawns and Loot Routes">
+
+Progression through the village is heavily gated by key locks. Farming these keys is a requirement for completing high-value tasks and accessing locked military crates. Unlike starter towns where keys drop frequently from basic enemies, the keys in the silent village drop from specific patrol leaders and inside pockets of higher-tier Rebel defenders.
+
+<Callout type="warning" title="Key Drop Rates">
+Keys are not guaranteed drops. If a key fails to spawn after clearing the village, rotate out of the area or reload the instance in Joint Operations mode to reset the enemy population.
+</Callout>
+
+The two most critical keys are the **Ban Pa Elder's Room Key** and the **Ban Pa Fishing Hut Key**. The Elder's Room Key is essential for progressing the faction task line, while the Fishing Hut Key provides access to high-quality weapon storage.
+
+<CardGrid cols={3}>
+  <Card title="Elder's Room Key">
+    - **Spawn Chance**: Low (dropped by village leaders)
+    - **Target Location**: Second floor of the Elder's House
+    - **Primary Value**: Essential for *It's in the Water II*
+  </Card>
+  <Card title="Fishing Hut Key">
+    - **Spawn Chance**: Medium (dropped by local Rebels)
+    - **Target Location**: Stilt shack near the water edge
+    - **Primary Value**: Accesses 1x Weapon Box and 1x Ammo Crate
+  </Card>
+  <Card title="General Shed Keys">
+    - **Spawn Chance**: High (found in common pockets)
+    - **Target Location**: Outer farm sheds
+    - **Primary Value**: Low-tier supplies and rations
+  </Card>
+</CardGrid>
+
+Loot routes in the village should prioritize the water-side shacks and the main plaza. Because the buildings are elevated, always clear the ground underneath the houses before scaling the stairs to search weapon containers.
+
+| Key Identifier | Locked Room | Loot Container | Target Task |
+| :--- | :--- | :--- | :--- |
+| **Elder Room Key** | Second floor room | Loose files / medical supplies | It's in the Water II |
+| **Fishing Hut Key** | Water-side shack | Weapon box / ammunition crate | Optional high-tier loot |
+| **Shed Key** | Outer storage | Tactical supplies / food | General resupply |
+
+</Section>
+
+<Section icon={Target} title="Silent Village Task Walkthroughs">
+
+Several vendors route their progression through the village, most notably Handshake and Lab Rat. Completing these tasks unlocks the Turncoat vendor, which significantly expands your access to mid-tier weapons and armor plates.
+
+<Callout type="tip" title="Solo Progression Note">
+If you are playing solo in Warfare (PvEvP) mode, wait for other factions to clear the outer patrols before moving into the stilt platforms to reduce the risk of being cornered in the water.
+</Callout>
+
+Follow this sequence to complete the primary missions located in the silent village.
+
+<Steps>
+  <Step num="1" title="Establish the Staging Area">
+    Insert via LZ India. Move slow through the southern tree line. Avoid running directly through the water, as the noise will alert patrols in the southern stilt houses. Set up a secure perimeter along the tree line to scout the village entrance.
+  </Step>
+  <Step num="2" title="Scout the Village Entrances">
+    For the task *The Shadow Over Ban Pa*, you must scout the northern and southern entry points. Move along the eastern edge to reach the northern bridge marker at grid **205 137**. Once marked, rotate back around the southern swamp line to trigger the second marker.
+  </Step>
+  <Step num="3" title="Access the Elder's House">
+    Locate the large two-story building in the center of the village. Use the **Elder Room Key** to unlock the door on the second floor. Retrieve the target intelligence documents or complete the water testing kit interaction for Lab Rat.
+  </Step>
+  <Step num="4" title="Extract via LZ India">
+    Do not run straight back down the main wooden walkways. Instead, drop into the shallow water underneath the stilts, using the wooden pillars as cover from high-angle gunners, and proceed back to LZ India.
+  </Step>
+</Steps>
+
+Executing these steps secures critical reputation gains that allow you to upgrade your inventory options at the Forward Operating Base (FOB).
+
+| Task Title | Contractor | Cash Reward | Unlock Benefit |
+| :--- | :--- | :--- | :--- |
+| **Shadow Over Ban Pa** | Handshake | $4,700 USD | Unlock Turncoat vendor |
+| **It's in the Water II** | Lab Rat | $3,200 USD | Advanced medical stock |
+| **Elder Intel** | Handshake | $2,800 USD | Faction reputation gain |
+
+</Section>
+
+<Section icon={Swords} title="Tactics for the Gray Zone Warfare silent village">
+
+Combat in the **Gray Zone Warfare silent village** is defined by verticality and movement penalties. The water throughout the village slows your movement by up to 50 percent, making you an easy target if you are caught out of cover.
+
+<Callout type="success" title="Weapon Handling Strategy">
+Recent updates modify weapon sway, ergonomics, and arm stamina. When holding angles from the stilt house windows, rest your weapon or drop to a crouch to minimize stamina drain and keep your aim stable.
+</Callout>
+
+Prepare your loadout specifically for mid-range skirmishes and close-quarters house clearing.
+
+<Checklist
+  id="silent-village-prep"
+  title="Silent Village Operations Checklist:"
+  items={[
+    "Equip Class 3 body armor to protect against Rebel shotgun and rifle rounds",
+    "Bring at least three full magazines of high-penetration ammunition",
+    "Pack hydration and energy items to counter the high stamina drain of swamp movement",
+    "Carry splints and surgical kits to treat leg fractures from elevated fall damage"
+  ]}
+/>
+
+Because local hostiles utilize basic armor, high-velocity rounds like **5.45x39mm PP** or **5.56x45mm M855** are highly effective. Avoid using low-penetration pistol calibers or buckshot, as they struggle against the wooden barriers and light armor worn by village defenders.
+
+| Caliber | Target Weapon | Pen Performance | Armor Compatibility |
+| :--- | :--- | :--- | :--- |
+| **5.45x39mm** | AK-74M / AK-12 | Good penetration | Defeats basic Rebel plates |
+| **5.56x45mm** | M4A1 / DDM4 | Excellent flat trajectory | Pierces helmet defense easily |
+| **7.62x39mm** | AK-15 / SKS | High kinetic damage | Strong against unarmored targets |
+
+</Section>
+
+<Section icon={Trophy} title="Summary and FAQ">
+
+Surviving the silent village requires patience, proper key management, and defensive movement. Prioritize unlocking LZ India, farm the local patrols for the Elder and Fishing Hut keys, and use the stilt pillars for cover during extraction.
+
+<Callout type="info" title="Vendor Unlock Progression">
+Completing the task *The Shadow Over Ban Pa* is one of the most important milestones in the mid-game. It opens up the Turncoat vendor network, giving you direct purchase paths for premium tactical rigs and specialized weapon attachments.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "How do I safely navigate the Gray Zone Warfare silent village?",
+    answer: "Avoid walking on the open wooden bridges where you lack cover. Travel underneath the stilt houses, use the structural pillars for defense, and keep your stamina high to counter the movement penalties of the swamp water."
+  },
+  {
+    question: "Where do the keys for the silent village spawn?",
+    answer: "The Ban Pa Elder's Room Key and Fishing Hut Key spawn in the pockets of local Rebel guards patrolling the center plaza and stilt buildings. Clear these guards systematically to farm the drops."
+  },
+  {
+    question: "What should I do if the keys do not drop?",
+    answer: "If the keys do not spawn after clearing the village, you can return to the FOB and deploy into a new instance, or join a squad with an operator who already has the rooms unlocked."
+  },
+  {
+    question: "Which LZ is closest to the silent village?",
+    answer: "LZ India, located southeast of the village, is the closest landing zone. It provides a direct approach through the southern tree line and wetlands."
+  }
+]} />
+
+</Section>

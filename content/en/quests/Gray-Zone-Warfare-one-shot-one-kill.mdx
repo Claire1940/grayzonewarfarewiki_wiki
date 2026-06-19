@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gray Zone Warfare one shot one kill: Ballistics & Weapon Guide",
+  description: "Master the Gray Zone Warfare one shot one kill mechanics. Discover the best sniper rifles, high-penetration ammo tiers, and ballistic tips for Lamang Island.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=One+Shot+One+Kill+Guide",
+  date: "2026-06-19",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary goal**: Achieve clean, single-bullet neutralizations by matching high-penetration caliber ammunition to target armor class.
+- **Core mechanic**: Ballistic simulation models real organ damage, prioritizing brain, heart, and lung cavities over arbitrary health pools.
+- **Best weapon**: Use the M700 bolt-action rifle paired with 7.62x51mm M80 or M993 rounds for reliable long-range execution.
+- **Critical factor**: Always target the head or thoracic cavity; limbs will absorb damage, leading to prolonged combat engagements.
+</Callout>
+
+<Section icon={Swords} title="Understanding Gray Zone Warfare One Shot One Kill Mechanics">
+
+Achieving a consistent **Gray Zone Warfare one shot one kill** dynamic requires a fundamental shift in how you evaluate shooter damage. Unlike traditional tactical shooters that rely on generic hitpoints, the physical simulation model developed by MADFINGER Games calculates bullet trajectory, velocity decay, armor penetration, and anatomical organ damage. When a round strikes an operator or an AI combatant, the game tracks the exact tissue cavity damaged by the projectile. 
+
+To drop a target with a single shot, your round must pierce any equipped tactical helmet or body armor plate and strike a vital organ. Non-vital areas such as limbs or abdominal fat layers will cause bleeding and pain status effects but will rarely result in immediate neutralization.
+
+| Organ | Primary Function | Damage Effect | OSOK Capability |
+| :--- | :--- | :--- | :--- |
+| **Brain** | Central nervous system | Instant death | Absolute (100%) |
+| **Heart** | Circulatory system | Rapid bleedout / instant death | Extremely High |
+| **Lungs** | Respiratory system | Coma / asphyxiation | High (requires high caliber) |
+| **Liver** | Filtration system | Severe bleeding / eventual coma | Moderate |
+| **Limbs** | Mobility | Fractures / localized bleeding | None |
+
+<Callout type="warning" title="Armor Protection Warning">
+Tactical helmets and plate carriers block lower-caliber ammunition. If your bullet's penetration value is lower than the target's armor class, the round will deform or shatter against the plate, causing bruising and blunt force trauma but preventing a one-shot kill. Always check armor ratings before choosing your deployment zones.
+</Callout>
+
+For further details on how tactical elements affect survival on Lamang Island, visit the [official Steam Store page](https://store.steampowered.com/app/2479810/Gray_Zone_Warfare/) to review system updates.
+
+</Section>
+
+<Section icon={Shield} title="Calber & Ammunition Tiers for OSOK Operations">
+
+Choosing the correct ammunition type is the most critical decision when configuring your loadout. A high-tier weapon firing budget rounds will fail to penetrate basic military-grade armor. Conversely, an intermediate rifle firing armor-piercing ammunition can secure a clean headshot against heavily geared defenders.
+
+The ballistics engine prioritizes bullet caliber size and material composition. For long-distance tactical operations, the 7.62x51mm NATO round serves as the gold standard for high-damage penetration, while intermediate calibers like the 5.56x45mm NATO require top-tier AP rounds to guarantee lethal penetration.
+
+| Caliber Family | Optimal Ammunition | Armor Penetration Class | Ideal Engagement Range | Combat Purpose |
+| :--- | :--- | :--- | :--- | :--- |
+| **7.62x51mm NATO** | M993 / M80 | Class IV / III+ | 150m - 500m+ | Long-range sniper execution |
+| **7.62x39mm** | BP / PP | Class III+ / III | 50m - 200m | Mid-range heavy assault |
+| **5.56x45mm NATO** | M855A1 / SSA AP | Class III+ / III | 50m - 300m | General purpose DMR work |
+| **5.45x39mm** | 7N22 / PP | Class III | 50m - 250m | Suppression and backup |
+| **.300 AAC Blackout**| AP / Whisper | Class III / II | 10m - 100m | Stealth close-quarters operations |
+
+<Callout type="tip" title="Ammunition Tip">
+When deploying to high-threat locations like Fort Narith or Midnight Sapphire, abandon soft-point (SP) or hollow-point (HP) ammunition. These rounds excel against unarmored targets but pancake uselessly against military combat vests. Always run armor-piercing variants to keep your single-shot capability viable.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Elite Weapon Platforms and Sniper Configurations">
+
+To convert high-penetration ammunition into a reliable combat result, you need stable weapon platforms. The 2026 update 0.4 mechanics introduced realistic weapon weight variables that heavily affect ergonomics, weapon sway, and aim-down-sights (ADS) acceleration. Heavy platforms demand structured shooting stances and stamina management.
+
+<CardGrid cols={3}>
+  <Card title="M700 Precision Bolt-Action">
+    - **Highest velocity retention**
+    - Chambered in 7.62x51mm NATO
+    - Ideal for extreme distance
+  </Card>
+  <Card title="AK-308 Heavy DMR">
+    - **Semi-automatic firing capability**
+    - High-capacity magazine options
+    - Exceptional mid-to-long range versatility
+  </Card>
+  <Card title="M4A1 / DDM4 Long-Barrel Setup">
+    - **Low recoil characteristics**
+    - Exceptional ergonomics score
+    - Best for fast follow-up shots
+  </Card>
+</CardGrid>
+
+To maximize weapon handling, balance your attachments to manage weight while securing optics that support clean targeting. Below is a comparison of optimal weapon build metrics designed to maximize range and minimize weapon sway.
+
+| Platform | Barrel Length | Optic Choice | Total Weight | Sway Stability |
+| :--- | :--- | :--- | :--- | :--- |
+| **M700 Bolt** | 24-inch Match | Razor HD Gen III | Heavy | Excellent (Prone) |
+| **AK-308 DMR** | 20-inch Heavy | Vudu 1-6x | Medium-Heavy | Good |
+| **M4A1 DMR** | 20-inch Gov | Elcan SpecterDR | Light-Medium | Excellent |
+| **SIG MCX** | 16-inch Standard| EOTech + Magnifier | Light | High (Short Range) |
+
+<Callout type="success" title="Ergonomics Optimization">
+You can reduce weapon sway by crouching or going prone before looking through your optics. The 0.4 update makes physical stance changes highly impactful, turning a shaky standing shot into a rock-solid sniper position.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Step-by-Step Tactical Setup for Long-Range Engagements">
+
+Operating as a marksman on Lamang Island requires a disciplined sequence of steps. Rushing into a tactical position without calculating your escape routes, landing zones, and windage will quickly result in a lost gear kit.
+
+<Steps>
+  <Step num="1" title="Select and Verify Landing Zone">
+    Before deploying, consult the tactical map to identify active landing zones (LZs). Select an LZ that avoids immediate sightlines from target POIs like Ban Pa or the Sawmill. Utilize the 4-second invulnerability window immediately after offboarding the helicopter to scan your immediate tree line for campers.
+  </Step>
+  <Step num="2" title="Secure High-Ground Elevation">
+    Navigate around the perimeter of your target area. Avoid walking through open valleys or roads. Establish a firing position on high ground overlooking entry checkpoints or quest-objective locations. Maintain a distance of at least 150 meters to minimize the risk of AI spotting your silhouette.
+  </Step>
+  <Step num="3" title="Assess Target Armor Profile">
+    Zoom in with your high-magnification optic to identify the target's gear. Check if they are wearing military helmets (Class III+) or simple baseball caps. If the target is heavily armored, align your crosshair carefully to target the exposed face zone or the center of the chest plate with armor-piercing ammunition.
+  </Step>
+  <Step num="4" title="Execute and Reposition">
+    Control your breathing to eliminate reticle sway. Fire a single round, then instantly break your ADS stance. AI units and enemy operators will track the sound signature of your shot. Shift your position laterally by at least 20 to 30 meters along the ridge line before re-engaging to keep the enemy confused.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Tactical Decoy Trick">
+The sound of the transport helicopter can mask your first shot. Coordinate your trigger pull with the arrival or departure of a helicopter to hide your position from nearby defenders.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Deployment Checklist & Vendor Progression">
+
+Before heading out to secure high-value kills, run through a structured gear check. Forgetting a splint or carrying low-tier magazines can turn a successful sniper run into a disastrous extraction attempt.
+
+<Checklist
+  id="marksman-deployment"
+  title="Sniper Preparation Checklist:"
+  items={[
+    "Verify primary ammunition is AP-rated (e.g., M80, M993, or BP)",
+    "Pack hydration and food items to keep energy levels above 50 percent",
+    "Equip a Secure Lockbox with spare high-tier ammunition and premium medical kits",
+    "Install a silencer to reduce acoustic signature and increase muzzle velocity",
+    "Confirm squad frequencies and select designated fallback extraction points"
+  ]}
+/>
+
+To secure the best scopes, silencers, and ammunition, you must build reputation levels with faction vendors. Completing specific task routes unlocks high-tier military hardware that makes single-shot kills much easier.
+
+| Vendor | Unlock Rank | Key Specialty | Vital Quest Target |
+| :--- | :--- | :--- | :--- |
+| **Gunny** | Rank 3 | Match barrels, M80 ammo, high-magnification scopes | Meds Wanted |
+| **Artisan** | Rank 3 | AK platforms, heavy caliber conversion kits, silencers | Tools of the Trade |
+| **Turncoat** | Rank 4 | M993 high-penetration ammo, Class IV plate carriers | The Shadow Over Ban Pa |
+| **Handshake** | Rank 3 | Tactical chest rigs, precision buttstocks, key storage | Helping Hand |
+
+<Callout type="success" title="FOB Economy Progression">
+Always check the buy-back rates of different vendors. Certain items sell for up to 50% more depending on the vendor's specialization. Save your heavy weapons for Gunny and medical assets for Lab Rat to build capital faster.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Can I achieve a one shot one kill with 5.56x45mm ammunition?",
+    answer: "Yes, but it requires targeting the unarmored facial area or using high-penetration rounds like M855A1 against lower-tier helmets. Against Class IV armor plates, 5.56x45mm rounds will usually require multiple hits to compromise the plate before lethal damage can occur."
+  },
+  {
+    question: "Does bullet drop significantly affect snipers in Gray Zone Warfare?",
+    answer: "Yes. The physics engine models real-world gravity and drag. When shooting targets beyond 200 meters, you must account for bullet drop by utilizing the zeroing feature on your optic or aiming slightly above the target's head."
+  },
+  {
+    question: "What happens if a shot destroys a target's lung instead of the brain?",
+    answer: "A lung hit will not result in instant death like a brain shot. Instead, it causes critical oxygen depletion and severe internal bleeding. This quickly forces the target into a coma, followed by death within a brief window if untreated."
+  },
+  {
+    question: "Where can I obtain the M993 armor-piercing ammunition?",
+    answer: "M993 7.62x51mm ammunition is a late-game item. It can be purchased from Turncoat once you reach Rank 4 reputation or recovered from high-tier AI patrols situated around military landmarks like Fort Narith."
+  }
+]} />
+
+</Section>

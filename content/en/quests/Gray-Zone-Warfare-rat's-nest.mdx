@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gray Zone Warfare Rat's Nest: Complete Guide for All Factions",
+  description: "Stuck on the Gray Zone Warfare rat's nest task? Discover coordinates, intel locations, and tactical survival tips for Kiu Vongsa, Nam Thaven, and Pha Lang.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1c3d27/fff?text=Rats+Nest+Task+Guide",
+  date: "2026-06-19",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Task**: Complete the **Gray Zone Warfare rat's nest** mission by finding two criminal intel items in your starting town.
+- **CSI (Kiu Vongsa)**: Find intel at coordinates 141 164 and 142 165.
+- **Mithras (Nam Thaven)**: Locate documents near coordinates 170 117 and 172 119.
+- **LRI (Pha Lang)**: Retrieve stashes at coordinates 201 163 and 203 162.
+- **FOB Turn-in**: Keep items in your Secure Lockbox to avoid losing them on death, and return them safely to Gunny.
+</Callout>
+
+<Section icon={Target} title="Gray Zone Warfare Rat's Nest Task Breakdown">
+
+When deploying to Lamang Island, one of the earliest progression roadblocks players encounter is the **Gray Zone Warfare rat's nest** task. Assigned by Gunny, this contract requires operators to infiltrate their faction's respective starter town, locate two critical pieces of criminal intel, and safely return them to the Forward Operating Base (FOB). Because this mission is handed out early, completing it is vital for building vendor reputation and unlocking higher-tier ammunition, weapon attachments, and rifles.
+
+Unlike later sandbox operations, the difficulty of this task lies not in surviving heavily armored combatants, but in navigating dense urban structures and identifying the precise spawn locations of the required papers. The criminal lists and stashed notes are small physical objects that blend into the environment, making it easy to walk past them if you do not know exactly where to look.
+
+| Metric | Details |
+|---|---|
+| **Quest Giver** | Gunny |
+| **Faction Requirements** | None (Available to all factions) |
+| **Objective 1** | Retrieve Thug's Intel (Criminal List) |
+| **Objective 2** | Retrieve Thug's Note (Hideout Info) |
+| **Danger Level** | Low to Medium (Local rebels, light armor) |
+| **Key Unlock** | Improved Gunny Vendor Stock |
+
+<Callout type="warning" title="AI Danger Alert">
+While starter towns feature lower-tier rebel AI with basic weapons, they spawn in large groups near task locations. Always clear the surrounding streets before stepping inside to search for the intel.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Crimson Shield International: Kiu Vongsa Locations">
+
+For operators representing Crimson Shield International, the search takes place in the eastern starter town of Kiu Vongsa. The two pieces of intel are hidden in the northern and central blocks of the town, areas frequently patrolled by local militia armed with pistols and basic submachine guns.
+
+The first piece of intel, the Thug's Note, is located in a single-story residential building with cracked concrete walls. Look for a small wooden table pushed against a stained mattress. The second piece of intel, the Criminal List, is situated inside a building closer to the construction site and water tower. Search the desk surface next to broken electronics to secure the ledger.
+
+| Intel Type | Coordinates | Landmark | Spawn Surface |
+|---|---|---|---|
+| **Thug's Note** | 141 164 | East side residential sector | Wooden bedside table |
+| **Criminal List** | 142 165 | Near northern town perimeter | Metal desk top |
+
+<Callout type="tip" title="CSI Operator Strategy">
+Approach the 142 165 coordinate from the eastern tree line. This path minimizes your exposure to the open streets and allows you to flank the guards patrolling the construction zone.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mithras Security Systems: Nam Thaven Locations">
+
+Mithras Security Systems operators must deploy to the western town of Nam Thaven. The urban layout here features narrow alleyways and dense vegetation, making short-barreled weapons like the AKS-74U highly effective for clearing rooms.
+
+The first target is a small, run-down brick building located near the local marketplace coordinates. Inside, the Thug's Note sits on top of a plastic chair in the corner of a dimly lit bedroom. The second objective, the Criminal List, is located in a multi-room house near the gas station. Walk past the main entrance, enter the back room, and look for a wooden shelf unit where the documents spawn next to a radio receiver.
+
+| Intel Type | Coordinates | Landmark | Spawn Surface |
+|---|---|---|---|
+| **Thug's Note** | 170 117 | Market district block | Blue plastic chair |
+| **Criminal List** | 172 119 | Gas station block | Low wooden shelf |
+
+<Callout type="info" title="Mithras Route Safety">
+The gas station near coordinate 172 119 is a hotbed for AI spawns. If you hear shots, fall back to the concrete walls along the main road and pick off the targets one by one.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lamang Recovery Initiative: Pha Lang Locations">
+
+LRI operators are directed to Pha Lang, located in the southern region of the island. The starter town features a large lumberyard and warehouse complex, meaning you will face longer sightlines compared to other faction zones. 
+
+For the first objective, head to the residential sector near the western town entrance. The Thug's Note is located on a wooden crate inside a small garage workshop. The second objective, the Criminal List, requires navigating to the residential buildings near the water tower. The documents are placed on a desk inside a small office room on the ground floor of a two-story building.
+
+| Intel Type | Coordinates | Landmark | Spawn Surface |
+|---|---|---|---|
+| **Thug's Note** | 201 163 | Western garage sector | Wooden storage crate |
+| **Criminal List** | 203 162 | Central residential complex | Ground floor desk |
+
+<Callout type="success" title="LRI Extraction Advantage">
+Use the high ground near the Pha Lang water tower to scout the extraction zone before calling in your helicopter. AI will occasionally wander toward the landing pad.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Step-by-Step Task Execution Guide">
+
+To complete the mission safely and minimize the risk of losing your gear, follow this optimized deployment sequence. Earning vendor progression is smooth when you treat every raid as a systematic extraction process.
+
+<Steps>
+  <Step num="1" title="Secure Lockbox Preparation">
+    Before loading into the helicopter, open your character inventory and clear two slots inside your Secure Lockbox. This ensures that even if you are killed by AI or an enemy operator, the retrieved intel remains safe in your inventory.
+  </Step>
+  <Step num="2" title="Infiltrate the Town Perimeter">
+    Fly to your faction's starter town landing zone. Move slowly toward the coordinate locations, using bushes and fences for cover. Keep your weapon raised and listen for voice lines from nearby rebel scouts.
+  </Step>
+  <Step num="3" title="Clear and Retrieve the Intel">
+    Infiltrate the target buildings identified for your faction. Clear all interior rooms before interacting with the documents. As soon as you pick up the Thug's Note and Criminal List, immediately move them into your Secure Lockbox.
+  </Step>
+  <Step num="4" title="Safely Extract and Turn In">
+    Navigate back to the nearest landing zone and call for extraction. Once back at the FOB, open your tasks tab, select Gunny, click on the **Gray Zone Warfare rat's nest** mission, and hand in both documents to claim your rewards.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Inventory Management Danger">
+Leaving the intel documents in your backpack or tactical vest puts them at risk. If you die before transferring them to your Secure Lockbox, they will drop on your corpse, forcing you to restart the search.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Recommended Loadout and Tactical Prep">
+
+Running starter missions successfully requires balancing cost and combat efficiency. Because you are going up against unarmored or lightly armored rebel forces, expensive armor plates and high-penetration AP rounds are not strictly necessary. 
+
+Instead, focus on carrying plenty of medical supplies, high-capacity magazines, and utility items to handle bleedings and fractures. The table below details an optimal budget setup for clearing out the rat's nests.
+
+| Slot | Recommended Item | Tactical Purpose | Acquisition Source |
+|---|---|---|---|
+| **Primary Weapon** | M4A1 (Standard) | High accuracy, versatile range | Gunny (Base Option) |
+| **Ammunition** | 5.56x45mm FMJ | High tissue damage vs soft targets | Gunny Rank 1 |
+| **Vest / Carrier** | Recon Chest Rig | Holds four magazines, cheap recovery | Handshake Rank 1 |
+| **Medical Kit** | IFAK / Tourniquet | Quick bleed stopping, heavy trauma | Lab Rat Rank 1 |
+| **Secure Item** | Key Holder | Keeps town keys safe during deployment | Handshake Rank 1 |
+
+<CardGrid cols={3}>
+  <Card title="Solo Tactics">
+    - Move slowly along building edges
+    - Use a silencer to avoid swarms
+    - Treat every corner as occupied
+  </Card>
+  <Card title="Squad Dynamics">
+    - Assign one player to watch the rear
+    - Share coordinates over voice
+    - Keep LZs covered during calls
+  </Card>
+  <Card title="Economy Control">
+    - Avoid high-tier setups early
+    - Loot local weapon crates
+    - Sell duplicate weapons to Gunny
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="pre-flight-check"
+  title="Pre-Flight Operator Checklist:"
+  items={[
+    "Verify that the Secure Lockbox has at least a 2x1 free space",
+    "Pack at least three spare magazines filled with FMJ rounds",
+    "Bring two splints and bandages to treat fracture injuries",
+    "Confirm your faction alignment matches your squad mates",
+    "Check that the task is actively accepted in the menu"
+  ]}
+/>
+
+<Callout type="tip" title="Weapon Sway Management">
+With the mechanics updated in early 2026, weapon weight heavily impacts your aim-down-sight speed and stamina drain. Avoid packing unnecessary attachments or heavy reserve plates for simple town runs.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I find the Gray Zone Warfare rat's nest intel in other faction towns?",
+    answer: "No. The mission items will only spawn in your designated faction starter town. If you are Crimson Shield, they spawn in Kiu Vongsa; if Mithras, in Nam Thaven; and if LRI, in Pha Lang."
+  },
+  {
+    question: "What happens if I die after picking up the intel documents?",
+    answer: "If you placed the documents inside your Secure Lockbox, they will remain in your inventory after death, allowing you to turn them in at the FOB. If they were in your backpack or vest, you must return to your corpse or re-run the task."
+  },
+  {
+    question: "Do I need specific keys to open the doors for this mission?",
+    answer: "No, the buildings housing the rat's nest intel are unlocked by default. You do not need to farm key drops from local enemies to access the rooms containing these specific documents."
+  },
+  {
+    question: "Why is the intel not spawning on the table or chair?",
+    answer: "If another player in your session recently picked up the documents, they may take a few minutes to respawn. Secure the immediate area, wait for the room to reset, or join a different server instance to complete the task."
+  }
+]} />
+
+<Callout type="success" title="Final Advice">
+Always hand in your tasks immediately upon returning to the Forward Operating Base. Keeping quest items in your stash consumes valuable storage grid space and increases the chances of accidental deletion.
+</Callout>
+
+</Section>

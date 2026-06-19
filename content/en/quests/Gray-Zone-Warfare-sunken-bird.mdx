@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gray Zone Warfare sunken bird: Location & Walkthrough",
+  description: "Complete the Gray Zone Warfare sunken bird task with our detailed walkthrough. Find the crashed helicopter, retrieve the flight recorder, and extract.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Sunken+Bird+Task+Guide",
+  date: "2026-06-19",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Task Giver**: Offered by Gunny at the Forward Operating Base (FOB) after completing early progression.
+- **Primary Objective**: Locate the downed helicopter submerged in the swamp southwest of Ban Pa.
+- **Item to Retrieve**: Recover the Flight Data Recorder (Black Box) from the helicopter's cockpit.
+- **Key Hazard**: Deep water restricts movement speed, leaving you exposed to rebel patrols.
+- **Extraction Route**: Use Landing Zone (LZ) India for the fastest deployment and extraction loop.
+</Callout>
+
+<Section icon={Target} title="Task Overview and Requirements">
+
+The **Gray Zone Warfare sunken bird** mission is a key transition task that pushes players out of their faction's safe starter towns and into the more contested Tier 2 areas of Lamang Island. Assigned by Gunny, the task requires players to investigate a downed scout helicopter that crashed into the marshy lake area southwest of Ban Pa. 
+
+To complete this mission, you must navigate a highly exposed swamp, locate the submerged fuselage, search the cockpit to retrieve a flight data recorder, and return the device safely to the FOB. Because the item is physical, dying after retrieving the flight data recorder means you must redeploy and grab it again.
+
+<Callout type="info" title="Faction Starting Points">
+Your starting location dictates your flight path to LZ India. Mithras Security Systems, Crimson Shield International, and Lamang Recovery Initiative all share the same task location, but their flight times and entry angles vary.
+</Callout>
+
+| Detail | Specification |
+| :--- | :--- |
+| Task Giver | Gunny |
+| Area | Ban Pa Lake / Swamp |
+| Coordinates | 202 136 |
+| Target Objective | Downed helicopter fuselage |
+| Key Item | Flight Data Recorder |
+| Minimum Threat Level | Tier 2 (Rebel Combatants) |
+
+</Section>
+
+<Section icon={Map} title="Finding the Sunken Bird Location">
+
+The crashed helicopter is located at coordinates **202 136**, situated in the shallow swamp waters southwest of the main Ban Pa village. The crash site is visible from the western shoreline of the lake, but approaching it requires wading through deep water that slows your operator to a walking pace. 
+
+Navigating the area is highly dangerous due to the lack of hard cover. Dense reeds obscure your vision, while AI enemies patrolling the nearby Ban Pa fishing huts can easily spot you through the brush. 
+
+<Callout type="tip" title="Stamina Management">
+Wading through water drains stamina rapidly. Keep your weight low and avoid sprinting right before entering the water so you have enough stamina to push through to the helicopter.
+</Callout>
+
+| Navigation Anchor | Grid Coordinates | Tactical Relevance |
+| :--- | :--- | :--- |
+| LZ India | 204 135 | Primary landing zone for deployment and extraction |
+| Helicopter Fuselage | 202 136 | Target location for the task item |
+| Ban Pa Fishing Hut | 205 137 | Nearby loot area; contains weapon boxes and keys |
+| Western Shoreline | 201 136 | Safe staging area with hard cover before crossing |
+
+To reach the site safely, choose a route that minimizes your time spent in open water. Here are the three primary deployment strategies:
+
+<CardGrid cols={3}>
+  <Card title="Stealth Approach">
+    - **Route**: Walk north from LZ India, wrap around the western tree line, and cross at the narrowest water gap.
+    - **Pros**: Lower chance of alerting the Ban Pa village defenders.
+    - **Cons**: Takes longer to reach the objective.
+  </Card>
+  <Card title="Direct Push">
+    - **Route**: Head straight west from LZ India directly into the swamp towards the coordinate point.
+    - **Pros**: Fastest path to the flight recorder.
+    - **Cons**: High exposure to rebel snipers along the northern bank.
+  </Card>
+  <Card title="Secure Perimeter">
+    - **Route**: Clear the nearby fishing huts first, then walk southwest to cross the water securely.
+    - **Pros**: Eliminates the threat of getting shot in the back.
+    - **Cons**: Requires engaging multiple Tier 2 AI patrols.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Trophy} title="Step-by-Step Walkthrough">
+
+Follow these steps to complete the task and return to the Forward Operating Base without losing your gear.
+
+<Steps>
+  <Step num="1" title="Accept the Mission and Prepare Gear">
+    Interact with Gunny at the FOB to accept the task. Equipping an assault rifle chambered in 5.45x39mm or 5.56x45mm is recommended. Bring at least two bandages, a splint, and a basic surgical kit inside your secure lockbox.
+  </Step>
+  <Step num="2" title="Deploy to Landing Zone India">
+    Call in a helicopter transport to LZ India. Ensure you wait for the transport immunity window (4 seconds) to clear before moving away from the drop point.
+  </Step>
+  <Step num="3" title="Move to the Swamp Western Shoreline">
+    Travel west-northwest towards the lake perimeter. Avoid running through the center of the swamp; instead, stick to the brush along the tree line to keep the foliage between you and the Ban Pa village.
+  </Step>
+  <Step num="4" title="Locate and Interact with the Downed Helicopter">
+    Wade into the water at grid coordinate 202 136. The helicopter tail is sticking out of the water. Approach the cockpit area at the front. Press your interact key to search the cockpit and retrieve the Flight Data Recorder.
+  </Step>
+  <Step num="5" title="Extract and Hand in the Item">
+    Retreat back to the western tree line, then navigate south to LZ India. Call for transport, return to the FOB, and interact with Gunny to hand in the recorder and claim your rewards.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Loot Loss Risk">
+If you die while carrying the flight data recorder in your backpack, it will remain on your corpse. If you cannot recover your body, you must go back to the helicopter to get another recorder. Put the item in your Secure Lockbox immediately if you have space.
+</Callout>
+
+| Task Phase | Objective Goal | Action Required | Status Verification |
+| :--- | :--- | :--- | :--- |
+| Phase 1 | Locate the crash site | Reach grid 202 136 | Task HUD updates to 'Found' |
+| Phase 2 | Secure the recorder | Search helicopter cockpit | Flight Data Recorder in inventory |
+| Phase 3 | Extract to FOB | Fly back from LZ India | Talk to Gunny in vendor screen |
+
+</Section>
+
+<Section icon={Swords} title="Tactical Strategy and Gear Recommendations">
+
+The swamp environment poses unique combat challenges. The water slows your movement, making it impossible to dodge incoming fire. If you are ambushed, your best option is to submerge slightly or push forward to the helicopter fuselage, which serves as the only reliable hard cover in the immediate area.
+
+Because the local rebels at Ban Pa use assault rifles and light armor, your weapon selection needs to account for mid-range accuracy and penetration.
+
+<Callout type="success" title="Weapon Handling Rework">
+Due to weapon weight and sway changes introduced in recent updates, using a lighter carbine or an assault rifle with high ergonomics will make aiming while wading in water much easier.
+</Callout>
+
+| Gear Slot | Recommended Item | Purpose | Alternate Option |
+| :--- | :--- | :--- | :--- |
+| Primary Weapon | M4A1 or AK-74N | Reliable mid-range damage | SKS with optic |
+| Ammunition | 5.56 M855 / 5.45 PP | Penetrates Class 2 and 3 armor | 7.62x39mm PS |
+| Body Armor | Class 3 Plate Carrier | Balances weight and protection | Class 2 Soft Armor |
+| Medical Kit | IFAK / Combat Tourniquet | Treats severe bleeding in water | Bandage + Splint |
+
+When navigating the swamp, stay mindful of your hydration and energy levels. Getting stuck in deep water with zero stamina due to dehydration will make you an easy target. Always carry a water bottle or purchase soft drinks from Lab Rat before deployment.
+
+</Section>
+
+<Section icon={Shield} title="Checklist and Mission Rewards">
+
+Before heading back to the field, review this checklist to ensure you do not miss any requirements for the task.
+
+<Checklist
+  id="sunken-bird-checklist"
+  title="Task Completion Requirements:"
+  items={[
+    "Accept the Sunken Bird task from Gunny at the FOB",
+    "Bring adequate water and medical supplies for a Tier 2 zone",
+    "Navigate to the swamp crash site at coordinates 202 136",
+    "Interact with the helicopter cockpit to retrieve the Flight Data Recorder",
+    "Secure the recorder in your inventory (or Secure Lockbox)",
+    "Extract successfully using LZ India",
+    "Deliver the recorder to Gunny at the base"
+  ]}
+/>
+
+<Callout type="info" title="Reputation Unlock">
+Completing this task improves your standing with Gunny, allowing you to unlock higher tier attachments, weapon parts, and magazines as you reach new vendor ranks.
+</Callout>
+
+| Reward Type | Amount / Item | Reputation Progression |
+| :--- | :--- | :--- |
+| Experience | 1,000 EXP | Helps unlock higher player levels |
+| Cash Payout | $4,700 USD | Restores funds spent on kits |
+| Vendor Standing | +150 Gunny Reputation | Unlocks Rank 2 or Rank 3 shops |
+| Tactical Gear | 2x Recon Chest Rig | Useful for low-weight stealth runs |
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where is the downed helicopter for the Gray Zone Warfare sunken bird task?",
+    answer: "The helicopter is located in the swampy lake southwest of the Ban Pa village, at grid coordinates 202 136. Look for the tail rotor sticking out of the water."
+  },
+  {
+    question: "Can I put the flight data recorder in my Secure Lockbox?",
+    answer: "Yes. The flight data recorder fits within a 1x1 slot, meaning you can place it inside your Secure Lockbox to prevent losing it if you die before extracting."
+  },
+  {
+    question: "How do I handle the rebel AI patrolling near the crash site?",
+    answer: "Clear the southern shoreline and the fishing huts at Ban Pa before stepping into the water. If the AI detects you while you are wading, run to the helicopter fuselage for cover."
+  },
+  {
+    question: "What should I do if the flight data recorder does not spawn in the cockpit?",
+    answer: "If another player recently took the recorder, it may take a few minutes to respawn. You can also try changing servers or returning to the main menu and joining a new session."
+  }
+]} />
+
+</Section>

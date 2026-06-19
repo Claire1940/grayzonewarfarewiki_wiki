@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gray Zone Warfare when a tree falls: Sawmill Guide",
+  description: "A step-by-step walkthrough for the Gray Zone Warfare When a Tree Falls task, including Sawmill key locations, tactical combat tips, and rewards.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=When+a+Tree+Falls+Guide",
+  date: "2026-06-19",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Infiltrate the Sawmill POI and retrieve locked shipping logbooks.
+- **Key Requirement**: The Sawmill Office Key is required to unlock the target room.
+- **High Risk**: The location is guarded by heavily armed Tier II rebels.
+- **Safety Tip**: Place the recovered documents into your Secure Lockbox immediately.
+- **Main Reward**: Unlocks higher tier gear, weapons, and reputation with Gunny.
+</Callout>
+
+<Section icon={Target} title="Task Overview & Prerequisites">
+
+Deploying to contested sectors on Lamang Island requires careful planning, especially when handling logistics-heavy contracts for Gunny. The **Gray Zone Warfare when a tree falls** task is a crucial mid-game quest that tests an operator's ability to clear a fortified logging facility, locate key documents, and extract under pressure. 
+
+Before launching this deployment, you must coordinate with your faction and ensure your gear is optimized for mid-range skirmishes. The Sawmill is a highly contested zone, meaning you are likely to encounter both hostiles and rival PMC operators searching for the same objectives.
+
+| Task Parameter | Details |
+| --- | --- |
+| Task Giver | Gunny |
+| Primary Area | Sawmill POI |
+| Key Item | Sawmill Office Key |
+| Enemy Tier | Tier II Rebels |
+| Prerequisite | Complete early Gunny tasks |
+
+<Callout type="tip" title="Reputation Unlock">
+Earning Gunny reputation is essential for unlocking advanced attachments, scopes, and ammunition. Completing this task raises your standing, allowing access to better weapon builds.
+</Callout>
+
+Faction starting points affect your overall flight routes to the Sawmill. Crimson Shield International operators fly in from the eastern sectors, Mithras Security Systems routes cover the southern paths, and the Lamang Recovery Initiative controls the western approaches. Regardless of your starting faction, the final destination remains highly dangerous and requires a methodical entry strategy.
+
+</Section>
+
+<Section icon={Map} title="Navigating the Sawmill & Finding Keys">
+
+The Sawmill is situated in a heavily forested valley, making it a hotbed for ambushes. Unlike early-game starter towns, the AI enemies here are aggressive rebels equipped with body armor and assault rifles. Entering this area unprepared will quickly result in lost kits.
+
+To access the target documents, you will need the Sawmill Office Key. This key spawns randomly on the local guards patrolling the yard. Clear the surrounding area systematically to farm the key if you do not already possess it in your stash.
+
+| Landmark | Coordinates | Danger Level | tactical Cover |
+| --- | --- | --- | --- |
+| Main Office | 137:143 | High | Concrete walls, two-story angles |
+| Logging Yard | 138:142 | Medium | Large log piles, industrial trucks |
+| Outer Perimeter | 137:141 | Medium | Dense foliage, rock formations |
+| Northern LZ | Nearby | Low | Forest clearing, high elevation |
+
+<Callout type="warning" title="Threat Alert">
+Do not attempt to rush the main office without clearing the surrounding high ground. Snipers frequently spawn on the hills overlooking the logging yard.
+</Callout>
+
+When clearing the yard, prioritize targets near the log piles. Use the machinery for cover as you advance towards the two-story office building. If the key does not drop from the first wave of defenders, retreat to a safe distance to let the area reset, or coordinate with squadmates who may already have the office door unlocked.
+
+</Section>
+
+<Section icon={Swords} title="Walkthrough: Gray Zone Warfare when a tree falls">
+
+Executing this mission requires a methodical approach to clear out the local resistance before collecting the target manifest. Follow this deployment path to secure the documents and guarantee a clean extraction.
+
+<Steps>
+  <Step num="1" title="Secure the Landing Zone">
+    Request transport to the closest Landing Zone (LZ) near the Sawmill. Upon landing, utilize the 4-second invulnerability window to scan the immediate tree line for hostile movement before pushing inward.
+  </Step>
+  <Step num="2" title="Clear the Outer Yard">
+    Move slowly from the tree line toward the eastern entrance of the Sawmill. Eliminate patrolling rebels systematically. Check their pockets for the Sawmill Office Key if you do not already possess it.
+  </Step>
+  <Step num="3" title="Unlock the Main Office">
+    Navigate to the two-story office building. Ensure the ground floor is clear before using the key on the designated door. The documents are located on the main desk inside.
+  </Step>
+  <Step num="4" title="Extract via Chopper">
+    Immediately place the retrieved documents into your Secure Lockbox. Call in a recovery helicopter and defend the landing zone until extraction is completed.
+  </Step>
+</Steps>
+
+| Target Item | Exact Desk Location | Extraction Priority |
+| --- | --- | --- |
+| Shipping Documents | Main Office, 2nd Floor | Critical (Lost on death if not in Lockbox) |
+
+<Callout type="info" title="Lockbox Protection">
+Quest items placed inside the Secure Lockbox will remain safe even if your operator is neutralized during extraction. Always prioritize placing the documents there immediately.
+</Callout>
+
+Once the documents are secure in your lockbox, you do not need to worry about losing them if you are eliminated on the way back to the FOB. However, getting out alive saves your gear set and allows you to turn in the quest immediately to Gunny.
+
+</Section>
+
+<Section icon={Shield} title="Tactical Combat & Gear Setup">
+
+Surviving the defense of the Sawmill requires high-penetration ammo and solid protection. The local rebel forces utilize AK-family platforms that can easily shred basic armor. We recommend choosing mid-tier rifle configurations with high ergonomic handling.
+
+<CardGrid cols={3}>
+  <Card title="Assault Rifle Setup">
+    - **Recommended Caliber**: 5.56x45mm NATO or 5.45x39mm
+    - **Weapon Options**: M4A1, AK-74M, or AK-19
+    - **Key Attachments**: Suppressor and a variable optic
+  </Card>
+  <Card title="Protection Gear">
+    - **Recommended Class**: Level III Plate Carrier
+    - **Helmet**: High-cut combat helmet
+    - **Backpack**: Scorpion OCP Convoy Pack
+  </Card>
+  <Card title="Medical Supplies">
+    - **Sustain Prep**: Combat Tourniquets, IFAK, and Splints
+    - **Consumables**: 2x Purified Water and MREs
+    - **Hydration Target**: Keep above 50% to maintain recovery
+  </Card>
+</CardGrid>
+
+| Caliber Family | Weapon Platforms | Recommended Ammo Type | Armor Penetration |
+| --- | --- | --- | --- |
+| 5.56x45mm NATO | M4A1, DDM4, AK-19 | M855 / SS109 | Good against Level II/III |
+| 5.45x39mm | AK-74M, AK-74N, AK-12 | PP / BP | High penetration |
+| 7.62x39mm | AK-15, SKS, AKM | BP / PP | Excellent stopping power |
+
+<Callout type="success" title="Weapon Calibration">
+Update 0.4 introduced weapon weight mechanics. Heavier setups decrease ADS speeds and increase sway. Balance your attachments to maintain high ergonomics during close-quarters combat.
+</Callout>
+
+During the engagement, keep a close eye on your hydration and energy thresholds. If your hydration falls below 50%, blood regeneration stops, which significantly increases the risk of entering a coma from minor wounds. Pack at least two bottles of water before heading out.
+
+</Section>
+
+<Section icon={Sparkles} title="Pre-Deployment Checklist">
+
+Before boarding the helicopter at the FOB, run through this final checklist to ensure you do not get stranded at the Sawmill without essential tools.
+
+<Checklist
+  id="pre-flight-check"
+  title="Sawmill Preparation Checklist:"
+  items={[
+    "Verify Sawmill Office Key is in your Secure Lockbox",
+    "Equip at least three spare magazines with high-penetration ammunition",
+    "Pack hydration and energy foods to prevent hazy vision during prolonged engagements",
+    "Set helicopter route to the nearest safe LZ to avoid hot drops",
+    "Ensure squadmates are on the same faction server before launching"
+  ]}
+/>
+
+<Callout type="tip" title="Squad Coordination">
+Running in a squad allows teammates to revive you if you fall into a coma. Squadmates have approximately 180 seconds to patch your wounds before death becomes permanent.
+</Callout>
+
+If you are playing solo, proceed with extreme caution. The AI at the Sawmill can quickly swarm your position once unsuppressed shots are fired. Reposition after every two to three engagements to keep the local patrols guessing.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ & Task Rewards">
+
+Completing the deployment yields immediate benefits for your operator's economy and leveling progress. Here is the reward structure and answers to common community questions.
+
+| Reward Category | Reward Payload | Faction Influence |
+| --- | --- | --- |
+| Experience | 1,200 EXP | Leveling progress |
+| Reputation | +150 Gunny | Level 2 Vendor unlock |
+| Currency | $4,500 USD | FOB economy recovery |
+
+<FAQ items={[
+  {
+    question: "Do I need the Sawmill Office Key to complete the Gray Zone Warfare when a tree falls task?",
+    answer: "Yes. The quest documents are locked inside the main office building at the Sawmill. You must farm the key from local AI rebels or have a teammate unlock the door for you."
+  },
+  {
+    question: "What happens if I die after grabbing the shipping documents?",
+    answer: "If the documents were placed in your Secure Lockbox, they will remain in your inventory upon respawning at the FOB. If they were in your backpack or chest rig, you will lose them and must return to the Sawmill to loot them again."
+  },
+  {
+    question: "Are the rebels at the Sawmill heavily armored?",
+    answer: "Yes, they represent Tier II difficulty. They frequently wear Level II and III body armor, meaning basic hollow-point or low-penetration ammunition will be highly ineffective."
+  }
+]} />
+
+<Callout type="warning" title="Task Failure Note">
+If you abandon the deployment or experience a connection drop while holding the documents outside of your Secure Lockbox, the item will disappear from your inventory.
+</Callout>
+
+Once you hand the shipping documents over to Gunny at the FOB, you will unlock the next tier of weapon modifications, making future runs to high-tier areas like Fort Narith and Tiger Bay much more manageable.
+
+</Section>

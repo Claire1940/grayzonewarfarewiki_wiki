@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gray Zone Warfare True Grit: Full Task Guide & Key Locations",
+  description: "Stuck on the True Grit task in Gray Zone Warfare? Read our complete walkthrough to find the Breakdown Service, get the office key, and extract safely.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=True+Grit+Task+Guide",
+  date: "2026-06-19",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Gray Zone Warfare true grit** is an early-game retrieval mission assigned by Gunny that requires finding a locked breakdown service office.
+- **Key requirement**: You must obtain a faction-specific Breakdown Service Key by looting local AI enemies in your starting town.
+- **Goal location**: Navigate to the Breakdown Service garage in Kiu Vongsa, Pha Lang, or Nam Thaven depending on your chosen PMC.
+- **Safety tip**: Immediately place the retrieved custom handgun into your Secure Lockbox to prevent losing it if you die before extraction.
+- **Rewards**: Successful completion grants Gunny reputation, cash, experience points, and access to higher-tier weapon modifications.
+</Callout>
+
+<Section icon={Target} title="Gray Zone Warfare True Grit Task Overview">
+
+Completing the **Gray Zone Warfare true grit** task is one of the earliest progression milestones you will encounter under Gunny's vendor questline. The task requires tactical movement, resource gathering, and lock-picking mechanics, making it a perfect introduction to the core gameplay loops of Lamang Island. Gunny wants you to locate a customized handgun left behind in a local car repair shop, officially known as the Breakdown Service.
+
+To complete this mission, you cannot simply walk in and grab the item. The office containing the weapon is locked tight. You must secure the specific area key, deal with surrounding AI patrols, grab the target weapon, and extract back to the Forward Operating Base (FOB) to turn it in.
+
+| Task Metric | Details and Requirements |
+| | |
+| Quest Giver | Gunny (Weapons & Ammo Vendor) |
+| Task Type | Key-Locked Item Retrieval |
+| Target Item | Customized Handgun (Colt M1911) |
+| Key Needed | Breakdown Service Key (Faction-Specific) |
+| Core Threat | Low-to-Medium Tier local militia AI |
+
+<Callout type="warning" title="PvP Warning">
+If you are playing in Warfare mode (PvPvE), starter towns can occasionally host hostile players from opposing factions camp-hunting the quest locations. Consider completing this task in Joint Operations (PvE) mode for a smoother progression experience.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Faction-Specific Breakdown Service Locations">
+
+Although the objectives for the **Gray Zone Warfare true grit** task remain identical for everyone, your physical target depends entirely on the PMC faction you selected during character creation. Each faction operates out of a distinct starter town on Lamang Island. 
+
+Navigating to the correct garage is essential. The Breakdown Service buildings are easily recognizable by their large open bays, tire racks, rusted car frames, and repair lifts. Use the coordinate list and card guide below to locate your destination.
+
+| Faction Name | Starting Town | Garage Grid Coordinates | Notable Landmarks |
+| | | | |
+| Crimson Shield International | Kiu Vongsa | Grid 141 164 | East side of town near the main road |
+| Mithras Security Systems | Nam Thaven | Grid 171 118 | Southern outskirts near the farmlands |
+| Lamang Recovery Initiative | Pha Lang | Grid 202 162 | Northern sector near the storage units |
+
+<CardGrid cols={3}>
+  <Card title="Crimson Shield (Kiu Vongsa)">
+    - **Location**: Eastern district of Kiu Vongsa.
+    - **Terrain**: Densely packed houses nearby.
+    - **Danger**: AI commonly spawns inside the garage bays.
+  </Card>
+  <Card title="Mithras Security (Nam Thaven)">
+    - **Location**: Southern edge of Nam Thaven.
+    - **Terrain**: Open sightlines from the nearby fields.
+    - **Danger**: Vulnerable to long-range sniper fire.
+  </Card>
+  <Card title="Lamang Recovery (Pha Lang)">
+    - **Location**: Northern part of Pha Lang town.
+    - **Terrain**: Commercial zone with high cover.
+    - **Danger**: Close-quarter engagements are common here.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Navigation Tip">
+Do not confuse the Breakdown Service garage with general gas stations. While both locations feature vehicles, the Breakdown Service has a dedicated two-story office structure attached to the repair bays where the locked door is situated.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Farming the Breakdown Service Key">
+
+The primary roadblock for the **Gray Zone Warfare true grit** task is obtaining the correct key. Keys in Gray Zone Warfare are localized drops, meaning you must kill and loot the enemies that patrol the immediate vicinity of the target location.
+
+You must find the key matching your starter town:
+- **Kiu Vongsa Breakdown Service Key** (for Crimson Shield)
+- **Nam Thaven Breakdown Service Key** (for Mithras)
+- **Pha Lang Breakdown Service Key** (for Lamang Recovery)
+
+| Key Name | Drop Source | Spawn Location | Strategy |
+| | | | |
+| KV Breakdown Key | Local Kiu Vongsa AI | Pockets and Backpacks | Farm enemies near the eastern road |
+| NT Breakdown Key | Local Nam Thaven AI | Pockets and Backpacks | Clear out the southern farmlands |
+| PL Breakdown Key | Local Pha Lang AI | Pockets and Backpacks | Clear the northern commercial block |
+
+<Callout type="tip" title="Key Sharing Shortcut">
+If you cannot get the key to drop after several runs, check your faction's Discord or ask in the game's local VoIP chat. Teammates can unlock the door for you, allowing you to complete the task without owning the key.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Step-by-Step Completion Walkthrough">
+
+Follow this systematic guide to complete the task efficiently. Ensure you have adequate ammunition and healing supplies before heading out, as the starter towns can feature high AI density.
+
+<Steps>
+  <Step num="1" title="Secure the Faction Key">
+    Deploy to your faction's starter town. Eliminate local militia around the Breakdown Service garage and loot their bodies. Check their pockets and backpacks specifically, as keys do not spawn on the ground or in weapon boxes.
+  </Step>
+  <Step num="2" title="Clear the Garage Perimeter">
+    Approach the Breakdown Service building carefully. Usually, 2 to 4 AI guards patrol the interior bays and the exterior yard. Neutralize them before attempting to unlock the office door to prevent being shot in the back.
+  </Step>
+  <Step num="3" title="Unlock the Office and Retrieve the Handgun">
+    Walk up to the yellow-walled office door inside the garage. Equip your Breakdown Service Key and unlock the door. On the main wooden desk inside, you will find the customized Colt M1911 pistol. Interacting with it will place it in your inventory.
+  </Step>
+  <Step num="4" title="Secure the Quest Item">
+    Immediately open your inventory and drag the customized handgun into your Secure Lockbox. This ensures that even if you get eliminated by AI or players on your way back to the Landing Zone, you will keep the item.
+  </Step>
+  <Step num="5" title="Extract and Hand In">
+    Run to your nearest Landing Zone (LZ) and call in a helicopter. Return to the main Forward Operating Base. Open the Vendors menu, select Gunny, go to his Tasks tab, and hand in the customized handgun to complete the quest.
+  </Step>
+</Steps>
+
+<Checklist
+  id="true-grit-prep"
+  title="Deployment Prep Checklist:"
+  items={[
+    "Pack 1x Faction Breakdown Service Key in your Secure Lockbox",
+    "Bring at least 3 magazines of ammunition (5.45x39mm or 5.56x45mm)",
+    "Equip Class 2 body armor and a helmet to stop shotgun pellets",
+    "Pack 2x Combat Tourniquets and 1x Splint in your quick-access pockets",
+    "Ensure hydration and energy levels are above 80 percent before taking off"
+  ]}
+/>
+
+<Callout type="success" title="Mission Cleared">
+Completing True Grit unlocks the next set of Gunny's weapon-centric tasks and dramatically boosts your vendor reputation. This enables you to buy better optics, suppressors, and magazines.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tactical Loadout and Combat Strategy">
+
+When attempting the **Gray Zone Warfare true grit** task, your loadout should balance cost-efficiency with high stopping power. Local AI in starting towns generally wear little to no armor, but they frequently carry shotguns and basic submachine guns that can cause severe bleeding or immediate comas if you are unprotected.
+
+Using the right ammunition is key. Refer to the table below to choose the best budget loadout for clearing out the garage area safely.
+
+| Gear Category | Recommended Item | Purpose |
+| | | |
+| Primary Weapon | M4A1 or AKS-74U | Versatile platforms for mid-range clearing and tight rooms |
+| Ammunition | 5.56x45mm FMJ / 5.45x39mm PRS | Standard rounds with enough penetration to neutralize local AI |
+| Body Armor | Defender Class 2 Vest | Light, budget-friendly protection against shotgun pellets |
+| Medical Kit | IFAK + Bandages | Essential for treating light and medium bleeding quickly |
+
+<Callout type="warning" title="Stamina Management">
+Update 0.4 introduced weapon weight effects on ergonomics and sway. Keep your loadout light so you do not run out of stamina while holding angles inside the locked office building.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Can I place the customized handgun in my secure lockbox?",
+    answer: "Yes. The customized handgun takes up a 1x2 slot in your inventory. It is highly recommended to place it directly inside your Secure Lockbox (such as a Llama or Harde Case) immediately after picking it up, which guarantees you will keep it even if you die before extracting."
+  },
+  {
+    question: "What happens if I lose the quest item?",
+    answer: "If you die without placing the customized handgun in your Secure Lockbox and another player loots your body, you must restart the task. You will need to wait for the lobby instance to reset or join a new server so the quest item can respawn on the desk inside the Breakdown Service office."
+  },
+  {
+    question: "Do I need to farm the key myself, or can someone else open it?",
+    answer: "You do not need to own the key. Any player from your faction who possesses the correct Breakdown Service Key can unlock the door for you. Once unlocked, the quest item is visible and interactable for anyone who has the task active."
+  },
+  {
+    question: "How long does it take for the quest item to respawn if someone else took it?",
+    answer: "Quest items in Gray Zone Warfare are instanced per player in most scenarios. If a teammate picks it up, it should still be present on the desk for you. If it is missing due to a lobby glitch, simply exfil back to the FOB and queue into a new server instance."
+  }
+]} />
+
+<Callout type="info" title="Final Summary">
+Keep your guard up, secure the key early by focusing on AI targets around the garage, and utilize your Secure Lockbox to make this mission stress-free. Happy hunting on Lamang Island!
+</Callout>
+
+</Section>

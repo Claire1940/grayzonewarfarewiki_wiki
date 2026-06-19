@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Gray Zone Warfare street spotter: Tiger Bay Task Guide",
+  description: "A complete tactical guide to locating the Gray Zone Warfare street spotter position in Tiger Bay, including maps, optimal loadouts, and survival tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Street+Spotter+Guide",
+  date: "2026-06-19",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Task**: Complete the **Gray Zone Warfare street spotter** mission by locating the observation post in Tiger Bay.
+- **Target Coordinates**: Navigate to the high-threat urban zone in grid **198 130** near the main street intersection.
+- **Threat Level**: Tier 3 AI density featuring armored rebels and LAF soldiers; squad deployment is highly recommended.
+- **Key Requirement**: Bring plenty of medical supplies (IFAKs, tourniquets) due to the risk of severe bleeding and coma.
+- **Top Reward**: Unlocks high-tier reputation, currency, and advanced weapon attachments from the vendor.
+</Callout>
+
+<Section icon={Target} title="Task Overview and Mechanics">
+
+The **Gray Zone Warfare street spotter** task is one of the most challenging urban operations on Lamang Island. Assigned during the late-game progression, this mission requires operators to insert deep into Tiger Bay—the island's largest and most hostile city zone. Unlike early-game tasks in Kiu Vongsa, Nam Thaven, or Pha Lang, Tiger Bay is populated by heavily armed rebels and disciplined LAF soldiers.
+
+Understanding the mission details beforehand is critical. Earning reputation with vendors like Turncoat and Handshake requires completing these high-risk recon objectives. Below is the basic task blueprint to help you prepare before boarding the helicopter.
+
+| Task Parameter | Details |
+| --- | --- |
+| **Vendor** | Turncoat / Handshake |
+| **Location** | Tiger Bay Main Street |
+| **Target Grid** | 198 130 |
+| **Danger Level** | Tier 3 (Extreme) |
+| **Primary Objective** | Locate the spotter's lookout and retrieve intelligence |
+
+<Callout type="warning" title="Extreme Danger Warning">
+Tiger Bay features the highest AI spawn density in the game. Do not attempt this mission solo unless you are running a high-tier armor setup with armor-piercing ammunition. Sound control and corner clearing are mandatory.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Mapping the Tiger Bay Spotter Location">
+
+Navigating Tiger Bay requires precise map knowledge. The spotter's position overlooks the main avenue, giving the hostile AI a clear line of sight on incoming operators. To reach the location, you must push past the outer slums, navigate the marina outskirts, and approach the main commercial street.
+
+The table below outlines the key landmarks you will encounter when routing toward the spotter's lookout position. Keeping these spatial anchors in mind will help you redirect your squad if you get pinned down by enemy fire.
+
+| Landmark | Coordinates | Threat Type | Tactical Relevance |
+| --- | --- | --- | --- |
+| **Juliet 1 LZ** | 195 132 | Low | Safest insertion point from the western road |
+| **Juliet 2 LZ** | 199 128 | High | Hot landing zone; immediate rebel combat likely |
+| **Main Intersection** | 198 130 | Extreme | Location of the street spotter nest |
+| **Tiger Bay Mall** | 197 129 | Extreme | Flanking route; heavy LAF patrols |
+
+<Callout type="info" title="Helicopter Positioning Tip">
+When calling in your exfil or insertion, remember that you are immune to damage while onboard the helicopter, and you receive a 4-second invulnerability window immediately after stepping off. Use this window to find hard cover near Juliet 1.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Step-by-Step Walkthrough">
+
+To complete the **Gray Zone Warfare street spotter** objective safely, you should execute a disciplined approach. Do not run straight down the middle of the main avenue, as the spotter's tower and adjacent balconies offer the AI superior height advantages.
+
+Follow these steps to insert, secure the intel, and exfiltrate without losing your tactical gear.
+
+<Steps>
+  <Step num="1" title="Gear Preparation">
+    Equip Class 4 or higher body armor and a helmet with face protection. Pack at least three IFAKs, four Splints, and multiple Tourniquets. Set up an M4A1 or AK-15 weapon platform with armor-piercing rounds.
+  </Step>
+  <Step num="2" title="Insertion at Juliet 1">
+    Call in a transport helicopter to Juliet 1 LZ. Avoid Juliet 2, as it frequently places you in direct combat with no immediate cover. Upon landing, check your perimeter and move east along the treeline toward the city outskirts.
+  </Step>
+  <Step num="3" title="Urban Approach">
+    Move slowly through the western alleys. Use the buildings as defilade against snipers positioned on the rooftops. Clear each structure room-by-room to prevent rebels from flanking your squad.
+  </Step>
+  <Step num="4" title="Locate the Lookout">
+    Approach the intersection at grid 198 130. Look for a multi-story concrete building with a wooden scaffolding structure attached to the side. Climb the stairs to the top balcony to locate the spotter's spotting logbook on the table.
+  </Step>
+  <Step num="5" title="Secure Exfiltration">
+    Place the intelligence notebook inside your Secure Lockbox immediately. Fall back using the southern marina route to reach the exfiltration point. Call the helicopter once the landing zone is cleared of active threats.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Secure Lockbox Safety">
+Always keep quest items in your Secure Lockbox. Even if you fall in battle during the exfiltration phase, the intelligence will remain protected, allowing you to hand in the task back at the FOB without repeating the raid.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimal Loadouts and Weapons">
+
+Choosing the right equipment determines whether you survive a Tiger Bay run. Standard ball ammunition will fail to penetrate the armor worn by elite LAF forces defending the street spotter location. You must match your weapon caliber to high-penetration rounds.
+
+Use the comparison cards below to select a loadout strategy based on your playstyle and squad size.
+
+<CardGrid cols={3}>
+  <Card title="Solo Stealth Build">
+    - **Weapon**: M4A1 Suppressed
+    - **Ammo**: 5.56x45mm M855A1
+    - **Armor**: Class 4 Plate Carrier
+    - **Tactics**: Slow pacing, long-range picks
+  </Card>
+  <Card title="Squad Assaulter">
+    - **Weapon**: AK-15 or AK-308
+    - **Ammo**: 7.62x39mm BP / 7.62x51mm AP
+    - **Armor**: Class 5 Heavy Armor
+    - **Tactics**: Room clearing, suppressive fire
+  </Card>
+  <Card title="Budget Runner">
+    - **Weapon**: SKS DMR
+    - **Ammo**: 7.62x39mm PP
+    - **Armor**: Class 3 Kevlar
+    - **Tactics**: Fast insertion, minimal engagements
+  </Card>
+</CardGrid>
+
+The table below breaks down the best ammunition choices for the street spotter mission. Prioritize armor penetration over raw flesh damage, as almost all enemies near the target coordinates wear ballistic protection.
+
+| Caliber | Recommended Round | Best Weapon Platform | Armor Penetration Tier |
+| --- | --- | --- | --- |
+| **5.56x45mm NATO** | M855A1 / AP | M4A1, DDM4, AK-19 | High (Penetrates Class 4) |
+| **7.62x39mm** | BP / PP | AK-15, AKM, SKS | High (Consistent Class 4 pen) |
+| **7.62x51mm NATO** | M80 / M61 | AK-308, M700 | Very High (Defeats Class 5) |
+| **5.45x39mm** | BP / PPBS | AK-12, AK-74M | Medium-High (Requires headshots) |
+
+<Callout type="success" title="Economy Tip">
+If you are low on funds, run the nearby Sawmill or Airfield tasks first to build vendor reputation. Higher reputation with Gunny and Artisan unlocks cheaper access to these armor-piercing ammunition types.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Survival Goals and Exfil Safety">
+
+Completing the task is only half the battle. Surviving the exfiltration in GZW requires constant vigilance. The AI will migrate toward the sound of gunfire, meaning the path you cleared on the way in may be populated by new spawns on your way out.
+
+Keep track of your health status. If you sustain severe injuries, your blood level will drop, eventually causing a coma. Squadmates have approximately 180 seconds to revive a unconscious operator before permanent death occurs for that run.
+
+<Checklist
+  id="street-spotter-milestones"
+  title="Mission Completion Checklist:"
+  items={[
+    "Verify hydration and energy levels are above 50% at the FOB",
+    "Insert via Juliet 1 LZ and secure the perimeter",
+    "Navigate to the concrete overlook building at grid 198 130",
+    "Retrieve the Spotter's Notebook from the top balcony table",
+    "Place the notebook inside your Secure Lockbox",
+    "Successfully exfiltrate and deliver the intel to Handshake"
+  ]}
+/>
+
+<Callout type="warning" title="AFK Rule Reminder">
+Do not go AFK outside safe zones. The game has a 15-minute inactivity limit. If you are disconnected while sitting in a live deployment zone like Tiger Bay, you will lose all your gear as if you died in combat.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where exactly is the Gray Zone Warfare street spotter target located?",
+    answer: "The street spotter target is located on the top floor balcony of the concrete building overlooking the main street intersection in Tiger Bay, specifically around grid coordinates 198 130."
+  },
+  {
+    question: "Which LZ should I use for the street spotter mission?",
+    answer: "Juliet 1 is the safest landing zone for this mission. Juliet 2 is closer but is surrounded by open ground and high-density AI spawns, making it extremely dangerous."
+  },
+  {
+    question: "Can I complete this task in Joint Operations mode?",
+    answer: "Yes, you can complete it in Joint Operations (PvE). This is highly recommended to avoid enemy player interventions while navigating the difficult urban landscape of Tiger Bay."
+  },
+  {
+    question: "What should I do if the Spotter Notebook does not spawn?",
+    answer: "If the notebook is missing from the balcony table, another player in your session may have recently taken it. You will need to wait for the loot to refresh or clear the area and join a different server instance."
+  }
+]} />
+
+<Callout type="tip" title="Final Task Hand-in">
+Once you return to the Forward Operating Base (FOB), open your vendor menu and navigate to Handshake or Turncoat. Hand in the notebook to complete the mission, claim your rewards, and unlock the next stage of the storyline.
+</Callout>
+
+</Section>
