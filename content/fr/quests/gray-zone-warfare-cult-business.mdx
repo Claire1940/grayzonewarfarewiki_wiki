@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare - Cult Business : Guide Complet et Emplacements Clés",
+  description: "Maîtrisez la tâche Cult Business dans Gray Zone Warfare. Trouvez la clé de la maison de l'ancien de Ban Pa, localisez le code de l'entrepôt et récupérez le journal du chaman grâce à notre guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Cult+Business+Guide",
+  date: "2026-06-28",
+  author: "Équipe Wiki Gray Zone Warfare",
+  keywords: "gray zone warfare, cult business, ban pa, guide, journal du chaman, clé maison ancien"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Objectif principal** : Enquêter sur la production de produits chimiques et les disparitions de villageois dans le village de **Ban Pa**.
+- **Objets essentiels** : Vous devez obtenir la **Clé de la maison de l'ancien de Ban Pa** pour accéder au premier objectif majeur.
+- **Mécanique clé** : Le code de l'entrepôt est **unique à chaque session de serveur** et doit être trouvé en jeu à un emplacement de document spécifique.
+- **Récompense finale** : La réussite accorde **+750 de réputation** auprès de Lab Rat et **2 820 $ USD**.
+- **Risque critique** : Mourir alors que la tâche est active entraîne une pénalité de **-50 de réputation** et un temps de recharge de 20 minutes.
+</Callout>
+
+<Section icon={Target} title="Briefing de la mission et récompenses">
+
+La tâche **Cult Business** dans Gray Zone Warfare est une enquête en plusieurs étapes confiée par Lab Rat. Elle nécessite que les joueurs s'infiltrent dans le village côtier de Ban Pa, un lieu réputé pour sa végétation dense et sa milice locale agressive. Le récit est centré sur un réseau de production de drogue dirigé par un homme nommé Sada, qui a utilisé les superstitions locales concernant un « culte démoniaque » pour masquer ses opérations chimiques. Votre but est de trouver des preuves de cette production et de découvrir ce qui est arrivé aux villageois restés sur place lors de l'évacuation.
+
+**Points forts de la vidéo :**
+- Guide visuel détaillé pour l'emplacement de la **Maison de l'ancien**.
+- Où trouver le **Message de colère** contenant le code de l'entrepôt.
+- Itinéraire à travers Ban Pa pour éviter les zones à forte densité d'IA.
+
+<YouTubeEmbed videoId="L3EfXAmhzrg" title="Updated Cult Business Gray Zone Warfare" />
+
+Avant de partir, assurez-vous d'être prêt pour un combat prolongé. Ban Pa n'est pas un endroit que l'on peut simplement traverser en courant. Les récompenses pour cette tâche sont importantes, en particulier le gain de réputation auprès de Lab Rat, essentiel pour débloquer des fournitures médicales de haut niveau.
+
+| Catégorie de récompense | Objet / Valeur | Impact |
+| --- | --- | --- |
+| **Expérience** | 300 EXP | Progression de niveau |
+| **Réputation** | +750 Lab Rat | Débloque du meilleur équipement médical |
+| **Monnaie** | 2 820 $ USD | Financement de l'équipement |
+| **Fournitures médicales** | x1 Petit kit de suture | Réparation des blessures sur le terrain |
+
+<Callout type="success" title="Gestion de la réputation">
+Comme la pénalité en cas d'échec est assez lourde (-50 de réputation), il est fortement recommandé de jouer prudemment. Si votre réputation auprès de Lab Rat est basse, envisagez de venir avec un coéquipier pour sécuriser votre corps et les objets de quête.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Phase 1 : La maison de l'ancien et la production chimique">
+
+Le premier objectif de **Cult Business** vous emmène à la maison de l'ancien à Ban Pa. Ce bâtiment sert de hub initial pour les opérations du réseau de drogue. Pour terminer cette étape, vous devez trouver un établi de production chimique situé au premier étage. Cependant, la pièce est verrouillée et nécessite la **Clé de la maison de l'ancien de Ban Pa**.
+
+Trouver cette clé est souvent la partie la plus chronophage de la mission. Elle peut apparaître à plusieurs endroits dans le village, ou vous pouvez la trouver sur les cadavres des défenseurs IA locaux.
+
+| Point d'apparition de la clé | Emplacement spécifique | Coordonnées / Détail |
+| --- | --- | --- |
+| **Zone de l'entrepôt** | À l'intérieur de l'entrepôt principal de Ban Pa | Vérifiez les étagères et les boîtes à outils |
+| **Table de la maison sur pilotis** | À l'extérieur sur une table en bois | Près des maisons sur pilotis au nord |
+| **Butin d'IA** | Récupéré sur les ennemis morts | Faible chance aléatoire |
+
+Une fois la clé en votre possession, dirigez-vous vers la maison de l'ancien (souvent reconnaissable à sa structure plus imposante que les cabanes). Descendez à la porte verrouillée. Déverrouillez-la, entrez dans la pièce, et votre tâche se mettra à jour une fois que vous aurez « signalé vos découvertes » en interagissant avec l'équipement chimique.
+
+<Callout type="warning" title="Conservation de la clé">
+Si vous mourez après avoir trouvé la clé mais avant de l'avoir utilisée, vous la perdrez, à moins qu'elle ne se trouve dans votre **Conteneur sécurisé**. Déplacez toujours les clés critiques pour les quêtes dans votre emplacement sécurisé immédiatement après les avoir ramassées.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Phase 2 : Localiser les renseignements de l'entrepôt">
+
+Après avoir signalé la production chimique, Lab Rat vous chargera de trouver des renseignements laissés par les producteurs de drogue. Ces infos sont enfermées dans un entrepôt protégé par un clavier numérique. Contrairement à d'autres tâches où les codes sont statiques, le code pour **Cult Business** est aléatoire pour chaque instance de serveur.
+
+<Steps>
+  <Step num="1" title="Localiser la maison sur pilotis">
+    Dirigez-vous vers la section nord de Ban Pa où les maisons sont construites sur pilotis. Vous cherchez une maison spécifique qui contient souvent le document « Message de colère ».
+  </Step>
+  <Step num="2" title="Trouver le Message de colère">
+    À l'intérieur de la maison sur pilotis, cherchez une table avec une poire pourrie et une bouteille vide. À côté d'elles se trouve un document intitulé **Angry Message** (Message de colère).
+  </Step>
+  <Step num="3" title="Traduire et noter le code">
+    Interagissez avec la note et sélectionnez « Translate » (Traduire). Un code à quatre chiffres (ex: 5644) apparaîtra. Notez-le ou mémorisez-le, car vous en aurez besoin pour la porte de l'entrepôt.
+  </Step>
+  <Step num="4" title="Infiltrer l'entrepôt">
+    Retournez vers la zone de l'entrepôt. Localisez la porte avec le cadenas. Entrez le code que vous venez de trouver pour déverrouiller la porte.
+  </Step>
+  <Step num="5" title="Récupérer le message sur l'opération de drogue">
+    À l'intérieur de la pièce verrouillée de l'entrepôt, trouvez la note intitulée **Drug Operation Message**. La lire mettra à jour votre objectif.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Approche furtive">
+La zone de l'entrepôt est lourdement patrouillée. Si vous jouez en solo, essayez d'éliminer l'IA depuis la périphérie à l'aide d'une arme avec silencieux avant de tenter d'entrer le code. L'animation pour entrer le code vous laisse vulnérable pendant quelques secondes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Phase 3 : Le journal du chaman et les infos sur les villageois">
+
+La dernière pièce du puzzle consiste à découvrir ce qui est arrivé aux villageois. Vous devez trouver le **Journal du chaman**, qui contient les derniers éléments narratifs de l'histoire de couverture du « culte ». Curieusement, cet objet se trouve près des maisons sur pilotis où vous avez trouvé le code de l'entrepôt.
+
+Le journal du chaman fournit le contexte nécessaire pour comprendre les motivations de Sada — spécifiquement sa tentative d'évacuer ses partisans tout en prétendant que la « vengeance de Phi Pa Mum » s'abattait sur l'État. Ces renseignements sont vitaux pour le rapport final de Lab Rat.
+
+| Objet de renseignement | Emplacement | Interaction |
+| --- | --- | --- |
+| **Journal du chaman** | Maison sur pilotis (près de l'emplacement du code) | Ramasser / Mettre dans le conteneur sécurisé |
+| **Journal du pirate effrayé** | Zone des quais | Histoire optionnelle (non requis) |
+| **Note sur l'opération de drogue** | Entrepôt verrouillé | Requis pour la phase 2 |
+
+<Checklist
+  id="cult-business-checklist"
+  title="Liste de contrôle d'extraction finale :"
+  items={[
+    "Production chimique signalée à la maison de l'ancien",
+    "Code de l'entrepôt récupéré depuis le 'Message de colère'",
+    "Message sur l'opération de drogue récupéré dans l'entrepôt",
+    "Journal du chaman sécurisé dans le conteneur sécurisé",
+    "Se rendre au point d'extraction (LZ) le plus proche"
+  ]}
+/>
+
+<Callout type="info" title="Extraction finale">
+Le journal du chaman est un objet physique. Si vous mourez avant l'extraction ou avant de l'avoir mis dans votre conteneur sécurisé, vous devrez retourner à Ban Pa pour le collecter à nouveau. Priorisez toujours la sécurité de cet objet une fois qu'il est en votre possession.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Comparaison tactique : Solo vs Escouade">
+
+Accomplir la mission **Cult Business** varie considérablement en difficulté selon la taille de votre équipe. La disposition de Ban Pa favorise les défenseurs, car il existe de nombreuses positions surélevées et des buissons épais où l'IA peut se cacher.
+
+<CardGrid cols={3}>
+  <Card title="Discrétion en solo">
+    - **Avantages** : Profil bas, plus facile de se cacher.
+    - **Inconvénients** : Risque élevé si vous êtes repéré ; personne pour échanger les tirs.
+    - **Stratégie** : Utilisez un silencieux et déplacez-vous uniquement dans l'ombre.
+  </Card>
+  <Card title="Coordination en duo">
+    - **Avantages** : Un joueur peut entrer les codes pendant que l'autre couvre.
+    - **Inconvénients** : Nécessite des mouvements synchronisés.
+    - **Stratégie** : Progressez par bonds entre les bâtiments pour maintenir une sécurité à 360 degrés.
+  </Card>
+  <Card title="Escouade complète">
+    - **Avantages** : Peut facilement submerger la résistance de l'IA.
+    - **Inconvénients** : Très bruyant ; attire les autres factions de PMC.
+    - **Stratégie** : Établissez un périmètre autour de la maison de l'ancien et de l'entrepôt.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Conscience de l'ennemi">
+L'IA de Ban Pa est connue pour tirer à travers les minces parois en bois des maisons sur pilotis. Ne supposez pas que vous êtes en sécurité simplement parce que vous êtes à l'intérieur. Restez loin des fenêtres et des cloisons minces pendant une fusillade.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusion et FAQ">
+
+La tâche **Cult Business** est un exemple parfait des mécaniques d'enquête du jeu. Elle oblige les joueurs à équilibrer combat, exploration et résolution d'énigmes (le code aléatoire). En suivant ce guide, vous vous assurez de minimiser le risque de perdre de la réputation auprès de Lab Rat et de maximiser votre efficacité sur le terrain.
+
+<FAQ items={[
+  {
+    question: "Où puis-je trouver la clé de la maison de l'ancien de Ban Pa ?",
+    answer: "La clé peut apparaître sur une table près des maisons sur pilotis au nord, à l'intérieur de l'entrepôt principal, ou aléatoirement sur des ennemis IA morts dans la région de Ban Pa."
+  },
+  {
+    question: "Le code de l'entrepôt est-il le même pour tout le monde ?",
+    answer: "Non, le code dans le 'Message de colère' est unique à chaque instance de serveur. Vous devez trouver et traduire la note dans votre session actuelle pour obtenir le code correct."
+  },
+  {
+    question: "Que se passe-t-il si je meurs avec le journal du chaman ?",
+    answer: "Si le journal est dans votre inventaire principal, vous le perdrez à votre mort. S'il est dans votre conteneur sécurisé, vous le garderez et pourrez le remettre à Lab Rat même après être mort."
+  },
+  {
+    question: "Pourquoi ai-je perdu de la réputation auprès de Lab Rat ?",
+    answer: "Si vous mourez alors que la tâche 'Cult Business' est active, vous subissez une pénalité de -50 de réputation. C'est une mécanique unique pour certaines tâches à enjeux élevés dans Gray Zone Warfare."
+  }
+]} />
+
+</Section>

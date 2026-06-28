@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare - Interrupted Aid: Opis przejścia i przewodnik po lokalizacji",
+  description: "Opanuj zadanie Interrupted Aid dla Lab Rat w Gray Zone Warfare. Znajdź zaginiony oddział PMC w pobliżu Ban Pa dzięki naszemu szczegółowemu przewodnikowi po lokalizacji i nagrodach.",
+  category: "Poradnik",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Interrupted+Aid+Guide",
+  date: "2026-06-28",
+  author: "Zespół Wiki Gray Zone Warfare"
+}
+
+<Callout type="info" title="Szybki przewodnik">
+- **Główny cel**: Zlokalizuj zaginiony oddział PMC na południe od Pha Lang i zgłoś znaleziska do Lab Rat.
+- **Kluczowa lokalizacja**: Most na północ od głównej wioski Ban Pa na współrzędnych **201 146**.
+- **Punkt interakcji**: Ciało oparte o znak drogowy obok opon na skraju mostu.
+- **Kluczowa nagroda**: **+100 reputacji** u Lab Rat, niezbędnej do odblokowania zapasów medycznych wyższego poziomu.
+- **Poziom zagrożenia**: Umiarkowany; Ban Pa jest znane z agresywnego AI o niezłym celowaniu, więc podchodź z ostrożnością.
+</Callout>
+
+<Section icon={Target} title="Briefing misji i cele">
+
+Zadanie **Gray Zone Warfare Interrupted Aid** to jedna z misji we wczesnej i środkowej fazie gry, zlecana przez Lab Rat. Misja ta podkreśla humanitarną stronę konfliktu, w której Lab Rat próbuje pomóc lokalnym cywilom uwięzionym w ogniu walki. Wcześniej wysłała ona oddział kontraktowy PMC w celu dostarczenia pomocy na południe od Pha Lang, ale kontakt z nimi się urwał. Twoim zadaniem jest zbadanie ich ostatniej znanej lokalizacji i ustalenie ich losu.
+
+**Najważniejsze momenty wideo:**
+- Wizualne potwierdzenie lokalizacji mostu na północ od Ban Pa.
+- Identyfikacja konkretnego ciała, które aktywuje interakcję „Zgłoś znaleziska” (Report Findings).
+- Taktyczne podejście pozwalające uniknąć niepotrzebnych starć z AI w pobliżu mostu.
+
+<YouTubeEmbed videoId="fY9X0IsSW1Y" title="Przewodnik po zadaniu Interrupted Aid w Gray Zone Warfare" />
+
+| Szczegóły zadania | Specyfikacja |
+| :--- | :--- |
+| **Zleceniodawca** | Lab Rat |
+| **Region** | Ban Pa / Na południe od Pha Lang |
+| **Współrzędne** | 201 146 |
+| **Główny cel** | Znajdź oddział PMC i zgłoś znaleziska |
+| **Wymagania** | Zalecany poziom 5+ |
+
+<Callout type="warning" title="Pilnuj skrzydeł">
+Obszar mostu jest stosunkowo otwarty. Przed wejściem w interakcję z celem upewnij się, że oczyściłeś najbliższą okolicę, ponieważ szabrownicy AI często kręcą się po drodze prowadzącej do Ban Pa.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Lokalizacja i strategia nawigacji">
+
+Znalezienie dokładnego miejsca dla zadania **Gray Zone Warfare Interrupted Aid** wymaga udania się do regionu Ban Pa. Obszar ten znajduje się na południe od Pha Lang i charakteryzuje się gęstą roślinnością oraz centralnie położoną wioską. Omawiany most znajduje się tuż na północ od dużej góry wznoszącej się nad Ban Pa.
+
+<CardGrid cols={3}>
+  <Card title="Wybór strefy lądowania (LZ)">
+    - **LZ India 1** jest zazwyczaj najbliższym punktem.
+    - Podejdź od północy, aby pozostać w ukryciu.
+    - Unikaj głównej wioski, jeśli zależy ci na cichym podejściu.
+  </Card>
+  <Card title="Znajomość terenu">
+    - Most jest odsłonięty i oferuje niewiele twardych osłon.
+    - Użyj opon i znaku jako tymczasowej zasłony.
+    - Obserwuj linię grzbietu pod kątem potencjalnych snajperów.
+  </Card>
+  <Card title="Taktyczna ścieżka">
+    - Idź główną drogą na południe od Pha Lang.
+    - Schodź z asfaltu, aby zmniejszyć hałas.
+    - Miej most na oku, ale podchodź od strony linii drzew.
+  </Card>
+</CardGrid>
+
+| Punkt orientacyjny | Kierunek | Odległość od mostu |
+| :--- | :--- | :--- |
+| **Wioska Ban Pa** | Południe | Ok. 200m |
+| **Główna góra** | Południowy zachód | Góruje nad mostem |
+| **Winchester Major COP**| Północ | Punkt startowy dla wielu |
+| **Pha Lang** | Północ | Dalszy punkt ewakuacji |
+
+<Callout type="info" title="Wskazówka środowiskowa">
+Most oznaczony jest dużym znakiem i kilkoma porzuconymi oponami. Jeśli widzisz te oznaczenia w pobliżu przeprawy wodnej na współrzędnych 201 146, jesteś we właściwym miejscu.
+</Callout>
+
+</Section>
+
+<Section icon={Steps} title="Instrukcja krok po kroku">
+
+Aby pomyślnie ukończyć misję **Gray Zone Warfare Interrupted Aid**, wykonaj następujące kroki. Upewnij się, że twoja broń jest załadowana amunicją co najmniej poziomu 2 (Tier 2), ponieważ przeciwnicy AI w Ban Pa mogą czasami nosić lekkie pancerze.
+
+<Steps>
+  <Step num="1" title="Zaakceptuj misję">
+    Porozmawiaj z Lab Rat w Bazie Operacyjnej (Base) swojej frakcji. Zaakceptuj zadanie „Interrupted Aid”, aby zaznaczyć cel na mapie.
+  </Step>
+  <Step num="2" title="Wyrusz do Ban Pa">
+    Zamów transport do najbliższego LZ w pobliżu Ban Pa. Jeśli nadchodzisz z północy, LZ India 1 lub 2 będą zazwyczaj najlepszym wyborem. Przemieszczaj się ostrożnie w kierunku współrzędnych **201 146**.
+  </Step>
+  <Step num="3" title="Zlokalizuj most">
+    Skieruj się na północne obrzeża Ban Pa. Szukasz mostu przebiegającego nad niewielkim ciekiem wodnym. Szukaj dużego znaku drogowego i sterty opon na poboczu drogi.
+  </Step>
+  <Step num="4" title="Znajdź ciało PMC">
+    Przeszukaj najbliższą okolicę znaku. Znajdziesz martwego członka oddziału PMC opartego o słupek znaku. To jest ten „oddział”, o którym mówiła Lab Rat.
+  </Step>
+  <Step num="5" title="Zgłoś znaleziska">
+    Podejdź do ciała i przytrzymaj klawisz interakcji (domyślnie „F”), aby wybrać opcję „Zgłoś znaleziska” (Report Findings). Powinieneś zobaczyć powiadomienie o ukończeniu celu.
+  </Step>
+  <Step num="6" title="Ewakuuj się i zdaj zadanie">
+    Udaj się do najbliższego punktu ewakuacji. Po powrocie do bazy porozmawiaj z Lab Rat, aby odebrać nagrody i zwiększyć reputację.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Misja ukończona">
+Po zgłoszeniu znalezisk status twojego zadania zmieni się na „Przeżyj i opuść obszar” (Survive and Leave the Area). Nie bądź chciwy; jeśli obecność wrogiego AI jest zbyt silna, natychmiast się ewakuuj.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Zalecenia dotyczące walki i wyposażenia">
+
+Obszar wokół celu zadania **Gray Zone Warfare Interrupted Aid** nie jest strefą walk o wysokiej intensywności, taką jak Midnight Sapphire, ale niesie ze sobą unikalne wyzwania. AI w Ban Pa słynie z ukrywania się w wysokiej trawie i krzakach, przez co trudno ich dostrzec, zanim otworzą ogień.
+
+| Kategoria sprzętu | Zalecany przedmiot | Powód |
+| :--- | :--- | :--- |
+| **Broń** | M4A1 lub AK-74 | Wszechstronność na średnim dystansie |
+| **Optyka** | Celownik 4x (ACOG/Specter) | Niezbędny do wypatrywania AI w krzakach |
+| **Pancerz** | Kamizelka Klasy 3 | Chroni przed powszechną amunicją używaną przez AI |
+| **Medykamenty** | Środek hemostatyczny + szyny | Wysokie prawdopodobieństwo uszkodzenia kończyn przez AI |
+
+<CardGrid cols={2}>
+  <Card title="Podejście po cichu">
+    - Użyj tłumika, aby nie zaalarmować całej wioski.
+    - Przemieszczaj się przez roślinność na wschód od drogi.
+    - Walcz tylko z wrogami, którzy bezpośrednio blokują ci drogę do mostu.
+  </Card>
+  <Card title="Agresywne oczyszczanie">
+    - Użyj granatów, aby oczyścić obszar wokół opon i znaku.
+    - Zabierz ze sobą partnera, który zapewni osłonę ze wzgórz.
+    - Oczyść kilka pierwszych chat w Ban Pa, aby zabezpieczyć swoje tyły.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Profesjonalna wskazówka">
+Jeśli grasz solo, spróbuj wykonać to zadanie o świcie lub o zmierzchu czasu gry. Oświetlenie ułatwia dostrzeżenie błysków wystrzałów AI ukrytego w zaroślach.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Nagrody i postępy">
+
+Ukończenie zadania **Gray Zone Warfare Interrupted Aid** jest kluczowe dla twoich długoterminowych postępów u Lab Rat. Jako główny sprzedawca artykułów medycznych, zwiększanie jej reputacji odblokowuje lepsze przedmioty leczące, zestawy chirurgiczne i większe plecaki.
+
+<Checklist
+  id="interrupted-aid-rewards"
+  title="Nagrody za ukończenie misji:"
+  items={[
+    "400 punktów doświadczenia (XP)",
+    "+100 reputacji u Lab Rat",
+    "Zwiększone zaufanie do przyszłych zadań medycznych",
+    "Odblokowanie kolejnych zadań związanych z Ban Pa"
+  ]}
+/>
+
+| Typ nagrody | Ilość | Wartość |
+| :--- | :--- | :--- |
+| **Doświadczenie** | 400 | **Wysoka** we wczesnej fazie gry |
+| **Reputacja** | +100 | **Kluczowa** dla poziomów sklepu |
+| **Dostęp do sklepu**| Nowe leki | **Niezbędny** do przetrwania |
+
+<Callout type="info" title="Znaczenie handlarza">
+Reputacja u Lab Rat jest prawdopodobnie najważniejsza we wczesnej fazie gry. Wyższe poziomy pozwalają na zakup zestawów chirurgicznych („Survkits”), które są niezbędne do naprawy zniszczonych kończyn podczas długich wypraw.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Znalazłem most, ale nie ma ciała. Co mam zrobić?",
+    answer: "Upewnij się, że jesteś na właściwych współrzędnych (201 146). Ciało powinno być oparte o słupek znaku w pobliżu opon. Jeśli się nie pojawia, spróbuj zmienić serwer lub zalogować się ponownie, ponieważ może to być rzadki błąd instancji."
+  },
+  {
+    question: "Czy muszę znaleźć wiele ciał, aby zaliczyć cel z oddziałem PMC?",
+    answer: "Nie, interakcja z konkretnym ciałem opartym o znak na moście wystarczy do ukończenia celu „Dowiedz się, co stało się z oddziałem PMC”."
+  },
+  {
+    question: "Czy Ban Pa jest zbyt trudne dla gracza solo?",
+    answer: "Jest to do zrobienia solo, jeśli będziesz działać powoli. Głównym zagrożeniem jest gęsta roślinność. Użyj broni z lunetą i oczyść obszar wokół mostu, zanim rozpoczniesz animację interakcji."
+  },
+  {
+    question: "Jakie jest następne zadanie po Interrupted Aid?",
+    answer: "Zazwyczaj Lab Rat zleci kolejne zadania związane z eksploracją lub odzyskiwaniem przedmiotów w obszarach Ban Pa lub Pha Lang, często polegające na zbieraniu zapasów medycznych lub badaniu lokalnych klinik."
+  }
+]} />
+
+<Callout type="tip" title="Ostatnia rada">
+Zawsze sprawdź mapę po raz ostatni przed wyruszeniem na most. Wielu graczy myli most południowy z północnym. Właściwy most dla zadania **Gray Zone Warfare Interrupted Aid** to zdecydowanie ten po północnej stronie góry.
+</Callout>
+
+</Section>

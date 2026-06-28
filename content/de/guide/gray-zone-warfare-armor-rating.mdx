@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Rüstungsbewertung: NIJ-Schutzstufen & Beste Ausrüstung",
+  description: "Meistern Sie das Rüstungsbewertungssystem von Gray Zone Warfare. Erfahren Sie mehr über NIJ-Schutzstufen, Plattenabdeckungsmechaniken sowie die besten Schutzwesten und Helme für 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Armor+Rating+Guide",
+  date: "2026-06-28",
+  author: "gray zone warfare Wiki-Team",
+  keywords: "Gray Zone Warfare, Rüstungsbewertung, NIJ-Schutzstufen, ballistische Platten, beste Rüstung, Helm-Schutz"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Rüstungsbewertungssystem**: Gray Zone Warfare nutzt den realen **NIJ (National Institute of Justice)** Standard anstelle von vereinfachten Spiel-Stufen [4q-5eqAPGJQ].
+- **Hierarchische Regeln**: Der Schutz skaliert von IIA (niedrigste) bis III+ (aktuell höchste im Spiel), wobei **+** eine Verbesserung und **A** eine Herabstufung anzeigt [4q-5eqAPGJQ, 3245764171].
+- **Plattenabdeckung**: Die Rüstungsbewertung allein garantiert keine Sicherheit; Sie müssen Westen auf ihre Konfiguration der **Front-, Rücken- und Seitenplatten** überprüfen [4q-5eqAPGJQ, 3245764171].
+- **Top-Tier-Ausrüstung**: Das **Phantom Rig (III++)** und die **Lancer (III)** bieten das beste Gleichgewicht zwischen hochgradigem Schutz und Abdeckung [4q-5eqAPGJQ].
+</Callout>
+
+<Section icon={Shield} title="Das Rüstungsbewertungssystem von Gray Zone Warfare verstehen">
+
+Sich im ballistischen Schutz moderner taktischer Shooter zurechtzufinden, kann unglaublich entmutigend sein, besonders wenn man von Spielen mit vereinfachten Rüstungsklassen kommt. Das **Gray Zone Warfare Rüstungsbewertungssystem** verzichtet auf willkürliche Level zugunsten des realen Standards des National Institute of Justice (NIJ) [4q-5eqAPGJQ, 3245764171]. Dieser Standard legt genau fest, welche Arten von Munition eine bestimmte Platte oder ein Helm basierend auf realen ballistischen Tests aushalten kann [4q-5eqAPGJQ, 3245764171].
+
+Um in den feindseligen Umgebungen von Lamang zu überleben, müssen Sie verstehen, wie diese Bewertungen mit eintreffenden Geschossen interagieren. Rüstungen niedriger Stufen schützen vor Pistolenmunition mit Weichkern, während Platten hoher Stufen erforderlich sind, um Hochgeschwindigkeits-Gewehrmunition zu stoppen [3245764171].
+
+**Video-Highlights:**
+- **Reale Standards**: Entschlüsselung der im Spiel verwendeten ballistischen NIJ-Bewertungen [4q-5eqAPGJQ, 3245764171].
+- **Die Plus- & A-Regeln**: Wie Modifikatoren den Schutzwert Ihrer Ausrüstung verändern [4q-5eqAPGJQ, 3245764171].
+- **Platteninspektion**: Identifizierung toter Winkel in Ihrer Körperpanzerung [4q-5eqAPGJQ, 3245764171].
+- **Händleroptionen**: Auswahl der besten Verteidigungsausrüstung von Handshake [4q-5eqAPGJQ].
+
+<YouTubeEmbed videoId="4q-5eqAPGJQ" title="Rüstung ERKLÄRT in Grayzone Warfare | GUIDE |" />
+
+### Die ballistische NIJ-Hierarchie
+
+In Gray Zone Warfare skalieren die ballistischen Bewertungen von Level IIA bis zu Level III+ [4q-5eqAPGJQ, 3245764171]. Während Level IV Rüstungen im realen NIJ-Standard existieren, sind sie im Spiel noch nicht implementiert [4q-5eqAPGJQ, 3245764171].
+
+Die an diese Zahlen angehängten Modifikatoren sind entscheidend:
+- **Der Plus (+) Modifikator**: Zeigt an, dass die Rüstung verbessert wurde und einen Schutz bietet, der über dem Basislevel liegt, aber etwas geringer ist als die nächsthöhere Stufe [4q-5eqAPGJQ, 3245764171].
+- **Der A Modifikator**: Zeigt eine Herabstufung an. Eine "A"-Bewertung ist immer schlechter als ihr Standard-Gegenstück in derselben Stufe (z. B. ist IIIA schlechter als III) [4q-5eqAPGJQ, 3245764171].
+
+| NIJ Level | Relativer Schutz | Ballistische Kapazität | Spielstatus |
+|---|---|---|---|
+| IIA | Sehr niedrig | Stoppt 9mm und .40 S&W mit niedriger Geschwindigkeit | Häufige niedrige Stufe |
+| II | Niedrig | Standard 9mm und .357 Magnum | Basis-Sicherheit |
+| IIIA | Moderat | Hochgeschwindigkeits-9mm und .44 Magnum | Mittlere Stufe, für Pistolen ausgelegt |
+| IIIA+ | Moderat-Hoch | Verbesserter Pistolenschutz | Maximum für Helme |
+| III | Hoch | Stoppt 7.62x39mm und 7.62x51mm FMJ | Standard-Gewehrschutz |
+| III+ | Sehr hoch | Fortgeschrittener Gewehrschutz | Aktuelle Spitzen-Meta |
+
+<Callout type="warning" title="Ballistischer Warnhinweis">
+Verlassen Sie sich nicht auf Rüstungen der Stufe IIA oder IIIA, wenn Sie sich in hochgradige Militärzonen begeben [3245764171]. Diese Bewertungen sind darauf ausgelegt, Pistolenkaliber-Splitter und Weichkerngeschosse zu stoppen, aber militärische Standard-Gewehrpatronen wie 7.62x39mm FMJ werden sie sofort durchschlagen [3245764171].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Plattenpositionen und Abdeckungsmechaniken">
+
+Eine hervorragende **Gray Zone Warfare Rüstungsbewertung** ist nur die halbe Miete der Verteidigung. Das Spiel verfügt über eine komplexe, lokalisierte Trefferregistrierung und Ballistik-Engine. Das bedeutet, dass Ihre Körperpanzerung nur die exakten physischen Zonen schützt, in denen die ballistischen Platten installiert sind [4q-5eqAPGJQ, 3245764171].
+
+Wenn Sie eine Weste oder einen Plattenträger inspizieren, achten Sie auf die obere linke Ecke des Inspektionsfensters [4q-5eqAPGJQ, 3245764171]. Sie sehen Symbole, die drei potenzielle Plattenpositionen darstellen [4q-5eqAPGJQ]:
+- **Weiße Symbole**: Die Platte ist vorhanden und aktiv und bietet in diesem Sektor vollen Schutz gemäß Bewertung [4q-5eqAPGJQ].
+- **Ausgegraute Symbole**: Es ist keine Platte installiert, sodass Sie in diesem Bereich über keinerlei ballistischen Schutz verfügen [4q-5eqAPGJQ].
+
+<CardGrid cols={3}>
+  <Card title="Frontplatte">
+    Schützt Ihre lebenswichtigen Brustorgane bei direkten frontalen Gefechten. Unverzichtbar für aggressive Point-Men und Frontalangriffe [4q-5eqAPGJQ].
+  </Card>
+  <Card title="Rückenplatte">
+    Sichert Ihre Wirbelsäule und den oberen Rücken bei Rückzügen oder Flankenmanövern. Entscheidend für das Überleben in der offenen Welt [4q-5eqAPGJQ].
+  </Card>
+  <Card title="Seitenplatten">
+    Deckt Ihre Flanken unter den Achselhöhlen ab. Verhindert tödliche Schüsse von Feinden, die sich links oder rechts von Ihnen im Gebüsch verstecken [4q-5eqAPGJQ].
+  </Card>
+</CardGrid>
+
+### Vergleich der Plattenabdeckung wichtiger Westen
+
+Zu verstehen, welche Platten an Ihrer Weste aktiv sind, bestimmt, wie Sie Ihren Körper während eines Feuergefechts positionieren müssen. Unten finden Sie eine Aufschlüsselung gängiger Rüstungsoptionen, die bei Händlern wie Handshake erhältlich sind [4q-5eqAPGJQ].
+
+| Westenname | Rüstungsbewertung | Frontplatte | Rückenplatte | Seitenplatten |
+|---|---|---|---|---|
+| CZ VIP | Level III | Aktiv | Inaktiv | Inaktiv |
+| Elite 4 | Level III | Aktiv | Inaktiv | Inaktiv |
+| CGPC3 | Level IIIA | Aktiv | Aktiv | Inaktiv |
+| Lancer | Level III | Aktiv | Aktiv | Inaktiv |
+| Gen 2 Operator | Level IIIA | Aktiv | Aktiv | Aktiv |
+| Phantom Rig | Level III++ | Aktiv | Aktiv | Aktiv |
+
+<Callout type="tip" title="Taktische Positionierung">
+Wenn Sie eine Weste mit hoher Bewertung tragen, der Seiten- oder Rückenplatten fehlen (wie die Elite 4), halten Sie Ihr Ziel immer direkt vor sich [4q-5eqAPGJQ]. Wenn Sie Ihre Flanken entblößen oder sich zum Weglaufen umdrehen, setzen Sie völlig ungeschützte Hitboxen frei [4q-5eqAPGJQ].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Beste Schutzwesten und Plattenträger in 2026">
+
+Die Auswahl der richtigen Rüstung erfordert ein Abwägen zwischen rohen Schutzbewertungen, Abdeckung und Lagerkapazität [4q-5eqAPGJQ]. In der aktuellen Meta von 2026 ist eine hochwertige Rüstung unerlässlich, um sowohl tödliche KI-Scharfschützenschüsse als auch ausgerüstete gegnerische Spieler zu überleben.
+
+### Die besten Rüstungsoptionen erklärt
+
+1. **Phantom Rig (Level III++)**: Dies wird weithin als die absolut beste Rüstung im Spiel angesehen [4q-5eqAPGJQ]. Es verfügt über eine Level III++ Bewertung, bietet Schutz durch Front-, Rücken- und Seitenplatten und bietet ein massives Inventar-Layout für Magazine und medizinische Vorräte [4q-5eqAPGJQ]. Es kann über die Supporter Edition des Spiels erhalten oder aus hochgradigen Militärkisten in Gebieten wie dem YBL-1 Bunker erbeutet werden [4q-5eqAPGJQ].
+2. **Lancer (Level III)**: Die erste Wahl für Spieler, die Gewehrschutz über Seitenabdeckung priorisieren [4q-5eqAPGJQ]. Indem es sowohl Ihre Vorder- als auch Ihre Rückseite mit Level III Platten schützt, stellt es sicher, dass Sie mehrere Gewehrschüsse in den Torso überleben können [4q-5eqAPGJQ].
+3. **Modular Operator Carrier Gen 2 (Level IIIA)**: Wenn Sie eine vollständige 360-Grad-Abdeckung verlangen, aber kein Phantom Rig finden oder bezahlen können, ist der Gen 2 Operator Ihre beste Wahl [4q-5eqAPGJQ]. Während seine IIIA-Bewertung schwächer gegen Gewehre ist, verhindert das Hinzufügen von Seitenplatten, dass glückliche Flankenschüsse Sie sofort zurück zur Basis schicken [4q-5eqAPGJQ].
+
+<Steps>
+  <Step num="1" title="Bedrohungsbereich bewerten">
+    Bestimmen Sie, wo Sie eingesetzt werden. Basis-Städte mit Pistolen-KI erfordern nur Rüstungen der Stufe IIA oder IIIA, während Militärbasen Level III oder III+ verlangen [4q-5eqAPGJQ, 3245764171].
+  </Step>
+  <Step num="2" title="Abdeckung vs. Bewertung wählen">
+    Entscheiden Sie basierend auf Ihrer Squad-Rolle, ob Sie 360-Grad-Schutz (Gen 2 Operator) oder hochkalibrigen Frontalschutz (Lancer/Elite 4) benötigen [4q-5eqAPGJQ].
+  </Step>
+  <Step num="3" title="Plattenintegrität überprüfen">
+    Bevor Sie die Basis verlassen, inspizieren Sie Ihre Rüstung, um sicherzustellen, dass die Platten vollständig intakt sind und in vorangegangenen Raids nicht beschädigt wurden.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Meta-Wahl">
+Priorisieren Sie immer das Bergen von Level III+ oder III++ Rüstungsteilen, die Sie in der Welt finden [4q-5eqAPGJQ]. Lagern Sie diese sicher in Ihrem Stash für PvP-Operationen mit hohem Einsatz oder schwierige PvE-Missionen tief im feindlichen Territorium [4q-5eqAPGJQ].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Helm-Schutzbewertungen & Empfehlungen">
+
+Während der Schutz Ihres Thorax lebenswichtig ist, um schnellen Blutverlust und Organversagen zu verhindern, ist der Schutz Ihres Kopfes der Unterschied zwischen dem Verbleib im Kampf und einem sofortigen Trip zurück ins Hauptmenü. Helme in Gray Zone Warfare folgen demselben NIJ-Bewertungssystem [4q-5eqAPGJQ].
+
+Die Mehrheit der taktischen Helme liegt in der Stufe Level IIIA, was bedeutet, dass sie darauf ausgelegt sind, Pistolengeschosse und entfernte Splitter abzuwehren [4q-5eqAPGJQ]. Es gibt jedoch Elite-Optionen, die über diese Grenze hinausgehen.
+
+### Vergleich der Helmleistung
+
+| Helmname | Rüstungsbewertung | Abdeckungsbereich | Taktischer Vorteil |
+|---|---|---|---|
+| Mitch 2000 | Level IIIA | Oben, Hinten | Sehr erschwinglicher Helm für Budget-Runs [4q-5eqAPGJQ] |
+| Mitch 2002 | Level IIIA | Oben, Hinten | Standardmäßiger Schutz der mittleren Stufe [4q-5eqAPGJQ] |
+| Xfill Helmet | Level IIIA | Oben, Hinten, Seiten | Hervorragende Kompatibilität für Zubehör [4q-5eqAPGJQ] |
+| Fast MT | Level IIIA+ | Oben, Hinten, Seiten | Klassenbeste Schutzbewertung mit verbessertem Modifikator [4q-5eqAPGJQ] |
+
+Der **Fast MT** sticht als die beste Helmauswahl hervor, da er über eine **Level IIIA+** Bewertung verfügt [4q-5eqAPGJQ]. Der Plus-Modifikator gibt ihm einen leichten Vorteil beim Abwehren von Gewehrschüssen aus steilen Winkeln und beim Absorbieren von stumpfen Traumata, die Standard-IIIA-Helme knacken würden [4q-5eqAPGJQ].
+
+<Checklist
+  id="pre-raid-armor-check"
+  title="Checkliste für Rüstung vor dem Raid:"
+  items={[
+    "Überprüfen Sie, ob die Bewertung der Körperpanzerung der erwarteten Bedrohungsstufe der Einsatzzone entspricht",
+    "Inspizieren Sie die Plattenpositionen, um sicherzustellen, dass keine Flanken ungeschützt sind",
+    "Rüsten Sie einen Level IIIA oder IIIA+ Helm aus, um sich vor verirrten KI-Kopfschüssen zu schützen",
+    "Reparieren Sie beschädigte Rüstungsplatten bei Händlern in der Basis, bevor Sie ausrücken"
+  ]}
+/>
+
+<Callout type="info" title="Ohr- & Gesichtsschutz">
+Bedenken Sie, dass Helme wie der Fast MT einen hervorragenden Schutz oben und hinten bieten, Ihr Gesicht jedoch verwundbar bleibt, es sei denn, Sie rüsten kompatible ballistische Visiere oder Kieferschutz aus [4q-5eqAPGJQ]. Wägen Sie vor dem Kauf immer die Kompromisse bei Ergonomie und Sichtbarkeit von Gesichtsschutzschilden ab.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ zur Rüstungsbewertung">
+
+Das Verständnis der ballistischen Mechanik kann Ihnen Millionen von Koins an verlorener Ausrüstung ersparen. Hier sind Antworten auf die häufigsten Fragen zur Rüstungsleistung.
+
+<FAQ items={[
+  {
+    question: "Was ist die höchste verfügbare Rüstungsbewertung in Gray Zone Warfare?",
+    answer: "Derzeit ist die höchste im Spiel implementierte Rüstungsbewertung Level III+ (und das einzigartige III++ des Phantom Rigs). Level IV Rüstungen sind noch nicht verfügbar."
+  },
+  {
+    question: "Ist eine Level IIIA Rüstung besser als eine Level III Rüstung?",
+    answer: "Nein. Nach dem NIJ-Bewertungssystem ist Level III dem Level IIIA überlegen. Level III ist dafür ausgelegt, Gewehrmunition mittleren Kalibers zu stoppen, während IIIA nur dafür ausgelegt ist, Pistolenkaliber zu stoppen."
+  },
+  {
+    question: "Was bedeutet das Pluszeichen (+) bei einer Rüstungsbewertung?",
+    answer: "Das Pluszeichen zeigt an, dass die Schutzfähigkeiten der Rüstung über das Standard-Basislevel hinaus verbessert wurden, obwohl sie immer noch unter der nächsthöheren numerischen Stufe liegen."
+  },
+  {
+    question: "Wie überprüfe ich, ob meine Seitenplatten aktiv sind?",
+    answer: "Klicken Sie mit der rechten Maustaste auf Ihre Weste und wählen Sie 'Inspizieren'. Achten Sie auf die Symbole oben links. Wenn das Seitenplatten-Symbol weiß und ausgefüllt ist, sind Ihre Flanken geschützt. Wenn es ausgegraut ist, haben Sie keinen Seitenschutz."
+  }
+]} />
+
+<Callout type="tip" title="Abschließendes Urteil">
+Im Zweifelsfall sollten Sie höhere NIJ-Bewertungen gegenüber der Lagerkapazität priorisieren. Eine hohe Rüstungsbewertung hält Sie lange genug am Leben, um Ihre Beute nach Hause zu tragen, während ein massiver Rucksack mit schlechter Rüstung nur dem Spieler nützt, der Ihre Leiche plündert.
+</Callout>
+
+</Section>

@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Modo Joint Operations de Gray Zone Warfare: Guia Tático de PvE",
+  description: "Domine o modo Joint Operations de Gray Zone Warfare com nosso guia completo de PvE para 2026. Aprenda as principais diferenças, dicas de progressão e estratégias de sobrevivência.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Joint+Operations+Guide",
+  date: "2026-06-28",
+  author: "Equipe Wiki de Gray Zone Warfare"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Modo Principal**: O **modo Joint Operations de Gray Zone Warfare** oferece uma experiência puramente PvE, onde o fogo amigo é completamente desativado.
+- **Progressão Compartilhada**: Todos os níveis de personagem, equipamentos e missões de vendedores concluídas são transferidos perfeitamente entre os modos Joint Operations e Warfare.
+- **Recuperação Segura**: Quando você morre, outros jogadores não podem saquear seu corpo, permitindo que você **recupere seus equipamentos com segurança**.
+- **Cooperação de Facção**: Você pode se juntar a até quatro jogadores em um esquadrão para **concluir tarefas complexas** juntos.
+</Callout>
+
+<Section icon={Map} title="Modo Joint Operations de Gray Zone Warfare: Visão Geral e Principais Diferenças">
+
+O **modo Joint Operations de Gray Zone Warfare** transformou completamente a forma como os jogadores abordam os extraction shooters táticos. Historicamente, os jogos desse gênero forçavam os jogadores a entrarem em ambientes PvPvE altamente competitivos e estressantes, onde um único encontro com um jogador hostil poderia arruinar horas de progresso. A MADFINGER Games resolveu esse problema diretamente ao introduzir um modo dedicado de jogador contra ambiente (PvE). Essa escolha de design permite que os jogadores experimentem a rica jogabilidade tática da Ilha de Lamang sem a ansiedade constante de sofrer emboscadas por facções inimigas ou sofrer griefing de companheiros de equipe.
+
+No modo Joint Operations, você se desloca ao lado de membros da sua facção escolhida. A mecânica principal deste modo é a desativação completa do dano entre jogadores. Isso significa que outros operadores humanos no servidor não podem machucar você, e você também não pode machucá-los. Essa mudança fundamental na jogabilidade altera a dinâmica de uma luta implacável pela sobrevivência para uma simulação tática altamente colaborativa. Os jogadores frequentemente se unem a completos estranhos, compartilhando suprimentos médicos valiosos, coordenadas para objetivos de missões difíceis e saques de alto nível. Em 2026, este modo continua incrivelmente popular, funcionando tanto como um campo de treinamento seguro para novos recrutas quanto como uma rota de progressão confiável para jogadores veteranos que desejam focar puramente nas tarefas de facção.
+
+**Destaques do Vídeo:**
+- **Fogo Amigo Zero**: Companheiros de equipe e outros membros da facção não podem causar dano a você, eliminando o risco de griefing intencional.
+- **Segurança do Corpo**: Outros jogadores não podem saquear seu corpo sem vida, tornando a recuperação de equipamentos significativamente menos estressante.
+- **Jogabilidade Tática Autêntica**: As mecânicas táticas principais, incluindo balística, sistemas médicos e extração de helicóptero, permanecem idênticas ao modo Warfare (PvPvE).
+
+<YouTubeEmbed videoId="ncJN3s4Pf18" title="Experimentando o modo PvE de Gray Zone Warfare | Joint Operations" />
+
+Compreender as diferenças estruturais entre esses dois modos é essencial para planejar sua estratégia de implantação. Embora o ambiente, os inimigos de IA e as missões sejam idênticos em ambas as opções, as regras de engajamento diferem significativamente.
+
+| Recurso | Modo Warfare | Modo Joint Operations |
+| :--- | :--- | :--- |
+| Dano de Jogador | Ativado (PvPvE) | Desativado (Apenas PvE) |
+| Fogo Amigo | Ativado (Penalizado) | Desativado Completamente |
+| Saque de Corpo | Aberto para todos os jogadores | Restrito ao próprio jogador |
+| Segurança do Acampamento Base | Alto risco nas LZs | Zona 100% Segura |
+| Progressão | Compartilhada com Joint Ops | Compartilhada com Warfare |
+
+<Callout type="success" title="Vantagem Cooperativa">
+Como o fogo amigo está completamente desativado, você pode se envolver em combates de curta distância ao lado de membros da sua facção sem o risco de mortes acidentais em equipe, tornando a limpeza coordenada de salas muito mais eficaz.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecânicas de Sobrevivência e Recuperação de Equipamentos">
+
+Um dos aspectos mais atraentes do **modo Joint Operations de Gray Zone Warfare** é a natureza tolerante de suas mecânicas de morte e recuperação. Nos modos PvPvE padrão, morrer significa que seu corpo fica imediatamente vulnerável a saques por qualquer pessoa no mapa. Se um jogador inimigo encontrar seu cadáver, ele poderá roubar sua armadura de alto nível, fuzis de assalto personalizados e itens valiosos do contêiner seguro. Isso cria uma enorme barreira de entrada para jogadores casuais que não podem se dar ao luxo de reconstruir constantemente seus conjuntos de equipamentos.
+
+No modo Joint Operations, os riscos do combate ainda são significativos, mas o processo de recuperação é altamente seguro. Quando você é eliminado pelas letais forças de IA na Ilha de Lamang, seu equipamento permanece em seu corpo. No entanto, outros jogadores no servidor são fisicamente impedidos de saquear seu corpo. Isso permite que você se desloque novamente em sua Base de Operações Avançada (FOB), chame um helicóptero para a zona de pouso (LZ) mais próxima e recupere seus equipamentos com segurança. Embora você ainda precise navegar ao redor dos inimigos de IA que o mataram, a ameaça de outro jogador roubar seus equipamentos conquistados com tanto esforço é totalmente removida.
+
+<CardGrid cols={3}>
+  <Card title="Recuperação de Corpo">
+    - **Sem saque de jogadores** garante que seu equipamento esteja seguro contra outros membros da facção.
+    - **Marcadores no mapa** guiam você diretamente de volta ao local exato da sua morte.
+    - **Abordagem tática** é necessária para eliminar a IA que matou você.
+  </Card>
+  <Card title="Progressão Compartilhada">
+    - **Espelhamento de progresso** direto entre o Joint Operations e o Warfare padrão.
+    - **Reputação de vendedores** e conclusões de missões são transferidas instantaneamente.
+    - **Gerenciamento de stash** é idêntico, permitindo que você monte seu arsenal com segurança.
+  </Card>
+  <Card title="Cooperação de Facção">
+    - **Fogo amigo desativado**, eliminando mortes acidentais de companheiros de equipe.
+    - **Objetivos compartilhados** permitem que membros da facção ajudem em tarefas difíceis.
+    - **Compartilhamento de helicóptero** ajuda os esquadrões a desbloquear rapidamente novas zonas de pouso.
+  </Card>
+</CardGrid>
+
+Essa estrutura cooperativa permite que os jogadores utilizem configurações de equipamentos de alto nível sem o medo de perdê-las permanentemente para jogadores adversários. É um excelente ambiente para testar novos acessórios de armas, praticar tratamentos médicos complexos e aprender o layout de pontos de interesse de alto risco.
+
+| Cenário | Status do Equipamento | Método de Recuperação | Grau de Segurança |
+| :--- | :--- | :--- | :--- |
+| Morto por IA | Deixado no corpo | Retornar ao local da morte | Muito Alto |
+| Queda do Servidor | Perdido permanentemente | Nenhum (requer reconstrução) | Baixo |
+| Morte de Companheiro | Deixado no corpo | Apenas o dono pode recuperar | Muito Alto |
+
+<Callout type="warning" title="Desconexões do Servidor">
+Embora seu equipamento esteja seguro contra outros jogadores, uma queda de servidor ou desconexão antes de você recuperar seu corpo resultará na perda permanente desse equipamento, pois seu corpo está vinculado àquela instância específica do servidor.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como se Deslocar no Modo Joint Operations">
+
+Deslocar-se na Ilha de Lamang requer uma preparação cuidadosa, especialmente ao configurar suas opções de conexão. Como Gray Zone Warfare apresenta um modelo de balística altamente sofisticado e comportamento complexo de IA, a estabilidade do servidor é crítica para acertar tiros precisos e sobreviver a tiroteios intensos. Muitos jogadores cometem o erro de entrar em ação com as configurações padrão, o que frequentemente resulta em baixo desempenho e alta latência. Para garantir a melhor experiência possível no Joint Operations, siga nossos passos otimizados de implantação.
+
+<Steps>
+  <Step num="1" title="Criação de Personagem e Seleção de Facção">
+    Antes de poder se deslocar, você deve criar seu operador e escolher uma das três PMCs: Lamang Recovery Initiative, Mithras Security Group ou Crimson Shield International. É vital coordenar-se com seus amigos, pois você só pode formar grupo com jogadores da mesma facção. Se cometer um erro, você precisará apagar seu personagem no menu principal, o que redefine toda a progressão.
+  </Step>
+  <Step num="2" title="Selecionando o Modo Joint Operations">
+    No menu principal, navegue até o painel de seleção do modo de jogo no lado esquerdo da tela. Alterne a opção de Warfare para Joint Operations. Isso garante que você entrará em um servidor onde o dano de jogador contra jogador está desativado e todos os operadores humanos são amigáveis.
+  </Step>
+  <Step num="3" title="Otimização da Região do Servidor">
+    Não confie na configuração padrão do servidor, pois ela pode conectar você a uma região de alta latência. Selecione manualmente a região do servidor mais próxima da sua localização física (como US East, US West ou Europe West) para garantir taxas de quadros estáveis e registro de tiros responsivo.
+  </Step>
+  <Step num="4" title="Preparação no Acampamento Base">
+    Assim que se deslocar, você chegará à Base de Operações Avançada da sua facção. Acesse seu stash para equipar sua arma, carregar seus carregadores com munição de alta penetração, levar suprimentos médicos essenciais, como kits cirúrgicos e talas, e aceitar missões iniciais de vendedores como Gunny e Handshake.
+  </Step>
+</Steps>
+
+Ao configurar sistematicamente essas opções, você evita problemas comuns de conexão e garante que seus comandos táticos sejam processados com o mínimo de atraso. Isso é particularmente importante ao lidar com combatentes de IA de alto nível, que possuem tempos de reação extremamente rápidos.
+
+| Nome do Vendedor | Especialidade | Missão Inicial Chave | Tipo de Recompensa Principal |
+| :--- | :--- | :--- | :--- |
+| Gunny | Armas e Munições | First Recon | Fuzis de assalto básicos, carregadores |
+| Handshake | Operações e Inteligência | Cash Tracking | Dinheiro, contêineres seguros |
+| Artisan | Armaduras e Ferramentas | Materials Hunt | Coletes balísticos, capacetes, mochilas |
+
+<Callout type="tip" title="Seleção de Servidor">
+Se você apresentar muito lag no servidor ou sofrer com rubber-banding, retorne ao menu principal e mude manualmente para um servidor regional diferente. O progresso do seu personagem e seus equipamentos serão transferidos perfeitamente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estratégia de Progressão e Lista de Missões">
+
+Navegar pelo mapa massivo da Ilha de Lamang exige uma estratégia de progressão estruturada. A ilha é dividida em zonas distintas, cada uma apresentando desafios ambientais únicos, objetivos de missões e diferentes níveis de dificuldade de IA. Para progredir de forma eficiente, você deve desbloquear sistematicamente as zonas de pouso (LZs) e concluir as tarefas dos vendedores para expandir seu acesso a equipamentos de alto nível.
+
+No início do jogo, seu foco deve ser dominar a cidade inicial. Lá, os rebeldes locais estão mal equipados e têm tempos de reação lentos, sendo excelentes alvos para prática. No entanto, à medida que você avança para zonas de Nível 2 (Tier 2), como a vila de Ban Pa ou o bunker YBL-1, a dificuldade da IA aumenta drasticamente. Os inimigos nessas áreas flanquearão ativamente sua posição, usarão coberturas de forma eficaz e dispararão armas de alto calibre. Quando alcançar as zonas de Nível 3 (Tier 3), como Fort Narith ou Tiger Bay, você enfrentará forças militares altamente treinadas, equipadas com coletes balísticos pesados e munições perfurantes. Nessas zonas de fim de jogo, o trabalho em equipe tático e a limpeza lenta e metódica de salas são absolutamente essenciais para a sobrevivência.
+
+<Checklist
+  id="joint-ops-milestones"
+  title="Marcos Essenciais de PvE:"
+  items={[
+    "Concluir a missão First Recon de Gunny na cidade inicial",
+    "Desbloquear pelo menos três zonas de pouso ao redor de Ban Pa e YBL-1",
+    "Alcançar o nível 15 para desbloquear armas e armaduras de nível médio",
+    "Recuperar com sucesso seu equipamento de uma zona de perigo de alto nível",
+    "Concluir uma operação de Nível 3 em Fort Narith com um esquadrão"
+  ]}
+/>
+
+| Nome do PDI | Nível de Perigo | Facção Inimiga | Recompensas Principais |
+| :--- | :--- | :--- | :--- |
+| Ground Zero | Nível 1 (Baixo) | Rebeldes Locais | Armas básicas, chaves iniciais |
+| Ban Pa | Nível 2 (Médio) | Cultistas e Rebeldes | Equipamento de nível médio, itens de missão |
+| Fort Narith | Nível 3 (Alto) | Soldados da LAF | Armadura militar, acessórios |
+| Tiger Bay | Nível 3 (Alto) | Rebeldes e Soldados | Saques de alto nível, combate denso |
+| Midnight Sapphire | Nível 3 (Alto) | Soldados da LAF | Saques do resort de luxo, tarefas de fim de jogo |
+
+<Callout type="info" title="Jogo em Esquadrão de Alto Nível">
+Ao entrar em zonas de Nível 3, como Tiger Bay ou Fort Narith, sempre coordene com outros jogadores da sua facção. Mesmo sem ameaças de PvP, a IA militar nessas áreas pode facilmente subjugar um operador solo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+Compreender as nuances do **modo Joint Operations de Gray Zone Warfare** ajuda os jogadores na transição para a Ilha de Lamang. Abaixo estão algumas das perguntas mais comuns sobre este ambiente cooperativo.
+
+<FAQ items={[
+  {
+    question: "O progresso é compartilhado entre o modo Warfare e o Joint Operations?",
+    answer: "Sim, o progresso é totalmente espelhado. Qualquer equipamento, nível ou reputação de vendedor que você ganha no Joint Operations é transferido para o modo Warfare, permitindo realizar missões sem estresse."
+  },
+  {
+    question: "Outros jogadores podem roubar meu saque se eu morrer no Joint Operations?",
+    answer: "Não. No modo Joint Operations, outros jogadores não podem saquear seu corpo. Isso torna a recuperação do corpo muito mais segura, desde que você consiga retornar ao local da sua morte."
+  },
+  {
+    question: "Como identifico jogadores amigáveis no mapa?",
+    answer: "Abra o seu mapa para ver os jogadores e helicópteros amigáveis. Os helicópteros de cor verde pertencem ao seu esquadrão, enquanto os azuis pertencem a outros membros da sua facção."
+  },
+  {
+    question: "Posso voltar para o modo Warfare a qualquer momento?",
+    answer: "Sim. Você pode retornar ao menu principal e mudar o seu modo de jogo de volta para Warfare sempre que desejar entrar em combates PvPvE. Toda a sua progressão é preservada."
+  }
+]} />
+
+<Callout type="tip" title="Recomendação Final">
+Use o Joint Operations para concluir missões difíceis de recuperação de itens ou para aprender o layout de bases militares altamente perigosas antes de tentar enfrentá-las no modo de alto risco Warfare.
+</Callout>
+
+</Section>

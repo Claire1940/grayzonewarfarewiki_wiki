@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Cult Business: 攻略ガイドと主要な場所",
+  description: "Gray Zone WarfareのCult Businessタスクをマスターしましょう。Ban Paの長老の家の鍵の入手方法、倉庫のコードの場所、シャーマンの日記の回収方法を解説します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Cult+Business+Guide",
+  date: "2026-06-28",
+  author: "Gray Zone Warfare Wikiチーム",
+  keywords: "Gray Zone Warfare, Cult Business, 攻略, Ban Pa, 長老の家の鍵, 倉庫コード"
+}
+
+<Callout type="info" title="クイックガイド">
+- **主な目的**: **Ban Pa**の村で化学薬品の製造と村人の失踪事件を調査する。
+- **必須アイテム**: 最初の目的を達成するために、**Ban Pa Elder's House Key（長老の家の鍵）**を入手する必要があります。
+- **重要な仕組み**: 倉庫のコードは**サーバーセッションごとに固有**であり、ゲーム内の特定の文書の場所で確認する必要があります。
+- **最終報酬**: 完了するとLab Ratの**評判+750**と**$2,820 USD**を獲得できます。
+- **重大なリスク**: タスクがアクティブな状態で死亡すると、**評判が-50**ペナルティとなり、20分間のクールダウンが発生します。
+</Callout>
+
+<Section icon={Target} title="タスクの概要と報酬">
+
+**Gray Zone Warfare Cult Business**タスクは、Lab Ratから割り当てられる複数段階の調査任務です。プレイヤーは、生い茂る植物と攻撃的な地元民兵で悪名高い沿岸の村、Ban Paに潜入する必要があります。物語は、Sadaという男が率いるドラッグ製造グループを中心に展開します。彼は地元に伝わる「悪魔のカルト」の迷信を利用して、化学薬品の製造活動を隠蔽していました。あなたの目標は、この製造の証拠を見つけ、避難の際に取り残された村人たちに何が起こったのかを突き止めることです。
+
+**動画のハイライト:**
+- **長老の家（Elder's House）**の場所の詳細な視覚ガイド。
+- 倉庫のコードが記載された**Angry Message（怒りのメッセージ）**の場所。
+- AIが密集しているゾーンを避けるためのBan Pa内のルート。
+
+<YouTubeEmbed videoId="L3EfXAmhzrg" title="Updated Cult Business Gray Zone Warfare" />
+
+出発前に、持続的な戦闘に備えて準備を整えてください。Ban Paは単に走り抜けることができる場所ではありません。このタスクの報酬は大きく、特にLab Ratとの評判向上は、より上位の医療品をアンロックするために不可欠です。
+
+| 報酬カテゴリー | アイテム / 値 | 影響 |
+| --- | --- | --- |
+| **経験値** | 300 EXP | レベル進行 |
+| **評判** | +750 Lab Rat | より良い医療装備のアンロック |
+| **通貨** | $2,820 USD | 装備の資金 |
+| **医療品** | 小さな縫合キット x1 | 負傷の戦地修理 |
+
+<Callout type="success" title="評判の管理">
+失敗時のペナルティが非常に重いため（評判-50）、慎重にプレイすることを強くお勧めします。Lab Ratとの評判が低い場合は、死体やクエストアイテムを確保するためにチームメイトを連れて行くことを検討してください。
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="フェーズ1：長老の家と化学薬品の製造">
+
+**Gray Zone Warfare Cult Business**の最初の目的地は、Ban Paにある長老の家（Elder's House）です。この建物はドラッググループの活動の初期拠点となっています。このステップを完了するには、1階にある化学薬品製造のワークベンチを見つける必要があります。しかし、その部屋は施錠されており、**Ban Pa Elder's House Key**が必要です。
+
+この鍵を見つけることは、多くの場合、このタスクで最も時間がかかる部分です。村の中の複数の場所にスポーンするか、地元のAIディフェンダーの死体から見つけることができます。
+
+| 鍵のスポーンポイント | 具体的な場所 | 座標 / 詳細 |
+| --- | --- | --- |
+| **倉庫エリア** | Ban Paのメイン倉庫内 | 棚や工具箱を確認 |
+| **高床式住宅のテーブル** | 屋外の木製テーブルの上 | 北側の高床式住宅の近く |
+| **AIドロップ** | 倒した敵からルート | 低確率のランダム |
+
+鍵を入手したら、長老の家（小屋に比べて目立つ構造の建物）へ向かいます。階下の施錠されたドアへ行き、解錠して部屋に入ります。化学設備を調べて「結果を報告（report findings）」すると、タスクが更新されます。
+
+<Callout type="warning" title="鍵の消失について">
+鍵を見つけた後に使用する前に死亡した場合、**セーフコンテナ（Safe Container）**に入れていない限り、鍵を失います。クエストに不可欠な鍵を拾ったら、すぐにセキュアスロットに移動させてください。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="フェーズ2：倉庫の情報の特定">
+
+化学薬品の製造を報告した後、Lab Ratからドラッグ製造者が残した情報を探すよう指示されます。この情報はキーパッドで保護された倉庫の中にあります。他のタスクとは異なり、**Cult Business**のコードはサーバーのインスタンスごとにランダム化されています。
+
+<Steps>
+  <Step num="1" title="高床式住宅を特定する">
+    Ban Paの北側にある高床式の家が集まっているエリアへ向かいます。多くの場合、「Angry Message」というドキュメントが置かれている特定の家を探します。
+  </Step>
+  <Step num="2" title="Angry Message（怒りのメッセージ）を見つける">
+    高床式の家の中で、腐った梨と空のボトルが置かれたテーブルを探します。その隣に「Angry Message」というタイトルの文書があります。
+  </Step>
+  <Step num="3" title="コードを翻訳して記録する">
+    メモを調べて「Translate（翻訳）」を選択します。4桁のコード（例：5644）が表示されます。倉庫のドアに必要になるため、これを書き留めるか覚えておいてください。
+  </Step>
+  <Step num="4" title="倉庫に潜入する">
+    倉庫エリアに戻ります。南京錠の付いたドアを見つけます。先ほど見つけたコードを入力してドアを解錠します。
+  </Step>
+  <Step num="5" title="Drug Operation Messageを回収する">
+    施錠されていた倉庫の部屋の中で、「Drug Operation Message（ドラッグ作戦のメッセージ）」というタイトルのメモを見つけます。これを読むと目的が更新されます。
+  </Step>
+</Steps>
+
+<Callout type="tip" title="ステルスアプローチ">
+倉庫エリアは厳重にパトロールされています。ソロでプレイしている場合は、コードを入力しようとする前に、サプレッサー付きの武器を使用して外周のAIを排除してください。コード入力のアニメーション中は数秒間無防備になります。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="フェーズ3：シャーマンの日記と村人の情報">
+
+パズルの最後のピースは、村人たちに何が起こったのかを突き止めることです。カルトの隠れみのとなっていた物語の最終要素が含まれている**Shaman's Diary（シャーマンの日記）**を見つける必要があります。興味深いことに、このアイテムは倉庫のコードを見つけた高床式住宅の近くにあります。
+
+シャーマンの日記は、Sadaの動機を理解するための背景を提供します。具体的には、「Phi Pa Mumの復讐」が迫っていると主張して信者を避難させようとした試みが記されています。この情報はLab Ratの最終報告に不可欠です。
+
+| 情報アイテム | 場所 | インタラクション |
+| --- | --- | --- |
+| **Shaman's Diary** | 高床式住宅（コードの場所の近く） | 拾う / セーフコンテナに入れる |
+| **Scared Pirate's Diary** | ドックエリア | オプションの伝承（必須ではない） |
+| **Drug Operation Note** | 施錠された倉庫 | フェーズ2で必要 |
+
+<Checklist
+  id="cult-business-checklist"
+  title="最終脱出チェックリスト:"
+  items={[
+    "長老の家で化学薬品の製造を報告した",
+    "「Angry Message」から倉庫のコードを入手した",
+    "倉庫から「Drug Operation Message」を回収した",
+    "「Shaman's Diary」をセーフコンテナに確保した",
+    "最寄りの脱出ポイント（LZ）へ移動する"
+  ]}
+/>
+
+<Callout type="info" title="最終脱出">
+シャーマンの日記は物理的なアイテムです。脱出する前、またはセーフコンテナに入れる前に死亡した場合、再びBan Paに戻って回収する必要があります。入手したら、常にこのアイテムの安全を最優先してください。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="戦術比較：ソロ vs スクアッド">
+
+**Gray Zone Warfare Cult Business**の難易度は、チームの人数によって大きく変わります。Ban Paのレイアウトは、AIが隠れるための高い位置や厚い茂みが多いため、防衛側に有利です。
+
+<CardGrid cols={3}>
+  <Card title="ソロ隠密">
+    - **メリット**: 目立ちにくく、隠れやすい。
+    - **デメリット**: 発見された場合のリスクが高い。カバーしてくれる味方がいない。
+    - **戦略**: サプレッサーを使用し、影の中だけを移動する。
+  </Card>
+  <Card title="デュオ連携">
+    - **メリット**: 一人がコードを入力している間、もう一人がカバーできる。
+    - **デメリット**: 同期した動きが必要。
+    - **戦略**: 建物間を交互に移動し、360度の警戒を維持する。
+  </Card>
+  <Card title="フルスクアッド">
+    - **メリット**: AIの抵抗を容易に圧倒できる。
+    - **デメリット**: 非常に騒がしくなり、他のPMC勢力を引き寄せる。
+    - **戦略**: 長老の家と倉庫の周囲に防衛線を構築する。
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="敵の索敵能力">
+Ban PaのAIは、高床式住宅の薄い木の壁を透かして撃ってくる（ウォールハック）ことで知られています。屋内にいるからといって安全だと思わないでください。銃撃戦の間は窓や薄い仕切りから離れてください。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="結論とよくある質問">
+
+**Gray Zone Warfare Cult Business**タスクは、このゲームの調査メカニズムの典型的な例です。プレイヤーは戦闘、探索、そしてパズル解き（ランダムなコード）のバランスを取ることを強いられます。このガイドに従うことで、Lab Ratとの評判を失うリスクを最小限に抑え、現場での効率を最大化できます。
+
+<FAQ items={[
+  {
+    question: "Ban Pa Elder's House Keyはどこで見つかりますか？",
+    answer: "この鍵は、北側の高床式住宅の近くのテーブル、メイン倉庫の中、またはBan Pa地域のAIの死体からランダムにスポーンします。"
+  },
+  {
+    question: "倉庫のコードは全員同じですか？",
+    answer: "いいえ、「Angry Message」にあるコードは各サーバーインスタンスごとに固有です。正しいコードを入手するには、現在のセッションでメモを見つけて翻訳する必要があります。"
+  },
+  {
+    question: "Shaman's Diaryを持ったまま死ぬとどうなりますか？",
+    answer: "日記がメインインベントリにある場合、死亡時に失われます。セーフコンテナに入っていれば、死亡後も保持され、Lab Ratに提出することができます。"
+  },
+  {
+    question: "なぜLab Ratの評判が下がったのですか？",
+    answer: "「Cult Business」タスクがアクティブな状態で死亡すると、評判が-50のペナルティを受けます。これはGray Zone Warfareの特定のハイリスクなタスクにおける独自の仕組みです。"
+  }
+]} />
+
+</Section>

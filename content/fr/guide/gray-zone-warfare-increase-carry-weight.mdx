@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare : Augmenter la Capacité de Transport - Guide de Mobilité et d'Équipement",
+  description: "Optimisez votre endurance, maîtrisez les seuils de poids et créez des équipements ultralégers pour augmenter efficacement votre capacité de transport dans Gray Zone Warfare.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Carry+Weight+Guide",
+  date: "2026-06-28",
+  author: "Équipe Wiki de Gray Zone Warfare",
+  keywords: "Gray Zone Warfare, capacité de transport, poids d'équipement, endurance, porte-plaques, optimisation stash"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Capacité de Transport** : Pour gérer et augmenter efficacement votre capacité dans Gray Zone Warfare, maintenez votre équipement de combat total sous les 20 kg ou 32 kg.
+- **Méta des Armures** : Utilisez des porte-plaques intégrés comme le RPC Ranger ou le M2 pour économiser jusqu'à 2,5 kg par rapport aux configurations gilet et harnais séparés.
+- **Effet de Levier** : Raccourcissez les canons des armes à 10,5 pouces pour réduire considérablement la consommation d'endurance des bras en visée (ADS) et éliminer le balancement de l'arme.
+- **Espace de Réserve** : Retirez les poignées pistolet et les chargeurs des armes stockées pour réduire leur encombrement dans l'inventaire jusqu'à 50 %.
+</Callout>
+
+<Section icon={Map} title="Augmenter la Capacité de Transport dans Gray Zone Warfare : Mécaniques et Seuils">
+
+Dans Gray Zone Warfare, la gestion du poids de votre équipement est un facteur critique de survie. Bien qu'il n'existe pas de statistique directe pour augmenter de façon permanente la capacité de transport, la compréhension des seuils de poids stricts du jeu vous permet d'optimiser vos performances physiques et la récupération de votre endurance lors des engagements de haut niveau [707005192]. Votre poids global dicte votre survie plus que la classe d'armure dans de nombreux scénarios tactiques, car la mobilité vous permet de flanquer, de battre en retraite et de vous mettre à l'abri rapidement [707005192].
+
+**Points Forts de la Vidéo :**
+- Apprenez à maximiser l'espace de votre réserve en démontant les accessoires d'armes [5oLIku9ObWY].
+- Découvrez les avantages des conteneurs EMT bon marché pour le stockage des fournitures médicales [5oLIku9ObWY].
+- Comprenez comment empiler le matériel et utiliser les sacs à dos comme unités de stockage dédiées [5oLIku9ObWY].
+
+<YouTubeEmbed videoId="5oLIku9ObWY" title="Comment MAXIMISER la taille de votre réserve dans Gray Zone Warfare" />
+
+L'endurance des jambes est directement liée à la masse totale de votre équipement. Si vous franchissez des limites de poids spécifiques, votre vitesse de mouvement chute et votre consommation d'endurance monte en flèche. Maintenir votre équipement dans des limites optimales vous assure de pouvoir sprinter sous le feu ennemi et de rester discret lors de la navigation en territoire hostile [707005192].
+
+| Seuil | Plage de Poids | Récupération d'Endurance | Impact sur la Discrétion |
+| :--- | :--- | :--- | :--- |
+| **Super Léger** | Moins de 20kg | **Maximum** | Mouvement silencieux |
+| **Optimal** | 20kg à 32kg | **Standard** | Bruit modéré |
+| **Surcharge** | Plus de 33kg | **Pénalité Sévère** | Halètement bruyant |
+
+<Callout type="warning" title="Pénalité de Discrétion">
+Franchir le seuil des 33 kg fait haleter bruyamment votre personnage, rendant la discrétion impossible et multipliant par trois le temps de récupération de l'endurance [707005192].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimisation des Armures et Porte-Plaques pour la Réduction de Poids">
+
+Choisir la bonne armure est un équilibre entre protection et mobilité. Les classes d'armures plus lourdes réduisent votre vitesse et épuisent rapidement votre endurance, tandis que les options plus légères vous laissent vulnérable aux munitions à haute pénétration. Dans la version 0.4 actuelle de Gray Zone Warfare, les porte-plaques intégrés sont largement supérieurs aux configurations traditionnelles Gilet + Harnais tactique [707005192].
+
+En utilisant un porte-plaques combiné comme le RPC Ranger, vous éliminez le double poids du tissu, des sangles et des boucles que l'on trouve lorsque l'on porte un harnais de poitrine séparé sur un gilet pare-balles. Cette seule optimisation peut vous faire gagner instantanément entre 1,5 kg et 2,5 kg [707005192].
+
+| Pièce d'Armure | Classe de Protection | Poids | Meilleur Cas d'Utilisation |
+| :--- | :--- | :--- | :--- |
+| **Covert Coolmax** | Classe IIA | **1.76kg** | Reconnaissance rapide |
+| **RPC Ranger** | Classe III+ | **5.60kg** | Choix de combat méta |
+| **M2 Advantage** | Classe III++ | **8.90kg** | Défense lourde efficace en poids |
+| **Phantom** | Classe III++ | **13.20kg** | Tanking défensif uniquement |
+
+<Callout type="tip" title="Avantage du Porte-Plaques">
+Privilégiez toujours les porte-plaques intégrés aux configurations Gilet et Harnais séparés pour éliminer le poids superflu du tissu et économiser jusqu'à 2,5 kg [707005192].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Configurations d'Armes Ultralégères et Effet de Levier">
+
+Le poids de l'arme impacte spécifiquement l'endurance de vos bras, qui est consommée lors de la visée (ADS) ou lorsque vous retenez votre respiration pour un tir. Dans Gray Zone Warfare, la longueur de l'arme est tout aussi critique que son poids total en raison de l'« Effet de Levier » [707005192]. Les canons longs agissent comme un levier lourd, déplaçant le centre de masse loin de votre corps et épuisant rapidement l'endurance des bras.
+
+Raccourcir votre canon rapproche le centre de masse de votre corps, réduisant la fatigue des bras et le balancement de l'arme. Utiliser une configuration à canon court permet de maintenir la visée ADS jusqu'à 40 % plus longtemps, évitant l'effet de statut « Bras Douloureux » qui rend le balancement de l'arme incontrôlable [707005192].
+
+| Arme | Type de Build | Poids Cible | Bénéfice Primaire |
+| :--- | :--- | :--- | :--- |
+| **MP7A1** | Apex Scout | **2.10kg** | Poids de PM avec haute pénétration |
+| **M4A1** | Ghost Shorty | **2.45kg** | Temps d'ADS maximum et faible balancement |
+| **AKS-74U** | Lead Scout | **2.68kg** | Poids d'entrée le plus bas pour fusils |
+
+<CardGrid cols={3}>
+  <Card title="La M4A1 Ghost">
+    - **Canon** : 10,5 pouces Cold Hammer Forged
+    - **Garde-main** : MK18 RIS II (9,5 pouces)
+    - **Optique** : Trijicon RMR (Montage bas)
+  </Card>
+  <Card title="L'AKS-74U Insurgé">
+    - **Garde-main** : Bois standard (économise 0,2 kg)
+    - **Crosse** : Crosse pliante AKS-74U
+    - **Chargeur** : Bakélite 30 coups
+  </Card>
+  <Card title="La MP7A1 Apex">
+    - **Mires** : Mires rabattables intégrées
+    - **Chargeur** : 30 coups affleurant
+    - **Poignée** : Poignée pliante intégrée
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="L'Avantage du 10,5 Pouces">
+Raccourcir le canon de votre M4A1 à 10,5 pouces déplace le centre de masse plus près de votre corps, prolongeant votre temps de visée ADS jusqu'à 40 % [707005192].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Comment Gérer l'Inventaire et l'Efficacité de la Réserve">
+
+La gestion de la réserve (stash) est un casse-tête courant, mais quelques techniques d'organisation simples peuvent libérer énormément d'espace. La méthode la plus efficace consiste à retirer les poignées pistolet et les chargeurs de vos armes stockées [5oLIku9ObWY].
+
+Un fusil entièrement assemblé comme le MK18 occupe une grille de 7x2 dans votre inventaire. En retirant le chargeur et la poignée pistolet, l'arme devient non fonctionnelle et rétrécit à une grille de 7x1 [5oLIku9ObWY]. La poignée retirée occupe 1 emplacement et le chargeur 2 emplacements, ce qui signifie que vous économisez au total 4 emplacements d'inventaire par arme en stockant ces composants séparément [5oLIku9ObWY].
+
+| Objet / Action | Taille Originale | Taille Optimisée | Emplacements Gagnés |
+| :--- | :--- | :--- | :--- |
+| **MK18 (Assemblé)** | Grille 7x2 | Grille 7x1 | **4 emplacements** |
+| **Conteneur EMT** | Grille 2x2 | Stockage 3x3 | **5 emplacements** |
+| **Sacs (Sans empilage)** | Individuel | Conteneurs de stockage | **Variable** |
+
+<Steps>
+  <Step num="1" title="Démontez vos Armes">
+    Faites un clic droit sur vos fusils stockés et retirez le chargeur et la poignée pistolet pour réduire leur profil vertical à une seule rangée [5oLIku9ObWY].
+  </Step>
+  <Step num="2" title="Utilisez des Conteneurs EMT">
+    Achetez des conteneurs EMT au niveau 3 du Labo pour 367 $. Ils occupent un espace de 2x2 mais offrent une grille de stockage de 3x3 à l'intérieur [5oLIku9ObWY].
+  </Step>
+  <Step num="3" title="Dédiez des Sacs de Stockage">
+    Utilisez des sacs à dos de taille moyenne comme unités de stockage dédiées pour des types d'objets spécifiques, comme un sac pour les casques et un autre pour les optiques [5oLIku9ObWY].
+  </Step>
+  <Step num="4" title="Regroupez Poignées et Chargeurs">
+    Créez des rangées organisées au bas de votre réserve spécifiquement pour les poignées pistolet et les chargeurs de haut niveau [5oLIku9ObWY].
+  </Step>
+</Steps>
+
+<Callout type="info" title="Correction du Bug de Réserve">
+Si votre inventaire bugue et vous empêche de faire glisser des objets, appuyez plusieurs fois sur la touche Tab pour rafraîchir et corriger l'interface [5oLIku9ObWY].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="L'Équipement « Zero-G » et Liste de Contrôle de Survie">
+
+Pour les missions à haute mobilité dans des zones comme Tiger Bay ou Midnight Sapphire, l'utilisation d'un build « Zero-G » est fortement recommandée. Abandonner votre casque est une stratégie risquée mais payante qui permet d'économiser environ 1,2 kg de poids au niveau de la tête, ce qui améliore directement votre vitesse de regard libre et votre consommation globale d'endurance [707005192].
+
+Cependant, jouer sans protection de tête signifie que vous pouvez être tué instantanément par de la chevrotine perdue ou des balles de pistolet de bas niveau [707005192]. Si vous choisissez de porter un chapeau de brousse (Boonie hat) pour un build ultra-léger, vous devez maintenir vos distances, éviter les couloirs étroits et compter énormément sur la dissimulation [707005192].
+
+| Nom de l'Objet | Catégorie | Poids Unitaire | Stratégie Tactique |
+| :--- | :--- | :--- | :--- |
+| **Boonie Hat** | Tête | **0.10kg** | Discrétion haute mobilité |
+| **NVG PVS-31A** | Tactique | **Lourd** | Retirer lors des opérations de jour |
+| **Patrol Pack** | Sac à dos | **1.50kg** | Reconnaissance légère |
+| **Alice Pack** | Sac à dos | **3.50kg** | Courses de butin uniquement |
+
+<Checklist
+  id="carry-weight-checklist"
+  title="Liste de contrôle de préparation au déploiement :"
+  items={[
+    "Vérifier que le poids total de l'équipement est sous le seuil de 20 kg ou 32 kg",
+    "Équiper un porte-plaques intégré au lieu d'un gilet et d'un harnais séparés",
+    "Retirer les lunettes de vision nocturne lourdes du casque pour les missions de jour",
+    "Limiter les chargeurs de rechange à la règle des 3 chargeurs pour économiser du poids",
+    "Retirer les rails et accessoires inutiles de votre arme principale"
+  ]}
+/>
+
+<Callout type="warning" title="Risque sans Casque">
+Se passer de casque maximise la mobilité mais vous expose à une mort immédiate face à la chevrotine ou aux munitions 9mm des IA de bas niveau [707005192].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Comment augmenter efficacement la capacité de transport dans Gray Zone Warfare ?",
+    answer: "Bien qu'il n'y ait pas de compétence ou de statistique pour augmenter la capacité de façon permanente, vous pouvez optimiser votre charge en restant sous les 20 kg ou 32 kg, en utilisant des porte-plaques intégrés et en retirant les accessoires d'armes inutiles."
+  },
+  {
+    question: "Quel est l'avantage de maintenir le poids de mon équipement sous les 20 kg ?",
+    answer: "Rester sous les 20 kg vous confère le statut 'Super Léger', qui offre une récupération d'endurance maximale, des mouvements silencieux et une capacité de sprint quasi infinie."
+  },
+  {
+    question: "Pourquoi devrais-je utiliser des porte-plaques plutôt qu'un gilet et un harnais séparés ?",
+    answer: "Les porte-plaques combinent l'armure et les poches d'équipement en un seul objet, éliminant le poids supplémentaire des sangles et du tissu épais, vous faisant gagner jusqu'à 2,5 kg."
+  },
+  {
+    question: "Comment la longueur de l'arme affecte-t-elle l'endurance de mon personnage ?",
+    answer: "Selon l'effet de levier, les canons plus longs déplacent le centre de masse de l'arme vers l'avant, ce qui épuise l'endurance de vos bras beaucoup plus rapidement pendant la visée (ADS) et augmente le balancement."
+  }
+]} />
+
+<Callout type="success" title="La Mobilité est une Armure">
+Rappelez-vous que maintenir une vitesse et une endurance élevées est souvent un meilleur mécanisme de survie que de porter la classe d'armure la plus lourde dans GZW [707005192].
+</Callout>
+
+</Section>

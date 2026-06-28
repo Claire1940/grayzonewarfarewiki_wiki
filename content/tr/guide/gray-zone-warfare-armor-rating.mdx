@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Zırh Derecesi: NIJ Koruma Seviyeleri ve En İyi Ekipmanlar",
+  description: "Gray Zone Warfare zırh derecelendirme sisteminde ustalaşın. NIJ koruma seviyelerini, plaka koruma mekaniklerini ve 2026'nın en iyi çelik yelek ve kasklarını öğrenin.",
+  category: "Rehber",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Armor+Rating+Guide",
+  date: "2026-06-28",
+  author: "gray zone warfare Wiki Ekibi"
+}
+
+<Callout type="info" title="Hızlı Rehber">
+- **Zırh Derecelendirme Sistemi**: Gray Zone Warfare, basitleştirilmiş oyun aşamaları yerine gerçek dünyadaki **NIJ (Ulusal Adalet Enstitüsü)** standardını kullanır [4q-5eqAPGJQ].
+- **Hiyerarşik Kurallar**: Koruma, IIA'dan (en düşük) III+'a (şu anda oyundaki en yüksek) kadar ölçeklenir; burada **+** bir yükseltmeyi, **A** ise bir düşüşü belirtir [4q-5eqAPGJQ, 3245764171].
+- **Plaka Koruması**: Tek başına zırh derecesi güvenliği garanti etmez; yelekleri **Ön, Arka ve Yan** plaka yapılandırmaları açısından incelemelisiniz [4q-5eqAPGJQ, 3245764171].
+- **En Üst Seviye Ekipman**: **Phantom Rig (III++)** ve **Lancer (III)**, üst düzey koruma ile kapsama alanı arasında en iyi dengeyi sunar [4q-5eqAPGJQ].
+</Callout>
+
+<Section icon={Shield} title="Gray Zone Warfare Zırh Derecelendirme Sistemini Anlamak">
+
+Modern taktiksel nişancı oyunlarında balistik korumayı anlamak, özellikle basitleştirilmiş zırh sınıflarına sahip oyunlardan geçiş yaparken inanılmaz derecede zorlayıcı olabilir. **Gray zone warfare zırh derecesi** sistemi, keyfi seviyelendirmeleri bir kenara bırakarak gerçek dünyadaki Ulusal Adalet Enstitüsü (NIJ) standardını benimser [4q-5eqAPGJQ, 3245764171]. Bu standart, gerçek dünyadaki balistik testlere dayanarak belirli bir plakanın veya kaskın tam olarak ne tür mühimmatlara dayanabileceğini belirler [4q-5eqAPGJQ, 3245764171]. 
+
+Lamang'ın zorlu ortamlarında hayatta kalmak için bu derecelendirmelerin gelen mermilerle nasıl etkileşime girdiğini anlamalısınız. Düşük seviyeli zırhlar yumuşak uçlu tabanca mermilerine karşı koruma sağlarken, yüksek hızlı tüfek mermilerini durdurmak için yüksek seviyeli plakalar gerekir [3245764171].
+
+**Öne Çıkan Video Detayları:**
+- **Gerçek Dünya Standartları**: Oyunda kullanılan NIJ balistik derecelerini çözme [4q-5eqAPGJQ, 3245764171].
+- **Artı (+) ve A Kuralları**: Değiştiricilerin ekipmanınızın koruma değerini nasıl etkilediği [4q-5eqAPGJQ, 3245764171].
+- **Plaka İncelemesi**: Çelik yeleğinizdeki kör noktaları belirleme [4q-5eqAPGJQ, 3245764171].
+- **Tüccar Seçenekleri**: Handshake'ten en iyi savunma ekipmanını seçme [4q-5eqAPGJQ].
+
+<YouTubeEmbed videoId="4q-5eqAPGJQ" title="Gray Zone Warfare'de Zırh SİSTEMİ AÇIKLANDI | REHBER |" />
+
+### NIJ Balistik Hiyerarşisi
+
+Gray Zone Warfare'de balistik derecelendirmeler Seviye IIA'dan Seviye III+'a kadar ölçeklenir [4q-5eqAPGJQ, 3245764171]. Gerçek dünyadaki NIJ standardında Seviye IV zırh mevcut olsa da, henüz oyuna dahil edilmemiştir [4q-5eqAPGJQ, 3245764171]. 
+
+Bu sayılara eklenen değiştiriciler kritik öneme sahiptir:
+- **Artı (+) Değiştiricisi**: Zırhın yükseltildiğini, temel seviyeden daha yüksek ancak bir sonraki üst seviyeden biraz daha az koruma sunduğunu gösterir [4q-5eqAPGJQ, 3245764171].
+- **A Değiştiricisi**: Bir düşüşü (downgrade) gösterir. Bir "A" derecesi, aynı seviyedeki standart muadilinden her zaman daha kötüdür (örneğin, IIIA, III'ten daha düşüktür) [4q-5eqAPGJQ, 3245764171].
+
+| NIJ Seviyesi | Göreceli Koruma | Balistik Yetenek | Oyun Durumu |
+|---|---|---|---|
+| IIA | Çok Düşük | Düşük hızlı 9mm ve .40 S&W mermilerini durdurur | Yaygın düşük seviye |
+| II | Düşük | Standart 9mm ve .357 Magnum mermilerini durdurur | Temel güvenlik |
+| IIIA | Orta | Yüksek hızlı 9mm ve .44 Magnum mermilerini durdurur | Orta seviye tabanca korumalı |
+| IIIA+ | Orta-Yüksek | Geliştirilmiş tabanca koruması | Kask seviyesi maksimum |
+| III | Yüksek | 7.62x39mm ve 7.62x51mm FMJ mermilerini durdurur | Standart tüfek korumalı |
+| III+ | Çok Yüksek | Gelişmiş tüfek koruması | Mevcut zirve meta |
+
+<Callout type="warning" title="Balistik Uyarı">
+Üst düzey askeri bölgelere girerken Seviye IIA veya IIIA zırhlara güvenmeyin [3245764171]. Bu derecelendirmeler tabanca kalibreli şarapnel ve yumuşak uçlu mermileri durdurmak için tasarlanmıştır, ancak 7.62x39mm FMJ gibi standart askeri tüfek mermileri bunları anında delecektir [3245764171].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Plaka Konumları ve Koruma Alanı Mekanikleri">
+
+Harika bir **gray zone warfare zırh derecesi**, savunma denkleminin sadece yarısıdır. Oyun, karmaşık ve bölgesel bir vuruş kaydı ve balistik motoruna sahiptir. Bu, çelik yeleğinizin yalnızca balistik plakaların takılı olduğu tam fiziksel bölgeleri koruduğu anlamına gelir [4q-5eqAPGJQ, 3245764171].
+
+Herhangi bir yeleği veya plaka taşıyıcıyı incelediğinizde, inceleme penceresinin sol üst köşesine bakın [4q-5eqAPGJQ, 3245764171]. Burada üç potansiyel plaka konumunu temsil eden simgeler göreceksiniz [4q-5eqAPGJQ]:
+- **Beyaz Simgeler**: Plaka mevcuttur ve aktiftir, o sektörde tam koruma sağlar [4q-5eqAPGJQ].
+- **Gri Simgeler**: Plaka takılı değildir, bu da o bölgede sıfır balistik korumaya sahip olduğunuz anlamına gelir [4q-5eqAPGJQ].
+
+<CardGrid cols={3}>
+  <Card title="Ön Plaka">
+    Hayati göğüs organlarınızı doğrudan karşıdan gelen çatışmalardan korur. Agresif öncü oyuncular ve cephe saldırıları için gereklidir [4q-5eqAPGJQ].
+  </Card>
+  <Card title="Arka Plaka">
+    Geri çekilmeler veya yan saldırılar (flank) sırasında omurganızı ve sırtınızın üst kısmını korur. Açık dünya hayatta kalma mücadelesi için çok önemlidir [4q-5eqAPGJQ].
+  </Card>
+  <Card title="Yan Plakalar">
+    Koltuk altlarınızın altındaki yan kısımları kaplar. Solunuzdaki veya sağınızdaki çalılıklarda saklanan düşmanların tek vuruşta öldüren atışlarını engeller [4q-5eqAPGJQ].
+  </Card>
+</CardGrid>
+
+### Temel Yeleklerin Plaka Koruma Karşılaştırması
+
+Yeleğinizde hangi plakaların aktif olduğunu bilmek, bir çatışma sırasında vücudunuzu nasıl konumlandırmanız gerektiğini belirler. Aşağıda, Handshake gibi tüccarlardan temin edilebilen yaygın zırh seçeneklerinin bir dökümü yer almaktadır [4q-5eqAPGJQ].
+
+| Yelek Adı | Zırh Derecesi | Ön Plaka | Arka Plaka | Yan Plakalar |
+|---|---|---|---|---|
+| CZ VIP | Seviye III | Aktif | Aktif Değil | Aktif Değil |
+| Elite 4 | Seviye III | Aktif | Aktif Değil | Aktif Değil |
+| CGPC3 | Seviye IIIA | Aktif | Aktif | Aktif Değil |
+| Lancer | Seviye III | Aktif | Aktif | Aktif Değil |
+| Gen 2 Operator | Seviye IIIA | Aktif | Aktif | Aktif |
+| Phantom Rig | Seviye III++ | Aktif | Aktif | Aktif |
+
+<Callout type="tip" title="Taktiksel Konumlandırma">
+Yan veya arka plakaları olmayan yüksek dereceli bir yelek (Elite 4 gibi) giyiyorsanız, hedefinizi her zaman doğrudan karşınızda tutun [4q-5eqAPGJQ]. Yan taraflarınızı açığa çıkarmak veya kaçmak için arkanızı dönmek, tamamen korumasız vuruş alanlarını (hitbox) açığa çıkaracaktır [4q-5eqAPGJQ].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="2026'nın En İyi Çelik Yelekleri ve Plaka Taşıyıcıları">
+
+Doğru zırhı seçmek, ham koruma dereceleri ile kapsama alanı ve depolama kapasitesi arasında bir denge kurmayı gerektirir [4q-5eqAPGJQ]. Mevcut 2026 metasında, hem ölümcül yapay zeka keskin nişancı atışlarından hem de tam teçhizatlı düşman oyunculardan hayatta kalmak için üst düzey zırhlar şarttır.
+
+### En İyi Zırh Seçeneklerinin Açıklaması
+
+1. **Phantom Rig (Seviye III++)**: Bu, oyundaki kesinlikle en iyi zırh olarak kabul edilir [4q-5eqAPGJQ]. Seviye III++ derecesine sahiptir, ön, arka ve yan plaka koruması sunar ve şarjörler ile tıbbi malzemeler için devasa bir envanter düzeni sağlar [4q-5eqAPGJQ]. Oyunun supporter (destekçi) sürümü aracılığıyla elde edilebilir veya YBL-1 sığınağı gibi bölgelerdeki üst düzey askeri kutulardan yağmalanabilir [4q-5eqAPGJQ].
+2. **Lancer (Seviye III)**: Yan koruma yerine tüfek korumasına öncelik veren oyuncular için ilk tercihtir [4q-5eqAPGJQ]. Hem önünüzü hem de arkanızı Seviye III plakalarla koruyarak, gövdenize isabet edecek birden fazla tüfek mermisinden hayatta kalmanızı sağlar [4q-5eqAPGJQ].
+3. **Modular Operator Carrier Gen 2 (Seviye IIIA)**: Tam 360 derece koruma istiyorsanız ancak Phantom Rig almaya gücünüz yetmiyorsa veya bulamıyorsanız, Gen 2 Operator en iyi seçeneğinizdir [4q-5eqAPGJQ]. IIIA derecesi tüfeklere karşı daha zayıf olsa da, yan plakaların eklenmesi, şans eseri gelen yan atışların sizi anında üsse geri göndermesini engeller [4q-5eqAPGJQ].
+
+<Steps>
+  <Step num="1" title="Tehdit Bölgesini Değerlendirin">
+    Nereye intikal edeceğinizi belirleyin. Tabanca kullanan yapay zekaların bulunduğu başlangıç seviyesindeki kasabalar yalnızca Seviye IIA veya IIIA zırh gerektirirken, askeri üsler Seviye III veya III+ [4q-5eqAPGJQ, 3245764171].
+  </Step>
+  <Step num="2" title="Kapsama Alanı ve Derecelendirme Arasında Seçim Yapın">
+    Müfreze rolünüze bağlı olarak 360 derece korumaya mı (Gen 2 Operator) yoksa yüksek kalibreli ön korumaya mı (Lancer/Elite 4) ihtiyacınız olduğuna karar verin [4q-5eqAPGJQ].
+  </Step>
+  <Step num="3" title="Plaka Bütünlüğünü Doğrulayın">
+    Üsten ayrılmadan önce, plakaların tamamen sağlam olduğundan ve önceki görevlerde hasar görmediğinden emin olmak için zırhınızı inceleyin.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Meta Seçim">
+Dünyada bulduğunuz tüm Seviye III+ or III++ zırh parçalarını almaya her zaman öncelik verin [4q-5eqAPGJQ]. Bunları yüksek riskli PvP operasyonları veya zorlu derin bölge PvE görevleri için zulanızda güvenle saklayın [4q-5eqAPGJQ].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Kask Koruma Dereceleri ve Önerileri">
+
+Hızlı kan kaybını ve organ yetmezliğini önlemek için göğsünüzü korumak hayati önem taşırken, kafanızı korumak savaşta kalmakla ana menüye anında geri dönmek arasındaki farktır. Gray Zone Warfare'deki kasklar da aynı NIJ derecelendirme sistemini takip eder [4q-5eqAPGJQ].
+
+Taktiksel kaskların çoğunluğu Seviye IIIA kademesindedir, yani tabanca mermilerini ve uzaktan gelen şarapnelleri saptırmak üzere tasarlanmışlardır [4q-5eqAPGJQ]. Ancak bu sınırı aşan elit seçenekler de mevcuttur.
+
+### Kask Performansı Karşılaştırması
+
+| Kask Adı | Zırh Derecesi | Koruma Alanı | Taktiksel Avantaj |
+|---|---|---|---|
+| Mitch 2000 | Seviye IIIA | Üst, Arka | Son derece uygun fiyatlı bütçe dostu kask [4q-5eqAPGJQ] |
+| Mitch 2002 | Seviye IIIA | Üst, Arka | Standart orta seviye koruma [4q-5eqAPGJQ] |
+| Xfill Helmet | Seviye IIIA | Üst, Arka, Yanlar | Mükemmel eklenti uyumluluğu [4q-5eqAPGJQ] |
+| Fast MT | Seviye IIIA+ | Üst, Arka, Yanlar | Yükseltilmiş değiştirici ile sınıfının en iyisi koruma derecesi [4q-5eqAPGJQ] |
+
+**Fast MT**, **Seviye IIIA+** derecesi ile en önde gelen kask seçeneği olarak öne çıkıyor [4q-5eqAPGJQ]. Artı değiştiricisi, yüksek açılı tüfek mermilerini saptırmada ve standart IIIA kaskları çatlatacak künt kuvvet travmasını emmede ona hafif bir avantaj sağlar [4q-5eqAPGJQ].
+
+<Checklist
+  id="pre-raid-armor-check"
+  title="Operasyon Öncesi Zırh Kontrol Listesi:"
+  items={[
+    "Çelik yelek derecesinin, intikal bölgesinin beklenen tehdit seviyesiyle eşleştiğini doğrulayın",
+    "Açıkta kalan yanlarınız olmadığından emin olmak için plaka konumlarını inceleyin",
+    "Serseri yapay zeka kafadan vuruşlarına karşı korunmak için Seviye IIIA veya IIIA+ bir kask takın",
+    "İntikal etmeden önce üs satıcılarında hasarlı zırh plakalarını onarın"
+  ]}
+/>
+
+<Callout type="info" title="Kulak ve Yüz Koruması">
+Fast MT gibi kaskların üstün üst ve arka koruma sunduğunu, ancak uyumlu balistik vizörler veya çene koruyucuları takmadığınız sürece yüzünüzün savunmasız kalacağını unutmayın [4q-5eqAPGJQ]. Bunları satın almadan önce her zaman yüz siperlerinin ergonomi ve görünürlük ödünlerini tartın.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Zırh Derecesi SSS">
+
+Balistik mekanikleri anlamak, kaybolan ekipmanlar yüzünden milyonlarca Koin tasarruf etmenizi sağlayabilir. İşte zırh performansıyla ilgili en yaygın soruların yanıtları.
+
+<FAQ items={[
+  {
+    question: "Oyunda mevcut olan en yüksek gray zone warfare zırh derecesi nedir?",
+    answer: "Şu anda oyunda uygulanan en yüksek zırh derecesi Seviye III+ (ve Phantom Rig'de bulunan benzersiz III++) seviyesidir. Seviye IV zırh henüz mevcut değildir."
+  },
+  {
+    question: "Seviye IIIA zırh, Seviye III zırhtan daha mı iyidir?",
+    answer: "Hayır. NIJ derecelendirme sistemine göre Seviye III, Seviye IIIA'dan üstündür. Seviye III, orta kalibre tüfek mermilerini durduracak şekilde derecelendirilmişken, IIIA yalnızca tabanca kalibreli mermileri durduracak şekilde derecelendirilmiştir."
+  },
+  {
+    question: "Zırh derecesindeki artı (+) işareti ne anlama gelir?",
+    answer: "Artı işareti, zırhın koruma yeteneklerinin standart temel seviyenin ötesinde yükseltildiğini gösterir, ancak yine de bir sonraki daha yüksek sayısal aşamanın gerisinde kalır."
+  },
+  {
+    question: "Yan plakalarımın aktif olup olmadığını nasıl kontrol ederim?",
+    answer: "Yeleğinize sağ tıklayın ve inceleyin. Sol üstteki simgelere bakın. Yan plaka simgesi beyaz ve doluysa yanlarınız korunuyor demektir. Gri renkteyse yan korumanız yoktur."
+  }
+]} />
+
+<Callout type="tip" title="Son Karar">
+Kararsız kaldığınızda, depolama kapasitesi yerine daha yüksek NIJ derecelerine öncelik verin. Yüksek bir zırh derecesi, ganimetinizi eve taşıyacak kadar hayatta kalmanızı sağlarken, zayıf zırha sahip devasa bir sırt çantası yalnızca cesedinizi yağmalayan oyuncuya fayda sağlar.
+</Callout>
+
+</Section>

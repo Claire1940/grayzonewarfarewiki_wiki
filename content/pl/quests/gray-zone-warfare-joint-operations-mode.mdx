@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare: Tryb Joint Operations – Poradnik taktyczny PvE",
+  description: "Opanuj tryb Joint Operations w Gray Zone Warfare dzięki naszemu kompletnemu poradnikowi PvE na 2026 rok. Poznaj kluczowe różnice, wskazówki dotyczące postępów i strategie przetrwania.",
+  category: "Poradnik",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Joint+Operations+Guide",
+  date: "2026-06-28",
+  author: "Zespół Wiki Gray Zone Warfare"
+}
+
+<Callout type="info" title="Szybki przewodnik">
+- **Główny tryb**: **Tryb Joint Operations w Gray Zone Warfare** oferuje czyste doświadczenie PvE, w którym ogień przyjazny (friendly fire) jest całkowicie wyłączony.
+- **Wspólne postępy**: Wszystkie poziomy postaci, ekwipunek i ukończone zadania u handlarzy przenoszą się płynnie między trybami Joint Operations i Warfare.
+- **Bezpieczne odzyskiwanie**: Kiedy giniesz, inni gracze nie mogą przeszukać twojego ciała, co pozwala na **bezpieczne odzyskanie ekwipunku**.
+- **Kooperacja frakcji**: Możesz połączyć siły z maksymalnie czterema graczami w oddziale, aby wspólnie **wykonywać złożone zadania**.
+</Callout>
+
+<Section icon={Map} title="Tryb Joint Operations w Gray Zone Warfare: Przegląd i kluczowe różnice">
+
+**Tryb Joint Operations w Gray Zone Warfare** całkowicie odmienił sposób, w jaki gracze podchodzą do taktycznych strzelanek typu extraction. Historycznie gry z tego gatunku zmuszały graczy do rywalizacji w wysoce stresującym środowisku PvPvE, gdzie jedno spotkanie z wrogim graczem mogło zniweczyć godziny postępów. Studio MADFINGER Games rozwiązało ten problem, wprowadzając dedykowany tryb gracz kontra otoczenie (PvE). Ten wybór projektowy pozwala graczom cieszyć się bogatą, taktyczną rozgrywką na wyspie Lamang bez ciągłego niepokoju o zasadzki wrogich frakcji czy złośliwości ze strony innych graczy.
+
+W trybie Joint Operations wdrażasz się wraz z członkami wybranej frakcji. Główną mechaniką tego trybu jest całkowite wyłączenie obrażeń zadawanych między graczami. Oznacza to, że inni ludzie na serwerze nie mogą cię skrzywdzić, a ty nie możesz skrzywdzić ich. Ta fundamentalna zmiana w rozgrywce przekształca dynamikę z bezwzględnej walki o przetrwanie w wysoce współpracującą symulację taktyczną. Gracze często łączą siły z nieznajomymi, dzieląc się cennymi zapasami medycznymi, koordynatami trudnych celów zadań i łupami wysokiej jakości. W 2026 roku tryb ten pozostaje niezwykle popularny, służąc zarówno jako bezpieczny poligon dla nowych rekrutów, jak i niezawodna ścieżka rozwoju dla weteranów, którzy chcą skupić się wyłącznie na zadaniach frakcji.
+
+**Najważniejsze cechy:**
+- **Brak ognia przyjaznego**: Członkowie drużyny i inni gracze z twojej frakcji nie mogą cię zranić, co eliminuje ryzyko celowego psucia rozgrywki.
+- **Bezpieczeństwo zwłok**: Inni gracze nie mogą przeszukać twojego ciała, dzięki czemu odzyskiwanie sprzętu jest znacznie mniej stresujące.
+- **Autentyczna taktyka**: Podstawowe mechaniki taktyczne, w tym balistyka, systemy medyczne i ewakuacja helikopterem, pozostają identyczne jak w trybie PvPvE.
+
+<YouTubeEmbed videoId="ncJN3s4Pf18" title="Trying out Grey Zone Warfare's PvE mode | Joint Operations" />
+
+Zrozumienie różnic strukturalnych między tymi dwoma trybami jest kluczowe dla zaplanowania strategii działań. Choć środowisko, wrogowie AI i misje są identyczne w obu przypadkach, zasady zaangażowania znacząco się różnią.
+
+| Cecha | Tryb Warfare | Tryb Joint Operations |
+| :--- | :--- | :--- |
+| Obrażenia od graczy | Włączone (PvPvE) | Wyłączone (tylko PvE) |
+| Ogień przyjazny | Włączony (karany) | Całkowicie wyłączony |
+| Przeszukiwanie zwłok | Dostępne dla wszystkich | Ograniczone do właściciela |
+| Bezpieczeństwo bazy | Wysokie ryzyko przy LZ | 100% bezpieczna strefa |
+| Postępy | Wspólne z Joint Ops | Wspólne z Warfare |
+
+<Callout type="success" title="Przewaga kooperacji">
+Ponieważ ogień przyjazny jest całkowicie wyłączony, możesz prowadzić walkę w bliskim kontakcie u boku członków swojej frakcji bez ryzyka przypadkowego zabicia sojusznika, co sprawia, że skoordynowane oczyszczanie pomieszczeń jest znacznie skuteczniejsze.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Odzyskiwanie ekwipunku i mechaniki przetrwania">
+
+Jednym z najbardziej atrakcyjnych aspektów **trybu Joint Operations w Gray Zone Warfare** jest wyrozumiały charakter mechaniki śmierci i odzyskiwania przedmiotów. W standardowych trybach PvPvE śmierć oznacza, że twoje ciało jest natychmiast podatne na przeszukanie przez kogokolwiek na mapie. Jeśli wrogi gracz znajdzie twoje zwłoki, może zabrać ci wysokiej klasy pancerz, spersonalizowane karabiny szturmowe i cenne przedmioty z bezpiecznego kontenera. Tworzy to ogromną barierę wejścia dla niedzielnych graczy, których nie stać na ciągłe odbudowywanie ekwipunku.
+
+W trybie Joint Operations stawka w walce nadal jest wysoka, ale proces odzyskiwania sprzętu jest bardzo bezpieczny. Kiedy zostaniesz wyeliminowany przez zabójcze siły AI na wyspie Lamang, twój sprzęt pozostaje na ciele. Jednakże inni gracze na serwerze mają fizycznie zablokowaną możliwość przeszukiwania twoich zwłok. Pozwala to na ponowne wdrożenie się z bazy operacyjnej (FOB), wezwanie helikoptera do najbliższej strefy lądowania (LZ) i bezpieczne odzyskanie wyposażenia. Choć nadal musisz uważać na przeciwników AI, którzy cię zabili, zagrożenie kradzieżą ciężko zdobytego sprzętu przez innego gracza jest całkowicie wyeliminowane.
+
+<CardGrid cols={3}>
+  <Card title="Odzyskiwanie zwłok">
+    - **Brak przeszukiwania przez graczy** gwarantuje, że twój sprzęt jest bezpieczny przed członkami innych frakcji.
+    - **Znaczniki na mapie** prowadzą cię bezpośrednio do miejsca śmierci.
+    - **Taktyczne podejście** jest wymagane, aby wyeliminować AI, które cię pokonało.
+  </Card>
+  <Card title="Wspólne postępy">
+    - **Postępy odzwierciedlają się** bezpośrednio między Joint Operations a standardowym Warfare.
+    - **Reputacja u handlarzy** i ukończone zadania przenoszą się natychmiastowo.
+    - **Zarządzanie magazynem** jest identyczne, co pozwala bezpiecznie budować arsenał.
+  </Card>
+  <Card title="Współpraca frakcji">
+    - **Ogień przyjazny jest wyłączony**, co eliminuje przypadkowe zabójstwa sojuszników.
+    - **Wspólne cele** pozwalają członkom frakcji pomagać w trudnych zadaniach.
+    - **Współdzielenie helikopterów** pomaga oddziałom szybko odblokowywać nowe strefy lądowania.
+  </Card>
+</CardGrid>
+
+Te ramy współpracy pozwalają graczom korzystać z wysokiej klasy konfiguracji sprzętowych bez strachu przed ich trwałą utratą na rzecz przeciwników. To doskonałe środowisko do testowania nowych modyfikacji broni, ćwiczenia skomplikowanych zabiegów medycznych i poznawania układu ryzykownych punktów zainteresowania.
+
+| Scenariusz | Status sprzętu | Metoda odzyskiwania | Poziom bezpieczeństwa |
+| :--- | :--- | :--- | :--- |
+| Śmierć z rąk AI | Pozostaje na zwłokach | Powrót do miejsca śmierci | Bardzo wysoki |
+| Awaria serwera | Utracony na stałe | Brak (wymaga odbudowy) | Niski |
+| Śmierć członka oddziału | Pozostaje na zwłokach | Tylko właściciel może odzyskać | Bardzo wysoki |
+
+<Callout type="warning" title="Rozłączenia z serwerem">
+Chociaż twój sprzęt jest bezpieczny przed innymi graczami, awaria serwera lub rozłączenie przed odzyskaniem zwłok spowoduje trwałą utratę ekwipunku, ponieważ ciało jest powiązane z konkretną instancją serwera.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Jak wdrożyć się do Joint Operations">
+
+Wdrożenie na wyspę Lamang wymaga starannego przygotowania, zwłaszcza przy konfiguracji ustawień połączenia. Ponieważ Gray Zone Warfare oferuje wysoce zaawansowany model balistyki i złożone zachowania AI, stabilność serwera jest kluczowa dla celnego strzelania i przetrwania intensywnych wymian ognia. Wielu graczy popełnia błąd, wchodząc do gry na domyślnych ustawieniach, co często prowadzi do słabej wydajności i wysokich opóźnień. Aby zapewnić sobie jak najlepsze doświadczenie w Joint Operations, postępuj zgodnie z naszymi zoptymalizowanymi krokami.
+
+<Steps>
+  <Step num="1" title="Tworzenie postaci i wybór frakcji">
+    Zanim się wdrożysz, musisz stworzyć swojego operatora i wybrać jedną z trzech firm PMC: Lamang Recovery Initiative, Mithras Security Group lub Crimson Shield International. Kluczowe jest koordynowanie wyborów z przyjaciółmi, ponieważ możesz dołączyć do grupy tylko z graczami z tej samej frakcji. Jeśli popełnisz błąd, musisz usunąć postać z menu głównego, co zresetuje wszystkie postępy.
+  </Step>
+  <Step num="2" title="Wybór trybu Joint Operations">
+    W menu głównym przejdź do panelu wyboru trybu gry po lewej stronie ekranu. Przełącz opcję z Warfare na Joint Operations. Dzięki temu wdrożysz się na serwer, na którym obrażenia między graczami są wyłączone, a wszyscy inni operatorzy są przyjaźnie nastawieni.
+  </Step>
+  <Step num="3" title="Optymalizacja regionu serwera">
+    Nie polegaj na domyślnym ustawieniu serwera, ponieważ może on połączyć cię z regionem o wysokim opóźnieniu. Ręcznie wybierz region serwera najbliższy twojej fizycznej lokalizacji (np. US East, US West lub Europe West), aby zagwarantować stabilną liczbę klatek na sekundę i responsywną rejestrację trafień.
+  </Step>
+  <Step num="4" title="Przygotowanie w bazie">
+    Po wdrożeniu trafisz do bazy operacyjnej (FOB) swojej frakcji. Uzyskaj dostęp do swojego magazynu, aby wyposażyć broń, załadować magazynki amunicją o wysokiej penetracji, spakować niezbędne zaopatrzenie medyczne, takie jak zestawy chirurgiczne i szyny, oraz przyjąć początkowe misje od handlarzy takich jak Gunny i Handshake.
+  </Step>
+</Steps>
+
+Systematycznie konfigurując te ustawienia, unikniesz typowych problemów z połączeniem i zapewnisz, że twoje decyzje taktyczne będą przetwarzane z minimalnym opóźnieniem. Jest to szczególnie ważne w starciach z wysokopoziomowymi przeciwnikami AI, którzy dysponują niezwykle szybkim czasem reakcji.
+
+| Nazwa handlarza | Specjalizacja | Kluczowa wczesna misja | Główny typ nagrody |
+| :--- | :--- | :--- | :--- |
+| Gunny | Broń i amunicja | First Recon | Podstawowe karabiny, magazynki |
+| Handshake | Operacje i dane | Cash Tracking | Waluta, bezpieczne kontenery |
+| Artisan | Pancerz i narzędzia | Materials Hunt | Kamizelki, hełmy, plecaki |
+
+<Callout type="tip" title="Wybór serwera">
+Jeśli doświadczasz dużych lagów serwera lub "rubber-bandingu", wróć do menu głównego i ręcznie przełącz się na inny serwer regionalny. Postępy postaci i ekwipunek przeniosą się bezproblemowo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Strategia rozwoju i lista zadań">
+
+Poruszanie się po ogromnej mapie wyspy Lamang wymaga ustrukturyzowanej strategii rozwoju. Wyspa jest podzielona na odrębne strefy, z których każda oferuje unikalne wyzwania środowiskowe, cele zadań i poziomy trudności AI. Aby efektywnie robić postępy, musisz systematycznie odblokowywać strefy lądowania (LZ) i wykonywać zadania dla handlarzy, które rozszerzają dostęp do wysokiej klasy sprzętu.
+
+Na wczesnym etapie gry skup się na opanowaniu miasta startowego. Lokalni rebelianci są tu słabo wyposażeni i mają wolny czas reakcji, co czyni ich doskonałymi celami do treningu. Jednak w miarę przechodzenia do stref poziomu 2, takich jak wioska Ban Pa czy bunkier YBL-1, trudność AI drastycznie wzrasta. Wrogowie w tych obszarach będą aktywnie flankować twoją pozycję, skutecznie wykorzystywać osłony i strzelać z broni kalibru. Gdy dotrzesz do stref poziomu 3, takich jak Fort Narith czy Tiger Bay, zmierzysz się z wysoko wyszkolonymi siłami wojskowymi wyposażonymi w ciężkie pancerze i amunicję przeciwpancerną. W tych strefach końcowych taktyczna praca zespołowa oraz wolne, metodyczne oczyszczanie pomieszczeń są absolutnie niezbędne do przeżycia.
+
+<Checklist
+  id="joint-ops-milestones"
+  title="Niezbędne kamienie milowe PvE:"
+  items={[
+    "Ukończ misję First Recon u Gunny'ego w mieście startowym",
+    "Odblokuj co najmniej trzy strefy lądowania wokół Ban Pa i YBL-1",
+    "Osiągnij 15. poziom, aby odblokować średniej klasy broń i pancerz",
+    "Pomyślnie odzyskaj swój sprzęt z niebezpiecznej strefy wysokiego poziomu",
+    "Ukończ operację poziomu 3 w Fort Narith z oddziałem"
+  ]}
+/>
+
+| Nazwa POI | Poziom zagrożenia | Wroga frakcja | Kluczowe nagrody |
+| :--- | :--- | :--- | :--- |
+| Ground Zero | Poziom 1 (Niski) | Lokalni rebelianci | Podstawowa broń, klucze startowe |
+| Ban Pa | Poziom 2 (Średni) | Kultyści i rebelianci | Średniej klasy sprzęt, przedmioty zadań |
+| Fort Narith | Poziom 3 (Wysoki) | Żołnierze LAF | Wojskowy pancerz, dodatki |
+| Tiger Bay | Poziom 3 (Wysoki) | Rebelianci i żołnierze | Wysokiej jakości łupy, intensywna walka |
+| Midnight Sapphire | Poziom 3 (Wysoki) | Żołnierze LAF | Łupy z luksusowego kurortu, zadania końcowe |
+
+<Callout type="info" title="Gra w oddziale na wysokim poziomie">
+Wchodząc do stref poziomu 3, takich jak Tiger Bay czy Fort Narith, zawsze koordynuj działania z innymi graczami ze swojej frakcji. Nawet bez zagrożeń PvP, wojskowe AI w tych obszarach może łatwo przytłoczyć samotnego operatora.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Często zadawane pytania">
+
+Zrozumienie niuansów **trybu Joint Operations w Gray Zone Warfare** pomaga graczom płynnie przejść do rozgrywki na wyspie Lamang. Poniżej znajdują się najczęstsze pytania dotyczące tego środowiska kooperacyjnego.
+
+<FAQ items={[
+  {
+    question: "Czy postępy są wspólne dla Warfare i Joint Operations?",
+    answer: "Tak, postępy są w pełni odzwierciedlone. Każdy sprzęt, poziomy czy reputacja u handlarzy, które zdobędziesz w Joint Operations, przenoszą się do trybu Warfare, co pozwala na bezstresowe wykonywanie zadań."
+  },
+  {
+    question: "Czy inni gracze mogą ukraść mój łup, jeśli zginę w Joint Operations?",
+    answer: "Nie. W Joint Operations inni gracze nie mogą przeszukać twojego ciała. Sprawia to, że odzyskiwanie zwłok jest znacznie bezpieczniejsze, o ile uda ci się wrócić do miejsca śmierci."
+  },
+  {
+    question: "Jak zidentyfikować przyjaznych graczy na mapie?",
+    answer: "Otwórz mapę, aby zobaczyć przyjaznych graczy i helikoptery. Helikoptery oznaczone kolorem zielonym należą do twojego oddziału, natomiast niebieskie należą do innych członków twojej frakcji."
+  },
+  {
+    question: "Czy mogę w każdej chwili wrócić do trybu Warfare?",
+    answer: "Tak. Możesz wrócić do menu głównego i zmienić tryb gry z powrotem na Warfare, kiedy tylko zechcesz wziąć udział w walce PvPvE. Wszystkie twoje postępy zostaną zachowane."
+  }
+]} />
+
+<Callout type="tip" title="Ostateczna rekomendacja">
+Używaj Joint Operations do wykonywania trudnych zadań polegających na odzyskiwaniu przedmiotów lub do nauki układu niebezpiecznych baz wojskowych, zanim spróbujesz swoich sił w wysokostawkowym trybie Warfare.
+</Callout>
+
+</Section>

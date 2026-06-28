@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "gray zone warfare joint operations mode: PvE Tactical Guide",
+  description: "Master the gray zone warfare joint operations mode with our complete 2026 PvE guide. Learn key differences, progression tips, and survival strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Joint+Operations+Guide",
+  date: "2026-06-28",
+  author: "gray zone warfare Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Mode**: The **gray zone warfare joint operations mode** offers a pure PvE experience where friendly fire is completely disabled.
+- **Shared Progression**: All character levels, gear, and completed vendor quests carry over seamlessly between Joint Operations and Warfare modes.
+- **Secure Recovery**: When you die, other players cannot loot your body, allowing you to **safely retrieve your gear**.
+- **Faction Co-op**: You can team up with up to four players in a squad to **complete complex tasks** together.
+</Callout>
+
+<Section icon={Map} title="gray zone warfare joint operations mode: Overview & Key Differences">
+
+The **gray zone warfare joint operations mode** has completely transformed how players approach tactical extraction shooters. Historically, games in this genre have forced players into highly competitive, high-stress PvPvE environments where a single encounter with a hostile player can wipe out hours of progress. MADFINGER Games addressed this pain point directly by introducing a dedicated player-versus-environment (PvE) mode. This design choice allows players to experience the rich tactical gameplay of Lamang Island without the constant anxiety of being ambushed by enemy factions or griefed by teammates.
+
+In Joint Operations, you deploy alongside members of your chosen faction. The core mechanic of this mode is the complete disablement of player-to-player damage. This means other human operators on the server cannot harm you, nor can you harm them. This fundamental shift in gameplay changes the dynamic from a cutthroat survival struggle to a highly collaborative tactical simulation. Players frequently team up with complete strangers, sharing valuable medical supplies, coordinates for tricky quest objectives, and high-tier loot. In 2026, this mode remains incredibly popular, acting as both a safe training ground for new recruits and a reliable progression route for veteran players who want to focus purely on faction tasks.
+
+**Video Highlights:**
+- **Zero Friendly Fire**: Teammates and other faction members cannot damage you, removing the risk of intentional griefing.
+- **Corpse Safety**: Other players cannot loot your dead body, making gear recovery significantly less stressful.
+- **Authentic Tactical Play**: The core tactical mechanics, including ballistics, medical systems, and helicopter extraction, remain identical to the PvPvE mode.
+
+<YouTubeEmbed videoId="ncJN3s4Pf18" title="Trying out Grey Zone Warfare's PvE mode | Joint Operations" />
+
+Understanding the structural differences between these two modes is essential for planning your deployment strategy. While the environment, AI enemies, and missions are identical across both options, the rules of engagement differ significantly.
+
+| Feature | Warfare Mode | Joint Operations Mode |
+| :--- | :--- | :--- |
+| Player Damage | Enabled (PvPvE) | Disabled (PvE Only) |
+| Friendly Fire | Enabled (Penalized) | Disabled Completely |
+| Body Looting | Open to all players | Restricted to self |
+| Base Camp Safety | High risk at LZs | 100% Safe Zone |
+| Progression | Shared with Joint Ops | Shared with Warfare |
+
+<Callout type="success" title="Cooperative Advantage">
+Because friendly fire is completely disabled, you can engage in close-quarters combat alongside faction members without the risk of accidental team-kills, making coordinated room clearing much more effective.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gear Recovery & Survival Mechanics">
+
+One of the most appealing aspects of the **gray zone warfare joint operations mode** is the forgiving nature of its death and recovery mechanics. In standard PvPvE modes, dying means your body is immediately vulnerable to looting by anyone on the map. If an enemy player finds your corpse, they can strip you of your high-tier armor, customized assault rifles, and valuable secure container items. This creates a massive barrier to entry for casual players who cannot afford to constantly rebuild their loadouts.
+
+In Joint Operations, the stakes of combat are still significant, but the recovery process is highly secure. When you are eliminated by the lethal AI forces on Lamang Island, your gear remains on your corpse. However, other players on the server are physically blocked from looting your body. This allows you to redeploy at your Forward Operating Base (FOB), call in a helicopter to the nearest landing zone (LZ), and safely retrieve your equipment. While you must still navigate around the AI enemies that killed you, the threat of another player stealing your hard-earned gear is entirely removed.
+
+<CardGrid cols={3}>
+  <Card title="Corpse Retrieval">
+    - **No player looting** ensures your gear is safe from other faction members.
+    - **Map markers** guide you directly back to your exact death location.
+    - **Tactical approach** is required to clear the AI that killed you.
+  </Card>
+  <Card title="Shared Progression">
+    - **Progress mirrors** directly between Joint Operations and standard Warfare.
+    - **Vendor reputation** and quest completions carry over instantly.
+    - **Stash management** is identical, allowing you to build your arsenal safely.
+  </Card>
+  <Card title="Faction Cooperation">
+    - **Friendly fire is disabled**, eliminating accidental team-kills.
+    - **Shared objectives** allow faction members to assist with difficult tasks.
+    - **Helicopter sharing** helps squads quickly unlock new landing zones.
+  </Card>
+</CardGrid>
+
+This cooperative framework allows players to run high-tier gear configurations without the fear of losing them permanently to opponent players. It is an excellent environment to test new weapon attachments, practice complex medical treatments, and learn the layout of high-risk points of interest.
+
+| Scenario | Gear Status | Recovery Method | Safety Rating |
+| :--- | :--- | :--- | :--- |
+| Killed by AI | Dropped on corpse | Return to death location | Very High |
+| Server Crash | Lost permanently | None (requires rebuild) | Low |
+| Squadmate Death | Dropped on corpse | Only owner can retrieve | Very High |
+
+<Callout type="warning" title="Server Disconnections">
+While your gear is safe from other players, a server crash or disconnecting before you retrieve your corpse will result in the permanent loss of that gear, as your body is tied to that specific server instance.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Deploy into Joint Operations">
+
+Deploying into Lamang Island requires careful preparation, especially when configuring your connection settings. Because Gray Zone Warfare features a highly sophisticated ballistics model and complex AI behavior, server stability is critical for landing accurate shots and surviving intense firefights. Many players make the mistake of deploying with default settings, which often leads to poor performance and high latency. To ensure the best possible experience in Joint Operations, follow our optimized deployment steps.
+
+<Steps>
+  <Step num="1" title="Character Creation & Faction Selection">
+    Before you can deploy, you must create your operative and choose one of the three PMCs: Lamang Recovery Initiative, Mithras Security Group, or Crimson Shield International. It is vital to coordinate with your friends, as you can only party up with players in the same faction. If you make a mistake, you must wipe your character from the main menu, which resets all progression.
+  </Step>
+  <Step num="2" title="Selecting the Joint Operations Mode">
+    On the main menu, navigate to the game mode selection panel on the left side of the screen. Toggle the option from Warfare to Joint Operations. This ensures that you will deploy into a server where player-versus-player damage is disabled and all human operators are friendly.
+  </Step>
+  <Step num="3" title="Server Region Optimization">
+    Do not rely on the default server setting, as it may connect you to a high-latency region. Manually select the server region closest to your physical location (such as US East, US West, or Europe West) to guarantee stable frame rates and responsive hit registration.
+  </Step>
+  <Step num="4" title="Base Camp Preparation">
+    Once you deploy, you will arrive at your faction's Forward Operating Base. Access your stash to equip your weapon, load your magazines with high-penetration ammunition, pack essential medical supplies like surgical kits and splints, and accept starter missions from vendors like Gunny and Handshake.
+  </Step>
+</Steps>
+
+By systematically configuring these settings, you avoid common connection issues and ensure that your tactical inputs are processed with minimal delay. This is particularly important when dealing with high-tier AI combatants who possess extremely fast reaction times.
+
+| Vendor Name | Specialty | Key Early Mission | Primary Reward Type |
+| :--- | :--- | :--- | :--- |
+| Gunny | Weapons & Ammo | First Recon | Basic assault rifles, magazines |
+| Handshake | Operations & Intel | Cash Tracking | Currency, secure containers |
+| Artisan | Armor & Tools | Materials Hunt | Body armor, helmets, backpacks |
+
+<Callout type="tip" title="Server Selection">
+If you experience heavy server lag or rubber-banding, return to the main menu and manually switch to a different regional server. Your character progression and gear will transfer over seamlessly.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progression Strategy & Mission Checklist">
+
+Navigating the massive map of Lamang Island requires a structured progression strategy. The island is divided into distinct zones, each featuring unique environmental challenges, quest objectives, and AI difficulty tiers. To progress efficiently, you must systematically unlock landing zones (LZs) and complete vendor tasks that expand your access to high-tier gear.
+
+In the early game, your focus should be on mastering the starter town. Here, the local rebels are poorly equipped and have slow reaction times, making them excellent target practice. However, as you transition to Tier 2 zones like the village of Ban Pa or the YBL-1 bunker, the AI difficulty increases dramatically. Enemies in these areas will actively flank your position, use cover effectively, and fire high-caliber weapons. By the time you reach Tier 3 zones like Fort Narith or Tiger Bay, you will face highly trained military forces equipped with heavy body armor and armor-piercing rounds. In these endgame zones, tactical teamwork and slow, methodical room clearing are absolutely essential for survival.
+
+<Checklist
+  id="joint-ops-milestones"
+  title="Essential PvE Milestones:"
+  items={[
+    "Complete Gunny's First Recon mission in the starter town",
+    "Unlock at least three landing zones around Ban Pa and YBL-1",
+    "Reach level 15 to unlock mid-tier weapons and body armor",
+    "Successfully retrieve your gear from a high-tier danger zone",
+    "Complete a Tier 3 operation in Fort Narith with a squad"
+  ]}
+/>
+
+| POI Name | Danger Tier | Enemy Faction | Key Rewards |
+| :--- | :--- | :--- | :--- |
+| Ground Zero | Tier 1 (Low) | Local Rebels | Basic weapons, starter keys |
+| Ban Pa | Tier 2 (Medium) | Cultists & Rebels | Mid-tier gear, quest items |
+| Fort Narith | Tier 3 (High) | LAF Soldiers | Military armor, attachments |
+| Tiger Bay | Tier 3 (High) | Rebels & Soldiers | High-end loot, dense combat |
+| Midnight Sapphire | Tier 3 (High) | LAF Soldiers | Luxury resort loot, late-game tasks |
+
+<Callout type="info" title="High-Tier Squad Play">
+When entering Tier 3 zones like Tiger Bay or Fort Narith, always coordinate with other players in your faction. Even without PvP threats, the military AI in these areas can easily overwhelm a solo operative.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+Understanding the nuances of the **gray zone warfare joint operations mode** helps players transition smoothly into Lamang Island. Below are some of the most common questions regarding this cooperative environment.
+
+<FAQ items={[
+  {
+    question: "Is progression shared between Warfare and Joint Operations?",
+    answer: "Yes, progress is fully mirrored. Any gear, levels, or vendor reputation you earn in Joint Operations carries over to Warfare mode, allowing for stress-free questing."
+  },
+  {
+    question: "Can other players steal my loot if I die in Joint Operations?",
+    answer: "No. In Joint Operations, other players cannot loot your body. This makes body recovery much safer, as long as you can return to your death location."
+  },
+  {
+    question: "How do I identify friendly players on the map?",
+    answer: "Open your map to see friendly players and helicopters. Helicopters colored green belong to your squad, while blue ones belong to other members of your faction."
+  },
+  {
+    question: "Can I switch back to Warfare mode at any time?",
+    answer: "Yes. You can return to the main menu and switch your game mode back to Warfare whenever you want to engage in PvPvE combat. All your progression is preserved."
+  }
+]} />
+
+<Callout type="tip" title="Final Recommendation">
+Use Joint Operations to complete difficult, item-retrieval quests or to learn the layouts of high-danger military bases before attempting them in the high-stakes Warfare mode.
+</Callout>
+
+</Section>

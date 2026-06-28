@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Aumentar a Capacidade de Carga em Gray Zone Warfare: Guia de Mobilidade e Loadout",
+  description: "Otimize seu fôlego, domine os limites de peso e crie loadouts ultraleves para aumentar efetivamente a capacidade de carga em Gray Zone Warfare.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Carry+Weight+Guide",
+  date: "2026-06-28",
+  author: "Equipe da Wiki de Gray Zone Warfare",
+  keywords: "gray zone warfare, capacidade de carga, peso do loadout, fôlego, mobilidade, plate carriers, guia"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Capacidade de Carga**: Para gerenciar e aumentar efetivamente sua capacidade de carga em Gray Zone Warfare, mantenha seu loadout de combate total abaixo de 20kg ou 32kg.
+- **Meta de Armadura**: Use Porta-placas (Plate Carriers) integrados como o RPC Ranger ou M2 para economizar até 2,5kg em comparação com conjuntos separados de colete e rig.
+- **Efeito Alavanca**: Encurte os canos das armas para 10,5 polegadas para reduzir drasticamente o consumo de fôlego dos braços ao mirar (ADS) e eliminar a oscilação da arma.
+- **Espaço no Stash**: Remova os punhos (pistol grips) e carregadores das armas guardadas para reduzir o espaço ocupado no inventário em até 50%.
+</Callout>
+
+<Section icon={Map} title="Aumentar a Capacidade de Carga em Gray Zone Warfare: Mecânicas e Limites">
+
+Em Gray Zone Warfare, gerenciar o peso do seu loadout é um fator crítico para a sobrevivência. Embora não exista um atributo direto para aumentar permanentemente a capacidade de carga, entender os limites rígidos de peso do jogo permite que você otimize seu desempenho físico e a recuperação de fôlego em combates de alto nível [707005192]. Seu peso total dita sua sobrevivência mais do que a classe da armadura em muitos cenários táticos, pois a mobilidade permite flanquear, recuar e buscar cobertura rapidamente [707005192].
+
+**Destaques do Vídeo:**
+- Aprenda como maximizar o espaço no stash removendo acessórios de armas [5oLIku9ObWY].
+- Descubra os benefícios dos recipientes EMT baratos para armazenamento de suprimentos médicos [5oLIku9ObWY].
+- Entenda como empilhar equipamentos e utilizar mochilas como unidades de armazenamento dedicadas [5oLIku9ObWY].
+
+<YouTubeEmbed videoId="5oLIku9ObWY" title="Como MAXIMIZAR o tamanho do seu Stash em Gray Zone Warfare" />
+
+O fôlego das pernas está diretamente ligado à massa total do seu equipamento. Se você ultrapassar limites específicos de peso, sua velocidade de movimento cai e o consumo de fôlego dispara. Manter seu loadout dentro dos limites ideais garante que você possa correr sob fogo e manter um perfil silencioso ao navegar por território hostil [707005192].
+
+| Limite | Faixa de Peso | Recuperação de Fôlego | Impacto no Sigilo |
+| :--- | :--- | :--- | :--- |
+| **Super Leve** | Abaixo de 20kg | **Máxima** | Movimento silencioso |
+| **Otimizado** | 20kg a 32kg | **Padrão** | Ruído moderado |
+| **Sobrecarregado** | Acima de 33kg | **Penalidade Grave** | Ofegar barulhento |
+
+<Callout type="warning" title="Penalidade de Sigilo">
+Ultrapassar o limite de 33kg faz com que seu personagem ofegue alto, tornando o sigilo impossível e aumentando o tempo de recuperação do fôlego em até três vezes [707005192].
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Otimizando Armaduras e Porta-placas para Redução de Peso">
+
+Escolher a armadura certa é um equilíbrio entre proteção e mobilidade. Classes de armadura mais pesadas reduzem sua velocidade e drenam o fôlego rapidamente, enquanto opções mais leves deixam você vulnerável a munições de alta penetração. Na versão atual 0.4 de Gray Zone Warfare, os Porta-placas (Plate Carriers) integrados são vastamente superiores aos conjuntos tradicionais de Colete e Tac Rig [707005192].
+
+Ao usar um Porta-placas combinado como o RPC Ranger, você elimina o peso extra de tecido, alças e fivelas encontrados ao usar um chest rig separado sobre um colete balístico. Esta única otimização pode economizar de 1,5kg a 2,5kg instantaneamente [707005192].
+
+| Peça de Armadura | Classe de Proteção | Peso | Melhor Caso de Uso |
+| :--- | :--- | :--- | :--- |
+| **Covert Coolmax** | Classe IIA | **1,76kg** | Reconhecimento de alta velocidade |
+| **RPC Ranger** | Classe III+ | **5,60kg** | Escolha meta de combate |
+| **M2 Advantage** | Classe III++ | **8,90kg** | Defesa pesada eficiente em peso |
+| **Phantom** | Classe III++ | **13,20kg** | Apenas para tancagem defensiva |
+
+<Callout type="tip" title="Vantagem do Porta-placas">
+Sempre escolha Porta-placas integrados em vez de conjuntos separados de Colete e Tac Rig para eliminar o peso duplo de tecido e economizar até 2,5kg [707005192].
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Builds de Armas Ultraleves e o Efeito Alavanca">
+
+O peso da arma afeta especificamente o fôlego dos braços, que é consumido ao mirar (ADS) ou prender a respiração para um tiro. Em Gray Zone Warfare, o comprimento da arma é tão crítico quanto o peso total devido ao "Efeito Alavanca" [707005192]. Canos longos agem como uma alavanca pesada, deslocando o centro de massa para longe do seu corpo e drenando o fôlego dos braços rapidamente.
+
+Encurtar o cano traz o centro de massa para mais perto do seu corpo, reduzindo o esforço dos braços e a oscilação da arma. Manter uma build de cano curto permite segurar a mira (ADS) por até 40% mais tempo, prevenindo o efeito de status "Braços Cansados" que torna a oscilação da arma incontrolável [707005192].
+
+| Arma | Tipo de Build | Peso Alvo | Benefício Principal |
+| :--- | :--- | :--- | :--- |
+| **MP7A1** | Apex Scout | **2,10kg** | Peso de SMG com alta penetração de armadura |
+| **M4A1** | Ghost Shorty | **2,45kg** | Tempo máximo de ADS e baixa oscilação |
+| **AKS-74U** | Lead Scout | **2,68kg** | Menor peso de entrada para calibres de rifle |
+
+<CardGrid cols={3}>
+  <Card title="A M4A1 Fantasma">
+    - **Cano**: 10.5 polegadas Cold Hammer Forged
+    - **Guarda-mão**: MK18 RIS II (9.5 polegadas)
+    - **Óptica**: Trijicon RMR (Montagem Baixa)
+  </Card>
+  <Card title="A AKS-74U Insurgente">
+    - **Guarda-mão**: Madeira Padrão (economiza 0,2kg)
+    - **Coronha**: AKS-74U Dobrável
+    - **Carregador**: Bakelite 30 projéteis
+  </Card>
+  <Card title="A MP7A1 Apex">
+    - **Miras**: Miras rebatíveis integradas
+    - **Carregador**: 30 projéteis (Flush Fit)
+    - **Punho frontal**: Punho dobrável integrado
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="A Vantagem das 10,5 Polegadas">
+Encurtar o cano da sua M4A1 para 10,5 polegadas desloca o centro de massa para mais perto do corpo, estendendo o tempo de mira (ADS) em até 40% [707005192].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Como Gerenciar o Inventário e a Eficiência do Espaço no Stash">
+
+A gestão do stash é uma dor de cabeça comum para os jogadores, mas algumas técnicas simples de organização podem liberar enormes quantidades de espaço. O método mais eficaz é remover os punhos (pistol grips) e carregadores das suas armas guardadas [5oLIku9ObWY].
+
+Um rifle totalmente montado como o MK18 ocupa uma grade de 7x2 no seu inventário. Ao remover o carregador e o punho, a arma torna-se não funcional e encolhe para uma grade de 7x1 [5oLIku9ObWY]. O punho removido ocupa 1 slot e o carregador ocupa 2 slots, o que significa que você economiza um total de 4 slots de inventário por arma ao armazenar esses componentes separadamente [5oLIku9ObWY].
+
+| Item / Ação | Tamanho Original | Tamanho Otimizado | Slots Economizados |
+| :--- | :--- | :--- | :--- |
+| **MK18 (Montada)** | Grade 7x2 | Grade 7x1 | **4 slots economizados** |
+| **Recipiente EMT** | Grade 2x2 | Armazenamento 3x3 | **5 slots ganhos** |
+| **Mochilas (Sem Empilhar)** | Individual | Recipientes de armaz. | **Variável** |
+
+<Steps>
+  <Step num="1" title="Desmonte suas Armas">
+    Clique com o botão direito nos seus rifles guardados e remova o carregador e o punho para reduzir o perfil vertical a uma única linha [5oLIku9ObWY].
+  </Step>
+  <Step num="2" title="Utilize Recipientes EMT">
+    Compre recipientes EMT no Lab Nível 3 por $367. Eles ocupam um espaço 2x2, mas fornecem uma grade de armazenamento 3x3 interna [5oLIku9ObWY].
+  </Step>
+  <Step num="3" title="Dedique Mochilas para Armazenamento">
+    Use mochilas de tamanho médio como unidades de armazenamento dedicadas para tipos de itens específicos, como uma bolsa para capacetes e outra para ópticas [5oLIku9ObWY].
+  </Step>
+  <Step num="4" title="Guarde Punhos e Carregadores Juntos">
+    Crie linhas organizadas na parte inferior do seu stash especificamente para punhos e carregadores de alto nível [5oLIku9ObWY].
+  </Step>
+</Steps>
+
+<Callout type="info" title="Correção de Bug do Stash">
+Se o seu inventário travar e impedir que você arraste itens, pressione a tecla Tab repetidamente para atualizar e corrigir a interface [5oLIku9ObWY].
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="O Loadout Zero-G e Checklist de Sobrevivência">
+
+Para incursões de alta mobilidade em áreas como Tiger Bay ou Midnight Sapphire, usar uma build "Zero-G" é altamente recomendado. Abandonar o capacete é uma estratégia de alto risco e alta recompensa que economiza cerca de 1,2kg de peso na cabeça, o que melhora diretamente a velocidade do olhar livre e o consumo geral de fôlego [707005192].
+
+No entanto, jogar sem proteção na cabeça significa que você pode ser morto instantaneamente por um tiro de escopeta perdido ou munições de pistola de baixo nível [707005192]. Se você optar por usar um chapéu Boonie para a build leve definitiva, deve manter distância, evitar corredores apertados e confiar fortemente na camuflagem [707005192].
+
+| Nome do Item | Categoria do Item | Peso Unitário | Estratégia Tática |
+| :--- | :--- | :--- | :--- |
+| **Chapéu Boonie** | Chapéus | **0,10kg** | Sigilo de alta mobilidade |
+| **NVGs PVS-31A** | Tático | **Pesado** | Remova durante operações diurnas |
+| **Patrol Pack** | Mochila | **1,50kg** | Reconhecimento leve |
+| **Alice Pack** | Mochila | **3,50kg** | Apenas para coleta de loot |
+
+<Checklist
+  id="carry-weight-checklist"
+  title="Checklist de Preparação para Incursão:"
+  items={[
+    "Verificar se o peso total do loadout está abaixo do limite de 20kg ou 32kg",
+    "Equipar um Porta-placas integrado em vez de colete e rig separados",
+    "Remover NVGs pesados do capacete se a missão for durante o dia",
+    "Limitar carregadores sobressalentes à Regra dos 3 Pentes para economizar peso",
+    "Remover trilhos e acessórios desnecessários da sua arma principal"
+  ]}
+/>
+
+<Callout type="warning" title="Risco de Não Usar Capacete">
+Ficar sem capacete maximiza a mobilidade, mas expõe você a mortes com um único tiro de IAs com escopetas ou munições 9mm [707005192].
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como posso aumentar efetivamente a capacidade de carga em Gray Zone Warfare?",
+    answer: "Embora não haja uma habilidade ou atributo para aumentar permanentemente o peso que você carrega, você pode otimizar sua capacidade mantendo seu loadout abaixo de 20kg ou 32kg, usando Porta-placas integrados e removendo acessórios desnecessários das armas para reduzir o esforço físico."
+  },
+  {
+    question: "Qual é a vantagem de manter o peso do loadout abaixo de 20kg?",
+    answer: "Permanecer abaixo de 20kg concede a você o status Super Leve, que oferece recuperação máxima de fôlego, movimento silencioso e capacidade de corrida virtualmente infinita."
+  },
+  {
+    question: "Por que devo usar Porta-placas em vez de um colete e rig separados?",
+    answer: "Os Porta-placas combinam a armadura e os bolsos de equipamento em um único item, eliminando o peso extra de alças adicionais e tecido pesado, economizando até 2,5kg."
+  },
+  {
+    question: "Como o comprimento da arma afeta o fôlego do meu personagem?",
+    answer: "De acordo com o Efeito Alavanca, canos mais longos deslocam o centro de massa da arma para frente, o que drena o fôlego dos seus braços significativamente mais rápido durante o ADS e aumenta a oscilação da arma."
+  }
+]} />
+
+<Callout type="success" title="Mobilidade é Armadura">
+Lembre-se de que manter alta velocidade e fôlego é frequentemente um mecanismo de sobrevivência melhor do que usar a classe de armadura mais pesada em GZW [707005192].
+</Callout>
+
+</Section>

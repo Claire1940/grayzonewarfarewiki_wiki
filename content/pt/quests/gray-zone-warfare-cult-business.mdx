@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Cult Business: Guia Passo a Passo e Locais Importantes",
+  description: "Domine a tarefa Cult Business no Gray Zone Warfare. Encontre a chave da Casa do Ancião de Ban Pa, localize o código do armazém e recupere o Diário do Xamã com o nosso guia.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Cult+Business+Guide",
+  date: "2026-06-28",
+  author: "Equipe da Wiki de Gray Zone Warfare"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Investigar a produção química e o desaparecimento de aldeões na vila de **Ban Pa**.
+- **Itens Essenciais**: Você deve obter a **Chave da Casa do Ancião de Ban Pa** (Ban Pa Elder's House Key) para acessar o primeiro grande objetivo.
+- **Mecânica Principal**: O código do armazém é **único para cada sessão do servidor** e deve ser encontrado no jogo em um local específico de documento.
+- **Recompensa Final**: A conclusão bem-sucedida concede **+750 de Reputação** com a Lab Rat e **$2.820 USD**.
+- **Risco Crítico**: Morrer enquanto a tarefa estiver ativa resulta em uma penalidade de **-50 de Reputação** e um tempo de recarga de 20 minutos.
+</Callout>
+
+<Section icon={Target} title="Briefing da Tarefa e Recompensas">
+
+A tarefa **Cult Business** no Gray Zone Warfare é uma investigação de várias etapas atribuída pela Lab Rat. Ela exige que os jogadores se infiltrem na vila costeira de Ban Pa, um local conhecido por sua vegetação densa e milícia local agressiva. A narrativa gira em torno de uma rede de produção de drogas liderada por um homem chamado Sada, que usou superstições locais sobre um "culto demoníaco" para mascarar suas operações químicas. Seu objetivo é encontrar evidências dessa produção e descobrir o que aconteceu com os aldeões que foram deixados para trás durante a evacuação.
+
+**Destaques do Vídeo:**
+- Guia visual detalhado para a localização da **Casa do Ancião**.
+- Onde encontrar a **Mensagem Irada** (Angry Message) contendo o código do armazém.
+- Rota por Ban Pa para evitar zonas de alta densidade de IA.
+
+<YouTubeEmbed videoId="L3EfXAmhzrg" title="Cult Business Atualizado - Gray Zone Warfare" />
+
+Antes de partir, certifique-se de estar preparado para um combate prolongado. Ban Pa não é um local pelo qual você possa simplesmente sair correndo. As recompensas para esta tarefa são significativas, especialmente o aumento de reputação com a Lab Rat, que é essencial para desbloquear suprimentos médicos de nível superior.
+
+| Categoria da Recompensa | Item / Valor | Impacto |
+| --- | --- | --- |
+| **Experiência** | 300 EXP | Progressão de nível |
+| **Reputação** | +750 Lab Rat | Desbloqueia equipamentos médicos melhores |
+| **Moeda** | $2.820 USD | Financiamento de equipamentos |
+| **Suprimento Médico** | x1 Kit de Costura Pequeno | Reparo de ferimentos em campo |
+
+<Callout type="success" title="Gerenciamento de Reputação">
+Como a penalidade por falha é bastante severa (-50 de Reputação), é altamente recomendável jogar com cautela. Se você estiver com pouca reputação com a Lab Rat, considere trazer um companheiro de equipe para proteger seu corpo e os itens da missão.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Fase 1: A Casa do Ancião e Produção Química">
+
+O primeiro objetivo em **Cult Business** no Gray Zone Warfare leva você à Casa do Ancião em Ban Pa. Este edifício serve como o centro inicial para as operações da rede de drogas. Para concluir esta etapa, você deve encontrar uma bancada de produção química localizada no primeiro andar. No entanto, a sala está trancada e requer a **Chave da Casa do Ancião de Ban Pa** (Ban Pa Elder's House Key).
+
+Encontrar essa chave costuma ser a parte mais demorada da tarefa. Ela pode surgir em vários locais dentro da vila, ou você pode encontrá-la nos corpos dos defensores de IA locais.
+
+| Ponto de Spawn da Chave | Localização Específica | Coordenadas / Detalhes |
+| --- | --- | --- |
+| **Área do Armazém** | Dentro do armazém principal de Ban Pa | Verifique prateleiras e caixas de ferramentas |
+| **Mesa da Casa de Palafita** | Do lado de fora em uma mesa de madeira | Perto das casas de palafita do norte |
+| **Drop de IA** | Saqueado de inimigos mortos | Baixa chance aleatória |
+
+Once you have the key, head to the Elder's House (often marked by its more prominent structure compared to the shacks). Go downstairs to the locked door. Unlock it, enter the room, and your task will update once you "report findings" by interacting with the chemical equipment.
+
+<Callout type="warning" title="Persistência da Chave">
+Se você morrer após encontrar a chave, mas antes de usá-la, você a perderá, a menos que ela esteja no seu **Recipiente Seguro** (Safe Container). Sempre mova as chaves críticas da missão para o seu slot seguro imediatamente após coletá-las.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fase 2: Localizando as Informações do Armazém">
+
+Depois de relatar a produção química, a Lab Rat encarregará você de encontrar informações deixadas pelos produtores de drogas. Essas informações estão trancadas dentro de um armazém protegido por um teclado numérico. Ao contrário de outras tarefas onde os códigos são estáticos, o código para **Cult Business** no Gray Zone Warfare é aleatório para cada instância do servidor.
+
+<Steps>
+  <Step num="1" title="Localize a Casa de Palafita">
+    Dirija-se à seção norte de Ban Pa, onde as casas são construídas sobre palafitas. Você está procurando por uma casa específica que geralmente contém o documento "Mensagem Irada" (Angry Message).
+  </Step>
+  <Step num="2" title="Encontre a Mensagem Irada">
+    Dentro da casa de palafita, procure por uma mesa com uma pera podre e uma garrafa vazia. Ao lado delas está um documento intitulado **Mensagem Irada** (Angry Message).
+  </Step>
+  <Step num="3" title="Traduza e Anote o Código">
+    Interaja com a nota e selecione "Traduzir". Um código de quatro dígitos (ex: 5644) aparecerá. Anote ou memorize-o, pois você precisará dele para a porta do armazém.
+  </Step>
+  <Step num="4" title="Infiltre-se no Armazém">
+    Volte em direção à área do armazém. Localize a porta com o cadeado. Digite o código que você acabou de encontrar para destravar a porta.
+  </Step>
+  <Step num="5" title="Recupere a Mensagem da Operação de Drogas">
+    Dentro da sala trancada do armazém, encontre a nota intitulada **Mensagem da Operação de Drogas** (Drug Operation Message). Ler isso atualizará seu objetivo.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Abordagem Furtiva">
+A área do armazém é fortemente patrulhada. Se estiver jogando sozinho, tente eliminar a IA nos arredores usando uma arma com silenciador antes de tentar inserir o código. A animação para inserir o código deixa você vulnerável por alguns segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fase 3: O Diário do Xamã e Informações dos Aldeões">
+
+A última peça do quebra-cabeça envolve descobrir o que aconteceu com os aldeões. Você deve encontrar o **Diário do Xamã** (Shaman's Diary), que contém os elementos narrativos finais da história de cobertura do "culto". Curiosamente, este item está localizado perto das casas de palafita onde você encontrou o código do armazém.
+
+O Diário do Xamã fornece o contexto necessário para entender as motivações de Sada — especificamente sua tentativa de evacuar os seguidores enquanto alegava que a "vingança de Phi Pa Mum" estava chegando ao estado. Essa informação é vital para o relatório final da Lab Rat.
+
+| Item de Informação | Localização | Interação |
+| --- | --- | --- |
+| **Diário do Xamã** | Casa de palafita (perto do local do código) | Coletar / Colocar no Recipiente Seguro |
+| **Diário do Pirata Assustado** | Área das docas | Lore opcional (não necessário) |
+| **Nota da Operação de Drogas** | Armazém Trancado | Necessário para a Fase 2 |
+
+<Checklist
+  id="cult-business-checklist"
+  title="Lista de Verificação de Extração Final:"
+  items={[
+    "Produção química relatada na Casa do Ancião",
+    "Código do armazém recuperado da 'Mensagem Irada'",
+    "Mensagem da Operação de Drogas recuperada do Armazém",
+    "Diário do Xamã protegido no Recipiente Seguro",
+    "Mover-se para o Ponto de Extração (LZ) mais próximo"
+  ]}
+/>
+
+<Callout type="info" title="Extração Final">
+O Diário do Xamã é um item físico. Se você morrer antes de extrair ou colocá-lo em seu Recipiente Seguro, terá que retornar a Ban Pa para coletá-lo novamente. Sempre priorize a segurança deste item assim que ele estiver em sua posse.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Comparação Tática: Solo vs. Esquadrão">
+
+Concluir a tarefa **Cult Business** no Gray Zone Warfare varia significativamente em dificuldade dependendo do tamanho da sua equipe. O layout de Ban Pa favorece os defensores, pois há muitas posições elevadas e arbustos densos para a IA se esconder.
+
+<CardGrid cols={3}>
+  <Card title="Furtividade Solo">
+    - **Prós**: Perfil mais baixo, mais fácil de se esconder.
+    - **Contras**: Alto risco se for detectado; ninguém para vingar sua morte.
+    - **Estratégia**: Use um silenciador e mova-se apenas pelas sombras.
+  </Card>
+  <Card title="Coordenação em Dupla">
+    - **Prós**: Um jogador pode inserir os códigos enquanto o outro dá cobertura.
+    - **Contras**: Requer movimento sincronizado.
+    - **Estratégia**: Avance alternadamente entre os edifícios para manter segurança de 360 graus.
+  </Card>
+  <Card title="Esquadrão Completo">
+    - **Prós**: Pode subjugar a resistência da IA facilmente.
+    - **Contras**: Muito barulhento; atrai outras facções de PMC.
+    - **Estratégia**: Estabeleça um perímetro ao redor da Casa do Ancião e do Armazém.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Percepção do Inimigo">
+A IA em Ban Pa é conhecida por atirar através das paredes finas de madeira das casas de palafita. Não presuma que está seguro apenas por estar dentro de casa. Fique longe de janelas e divisórias finas durante um tiroteio.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusão e Perguntas Frequentes (FAQ)">
+
+A tarefa **Cult Business** no Gray Zone Warfare é um exemplo clássico das mecânicas de investigação do jogo. Ela força os jogadores a equilibrar combate, exploração e resolução de quebra-cabeças (o código aleatório). Ao seguir este guia, você garante a minimização do risco de perder reputação com a Lab Rat e maximiza sua eficiência em campo.
+
+<FAQ items={[
+  {
+    question: "Onde encontro a Chave da Casa do Ancião de Ban Pa?",
+    answer: "A chave pode aparecer em uma mesa perto das casas de palafita do norte, dentro do armazém principal ou aleatoriamente em inimigos de IA mortos na região de Ban Pa."
+  },
+  {
+    question: "O código do armazém é o mesmo para todos?",
+    answer: "Não, o código na 'Mensagem Irada' é único para cada instância do servidor. Você deve encontrar e traduzir a nota em sua sessão atual para obter o código correto."
+  },
+  {
+    question: "O que acontece se eu morrer com o Diário do Xamã?",
+    answer: "Se o diário estiver no seu inventário principal, você o perderá ao morrer. Se estiver no seu Recipiente Seguro (Safe Container), você o manterá e poderá entregá-lo à Lab Rat mesmo após morrer."
+  },
+  {
+    question: "Por que perdi reputação com a Lab Rat?",
+    answer: "Se você morrer enquanto a tarefa 'Cult Business' estiver ativa, sofrerá uma penalidade de -50 de Reputação. Esta é uma mecânica única para certas tarefas de alto risco no Gray Zone Warfare."
+  }
+]} />
+
+</Section>

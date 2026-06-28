@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cult Business en Gray Zone Warfare: Guía Paso a Paso y Ubicaciones Clave",
+  description: "Domina la tarea Cult Business en Gray Zone Warfare. Encuentra la llave de la casa del anciano de Ban Pa, localiza el código del almacén y recupera el diario del chamán con nuestra guía.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Cult+Business+Guide",
+  date: "2026-06-28",
+  author: "Equipo de Wiki de Gray Zone Warfare",
+  keywords: "gray zone warfare, cult business, guía, ban pa, llave casa del anciano, diario del chamán"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Investigar la producción química y la desaparición de aldeanos en el pueblo de **Ban Pa**.
+- **Objetos Esenciales**: Debes obtener la **llave de la casa del anciano de Ban Pa (Ban Pa Elder's House Key)** para acceder al primer objetivo importante.
+- **Mecánica Clave**: El código del almacén es **único para cada sesión de servidor** y debe encontrarse dentro del juego en una ubicación específica de un documento.
+- **Recompensa Final**: Completar con éxito otorga **+750 de reputación** con Lab Rat y **$2,820 USD**.
+- **Riesgo Crítico**: Morir mientras la tarea está activa resulta en una penalización de **-50 de reputación** y un tiempo de espera de 20 minutos.
+</Callout>
+
+<Section icon={Target} title="Resumen de la Tarea y Recompensas">
+
+La tarea **Cult Business en Gray Zone Warfare** es una investigación de varias etapas asignada por Lab Rat. Requiere que los jugadores se infiltren en el pueblo costero de Ban Pa, un lugar conocido por su densa vegetación y su agresiva milicia local. La narrativa se centra en una red de producción de drogas dirigida por un hombre llamado Sada, quien utilizó las supersticiones locales sobre un "culto demoníaco" para ocultar sus operaciones químicas. Tu objetivo es encontrar pruebas de esta producción y descubrir qué sucedió con los aldeanos que se quedaron atrás durante la evacuación.
+
+**Puntos destacados del video:**
+- Guía visual detallada para la ubicación de la **Casa del Anciano**.
+- Dónde encontrar el **Mensaje furioso (Angry Message)** que contiene el código del almacén.
+- Ruta a través de Ban Pa para evitar zonas de IA de alta densidad.
+
+<YouTubeEmbed videoId="L3EfXAmhzrg" title="Actualización de Cult Business Gray Zone Warfare" />
+
+Antes de salir, asegúrate de estar preparado para un combate prolongado. Ban Pa no es un lugar por el que puedas simplemente correr. Las recompensas por esta tarea son significativas, especialmente el aumento de reputación con Lab Rat, que es esencial para desbloquear suministros médicos de mayor nivel.
+
+| Categoría de Recompensa | Objeto / Valor | Impacto |
+| --- | --- | --- |
+| **Experiencia** | 300 EXP | Progresión de nivel |
+| **Reputación** | +750 Lab Rat | Desbloquea mejor equipo médico |
+| **Divisa** | $2,820 USD | Financiación de equipo |
+| **Suministro Médico** | x1 Kit de sutura pequeño | Reparación de heridas en el campo |
+
+<Callout type="success" title="Gestión de Reputación">
+Debido a que la penalización por fallo es bastante alta (-50 de reputación), se recomienda encarecidamente jugar con precaución. Si tienes poca reputación con Lab Rat, considera traer a un compañero de equipo para asegurar tu cuerpo y los objetos de la misión.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Fase 1: La Casa del Anciano y la Producción Química">
+
+El primer objetivo en **Cult Business** te lleva a la Casa del Anciano en Ban Pa. Este edificio sirve como el centro inicial para las operaciones de la red de drogas. Para completar este paso, debes encontrar un banco de trabajo de producción química ubicado en el primer piso. Sin embargo, la habitación está cerrada y requiere la **llave de la casa del anciano de Ban Pa**.
+
+Encontrar esta llave suele ser la parte que más tiempo consume de la tarea. Puede aparecer en múltiples ubicaciones dentro del pueblo, o puedes encontrarla en los cadáveres de los defensores de la IA local.
+
+| Punto de Aparición de la Llave | Ubicación Específica | Coordenadas / Detalle |
+| --- | --- | --- |
+| **Área del Almacén** | Dentro del almacén principal de Ban Pa | Revisa estantes y cajas de herramientas |
+| **Mesa de Casa sobre Pilotes** | Afuera en una mesa de madera | Cerca de las casas sobre pilotes del norte |
+| **Botín de IA** | Despojado de enemigos muertos | Probabilidad aleatoria baja |
+
+Una vez que tengas la llave, dirígete a la Casa del Anciano (a menudo marcada por su estructura más prominente en comparación con las chozas). Baja al piso inferior hasta la puerta cerrada. Desbloquéala, entra en la habitación y tu tarea se actualizará una vez que "informes los hallazgos" interactuando con el equipo químico.
+
+<Callout type="warning" title="Persistencia de la Llave">
+Si mueres después de encontrar la llave pero antes de usarla, la perderás a menos que esté en tu **contenedor seguro (Safe Container)**. Mueve siempre las llaves críticas de la misión a tu ranura segura inmediatamente después de recogerlas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fase 2: Localización de la Información del Almacén">
+
+Después de informar sobre la producción química, Lab Rat te encargará encontrar información dejada por los productores de droga. Esta información está bajo llave dentro de un almacén protegido por un teclado numérico. A diferencia de otras tareas donde los códigos son estáticos, el código para **Cult Business** es aleatorio para cada instancia de servidor.
+
+<Steps>
+  <Step num="1" title="Localiza la casa sobre pilotes">
+    Dirígete a la sección norte de Ban Pa, donde las casas están construidas sobre pilotes. Busca una casa específica que suele contener el documento "Mensaje furioso" (Angry Message).
+  </Step>
+  <Step num="2" title="Encuentra el Mensaje furioso">
+    Dentro de la casa sobre pilotes, busca una mesa con una pera podrida y una botella vacía. Junto a ellas hay un documento titulado **Angry Message**.
+  </Step>
+  <Step num="3" title="Traduce y registra el código">
+    Interactúa con la nota y selecciona "Translate" (Traducir). Aparecerá un código de cuatro dígitos (por ejemplo, 5644). Anótalo o memorízalo, ya que lo necesitarás para la puerta del almacén.
+  </Step>
+  <Step num="4" title="Infíltrate en el almacén">
+    Regresa hacia el área del almacén. Localiza la puerta con el candado. Introduce el código que acabas de encontrar para desbloquear la puerta.
+  </Step>
+  <Step num="5" title="Recupera el Mensaje de la operación de drogas">
+    Dentro de la habitación cerrada del almacén, busca la nota titulada **Drug Operation Message**. Leer esto actualizará tu objetivo.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Enfoque Sigiloso">
+El área del almacén está fuertemente patrullada. Si juegas solo, intenta eliminar a la IA de los alrededores usando un arma con silenciador antes de intentar introducir el código. La animación para introducir el código te deja vulnerable durante unos segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fase 3: El Diario del Chamán e Información de los Aldeanos">
+
+La pieza final del rompecabezas consiste en descubrir qué les sucedió a los aldeanos. Debes encontrar el **Diario del Chamán (Shaman's Diary)**, que contiene los elementos narrativos finales de la historia de cobertura del "culto". Curiosamente, este objeto se encuentra cerca de las casas sobre pilotes donde encontraste el código del almacén.
+
+El Diario del Chamán proporciona el contexto necesario para entender las motivaciones de Sada; específicamente, su intento de evacuar a los seguidores mientras afirmaba que la "venganza de Phi Pa Mum" llegaría al estado. Esta información es vital para el informe final de Lab Rat.
+
+| Objeto de Información | Ubicación | Interacción |
+| --- | --- | --- |
+| **Diario del Chamán** | Casa sobre pilotes (cerca del código) | Recoger / Poner en contenedor seguro |
+| **Diario del Pirata Asustado** | Área de muelles | Lore opcional (no requerido) |
+| **Nota de Operación de Drogas** | Almacén bloqueado | Requerido para la Fase 2 |
+
+<Checklist
+  id="cult-business-checklist"
+  title="Lista de Verificación de Extracción Final:"
+  items={[
+    "Producción química informada en la Casa del Anciano",
+    "Código del almacén recuperado del 'Mensaje furioso'",
+    "Mensaje de la operación de drogas recuperado del almacén",
+    "Diario del chamán asegurado en el contenedor seguro",
+    "Traslado al punto de extracción (LZ) más cercano"
+  ]}
+/>
+
+<Callout type="info" title="Extracción Final">
+El Diario del Chamán es un objeto físico. Si mueres antes de extraerlo o de ponerlo en tu contenedor seguro, tendrás que volver a Ban Pa para recogerlo de nuevo. Prioriza siempre la seguridad de este objeto una vez que esté en tu poder.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Comparación Táctica: Solo vs. Escuadrón">
+
+Completar **Cult Business** varía significativamente en dificultad dependiendo del tamaño de tu equipo. El diseño de Ban Pa favorece a los defensores, ya que hay muchas posiciones elevadas y arbustos espesos donde la IA puede esconderse.
+
+<CardGrid cols={3}>
+  <Card title="Sigilo en Solitario">
+    - **Pros**: Perfil más bajo, más fácil de esconderse.
+    - **Cons**: Alto riesgo si te detectan; nadie para cubrirte.
+    - **Estrategia**: Usa un silenciador y muévete solo a través de las sombras.
+  </Card>
+  <Card title="Coordinación en Dúo">
+    - **Pros**: Un jugador puede introducir códigos mientras el otro cubre.
+    - **Cons**: Requiere movimiento sincronizado.
+    - **Estrategia**: Avanza por saltos entre edificios para mantener seguridad de 360 grados.
+  </Card>
+  <Card title="Escuadrón Completo">
+    - **Pros**: Puede abrumar fácilmente la resistencia de la IA.
+    - **Cons**: Muy ruidoso; atrae a otras facciones de PMC.
+    - **Estrategia**: Establece un perímetro alrededor de la Casa del Anciano y el Almacén.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Conciencia del Enemigo">
+Se sabe que la IA en Ban Pa hace "wall-hack" a través de las delgadas paredes de madera de las casas sobre pilotes. No asumas que estás a salvo solo porque estás bajo techo. Mantente alejado de ventanas y divisiones delgadas durante un tiroteo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusión y Preguntas Frecuentes">
+
+La tarea **Cult Business en Gray Zone Warfare** es un ejemplo por excelencia de las mecánicas de investigación del juego. Obliga a los jugadores a equilibrar combate, exploración y resolución de acertijos (el código aleatorio). Al seguir esta guía, te aseguras de minimizar el riesgo de perder reputación con Lab Rat y maximizar tu eficiencia en el campo.
+
+<FAQ items={[
+  {
+    question: "¿Dónde encuentro la llave de la casa del anciano de Ban Pa?",
+    answer: "La llave puede aparecer en una mesa cerca de las casas sobre pilotes del norte, dentro del almacén principal, o aleatoriamente en enemigos de IA muertos dentro de la región de Ban Pa."
+  },
+  {
+    question: "¿Es el código del almacén el mismo para todos?",
+    answer: "No, el código en el 'Mensaje furioso' es único para cada instancia de servidor. Debes encontrar y traducir la nota en tu sesión actual para obtener el código correcto."
+  },
+  {
+    question: "¿Qué pasa si muero con el Diario del Chamán?",
+    answer: "Si el diario está en tu inventario principal, lo perderás al morir. Si está en tu contenedor seguro, lo conservarás y podrás entregárselo a Lab Rat incluso después de morir."
+  },
+  {
+    question: "¿Por qué perdí reputación con Lab Rat?",
+    answer: "Si mueres mientras la tarea 'Cult Business' está activa, sufres una penalización de -50 de reputación. Esta es una mecánica única para ciertas tareas de alto riesgo en Gray Zone Warfare."
+  }
+]} />
+
+</Section>

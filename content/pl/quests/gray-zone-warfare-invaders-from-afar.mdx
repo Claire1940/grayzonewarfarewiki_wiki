@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gray Zone Warfare Invaders from Afar: Przewodnik krok po kroku po zadaniu",
+  description: "Dowiedz się, jak ukończyć zadanie Invaders from Afar w Gray Zone Warfare. Znajdź magazyn w tartaku, notatki medyka i lokalizacje dezerterów dzięki naszemu przewodnikowi.",
+  category: "Poradnik",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Invaders+From+Afar+Guide",
+  date: "2026-06-28",
+  author: "Zespół Wiki Gray Zone Warfare"
+}
+
+<Callout type="info" title="Szybki przewodnik">
+- **Główny cel**: Zbadaj wrogów w tartaku (Sawmill) i odzyskaj określone informacje wywiadowcze dla Artisan.
+- **Kluczowe lokalizacje**: Magazyn (139 144), biuro (139 143) oraz chata rybacka (141 145).
+- **Kluczowe przedmioty**: Do tego zadania nie są wymagane żadne konkretne klucze, ale zaleca się zabranie wysokiej klasy zaopatrzenia medycznego.
+- **Główna nagroda**: 1000 punktów doświadczenia oraz znaczący wzrost reputacji o +150 u Artisan.
+- **Ostrzeżenie bojowe**: Tartak jest silnie strzeżony przez sztuczną inteligencję (AI); zalecane jest podejście taktyczne i broń z tłumikiem.
+</Callout>
+
+<Section icon={Map} title="Przegląd zadania i odprawa taktyczna">
+
+Zadanie **Invaders from Afar** w Gray Zone Warfare to kluczowa misja zlecona przez Artisan. Po aktualizacji 0.3 zadanie to wymaga od graczy infiltracji tartaku (Sawmill) – strefy przemysłowej o wysokim stopniu ryzyka, która jest obecnie okupowana przez siły wroga. Artisan martwi się nagłym napływem „obcych” i „dezerterów” wykorzystujących lokalną katastrofę. Twoją misją jest odkrycie, kim są ci ludzie i co stało się z tymi, którzy próbowali uciec z tego obszaru.
+
+Misja ta podzielona jest na trzy odrębne fazy: wstępne śledztwo w prowizorycznym miejscu operacji, odzyskanie dokumentacji medycznej oraz ostateczne przeszukanie odległej przystani rybackiej w celu potwierdzenia losu dezerterów. Ponieważ tartak jest centralnym punktem zainteresowania, spodziewaj się zarówno oporu ze strony AI, jak i potencjalnych starć z graczami z rywalizujących PMC.
+
+**Najważniejsze momenty wideo:**
+- Wizualne potwierdzenie lokalizacji stołu operacyjnego w magazynie tartaku.
+- Bezpośredni przewodnik po trasie z magazynu do kompleksu biurowego.
+- Dokładna pozycja ciała dezertera w pobliżu skrzyń z amunicją przy chacie rybackiej.
+- Wskazówki taktyczne dotyczące radzenia sobie ze strażnikami AI w tartaku.
+
+<YouTubeEmbed videoId="WHOhtSXGJTc" title="Aktualizacja Gray Zone Warfare 0.3 - Artisan - Zadanie Invaders from Afar" />
+
+| Właściwość zadania | Szczegóły |
+| :--- | :--- |
+| **Zleceniodawca** | Artisan |
+| **Główna lokalizacja** | Tartak (Sektor przemysłowy) |
+| **Liczba celów** | 3 główne cele |
+| **Poziom trudności** | Średni / Wysoki (ze względu na zagęszczenie AI) |
+| **Wymagania wstępne** | Ukończenie wcześniejszych zadań u Artisan |
+
+<Callout type="warning" title="Zagrożenie środowiskowe">
+Tartak to otwarty obszar przemysłowy z wieloma podwyższonymi liniami strzału. Snajperzy AI często odradzają się na dachach głównych magazynów. Zawsze oczyść obrzeża przed próbą wejścia w interakcję z przedmiotami powiązanymi z celami misji.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Faza 1: Śledztwo w magazynie">
+
+Twoim pierwszym celem w zadaniu **Invaders from Afar** w Gray Zone Warfare jest zlokalizowanie śladów dotyczących wrogów. Dane wywiadowcze sugerują, że przeprowadzali oni operacje polowe wewnątrz jednej z centralnych struktur. Musisz udać się do dużego magazynu znajdującego się na współrzędnych **139 144**.
+
+Wewnątrz magazynu skieruj się w stronę tylnych obszarów. Szukasz niebieskich noszy lub prowizorycznego stołu operacyjnego. Miejsce to wyraźnie się wyróżnia – często jest pokryte krwią i medycznymi odpadami, co wskazuje na to, że wrogowie opatrywali tu poważnie rannych. Interakcja z tym stołem aktywuje kolejny etap zadania.
+
+| Cel | Współrzędne | Punkt interakcji |
+| :--- | :--- | :--- |
+| **Szukaj śladów** | 139 144 | Niebieskie nosze chirurgiczne |
+| **Obecność wroga** | Wysoka | 4-6 strażników AI wewnątrz/w pobliżu |
+| **Dostępność osłon** | Dobra | Użyj skrzyń przemysłowych jako osłony |
+
+<Callout type="tip" title="Wejście taktyczne">
+Wejdź do magazynu od północnej strony, aby uniknąć głównej drogi. Zapewni to lepsze ukrycie i pozwoli na stopniowe oczyszczanie wewnętrznych pomieszczeń przed dotarciem do stołu operacyjnego.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Faza 2: Odzyskanie notatek medyka">
+
+Po zbadaniu miejsca operacji musisz odnaleźć dokumentację wyjaśniającą sytuację medyczną najeźdźców. W tym celu należy przemieścić się z magazynu do kompleksu biurowego tartaku, zlokalizowanego na współrzędnych **139 143**.
+
+Biuro to mniejszy, wolnostojący budynek. Nie potrzebujesz klucza, aby wejść do głównego obszaru biurowego, w którym znajdują się notatki. Poszukaj biurka w głównym pomieszczeniu biurowym; **Notatki medyka** (Medic's Notes) będą leżeć bezpośrednio na blacie. Podniesienie ich jest niezbędne do ukończenia celu „Zlokalizuj notatki medyka”.
+
+<Steps>
+  <Step num="1" title="Wyjdź z magazynu">
+    Wyjdź przez zachodnie drzwi magazynu, aby zminimalizować ekspozycję na główny dziedziniec.
+  </Step>
+  <Step num="2" title="Zidentyfikuj biuro">
+    Poszukaj budynku administracyjnego znajdującego się bezpośrednio obok głównego obszaru przetwórczego.
+  </Step>
+  <Step num="3" title="Zabezpiecz notatki">
+    Wejdź do biura, wyeliminuj pozostałych strażników AI i zabierz notes z biurka na współrzędnych 139 143.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Mechanika przedmiotów zadaniowych">
+Notatki medyka to fizyczny przedmiot zadaniowy. Jeśli zginiesz przed ewakuacją lub ukończeniem ostatniego celu, konieczne może być ponowne udanie się w to miejsce i ich odzyskanie, w zależności od aktualnego stanu postępu zadania.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Faza 3: Los dezerterów">
+
+Ostatnia część zadania **Invaders from Afar** w Gray Zone Warfare zabierze Cię z dala od przemysłowego centrum tartaku w kierunku obrzeży. Musisz zbadać, co stało się z dezerterami, którzy uciekli z głównego obiektu.
+
+Udaj się do wioski/chaty rybackiej na współrzędnych **141 145**. Ten obszar ma charakter bardziej wiejski i oferuje mniej twardych osłon niż tartak. Twoim celem jest odnalezienie konkretnego ciała. Poszukaj zwłok opartych o stertę skrzyń z amunicją w pobliżu pierwszej większej chaty w wiosce. Interakcja z tym ciałem zakończy śledztwo.
+
+| Typ lokalizacji | Współrzędne | Kluczowy punkt orientacyjny |
+| :--- | :--- | :--- |
+| **Chata rybacka** | 141 145 | Skrzynie z amunicją / Pierwsza chata |
+| **Ciało dezertera** | 141 145 | Oparte o skrzynie |
+| **Punkt ewakuacji** | Zmienny | Najbliższa strefa lądowania (LZ) znajduje się zazwyczaj na północnym wschodzie |
+
+<CardGrid cols={2}>
+  <Card title="Strategia walki">
+    - **Używaj tłumików**: Wioska rybacka jest cicha; strzały bez tłumika przyciągną AI z tartaku.
+    - **Wysoki teren**: Wykorzystaj wzgórza górujące nad wioską do przeprowadzenia zwiadu przed wejściem.
+  </Card>
+  <Card title="Wskazówki nawigacyjne">
+    - **Marsz z ostrożnością**: Droga z biura do chaty prowadzi przez gęstą roślinność.
+    - **Unikaj drogi**: Trzymaj się 20-30 metrów od głównej ścieżki, aby uniknąć patroli AI.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Misja ukończona">
+Po wejściu w interakcję z ciałem dezertera Twoje cele zaktualizują się do „Wróć do Artisan” (Return to Artisan). Możesz teraz udać się do najbliższej strefy lądowania (LZ), aby się ewakuować i odebrać nagrody.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Zalecane wyposażenie i przygotowanie">
+
+Ukończenie zadania **Invaders from Afar** w Gray Zone Warfare wymaga zbalansowania siły ognia i mobilności. Ponieważ tartak to obszar o dużym zagęszczeniu AI, Twój rynsztunek powinien odzwierciedlać potrzebę prowadzenia ciągłej walki oraz działania w ukryciu.
+
+<Checklist
+  id="invaders-prep"
+  title="Lista przygotowań do misji:"
+  items={[
+    "Karabin szturmowy z tłumikiem (zalecany M4A1 lub AK-74)",
+    "Co najmniej 3 zapasowe magazynki z amunicją przeciwpancerną",
+    "Kamizelka kuloodporna i hełm poziomu III lub wyższego",
+    "2x bandaże hemostatyczne i 1x zestaw chirurgiczny",
+    "Odpowiednia ilość wody i pożywienia na długi marsz"
+  ]}
+/>
+
+| Kategoria sprzętu | Zalecany przedmiot | Powód |
+| :--- | :--- | :--- |
+| **Broń** | Wyciszona broń 5.56/5.45 | Ciche eliminowanie AI w tartaku |
+| **Optyka** | Celownik o zmiennym przybliżeniu 1x/4x | Uniwersalność w magazynie i wiosce |
+| **Medykamenty** | Surv12 lub CMS | Niezbędne do leczenia kończyn po starciach z AI |
+| **Wyposażenie taktyczne** | Granaty dymne | Przydatne do przekraczania otwartych dziedzińców tartaku |
+
+<Callout type="tip" title="Porada eksperta">
+Jeśli grasz solo, rozważ poczekanie, aż inna drużyna rozpocznie walkę w tartaku. Możesz wykorzystać chaos, aby przemknąć do magazynu i biura przy minimalnym oporze.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Nagrody i wpływ na reputację">
+
+Wykonywanie zadań dla Artisan to główny sposób na odblokowanie wysokiej klasy akcesoriów do broni i specjalistycznego sprzętu. Zadanie **Invaders from Afar** w Gray Zone Warfare jest szczególnie cenne ze względu na duży przyrost reputacji.
+
+<CardGrid cols={3}>
+  <Card title="Doświadczenie">
+    - **1000 PD**
+    - Pomaga awansować postać, aby zdobyć lepsze punkty umiejętności.
+  </Card>
+  <Card title="Reputacja">
+    - **+150 reputacji u Artisan**
+    - Kluczowe do osiągnięcia 2. lub 3. poziomu lojalności.
+  </Card>
+  <Card title="Wgląd w fabułę">
+    - **Informacje wywiadowcze**
+    - Odblokowuje dodatkowe linie dialogowe dotyczące UNLRA i Fortu Narith.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Lojalność Artisan">
+Artisan specjalizuje się w częściach mechanicznych, optyce i niektórych zaawansowanych platformach strzeleckich. Osiągnięcie wyższych poziomów reputacji u niej jest niezbędne dla graczy, którzy preferują spersonalizowane konfiguracje broni dalekiego zasięgu.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Najczęściej zadawane pytania">
+
+<FAQ items={[
+  {
+    question: "Gdzie dokładnie znajdują się notatki medyka w biurze?",
+    answer: "Notatki znajdują się na biurku wewnątrz głównego budynku administracyjnego na współrzędnych 139 143. Szukaj małego, białego notesu na blacie; dostęp do niego nie wymaga klucza."
+  },
+  {
+    question: "Czy muszę się ewakuować, aby ukończyć zadanie Invaders from Afar?",
+    answer: "Chociaż musisz przeżyć, aby wejść w interakcję ze wszystkimi trzema celami, zadanie zazwyczaj kończy się po wejściu w interakcję z ostatnim ciałem przy chacie rybackiej. Niemniej jednak zawsze bezpieczniej jest się ewakuować, aby upewnić się, że postęp zadania został zapisany."
+  },
+  {
+    question: "Stół operacyjny w magazynie nie wyświetla monitu o interakcję. Dlaczego?",
+    answer: "Upewnij się, że jesteś we właściwym magazynie (139 144) and patrzysz na niebieskie nosze ze śladami krwi. Jeśli to nadal nie działa, spróbuj najpierw wyeliminować okoliczne AI lub zrestartować sesję, ponieważ aktywatory zadań mogą czasami działać z opóźnieniem na serwerach o dużej populacji graczy."
+  },
+  {
+    question: "Jaki jest najlepszy sposób na podejście do chaty rybackiej?",
+    answer: "Podejdź od północnego wschodu przez las. Pozwoli Ci to spojrzeć w dół na wioskę i zlokalizować skrzynie z amunicją, przy których leży ciało dezertera, zanim znajdziesz się na linii ognia."
+  }
+]} />
+
+</Section>
